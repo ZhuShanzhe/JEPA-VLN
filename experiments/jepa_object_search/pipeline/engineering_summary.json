@@ -1,0 +1,94 @@
+{
+  "scope": "Pipeline acceptance on development tasks; no benchmark ranking",
+  "frozen_text_episodes": 300,
+  "formal_episodes_started_in_acceptance": 0,
+  "panel_sha256": "48f0f21020b3038121efd48e4f6dc880e47d3d1420c3a54745b3b55301d5cd3d",
+  "training_steps_in_acceptance": 0,
+  "native_model": "gpt-4o-2024-11-20",
+  "mapping": {
+    "observations": 30,
+    "actions_before_finish": 29,
+    "estimated_poses": 27,
+    "submaps": 2,
+    "sampled_map_points": 100000,
+    "physical_displacement_span_m": 2.206079001085837
+  },
+  "mapping_capabilities": {
+    "caption": true,
+    "caption_mode": "task",
+    "embed": true,
+    "loop": true,
+    "pointing": false,
+    "sam": true
+  },
+  "observed_native_episode": {
+    "actions_checked": 300,
+    "scale_source": "gps",
+    "max_candidates": 5,
+    "verified_vlm_frontier_selections": 12
+  },
+  "derived_manyon_native_episode": {
+    "steps_taken": 300,
+    "trajectory_length": 31.03525639511645,
+    "true_positive_count": 0,
+    "false_positive_count": 1,
+    "timed_out": false
+  },
+  "different_direction": {
+    "reachable_candidates": 4,
+    "verified_actions": 5,
+    "physical_displacement_m": 0.25000001955300555
+  },
+  "branch_collection": {
+    "branches": 2,
+    "actions_per_branch": 5,
+    "identical_start_observation": true,
+    "different_final_observations": true,
+    "separate_online_and_future_files": true
+  },
+  "controlled_reports": {
+    "correct_reports": 4,
+    "repeats": 1,
+    "false_positives": 2
+  },
+  "text_inputs": {
+    "checked_texts_and_no_reference_images": 300,
+    "conditions": {
+      "many_category": 150,
+      "many_attribute": 150,
+      "attribute_target_references": 1190
+    },
+    "distinct_attribute_target_objects": 632
+  },
+  "scope_native_goat": {
+    "native_subtasks_scored": 10,
+    "movement_steps": 55,
+    "native_frontier_decisions": 33
+  },
+  "scope_development_manyon": {
+    "native_steps": 1,
+    "path_m": 0.9787739496093785,
+    "native_reports": 0
+  },
+  "three_dmem_development_manyon": {
+    "effective_budget": 2,
+    "completed_navigation_loops": 2,
+    "round_path_length_m": 2.053985345279445,
+    "candidate_reports": 0
+  },
+  "mtu3d_native_goat": {
+    "subgoals": 6,
+    "actions": 247
+  },
+  "mtu3d_development_manyon": {
+    "steps_taken": 226,
+    "trajectory_length": 18.30099269747734,
+    "true_positive_count": 1,
+    "false_positive_count": 1,
+    "repeat_report_count": 1
+  },
+  "queue_verification": {
+    "frozen_ids_checked": 300,
+    "mode": "offline replay"
+  }
+}
