@@ -10,4 +10,4 @@
 | [训练与开发材料](experiments/jepa_object_search/README.md) | HSSD 配对分支、Blender 受控场景、视觉预测先导实验 |
 | [冻结评测与离线诊断代码](experiments/jepa_object_search/mapping_runtime/README.md) | 原版基线批量执行、按回合配对、轨迹核验和指标汇总 |
 
-正式评测选用 MOST-Bench 的 300 个文本 ManyON 回合，类别、属性各 150 个，每回合最多执行 300 个动作。基线和方向模块共用冻结清单、建图、动作和裁判。首批统计覆盖两栋房屋。完整批次的结果以实验分支中通过验收的报告为准。[实验分支结果目录](https://github.com/ZhuShanzhe/LeWM_Navigation/tree/jepa-image-nav-datasets-20261014/experiments/jepa_object_search/pipeline)
+正式评测选用 MOST-Bench 的 300 个文本 ManyON 回合，类别、属性各 150 个，每回合最多执行 300 个动作。基线和方向模块共用冻结清单、建图、动作和裁判。首批统计覆盖两栋房屋。完整批次的结果以实验分支中通过验收的报告为准。[实验分支结果目录](https://github.com/ZhuShanzhe/JEPA-VLN/tree/jepa-image-nav-datasets-20261014/experiments/jepa_object_search/pipeline)
