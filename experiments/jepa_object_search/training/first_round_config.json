@@ -1,0 +1,35 @@
+{
+  "epochs": 12,
+  "seed": 17,
+  "batch": 8,
+  "lr": 0.001,
+  "arms": [
+    "direct",
+    "jepa"
+  ],
+  "training_code": "cb36339f0a0264cd2316687b5b8c09d838a5d3a131b352c82366572212926277",
+  "launch_code": "9f82c2f2f86aa30a0227fccb26a85ba5bad4af92e04a12e1479af612f2e1f4e1",
+  "dataset_index": "959a72be7514d33315356865462a6ec9fb67a4a16bbeb12596f790a49059162e",
+  "texts": "bb4753808adaf67052df61b6fccc3b5431778b247d83c5f26c5cdc09c9b6509f",
+  "visual_protocol": "V-JEPA2.1 ViT-B/16, 4 uniform frames, 2 temporal bins x 4 quadrants",
+  "inputs_sha256": "a0b70af6592f548084e42e911b22efbb2051fd462f8f62fec87f0c640614ae6c",
+  "split": {
+    "train": {
+      "states": 204,
+      "branches": 698,
+      "houses": 17,
+      "informative_states": 108,
+      "states_with_report_memory": 8,
+      "region_labeled_candidates": 120
+    },
+    "dev": {
+      "states": 72,
+      "branches": 251,
+      "houses": 6,
+      "informative_states": 35,
+      "states_with_report_memory": 0,
+      "region_labeled_candidates": 54
+    }
+  },
+  "baseline_episodes_required": 300
+}

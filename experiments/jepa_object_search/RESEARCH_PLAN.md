@@ -4,6 +4,8 @@
 
 [HSSD 与 Blender 场景构建、训练标签及回合内经验更新](SCENE_TRAINING.md)
 
+[首轮训练配置、跨物体类别泛化与经验修正](TRAINING_ROADMAP.md)
+
 ## 为什么先研究探索方向
 
 | 证据 | 能回答的问题 |
