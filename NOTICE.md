@@ -1,7 +1,5 @@
-# Attribution and reuse
+# 代码、数据与模型来源
 
-`third_party/le-wm/` is copied from https://github.com/lucas-maes/le-wm at commit `8edfeb336732b5f3ce7b8b210d0ba370a09e2cac`. Its original MIT license and author attribution are retained. Some experiment wrappers interact with or reuse upstream implementation; they are not a claim to authorship of LeWM.
+本仓库收录本项目编写的评测接口、数据处理与诊断脚本，以及汇总结果。MOST-Nav 作者实现通过独立授权使用。MOST-Bench、HM3D、HSSD、V-JEPA 和对照方法的代码、场景与权重，按各自发布方的许可获取。
 
-The maintainer has not yet selected an additional blanket license for newly authored research scripts/reports. Public availability alone is not an unrestricted reuse license. Third-party datasets, model assets and papers keep their own licenses; consult their original sources. This repository does not redistribute source paper PDFs, datasets or model weights.
-
-All reported gains are specific to the documented protocols. The temporal head, retrieval and privileged waypoint diagnostics are lightweight adaptations, not full reproductions of TRM, RC-aux, PiJEPA, HWM or Hi-LeWM.
+[MOST-Bench](https://most-bench.netlify.app/) · [HM3D](https://github.com/matterport/habitat-matterport-3dresearch) · [HSSD](https://github.com/3dlg-hcvc/hssd) · [V-JEPA 2](https://github.com/facebookresearch/vjepa2)

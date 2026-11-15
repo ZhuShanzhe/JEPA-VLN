@@ -1,39 +1,13 @@
-# LeWM × Navigation
+# 用 JEPA 为多实例寻物选择探索方向
 
-研究 LeWM、JEPA 类潜在世界模型在视觉导航中的能力、失败原因和可迁移改进。仓库包含核心实现、实验配置、关键结果与分析、WM × Navigation 及 JEPA × ImageNav 调研，不是 LeWM 全任务或真实机器人复现。
+机器人按文本要求在同一栋房屋中寻找多个不同实例，例如找到三把黑色的椅子。系统以 MOST-Nav 为基线。VLM 决定何时探索、访问目标、上报或结束。研究聚焦它决定探索的时刻：给定相同的移动预算，预测哪个可达前沿更可能让机器人看清一个尚未确认、且符合查询的实例。
 
-## 从这里开始
-
-- [JEPA-VLA 与 Image-Goal Visual Navigation 调研](docs/literature/jepa_vla_vln_image_goal_survey.md)：任务边界、前沿工作、研究空白及 JEPA-based ImageNav 的模型与实验路线。
-- [测试环境、结果与不足](results/strict_navigation/reports/final_research_synthesis.md)（[PDF](results/strict_navigation/reports/LeWM_Navigation_summary.pdf)）：用通俗语言介绍测试组、方法对照、性能和局限，并附环境平面图与文献对照表。
-- [最终结果表](results/final_summary.csv)与[补充分析](results/strict_navigation/reports/final_supplementary_analysis.md)：三种子、分层成功率、配对比较和预算解释。
-- [LeWM 与 WM × Navigation 调研](docs/literature/README.md)：世界模型、导航和 JEPA 相关论文入口。
-- [核心代码与协议](experiments/strict_navigation/README.md)和[复现说明](docs/REPRODUCING.md)。
-
-## 目录
-
-| 目录 | 内容 |
+| 阅读入口 | 内容 |
 |---|---|
-| [experiments](experiments/README.md) | 训练、导航评估、时间头、检索、几何/拓扑/路点诊断及冻结协议 |
-| [results](results/README.md) | 最终逐例紧凑记录、汇总、关键分析与训练完成证据 |
-| [docs](docs/README.md) | 调研报告、复现入口、实验范围与局限 |
-| [artifacts](artifacts/README.md) / [environment](environment/README.md) | 核心模型配置与依赖版本，不含权重或数据 |
-| [third_party](third_party/README.md) | 固定版本的 LeWM 原始实现及许可 |
-| [scripts](scripts/README.md) / [provenance](provenance/README.md) | 数字复算、完整性检查、来源与路径恢复 |
+| [研究问题与训练设计](experiments/jepa_object_search/RESEARCH_PLAN.md) | JEPA 接在哪一步、如何取得同一起点的多个未来，以及如何与直接打分模型比较 |
+| [MOST-Nav 基线的前 16 个回合](experiments/jepa_object_search/pipeline/baseline_snapshot_16.md) | 路线覆盖、相机曝光、有效报告和重复报告的实测区别 |
+| [仿真链路与对照方法](experiments/jepa_object_search/pipeline/README.md) | Habitat、VGGT-SLAM、原版导航、方向接口与评分器的验收范围 |
+| [训练与开发材料](experiments/jepa_object_search/README.md) | HSSD 配对分支、Blender 受控场景、视觉预测先导实验 |
+| [冻结评测与离线诊断代码](experiments/jepa_object_search/mapping_runtime/README.md) | 原版基线批量执行、按回合配对、轨迹核验和指标汇总 |
 
-## 结果解读
-
-时间评价头在原布局达到约 98.89% 成功率，仅检索也达到约 97.33%；这不代表未知地图规划已经解决。墙方向改变后仍明显失败，且时间头在较远门位置的跨墙成功率仅约 3.33%。原布局的高成功率不能替代绕障和泛化评估。
-
-全部最终评估覆盖 238 批、11900 次环境回合；各方法和种子共享病例，11900 不是独立样本数。详细解释以最终报告为准。当前未开展部分观测、实机及全部大型论文基线；见[局限](docs/LIMITATIONS.md)。
-
-## 检查
-
-```bash
-python scripts/verify_repository.py
-python scripts/recompute_final_table.py
-```
-
-只用 Python 标准库即可复算最终成功率，不需要 GPU。闭环重跑还需外部数据、权重和原环境，不能把数字复算等同于从零复现。
-
-- [图像目标导航冻结评测](experiments/jepa_image_nav/paper_benchmark/README.md)：HSSD43公平对照、原始Gibson标准验证、置信区间与失败表现。
+正式评测选用 MOST-Bench 的 300 个文本 ManyON 回合，类别、属性各 150 个，每回合最多执行 300 个动作。基线和方向模块共用冻结清单、建图、动作和裁判。首批统计覆盖两栋房屋。完整批次的结果以实验分支中通过验收的报告为准。[实验分支结果目录](https://github.com/ZhuShanzhe/LeWM_Navigation/tree/jepa-image-nav-datasets-20261014/experiments/jepa_object_search/pipeline)

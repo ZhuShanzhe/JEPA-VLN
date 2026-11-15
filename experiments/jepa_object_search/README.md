@@ -33,6 +33,14 @@ SCOPE 使用源码提交 `46f1e1f`，其潜力图预检使用两个固定的 VLM
 
 HSSD 的代理目标是新增可见性。开发集 48 个起点中只有 2 个起点的不同候选产生不同的二元收益，均在同一栋房屋。三个种子中，加入未来监督后，无论决策时从当前条件还是预测未来读取，均在 48 个起点中选中 1 次正收益分支。单房双实例任务在调换报告历史时会改变方向，纯距离规则也能解出。两类数据是工程验收和消融流程的验证材料。
 
-MOST-Nav 原版代码与视觉决策接口已验证，见[模型与图像动作验收](vlm_access.md)。HM3D v0.2 验证场景已接入原版评测器，数据与接口验收见[仿真场景](frontier_scenes/README.md)。真实 HM3D 建图、原版策略闭环、方向回调、外部方法与多实例裁判的验收见[实验流程与运行入口](pipeline/README.md)。冻结集上的正式性能待评测。主基线与改进版在相同传感器、动作预算和报告协议下按回合配对，分别报告配额完成率、实例召回率、精确率、F1、重复报告率及行程。外部方法注明其额外传感器、定位输入和原生步长。[MOST-Bench](https://most-bench.netlify.app/) · [HSSD](https://github.com/3dlg-hcvc/hssd) · [SCOPE](https://mrwangyou.github.io/SCOPE/) · [3D-Mem](https://github.com/UMass-Embodied-AGI/3D-Mem) · [MTU3D](https://mtu3d.github.io/)
 
-[早期导航与主动核验资源](earlier_navigation_resources.md)
+## 研究方案与基线
+
+[研究方案](RESEARCH_PLAN.md)给出以动作条件预测未来视觉特征的设计。[冻结 ManyON 基线的首批诊断](pipeline/baseline_snapshot_16.md)按回合区分未接近、已曝光和已上报。原版采用 GPT-4o 的固定快照和 300 动作预算，论文报告与这里的评测各自列示。该路线在 ManyON 完整冻结集上的改进幅度仍待验证。
+
+| 代码与数据说明 | 用途 |
+|---|---|
+| [训练房屋划分](simulation/README.md) · [HSSD 分支采集](a_exploration/README.md) | 同起点、多候选、等步数的观测与监督 |
+| [先导模型](frontier_jepa/README.md) · [Blender 与仿真场景](frontier_scenes/README.md) | 未来特征预测、实例记忆与受控对照 |
+| [前沿选择与运行配置](ops/README.md) · [评测入口](mapping_runtime/README.md) | 回传原控制器可执行的方向、冻结接口并计算指标 |
+| [整条链路与对照方法](pipeline/README.md) | 建图、控制、裁判与外部方法的工程验收 |

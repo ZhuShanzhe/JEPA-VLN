@@ -1,15 +1,3 @@
-# experiments
+# 多实例寻物实验
 
-核心训练/评估、冻结划分及协议。bootstrap 和 exploratory 仅保留严格训练所依赖的历史包装器。
-
-[返回上一级](../README.md)
-
-## 目录索引
-
-- [bootstrap/](bootstrap/README.md)
-- [exploratory/](exploratory/README.md)
-- [strict_navigation/](strict_navigation/README.md)
-- [jeplo_locomotion/](jeplo_locomotion/README.md)：JEPLO 部署前运动评测、385 次独立仿真记录、接口协议与官方报告对照；不是真机验证或官方性能复现。
-
-- [jepa_image_nav](jepa_image_nav/README.md)：图像地点与实例导航数据、基线及冻结评测。
-- [jepa_object_search](jepa_object_search/README.md) · 多物体自主搜索的探索选路、主动核验与仿真预检。
+[项目与数据](jepa_object_search/README.md)涵盖 HSSD 和 Blender 的训练准备、MOST-Bench 冻结文本寻物任务，以及 SCOPE、3D-Mem、MTU3D 的工程对照。[研究方案](jepa_object_search/RESEARCH_PLAN.md)说明方向模型的输入、学习目标和比较方法。[基线诊断](jepa_object_search/pipeline/baseline_snapshot_16.md)给出已核验的首批结果。

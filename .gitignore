@@ -29,3 +29,19 @@ id_ed25519*
 runtime/
 outputs/
 wandb/
+
+
+# Per-episode records, licensed assets, weights and private service configuration
+campaigns/
+runs/
+private_sources/
+private_runtime/
+*.jsonl
+*.npz
+*.npy
+*.safetensors
+*.glb
+*.ply
+*.bin
+*.zip
+*.tar.gz
