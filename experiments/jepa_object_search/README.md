@@ -44,3 +44,5 @@ HSSD 的代理目标是新增可见性。开发集 48 个起点中只有 2 个�
 | [先导模型](frontier_jepa/README.md) · [Blender 与仿真场景](frontier_scenes/README.md) | 未来特征预测、实例记忆与受控对照 |
 | [前沿选择与运行配置](ops/README.md) · [评测入口](mapping_runtime/README.md) | 回传原控制器可执行的方向、冻结接口并计算指标 |
 | [整条链路与对照方法](pipeline/README.md) | 建图、控制、裁判与外部方法的工程验收 |
+
+[MOST-Nav 五回合 JEPA 选路评测](five_case_pilot/README.md)

@@ -1,0 +1,65 @@
+{
+  "scope": "CPU inference parity on one cached real HSSD validation decision; multiple observed-view masks; no navigation performance claim",
+  "status": "pass",
+  "torch_version": "2.8.0+cu128",
+  "code_sha256": "f0f53f53ebb5138e252d9cc37e7d8931e5e35fff0566a5d3e28ef7ac7cfb1198",
+  "v5_state_sha256": "25020757510523ea7ab2d63b4c89c9a17c703f7b828d29aa3376c13be6bd1ed6",
+  "v6_state_sha256": "69967e10dfe03476a8640b66f04687453be4363f2279b609659e8a183edb0b48",
+  "sample_sha256": "053b0c7566878620848714e1b6c47bcb6a160110e3088ed30f40bce8b5997b6f",
+  "cases": [
+    {
+      "available_views": 12,
+      "pitch_offset_steps": 0,
+      "mode": "full",
+      "route_pairs": 3,
+      "max_abs_delta_predicted_regions": 0.0,
+      "max_abs_delta_route_scores": 0.0,
+      "exact_policy_and_observation_control_agreement": true
+    },
+    {
+      "available_views": 1,
+      "pitch_offset_steps": 0,
+      "mode": "sparse",
+      "route_pairs": 3,
+      "max_abs_delta_predicted_regions": 0.0,
+      "max_abs_delta_route_scores": 0.0,
+      "exact_policy_and_observation_control_agreement": true
+    },
+    {
+      "available_views": 2,
+      "pitch_offset_steps": 0,
+      "mode": "sparse",
+      "route_pairs": 3,
+      "max_abs_delta_predicted_regions": 0.0,
+      "max_abs_delta_route_scores": 0.0,
+      "exact_policy_and_observation_control_agreement": true
+    },
+    {
+      "available_views": 2,
+      "pitch_offset_steps": 1,
+      "mode": "sparse",
+      "route_pairs": 3,
+      "max_abs_delta_predicted_regions": 0.0,
+      "max_abs_delta_route_scores": 0.0,
+      "exact_policy_and_observation_control_agreement": true
+    },
+    {
+      "available_views": 0,
+      "pitch_offset_steps": 0,
+      "mode": "bypass",
+      "route_pairs": 0,
+      "max_abs_delta_predicted_regions": 0.0,
+      "max_abs_delta_route_scores": 0.0,
+      "exact_policy_and_observation_control_agreement": true
+    },
+    {
+      "available_views": 12,
+      "pitch_offset_steps": 3,
+      "mode": "bypass",
+      "route_pairs": 0,
+      "max_abs_delta_predicted_regions": 0.0,
+      "max_abs_delta_route_scores": 0.0,
+      "exact_policy_and_observation_control_agreement": true
+    }
+  ]
+}

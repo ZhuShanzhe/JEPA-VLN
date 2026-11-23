@@ -1,0 +1,396 @@
+{
+  "case_selection": "Five frozen development cases originally selected for quota misses in native MOST-Nav",
+  "official_model": "gpt-4o-2024-11-20",
+  "total_quota": 16,
+  "versions": {
+    "native": {
+      "count": 5,
+      "successful": 0,
+      "credited_instances": 5,
+      "mean_episode_recall": 0.36666666666666664,
+      "capped_instances": 5,
+      "mean_steps": 217.8,
+      "mean_path_m": 19.705584376491608
+    },
+    "v1": {
+      "count": 5,
+      "successful": 0,
+      "credited_instances": 3,
+      "mean_episode_recall": 0.23333333333333334,
+      "capped_instances": 3,
+      "mean_steps": 257.4,
+      "mean_path_m": 24.265619358420373,
+      "scored": 32,
+      "changed_applied": 18
+    },
+    "v2": {
+      "count": 5,
+      "successful": 1,
+      "credited_instances": 7,
+      "mean_episode_recall": 0.39999999999999997,
+      "capped_instances": 6,
+      "mean_steps": 159.8,
+      "mean_path_m": 15.096215811930596,
+      "scored": 14,
+      "changed_applied": 0
+    },
+    "v3": {
+      "count": 5,
+      "successful": 1,
+      "credited_instances": 8,
+      "mean_episode_recall": 0.43333333333333335,
+      "capped_instances": 6,
+      "mean_steps": 291,
+      "mean_path_m": 25.981841065754807,
+      "scored": 32,
+      "changed_applied": 12
+    },
+    "v6": {
+      "count": 5,
+      "successful": 1,
+      "credited_instances": 8,
+      "mean_episode_recall": 0.43333333333333335,
+      "capped_instances": 6,
+      "mean_steps": 258,
+      "mean_path_m": 26.64397438801825,
+      "scored": 26,
+      "changed_applied": 5
+    }
+  },
+  "cases": [
+    {
+      "ordinal": 1,
+      "quota": 2,
+      "task": "many_category",
+      "arms": {
+        "native": {
+          "found": 1,
+          "success": 0,
+          "steps": 90,
+          "reports": 2,
+          "recall": 0.5,
+          "path_m": 6.876739337109029,
+          "moderate_exposure": 1
+        },
+        "v1": {
+          "found": 1,
+          "success": 0,
+          "steps": 87,
+          "reports": 2,
+          "recall": 0.5,
+          "path_m": 6.875193368643522,
+          "moderate_exposure": 1,
+          "scored": 4,
+          "bypassed": 0,
+          "changed_applied": 2
+        },
+        "v2": {
+          "found": 0,
+          "success": 0,
+          "steps": 222,
+          "reports": 2,
+          "recall": 0.0,
+          "path_m": 19.32807982619852,
+          "moderate_exposure": 1,
+          "scored": 4,
+          "bypassed": 2,
+          "changed_applied": 0
+        },
+        "v3": {
+          "found": 1,
+          "success": 0,
+          "steps": 285,
+          "reports": 2,
+          "recall": 0.5,
+          "path_m": 23.58771969843656,
+          "moderate_exposure": 1,
+          "scored": 6,
+          "bypassed": 5,
+          "changed_applied": 2
+        },
+        "v6": {
+          "found": 1,
+          "success": 0,
+          "steps": 120,
+          "reports": 2,
+          "recall": 0.5,
+          "path_m": 8.638966205529869,
+          "moderate_exposure": 1,
+          "scored": 2,
+          "bypassed": 2,
+          "changed_applied": 0
+        }
+      },
+      "v6_excluded_infrastructure_attempts": 0
+    },
+    {
+      "ordinal": 14,
+      "quota": 3,
+      "task": "many_attribute",
+      "arms": {
+        "native": {
+          "found": 0,
+          "success": 0,
+          "steps": 300,
+          "reports": 2,
+          "recall": 0.0,
+          "path_m": 32.96677142381668,
+          "moderate_exposure": 1
+        },
+        "v1": {
+          "found": 1,
+          "success": 0,
+          "steps": 300,
+          "reports": 2,
+          "recall": 0.3333333333333333,
+          "path_m": 34.0098347440362,
+          "moderate_exposure": 0,
+          "scored": 7,
+          "bypassed": 0,
+          "changed_applied": 6
+        },
+        "v2": {
+          "found": 1,
+          "success": 0,
+          "steps": 225,
+          "reports": 3,
+          "recall": 0.3333333333333333,
+          "path_m": 24.17046521604061,
+          "moderate_exposure": 0,
+          "scored": 3,
+          "bypassed": 0,
+          "changed_applied": 0
+        },
+        "v3": {
+          "found": 0,
+          "success": 0,
+          "steps": 300,
+          "reports": 1,
+          "recall": 0.0,
+          "path_m": 32.439721159636974,
+          "moderate_exposure": 1,
+          "scored": 7,
+          "bypassed": 0,
+          "changed_applied": 3
+        },
+        "v6": {
+          "found": 1,
+          "success": 0,
+          "steps": 270,
+          "reports": 3,
+          "recall": 0.3333333333333333,
+          "path_m": 34.194889068603516,
+          "moderate_exposure": 0,
+          "scored": 5,
+          "bypassed": 1,
+          "changed_applied": 2
+        }
+      },
+      "v6_excluded_infrastructure_attempts": 0
+    },
+    {
+      "ordinal": 21,
+      "quota": 3,
+      "task": "many_category",
+      "arms": {
+        "native": {
+          "found": 2,
+          "success": 0,
+          "steps": 274,
+          "reports": 3,
+          "recall": 0.6666666666666666,
+          "path_m": 22.263289857190102,
+          "moderate_exposure": 2
+        },
+        "v1": {
+          "found": 1,
+          "success": 0,
+          "steps": 300,
+          "reports": 2,
+          "recall": 0.3333333333333333,
+          "path_m": 32.986285135149956,
+          "moderate_exposure": 2,
+          "scored": 8,
+          "bypassed": 1,
+          "changed_applied": 2
+        },
+        "v2": {
+          "found": 2,
+          "success": 0,
+          "steps": 116,
+          "reports": 3,
+          "recall": 0.6666666666666666,
+          "path_m": 12.370727885514498,
+          "moderate_exposure": 2,
+          "scored": 3,
+          "bypassed": 2,
+          "changed_applied": 0
+        },
+        "v3": {
+          "found": 2,
+          "success": 0,
+          "steps": 289,
+          "reports": 3,
+          "recall": 0.6666666666666666,
+          "path_m": 22.33912187255919,
+          "moderate_exposure": 2,
+          "scored": 5,
+          "bypassed": 1,
+          "changed_applied": 3
+        },
+        "v6": {
+          "found": 1,
+          "success": 0,
+          "steps": 300,
+          "reports": 2,
+          "recall": 0.3333333333333333,
+          "path_m": 31.763235457241535,
+          "moderate_exposure": 2,
+          "scored": 6,
+          "bypassed": 1,
+          "changed_applied": 0
+        }
+      },
+      "v6_excluded_infrastructure_attempts": 0
+    },
+    {
+      "ordinal": 32,
+      "quota": 3,
+      "task": "many_attribute",
+      "arms": {
+        "native": {
+          "found": 2,
+          "success": 0,
+          "steps": 125,
+          "reports": 3,
+          "recall": 0.6666666666666666,
+          "path_m": 9.7642617598176,
+          "moderate_exposure": 2
+        },
+        "v1": {
+          "found": 0,
+          "success": 0,
+          "steps": 300,
+          "reports": 1,
+          "recall": 0.0,
+          "path_m": 26.539422124624252,
+          "moderate_exposure": 5,
+          "scored": 9,
+          "bypassed": 0,
+          "changed_applied": 6
+        },
+        "v2": {
+          "found": 4,
+          "success": 1,
+          "steps": 84,
+          "reports": 3,
+          "recall": 1.0,
+          "path_m": 5.723966985940933,
+          "moderate_exposure": 2,
+          "scored": 3,
+          "bypassed": 0,
+          "changed_applied": 0
+        },
+        "v3": {
+          "found": 5,
+          "success": 1,
+          "steps": 281,
+          "reports": 3,
+          "recall": 1.0,
+          "path_m": 22.784452612612725,
+          "moderate_exposure": 4,
+          "scored": 5,
+          "bypassed": 0,
+          "changed_applied": 2
+        },
+        "v6": {
+          "found": 5,
+          "success": 1,
+          "steps": 300,
+          "reports": 1,
+          "recall": 1.0,
+          "path_m": 34.10788483545184,
+          "moderate_exposure": 5,
+          "scored": 9,
+          "bypassed": 3,
+          "changed_applied": 2
+        }
+      },
+      "v6_excluded_infrastructure_attempts": 3
+    },
+    {
+      "ordinal": 39,
+      "quota": 5,
+      "task": "many_category",
+      "arms": {
+        "native": {
+          "found": 0,
+          "success": 0,
+          "steps": 300,
+          "reports": 0,
+          "recall": 0.0,
+          "path_m": 26.65685950452462,
+          "moderate_exposure": 3
+        },
+        "v1": {
+          "found": 0,
+          "success": 0,
+          "steps": 300,
+          "reports": 2,
+          "recall": 0.0,
+          "path_m": 20.917361419647932,
+          "moderate_exposure": 2,
+          "scored": 4,
+          "bypassed": 0,
+          "changed_applied": 2
+        },
+        "v2": {
+          "found": 0,
+          "success": 0,
+          "steps": 152,
+          "reports": 5,
+          "recall": 0.0,
+          "path_m": 13.887839145958424,
+          "moderate_exposure": 1,
+          "scored": 1,
+          "bypassed": 0,
+          "changed_applied": 0
+        },
+        "v3": {
+          "found": 0,
+          "success": 0,
+          "steps": 300,
+          "reports": 1,
+          "recall": 0.0,
+          "path_m": 28.75818998552859,
+          "moderate_exposure": 1,
+          "scored": 9,
+          "bypassed": 1,
+          "changed_applied": 2
+        },
+        "v6": {
+          "found": 0,
+          "success": 0,
+          "steps": 300,
+          "reports": 3,
+          "recall": 0.0,
+          "path_m": 24.51489637326449,
+          "moderate_exposure": 1,
+          "scored": 4,
+          "bypassed": 0,
+          "changed_applied": 1
+        }
+      },
+      "v6_excluded_infrastructure_attempts": 3
+    }
+  ],
+  "validation": {
+    "panel_sha256": "ae7f55150231e0a7f8aed2a715970e78034215813e4844ce74df0e57c67a92d2",
+    "v6_paid_arm_lock_sha256": "a9ac4806df3045594c77c79231ebce3cd18dc513a68038953ab5123069896208",
+    "v3_independent_simulator_replays": 5,
+    "v6_independent_simulator_replays": 5,
+    "v6_excluded_infrastructure_attempts": 6,
+    "performance_denominator_per_arm": 5,
+    "scope": "Repeated development comparison on previously missed episodes. Episodes were not sampled to estimate population success rates."
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "scope": "Frozen four-house HSSD transfer diagnostic; visibility-proxy gains, not closed-loop success",
+  "total_rows_before_matching": 217,
+  "matched_query_horizon_rows": 216,
+  "matched_physical_starts": 16,
+  "houses": 4,
+  "house_row_counts": {
+    "102344307": 59,
+    "102816066": 57,
+    "104862573_172226682": 58,
+    "106879023_174887148": 42
+  },
+  "gate": 0.01,
+  "numerical_tie": 1e-08,
+  "protocol": "Same true query and gain labels in both arms. Compute expected gain change against a uniform reference using the same strict gate. First average all masks for each query/horizon; then equally weight matched rows within each physical start. Count paired model-control wins/ties/losses across starts. Four starts per house. V5 and V6 use separate observation controls with exactly their own available views.",
+  "limitations": "Only four houses and sixteen correlated physical starts; V6's three masks are repeated measures. A House/Start split controls training overlap but these four houses were already inspected as development evidence. No success-rate, causal deployment, language-instruction, or full evaluation claim.",
+  "episode_input_sha256": "57dbd955191e83770388f051ed6c6b94addf7a8ba1e049f743740b4ee802ddfd",
+  "v5_state_sha256": "25020757510523ea7ab2d63b4c89c9a17c703f7b828d29aa3376c13be6bd1ed6",
+  "v6_state_sha256": "69967e10dfe03476a8640b66f04687453be4363f2279b609659e8a183edb0b48",
+  "variants": {
+    "v5_full": {
+      "per_house": {
+        "102344307": {
+          "starts": 4,
+          "wins": 3,
+          "ties": 1,
+          "losses": 0,
+          "predicted_net": 0.006060219290555413,
+          "observed_net": -0.04395506052699472,
+          "paired_delta": 0.050015279817550135,
+          "median_start_delta": 0.04060000012783955,
+          "smallest_start_delta": 0.0,
+          "largest_start_delta": 0.11886111901452144
+        },
+        "102816066": {
+          "starts": 4,
+          "wins": 2,
+          "ties": 1,
+          "losses": 1,
+          "predicted_net": 0.06680904768349563,
+          "observed_net": 0.045527167089896244,
+          "paired_delta": 0.021281880593599388,
+          "median_start_delta": 0.001739583381762111,
+          "smallest_start_delta": -0.003928570675530603,
+          "largest_start_delta": 0.08557692628640394
+        },
+        "104862573_172226682": {
+          "starts": 4,
+          "wins": 3,
+          "ties": 0,
+          "losses": 1,
+          "predicted_net": -0.024326886140209225,
+          "observed_net": -0.019886904803847538,
+          "paired_delta": -0.004439981336361686,
+          "median_start_delta": 0.007384920496648797,
+          "smallest_start_delta": -0.1048809571989945,
+          "largest_start_delta": 0.07235119086025016
+        },
+        "106879023_174887148": {
+          "starts": 4,
+          "wins": 3,
+          "ties": 1,
+          "losses": 0,
+          "predicted_net": 0.09307135828436376,
+          "observed_net": -0.003348915401893932,
+          "paired_delta": 0.09642027368625769,
+          "median_start_delta": 0.04153846304577131,
+          "smallest_start_delta": 0.0,
+          "largest_start_delta": 0.30260416865348816
+        }
+      },
+      "start_aggregate": {
+        "starts": 16,
+        "wins": 11,
+        "ties": 3,
+        "losses": 2,
+        "predicted_net": 0.0354034347795514,
+        "observed_net": -0.005415928410709986,
+        "paired_delta": 0.04081936319026138,
+        "median_start_delta": 0.01729444471032669,
+        "smallest_start_delta": -0.1048809571989945,
+        "largest_start_delta": 0.30260416865348816
+      },
+      "equal_house_paired_delta": 0.04081936319026138,
+      "reproduced_original_row_weighted_net": 0.036992155708577786
+    },
+    "v6_sparse": {
+      "per_house": {
+        "102344307": {
+          "starts": 4,
+          "wins": 3,
+          "ties": 0,
+          "losses": 1,
+          "predicted_net": -0.00031954303683181,
+          "observed_net": -0.01969656117541331,
+          "paired_delta": 0.0193770181385815,
+          "median_start_delta": 0.014672688443938058,
+          "smallest_start_delta": -0.021772489040380427,
+          "largest_start_delta": 0.06993518470683031
+        },
+        "102816066": {
+          "starts": 4,
+          "wins": 2,
+          "ties": 0,
+          "losses": 2,
+          "predicted_net": 0.03850962817003329,
+          "observed_net": 0.008329472910659446,
+          "paired_delta": 0.030180155259373842,
+          "median_start_delta": 0.026069800398097583,
+          "smallest_start_delta": -0.02898148157622754,
+          "largest_start_delta": 0.09756250181752775
+        },
+        "104862573_172226682": {
+          "starts": 4,
+          "wins": 2,
+          "ties": 0,
+          "losses": 2,
+          "predicted_net": 0.005541666384346573,
+          "observed_net": 0.008625165599819627,
+          "paired_delta": -0.0030834992154730543,
+          "median_start_delta": 0.0020291006205500027,
+          "smallest_start_delta": -0.08554894561391502,
+          "largest_start_delta": 0.0691567475109228
+        },
+        "106879023_174887148": {
+          "starts": 4,
+          "wins": 3,
+          "ties": 0,
+          "losses": 1,
+          "predicted_net": 0.038364048549066956,
+          "observed_net": -0.05253056856203941,
+          "paired_delta": 0.09089461711110637,
+          "median_start_delta": 0.05925451151156357,
+          "smallest_start_delta": -0.07777778059244154,
+          "largest_start_delta": 0.3228472260137399
+        }
+      },
+      "start_aggregate": {
+        "starts": 16,
+        "wins": 10,
+        "ties": 0,
+        "losses": 6,
+        "predicted_net": 0.020523950016653754,
+        "observed_net": -0.013818122806743412,
+        "paired_delta": 0.034342072823397164,
+        "median_start_delta": 0.011521266223007066,
+        "smallest_start_delta": -0.08554894561391502,
+        "largest_start_delta": 0.3228472260137399
+      },
+      "equal_house_paired_delta": 0.034342072823397164,
+      "reproduced_original_row_weighted_net": 0.022463237040954247
+    }
+  }
+}

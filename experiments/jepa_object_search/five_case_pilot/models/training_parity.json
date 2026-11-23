@@ -1,0 +1,40 @@
+{
+  "scope": "CPU backpropagation parity against the research scripts on the same HSSD training batches and checkpoint tensors",
+  "criterion": "identical float32 batch loss and maximum absolute gradient difference below 3e-8",
+  "code_sha256": "84cab5049db2e522c55a786fe56c936a1dc0ddf3407bcddb7956254593a43fa1",
+  "torch_version": "2.8.0+cu128",
+  "status": "pass",
+  "batches": [
+    {
+      "arm": "v5",
+      "real_state_horizon_groups": 12,
+      "original_loss": 0.1619451493024826,
+      "portable_loss": 0.1619451493024826,
+      "gradient_tensors": 4,
+      "max_absolute_gradient_difference": 1.0477378964424133e-09
+    },
+    {
+      "arm": "v6",
+      "real_state_horizon_groups": 10,
+      "original_loss": 0.24978084862232208,
+      "portable_loss": 0.24978084862232208,
+      "gradient_tensors": 8,
+      "max_absolute_gradient_difference": 1.862645149230957e-09
+    }
+  ],
+  "full_cli_fits": {
+    "scope": "Both CLI stages retrained on the original private feature cache; V6 initialized from the portable V5 output.",
+    "train_state_horizon_groups": 432,
+    "calibration_state_horizon_groups": 72,
+    "v5": {
+      "selected_epoch": 3,
+      "original_selected_epoch": 3,
+      "max_abs_state_dict_difference": 5.21540641784668e-07
+    },
+    "v6": {
+      "selected_epoch": 9,
+      "original_selected_epoch": 9,
+      "max_abs_state_dict_difference": 1.5195837477222085e-06
+    }
+  }
+}

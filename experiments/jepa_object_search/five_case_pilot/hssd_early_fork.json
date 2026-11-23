@@ -1,0 +1,214 @@
+{
+  "scope": "Post-hoc offline development study on four already-inspected HSSD transfer houses, existing frozen V6, no additional training or paid API",
+  "planned_rule": "Relative to each uniformly drawn original legal candidate, retain only alternatives whose nominal first or second command differs; fixed probability advantage > 0.01; if none, keep original. Not a verified physical divergence.",
+  "averaging": "Primary all 217 rows from all 16 starts. Equal mask weight, then equal query-horizon row weight within starts, then equal starts within each house, then equal houses. No-eligible-choice cases stay in denominators. The primary empirical gain is a visibility proxy.",
+  "any_eligible_start": 14,
+  "any_gated_override_start": 14,
+  "primary": {
+    "n_query_horizon_rows": 217,
+    "n_starts": 16,
+    "n_houses": 4,
+    "by_house": {
+      "102344307": {
+        "v6_net": -0.00031954303683181,
+        "early_v6_net": 0.004842494414298843,
+        "clip_net": -0.01969656117541331,
+        "early_clip_net": -0.018267857480705495,
+        "early_vs_v6": 0.005162036892337104,
+        "early_vs_clip_original": 0.02453905485500212,
+        "early_vs_clip_early": 0.023110351201686415,
+        "unordered_pair_fraction": 0.8583333333333334,
+        "references_with_eligible_alternative": 1.0,
+        "state_horizon_has_eligible_pair": 1.0,
+        "original_v6_override": 0.5485714285714286,
+        "early_v6_override": 0.5241269841269841,
+        "rates_of_original_v6_revisions": 0.054166666666666675
+      },
+      "102816066": {
+        "v6_net": 0.03850962817003329,
+        "early_v6_net": 0.03493910263442026,
+        "clip_net": 0.008329472910659446,
+        "early_clip_net": 0.010021958747511656,
+        "early_vs_v6": -0.0035705251188845565,
+        "early_vs_clip_original": 0.026609629628411124,
+        "early_vs_clip_early": 0.024917143925884285,
+        "unordered_pair_fraction": 0.6386904761904763,
+        "references_with_eligible_alternative": 1.0,
+        "state_horizon_has_eligible_pair": 1.0,
+        "original_v6_override": 0.5465277777777777,
+        "early_v6_override": 0.4413537851037851,
+        "rates_of_original_v6_revisions": 0.1637973137973138
+      },
+      "104862573_172226682": {
+        "v6_net": 0.005541666384346573,
+        "early_v6_net": -0.018841270687952938,
+        "clip_net": 0.008625165599819627,
+        "early_clip_net": 0.0019289023104301166,
+        "early_vs_v6": -0.02438293682071306,
+        "early_vs_clip_original": -0.027466436217276614,
+        "early_vs_clip_early": -0.020770172927887104,
+        "unordered_pair_fraction": 0.3214285714285714,
+        "references_with_eligible_alternative": 0.5,
+        "state_horizon_has_eligible_pair": 0.5,
+        "original_v6_override": 0.3748015873015873,
+        "early_v6_override": 0.18253968253968253,
+        "rates_of_original_v6_revisions": 0.1978174603174603
+      },
+      "106879023_174887148": {
+        "v6_net": 0.04260787586190676,
+        "early_v6_net": 0.04260787586190676,
+        "clip_net": -0.0504472351545452,
+        "early_clip_net": -0.0504472351545452,
+        "early_vs_v6": 0.0,
+        "early_vs_clip_original": 0.09305511120749249,
+        "early_vs_clip_early": 0.09305511120749249,
+        "unordered_pair_fraction": 1.0,
+        "references_with_eligible_alternative": 1.0,
+        "state_horizon_has_eligible_pair": 1.0,
+        "original_v6_override": 0.41423314339981004,
+        "early_v6_override": 0.41423314339981004,
+        "rates_of_original_v6_revisions": 0.0
+      }
+    },
+    "equal_house": {
+      "v6_net": 0.021584906844863704,
+      "early_v6_net": 0.01588705055566823,
+      "clip_net": -0.01329728945486986,
+      "early_clip_net": -0.014191057894327232,
+      "early_vs_v6": -0.005697856261815128,
+      "early_vs_clip_original": 0.02918433986840728,
+      "early_vs_clip_early": 0.030078108351794024,
+      "unordered_pair_fraction": 0.7046130952380952,
+      "references_with_eligible_alternative": 0.875,
+      "state_horizon_has_eligible_pair": 0.875,
+      "original_v6_override": 0.4710334842626509,
+      "early_v6_override": 0.39056339879256546,
+      "rates_of_original_v6_revisions": 0.1039453601953602
+    },
+    "paired_starts": {
+      "early_vs_v6": {
+        "win": 4,
+        "tie": 9,
+        "loss": 3,
+        "median": 0.0
+      },
+      "early_vs_clip_original": {
+        "win": 8,
+        "tie": 1,
+        "loss": 7,
+        "median": 0.005103277090268259
+      },
+      "early_vs_clip_early": {
+        "win": 9,
+        "tie": 2,
+        "loss": 5,
+        "median": 0.006337403886231125
+      }
+    }
+  },
+  "common_query_swap_subset": {
+    "n_query_horizon_rows": 216,
+    "n_starts": 16,
+    "n_houses": 4,
+    "by_house": {
+      "102344307": {
+        "v6_net": -0.00031954303683181,
+        "early_v6_net": 0.004842494414298843,
+        "clip_net": -0.01969656117541331,
+        "early_clip_net": -0.018267857480705495,
+        "early_vs_v6": 0.005162036892337104,
+        "early_vs_clip_original": 0.02453905485500212,
+        "early_vs_clip_early": 0.023110351201686415,
+        "unordered_pair_fraction": 0.8583333333333334,
+        "references_with_eligible_alternative": 1.0,
+        "state_horizon_has_eligible_pair": 1.0,
+        "original_v6_override": 0.5485714285714286,
+        "early_v6_override": 0.5241269841269841,
+        "rates_of_original_v6_revisions": 0.054166666666666675
+      },
+      "102816066": {
+        "v6_net": 0.03850962817003329,
+        "early_v6_net": 0.03493910263442026,
+        "clip_net": 0.008329472910659446,
+        "early_clip_net": 0.010021958747511656,
+        "early_vs_v6": -0.0035705251188845565,
+        "early_vs_clip_original": 0.026609629628411124,
+        "early_vs_clip_early": 0.024917143925884285,
+        "unordered_pair_fraction": 0.6386904761904763,
+        "references_with_eligible_alternative": 1.0,
+        "state_horizon_has_eligible_pair": 1.0,
+        "original_v6_override": 0.5465277777777777,
+        "early_v6_override": 0.4413537851037851,
+        "rates_of_original_v6_revisions": 0.1637973137973138
+      },
+      "104862573_172226682": {
+        "v6_net": 0.005541666384346573,
+        "early_v6_net": -0.018841270687952938,
+        "clip_net": 0.008625165599819627,
+        "early_clip_net": 0.0019289023104301166,
+        "early_vs_v6": -0.02438293682071306,
+        "early_vs_clip_original": -0.027466436217276614,
+        "early_vs_clip_early": -0.020770172927887104,
+        "unordered_pair_fraction": 0.3214285714285714,
+        "references_with_eligible_alternative": 0.5,
+        "state_horizon_has_eligible_pair": 0.5,
+        "original_v6_override": 0.3748015873015873,
+        "early_v6_override": 0.18253968253968253,
+        "rates_of_original_v6_revisions": 0.1978174603174603
+      },
+      "106879023_174887148": {
+        "v6_net": 0.038364048549066956,
+        "early_v6_net": 0.038364048549066956,
+        "clip_net": -0.05253056856203941,
+        "early_clip_net": -0.05253056856203941,
+        "early_vs_v6": 0.0,
+        "early_vs_clip_original": 0.0908946173021469,
+        "early_vs_clip_early": 0.0908946173021469,
+        "unordered_pair_fraction": 1.0,
+        "references_with_eligible_alternative": 1.0,
+        "state_horizon_has_eligible_pair": 1.0,
+        "original_v6_override": 0.41230413105413105,
+        "early_v6_override": 0.41230413105413105,
+        "rates_of_original_v6_revisions": 0.0
+      }
+    },
+    "equal_house": {
+      "v6_net": 0.020523950016653754,
+      "early_v6_net": 0.01482609372745828,
+      "clip_net": -0.01381812280674341,
+      "early_clip_net": -0.014711891246200783,
+      "early_vs_v6": -0.005697856261815128,
+      "early_vs_clip_original": 0.028644216392070883,
+      "early_vs_clip_early": 0.029537984875457626,
+      "unordered_pair_fraction": 0.7046130952380952,
+      "references_with_eligible_alternative": 0.875,
+      "state_horizon_has_eligible_pair": 0.875,
+      "original_v6_override": 0.47055123117623116,
+      "early_v6_override": 0.3900811457061457,
+      "rates_of_original_v6_revisions": 0.1039453601953602
+    },
+    "paired_starts": {
+      "early_vs_v6": {
+        "win": 4,
+        "tie": 9,
+        "loss": 3,
+        "median": 0.0
+      },
+      "early_vs_clip_original": {
+        "win": 8,
+        "tie": 1,
+        "loss": 7,
+        "median": 0.005103277090268259
+      },
+      "early_vs_clip_early": {
+        "win": 9,
+        "tie": 2,
+        "loss": 5,
+        "median": 0.006337403886231125
+      }
+    }
+  },
+  "checkpoint_sha256": "69967e10dfe03476a8640b66f04687453be4363f2279b609659e8a183edb0b48",
+  "source_data_sha256": "57dbd955191e83770388f051ed6c6b94addf7a8ba1e049f743740b4ee802ddfd",
+  "script_sha256": "a9427b977b2de19837855e013f7ee5ee2388ddef2ed788c713437054fa226e95"
+}
