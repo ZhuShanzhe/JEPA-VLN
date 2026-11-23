@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "source": "one actual HSSD training-house physical start",
+  "candidates": 9,
+  "evaluation_conditions": "3 budgets x 4 history masks x 4 arms; 2 online history modes x 4 arms; 1 dense pixel + 4 route training objectives plus their gradients",
+  "frozen_checkpoint": "37fc573a287b333b96892086ff4bf3d28a1247bd9340bd44c4041c698aeabf33",
+  "torch": "2.8.0+cu128",
+  "results": {
+    "score": {
+      "comparisons": 48,
+      "maximum_absolute_error": 9.5367431640625e-07
+    },
+    "online": {
+      "comparisons": 8,
+      "maximum_absolute_error": 7.748603820800781e-07
+    },
+    "loss": {
+      "comparisons": 5,
+      "maximum_absolute_error": 0.0
+    },
+    "gradient": {
+      "comparisons": 5,
+      "maximum_absolute_error": 2.980232238769531e-07
+    }
+  },
+  "files": {
+    "dense_clip.py": "119c851165e6caf8667bbb7e5fc54670c52869583318c002c2464544dc064846",
+    "features.py": "3bb4cbc942ec2db4e9b3adfe356a95787a32e3b67314f4c18295ff13a7efe9ac",
+    "grounded_route.py": "7b6fbdc79eb2696b44f13d1929802f702e20fa9c7f4d242a2cd8849bb4730745",
+    "heading_coverage.py": "dc703b69bd8cdff0ea2ba629b0798861d6cb5d1fe86ee54d7bfdbc8469eb9a8f",
+    "inference.py": "1789cd4c68b5a56abc119d3c050afab1ad9217d3b9a89102e7e3f673a98b48f4",
+    "metrics.py": "dcd2398a87a75cbbf35c73528502c89db84a0d573313ee7ca5f2d59e98986ae4",
+    "route_heads.py": "f0f53f53ebb5138e252d9cc37e7d8931e5e35fff0566a5d3e28ef7ac7cfb1198",
+    "train_v8.py": "0609421495a4e18a0d260dcaaee75f3cc3caa1a1f049f613f341c5db4196b542"
+  }
+}

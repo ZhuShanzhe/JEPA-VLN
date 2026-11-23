@@ -1,0 +1,292 @@
+{
+  "splits": {
+    "train": {
+      "houses": 12,
+      "starts": 72,
+      "branches": 648,
+      "max_initial_rgb_mae_8bit": 0.024037679036458332,
+      "median_initial_rgb_mae_8bit": 0.00013224283854166668,
+      "state_ids_sha256": "9de62552ee3b7f9b05b9b74dd250d22287ca95f149192ff80e53a901bf5faf8c",
+      "independent_physics_replay": {
+        "states": 72,
+        "actions": 15552,
+        "collisions": 10967,
+        "max_replay_difference_m": 0.0,
+        "max_horizontal_step_m": 0.250000536441803,
+        "max_abs_vertical_step_m": 0.19999998807907104,
+        "max_spatial_step_m": 0.32015618681907654,
+        "steps_3d_over_251mm": 105
+      },
+      "existing_state_queries": 942,
+      "state_queries_with_candidate_difference_at_24": 147,
+      "states_with_candidate_difference": 54,
+      "states_with_opposite_target_preferences_on_symmetric_plans": 16,
+      "symmetric_plan_pairs_with_opposite_target_preferences": 38,
+      "branches_with_any_new_reportable_instance": 284,
+      "blocked_forward_commands": 10967,
+      "forward_commands": 14256,
+      "class_present_and_informative_state_counts": {
+        "chair.n.01": [
+          72,
+          14
+        ],
+        "bed.n.01": [
+          72,
+          0
+        ],
+        "sofa.n.01": [
+          72,
+          10
+        ],
+        "toilet.n.02": [
+          60,
+          5
+        ],
+        "potted_plant.n.01": [
+          72,
+          20
+        ],
+        "television_receiver.n.01": [
+          60,
+          5
+        ],
+        "basket.n.01": [
+          36,
+          6
+        ],
+        "cabinet.n.01": [
+          72,
+          12
+        ],
+        "clock.n.01": [
+          48,
+          4
+        ],
+        "door.n.01": [
+          72,
+          20
+        ],
+        "lamp.n.01": [
+          72,
+          25
+        ],
+        "mirror.n.01": [
+          66,
+          7
+        ],
+        "picture_frame.n.01": [
+          24,
+          0
+        ],
+        "shelf.n.01": [
+          18,
+          0
+        ],
+        "stool.n.01": [
+          54,
+          3
+        ],
+        "wall_art.n.01": [
+          72,
+          16
+        ]
+      }
+    },
+    "calibration": {
+      "houses": 4,
+      "starts": 16,
+      "branches": 144,
+      "max_initial_rgb_mae_8bit": 0.06986490885416667,
+      "median_initial_rgb_mae_8bit": 8.900960286458334e-05,
+      "state_ids_sha256": "fae16a5002eaa74a6a65baaf52a51600a95f185ab0ff3505cb24281118a757a7",
+      "independent_physics_replay": {
+        "states": 16,
+        "actions": 3456,
+        "collisions": 2242,
+        "max_replay_difference_m": 0.0,
+        "max_horizontal_step_m": 0.250000536441803,
+        "max_abs_vertical_step_m": 0.44525986909866333,
+        "max_spatial_step_m": 0.5106430649757385,
+        "steps_3d_over_251mm": 121
+      },
+      "existing_state_queries": 176,
+      "state_queries_with_candidate_difference_at_24": 28,
+      "states_with_candidate_difference": 10,
+      "states_with_opposite_target_preferences_on_symmetric_plans": 3,
+      "symmetric_plan_pairs_with_opposite_target_preferences": 5,
+      "branches_with_any_new_reportable_instance": 54,
+      "blocked_forward_commands": 2242,
+      "forward_commands": 3168,
+      "class_present_and_informative_state_counts": {
+        "chair.n.01": [
+          16,
+          4
+        ],
+        "bed.n.01": [
+          16,
+          1
+        ],
+        "sofa.n.01": [
+          12,
+          2
+        ],
+        "toilet.n.02": [
+          8,
+          0
+        ],
+        "potted_plant.n.01": [
+          12,
+          2
+        ],
+        "television_receiver.n.01": [
+          16,
+          2
+        ],
+        "basket.n.01": [
+          4,
+          0
+        ],
+        "cabinet.n.01": [
+          16,
+          2
+        ],
+        "clock.n.01": [
+          8,
+          0
+        ],
+        "door.n.01": [
+          8,
+          1
+        ],
+        "lamp.n.01": [
+          16,
+          7
+        ],
+        "mirror.n.01": [
+          12,
+          2
+        ],
+        "picture_frame.n.01": [
+          4,
+          0
+        ],
+        "shelf.n.01": [
+          4,
+          0
+        ],
+        "stool.n.01": [
+          8,
+          1
+        ],
+        "wall_art.n.01": [
+          16,
+          4
+        ]
+      }
+    },
+    "holdout": {
+      "houses": 4,
+      "starts": 16,
+      "branches": 144,
+      "max_initial_rgb_mae_8bit": 1.8246358235677083,
+      "median_initial_rgb_mae_8bit": 1.05401611328125,
+      "state_ids_sha256": "a9523f0669ff59293253f46f902b7ae37f7cb913860e178c96d4be69a57bcb49",
+      "independent_physics_replay": {
+        "states": 16,
+        "actions": 3456,
+        "collisions": 2244,
+        "max_replay_difference_m": 0.0,
+        "max_horizontal_step_m": 0.25000056624412537,
+        "max_abs_vertical_step_m": 0.1347900778055191,
+        "max_spatial_step_m": 0.25000056624412537,
+        "steps_3d_over_251mm": 0
+      },
+      "existing_state_queries": 196,
+      "state_queries_with_candidate_difference_at_24": 41,
+      "states_with_candidate_difference": 12,
+      "states_with_opposite_target_preferences_on_symmetric_plans": 8,
+      "symmetric_plan_pairs_with_opposite_target_preferences": 15,
+      "branches_with_any_new_reportable_instance": 76,
+      "blocked_forward_commands": 2244,
+      "forward_commands": 3168,
+      "class_present_and_informative_state_counts": {
+        "chair.n.01": [
+          12,
+          5
+        ],
+        "bed.n.01": [
+          16,
+          0
+        ],
+        "sofa.n.01": [
+          12,
+          4
+        ],
+        "toilet.n.02": [
+          8,
+          0
+        ],
+        "potted_plant.n.01": [
+          16,
+          8
+        ],
+        "television_receiver.n.01": [
+          8,
+          0
+        ],
+        "basket.n.01": [
+          12,
+          0
+        ],
+        "cabinet.n.01": [
+          16,
+          1
+        ],
+        "clock.n.01": [
+          8,
+          0
+        ],
+        "door.n.01": [
+          16,
+          3
+        ],
+        "lamp.n.01": [
+          16,
+          8
+        ],
+        "mirror.n.01": [
+          16,
+          4
+        ],
+        "picture_frame.n.01": [
+          4,
+          0
+        ],
+        "shelf.n.01": [
+          8,
+          3
+        ],
+        "stool.n.01": [
+          12,
+          2
+        ],
+        "wall_art.n.01": [
+          16,
+          3
+        ]
+      }
+    }
+  },
+  "action_library_sha256": "4496dea34e5b3914783787f4c72da8f2b8758ccb5df6bce188c43cf622b58e7c",
+  "class_order_sha256": "41b4c9a7f3e06e4b674e4950e4a76cdfee125064d40d065de5300198cd0560ad",
+  "horizons": [
+    4,
+    12,
+    24
+  ],
+  "observation_keys": [
+    "context_rgb",
+    "actions",
+    "yaw"
+  ]
+}

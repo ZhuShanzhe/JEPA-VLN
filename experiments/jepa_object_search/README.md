@@ -48,3 +48,5 @@ HSSD 的代理目标是新增可见性。开发集 48 个起点中只有 2 个�
 [MOST-Nav 五回合 JEPA 选路评测](five_case_pilot/README.md)
 
 [HSSD 可报告实例路线预测](reportable_route_pilot/README.md)
+
+[MOST-Nav 中的目标条件选路与报告复核](goal_conditioned_routes_v8/README.md)

@@ -1,0 +1,48 @@
+{
+  "portable_sources_sha256": {
+    "controlled_bays.py": "4f169ea32dd9dbe16b0c13a46ae366eca543d0d8bd392e904b48c9b673ddb476",
+    "match_routes.py": "3fd10de7500a53a39cb3988b45f11286dd2880859bbdba4fc3402601ff3224a6"
+  },
+  "natural_splits_cross_checked": 3,
+  "natural_pairs_cross_checked": {
+    "train": 966,
+    "calibration": 271,
+    "independent": 77
+  },
+  "controlled_geometry_templates_cross_checked": 6,
+  "controlled_configurations_cross_checked": 36,
+  "controlled_route_actions": 24,
+  "checked_keys": [
+    "predecision_12_image_rgb_digest",
+    "predecision_goal_and_cue_pixel_maxima",
+    "route_length_m",
+    "distinct_goal_gain_per_branch_at_4_12_24_actions"
+  ],
+  "absolute_tolerance_for_comparison_of_route_lengths_m": 1e-05,
+  "natural_frontier_teacher_pixel_audit": {
+    "checked_start_states": {
+      "train": 144,
+      "calibration": 48,
+      "independent": 16
+    },
+    "training_original_identical_goal_by_state_across_all_12_images": 1851,
+    "training_goal_by_state_total": 1884,
+    "recording_renderer_recalculated_training_states": 2,
+    "recalculated_worst_absolute_differences_before": [
+      1069,
+      408
+    ],
+    "recalculated_worst_absolute_differences_after": [
+      0,
+      0
+    ],
+    "canonical_identical_goal_by_state": {
+      "train": "1855/1884",
+      "calibration": "528/528",
+      "independent": "196/196"
+    },
+    "training_remaining_worst_absolute_difference_px": 73,
+    "training_q99_absolute_difference_px": 1,
+    "historical_v8_or_v8c_used_natural_grid_supervision": false
+  }
+}

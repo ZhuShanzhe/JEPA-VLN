@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "input": "only previously observed color feature caches, planned actions and the complete fixed vocabulary; no teacher labels were opened",
+  "code_sha256": "f0ad73b3d72ca0e3c26aa8e8366ce9bb133dc2210d18188f07b85db0a206421e",
+  "comparison": {
+    "calibration": {
+      "starts": 16,
+      "houses": 4,
+      "reference_history_budget_query_entries": 27648,
+      "observed_action_differences": 0,
+      "joint_action_differences": 0,
+      "max_absolute_six_feature_difference": 0.0,
+      "byte_identical_npz_files": 16,
+      "frozen_prediction_manifest_sha256": "cf498cdac4f96d597f53d0416e9c0d2f09d6a00f792f56812e6821c024080e66",
+      "portable_prediction_manifest_sha256": "cf498cdac4f96d597f53d0416e9c0d2f09d6a00f792f56812e6821c024080e66"
+    },
+    "blind_test": {
+      "starts": 12,
+      "houses": 3,
+      "reference_history_budget_query_entries": 20736,
+      "observed_action_differences": 0,
+      "joint_action_differences": 0,
+      "max_absolute_six_feature_difference": 0.0,
+      "byte_identical_npz_files": 12,
+      "frozen_prediction_manifest_sha256": "a764ad60a2f60a121a748ed9f3fa0a452bee7eb0368e8adcc5fa7546bf0f024c",
+      "portable_prediction_manifest_sha256": "a764ad60a2f60a121a748ed9f3fa0a452bee7eb0368e8adcc5fa7546bf0f024c"
+    }
+  }
+}

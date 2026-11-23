@@ -1,0 +1,938 @@
+{
+  "results": {
+    "frozen_v8": {
+      "congruent/4": {
+        "geometry": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "observed": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "jepa": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "joint": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "v6": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "wrong": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "displacement": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "joint_no_future": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        }
+      },
+      "congruent/12": {
+        "geometry": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "observed": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "jepa": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "joint": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "v6": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "wrong": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "displacement": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "joint_no_future": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        }
+      },
+      "congruent/24": {
+        "geometry": {
+          "houses": 2,
+          "equal_house_accuracy": 0.5,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": 0.0
+        },
+        "observed": {
+          "houses": 2,
+          "equal_house_accuracy": 0.53125,
+          "equal_house_gated_gain": 0.015625,
+          "full_view_pref_flips_on_swap": 0.25
+        },
+        "jepa": {
+          "houses": 2,
+          "equal_house_accuracy": 0.5625,
+          "equal_house_gated_gain": 0.0625,
+          "full_view_pref_flips_on_swap": 0.5
+        },
+        "joint": {
+          "houses": 2,
+          "equal_house_accuracy": 0.53125,
+          "equal_house_gated_gain": 0.03125,
+          "full_view_pref_flips_on_swap": 0.25
+        },
+        "v6": {
+          "houses": 2,
+          "equal_house_accuracy": 0.65625,
+          "equal_house_gated_gain": 0.09375,
+          "full_view_pref_flips_on_swap": 0.75
+        },
+        "wrong": {
+          "houses": 2,
+          "equal_house_accuracy": 0.46875,
+          "equal_house_gated_gain": -0.03125,
+          "full_view_pref_flips_on_swap": 0.25
+        },
+        "displacement": {
+          "houses": 2,
+          "equal_house_accuracy": 0.5,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": 0.0
+        },
+        "joint_no_future": {
+          "houses": 2,
+          "equal_house_accuracy": 0.5625,
+          "equal_house_gated_gain": 0.0625,
+          "full_view_pref_flips_on_swap": 0.25
+        }
+      },
+      "hidden/4": {
+        "geometry": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "observed": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "jepa": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "joint": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "v6": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "wrong": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "displacement": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "joint_no_future": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        }
+      },
+      "hidden/12": {
+        "geometry": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "observed": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "jepa": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "joint": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "v6": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "wrong": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "displacement": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "joint_no_future": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        }
+      },
+      "hidden/24": {
+        "geometry": {
+          "houses": 2,
+          "equal_house_accuracy": 0.5,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": 0.0
+        },
+        "observed": {
+          "houses": 2,
+          "equal_house_accuracy": 0.5,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": 0.0
+        },
+        "jepa": {
+          "houses": 2,
+          "equal_house_accuracy": 0.5,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": 0.0
+        },
+        "joint": {
+          "houses": 2,
+          "equal_house_accuracy": 0.5,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": 0.0
+        },
+        "v6": {
+          "houses": 2,
+          "equal_house_accuracy": 0.5,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": 0.0
+        },
+        "wrong": {
+          "houses": 2,
+          "equal_house_accuracy": 0.5,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": 0.0
+        },
+        "displacement": {
+          "houses": 2,
+          "equal_house_accuracy": 0.5,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": 0.0
+        },
+        "joint_no_future": {
+          "houses": 2,
+          "equal_house_accuracy": 0.5,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": 0.0
+        }
+      },
+      "conflicting/4": {
+        "geometry": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "observed": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "jepa": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "joint": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "v6": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "wrong": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "displacement": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "joint_no_future": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        }
+      },
+      "conflicting/12": {
+        "geometry": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "observed": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "jepa": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "joint": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "v6": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "wrong": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "displacement": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "joint_no_future": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        }
+      },
+      "conflicting/24": {
+        "geometry": {
+          "houses": 2,
+          "equal_house_accuracy": 0.5,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": 0.0
+        },
+        "observed": {
+          "houses": 2,
+          "equal_house_accuracy": 0.46875,
+          "equal_house_gated_gain": -0.015625,
+          "full_view_pref_flips_on_swap": 0.25
+        },
+        "jepa": {
+          "houses": 2,
+          "equal_house_accuracy": 0.4375,
+          "equal_house_gated_gain": -0.0625,
+          "full_view_pref_flips_on_swap": 0.5
+        },
+        "joint": {
+          "houses": 2,
+          "equal_house_accuracy": 0.46875,
+          "equal_house_gated_gain": -0.03125,
+          "full_view_pref_flips_on_swap": 0.25
+        },
+        "v6": {
+          "houses": 2,
+          "equal_house_accuracy": 0.34375,
+          "equal_house_gated_gain": -0.09375,
+          "full_view_pref_flips_on_swap": 0.75
+        },
+        "wrong": {
+          "houses": 2,
+          "equal_house_accuracy": 0.53125,
+          "equal_house_gated_gain": 0.03125,
+          "full_view_pref_flips_on_swap": 0.25
+        },
+        "displacement": {
+          "houses": 2,
+          "equal_house_accuracy": 0.5,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": 0.0
+        },
+        "joint_no_future": {
+          "houses": 2,
+          "equal_house_accuracy": 0.4375,
+          "equal_house_gated_gain": -0.0625,
+          "full_view_pref_flips_on_swap": 0.25
+        }
+      }
+    },
+    "controlled_adaptation": {
+      "congruent/4": {
+        "geometry": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "observed": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "jepa": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "joint": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "v6": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "wrong": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "displacement": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "joint_no_future": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        }
+      },
+      "congruent/12": {
+        "geometry": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "observed": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "jepa": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "joint": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "v6": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "wrong": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "displacement": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "joint_no_future": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        }
+      },
+      "congruent/24": {
+        "geometry": {
+          "houses": 2,
+          "equal_house_accuracy": 0.5,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": 0.0
+        },
+        "observed": {
+          "houses": 2,
+          "equal_house_accuracy": 0.625,
+          "equal_house_gated_gain": 0.140625,
+          "full_view_pref_flips_on_swap": 0.25
+        },
+        "jepa": {
+          "houses": 2,
+          "equal_house_accuracy": 0.5625,
+          "equal_house_gated_gain": 0.046875,
+          "full_view_pref_flips_on_swap": 0.75
+        },
+        "joint": {
+          "houses": 2,
+          "equal_house_accuracy": 0.6875,
+          "equal_house_gated_gain": 0.1875,
+          "full_view_pref_flips_on_swap": 0.75
+        },
+        "v6": {
+          "houses": 2,
+          "equal_house_accuracy": 0.65625,
+          "equal_house_gated_gain": 0.09375,
+          "full_view_pref_flips_on_swap": 0.75
+        },
+        "wrong": {
+          "houses": 2,
+          "equal_house_accuracy": 0.3125,
+          "equal_house_gated_gain": -0.1875,
+          "full_view_pref_flips_on_swap": 0.75
+        },
+        "displacement": {
+          "houses": 2,
+          "equal_house_accuracy": 0.5,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": 0.0
+        },
+        "joint_no_future": {
+          "houses": 2,
+          "equal_house_accuracy": 0.6875,
+          "equal_house_gated_gain": 0.1875,
+          "full_view_pref_flips_on_swap": 0.75
+        }
+      },
+      "hidden/4": {
+        "geometry": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "observed": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "jepa": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "joint": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "v6": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "wrong": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "displacement": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "joint_no_future": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        }
+      },
+      "hidden/12": {
+        "geometry": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "observed": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "jepa": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "joint": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "v6": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "wrong": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "displacement": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "joint_no_future": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        }
+      },
+      "hidden/24": {
+        "geometry": {
+          "houses": 2,
+          "equal_house_accuracy": 0.5,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": 0.0
+        },
+        "observed": {
+          "houses": 2,
+          "equal_house_accuracy": 0.5,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": 0.0
+        },
+        "jepa": {
+          "houses": 2,
+          "equal_house_accuracy": 0.5,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": 0.0
+        },
+        "joint": {
+          "houses": 2,
+          "equal_house_accuracy": 0.5,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": 0.0
+        },
+        "v6": {
+          "houses": 2,
+          "equal_house_accuracy": 0.5,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": 0.0
+        },
+        "wrong": {
+          "houses": 2,
+          "equal_house_accuracy": 0.5,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": 0.0
+        },
+        "displacement": {
+          "houses": 2,
+          "equal_house_accuracy": 0.5,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": 0.0
+        },
+        "joint_no_future": {
+          "houses": 2,
+          "equal_house_accuracy": 0.5,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": 0.0
+        }
+      },
+      "conflicting/4": {
+        "geometry": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "observed": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "jepa": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "joint": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "v6": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "wrong": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "displacement": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "joint_no_future": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        }
+      },
+      "conflicting/12": {
+        "geometry": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "observed": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "jepa": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "joint": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "v6": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "wrong": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "displacement": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        },
+        "joint_no_future": {
+          "houses": 2,
+          "equal_house_accuracy": null,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": null
+        }
+      },
+      "conflicting/24": {
+        "geometry": {
+          "houses": 2,
+          "equal_house_accuracy": 0.5,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": 0.0
+        },
+        "observed": {
+          "houses": 2,
+          "equal_house_accuracy": 0.375,
+          "equal_house_gated_gain": -0.140625,
+          "full_view_pref_flips_on_swap": 0.25
+        },
+        "jepa": {
+          "houses": 2,
+          "equal_house_accuracy": 0.4375,
+          "equal_house_gated_gain": -0.046875,
+          "full_view_pref_flips_on_swap": 0.75
+        },
+        "joint": {
+          "houses": 2,
+          "equal_house_accuracy": 0.3125,
+          "equal_house_gated_gain": -0.1875,
+          "full_view_pref_flips_on_swap": 0.75
+        },
+        "v6": {
+          "houses": 2,
+          "equal_house_accuracy": 0.34375,
+          "equal_house_gated_gain": -0.09375,
+          "full_view_pref_flips_on_swap": 0.75
+        },
+        "wrong": {
+          "houses": 2,
+          "equal_house_accuracy": 0.6875,
+          "equal_house_gated_gain": 0.1875,
+          "full_view_pref_flips_on_swap": 0.75
+        },
+        "displacement": {
+          "houses": 2,
+          "equal_house_accuracy": 0.5,
+          "equal_house_gated_gain": 0.0,
+          "full_view_pref_flips_on_swap": 0.0
+        },
+        "joint_no_future": {
+          "houses": 2,
+          "equal_house_accuracy": 0.3125,
+          "equal_house_gated_gain": -0.1875,
+          "full_view_pref_flips_on_swap": 0.75
+        }
+      }
+    }
+  },
+  "adapted_on_shared_hssd": {
+    "primitives|official": {
+      "geometry": 0.012808642000891268,
+      "observed": 0.014814814901910719,
+      "jepa": 0.012673611063898232,
+      "joint": 0.005632716017620017,
+      "wrong": -0.0030285494770699497,
+      "displacement": -0.018750000512227416,
+      "v6": 0.005536265506331498,
+      "joint_no_future": 0.0095871913266213,
+      "no_word": 0.022183643149522446,
+      "retain": 0.0
+    },
+    "primitives|derived": {
+      "geometry": 0.003729423857294023,
+      "observed": 0.007631080957556452,
+      "jepa": 0.03256471425508304,
+      "joint": 0.0019462360020649308,
+      "wrong": -0.005788185551258113,
+      "displacement": 0.022716417404202122,
+      "v6": 0.0050395449943607664,
+      "joint_no_future": -0.02105264396717151,
+      "no_word": 0.018169459459992748,
+      "retain": 0.0
+    }
+  },
+  "train_layouts": 8,
+  "held_layouts": 12,
+  "controlled_used": "congruent training only; hidden and conflicting excluded; no selection on held metrics",
+  "checkpoint_sha256": "9dd8c064beb40f409ae903bb0dd06f5d828aff2ce1ae0bb5d430fcf976a09a2e"
+}

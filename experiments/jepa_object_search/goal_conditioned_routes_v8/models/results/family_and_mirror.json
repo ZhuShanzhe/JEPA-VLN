@@ -1,0 +1,3463 @@
+{
+  "frozen": "37fc573a287b333b96892086ff4bf3d28a1247bd9340bd44c4041c698aeabf33",
+  "metrics": {
+    "primitives|official": {
+      "geometry": {
+        "mean": {
+          "instances": 0.08503086515702307,
+          "gain": 0.010725309218590457,
+          "origin_instances": 0.07430555632648368,
+          "override": 0.8148148148148149,
+          "no_opportunity": 0.8486111111111111,
+          "no_distinction": 0.8486111111111111,
+          "house_mean_pair_accuracy_where_informative": 0.5820112738261273
+        },
+        "houses": {
+          "hold_01": {
+            "instances": 0.033333333830038704,
+            "gain": 0.007407407897214096,
+            "origin_instances": 0.025925927174588047,
+            "override": 0.8148148148148149,
+            "pair_credit": 1.3333333333333333,
+            "strict_pairs": 5.333333333333333,
+            "no_opportunity": 0.9333333333333333,
+            "no_distinction": 0.9333333333333333,
+            "pair_accuracy": 0.25,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "hold_02": {
+            "instances": 0.10000000149011612,
+            "gain": 0.07407407648861408,
+            "origin_instances": 0.025925926864147186,
+            "override": 0.8148148148148149,
+            "pair_credit": 7.583333333333333,
+            "strict_pairs": 8.0,
+            "no_opportunity": 0.8500000000000001,
+            "no_distinction": 0.8500000000000001,
+            "pair_accuracy": 0.9479166666666666,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "hold_03": {
+            "instances": 0.0,
+            "gain": 0.0,
+            "origin_instances": 0.0,
+            "override": 0.8148148148148149,
+            "pair_credit": 0.0,
+            "strict_pairs": 0.0,
+            "no_opportunity": 1.0,
+            "no_distinction": 1.0,
+            "pair_accuracy": null,
+            "informative_starts": 0,
+            "starts": 4
+          },
+          "hold_04": {
+            "instances": 0.20679012530793744,
+            "gain": -0.03858024751146635,
+            "origin_instances": 0.24537037126719952,
+            "override": 0.8148148148148149,
+            "pair_credit": 21.833333333333332,
+            "strict_pairs": 39.833333333333336,
+            "no_opportunity": 0.611111111111111,
+            "no_distinction": 0.611111111111111,
+            "pair_accuracy": 0.5481171548117154,
+            "informative_starts": 4,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.5871625700965524,
+          "double_difference": 0.5,
+          "ranking_starts": 8,
+          "opposite_starts": 5
+        }
+      },
+      "observed": {
+        "mean": {
+          "instances": 0.09174382938848188,
+          "gain": 0.017438272072467953,
+          "origin_instances": 0.07430555632648368,
+          "override": 0.8355709876543211,
+          "no_opportunity": 0.8486111111111111,
+          "no_distinction": 0.8486111111111111,
+          "house_mean_pair_accuracy_where_informative": 0.5710116660855417
+        },
+        "houses": {
+          "hold_01": {
+            "instances": 0.04259259323589504,
+            "gain": 0.016666666992629565,
+            "origin_instances": 0.025925927174588047,
+            "override": 0.8398148148148149,
+            "pair_credit": 2.7708333333333335,
+            "strict_pairs": 5.333333333333333,
+            "no_opportunity": 0.9333333333333333,
+            "no_distinction": 0.9333333333333333,
+            "pair_accuracy": 0.5195312500000001,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "hold_02": {
+            "instances": 0.02500000037252903,
+            "gain": -0.0009259260259568691,
+            "origin_instances": 0.025925926864147186,
+            "override": 0.8250000000000002,
+            "pair_credit": 5.020833333333334,
+            "strict_pairs": 8.0,
+            "no_opportunity": 0.8500000000000001,
+            "no_distinction": 0.8500000000000001,
+            "pair_accuracy": 0.6276041666666667,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "hold_03": {
+            "instances": 0.0,
+            "gain": 0.0,
+            "origin_instances": 0.0,
+            "override": 0.8356481481481481,
+            "pair_credit": 0.0,
+            "strict_pairs": 0.0,
+            "no_opportunity": 1.0,
+            "no_distinction": 1.0,
+            "pair_accuracy": null,
+            "informative_starts": 0,
+            "starts": 4
+          },
+          "hold_04": {
+            "instances": 0.29938272394550347,
+            "gain": 0.05401234732319911,
+            "origin_instances": 0.24537037126719952,
+            "override": 0.841820987654321,
+            "pair_credit": 22.541666666666664,
+            "strict_pairs": 39.833333333333336,
+            "no_opportunity": 0.611111111111111,
+            "no_distinction": 0.611111111111111,
+            "pair_accuracy": 0.565899581589958,
+            "informative_starts": 4,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.6315513312195739,
+          "double_difference": 0.24813988090803224,
+          "ranking_starts": 8,
+          "opposite_starts": 5
+        }
+      },
+      "jepa": {
+        "mean": {
+          "instances": 0.09301697646151297,
+          "gain": 0.0187114200865229,
+          "origin_instances": 0.07430555632648368,
+          "override": 0.8461998456790125,
+          "no_opportunity": 0.8486111111111111,
+          "no_distinction": 0.8486111111111111,
+          "house_mean_pair_accuracy_where_informative": 0.5787388133426314
+        },
+        "houses": {
+          "hold_01": {
+            "instances": 0.008333333496314784,
+            "gain": -0.017592593329027295,
+            "origin_instances": 0.025925927174588047,
+            "override": 0.8615740740740743,
+            "pair_credit": 2.0,
+            "strict_pairs": 5.333333333333333,
+            "no_opportunity": 0.9333333333333333,
+            "no_distinction": 0.9333333333333333,
+            "pair_accuracy": 0.375,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "hold_02": {
+            "instances": 0.07129629732420047,
+            "gain": 0.045370372012257576,
+            "origin_instances": 0.025925926864147186,
+            "override": 0.8407407407407408,
+            "pair_credit": 6.354166666666667,
+            "strict_pairs": 8.0,
+            "no_opportunity": 0.8500000000000001,
+            "no_distinction": 0.8500000000000001,
+            "pair_accuracy": 0.7942708333333334,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "hold_03": {
+            "instances": 0.0,
+            "gain": 0.0,
+            "origin_instances": 0.0,
+            "override": 0.8333333333333335,
+            "pair_credit": 0.0,
+            "strict_pairs": 0.0,
+            "no_opportunity": 1.0,
+            "no_distinction": 1.0,
+            "pair_accuracy": null,
+            "informative_starts": 0,
+            "starts": 4
+          },
+          "hold_04": {
+            "instances": 0.29243827502553665,
+            "gain": 0.04706790166286131,
+            "origin_instances": 0.24537037126719952,
+            "override": 0.8491512345679013,
+            "pair_credit": 22.583333333333336,
+            "strict_pairs": 39.833333333333336,
+            "no_opportunity": 0.611111111111111,
+            "no_distinction": 0.611111111111111,
+            "pair_accuracy": 0.5669456066945607,
+            "informative_starts": 4,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.6222642874862584,
+          "double_difference": 0.46205357361274463,
+          "ranking_starts": 8,
+          "opposite_starts": 5
+        }
+      },
+      "joint": {
+        "mean": {
+          "instances": 0.08015046369594832,
+          "gain": 0.005844907738113155,
+          "origin_instances": 0.07430555632648368,
+          "override": 0.8453703703703704,
+          "no_opportunity": 0.8486111111111111,
+          "no_distinction": 0.8486111111111111,
+          "house_mean_pair_accuracy_where_informative": 0.5822800441655044
+        },
+        "houses": {
+          "hold_01": {
+            "instances": 0.04027777848144372,
+            "gain": 0.014351852160568036,
+            "origin_instances": 0.025925927174588047,
+            "override": 0.8486111111111112,
+            "pair_credit": 2.5,
+            "strict_pairs": 5.333333333333333,
+            "no_opportunity": 0.9333333333333333,
+            "no_distinction": 0.9333333333333333,
+            "pair_accuracy": 0.46875,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "hold_02": {
+            "instances": 0.045370371080935,
+            "gain": 0.01944444514811039,
+            "origin_instances": 0.025925926864147186,
+            "override": 0.8407407407407409,
+            "pair_credit": 6.291666666666667,
+            "strict_pairs": 8.0,
+            "no_opportunity": 0.8500000000000001,
+            "no_distinction": 0.8500000000000001,
+            "pair_accuracy": 0.7864583333333334,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "hold_03": {
+            "instances": 0.0,
+            "gain": 0.0,
+            "origin_instances": 0.0,
+            "override": 0.84375,
+            "pair_credit": 0.0,
+            "strict_pairs": 0.0,
+            "no_opportunity": 1.0,
+            "no_distinction": 1.0,
+            "pair_accuracy": null,
+            "informative_starts": 0,
+            "starts": 4
+          },
+          "hold_04": {
+            "instances": 0.23495370522141457,
+            "gain": -0.010416666356225807,
+            "origin_instances": 0.24537037126719952,
+            "override": 0.8483796296296297,
+            "pair_credit": 19.583333333333332,
+            "strict_pairs": 39.833333333333336,
+            "no_opportunity": 0.611111111111111,
+            "no_distinction": 0.611111111111111,
+            "pair_accuracy": 0.49163179916317984,
+            "informative_starts": 4,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.6383651047427622,
+          "double_difference": 0.494047618471086,
+          "ranking_starts": 8,
+          "opposite_starts": 5
+        }
+      },
+      "wrong": {
+        "mean": {
+          "instances": 0.07744984635307144,
+          "gain": 0.0031442902206132804,
+          "origin_instances": 0.07430555632648368,
+          "override": 0.8453703703703704,
+          "no_opportunity": 0.8486111111111111,
+          "no_distinction": 0.8486111111111111,
+          "house_mean_pair_accuracy_where_informative": 0.5613668061366806
+        },
+        "houses": {
+          "hold_01": {
+            "instances": 0.049537037809689835,
+            "gain": 0.023611112032085657,
+            "origin_instances": 0.025925927174588047,
+            "override": 0.8486111111111112,
+            "pair_credit": 3.0,
+            "strict_pairs": 5.333333333333333,
+            "no_opportunity": 0.9333333333333333,
+            "no_distinction": 0.9333333333333333,
+            "pair_accuracy": 0.5625,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "hold_02": {
+            "instances": 0.038425926584750414,
+            "gain": 0.012500000574315587,
+            "origin_instances": 0.025925926864147186,
+            "override": 0.8407407407407409,
+            "pair_credit": 5.5,
+            "strict_pairs": 8.0,
+            "no_opportunity": 0.8500000000000001,
+            "no_distinction": 0.8500000000000001,
+            "pair_accuracy": 0.6875,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "hold_03": {
+            "instances": 0.0,
+            "gain": 0.0,
+            "origin_instances": 0.0,
+            "override": 0.84375,
+            "pair_credit": 0.0,
+            "strict_pairs": 0.0,
+            "no_opportunity": 1.0,
+            "no_distinction": 1.0,
+            "pair_accuracy": null,
+            "informative_starts": 0,
+            "starts": 4
+          },
+          "hold_04": {
+            "instances": 0.22183642101784548,
+            "gain": -0.02353395172394812,
+            "origin_instances": 0.24537037126719952,
+            "override": 0.8483796296296297,
+            "pair_credit": 17.291666666666664,
+            "strict_pairs": 39.833333333333336,
+            "no_opportunity": 0.611111111111111,
+            "no_distinction": 0.611111111111111,
+            "pair_accuracy": 0.43410041841004177,
+            "informative_starts": 4,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.5687987638585683,
+          "double_difference": 0.434523811408629,
+          "ranking_starts": 8,
+          "opposite_starts": 5
+        }
+      },
+      "displacement": {
+        "mean": {
+          "instances": 0.0555555559694767,
+          "gain": -0.018750000512227416,
+          "origin_instances": 0.07430555632648368,
+          "override": 0.888888888888889,
+          "no_opportunity": 0.8486111111111111,
+          "no_distinction": 0.8486111111111111,
+          "house_mean_pair_accuracy_where_informative": 0.5041041957229195
+        },
+        "houses": {
+          "hold_01": {
+            "instances": 0.0,
+            "gain": -0.025925927174588047,
+            "origin_instances": 0.025925927174588047,
+            "override": 0.888888888888889,
+            "pair_credit": 2.5,
+            "strict_pairs": 5.333333333333333,
+            "no_opportunity": 0.9333333333333333,
+            "no_distinction": 0.9333333333333333,
+            "pair_accuracy": 0.46875,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "hold_02": {
+            "instances": 0.0,
+            "gain": -0.025925926864147186,
+            "origin_instances": 0.025925926864147186,
+            "override": 0.888888888888889,
+            "pair_credit": 4.708333333333333,
+            "strict_pairs": 8.0,
+            "no_opportunity": 0.8500000000000001,
+            "no_distinction": 0.8500000000000001,
+            "pair_accuracy": 0.5885416666666666,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "hold_03": {
+            "instances": 0.0,
+            "gain": 0.0,
+            "origin_instances": 0.0,
+            "override": 0.888888888888889,
+            "pair_credit": 0.0,
+            "strict_pairs": 0.0,
+            "no_opportunity": 1.0,
+            "no_distinction": 1.0,
+            "pair_accuracy": null,
+            "informative_starts": 0,
+            "starts": 4
+          },
+          "hold_04": {
+            "instances": 0.2222222238779068,
+            "gain": -0.023148148010174438,
+            "origin_instances": 0.24537037126719952,
+            "override": 0.888888888888889,
+            "pair_credit": 18.125,
+            "strict_pairs": 39.833333333333336,
+            "no_opportunity": 0.611111111111111,
+            "no_distinction": 0.611111111111111,
+            "pair_accuracy": 0.45502092050209203,
+            "informative_starts": 4,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.5417225286364555,
+          "double_difference": 0.5,
+          "ranking_starts": 8,
+          "opposite_starts": 5
+        }
+      },
+      "v6": {
+        "mean": {
+          "instances": 0.07984182137685517,
+          "gain": 0.005536265506331498,
+          "origin_instances": 0.07430555632648368,
+          "override": 0.5530092592592593,
+          "no_opportunity": 0.8486111111111111,
+          "no_distinction": 0.8486111111111111,
+          "house_mean_pair_accuracy_where_informative": 0.47579977336122736
+        },
+        "houses": {
+          "hold_01": {
+            "instances": 0.026851852308027446,
+            "gain": 0.0009259260259568687,
+            "origin_instances": 0.025925927174588047,
+            "override": 0.5541666666666667,
+            "pair_credit": 2.0,
+            "strict_pairs": 5.333333333333333,
+            "no_opportunity": 0.9333333333333333,
+            "no_distinction": 0.9333333333333333,
+            "pair_accuracy": 0.375,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "hold_02": {
+            "instances": 0.044444445171393454,
+            "gain": 0.01851851916095863,
+            "origin_instances": 0.025925926864147186,
+            "override": 0.5444444444444445,
+            "pair_credit": 4.8125,
+            "strict_pairs": 8.0,
+            "no_opportunity": 0.8500000000000001,
+            "no_distinction": 0.8500000000000001,
+            "pair_accuracy": 0.6015625,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "hold_03": {
+            "instances": 0.0,
+            "gain": 0.0,
+            "origin_instances": 0.0,
+            "override": 0.5451388888888888,
+            "pair_credit": 0.0,
+            "strict_pairs": 0.0,
+            "no_opportunity": 1.0,
+            "no_distinction": 1.0,
+            "pair_accuracy": null,
+            "informative_starts": 0,
+            "starts": 4
+          },
+          "hold_04": {
+            "instances": 0.2480709880279998,
+            "gain": 0.002700616838410495,
+            "origin_instances": 0.24537037126719952,
+            "override": 0.568287037037037,
+            "pair_credit": 17.958333333333336,
+            "strict_pairs": 39.833333333333336,
+            "no_opportunity": 0.611111111111111,
+            "no_distinction": 0.611111111111111,
+            "pair_accuracy": 0.45083682008368203,
+            "informative_starts": 4,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.43197572029506165,
+          "double_difference": 0.19754464474196234,
+          "ranking_starts": 8,
+          "opposite_starts": 5
+        }
+      },
+      "joint_no_future": {
+        "mean": {
+          "instances": 0.08487654417209947,
+          "gain": 0.01057098794262856,
+          "origin_instances": 0.07430555632648368,
+          "override": 0.8440586419753088,
+          "no_opportunity": 0.8486111111111111,
+          "no_distinction": 0.8486111111111111,
+          "house_mean_pair_accuracy_where_informative": 0.5613123256624825
+        },
+        "houses": {
+          "hold_01": {
+            "instances": 0.06666666766007741,
+            "gain": 0.04074074203769366,
+            "origin_instances": 0.025925927174588047,
+            "override": 0.8537037037037039,
+            "pair_credit": 2.833333333333333,
+            "strict_pairs": 5.333333333333333,
+            "no_opportunity": 0.9333333333333333,
+            "no_distinction": 0.9333333333333333,
+            "pair_accuracy": 0.53125,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "hold_02": {
+            "instances": 0.025925926320875686,
+            "gain": -7.761021512953103e-11,
+            "origin_instances": 0.025925926864147186,
+            "override": 0.838888888888889,
+            "pair_credit": 5.0625,
+            "strict_pairs": 8.0,
+            "no_opportunity": 0.8500000000000001,
+            "no_distinction": 0.8500000000000001,
+            "pair_accuracy": 0.6328125,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "hold_03": {
+            "instances": 0.0,
+            "gain": 0.0,
+            "origin_instances": 0.0,
+            "override": 0.8298611111111113,
+            "pair_credit": 0.0,
+            "strict_pairs": 0.0,
+            "no_opportunity": 1.0,
+            "no_distinction": 1.0,
+            "pair_accuracy": null,
+            "informative_starts": 0,
+            "starts": 4
+          },
+          "hold_04": {
+            "instances": 0.24691358270744482,
+            "gain": 0.0015432098104308052,
+            "origin_instances": 0.24537037126719952,
+            "override": 0.8537808641975309,
+            "pair_credit": 20.708333333333332,
+            "strict_pairs": 39.833333333333336,
+            "no_opportunity": 0.611111111111111,
+            "no_distinction": 0.611111111111111,
+            "pair_accuracy": 0.5198744769874476,
+            "informative_starts": 4,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.62196143457873,
+          "double_difference": 0.3619791674427688,
+          "ranking_starts": 8,
+          "opposite_starts": 5
+        }
+      },
+      "no_word": {
+        "mean": {
+          "instances": 0.07930169928780136,
+          "gain": 0.004996142524760218,
+          "origin_instances": 0.07430555632648368,
+          "override": 0.8200231481481484,
+          "no_opportunity": 0.8486111111111111,
+          "no_distinction": 0.8486111111111111,
+          "house_mean_pair_accuracy_where_informative": 0.5932542276847977
+        },
+        "houses": {
+          "hold_01": {
+            "instances": 0.059259260150914386,
+            "gain": 0.03333333476136128,
+            "origin_instances": 0.025925927174588047,
+            "override": 0.837962962962963,
+            "pair_credit": 3.5625,
+            "strict_pairs": 5.333333333333333,
+            "no_opportunity": 0.9333333333333333,
+            "no_distinction": 0.9333333333333333,
+            "pair_accuracy": 0.66796875,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "hold_02": {
+            "instances": 0.06157407572027296,
+            "gain": 0.0356481495158126,
+            "origin_instances": 0.025925926864147186,
+            "override": 0.8101851851851852,
+            "pair_credit": 5.25,
+            "strict_pairs": 8.0,
+            "no_opportunity": 0.8500000000000001,
+            "no_distinction": 0.8500000000000001,
+            "pair_accuracy": 0.65625,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "hold_03": {
+            "instances": 0.0,
+            "gain": 0.0,
+            "origin_instances": 0.0,
+            "override": 0.789351851851852,
+            "pair_credit": 0.0,
+            "strict_pairs": 0.0,
+            "no_opportunity": 1.0,
+            "no_distinction": 1.0,
+            "pair_accuracy": null,
+            "informative_starts": 0,
+            "starts": 4
+          },
+          "hold_04": {
+            "instances": 0.1963734612800181,
+            "gain": -0.048996914178133004,
+            "origin_instances": 0.24537037126719952,
+            "override": 0.8425925925925928,
+            "pair_credit": 18.145833333333336,
+            "strict_pairs": 39.833333333333336,
+            "no_opportunity": 0.611111111111111,
+            "no_distinction": 0.611111111111111,
+            "pair_accuracy": 0.45554393305439334,
+            "informative_starts": 4,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.602871231450182,
+          "double_difference": 0.5,
+          "ranking_starts": 8,
+          "opposite_starts": 5
+        }
+      },
+      "retain": {
+        "mean": {
+          "instances": 0.07430555632648368,
+          "gain": 0.0,
+          "origin_instances": 0.07430555632648368,
+          "override": 0.0,
+          "no_opportunity": 0.8486111111111111,
+          "no_distinction": 0.8486111111111111,
+          "house_mean_pair_accuracy_where_informative": 0.5
+        },
+        "houses": {
+          "hold_01": {
+            "instances": 0.025925927174588047,
+            "gain": 0.0,
+            "origin_instances": 0.025925927174588047,
+            "override": 0.0,
+            "pair_credit": 2.6666666666666665,
+            "strict_pairs": 5.333333333333333,
+            "no_opportunity": 0.9333333333333333,
+            "no_distinction": 0.9333333333333333,
+            "pair_accuracy": 0.5,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "hold_02": {
+            "instances": 0.025925926864147186,
+            "gain": 0.0,
+            "origin_instances": 0.025925926864147186,
+            "override": 0.0,
+            "pair_credit": 4.0,
+            "strict_pairs": 8.0,
+            "no_opportunity": 0.8500000000000001,
+            "no_distinction": 0.8500000000000001,
+            "pair_accuracy": 0.5,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "hold_03": {
+            "instances": 0.0,
+            "gain": 0.0,
+            "origin_instances": 0.0,
+            "override": 0.0,
+            "pair_credit": 0.0,
+            "strict_pairs": 0.0,
+            "no_opportunity": 1.0,
+            "no_distinction": 1.0,
+            "pair_accuracy": null,
+            "informative_starts": 0,
+            "starts": 4
+          },
+          "hold_04": {
+            "instances": 0.24537037126719952,
+            "gain": 0.0,
+            "origin_instances": 0.24537037126719952,
+            "override": 0.0,
+            "pair_credit": 19.916666666666668,
+            "strict_pairs": 39.833333333333336,
+            "no_opportunity": 0.611111111111111,
+            "no_distinction": 0.611111111111111,
+            "pair_accuracy": 0.5,
+            "informative_starts": 4,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.5,
+          "double_difference": 0.5,
+          "ranking_starts": 8,
+          "opposite_starts": 5
+        }
+      }
+    },
+    "primitives|derived": {
+      "geometry": {
+        "mean": {
+          "instances": 0.0838707031798549,
+          "gain": -0.03515395487193018,
+          "origin_instances": 0.1190246578771621,
+          "override": 0.8148148148148149,
+          "no_opportunity": 0.8305638227513228,
+          "no_distinction": 0.8394923941798942,
+          "house_mean_pair_accuracy_where_informative": 0.4653886377700287
+        },
+        "houses": {
+          "hold_01": {
+            "instances": 0.04629629664123058,
+            "gain": -0.02057613121966521,
+            "origin_instances": 0.06687242910265923,
+            "override": 0.8148148148148149,
+            "pair_credit": 8.166666666666668,
+            "strict_pairs": 16.166666666666668,
+            "no_opportunity": 0.8981481481481483,
+            "no_distinction": 0.8981481481481483,
+            "pair_accuracy": 0.5051546391752577,
+            "informative_starts": 3,
+            "starts": 4
+          },
+          "hold_02": {
+            "instances": 0.09920635353773832,
+            "gain": -0.07539682959516843,
+            "origin_instances": 0.17460318189114335,
+            "override": 0.8148148148148149,
+            "pair_credit": 16.916666666666664,
+            "strict_pairs": 36.83333333333333,
+            "no_opportunity": 0.6666666666666666,
+            "no_distinction": 0.6666666666666666,
+            "pair_accuracy": 0.4592760180995475,
+            "informative_starts": 4,
+            "starts": 4
+          },
+          "hold_03": {
+            "instances": 0.021990740749364097,
+            "gain": -0.002314814832061529,
+            "origin_instances": 0.0243055559694767,
+            "override": 0.8148148148148149,
+            "pair_credit": 3.0,
+            "strict_pairs": 8.0,
+            "no_opportunity": 0.9479166666666666,
+            "no_distinction": 0.9479166666666666,
+            "pair_accuracy": 0.375,
+            "informative_starts": 1,
+            "starts": 4
+          },
+          "hold_04": {
+            "instances": 0.16798942179108659,
+            "gain": -0.04232804384082556,
+            "origin_instances": 0.21031746454536915,
+            "override": 0.8148148148148149,
+            "pair_credit": 9.833333333333332,
+            "strict_pairs": 18.833333333333332,
+            "no_opportunity": 0.8095238095238095,
+            "no_distinction": 0.8452380952380952,
+            "pair_accuracy": 0.5221238938053097,
+            "informative_starts": 3,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.48215363205720985,
+          "double_difference": 0.5,
+          "ranking_starts": 11,
+          "opposite_starts": 6
+        }
+      },
+      "observed": {
+        "mean": {
+          "instances": 0.1330903729443283,
+          "gain": 0.0140657155328275,
+          "origin_instances": 0.1190246578771621,
+          "override": 0.8357675631981187,
+          "no_opportunity": 0.8305638227513228,
+          "no_distinction": 0.8394923941798942,
+          "house_mean_pair_accuracy_where_informative": 0.5005637650088213
+        },
+        "houses": {
+          "hold_01": {
+            "instances": 0.049639918065319456,
+            "gain": -0.01723251041645805,
+            "origin_instances": 0.06687242910265923,
+            "override": 0.8328189300411523,
+            "pair_credit": 6.6875,
+            "strict_pairs": 16.166666666666668,
+            "no_opportunity": 0.8981481481481483,
+            "no_distinction": 0.8981481481481483,
+            "pair_accuracy": 0.41365979381443296,
+            "informative_starts": 3,
+            "starts": 4
+          },
+          "hold_02": {
+            "instances": 0.2245370438710476,
+            "gain": 0.049933864385820925,
+            "origin_instances": 0.17460318189114335,
+            "override": 0.8310185185185186,
+            "pair_credit": 20.270833333333332,
+            "strict_pairs": 36.83333333333333,
+            "no_opportunity": 0.6666666666666666,
+            "no_distinction": 0.6666666666666666,
+            "pair_accuracy": 0.5503393665158371,
+            "informative_starts": 4,
+            "starts": 4
+          },
+          "hold_03": {
+            "instances": 0.0445601853231589,
+            "gain": 0.02025463036261499,
+            "origin_instances": 0.0243055559694767,
+            "override": 0.8310185185185185,
+            "pair_credit": 3.9166666666666665,
+            "strict_pairs": 8.0,
+            "no_opportunity": 0.9479166666666666,
+            "no_distinction": 0.9479166666666666,
+            "pair_accuracy": 0.4895833333333333,
+            "informative_starts": 1,
+            "starts": 4
+          },
+          "hold_04": {
+            "instances": 0.21362434451778728,
+            "gain": 0.003306877799332142,
+            "origin_instances": 0.21031746454536915,
+            "override": 0.8482142857142858,
+            "pair_credit": 10.333333333333334,
+            "strict_pairs": 18.833333333333332,
+            "no_opportunity": 0.8095238095238095,
+            "no_distinction": 0.8452380952380952,
+            "pair_accuracy": 0.5486725663716815,
+            "informative_starts": 3,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.49850395316671997,
+          "double_difference": 0.634654143669953,
+          "ranking_starts": 11,
+          "opposite_starts": 6
+        }
+      },
+      "jepa": {
+        "mean": {
+          "instances": 0.12611722270958126,
+          "gain": 0.0070925652544246995,
+          "origin_instances": 0.1190246578771621,
+          "override": 0.8516141699735451,
+          "no_opportunity": 0.8305638227513228,
+          "no_distinction": 0.8394923941798942,
+          "house_mean_pair_accuracy_where_informative": 0.5398406395745894
+        },
+        "houses": {
+          "hold_01": {
+            "instances": 0.07304526881004374,
+            "gain": 0.006172839862604936,
+            "origin_instances": 0.06687242910265923,
+            "override": 0.8587962962962962,
+            "pair_credit": 10.8125,
+            "strict_pairs": 16.166666666666668,
+            "no_opportunity": 0.8981481481481483,
+            "no_distinction": 0.8981481481481483,
+            "pair_accuracy": 0.6688144329896907,
+            "informative_starts": 3,
+            "starts": 4
+          },
+          "hold_02": {
+            "instances": 0.1686507998965681,
+            "gain": -0.005952380946837364,
+            "origin_instances": 0.17460318189114335,
+            "override": 0.8432539682539684,
+            "pair_credit": 19.5625,
+            "strict_pairs": 36.83333333333333,
+            "no_opportunity": 0.6666666666666666,
+            "no_distinction": 0.6666666666666666,
+            "pair_accuracy": 0.531108597285068,
+            "informative_starts": 4,
+            "starts": 4
+          },
+          "hold_03": {
+            "instances": 0.033275462997456394,
+            "gain": 0.008969907590653747,
+            "origin_instances": 0.0243055559694767,
+            "override": 0.8423032407407408,
+            "pair_credit": 2.6666666666666665,
+            "strict_pairs": 8.0,
+            "no_opportunity": 0.9479166666666666,
+            "no_distinction": 0.9479166666666666,
+            "pair_accuracy": 0.3333333333333333,
+            "informative_starts": 1,
+            "starts": 4
+          },
+          "hold_04": {
+            "instances": 0.2294973591342568,
+            "gain": 0.019179894511277478,
+            "origin_instances": 0.21031746454536915,
+            "override": 0.8621031746031748,
+            "pair_credit": 11.791666666666668,
+            "strict_pairs": 18.833333333333332,
+            "no_opportunity": 0.8095238095238095,
+            "no_distinction": 0.8452380952380952,
+            "pair_accuracy": 0.6261061946902656,
+            "informative_starts": 3,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.5619435647709502,
+          "double_difference": 0.7677321696343521,
+          "ranking_starts": 11,
+          "opposite_starts": 6
+        }
+      },
+      "joint": {
+        "mean": {
+          "instances": 0.12846074296491378,
+          "gain": 0.009436085897808274,
+          "origin_instances": 0.1190246578771621,
+          "override": 0.8502489344503235,
+          "no_opportunity": 0.8305638227513228,
+          "no_distinction": 0.8394923941798942,
+          "house_mean_pair_accuracy_where_informative": 0.5579600485276677
+        },
+        "houses": {
+          "hold_01": {
+            "instances": 0.04038065842663248,
+            "gain": -0.026491769434263308,
+            "origin_instances": 0.06687242910265923,
+            "override": 0.8575102880658436,
+            "pair_credit": 8.437500000000002,
+            "strict_pairs": 16.166666666666668,
+            "no_opportunity": 0.8981481481481483,
+            "no_distinction": 0.8981481481481483,
+            "pair_accuracy": 0.5219072164948454,
+            "informative_starts": 3,
+            "starts": 4
+          },
+          "hold_02": {
+            "instances": 0.16765873541589826,
+            "gain": -0.0069444446125999084,
+            "origin_instances": 0.17460318189114335,
+            "override": 0.841931216931217,
+            "pair_credit": 20.3125,
+            "strict_pairs": 36.83333333333333,
+            "no_opportunity": 0.6666666666666666,
+            "no_distinction": 0.6666666666666666,
+            "pair_accuracy": 0.5514705882352942,
+            "informative_starts": 4,
+            "starts": 4
+          },
+          "hold_03": {
+            "instances": 0.04687500017462298,
+            "gain": 0.022569445427507162,
+            "origin_instances": 0.0243055559694767,
+            "override": 0.8414351851851852,
+            "pair_credit": 4.25,
+            "strict_pairs": 8.0,
+            "no_opportunity": 0.9479166666666666,
+            "no_distinction": 0.9479166666666666,
+            "pair_accuracy": 0.53125,
+            "informative_starts": 1,
+            "starts": 4
+          },
+          "hold_04": {
+            "instances": 0.25892857784250134,
+            "gain": 0.04861111221058915,
+            "origin_instances": 0.21031746454536915,
+            "override": 0.8601190476190477,
+            "pair_credit": 11.8125,
+            "strict_pairs": 18.833333333333332,
+            "no_opportunity": 0.8095238095238095,
+            "no_distinction": 0.8452380952380952,
+            "pair_accuracy": 0.627212389380531,
+            "informative_starts": 3,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.5640985135816866,
+          "double_difference": 0.6118327953542272,
+          "ranking_starts": 11,
+          "opposite_starts": 6
+        }
+      },
+      "wrong": {
+        "mean": {
+          "instances": 0.11068397527560592,
+          "gain": -0.008340682363874901,
+          "origin_instances": 0.1190246578771621,
+          "override": 0.8502489344503235,
+          "no_opportunity": 0.8305638227513228,
+          "no_distinction": 0.8394923941798942,
+          "house_mean_pair_accuracy_where_informative": 0.47842669761177126
+        },
+        "houses": {
+          "hold_01": {
+            "instances": 0.0794753092341125,
+            "gain": 0.012602880597114563,
+            "origin_instances": 0.06687242910265923,
+            "override": 0.8575102880658436,
+            "pair_credit": 8.645833333333334,
+            "strict_pairs": 16.166666666666668,
+            "no_opportunity": 0.8981481481481483,
+            "no_distinction": 0.8981481481481483,
+            "pair_accuracy": 0.5347938144329897,
+            "informative_starts": 3,
+            "starts": 4
+          },
+          "hold_02": {
+            "instances": 0.13955026915452132,
+            "gain": -0.035052910912781954,
+            "origin_instances": 0.17460318189114335,
+            "override": 0.841931216931217,
+            "pair_credit": 17.104166666666664,
+            "strict_pairs": 36.83333333333333,
+            "no_opportunity": 0.6666666666666666,
+            "no_distinction": 0.6666666666666666,
+            "pair_accuracy": 0.4643665158371041,
+            "informative_starts": 4,
+            "starts": 4
+          },
+          "hold_03": {
+            "instances": 0.017361111162851255,
+            "gain": -0.00694444467080757,
+            "origin_instances": 0.0243055559694767,
+            "override": 0.8414351851851852,
+            "pair_credit": 3.75,
+            "strict_pairs": 8.0,
+            "no_opportunity": 0.9479166666666666,
+            "no_distinction": 0.9479166666666666,
+            "pair_accuracy": 0.46875,
+            "informative_starts": 1,
+            "starts": 4
+          },
+          "hold_04": {
+            "instances": 0.2063492115509386,
+            "gain": -0.0039682544690246395,
+            "origin_instances": 0.21031746454536915,
+            "override": 0.8601190476190477,
+            "pair_credit": 8.395833333333334,
+            "strict_pairs": 18.833333333333332,
+            "no_opportunity": 0.8095238095238095,
+            "no_distinction": 0.8452380952380952,
+            "pair_accuracy": 0.4457964601769912,
+            "informative_starts": 3,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.4906918613770459,
+          "double_difference": 0.4205712218924115,
+          "ranking_starts": 11,
+          "opposite_starts": 6
+        }
+      },
+      "displacement": {
+        "mean": {
+          "instances": 0.14174107446645695,
+          "gain": 0.022716417404202122,
+          "origin_instances": 0.1190246578771621,
+          "override": 0.888888888888889,
+          "no_opportunity": 0.8305638227513228,
+          "no_distinction": 0.8394923941798942,
+          "house_mean_pair_accuracy_where_informative": 0.5122942668545948
+        },
+        "houses": {
+          "hold_01": {
+            "instances": 0.08333333395421505,
+            "gain": 0.01646090547243754,
+            "origin_instances": 0.06687242910265923,
+            "override": 0.888888888888889,
+            "pair_credit": 7.166666666666667,
+            "strict_pairs": 16.166666666666668,
+            "no_opportunity": 0.8981481481481483,
+            "no_distinction": 0.8981481481481483,
+            "pair_accuracy": 0.44329896907216493,
+            "informative_starts": 3,
+            "starts": 4
+          },
+          "hold_02": {
+            "instances": 0.22619048381845155,
+            "gain": 0.051587303479512535,
+            "origin_instances": 0.17460318189114335,
+            "override": 0.888888888888889,
+            "pair_credit": 23.875,
+            "strict_pairs": 36.83333333333333,
+            "no_opportunity": 0.6666666666666666,
+            "no_distinction": 0.6666666666666666,
+            "pair_accuracy": 0.6481900452488688,
+            "informative_starts": 4,
+            "starts": 4
+          },
+          "hold_03": {
+            "instances": 0.03125,
+            "gain": 0.0069444444961845875,
+            "origin_instances": 0.0243055559694767,
+            "override": 0.888888888888889,
+            "pair_credit": 3.75,
+            "strict_pairs": 8.0,
+            "no_opportunity": 0.9479166666666666,
+            "no_distinction": 0.9479166666666666,
+            "pair_accuracy": 0.46875,
+            "informative_starts": 1,
+            "starts": 4
+          },
+          "hold_04": {
+            "instances": 0.22619048009316128,
+            "gain": 0.015873016168673832,
+            "origin_instances": 0.21031746454536915,
+            "override": 0.888888888888889,
+            "pair_credit": 9.208333333333334,
+            "strict_pairs": 18.833333333333332,
+            "no_opportunity": 0.8095238095238095,
+            "no_distinction": 0.8452380952380952,
+            "pair_accuracy": 0.48893805309734517,
+            "informative_starts": 3,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.4889173275894589,
+          "double_difference": 0.5,
+          "ranking_starts": 11,
+          "opposite_starts": 6
+        }
+      },
+      "v6": {
+        "mean": {
+          "instances": 0.12406420160550624,
+          "gain": 0.0050395449943607664,
+          "origin_instances": 0.1190246578771621,
+          "override": 0.505141736478542,
+          "no_opportunity": 0.8305638227513228,
+          "no_distinction": 0.8394923941798942,
+          "house_mean_pair_accuracy_where_informative": 0.5502170229909299
+        },
+        "houses": {
+          "hold_01": {
+            "instances": 0.06069958830873171,
+            "gain": -0.00617283924172322,
+            "origin_instances": 0.06687242910265923,
+            "override": 0.5156893004115226,
+            "pair_credit": 7.708333333333333,
+            "strict_pairs": 16.166666666666668,
+            "no_opportunity": 0.8981481481481483,
+            "no_distinction": 0.8981481481481483,
+            "pair_accuracy": 0.4768041237113402,
+            "informative_starts": 3,
+            "starts": 4
+          },
+          "hold_02": {
+            "instances": 0.1964285760186613,
+            "gain": 0.021825397581172485,
+            "origin_instances": 0.17460318189114335,
+            "override": 0.48842592592592593,
+            "pair_credit": 20.395833333333336,
+            "strict_pairs": 36.83333333333333,
+            "no_opportunity": 0.6666666666666666,
+            "no_distinction": 0.6666666666666666,
+            "pair_accuracy": 0.5537330316742083,
+            "informative_starts": 4,
+            "starts": 4
+          },
+          "hold_03": {
+            "instances": 0.025173611473292112,
+            "gain": 0.0008680555620230734,
+            "origin_instances": 0.0243055559694767,
+            "override": 0.5283564814814815,
+            "pair_credit": 4.645833333333333,
+            "strict_pairs": 8.0,
+            "no_opportunity": 0.9479166666666666,
+            "no_distinction": 0.9479166666666666,
+            "pair_accuracy": 0.5807291666666666,
+            "informative_starts": 1,
+            "starts": 4
+          },
+          "hold_04": {
+            "instances": 0.2139550306213399,
+            "gain": 0.0036375660759707285,
+            "origin_instances": 0.21031746454536915,
+            "override": 0.4880952380952381,
+            "pair_credit": 11.104166666666668,
+            "strict_pairs": 18.833333333333332,
+            "no_opportunity": 0.8095238095238095,
+            "no_distinction": 0.8452380952380952,
+            "pair_accuracy": 0.5896017699115045,
+            "informative_starts": 3,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.5703571013420717,
+          "double_difference": 0.7872515016545852,
+          "ranking_starts": 11,
+          "opposite_starts": 6
+        }
+      },
+      "joint_no_future": {
+        "mean": {
+          "instances": 0.11498406588604364,
+          "gain": -0.0040405917825410125,
+          "origin_instances": 0.1190246578771621,
+          "override": 0.850430353468548,
+          "no_opportunity": 0.8305638227513228,
+          "no_distinction": 0.8394923941798942,
+          "house_mean_pair_accuracy_where_informative": 0.5033221956818175
+        },
+        "houses": {
+          "hold_01": {
+            "instances": 0.032150206000854574,
+            "gain": -0.034722221860041216,
+            "origin_instances": 0.06687242910265923,
+            "override": 0.8569958847736625,
+            "pair_credit": 5.645833333333333,
+            "strict_pairs": 16.166666666666668,
+            "no_opportunity": 0.8981481481481483,
+            "no_distinction": 0.8981481481481483,
+            "pair_accuracy": 0.3492268041237113,
+            "informative_starts": 3,
+            "starts": 4
+          },
+          "hold_02": {
+            "instances": 0.1603836037296181,
+            "gain": -0.01421957730781287,
+            "origin_instances": 0.17460318189114335,
+            "override": 0.8452380952380953,
+            "pair_credit": 19.375,
+            "strict_pairs": 36.83333333333333,
+            "no_opportunity": 0.6666666666666666,
+            "no_distinction": 0.6666666666666666,
+            "pair_accuracy": 0.5260180995475113,
+            "informative_starts": 4,
+            "starts": 4
+          },
+          "hold_03": {
+            "instances": 0.028645833333333332,
+            "gain": 0.004340277810115367,
+            "origin_instances": 0.0243055559694767,
+            "override": 0.8396990740740741,
+            "pair_credit": 4.458333333333333,
+            "strict_pairs": 8.0,
+            "no_opportunity": 0.9479166666666666,
+            "no_distinction": 0.9479166666666666,
+            "pair_accuracy": 0.5572916666666666,
+            "informative_starts": 1,
+            "starts": 4
+          },
+          "hold_04": {
+            "instances": 0.23875662048036853,
+            "gain": 0.02843915422757467,
+            "origin_instances": 0.21031746454536915,
+            "override": 0.85978835978836,
+            "pair_credit": 10.937500000000002,
+            "strict_pairs": 18.833333333333332,
+            "no_opportunity": 0.8095238095238095,
+            "no_distinction": 0.8452380952380952,
+            "pair_accuracy": 0.5807522123893807,
+            "informative_starts": 3,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.5165391572647624,
+          "double_difference": 0.6437534103170037,
+          "ranking_starts": 11,
+          "opposite_starts": 6
+        }
+      },
+      "no_word": {
+        "mean": {
+          "instances": 0.130707812893282,
+          "gain": 0.011683155418722889,
+          "origin_instances": 0.1190246578771621,
+          "override": 0.8200231481481484,
+          "no_opportunity": 0.8305638227513228,
+          "no_distinction": 0.8394923941798942,
+          "house_mean_pair_accuracy_where_informative": 0.6030720225201466
+        },
+        "houses": {
+          "hold_01": {
+            "instances": 0.047839506374051176,
+            "gain": -0.01903292133162419,
+            "origin_instances": 0.06687242910265923,
+            "override": 0.837962962962963,
+            "pair_credit": 8.8125,
+            "strict_pairs": 16.166666666666668,
+            "no_opportunity": 0.8981481481481483,
+            "no_distinction": 0.8981481481481483,
+            "pair_accuracy": 0.5451030927835051,
+            "informative_starts": 3,
+            "starts": 4
+          },
+          "hold_02": {
+            "instances": 0.20469577315573892,
+            "gain": 0.030092592972020302,
+            "origin_instances": 0.17460318189114335,
+            "override": 0.8101851851851852,
+            "pair_credit": 23.937500000000004,
+            "strict_pairs": 36.83333333333333,
+            "no_opportunity": 0.6666666666666666,
+            "no_distinction": 0.6666666666666666,
+            "pair_accuracy": 0.6498868778280544,
+            "informative_starts": 4,
+            "starts": 4
+          },
+          "hold_03": {
+            "instances": 0.03153935198982557,
+            "gain": 0.007233796350192279,
+            "origin_instances": 0.0243055559694767,
+            "override": 0.789351851851852,
+            "pair_credit": 5.4375,
+            "strict_pairs": 8.0,
+            "no_opportunity": 0.9479166666666666,
+            "no_distinction": 0.9479166666666666,
+            "pair_accuracy": 0.6796875,
+            "informative_starts": 1,
+            "starts": 4
+          },
+          "hold_04": {
+            "instances": 0.23875662005351236,
+            "gain": 0.028439153684303164,
+            "origin_instances": 0.21031746454536915,
+            "override": 0.8425925925925928,
+            "pair_credit": 10.125,
+            "strict_pairs": 18.833333333333332,
+            "no_opportunity": 0.8095238095238095,
+            "no_distinction": 0.8452380952380952,
+            "pair_accuracy": 0.5376106194690266,
+            "informative_starts": 3,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.6641064055470957,
+          "double_difference": 0.5,
+          "ranking_starts": 11,
+          "opposite_starts": 6
+        }
+      },
+      "retain": {
+        "mean": {
+          "instances": 0.1190246578771621,
+          "gain": 0.0,
+          "origin_instances": 0.1190246578771621,
+          "override": 0.0,
+          "no_opportunity": 0.8305638227513228,
+          "no_distinction": 0.8394923941798942,
+          "house_mean_pair_accuracy_where_informative": 0.5
+        },
+        "houses": {
+          "hold_01": {
+            "instances": 0.06687242910265923,
+            "gain": 0.0,
+            "origin_instances": 0.06687242910265923,
+            "override": 0.0,
+            "pair_credit": 8.083333333333334,
+            "strict_pairs": 16.166666666666668,
+            "no_opportunity": 0.8981481481481483,
+            "no_distinction": 0.8981481481481483,
+            "pair_accuracy": 0.5,
+            "informative_starts": 3,
+            "starts": 4
+          },
+          "hold_02": {
+            "instances": 0.17460318189114335,
+            "gain": 0.0,
+            "origin_instances": 0.17460318189114335,
+            "override": 0.0,
+            "pair_credit": 18.416666666666664,
+            "strict_pairs": 36.83333333333333,
+            "no_opportunity": 0.6666666666666666,
+            "no_distinction": 0.6666666666666666,
+            "pair_accuracy": 0.5,
+            "informative_starts": 4,
+            "starts": 4
+          },
+          "hold_03": {
+            "instances": 0.0243055559694767,
+            "gain": 0.0,
+            "origin_instances": 0.0243055559694767,
+            "override": 0.0,
+            "pair_credit": 4.0,
+            "strict_pairs": 8.0,
+            "no_opportunity": 0.9479166666666666,
+            "no_distinction": 0.9479166666666666,
+            "pair_accuracy": 0.5,
+            "informative_starts": 1,
+            "starts": 4
+          },
+          "hold_04": {
+            "instances": 0.21031746454536915,
+            "gain": 0.0,
+            "origin_instances": 0.21031746454536915,
+            "override": 0.0,
+            "pair_credit": 9.416666666666666,
+            "strict_pairs": 18.833333333333332,
+            "no_opportunity": 0.8095238095238095,
+            "no_distinction": 0.8452380952380952,
+            "pair_accuracy": 0.5,
+            "informative_starts": 3,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.5,
+          "double_difference": 0.5,
+          "ranking_starts": 11,
+          "opposite_starts": 6
+        }
+      }
+    },
+    "frontiers|official": {
+      "geometry": {
+        "mean": {
+          "instances": 0.12795139042039713,
+          "gain": 0.035902778152376406,
+          "origin_instances": 0.09204861265607178,
+          "override": 0.6427083333333333,
+          "no_opportunity": 0.8701388888888888,
+          "no_distinction": 0.8881944444444445,
+          "house_mean_pair_accuracy_where_informative": 0.5188492063492064
+        },
+        "houses": {
+          "hold_01": {
+            "instances": 0.0,
+            "gain": -0.01666666753590107,
+            "origin_instances": 0.01666666753590107,
+            "override": 0.5277777777777778,
+            "pair_credit": 0.08333333333333333,
+            "strict_pairs": 0.3333333333333333,
+            "no_opportunity": 0.9666666666666667,
+            "no_distinction": 0.9666666666666667,
+            "pair_accuracy": 0.25,
+            "informative_starts": 1,
+            "starts": 4
+          },
+          "hold_02": {
+            "instances": 0.13333333532015482,
+            "gain": 0.02000000017384688,
+            "origin_instances": 0.11333333514630795,
+            "override": 0.7,
+            "pair_credit": 2.166666666666667,
+            "strict_pairs": 3.5,
+            "no_opportunity": 0.8333333333333334,
+            "no_distinction": 0.8500000000000001,
+            "pair_accuracy": 0.6190476190476192,
+            "informative_starts": 3,
+            "starts": 4
+          },
+          "hold_03": {
+            "instances": 0.0,
+            "gain": 0.0,
+            "origin_instances": 0.0,
+            "override": 0.6597222222222222,
+            "pair_credit": 0.0,
+            "strict_pairs": 0.0,
+            "no_opportunity": 1.0,
+            "no_distinction": 1.0,
+            "pair_accuracy": null,
+            "informative_starts": 0,
+            "starts": 4
+          },
+          "hold_04": {
+            "instances": 0.3784722263614337,
+            "gain": 0.14027777997155982,
+            "origin_instances": 0.2381944479420781,
+            "override": 0.6833333333333332,
+            "pair_credit": 4.583333333333333,
+            "strict_pairs": 6.666666666666667,
+            "no_opportunity": 0.6805555555555555,
+            "no_distinction": 0.736111111111111,
+            "pair_accuracy": 0.6874999999999999,
+            "informative_starts": 4,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.7590811989373631,
+          "double_difference": 0.5,
+          "ranking_starts": 8,
+          "opposite_starts": 3
+        }
+      },
+      "observed": {
+        "mean": {
+          "instances": 0.12257812635895488,
+          "gain": 0.03052951424615458,
+          "origin_instances": 0.09204861265607178,
+          "override": 0.6561241319444444,
+          "no_opportunity": 0.8701388888888888,
+          "no_distinction": 0.8881944444444445,
+          "house_mean_pair_accuracy_where_informative": 0.4554563492063492
+        },
+        "houses": {
+          "hold_01": {
+            "instances": 0.016666666915019352,
+            "gain": 0.0,
+            "origin_instances": 0.01666666753590107,
+            "override": 0.5270833333333333,
+            "pair_credit": 0.08333333333333333,
+            "strict_pairs": 0.3333333333333333,
+            "no_opportunity": 0.9666666666666667,
+            "no_distinction": 0.9666666666666667,
+            "pair_accuracy": 0.25,
+            "informative_starts": 1,
+            "starts": 4
+          },
+          "hold_02": {
+            "instances": 0.10194444656372072,
+            "gain": -0.01138888873780767,
+            "origin_instances": 0.11333333514630795,
+            "override": 0.7197222222222222,
+            "pair_credit": 1.4791666666666667,
+            "strict_pairs": 3.5,
+            "no_opportunity": 0.8333333333333334,
+            "no_distinction": 0.8500000000000001,
+            "pair_accuracy": 0.4226190476190476,
+            "informative_starts": 3,
+            "starts": 4
+          },
+          "hold_03": {
+            "instances": 0.0,
+            "gain": 0.0,
+            "origin_instances": 0.0,
+            "override": 0.6627604166666666,
+            "pair_credit": 0.0,
+            "strict_pairs": 0.0,
+            "no_opportunity": 1.0,
+            "no_distinction": 1.0,
+            "pair_accuracy": null,
+            "informative_starts": 0,
+            "starts": 4
+          },
+          "hold_04": {
+            "instances": 0.3717013919570794,
+            "gain": 0.133506945722426,
+            "origin_instances": 0.2381944479420781,
+            "override": 0.7149305555555556,
+            "pair_credit": 4.625,
+            "strict_pairs": 6.666666666666667,
+            "no_opportunity": 0.6805555555555555,
+            "no_distinction": 0.736111111111111,
+            "pair_accuracy": 0.69375,
+            "informative_starts": 4,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.36037660390138626,
+          "double_difference": 0.7916666697710752,
+          "ranking_starts": 8,
+          "opposite_starts": 3
+        }
+      },
+      "jepa": {
+        "mean": {
+          "instances": 0.12233507089937729,
+          "gain": 0.030286458573148895,
+          "origin_instances": 0.09204861265607178,
+          "override": 0.6525260416666666,
+          "no_opportunity": 0.8701388888888888,
+          "no_distinction": 0.8881944444444445,
+          "house_mean_pair_accuracy_where_informative": 0.5139880952380952
+        },
+        "houses": {
+          "hold_01": {
+            "instances": 0.0,
+            "gain": -0.01666666753590107,
+            "origin_instances": 0.01666666753590107,
+            "override": 0.5409722222222222,
+            "pair_credit": 0.0625,
+            "strict_pairs": 0.3333333333333333,
+            "no_opportunity": 0.9666666666666667,
+            "no_distinction": 0.9666666666666667,
+            "pair_accuracy": 0.1875,
+            "informative_starts": 1,
+            "starts": 4
+          },
+          "hold_02": {
+            "instances": 0.13083333506559333,
+            "gain": 0.017500000074505806,
+            "origin_instances": 0.11333333514630795,
+            "override": 0.6939583333333332,
+            "pair_credit": 2.3125,
+            "strict_pairs": 3.5,
+            "no_opportunity": 0.8333333333333334,
+            "no_distinction": 0.8500000000000001,
+            "pair_accuracy": 0.6607142857142857,
+            "informative_starts": 3,
+            "starts": 4
+          },
+          "hold_03": {
+            "instances": 0.0,
+            "gain": 0.0,
+            "origin_instances": 0.0,
+            "override": 0.6762152777777778,
+            "pair_credit": 0.0,
+            "strict_pairs": 0.0,
+            "no_opportunity": 1.0,
+            "no_distinction": 1.0,
+            "pair_accuracy": null,
+            "informative_starts": 0,
+            "starts": 4
+          },
+          "hold_04": {
+            "instances": 0.3585069485319158,
+            "gain": 0.12031250175399084,
+            "origin_instances": 0.2381944479420781,
+            "override": 0.6989583333333332,
+            "pair_credit": 4.625,
+            "strict_pairs": 6.666666666666667,
+            "no_opportunity": 0.6805555555555555,
+            "no_distinction": 0.736111111111111,
+            "pair_accuracy": 0.69375,
+            "informative_starts": 4,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.6503739334228965,
+          "double_difference": 0.734375,
+          "ranking_starts": 8,
+          "opposite_starts": 3
+        }
+      },
+      "joint": {
+        "mean": {
+          "instances": 0.08506076495784025,
+          "gain": -0.00698784738779068,
+          "origin_instances": 0.09204861265607178,
+          "override": 0.6560503472222222,
+          "no_opportunity": 0.8701388888888888,
+          "no_distinction": 0.8881944444444445,
+          "house_mean_pair_accuracy_where_informative": 0.39340277777777777
+        },
+        "houses": {
+          "hold_01": {
+            "instances": 0.004166666728754838,
+            "gain": -0.012500000651925802,
+            "origin_instances": 0.01666666753590107,
+            "override": 0.5194444444444444,
+            "pair_credit": 0.0625,
+            "strict_pairs": 0.3333333333333333,
+            "no_opportunity": 0.9666666666666667,
+            "no_distinction": 0.9666666666666667,
+            "pair_accuracy": 0.1875,
+            "informative_starts": 1,
+            "starts": 4
+          },
+          "hold_02": {
+            "instances": 0.08694444612289469,
+            "gain": -0.02638888809209069,
+            "origin_instances": 0.11333333514630795,
+            "override": 0.7215972222222222,
+            "pair_credit": 1.6041666666666665,
+            "strict_pairs": 3.5,
+            "no_opportunity": 0.8333333333333334,
+            "no_distinction": 0.8500000000000001,
+            "pair_accuracy": 0.4583333333333333,
+            "informative_starts": 3,
+            "starts": 4
+          },
+          "hold_03": {
+            "instances": 0.0,
+            "gain": 0.0,
+            "origin_instances": 0.0,
+            "override": 0.6796875,
+            "pair_credit": 0.0,
+            "strict_pairs": 0.0,
+            "no_opportunity": 1.0,
+            "no_distinction": 1.0,
+            "pair_accuracy": null,
+            "informative_starts": 0,
+            "starts": 4
+          },
+          "hold_04": {
+            "instances": 0.24913194697971147,
+            "gain": 0.01093749919285377,
+            "origin_instances": 0.2381944479420781,
+            "override": 0.7034722222222223,
+            "pair_credit": 3.5625000000000004,
+            "strict_pairs": 6.666666666666667,
+            "no_opportunity": 0.6805555555555555,
+            "no_distinction": 0.736111111111111,
+            "pair_accuracy": 0.534375,
+            "informative_starts": 4,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.4189369672288497,
+          "double_difference": 0.8125000037252903,
+          "ranking_starts": 8,
+          "opposite_starts": 3
+        }
+      },
+      "wrong": {
+        "mean": {
+          "instances": 0.1046440969997396,
+          "gain": 0.01259548634213085,
+          "origin_instances": 0.09204861265607178,
+          "override": 0.6560503472222222,
+          "no_opportunity": 0.8701388888888888,
+          "no_distinction": 0.8881944444444445,
+          "house_mean_pair_accuracy_where_informative": 0.39722222222222214
+        },
+        "houses": {
+          "hold_01": {
+            "instances": 0.0,
+            "gain": -0.01666666753590107,
+            "origin_instances": 0.01666666753590107,
+            "override": 0.5194444444444444,
+            "pair_credit": 0.041666666666666664,
+            "strict_pairs": 0.3333333333333333,
+            "no_opportunity": 0.9666666666666667,
+            "no_distinction": 0.9666666666666667,
+            "pair_accuracy": 0.125,
+            "informative_starts": 1,
+            "starts": 4
+          },
+          "hold_02": {
+            "instances": 0.10000000149011612,
+            "gain": -0.013333333035310112,
+            "origin_instances": 0.11333333514630795,
+            "override": 0.7215972222222222,
+            "pair_credit": 1.4583333333333333,
+            "strict_pairs": 3.5,
+            "no_opportunity": 0.8333333333333334,
+            "no_distinction": 0.8500000000000001,
+            "pair_accuracy": 0.41666666666666663,
+            "informative_starts": 3,
+            "starts": 4
+          },
+          "hold_03": {
+            "instances": 0.0,
+            "gain": 0.0,
+            "origin_instances": 0.0,
+            "override": 0.6796875,
+            "pair_credit": 0.0,
+            "strict_pairs": 0.0,
+            "no_opportunity": 1.0,
+            "no_distinction": 1.0,
+            "pair_accuracy": null,
+            "informative_starts": 0,
+            "starts": 4
+          },
+          "hold_04": {
+            "instances": 0.3185763865088423,
+            "gain": 0.08038194593973458,
+            "origin_instances": 0.2381944479420781,
+            "override": 0.7034722222222223,
+            "pair_credit": 4.333333333333333,
+            "strict_pairs": 6.666666666666667,
+            "no_opportunity": 0.6805555555555555,
+            "no_distinction": 0.736111111111111,
+            "pair_accuracy": 0.6499999999999999,
+            "informative_starts": 4,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.5170272450066274,
+          "double_difference": 0.36979166977107525,
+          "ranking_starts": 8,
+          "opposite_starts": 3
+        }
+      },
+      "displacement": {
+        "mean": {
+          "instances": 0.10920139021861058,
+          "gain": 0.01715277748492857,
+          "origin_instances": 0.09204861265607178,
+          "override": 0.6598958333333335,
+          "no_opportunity": 0.8701388888888888,
+          "no_distinction": 0.8881944444444445,
+          "house_mean_pair_accuracy_where_informative": 0.5174603174603175
+        },
+        "houses": {
+          "hold_01": {
+            "instances": 0.0,
+            "gain": -0.01666666753590107,
+            "origin_instances": 0.01666666753590107,
+            "override": 0.5277777777777779,
+            "pair_credit": 0.08333333333333333,
+            "strict_pairs": 0.3333333333333333,
+            "no_opportunity": 0.9666666666666667,
+            "no_distinction": 0.9666666666666667,
+            "pair_accuracy": 0.25,
+            "informative_starts": 1,
+            "starts": 4
+          },
+          "hold_02": {
+            "instances": 0.18333333730697635,
+            "gain": 0.0699999990562598,
+            "origin_instances": 0.11333333514630795,
+            "override": 0.7208333333333333,
+            "pair_credit": 2.4583333333333335,
+            "strict_pairs": 3.5,
+            "no_opportunity": 0.8333333333333334,
+            "no_distinction": 0.8500000000000001,
+            "pair_accuracy": 0.7023809523809524,
+            "informative_starts": 3,
+            "starts": 4
+          },
+          "hold_03": {
+            "instances": 0.0,
+            "gain": 0.0,
+            "origin_instances": 0.0,
+            "override": 0.6909722222222222,
+            "pair_credit": 0.0,
+            "strict_pairs": 0.0,
+            "no_opportunity": 1.0,
+            "no_distinction": 1.0,
+            "pair_accuracy": null,
+            "informative_starts": 0,
+            "starts": 4
+          },
+          "hold_04": {
+            "instances": 0.25347222356746596,
+            "gain": 0.015277778419355553,
+            "origin_instances": 0.2381944479420781,
+            "override": 0.7000000000000001,
+            "pair_credit": 4.0,
+            "strict_pairs": 6.666666666666667,
+            "no_opportunity": 0.6805555555555555,
+            "no_distinction": 0.736111111111111,
+            "pair_accuracy": 0.6,
+            "informative_starts": 4,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.7112713696228132,
+          "double_difference": 0.5,
+          "ranking_starts": 8,
+          "opposite_starts": 3
+        }
+      },
+      "v6": {
+        "mean": {
+          "instances": 0.08499132028858487,
+          "gain": -0.007057292270474135,
+          "origin_instances": 0.09204861265607178,
+          "override": 0.5203559027777778,
+          "no_opportunity": 0.8701388888888888,
+          "no_distinction": 0.8881944444444445,
+          "house_mean_pair_accuracy_where_informative": 0.3308531746031746
+        },
+        "houses": {
+          "hold_01": {
+            "instances": 0.006944444806625445,
+            "gain": -0.009722222729275623,
+            "origin_instances": 0.01666666753590107,
+            "override": 0.2673611111111111,
+            "pair_credit": 0.020833333333333332,
+            "strict_pairs": 0.3333333333333333,
+            "no_opportunity": 0.9666666666666667,
+            "no_distinction": 0.9666666666666667,
+            "pair_accuracy": 0.0625,
+            "informative_starts": 1,
+            "starts": 4
+          },
+          "hold_02": {
+            "instances": 0.08805555710569024,
+            "gain": -0.02527777850627899,
+            "origin_instances": 0.11333333514630795,
+            "override": 0.6434027777777777,
+            "pair_credit": 1.8333333333333333,
+            "strict_pairs": 3.5,
+            "no_opportunity": 0.8333333333333334,
+            "no_distinction": 0.8500000000000001,
+            "pair_accuracy": 0.5238095238095238,
+            "informative_starts": 3,
+            "starts": 4
+          },
+          "hold_03": {
+            "instances": 0.0,
+            "gain": 0.0,
+            "origin_instances": 0.0,
+            "override": 0.5546875,
+            "pair_credit": 0.0,
+            "strict_pairs": 0.0,
+            "no_opportunity": 1.0,
+            "no_distinction": 1.0,
+            "pair_accuracy": null,
+            "informative_starts": 0,
+            "starts": 4
+          },
+          "hold_04": {
+            "instances": 0.24496527924202383,
+            "gain": 0.0067708321536580724,
+            "origin_instances": 0.2381944479420781,
+            "override": 0.6159722222222221,
+            "pair_credit": 2.7083333333333335,
+            "strict_pairs": 6.666666666666667,
+            "no_opportunity": 0.6805555555555555,
+            "no_distinction": 0.736111111111111,
+            "pair_accuracy": 0.40625,
+            "informative_starts": 4,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.38501602732059026,
+          "double_difference": 0.5885416679084301,
+          "ranking_starts": 8,
+          "opposite_starts": 3
+        }
+      },
+      "joint_no_future": {
+        "mean": {
+          "instances": 0.09727430654068787,
+          "gain": 0.005225694621913136,
+          "origin_instances": 0.09204861265607178,
+          "override": 0.6615668402777778,
+          "no_opportunity": 0.8701388888888888,
+          "no_distinction": 0.8881944444444445,
+          "house_mean_pair_accuracy_where_informative": 0.4199404761904762
+        },
+        "houses": {
+          "hold_01": {
+            "instances": 0.016666666915019352,
+            "gain": 0.0,
+            "origin_instances": 0.01666666753590107,
+            "override": 0.5375,
+            "pair_credit": 0.08333333333333333,
+            "strict_pairs": 0.3333333333333333,
+            "no_opportunity": 0.9666666666666667,
+            "no_distinction": 0.9666666666666667,
+            "pair_accuracy": 0.25,
+            "informative_starts": 1,
+            "starts": 4
+          },
+          "hold_02": {
+            "instances": 0.09361111248532931,
+            "gain": -0.01972222172965606,
+            "origin_instances": 0.11333333514630795,
+            "override": 0.7069444444444444,
+            "pair_credit": 1.5,
+            "strict_pairs": 3.5,
+            "no_opportunity": 0.8333333333333334,
+            "no_distinction": 0.8500000000000001,
+            "pair_accuracy": 0.42857142857142855,
+            "informative_starts": 3,
+            "starts": 4
+          },
+          "hold_03": {
+            "instances": 0.0,
+            "gain": 0.0,
+            "origin_instances": 0.0,
+            "override": 0.69140625,
+            "pair_credit": 0.0,
+            "strict_pairs": 0.0,
+            "no_opportunity": 1.0,
+            "no_distinction": 1.0,
+            "pair_accuracy": null,
+            "informative_starts": 0,
+            "starts": 4
+          },
+          "hold_04": {
+            "instances": 0.27881944676240283,
+            "gain": 0.0406250002173086,
+            "origin_instances": 0.2381944479420781,
+            "override": 0.7104166666666667,
+            "pair_credit": 3.875,
+            "strict_pairs": 6.666666666666667,
+            "no_opportunity": 0.6805555555555555,
+            "no_distinction": 0.736111111111111,
+            "pair_accuracy": 0.5812499999999999,
+            "informative_starts": 4,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.28639156091958284,
+          "double_difference": 0.7395833358168602,
+          "ranking_starts": 8,
+          "opposite_starts": 3
+        }
+      },
+      "no_word": {
+        "mean": {
+          "instances": 0.10423611251947781,
+          "gain": 0.012187500251457092,
+          "origin_instances": 0.09204861265607178,
+          "override": 0.6443576388888889,
+          "no_opportunity": 0.8701388888888888,
+          "no_distinction": 0.8881944444444445,
+          "house_mean_pair_accuracy_where_informative": 0.4289186507936508
+        },
+        "houses": {
+          "hold_01": {
+            "instances": 0.006944444651405017,
+            "gain": -0.009722222729275623,
+            "origin_instances": 0.01666666753590107,
+            "override": 0.5034722222222222,
+            "pair_credit": 0.08333333333333333,
+            "strict_pairs": 0.3333333333333333,
+            "no_opportunity": 0.9666666666666667,
+            "no_distinction": 0.9666666666666667,
+            "pair_accuracy": 0.25,
+            "informative_starts": 1,
+            "starts": 4
+          },
+          "hold_02": {
+            "instances": 0.11833333503454924,
+            "gain": 0.00500000004346172,
+            "origin_instances": 0.11333333514630795,
+            "override": 0.7291666666666666,
+            "pair_credit": 1.5833333333333335,
+            "strict_pairs": 3.5,
+            "no_opportunity": 0.8333333333333334,
+            "no_distinction": 0.8500000000000001,
+            "pair_accuracy": 0.45238095238095244,
+            "informative_starts": 3,
+            "starts": 4
+          },
+          "hold_03": {
+            "instances": 0.0,
+            "gain": 0.0,
+            "origin_instances": 0.0,
+            "override": 0.65625,
+            "pair_credit": 0.0,
+            "strict_pairs": 0.0,
+            "no_opportunity": 1.0,
+            "no_distinction": 1.0,
+            "pair_accuracy": null,
+            "informative_starts": 0,
+            "starts": 4
+          },
+          "hold_04": {
+            "instances": 0.291666670391957,
+            "gain": 0.05347222369164227,
+            "origin_instances": 0.2381944479420781,
+            "override": 0.6885416666666666,
+            "pair_credit": 3.8958333333333335,
+            "strict_pairs": 6.666666666666667,
+            "no_opportunity": 0.6805555555555555,
+            "no_distinction": 0.736111111111111,
+            "pair_accuracy": 0.584375,
+            "informative_starts": 4,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.5178953007691436,
+          "double_difference": 0.5,
+          "ranking_starts": 8,
+          "opposite_starts": 3
+        }
+      },
+      "retain": {
+        "mean": {
+          "instances": 0.09204861265607178,
+          "gain": 0.0,
+          "origin_instances": 0.09204861265607178,
+          "override": 0.0,
+          "no_opportunity": 0.8701388888888888,
+          "no_distinction": 0.8881944444444445,
+          "house_mean_pair_accuracy_where_informative": 0.5
+        },
+        "houses": {
+          "hold_01": {
+            "instances": 0.01666666753590107,
+            "gain": 0.0,
+            "origin_instances": 0.01666666753590107,
+            "override": 0.0,
+            "pair_credit": 0.16666666666666666,
+            "strict_pairs": 0.3333333333333333,
+            "no_opportunity": 0.9666666666666667,
+            "no_distinction": 0.9666666666666667,
+            "pair_accuracy": 0.5,
+            "informative_starts": 1,
+            "starts": 4
+          },
+          "hold_02": {
+            "instances": 0.11333333514630795,
+            "gain": 0.0,
+            "origin_instances": 0.11333333514630795,
+            "override": 0.0,
+            "pair_credit": 1.75,
+            "strict_pairs": 3.5,
+            "no_opportunity": 0.8333333333333334,
+            "no_distinction": 0.8500000000000001,
+            "pair_accuracy": 0.5,
+            "informative_starts": 3,
+            "starts": 4
+          },
+          "hold_03": {
+            "instances": 0.0,
+            "gain": 0.0,
+            "origin_instances": 0.0,
+            "override": 0.0,
+            "pair_credit": 0.0,
+            "strict_pairs": 0.0,
+            "no_opportunity": 1.0,
+            "no_distinction": 1.0,
+            "pair_accuracy": null,
+            "informative_starts": 0,
+            "starts": 4
+          },
+          "hold_04": {
+            "instances": 0.2381944479420781,
+            "gain": 0.0,
+            "origin_instances": 0.2381944479420781,
+            "override": 0.0,
+            "pair_credit": 3.3333333333333335,
+            "strict_pairs": 6.666666666666667,
+            "no_opportunity": 0.6805555555555555,
+            "no_distinction": 0.736111111111111,
+            "pair_accuracy": 0.5,
+            "informative_starts": 4,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.5,
+          "double_difference": 0.5,
+          "ranking_starts": 8,
+          "opposite_starts": 3
+        }
+      }
+    },
+    "frontiers|derived": {
+      "geometry": {
+        "mean": {
+          "instances": 0.1141131396094958,
+          "gain": 0.009862075520989796,
+          "origin_instances": 0.10425106257510681,
+          "override": 0.6427083333333333,
+          "no_opportunity": 0.8405257936507935,
+          "no_distinction": 0.8464781746031746,
+          "house_mean_pair_accuracy_where_informative": 0.5498876633986928
+        },
+        "houses": {
+          "hold_01": {
+            "instances": 0.04629629664123058,
+            "gain": -0.03086419776082039,
+            "origin_instances": 0.0771604956438144,
+            "override": 0.5277777777777778,
+            "pair_credit": 1.0,
+            "strict_pairs": 2.0,
+            "no_opportunity": 0.8888888888888888,
+            "no_distinction": 0.8888888888888888,
+            "pair_accuracy": 0.5,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "hold_02": {
+            "instances": 0.17857143531243005,
+            "gain": 0.03134920665373405,
+            "origin_instances": 0.14722222648561,
+            "override": 0.7,
+            "pair_credit": 2.3333333333333335,
+            "strict_pairs": 6.0,
+            "no_opportunity": 0.726190476190476,
+            "no_distinction": 0.7499999999999999,
+            "pair_accuracy": 0.3888888888888889,
+            "informative_starts": 4,
+            "starts": 4
+          },
+          "hold_03": {
+            "instances": 0.05598958333333333,
+            "gain": 0.021701388681928318,
+            "origin_instances": 0.03428819449618459,
+            "override": 0.6597222222222222,
+            "pair_credit": 4.416666666666667,
+            "strict_pairs": 5.666666666666667,
+            "no_opportunity": 0.9375,
+            "no_distinction": 0.9375,
+            "pair_accuracy": 0.7794117647058824,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "hold_04": {
+            "instances": 0.17559524315098923,
+            "gain": 0.017261904509117205,
+            "origin_instances": 0.15833333367481828,
+            "override": 0.6833333333333332,
+            "pair_credit": 2.8333333333333335,
+            "strict_pairs": 5.333333333333333,
+            "no_opportunity": 0.8095238095238095,
+            "no_distinction": 0.8095238095238095,
+            "pair_accuracy": 0.5312500000000001,
+            "informative_starts": 4,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.6126893966769179,
+          "double_difference": 0.5,
+          "ranking_starts": 11,
+          "opposite_starts": 4
+        }
+      },
+      "observed": {
+        "mean": {
+          "instances": 0.1340360478886093,
+          "gain": 0.029784984081440296,
+          "origin_instances": 0.10425106257510681,
+          "override": 0.6581054687500001,
+          "no_opportunity": 0.8405257936507935,
+          "no_distinction": 0.8464781746031746,
+          "house_mean_pair_accuracy_where_informative": 0.6155279820261438
+        },
+        "houses": {
+          "hold_01": {
+            "instances": 0.05787037049109737,
+            "gain": -0.019290123445292313,
+            "origin_instances": 0.0771604956438144,
+            "override": 0.513888888888889,
+            "pair_credit": 0.8125,
+            "strict_pairs": 2.0,
+            "no_opportunity": 0.8888888888888888,
+            "no_distinction": 0.8888888888888888,
+            "pair_accuracy": 0.40625,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "hold_02": {
+            "instances": 0.1755952447031935,
+            "gain": 0.028373015578836196,
+            "origin_instances": 0.14722222648561,
+            "override": 0.7202380952380952,
+            "pair_credit": 3.395833333333333,
+            "strict_pairs": 6.0,
+            "no_opportunity": 0.726190476190476,
+            "no_distinction": 0.7499999999999999,
+            "pair_accuracy": 0.5659722222222222,
+            "informative_starts": 4,
+            "starts": 4
+          },
+          "hold_03": {
+            "instances": 0.05208333333333333,
+            "gain": 0.017795138681928318,
+            "origin_instances": 0.03428819449618459,
+            "override": 0.6768663194444444,
+            "pair_credit": 4.458333333333334,
+            "strict_pairs": 5.666666666666667,
+            "no_opportunity": 0.9375,
+            "no_distinction": 0.9375,
+            "pair_accuracy": 0.786764705882353,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "hold_04": {
+            "instances": 0.2505952430268129,
+            "gain": 0.09226190551028898,
+            "origin_instances": 0.15833333367481828,
+            "override": 0.7214285714285715,
+            "pair_credit": 3.75,
+            "strict_pairs": 5.333333333333333,
+            "no_opportunity": 0.8095238095238095,
+            "no_distinction": 0.8095238095238095,
+            "pair_accuracy": 0.703125,
+            "informative_starts": 4,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.6124230613932014,
+          "double_difference": 0.041666666666666664,
+          "ranking_starts": 11,
+          "opposite_starts": 4
+        }
+      },
+      "jepa": {
+        "mean": {
+          "instances": 0.1329493424661147,
+          "gain": 0.028698278688049562,
+          "origin_instances": 0.10425106257510681,
+          "override": 0.6530639433145944,
+          "no_opportunity": 0.8405257936507935,
+          "no_distinction": 0.8464781746031746,
+          "house_mean_pair_accuracy_where_informative": 0.6109451593137255
+        },
+        "houses": {
+          "hold_01": {
+            "instances": 0.044753086753189564,
+            "gain": -0.03240740733842055,
+            "origin_instances": 0.0771604956438144,
+            "override": 0.5262345679012346,
+            "pair_credit": 0.9375,
+            "strict_pairs": 2.0,
+            "no_opportunity": 0.8888888888888888,
+            "no_distinction": 0.8888888888888888,
+            "pair_accuracy": 0.46875,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "hold_02": {
+            "instances": 0.19821429268146554,
+            "gain": 0.0509920644496257,
+            "origin_instances": 0.14722222648561,
+            "override": 0.6952380952380952,
+            "pair_credit": 3.0625,
+            "strict_pairs": 6.0,
+            "no_opportunity": 0.726190476190476,
+            "no_distinction": 0.7499999999999999,
+            "pair_accuracy": 0.5104166666666666,
+            "informative_starts": 4,
+            "starts": 4
+          },
+          "hold_03": {
+            "instances": 0.058919270833333336,
+            "gain": 0.024631076220733423,
+            "origin_instances": 0.03428819449618459,
+            "override": 0.6858723958333334,
+            "pair_credit": 4.625,
+            "strict_pairs": 5.666666666666667,
+            "no_opportunity": 0.9375,
+            "no_distinction": 0.9375,
+            "pair_accuracy": 0.8161764705882353,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "hold_04": {
+            "instances": 0.2299107195964704,
+            "gain": 0.07157738142025967,
+            "origin_instances": 0.15833333367481828,
+            "override": 0.7049107142857144,
+            "pair_credit": 3.4583333333333335,
+            "strict_pairs": 5.333333333333333,
+            "no_opportunity": 0.8095238095238095,
+            "no_distinction": 0.8095238095238095,
+            "pair_accuracy": 0.6484375000000001,
+            "informative_starts": 4,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.6920572934517016,
+          "double_difference": 0.4166666666666667,
+          "ranking_starts": 11,
+          "opposite_starts": 4
+        }
+      },
+      "joint": {
+        "mean": {
+          "instances": 0.13807095610536635,
+          "gain": 0.033819892327301204,
+          "origin_instances": 0.10425106257510681,
+          "override": 0.6450945388282627,
+          "no_opportunity": 0.8405257936507935,
+          "no_distinction": 0.8464781746031746,
+          "house_mean_pair_accuracy_where_informative": 0.6382761437908497
+        },
+        "houses": {
+          "hold_01": {
+            "instances": 0.08564814816539486,
+            "gain": 0.008487654229005178,
+            "origin_instances": 0.0771604956438144,
+            "override": 0.5223765432098766,
+            "pair_credit": 1.125,
+            "strict_pairs": 2.0,
+            "no_opportunity": 0.8888888888888888,
+            "no_distinction": 0.8888888888888888,
+            "pair_accuracy": 0.5625,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "hold_02": {
+            "instances": 0.16855159417415658,
+            "gain": 0.021329365010994177,
+            "origin_instances": 0.14722222648561,
+            "override": 0.6935515873015873,
+            "pair_credit": 3.0208333333333335,
+            "strict_pairs": 6.0,
+            "no_opportunity": 0.726190476190476,
+            "no_distinction": 0.7499999999999999,
+            "pair_accuracy": 0.5034722222222222,
+            "informative_starts": 4,
+            "starts": 4
+          },
+          "hold_03": {
+            "instances": 0.054036458333333336,
+            "gain": 0.019748263720733423,
+            "origin_instances": 0.03428819449618459,
+            "override": 0.6622178819444444,
+            "pair_credit": 4.708333333333333,
+            "strict_pairs": 5.666666666666667,
+            "no_opportunity": 0.9375,
+            "no_distinction": 0.9375,
+            "pair_accuracy": 0.8308823529411764,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "hold_04": {
+            "instances": 0.24404762374858063,
+            "gain": 0.08571428634847204,
+            "origin_instances": 0.15833333367481828,
+            "override": 0.7022321428571429,
+            "pair_credit": 3.5,
+            "strict_pairs": 5.333333333333333,
+            "no_opportunity": 0.8095238095238095,
+            "no_distinction": 0.8095238095238095,
+            "pair_accuracy": 0.65625,
+            "informative_starts": 4,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.5693359405656034,
+          "double_difference": 0.0625,
+          "ranking_starts": 11,
+          "opposite_starts": 4
+        }
+      },
+      "wrong": {
+        "mean": {
+          "instances": 0.13234600934083574,
+          "gain": 0.028094945407550163,
+          "origin_instances": 0.10425106257510681,
+          "override": 0.6450945388282627,
+          "no_opportunity": 0.8405257936507935,
+          "no_distinction": 0.8464781746031746,
+          "house_mean_pair_accuracy_where_informative": 0.5503727532679739
+        },
+        "houses": {
+          "hold_01": {
+            "instances": 0.09645061800256371,
+            "gain": 0.019290123600512743,
+            "origin_instances": 0.0771604956438144,
+            "override": 0.5223765432098766,
+            "pair_credit": 1.1458333333333335,
+            "strict_pairs": 2.0,
+            "no_opportunity": 0.8888888888888888,
+            "no_distinction": 0.8888888888888888,
+            "pair_accuracy": 0.5729166666666667,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "hold_02": {
+            "instances": 0.17842262521541366,
+            "gain": 0.031200397255209587,
+            "origin_instances": 0.14722222648561,
+            "override": 0.6935515873015873,
+            "pair_credit": 2.3541666666666665,
+            "strict_pairs": 6.0,
+            "no_opportunity": 0.726190476190476,
+            "no_distinction": 0.7499999999999999,
+            "pair_accuracy": 0.3923611111111111,
+            "informative_starts": 4,
+            "starts": 4
+          },
+          "hold_03": {
+            "instances": 0.049153645833333336,
+            "gain": 0.014865451220733423,
+            "origin_instances": 0.03428819449618459,
+            "override": 0.6622178819444444,
+            "pair_credit": 3.729166666666667,
+            "strict_pairs": 5.666666666666667,
+            "no_opportunity": 0.9375,
+            "no_distinction": 0.9375,
+            "pair_accuracy": 0.6580882352941176,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "hold_04": {
+            "instances": 0.20535714831203222,
+            "gain": 0.04702380955374489,
+            "origin_instances": 0.15833333367481828,
+            "override": 0.7022321428571429,
+            "pair_credit": 3.083333333333333,
+            "strict_pairs": 5.333333333333333,
+            "no_opportunity": 0.8095238095238095,
+            "no_distinction": 0.8095238095238095,
+            "pair_accuracy": 0.578125,
+            "informative_starts": 4,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.545424955120931,
+          "double_difference": 0.375,
+          "ranking_starts": 11,
+          "opposite_starts": 4
+        }
+      },
+      "displacement": {
+        "mean": {
+          "instances": 0.15232308472817144,
+          "gain": 0.048072021726208426,
+          "origin_instances": 0.10425106257510681,
+          "override": 0.6598958333333335,
+          "no_opportunity": 0.8405257936507935,
+          "no_distinction": 0.8464781746031746,
+          "house_mean_pair_accuracy_where_informative": 0.626123366013072
+        },
+        "houses": {
+          "hold_01": {
+            "instances": 0.10185185261070728,
+            "gain": 0.02469135820865631,
+            "origin_instances": 0.0771604956438144,
+            "override": 0.5277777777777779,
+            "pair_credit": 1.3333333333333335,
+            "strict_pairs": 2.0,
+            "no_opportunity": 0.8888888888888888,
+            "no_distinction": 0.8888888888888888,
+            "pair_accuracy": 0.6666666666666667,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "hold_02": {
+            "instances": 0.22619048133492467,
+            "gain": 0.07896825578063726,
+            "origin_instances": 0.14722222648561,
+            "override": 0.7208333333333333,
+            "pair_credit": 3.4166666666666665,
+            "strict_pairs": 6.0,
+            "no_opportunity": 0.726190476190476,
+            "no_distinction": 0.7499999999999999,
+            "pair_accuracy": 0.5694444444444444,
+            "informative_starts": 4,
+            "starts": 4
+          },
+          "hold_03": {
+            "instances": 0.03125,
+            "gain": -0.0030381944961845875,
+            "origin_instances": 0.03428819449618459,
+            "override": 0.6909722222222222,
+            "pair_credit": 3.2916666666666665,
+            "strict_pairs": 5.666666666666667,
+            "no_opportunity": 0.9375,
+            "no_distinction": 0.9375,
+            "pair_accuracy": 0.5808823529411764,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "hold_04": {
+            "instances": 0.25000000496705377,
+            "gain": 0.09166666741172472,
+            "origin_instances": 0.15833333367481828,
+            "override": 0.7000000000000001,
+            "pair_credit": 3.666666666666667,
+            "strict_pairs": 5.333333333333333,
+            "no_opportunity": 0.8095238095238095,
+            "no_distinction": 0.8095238095238095,
+            "pair_accuracy": 0.6875000000000001,
+            "informative_starts": 4,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.5259232964987556,
+          "double_difference": 0.5,
+          "ranking_starts": 11,
+          "opposite_starts": 4
+        }
+      },
+      "v6": {
+        "mean": {
+          "instances": 0.14890425491224354,
+          "gain": 0.04465319154163201,
+          "origin_instances": 0.10425106257510681,
+          "override": 0.5278970493000441,
+          "no_opportunity": 0.8405257936507935,
+          "no_distinction": 0.8464781746031746,
+          "house_mean_pair_accuracy_where_informative": 0.6003944546568627
+        },
+        "houses": {
+          "hold_01": {
+            "instances": 0.08873456964890163,
+            "gain": 0.011574074160307646,
+            "origin_instances": 0.0771604956438144,
+            "override": 0.2716049382716049,
+            "pair_credit": 1.0208333333333333,
+            "strict_pairs": 2.0,
+            "no_opportunity": 0.8888888888888888,
+            "no_distinction": 0.8888888888888888,
+            "pair_accuracy": 0.5104166666666666,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "hold_02": {
+            "instances": 0.2267361176200211,
+            "gain": 0.07951389004786809,
+            "origin_instances": 0.14722222648561,
+            "override": 0.6488095238095238,
+            "pair_credit": 4.5625,
+            "strict_pairs": 6.0,
+            "no_opportunity": 0.726190476190476,
+            "no_distinction": 0.7499999999999999,
+            "pair_accuracy": 0.7604166666666666,
+            "informative_starts": 4,
+            "starts": 4
+          },
+          "hold_03": {
+            "instances": 0.033420138914758965,
+            "gain": -0.0008680555814256271,
+            "origin_instances": 0.03428819449618459,
+            "override": 0.5862630208333333,
+            "pair_credit": 2.3125,
+            "strict_pairs": 5.666666666666667,
+            "no_opportunity": 0.9375,
+            "no_distinction": 0.9375,
+            "pair_accuracy": 0.40808823529411764,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "hold_04": {
+            "instances": 0.24672619346529245,
+            "gain": 0.08839285753977795,
+            "origin_instances": 0.15833333367481828,
+            "override": 0.6049107142857143,
+            "pair_credit": 3.854166666666667,
+            "strict_pairs": 5.333333333333333,
+            "no_opportunity": 0.8095238095238095,
+            "no_distinction": 0.8095238095238095,
+            "pair_accuracy": 0.7226562500000001,
+            "informative_starts": 4,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.51263612943391,
+          "double_difference": 0.20833333333333334,
+          "ranking_starts": 11,
+          "opposite_starts": 4
+        }
+      },
+      "joint_no_future": {
+        "mean": {
+          "instances": 0.12862000078894198,
+          "gain": 0.024368937437733017,
+          "origin_instances": 0.10425106257510681,
+          "override": 0.6490703710593033,
+          "no_opportunity": 0.8405257936507935,
+          "no_distinction": 0.8464781746031746,
+          "house_mean_pair_accuracy_where_informative": 0.5941967933006536
+        },
+        "houses": {
+          "hold_01": {
+            "instances": 0.0787037038244307,
+            "gain": 0.00154320973282059,
+            "origin_instances": 0.0771604956438144,
+            "override": 0.5100308641975309,
+            "pair_credit": 0.8958333333333333,
+            "strict_pairs": 2.0,
+            "no_opportunity": 0.8888888888888888,
+            "no_distinction": 0.8888888888888888,
+            "pair_accuracy": 0.44791666666666663,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "hold_02": {
+            "instances": 0.14598214828098816,
+            "gain": -0.0012400798732414842,
+            "origin_instances": 0.14722222648561,
+            "override": 0.7050099206349206,
+            "pair_credit": 2.8958333333333335,
+            "strict_pairs": 6.0,
+            "no_opportunity": 0.726190476190476,
+            "no_distinction": 0.7499999999999999,
+            "pair_accuracy": 0.4826388888888889,
+            "informative_starts": 4,
+            "starts": 4
+          },
+          "hold_03": {
+            "instances": 0.049913194340964154,
+            "gain": 0.015625000077610217,
+            "origin_instances": 0.03428819449618459,
+            "override": 0.6735026041666666,
+            "pair_credit": 4.520833333333333,
+            "strict_pairs": 5.666666666666667,
+            "no_opportunity": 0.9375,
+            "no_distinction": 0.9375,
+            "pair_accuracy": 0.7977941176470588,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "hold_04": {
+            "instances": 0.23988095670938492,
+            "gain": 0.08154761981374274,
+            "origin_instances": 0.15833333367481828,
+            "override": 0.7077380952380952,
+            "pair_credit": 3.458333333333333,
+            "strict_pairs": 5.333333333333333,
+            "no_opportunity": 0.8095238095238095,
+            "no_distinction": 0.8095238095238095,
+            "pair_accuracy": 0.6484375,
+            "informative_starts": 4,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.5066287911031395,
+          "double_difference": 0.09375,
+          "ranking_starts": 11,
+          "opposite_starts": 4
+        }
+      },
+      "no_word": {
+        "mean": {
+          "instances": 0.1201835001120344,
+          "gain": 0.015932436489189666,
+          "origin_instances": 0.10425106257510681,
+          "override": 0.6443576388888889,
+          "no_opportunity": 0.8405257936507935,
+          "no_distinction": 0.8464781746031746,
+          "house_mean_pair_accuracy_where_informative": 0.5891927083333333
+        },
+        "houses": {
+          "hold_01": {
+            "instances": 0.09336419822648168,
+            "gain": 0.016203703824430704,
+            "origin_instances": 0.0771604956438144,
+            "override": 0.5034722222222222,
+            "pair_credit": 1.125,
+            "strict_pairs": 2.0,
+            "no_opportunity": 0.8888888888888888,
+            "no_distinction": 0.8888888888888888,
+            "pair_accuracy": 0.5625,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "hold_02": {
+            "instances": 0.17261905347307524,
+            "gain": 0.025396825745701786,
+            "origin_instances": 0.14722222648561,
+            "override": 0.7291666666666666,
+            "pair_credit": 2.9375,
+            "strict_pairs": 6.0,
+            "no_opportunity": 0.726190476190476,
+            "no_distinction": 0.7499999999999999,
+            "pair_accuracy": 0.4895833333333333,
+            "informative_starts": 4,
+            "starts": 4
+          },
+          "hold_03": {
+            "instances": 0.059244791666666664,
+            "gain": 0.02495659701526165,
+            "origin_instances": 0.03428819449618459,
+            "override": 0.65625,
+            "pair_credit": 4.604166666666667,
+            "strict_pairs": 5.666666666666667,
+            "no_opportunity": 0.9375,
+            "no_distinction": 0.9375,
+            "pair_accuracy": 0.8125,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "hold_04": {
+            "instances": 0.15550595708191395,
+            "gain": -0.002827380628635487,
+            "origin_instances": 0.15833333367481828,
+            "override": 0.6885416666666666,
+            "pair_credit": 2.625,
+            "strict_pairs": 5.333333333333333,
+            "no_opportunity": 0.8095238095238095,
+            "no_distinction": 0.8095238095238095,
+            "pair_accuracy": 0.4921875,
+            "informative_starts": 4,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.5545099439720312,
+          "double_difference": 0.5,
+          "ranking_starts": 11,
+          "opposite_starts": 4
+        }
+      },
+      "retain": {
+        "mean": {
+          "instances": 0.10425106257510681,
+          "gain": 0.0,
+          "origin_instances": 0.10425106257510681,
+          "override": 0.0,
+          "no_opportunity": 0.8405257936507935,
+          "no_distinction": 0.8464781746031746,
+          "house_mean_pair_accuracy_where_informative": 0.5
+        },
+        "houses": {
+          "hold_01": {
+            "instances": 0.0771604956438144,
+            "gain": 0.0,
+            "origin_instances": 0.0771604956438144,
+            "override": 0.0,
+            "pair_credit": 1.0,
+            "strict_pairs": 2.0,
+            "no_opportunity": 0.8888888888888888,
+            "no_distinction": 0.8888888888888888,
+            "pair_accuracy": 0.5,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "hold_02": {
+            "instances": 0.14722222648561,
+            "gain": 0.0,
+            "origin_instances": 0.14722222648561,
+            "override": 0.0,
+            "pair_credit": 3.0,
+            "strict_pairs": 6.0,
+            "no_opportunity": 0.726190476190476,
+            "no_distinction": 0.7499999999999999,
+            "pair_accuracy": 0.5,
+            "informative_starts": 4,
+            "starts": 4
+          },
+          "hold_03": {
+            "instances": 0.03428819449618459,
+            "gain": 0.0,
+            "origin_instances": 0.03428819449618459,
+            "override": 0.0,
+            "pair_credit": 2.8333333333333335,
+            "strict_pairs": 5.666666666666667,
+            "no_opportunity": 0.9375,
+            "no_distinction": 0.9375,
+            "pair_accuracy": 0.5,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "hold_04": {
+            "instances": 0.15833333367481828,
+            "gain": 0.0,
+            "origin_instances": 0.15833333367481828,
+            "override": 0.0,
+            "pair_credit": 2.6666666666666665,
+            "strict_pairs": 5.333333333333333,
+            "no_opportunity": 0.8095238095238095,
+            "no_distinction": 0.8095238095238095,
+            "pair_accuracy": 0.5,
+            "informative_starts": 4,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.5,
+          "double_difference": 0.5,
+          "ranking_starts": 11,
+          "opposite_starts": 4
+        }
+      }
+    }
+  },
+  "exact_mirror": {
+    "primitives|official": {
+      "geometry": {
+        "rank": 0.5062085769980507,
+        "double_difference": 0.5,
+        "both_target_choices_correct": 0.0,
+        "rank_starts": 8,
+        "opposite_starts": 3,
+        "informative_houses": 3,
+        "opposite_houses": 1,
+        "informative_goal_pair_entries_including_view_repeats": 488,
+        "opposed_goal_pair_entries_including_view_repeats": 100
+      },
+      "observed": {
+        "rank": 0.6987160609857979,
+        "double_difference": 0.5984848484848485,
+        "both_target_choices_correct": 0.21969696969696972,
+        "rank_starts": 8,
+        "opposite_starts": 3,
+        "informative_houses": 3,
+        "opposite_houses": 1,
+        "informative_goal_pair_entries_including_view_repeats": 488,
+        "opposed_goal_pair_entries_including_view_repeats": 100
+      },
+      "jepa": {
+        "rank": 0.48551413255360626,
+        "double_difference": 0.40151515151515155,
+        "both_target_choices_correct": 0.10984848484848485,
+        "rank_starts": 8,
+        "opposite_starts": 3,
+        "informative_houses": 3,
+        "opposite_houses": 1,
+        "informative_goal_pair_entries_including_view_repeats": 488,
+        "opposed_goal_pair_entries_including_view_repeats": 100
+      },
+      "joint": {
+        "rank": 0.6839825257588417,
+        "double_difference": 0.48484848484848486,
+        "both_target_choices_correct": 0.05303030303030303,
+        "rank_starts": 8,
+        "opposite_starts": 3,
+        "informative_houses": 3,
+        "opposite_houses": 1,
+        "informative_goal_pair_entries_including_view_repeats": 488,
+        "opposed_goal_pair_entries_including_view_repeats": 100
+      },
+      "wrong": {
+        "rank": 0.5534722222222223,
+        "double_difference": 0.36742424242424243,
+        "both_target_choices_correct": 0.06060606060606061,
+        "rank_starts": 8,
+        "opposite_starts": 3,
+        "informative_houses": 3,
+        "opposite_houses": 1,
+        "informative_goal_pair_entries_including_view_repeats": 488,
+        "opposed_goal_pair_entries_including_view_repeats": 100
+      },
+      "no_word": {
+        "rank": 0.5800116610971874,
+        "double_difference": 0.5,
+        "both_target_choices_correct": 0.0,
+        "rank_starts": 8,
+        "opposite_starts": 3,
+        "informative_houses": 3,
+        "opposite_houses": 1,
+        "informative_goal_pair_entries_including_view_repeats": 488,
+        "opposed_goal_pair_entries_including_view_repeats": 100
+      },
+      "displacement": {
+        "rank": 0.5,
+        "double_difference": 0.5,
+        "both_target_choices_correct": 0.0,
+        "rank_starts": 8,
+        "opposite_starts": 3,
+        "informative_houses": 3,
+        "opposite_houses": 1,
+        "informative_goal_pair_entries_including_view_repeats": 488,
+        "opposed_goal_pair_entries_including_view_repeats": 100
+      },
+      "v6": {
+        "rank": 0.45275184489000275,
+        "double_difference": 0.42803030303030304,
+        "both_target_choices_correct": 0.08333333333333333,
+        "rank_starts": 8,
+        "opposite_starts": 3,
+        "informative_houses": 3,
+        "opposite_houses": 1,
+        "informative_goal_pair_entries_including_view_repeats": 488,
+        "opposed_goal_pair_entries_including_view_repeats": 100
+      },
+      "joint_no_future": {
+        "rank": 0.6498273461431356,
+        "double_difference": 0.49621212121212127,
+        "both_target_choices_correct": 0.056818181818181816,
+        "rank_starts": 8,
+        "opposite_starts": 3,
+        "informative_houses": 3,
+        "opposite_houses": 1,
+        "informative_goal_pair_entries_including_view_repeats": 488,
+        "opposed_goal_pair_entries_including_view_repeats": 100
+      }
+    },
+    "primitives|derived": {
+      "geometry": {
+        "rank": 0.3575502928444105,
+        "double_difference": 0.5,
+        "both_target_choices_correct": 0.0,
+        "rank_starts": 10,
+        "opposite_starts": 5,
+        "informative_houses": 4,
+        "opposite_houses": 4,
+        "informative_goal_pair_entries_including_view_repeats": 656,
+        "opposed_goal_pair_entries_including_view_repeats": 136
+      },
+      "observed": {
+        "rank": 0.3770936783804431,
+        "double_difference": 0.5115131578947368,
+        "both_target_choices_correct": 0.08881578947368421,
+        "rank_starts": 10,
+        "opposite_starts": 5,
+        "informative_houses": 4,
+        "opposite_houses": 4,
+        "informative_goal_pair_entries_including_view_repeats": 656,
+        "opposed_goal_pair_entries_including_view_repeats": 136
+      },
+      "jepa": {
+        "rank": 0.5781106760886172,
+        "double_difference": 0.7672697368421053,
+        "both_target_choices_correct": 0.28470394736842103,
+        "rank_starts": 10,
+        "opposite_starts": 5,
+        "informative_houses": 4,
+        "opposite_houses": 4,
+        "informative_goal_pair_entries_including_view_repeats": 656,
+        "opposed_goal_pair_entries_including_view_repeats": 136
+      },
+      "joint": {
+        "rank": 0.5152629233511586,
+        "double_difference": 0.5384868421052632,
+        "both_target_choices_correct": 0.23947368421052634,
+        "rank_starts": 10,
+        "opposite_starts": 5,
+        "informative_houses": 4,
+        "opposite_houses": 4,
+        "informative_goal_pair_entries_including_view_repeats": 656,
+        "opposed_goal_pair_entries_including_view_repeats": 136
+      },
+      "wrong": {
+        "rank": 0.37769209956709954,
+        "double_difference": 0.5161184210526316,
+        "both_target_choices_correct": 0.11677631578947369,
+        "rank_starts": 10,
+        "opposite_starts": 5,
+        "informative_houses": 4,
+        "opposite_houses": 4,
+        "informative_goal_pair_entries_including_view_repeats": 656,
+        "opposed_goal_pair_entries_including_view_repeats": 136
+      },
+      "no_word": {
+        "rank": 0.5714452826585179,
+        "double_difference": 0.5,
+        "both_target_choices_correct": 0.0,
+        "rank_starts": 10,
+        "opposite_starts": 5,
+        "informative_houses": 4,
+        "opposite_houses": 4,
+        "informative_goal_pair_entries_including_view_repeats": 656,
+        "opposed_goal_pair_entries_including_view_repeats": 136
+      },
+      "displacement": {
+        "rank": 0.5,
+        "double_difference": 0.5,
+        "both_target_choices_correct": 0.0,
+        "rank_starts": 10,
+        "opposite_starts": 5,
+        "informative_houses": 4,
+        "opposite_houses": 4,
+        "informative_goal_pair_entries_including_view_repeats": 656,
+        "opposed_goal_pair_entries_including_view_repeats": 136
+      },
+      "v6": {
+        "rank": 0.596222466259231,
+        "double_difference": 0.7697368421052632,
+        "both_target_choices_correct": 0.346875,
+        "rank_starts": 10,
+        "opposite_starts": 5,
+        "informative_houses": 4,
+        "opposite_houses": 4,
+        "informative_goal_pair_entries_including_view_repeats": 656,
+        "opposed_goal_pair_entries_including_view_repeats": 136
+      },
+      "joint_no_future": {
+        "rank": 0.46870663037942445,
+        "double_difference": 0.5133223684210526,
+        "both_target_choices_correct": 0.1287828947368421,
+        "rank_starts": 10,
+        "opposite_starts": 5,
+        "informative_houses": 4,
+        "opposite_houses": 4,
+        "informative_goal_pair_entries_including_view_repeats": 656,
+        "opposed_goal_pair_entries_including_view_repeats": 136
+      }
+    },
+    "primitives|all": {
+      "geometry": {
+        "rank": 0.38364879742547425,
+        "double_difference": 0.5,
+        "both_target_choices_correct": 0.0,
+        "rank_starts": 11,
+        "opposite_starts": 8,
+        "informative_houses": 4,
+        "opposite_houses": 4,
+        "informative_goal_pair_entries_including_view_repeats": 1144,
+        "opposed_goal_pair_entries_including_view_repeats": 376
+      },
+      "observed": {
+        "rank": 0.4630238963309825,
+        "double_difference": 0.6522916666666666,
+        "both_target_choices_correct": 0.2428125,
+        "rank_starts": 11,
+        "opposite_starts": 8,
+        "informative_houses": 4,
+        "opposite_houses": 4,
+        "informative_goal_pair_entries_including_view_repeats": 1144,
+        "opposed_goal_pair_entries_including_view_repeats": 376
+      },
+      "jepa": {
+        "rank": 0.5100833231597331,
+        "double_difference": 0.6144791666666667,
+        "both_target_choices_correct": 0.1715625,
+        "rank_starts": 11,
+        "opposite_starts": 8,
+        "informative_houses": 4,
+        "opposite_houses": 4,
+        "informative_goal_pair_entries_including_view_repeats": 1144,
+        "opposed_goal_pair_entries_including_view_repeats": 376
+      },
+      "joint": {
+        "rank": 0.5154066491075827,
+        "double_difference": 0.62140625,
+        "both_target_choices_correct": 0.2809375,
+        "rank_starts": 11,
+        "opposite_starts": 8,
+        "informative_houses": 4,
+        "opposite_houses": 4,
+        "informative_goal_pair_entries_including_view_repeats": 1144,
+        "opposed_goal_pair_entries_including_view_repeats": 376
+      },
+      "wrong": {
+        "rank": 0.3948629259422727,
+        "double_difference": 0.45953125,
+        "both_target_choices_correct": 0.11875,
+        "rank_starts": 11,
+        "opposite_starts": 8,
+        "informative_houses": 4,
+        "opposite_houses": 4,
+        "informative_goal_pair_entries_including_view_repeats": 1144,
+        "opposed_goal_pair_entries_including_view_repeats": 376
+      },
+      "no_word": {
+        "rank": 0.5440641070729844,
+        "double_difference": 0.5,
+        "both_target_choices_correct": 0.0,
+        "rank_starts": 11,
+        "opposite_starts": 8,
+        "informative_houses": 4,
+        "opposite_houses": 4,
+        "informative_goal_pair_entries_including_view_repeats": 1144,
+        "opposed_goal_pair_entries_including_view_repeats": 376
+      },
+      "displacement": {
+        "rank": 0.5,
+        "double_difference": 0.5,
+        "both_target_choices_correct": 0.0,
+        "rank_starts": 11,
+        "opposite_starts": 8,
+        "informative_houses": 4,
+        "opposite_houses": 4,
+        "informative_goal_pair_entries_including_view_repeats": 1144,
+        "opposed_goal_pair_entries_including_view_repeats": 376
+      },
+      "v6": {
+        "rank": 0.5577112943119321,
+        "double_difference": 0.6664583333333334,
+        "both_target_choices_correct": 0.344375,
+        "rank_starts": 11,
+        "opposite_starts": 8,
+        "informative_houses": 4,
+        "opposite_houses": 4,
+        "informative_goal_pair_entries_including_view_repeats": 1144,
+        "opposed_goal_pair_entries_including_view_repeats": 376
+      },
+      "joint_no_future": {
+        "rank": 0.4910991629537069,
+        "double_difference": 0.6154166666666666,
+        "both_target_choices_correct": 0.22312500000000002,
+        "rank_starts": 11,
+        "opposite_starts": 8,
+        "informative_houses": 4,
+        "opposite_houses": 4,
+        "informative_goal_pair_entries_including_view_repeats": 1144,
+        "opposed_goal_pair_entries_including_view_repeats": 376
+      }
+    },
+    "frontiers|official": {
+      "geometry": {
+        "rank": 1.0,
+        "double_difference": null,
+        "both_target_choices_correct": null,
+        "rank_starts": 1,
+        "opposite_starts": 0,
+        "informative_houses": 1,
+        "opposite_houses": 0,
+        "informative_goal_pair_entries_including_view_repeats": 8,
+        "opposed_goal_pair_entries_including_view_repeats": 0
+      },
+      "observed": {
+        "rank": 1.0,
+        "double_difference": null,
+        "both_target_choices_correct": null,
+        "rank_starts": 1,
+        "opposite_starts": 0,
+        "informative_houses": 1,
+        "opposite_houses": 0,
+        "informative_goal_pair_entries_including_view_repeats": 8,
+        "opposed_goal_pair_entries_including_view_repeats": 0
+      },
+      "jepa": {
+        "rank": 1.0,
+        "double_difference": null,
+        "both_target_choices_correct": null,
+        "rank_starts": 1,
+        "opposite_starts": 0,
+        "informative_houses": 1,
+        "opposite_houses": 0,
+        "informative_goal_pair_entries_including_view_repeats": 8,
+        "opposed_goal_pair_entries_including_view_repeats": 0
+      },
+      "joint": {
+        "rank": 0.0,
+        "double_difference": null,
+        "both_target_choices_correct": null,
+        "rank_starts": 1,
+        "opposite_starts": 0,
+        "informative_houses": 1,
+        "opposite_houses": 0,
+        "informative_goal_pair_entries_including_view_repeats": 8,
+        "opposed_goal_pair_entries_including_view_repeats": 0
+      },
+      "wrong": {
+        "rank": 1.0,
+        "double_difference": null,
+        "both_target_choices_correct": null,
+        "rank_starts": 1,
+        "opposite_starts": 0,
+        "informative_houses": 1,
+        "opposite_houses": 0,
+        "informative_goal_pair_entries_including_view_repeats": 8,
+        "opposed_goal_pair_entries_including_view_repeats": 0
+      },
+      "no_word": {
+        "rank": 0.0,
+        "double_difference": null,
+        "both_target_choices_correct": null,
+        "rank_starts": 1,
+        "opposite_starts": 0,
+        "informative_houses": 1,
+        "opposite_houses": 0,
+        "informative_goal_pair_entries_including_view_repeats": 8,
+        "opposed_goal_pair_entries_including_view_repeats": 0
+      },
+      "displacement": {
+        "rank": 0.5,
+        "double_difference": null,
+        "both_target_choices_correct": null,
+        "rank_starts": 1,
+        "opposite_starts": 0,
+        "informative_houses": 1,
+        "opposite_houses": 0,
+        "informative_goal_pair_entries_including_view_repeats": 8,
+        "opposed_goal_pair_entries_including_view_repeats": 0
+      },
+      "v6": {
+        "rank": 0.0,
+        "double_difference": null,
+        "both_target_choices_correct": null,
+        "rank_starts": 1,
+        "opposite_starts": 0,
+        "informative_houses": 1,
+        "opposite_houses": 0,
+        "informative_goal_pair_entries_including_view_repeats": 8,
+        "opposed_goal_pair_entries_including_view_repeats": 0
+      },
+      "joint_no_future": {
+        "rank": 0.25,
+        "double_difference": null,
+        "both_target_choices_correct": null,
+        "rank_starts": 1,
+        "opposite_starts": 0,
+        "informative_houses": 1,
+        "opposite_houses": 0,
+        "informative_goal_pair_entries_including_view_repeats": 8,
+        "opposed_goal_pair_entries_including_view_repeats": 0
+      }
+    },
+    "frontiers|derived": {
+      "geometry": {
+        "rank": null,
+        "double_difference": null,
+        "both_target_choices_correct": null,
+        "rank_starts": 0,
+        "opposite_starts": 0,
+        "informative_houses": 0,
+        "opposite_houses": 0,
+        "informative_goal_pair_entries_including_view_repeats": 0,
+        "opposed_goal_pair_entries_including_view_repeats": 0
+      },
+      "observed": {
+        "rank": null,
+        "double_difference": null,
+        "both_target_choices_correct": null,
+        "rank_starts": 0,
+        "opposite_starts": 0,
+        "informative_houses": 0,
+        "opposite_houses": 0,
+        "informative_goal_pair_entries_including_view_repeats": 0,
+        "opposed_goal_pair_entries_including_view_repeats": 0
+      },
+      "jepa": {
+        "rank": null,
+        "double_difference": null,
+        "both_target_choices_correct": null,
+        "rank_starts": 0,
+        "opposite_starts": 0,
+        "informative_houses": 0,
+        "opposite_houses": 0,
+        "informative_goal_pair_entries_including_view_repeats": 0,
+        "opposed_goal_pair_entries_including_view_repeats": 0
+      },
+      "joint": {
+        "rank": null,
+        "double_difference": null,
+        "both_target_choices_correct": null,
+        "rank_starts": 0,
+        "opposite_starts": 0,
+        "informative_houses": 0,
+        "opposite_houses": 0,
+        "informative_goal_pair_entries_including_view_repeats": 0,
+        "opposed_goal_pair_entries_including_view_repeats": 0
+      },
+      "wrong": {
+        "rank": null,
+        "double_difference": null,
+        "both_target_choices_correct": null,
+        "rank_starts": 0,
+        "opposite_starts": 0,
+        "informative_houses": 0,
+        "opposite_houses": 0,
+        "informative_goal_pair_entries_including_view_repeats": 0,
+        "opposed_goal_pair_entries_including_view_repeats": 0
+      },
+      "no_word": {
+        "rank": null,
+        "double_difference": null,
+        "both_target_choices_correct": null,
+        "rank_starts": 0,
+        "opposite_starts": 0,
+        "informative_houses": 0,
+        "opposite_houses": 0,
+        "informative_goal_pair_entries_including_view_repeats": 0,
+        "opposed_goal_pair_entries_including_view_repeats": 0
+      },
+      "displacement": {
+        "rank": null,
+        "double_difference": null,
+        "both_target_choices_correct": null,
+        "rank_starts": 0,
+        "opposite_starts": 0,
+        "informative_houses": 0,
+        "opposite_houses": 0,
+        "informative_goal_pair_entries_including_view_repeats": 0,
+        "opposed_goal_pair_entries_including_view_repeats": 0
+      },
+      "v6": {
+        "rank": null,
+        "double_difference": null,
+        "both_target_choices_correct": null,
+        "rank_starts": 0,
+        "opposite_starts": 0,
+        "informative_houses": 0,
+        "opposite_houses": 0,
+        "informative_goal_pair_entries_including_view_repeats": 0,
+        "opposed_goal_pair_entries_including_view_repeats": 0
+      },
+      "joint_no_future": {
+        "rank": null,
+        "double_difference": null,
+        "both_target_choices_correct": null,
+        "rank_starts": 0,
+        "opposite_starts": 0,
+        "informative_houses": 0,
+        "opposite_houses": 0,
+        "informative_goal_pair_entries_including_view_repeats": 0,
+        "opposed_goal_pair_entries_including_view_repeats": 0
+      }
+    },
+    "frontiers|all": {
+      "geometry": {
+        "rank": 1.0,
+        "double_difference": null,
+        "both_target_choices_correct": null,
+        "rank_starts": 1,
+        "opposite_starts": 0,
+        "informative_houses": 1,
+        "opposite_houses": 0,
+        "informative_goal_pair_entries_including_view_repeats": 8,
+        "opposed_goal_pair_entries_including_view_repeats": 0
+      },
+      "observed": {
+        "rank": 1.0,
+        "double_difference": null,
+        "both_target_choices_correct": null,
+        "rank_starts": 1,
+        "opposite_starts": 0,
+        "informative_houses": 1,
+        "opposite_houses": 0,
+        "informative_goal_pair_entries_including_view_repeats": 8,
+        "opposed_goal_pair_entries_including_view_repeats": 0
+      },
+      "jepa": {
+        "rank": 1.0,
+        "double_difference": null,
+        "both_target_choices_correct": null,
+        "rank_starts": 1,
+        "opposite_starts": 0,
+        "informative_houses": 1,
+        "opposite_houses": 0,
+        "informative_goal_pair_entries_including_view_repeats": 8,
+        "opposed_goal_pair_entries_including_view_repeats": 0
+      },
+      "joint": {
+        "rank": 0.0,
+        "double_difference": null,
+        "both_target_choices_correct": null,
+        "rank_starts": 1,
+        "opposite_starts": 0,
+        "informative_houses": 1,
+        "opposite_houses": 0,
+        "informative_goal_pair_entries_including_view_repeats": 8,
+        "opposed_goal_pair_entries_including_view_repeats": 0
+      },
+      "wrong": {
+        "rank": 1.0,
+        "double_difference": null,
+        "both_target_choices_correct": null,
+        "rank_starts": 1,
+        "opposite_starts": 0,
+        "informative_houses": 1,
+        "opposite_houses": 0,
+        "informative_goal_pair_entries_including_view_repeats": 8,
+        "opposed_goal_pair_entries_including_view_repeats": 0
+      },
+      "no_word": {
+        "rank": 0.0,
+        "double_difference": null,
+        "both_target_choices_correct": null,
+        "rank_starts": 1,
+        "opposite_starts": 0,
+        "informative_houses": 1,
+        "opposite_houses": 0,
+        "informative_goal_pair_entries_including_view_repeats": 8,
+        "opposed_goal_pair_entries_including_view_repeats": 0
+      },
+      "displacement": {
+        "rank": 0.5,
+        "double_difference": null,
+        "both_target_choices_correct": null,
+        "rank_starts": 1,
+        "opposite_starts": 0,
+        "informative_houses": 1,
+        "opposite_houses": 0,
+        "informative_goal_pair_entries_including_view_repeats": 8,
+        "opposed_goal_pair_entries_including_view_repeats": 0
+      },
+      "v6": {
+        "rank": 0.0,
+        "double_difference": null,
+        "both_target_choices_correct": null,
+        "rank_starts": 1,
+        "opposite_starts": 0,
+        "informative_houses": 1,
+        "opposite_houses": 0,
+        "informative_goal_pair_entries_including_view_repeats": 8,
+        "opposed_goal_pair_entries_including_view_repeats": 0
+      },
+      "joint_no_future": {
+        "rank": 0.25,
+        "double_difference": null,
+        "both_target_choices_correct": null,
+        "rank_starts": 1,
+        "opposite_starts": 0,
+        "informative_houses": 1,
+        "opposite_houses": 0,
+        "informative_goal_pair_entries_including_view_repeats": 8,
+        "opposed_goal_pair_entries_including_view_repeats": 0
+      }
+    }
+  },
+  "house_count": 4,
+  "notes": "Native plans are followed by a local path follower. Primitive actions are executed verbatim. Separate families on the same physical rooms."
+}

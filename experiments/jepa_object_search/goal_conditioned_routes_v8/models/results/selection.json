@@ -1,0 +1,1552 @@
+{
+  "epoch": 12,
+  "weights_sha256": "37fc573a287b333b96892086ff4bf3d28a1247bd9340bd44c4041c698aeabf33",
+  "source_sha256": {
+    "grounded_route.py": "7b6fbdc79eb2696b44f13d1929802f702e20fa9c7f4d242a2cd8849bb4730745",
+    "v8_data.py": "3eb90ff4cbbb7f005f3bf48609f28dbf4890a416bb81d919b3d4046efdad9f26",
+    "dense_clip.py": "119c851165e6caf8667bbb7e5fc54670c52869583318c002c2464544dc064846",
+    "fit_v8.py": "96844035ae723b2913bec364aec11b9d8352bfd8bfa8ab58b164d0cc9c588eab",
+    "protocol.json": "8cca8dc273db57ed981a9d296d8aeeda2480ffa05ed88652e8126c345d504239"
+  },
+  "train_houses": [
+    "train_01",
+    "train_02",
+    "train_03",
+    "train_04",
+    "train_05",
+    "train_06",
+    "train_07",
+    "train_08",
+    "train_09",
+    "train_10",
+    "train_11",
+    "train_12"
+  ],
+  "calibration_houses": [
+    "cal_01",
+    "cal_02",
+    "cal_03",
+    "cal_04"
+  ],
+  "grounding": {
+    "visible": {
+      "tp": 1140,
+      "fp": 8815,
+      "fn": 3037,
+      "f1": 0.1613359750919898
+    },
+    "near": {
+      "tp": 154,
+      "fp": 2239,
+      "fn": 2274,
+      "f1": 0.06388716034017838
+    }
+  },
+  "history": [
+    {
+      "epoch": 4,
+      "criterion": [
+        -0.03553516383787307,
+        0.0006875547987874597
+      ],
+      "results": {
+        "primitives|official": {
+          "geometry": -0.002237654407508673,
+          "observed": -0.02183642060845159,
+          "jepa": 0.002980324168068666,
+          "joint": 0.006018518082176646,
+          "wrong": -0.013753858307609335,
+          "displacement": -0.015972222279136382
+        },
+        "primitives|derived": {
+          "geometry": -0.011904762126505373,
+          "observed": 0.030891755353271343,
+          "jepa": -0.0036651238236421095,
+          "joint": -0.004643408484601727,
+          "wrong": -0.008088073169346899,
+          "displacement": -0.0027281749062240124
+        }
+      }
+    },
+    {
+      "epoch": 8,
+      "criterion": [
+        -0.023065476484286286,
+        -0.020149912500831608
+      ],
+      "results": {
+        "primitives|official": {
+          "geometry": -0.009027778171002865,
+          "observed": -0.019540895911632106,
+          "jepa": -0.007523148466134444,
+          "joint": -0.014506173611152917,
+          "wrong": -0.016936729002433516,
+          "displacement": -0.015972222279136382
+        },
+        "primitives|derived": {
+          "geometry": -0.020612875116057694,
+          "observed": -0.00518077616773856,
+          "jepa": -0.023871528304880485,
+          "joint": -0.0257936513905103,
+          "wrong": -0.0033688820355261377,
+          "displacement": -0.0027281749062240124
+        }
+      }
+    },
+    {
+      "epoch": 12,
+      "criterion": [
+        -0.0034239967256629216,
+        -0.00029830806791627086
+      ],
+      "results": {
+        "primitives|official": {
+          "geometry": -0.009027778403833508,
+          "observed": -0.02011959930920663,
+          "jepa": 0.003597608049555369,
+          "joint": 0.005555555496054392,
+          "wrong": 0.00394483039660069,
+          "displacement": -0.015972222279136382
+        },
+        "primitives|derived": {
+          "geometry": -0.022927689948119223,
+          "observed": -0.003940697187014543,
+          "jepa": -0.018463404373809077,
+          "joint": -0.006152171631886934,
+          "wrong": -0.003672012418974191,
+          "displacement": -0.0027281749062240124
+        }
+      }
+    }
+  ],
+  "calibration": {
+    "primitives|official": {
+      "geometry": {
+        "mean": {
+          "instances": 0.048611111395681895,
+          "gain": -0.009027778403833508,
+          "origin_instances": 0.05763889049800734,
+          "override": 0.8148148148148149,
+          "no_opportunity": 0.8857638888888889,
+          "no_distinction": 0.8857638888888889,
+          "house_mean_pair_accuracy_where_informative": 0.7849047928161853
+        },
+        "houses": {
+          "cal_01": {
+            "instances": 0.0,
+            "gain": -0.003703703793386618,
+            "origin_instances": 0.003703703793386618,
+            "override": 0.8148148148148149,
+            "pair_credit": 1.1666666666666667,
+            "strict_pairs": 1.3333333333333333,
+            "no_opportunity": 0.9666666666666667,
+            "no_distinction": 0.9666666666666667,
+            "pair_accuracy": 0.8750000000000001,
+            "informative_starts": 1,
+            "starts": 4
+          },
+          "cal_02": {
+            "instances": 0.0,
+            "gain": 0.0,
+            "origin_instances": 0.0,
+            "override": 0.8148148148148149,
+            "pair_credit": 0.0,
+            "strict_pairs": 0.0,
+            "no_opportunity": 1.0,
+            "no_distinction": 1.0,
+            "pair_accuracy": null,
+            "informative_starts": 0,
+            "starts": 4
+          },
+          "cal_03": {
+            "instances": 0.027777778605620067,
+            "gain": 0.009259259328246117,
+            "origin_instances": 0.018518518656492233,
+            "override": 0.8148148148148149,
+            "pair_credit": 5.833333333333334,
+            "strict_pairs": 6.5,
+            "no_opportunity": 0.9305555555555556,
+            "no_distinction": 0.9305555555555556,
+            "pair_accuracy": 0.8974358974358976,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "cal_04": {
+            "instances": 0.16666666697710752,
+            "gain": -0.041666669150193535,
+            "origin_instances": 0.20833333954215053,
+            "override": 0.8148148148148149,
+            "pair_credit": 15.333333333333334,
+            "strict_pairs": 26.333333333333332,
+            "no_opportunity": 0.6458333333333334,
+            "no_distinction": 0.6458333333333334,
+            "pair_accuracy": 0.5822784810126582,
+            "informative_starts": 4,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.7695659239672953,
+          "double_difference": 0.5,
+          "ranking_starts": 7,
+          "opposite_starts": 2
+        }
+      },
+      "observed": {
+        "mean": {
+          "instances": 0.037519290131361537,
+          "gain": -0.02011959930920663,
+          "origin_instances": 0.05763889049800734,
+          "override": 0.832204861111111,
+          "no_opportunity": 0.8857638888888889,
+          "no_distinction": 0.8857638888888889,
+          "house_mean_pair_accuracy_where_informative": 0.5565546224169642
+        },
+        "houses": {
+          "cal_01": {
+            "instances": 0.0,
+            "gain": -0.003703703793386618,
+            "origin_instances": 0.003703703793386618,
+            "override": 0.8115740740740741,
+            "pair_credit": 1.0625,
+            "strict_pairs": 1.3333333333333333,
+            "no_opportunity": 0.9666666666666667,
+            "no_distinction": 0.9666666666666667,
+            "pair_accuracy": 0.796875,
+            "informative_starts": 1,
+            "starts": 4
+          },
+          "cal_02": {
+            "instances": 0.0,
+            "gain": 0.0,
+            "origin_instances": 0.0,
+            "override": 0.826851851851852,
+            "pair_credit": 0.0,
+            "strict_pairs": 0.0,
+            "no_opportunity": 1.0,
+            "no_distinction": 1.0,
+            "pair_accuracy": null,
+            "informative_starts": 0,
+            "starts": 4
+          },
+          "cal_03": {
+            "instances": 0.003086419776082039,
+            "gain": -0.015432098880410194,
+            "origin_instances": 0.018518518656492233,
+            "override": 0.8414351851851852,
+            "pair_credit": 2.5208333333333335,
+            "strict_pairs": 6.5,
+            "no_opportunity": 0.9305555555555556,
+            "no_distinction": 0.9305555555555556,
+            "pair_accuracy": 0.38782051282051283,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "cal_04": {
+            "instances": 0.1469907407493641,
+            "gain": -0.061342594563029706,
+            "origin_instances": 0.20833333954215053,
+            "override": 0.8489583333333333,
+            "pair_credit": 12.770833333333332,
+            "strict_pairs": 26.333333333333332,
+            "no_opportunity": 0.6458333333333334,
+            "no_distinction": 0.6458333333333334,
+            "pair_accuracy": 0.4849683544303797,
+            "informative_starts": 4,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.5496695061576449,
+          "double_difference": 0.5,
+          "ranking_starts": 7,
+          "opposite_starts": 2
+        }
+      },
+      "jepa": {
+        "mean": {
+          "instances": 0.061236497344604374,
+          "gain": 0.003597608049555369,
+          "origin_instances": 0.05763889049800734,
+          "override": 0.8495563271604938,
+          "no_opportunity": 0.8857638888888889,
+          "no_distinction": 0.8857638888888889,
+          "house_mean_pair_accuracy_where_informative": 0.7549294060370011
+        },
+        "houses": {
+          "cal_01": {
+            "instances": 0.033333333830038704,
+            "gain": 0.029629630347092945,
+            "origin_instances": 0.003703703793386618,
+            "override": 0.8564814814814815,
+            "pair_credit": 1.3333333333333333,
+            "strict_pairs": 1.3333333333333333,
+            "no_opportunity": 0.9666666666666667,
+            "no_distinction": 0.9666666666666667,
+            "pair_accuracy": 1.0,
+            "informative_starts": 1,
+            "starts": 4
+          },
+          "cal_02": {
+            "instances": 0.0,
+            "gain": 0.0,
+            "origin_instances": 0.0,
+            "override": 0.8500000000000001,
+            "pair_credit": 0.0,
+            "strict_pairs": 0.0,
+            "no_opportunity": 1.0,
+            "no_distinction": 1.0,
+            "pair_accuracy": null,
+            "informative_starts": 0,
+            "starts": 4
+          },
+          "cal_03": {
+            "instances": 0.03163580332572261,
+            "gain": 0.013117283893128237,
+            "origin_instances": 0.018518518656492233,
+            "override": 0.8479938271604938,
+            "pair_credit": 4.75,
+            "strict_pairs": 6.5,
+            "no_opportunity": 0.9305555555555556,
+            "no_distinction": 0.9305555555555556,
+            "pair_accuracy": 0.7307692307692307,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "cal_04": {
+            "instances": 0.1799768522226562,
+            "gain": -0.028356482041999705,
+            "origin_instances": 0.20833333954215053,
+            "override": 0.8437500000000001,
+            "pair_credit": 14.062500000000002,
+            "strict_pairs": 26.333333333333332,
+            "no_opportunity": 0.6458333333333334,
+            "no_distinction": 0.6458333333333334,
+            "pair_accuracy": 0.5340189873417722,
+            "informative_starts": 4,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.748744891361437,
+          "double_difference": 0.7875000052154064,
+          "ranking_starts": 7,
+          "opposite_starts": 2
+        }
+      },
+      "joint": {
+        "mean": {
+          "instances": 0.06319444487841488,
+          "gain": 0.005555555496054392,
+          "origin_instances": 0.05763889049800734,
+          "override": 0.8343074845679013,
+          "no_opportunity": 0.8857638888888889,
+          "no_distinction": 0.8857638888888889,
+          "house_mean_pair_accuracy_where_informative": 0.6435900816834361
+        },
+        "houses": {
+          "cal_01": {
+            "instances": 0.02129629661794752,
+            "gain": 0.017592593018586438,
+            "origin_instances": 0.003703703793386618,
+            "override": 0.8300925925925927,
+            "pair_credit": 1.2708333333333333,
+            "strict_pairs": 1.3333333333333333,
+            "no_opportunity": 0.9666666666666667,
+            "no_distinction": 0.9666666666666667,
+            "pair_accuracy": 0.953125,
+            "informative_starts": 1,
+            "starts": 4
+          },
+          "cal_02": {
+            "instances": 0.0,
+            "gain": 0.0,
+            "origin_instances": 0.0,
+            "override": 0.8217592592592594,
+            "pair_credit": 0.0,
+            "strict_pairs": 0.0,
+            "no_opportunity": 1.0,
+            "no_distinction": 1.0,
+            "pair_accuracy": null,
+            "informative_starts": 0,
+            "starts": 4
+          },
+          "cal_03": {
+            "instances": 0.031250000931322575,
+            "gain": 0.01273148087784648,
+            "origin_instances": 0.018518518656492233,
+            "override": 0.8445216049382717,
+            "pair_credit": 3.1458333333333335,
+            "strict_pairs": 6.5,
+            "no_opportunity": 0.9305555555555556,
+            "no_distinction": 0.9305555555555556,
+            "pair_accuracy": 0.483974358974359,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "cal_04": {
+            "instances": 0.20023148196438947,
+            "gain": -0.00810185191221535,
+            "origin_instances": 0.20833333954215053,
+            "override": 0.8408564814814816,
+            "pair_credit": 13.0,
+            "strict_pairs": 26.333333333333332,
+            "no_opportunity": 0.6458333333333334,
+            "no_distinction": 0.6458333333333334,
+            "pair_accuracy": 0.4936708860759494,
+            "informative_starts": 4,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.5801842850374265,
+          "double_difference": 0.8625000081956387,
+          "ranking_starts": 7,
+          "opposite_starts": 2
+        }
+      },
+      "wrong": {
+        "mean": {
+          "instances": 0.06158371923568969,
+          "gain": 0.00394483039660069,
+          "origin_instances": 0.05763889049800734,
+          "override": 0.8343074845679013,
+          "no_opportunity": 0.8857638888888889,
+          "no_distinction": 0.8857638888888889,
+          "house_mean_pair_accuracy_where_informative": 0.5455513631937682
+        },
+        "houses": {
+          "cal_01": {
+            "instances": 0.0,
+            "gain": -0.003703703793386618,
+            "origin_instances": 0.003703703793386618,
+            "override": 0.8300925925925927,
+            "pair_credit": 0.875,
+            "strict_pairs": 1.3333333333333333,
+            "no_opportunity": 0.9666666666666667,
+            "no_distinction": 0.9666666666666667,
+            "pair_accuracy": 0.65625,
+            "informative_starts": 1,
+            "starts": 4
+          },
+          "cal_02": {
+            "instances": 0.0,
+            "gain": 0.0,
+            "origin_instances": 0.0,
+            "override": 0.8217592592592594,
+            "pair_credit": 0.0,
+            "strict_pairs": 0.0,
+            "no_opportunity": 1.0,
+            "no_distinction": 1.0,
+            "pair_accuracy": null,
+            "informative_starts": 0,
+            "starts": 4
+          },
+          "cal_03": {
+            "instances": 0.01080246944911778,
+            "gain": -0.007716049673035741,
+            "origin_instances": 0.018518518656492233,
+            "override": 0.8445216049382717,
+            "pair_credit": 2.9375,
+            "strict_pairs": 6.5,
+            "no_opportunity": 0.9305555555555556,
+            "no_distinction": 0.9305555555555556,
+            "pair_accuracy": 0.4519230769230769,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "cal_04": {
+            "instances": 0.235532407493641,
+            "gain": 0.027199075052825115,
+            "origin_instances": 0.20833333954215053,
+            "override": 0.8408564814814816,
+            "pair_credit": 13.916666666666668,
+            "strict_pairs": 26.333333333333332,
+            "no_opportunity": 0.6458333333333334,
+            "no_distinction": 0.6458333333333334,
+            "pair_accuracy": 0.5284810126582279,
+            "informative_starts": 4,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.4779822088571058,
+          "double_difference": 0.5000000018626451,
+          "ranking_starts": 7,
+          "opposite_starts": 2
+        }
+      },
+      "displacement": {
+        "mean": {
+          "instances": 0.041666666666666664,
+          "gain": -0.015972222279136382,
+          "origin_instances": 0.05763889049800734,
+          "override": 0.888888888888889,
+          "no_opportunity": 0.8857638888888889,
+          "no_distinction": 0.8857638888888889,
+          "house_mean_pair_accuracy_where_informative": 0.5309490966136535
+        },
+        "houses": {
+          "cal_01": {
+            "instances": 0.0,
+            "gain": -0.003703703793386618,
+            "origin_instances": 0.003703703793386618,
+            "override": 0.888888888888889,
+            "pair_credit": 1.0833333333333333,
+            "strict_pairs": 1.3333333333333333,
+            "no_opportunity": 0.9666666666666667,
+            "no_distinction": 0.9666666666666667,
+            "pair_accuracy": 0.8125,
+            "informative_starts": 1,
+            "starts": 4
+          },
+          "cal_02": {
+            "instances": 0.0,
+            "gain": 0.0,
+            "origin_instances": 0.0,
+            "override": 0.888888888888889,
+            "pair_credit": 0.0,
+            "strict_pairs": 0.0,
+            "no_opportunity": 1.0,
+            "no_distinction": 1.0,
+            "pair_accuracy": null,
+            "informative_starts": 0,
+            "starts": 4
+          },
+          "cal_03": {
+            "instances": 0.0,
+            "gain": -0.018518518656492233,
+            "origin_instances": 0.018518518656492233,
+            "override": 0.888888888888889,
+            "pair_credit": 2.5833333333333335,
+            "strict_pairs": 6.5,
+            "no_opportunity": 0.9305555555555556,
+            "no_distinction": 0.9305555555555556,
+            "pair_accuracy": 0.39743589743589747,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "cal_04": {
+            "instances": 0.16666666666666666,
+            "gain": -0.04166666666666667,
+            "origin_instances": 0.20833333954215053,
+            "override": 0.888888888888889,
+            "pair_credit": 10.083333333333334,
+            "strict_pairs": 26.333333333333332,
+            "no_opportunity": 0.6458333333333334,
+            "no_distinction": 0.6458333333333334,
+            "pair_accuracy": 0.38291139240506333,
+            "informative_starts": 4,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.610190731783708,
+          "double_difference": 0.5,
+          "ranking_starts": 7,
+          "opposite_starts": 2
+        }
+      },
+      "v6": {
+        "mean": {
+          "instances": 0.07753665200046575,
+          "gain": 0.019897762899442267,
+          "origin_instances": 0.05763889049800734,
+          "override": 0.49975887345679015,
+          "no_opportunity": 0.8857638888888889,
+          "no_distinction": 0.8857638888888889,
+          "house_mean_pair_accuracy_where_informative": 0.6981753083414475
+        },
+        "houses": {
+          "cal_01": {
+            "instances": 0.0009259259483466545,
+            "gain": -0.0027777778450399637,
+            "origin_instances": 0.003703703793386618,
+            "override": 0.5050925925925926,
+            "pair_credit": 1.1458333333333333,
+            "strict_pairs": 1.3333333333333333,
+            "no_opportunity": 0.9666666666666667,
+            "no_distinction": 0.9666666666666667,
+            "pair_accuracy": 0.859375,
+            "informative_starts": 1,
+            "starts": 4
+          },
+          "cal_02": {
+            "instances": 0.0,
+            "gain": 0.0,
+            "origin_instances": 0.0,
+            "override": 0.45092592592592584,
+            "pair_credit": 0.0,
+            "strict_pairs": 0.0,
+            "no_opportunity": 1.0,
+            "no_distinction": 1.0,
+            "pair_accuracy": null,
+            "informative_starts": 0,
+            "starts": 4
+          },
+          "cal_03": {
+            "instances": 0.02507716075827678,
+            "gain": 0.0065586419465641175,
+            "origin_instances": 0.018518518656492233,
+            "override": 0.5435956790123457,
+            "pair_credit": 3.75,
+            "strict_pairs": 6.5,
+            "no_opportunity": 0.9305555555555556,
+            "no_distinction": 0.9305555555555556,
+            "pair_accuracy": 0.5769230769230769,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "cal_04": {
+            "instances": 0.28414352129523957,
+            "gain": 0.07581018749624491,
+            "origin_instances": 0.20833333954215053,
+            "override": 0.4994212962962963,
+            "pair_credit": 17.333333333333332,
+            "strict_pairs": 26.333333333333332,
+            "no_opportunity": 0.6458333333333334,
+            "no_distinction": 0.6458333333333334,
+            "pair_accuracy": 0.6582278481012658,
+            "informative_starts": 4,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.6512248899994625,
+          "double_difference": 0.9250000007450581,
+          "ranking_starts": 7,
+          "opposite_starts": 2
+        }
+      },
+      "joint_no_future": {
+        "mean": {
+          "instances": 0.065538194826028,
+          "gain": 0.007899305569784095,
+          "origin_instances": 0.05763889049800734,
+          "override": 0.8398533950617284,
+          "no_opportunity": 0.8857638888888889,
+          "no_distinction": 0.8857638888888889,
+          "house_mean_pair_accuracy_where_informative": 0.6633347533268419
+        },
+        "houses": {
+          "cal_01": {
+            "instances": 0.025462963346702356,
+            "gain": 0.021759259786146384,
+            "origin_instances": 0.003703703793386618,
+            "override": 0.8250000000000001,
+            "pair_credit": 1.2708333333333333,
+            "strict_pairs": 1.3333333333333333,
+            "no_opportunity": 0.9666666666666667,
+            "no_distinction": 0.9666666666666667,
+            "pair_accuracy": 0.953125,
+            "informative_starts": 1,
+            "starts": 4
+          },
+          "cal_02": {
+            "instances": 0.0,
+            "gain": 0.0,
+            "origin_instances": 0.0,
+            "override": 0.8407407407407408,
+            "pair_credit": 0.0,
+            "strict_pairs": 0.0,
+            "no_opportunity": 1.0,
+            "no_distinction": 1.0,
+            "pair_accuracy": null,
+            "informative_starts": 0,
+            "starts": 4
+          },
+          "cal_03": {
+            "instances": 0.034722223257025085,
+            "gain": 0.01620370304832856,
+            "origin_instances": 0.018518518656492233,
+            "override": 0.8464506172839507,
+            "pair_credit": 3.5,
+            "strict_pairs": 6.5,
+            "no_opportunity": 0.9305555555555556,
+            "no_distinction": 0.9305555555555556,
+            "pair_accuracy": 0.5384615384615384,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "cal_04": {
+            "instances": 0.20196759270038456,
+            "gain": -0.0063657405553385615,
+            "origin_instances": 0.20833333954215053,
+            "override": 0.8472222222222222,
+            "pair_credit": 13.125,
+            "strict_pairs": 26.333333333333332,
+            "no_opportunity": 0.6458333333333334,
+            "no_distinction": 0.6458333333333334,
+            "pair_accuracy": 0.4984177215189874,
+            "informative_starts": 4,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.6181499089062629,
+          "double_difference": 0.9500000029802322,
+          "ranking_starts": 7,
+          "opposite_starts": 2
+        }
+      },
+      "no_word": {
+        "mean": {
+          "instances": 0.04103973769815639,
+          "gain": -0.016599151907333482,
+          "origin_instances": 0.05763889049800734,
+          "override": 0.8287037037037037,
+          "no_opportunity": 0.8857638888888889,
+          "no_distinction": 0.8857638888888889,
+          "house_mean_pair_accuracy_where_informative": 0.4168188088283025
+        },
+        "houses": {
+          "cal_01": {
+            "instances": 0.0,
+            "gain": -0.003703703793386618,
+            "origin_instances": 0.003703703793386618,
+            "override": 0.8194444444444445,
+            "pair_credit": 0.4583333333333333,
+            "strict_pairs": 1.3333333333333333,
+            "no_opportunity": 0.9666666666666667,
+            "no_distinction": 0.9666666666666667,
+            "pair_accuracy": 0.34375,
+            "informative_starts": 1,
+            "starts": 4
+          },
+          "cal_02": {
+            "instances": 0.0,
+            "gain": 0.0,
+            "origin_instances": 0.0,
+            "override": 0.8310185185185186,
+            "pair_credit": 0.0,
+            "strict_pairs": 0.0,
+            "no_opportunity": 1.0,
+            "no_distinction": 1.0,
+            "pair_accuracy": null,
+            "informative_starts": 0,
+            "starts": 4
+          },
+          "cal_03": {
+            "instances": 0.028163581077630322,
+            "gain": 0.009645061179374654,
+            "origin_instances": 0.018518518656492233,
+            "override": 0.8425925925925927,
+            "pair_credit": 2.875,
+            "strict_pairs": 6.5,
+            "no_opportunity": 0.9305555555555556,
+            "no_distinction": 0.9305555555555556,
+            "pair_accuracy": 0.4423076923076923,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "cal_04": {
+            "instances": 0.13599536971499523,
+            "gain": -0.07233796501532197,
+            "origin_instances": 0.20833333954215053,
+            "override": 0.8217592592592593,
+            "pair_credit": 12.229166666666668,
+            "strict_pairs": 26.333333333333332,
+            "no_opportunity": 0.6458333333333334,
+            "no_distinction": 0.6458333333333334,
+            "pair_accuracy": 0.4643987341772153,
+            "informative_starts": 4,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.3329940186296072,
+          "double_difference": 0.5,
+          "ranking_starts": 7,
+          "opposite_starts": 2
+        }
+      },
+      "retain": {
+        "mean": {
+          "instances": 0.05763889049800734,
+          "gain": 0.0,
+          "origin_instances": 0.05763889049800734,
+          "override": 0.0,
+          "no_opportunity": 0.8857638888888889,
+          "no_distinction": 0.8857638888888889,
+          "house_mean_pair_accuracy_where_informative": 0.5
+        },
+        "houses": {
+          "cal_01": {
+            "instances": 0.003703703793386618,
+            "gain": 0.0,
+            "origin_instances": 0.003703703793386618,
+            "override": 0.0,
+            "pair_credit": 0.6666666666666666,
+            "strict_pairs": 1.3333333333333333,
+            "no_opportunity": 0.9666666666666667,
+            "no_distinction": 0.9666666666666667,
+            "pair_accuracy": 0.5,
+            "informative_starts": 1,
+            "starts": 4
+          },
+          "cal_02": {
+            "instances": 0.0,
+            "gain": 0.0,
+            "origin_instances": 0.0,
+            "override": 0.0,
+            "pair_credit": 0.0,
+            "strict_pairs": 0.0,
+            "no_opportunity": 1.0,
+            "no_distinction": 1.0,
+            "pair_accuracy": null,
+            "informative_starts": 0,
+            "starts": 4
+          },
+          "cal_03": {
+            "instances": 0.018518518656492233,
+            "gain": 0.0,
+            "origin_instances": 0.018518518656492233,
+            "override": 0.0,
+            "pair_credit": 3.25,
+            "strict_pairs": 6.5,
+            "no_opportunity": 0.9305555555555556,
+            "no_distinction": 0.9305555555555556,
+            "pair_accuracy": 0.5,
+            "informative_starts": 2,
+            "starts": 4
+          },
+          "cal_04": {
+            "instances": 0.20833333954215053,
+            "gain": 0.0,
+            "origin_instances": 0.20833333954215053,
+            "override": 0.0,
+            "pair_credit": 13.166666666666666,
+            "strict_pairs": 26.333333333333332,
+            "no_opportunity": 0.6458333333333334,
+            "no_distinction": 0.6458333333333334,
+            "pair_accuracy": 0.5,
+            "informative_starts": 4,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.5,
+          "double_difference": 0.5,
+          "ranking_starts": 7,
+          "opposite_starts": 2
+        }
+      }
+    },
+    "primitives|derived": {
+      "geometry": {
+        "mean": {
+          "instances": 0.034115962606544294,
+          "gain": -0.022927689948119223,
+          "origin_instances": 0.0570436519337818,
+          "override": 0.8148148148148149,
+          "no_opportunity": 0.8660714285714286,
+          "no_distinction": 0.8660714285714286,
+          "house_mean_pair_accuracy_where_informative": 0.43599880964793386
+        },
+        "houses": {
+          "cal_01": {
+            "instances": 0.029320988493661087,
+            "gain": -0.03086419776082039,
+            "origin_instances": 0.06018518563359976,
+            "override": 0.8148148148148149,
+            "pair_credit": 5.166666666666667,
+            "strict_pairs": 16.0,
+            "no_opportunity": 0.8333333333333334,
+            "no_distinction": 0.8333333333333334,
+            "pair_accuracy": 0.3229166666666667,
+            "informative_starts": 3,
+            "starts": 4
+          },
+          "cal_02": {
+            "instances": 0.0,
+            "gain": 0.0,
+            "origin_instances": 0.0,
+            "override": 0.8148148148148149,
+            "pair_credit": 0.0,
+            "strict_pairs": 0.0,
+            "no_opportunity": 1.0,
+            "no_distinction": 1.0,
+            "pair_accuracy": null,
+            "informative_starts": 0,
+            "starts": 4
+          },
+          "cal_03": {
+            "instances": 0.1071428619325161,
+            "gain": -0.014550265079985063,
+            "origin_instances": 0.121693125149856,
+            "override": 0.8148148148148149,
+            "pair_credit": 17.583333333333332,
+            "strict_pairs": 23.166666666666668,
+            "no_opportunity": 0.7976190476190476,
+            "no_distinction": 0.7976190476190476,
+            "pair_accuracy": 0.7589928057553956,
+            "informative_starts": 3,
+            "starts": 4
+          },
+          "cal_04": {
+            "instances": 0.0,
+            "gain": -0.04629629695167144,
+            "origin_instances": 0.04629629695167144,
+            "override": 0.8148148148148149,
+            "pair_credit": 2.1666666666666665,
+            "strict_pairs": 9.583333333333334,
+            "no_opportunity": 0.8333333333333334,
+            "no_distinction": 0.8333333333333334,
+            "pair_accuracy": 0.2260869565217391,
+            "informative_starts": 3,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.4689456834285348,
+          "double_difference": 0.5,
+          "ranking_starts": 9,
+          "opposite_starts": 2
+        }
+      },
+      "observed": {
+        "mean": {
+          "instances": 0.05310295558107707,
+          "gain": -0.003940697187014543,
+          "origin_instances": 0.0570436519337818,
+          "override": 0.8295304232804234,
+          "no_opportunity": 0.8660714285714286,
+          "no_distinction": 0.8660714285714286,
+          "house_mean_pair_accuracy_where_informative": 0.4958798721892051
+        },
+        "houses": {
+          "cal_01": {
+            "instances": 0.0933641993906349,
+            "gain": 0.033179012437661484,
+            "origin_instances": 0.06018518563359976,
+            "override": 0.8194444444444445,
+            "pair_credit": 8.708333333333334,
+            "strict_pairs": 16.0,
+            "no_opportunity": 0.8333333333333334,
+            "no_distinction": 0.8333333333333334,
+            "pair_accuracy": 0.5442708333333334,
+            "informative_starts": 3,
+            "starts": 4
+          },
+          "cal_02": {
+            "instances": 0.0,
+            "gain": 0.0,
+            "origin_instances": 0.0,
+            "override": 0.8293650793650795,
+            "pair_credit": 0.0,
+            "strict_pairs": 0.0,
+            "no_opportunity": 1.0,
+            "no_distinction": 1.0,
+            "pair_accuracy": null,
+            "informative_starts": 0,
+            "starts": 4
+          },
+          "cal_03": {
+            "instances": 0.0866402155176426,
+            "gain": -0.035052911882909626,
+            "origin_instances": 0.121693125149856,
+            "override": 0.8313492063492064,
+            "pair_credit": 14.25,
+            "strict_pairs": 23.166666666666668,
+            "no_opportunity": 0.7976190476190476,
+            "no_distinction": 0.7976190476190476,
+            "pair_accuracy": 0.6151079136690647,
+            "informative_starts": 3,
+            "starts": 4
+          },
+          "cal_04": {
+            "instances": 0.032407407416030765,
+            "gain": -0.013888889302810029,
+            "origin_instances": 0.04629629695167144,
+            "override": 0.8379629629629629,
+            "pair_credit": 3.1458333333333335,
+            "strict_pairs": 9.583333333333334,
+            "no_opportunity": 0.8333333333333334,
+            "no_distinction": 0.8333333333333334,
+            "pair_accuracy": 0.3282608695652174,
+            "informative_starts": 3,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.5507627649715653,
+          "double_difference": 0.4375,
+          "ranking_starts": 9,
+          "opposite_starts": 2
+        }
+      },
+      "jepa": {
+        "mean": {
+          "instances": 0.038580247977127634,
+          "gain": -0.018463404373809077,
+          "origin_instances": 0.0570436519337818,
+          "override": 0.8478835978835981,
+          "no_opportunity": 0.8660714285714286,
+          "no_distinction": 0.8660714285714286,
+          "house_mean_pair_accuracy_where_informative": 0.5223380263180759
+        },
+        "houses": {
+          "cal_01": {
+            "instances": 0.0478395070725431,
+            "gain": -0.012345679569989443,
+            "origin_instances": 0.06018518563359976,
+            "override": 0.8472222222222223,
+            "pair_credit": 8.520833333333332,
+            "strict_pairs": 16.0,
+            "no_opportunity": 0.8333333333333334,
+            "no_distinction": 0.8333333333333334,
+            "pair_accuracy": 0.5325520833333333,
+            "informative_starts": 3,
+            "starts": 4
+          },
+          "cal_02": {
+            "instances": 0.0,
+            "gain": 0.0,
+            "origin_instances": 0.0,
+            "override": 0.8465608465608467,
+            "pair_credit": 0.0,
+            "strict_pairs": 0.0,
+            "no_opportunity": 1.0,
+            "no_distinction": 1.0,
+            "pair_accuracy": null,
+            "informative_starts": 0,
+            "starts": 4
+          },
+          "cal_03": {
+            "instances": 0.0972222254301111,
+            "gain": -0.024470900379431747,
+            "origin_instances": 0.121693125149856,
+            "override": 0.8551587301587303,
+            "pair_credit": 13.187500000000002,
+            "strict_pairs": 23.166666666666668,
+            "no_opportunity": 0.7976190476190476,
+            "no_distinction": 0.7976190476190476,
+            "pair_accuracy": 0.5692446043165468,
+            "informative_starts": 3,
+            "starts": 4
+          },
+          "cal_04": {
+            "instances": 0.009259259405856332,
+            "gain": -0.03703703754581511,
+            "origin_instances": 0.04629629695167144,
+            "override": 0.8425925925925928,
+            "pair_credit": 4.458333333333334,
+            "strict_pairs": 9.583333333333334,
+            "no_opportunity": 0.8333333333333334,
+            "no_distinction": 0.8333333333333334,
+            "pair_accuracy": 0.46521739130434786,
+            "informative_starts": 3,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.4944158682806625,
+          "double_difference": 0.5625,
+          "ranking_starts": 9,
+          "opposite_starts": 2
+        }
+      },
+      "joint": {
+        "mean": {
+          "instances": 0.05089148056382935,
+          "gain": -0.006152171631886934,
+          "origin_instances": 0.0570436519337818,
+          "override": 0.8439773478835979,
+          "no_opportunity": 0.8660714285714286,
+          "no_distinction": 0.8660714285714286,
+          "house_mean_pair_accuracy_where_informative": 0.5099201345445383
+        },
+        "houses": {
+          "cal_01": {
+            "instances": 0.07600308838300407,
+            "gain": 0.01581790150764088,
+            "origin_instances": 0.06018518563359976,
+            "override": 0.837962962962963,
+            "pair_credit": 8.520833333333334,
+            "strict_pairs": 16.0,
+            "no_opportunity": 0.8333333333333334,
+            "no_distinction": 0.8333333333333334,
+            "pair_accuracy": 0.5325520833333334,
+            "informative_starts": 3,
+            "starts": 4
+          },
+          "cal_02": {
+            "instances": 0.0,
+            "gain": 0.0,
+            "origin_instances": 0.0,
+            "override": 0.8455687830687832,
+            "pair_credit": 0.0,
+            "strict_pairs": 0.0,
+            "no_opportunity": 1.0,
+            "no_distinction": 1.0,
+            "pair_accuracy": null,
+            "informative_starts": 0,
+            "starts": 4
+          },
+          "cal_03": {
+            "instances": 0.11309524121073386,
+            "gain": -0.008597883977927268,
+            "origin_instances": 0.121693125149856,
+            "override": 0.853835978835979,
+            "pair_credit": 12.979166666666666,
+            "strict_pairs": 23.166666666666668,
+            "no_opportunity": 0.7976190476190476,
+            "no_distinction": 0.7976190476190476,
+            "pair_accuracy": 0.560251798561151,
+            "informative_starts": 3,
+            "starts": 4
+          },
+          "cal_04": {
+            "instances": 0.01446759266157945,
+            "gain": -0.03182870405726135,
+            "origin_instances": 0.04629629695167144,
+            "override": 0.8385416666666667,
+            "pair_credit": 4.1875,
+            "strict_pairs": 9.583333333333334,
+            "no_opportunity": 0.8333333333333334,
+            "no_distinction": 0.8333333333333334,
+            "pair_accuracy": 0.4369565217391304,
+            "informative_starts": 3,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.514605450961325,
+          "double_difference": 0.1875,
+          "ranking_starts": 9,
+          "opposite_starts": 2
+        }
+      },
+      "wrong": {
+        "mean": {
+          "instances": 0.053371639689430594,
+          "gain": -0.003672012418974191,
+          "origin_instances": 0.0570436519337818,
+          "override": 0.8439773478835979,
+          "no_opportunity": 0.8660714285714286,
+          "no_distinction": 0.8660714285714286,
+          "house_mean_pair_accuracy_where_informative": 0.46560952325096444
+        },
+        "houses": {
+          "cal_01": {
+            "instances": 0.030864198381702103,
+            "gain": -0.029320987872779366,
+            "origin_instances": 0.06018518563359976,
+            "override": 0.837962962962963,
+            "pair_credit": 6.875,
+            "strict_pairs": 16.0,
+            "no_opportunity": 0.8333333333333334,
+            "no_distinction": 0.8333333333333334,
+            "pair_accuracy": 0.4296875,
+            "informative_starts": 3,
+            "starts": 4
+          },
+          "cal_02": {
+            "instances": 0.0,
+            "gain": 0.0,
+            "origin_instances": 0.0,
+            "override": 0.8455687830687832,
+            "pair_credit": 0.0,
+            "strict_pairs": 0.0,
+            "no_opportunity": 1.0,
+            "no_distinction": 1.0,
+            "pair_accuracy": null,
+            "informative_starts": 0,
+            "starts": 4
+          },
+          "cal_03": {
+            "instances": 0.16699736037602028,
+            "gain": 0.045304234682892755,
+            "origin_instances": 0.121693125149856,
+            "override": 0.853835978835979,
+            "pair_credit": 13.541666666666666,
+            "strict_pairs": 23.166666666666668,
+            "no_opportunity": 0.7976190476190476,
+            "no_distinction": 0.7976190476190476,
+            "pair_accuracy": 0.5845323741007193,
+            "informative_starts": 3,
+            "starts": 4
+          },
+          "cal_04": {
+            "instances": 0.015625,
+            "gain": -0.030671296486010153,
+            "origin_instances": 0.04629629695167144,
+            "override": 0.8385416666666667,
+            "pair_credit": 3.6666666666666665,
+            "strict_pairs": 9.583333333333334,
+            "no_opportunity": 0.8333333333333334,
+            "no_distinction": 0.8333333333333334,
+            "pair_accuracy": 0.38260869565217387,
+            "informative_starts": 3,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.4442305978111647,
+          "double_difference": 0.5,
+          "ranking_starts": 9,
+          "opposite_starts": 2
+        }
+      },
+      "displacement": {
+        "mean": {
+          "instances": 0.054315477299193546,
+          "gain": -0.0027281749062240124,
+          "origin_instances": 0.0570436519337818,
+          "override": 0.888888888888889,
+          "no_opportunity": 0.8660714285714286,
+          "no_distinction": 0.8660714285714286,
+          "house_mean_pair_accuracy_where_informative": 0.4425032799847079
+        },
+        "houses": {
+          "cal_01": {
+            "instances": 0.0416666679084301,
+            "gain": -0.01851851803561052,
+            "origin_instances": 0.06018518563359976,
+            "override": 0.888888888888889,
+            "pair_credit": 7.916666666666667,
+            "strict_pairs": 16.0,
+            "no_opportunity": 0.8333333333333334,
+            "no_distinction": 0.8333333333333334,
+            "pair_accuracy": 0.4947916666666667,
+            "informative_starts": 3,
+            "starts": 4
+          },
+          "cal_02": {
+            "instances": 0.0,
+            "gain": 0.0,
+            "origin_instances": 0.0,
+            "override": 0.888888888888889,
+            "pair_credit": 0.0,
+            "strict_pairs": 0.0,
+            "no_opportunity": 1.0,
+            "no_distinction": 1.0,
+            "pair_accuracy": null,
+            "informative_starts": 0,
+            "starts": 4
+          },
+          "cal_03": {
+            "instances": 0.0714285746216774,
+            "gain": -0.05026455223560333,
+            "origin_instances": 0.121693125149856,
+            "override": 0.888888888888889,
+            "pair_credit": 8.916666666666666,
+            "strict_pairs": 23.166666666666668,
+            "no_opportunity": 0.7976190476190476,
+            "no_distinction": 0.7976190476190476,
+            "pair_accuracy": 0.3848920863309352,
+            "informative_starts": 3,
+            "starts": 4
+          },
+          "cal_04": {
+            "instances": 0.10416666666666667,
+            "gain": 0.05787037064631781,
+            "origin_instances": 0.04629629695167144,
+            "override": 0.888888888888889,
+            "pair_credit": 4.291666666666667,
+            "strict_pairs": 9.583333333333334,
+            "no_opportunity": 0.8333333333333334,
+            "no_distinction": 0.8333333333333334,
+            "pair_accuracy": 0.44782608695652176,
+            "informative_starts": 3,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.4920620123545329,
+          "double_difference": 0.5,
+          "ranking_starts": 9,
+          "opposite_starts": 2
+        }
+      },
+      "v6": {
+        "mean": {
+          "instances": 0.08050181996077299,
+          "gain": 0.023458168463548645,
+          "origin_instances": 0.0570436519337818,
+          "override": 0.49342069003527333,
+          "no_opportunity": 0.8660714285714286,
+          "no_distinction": 0.8660714285714286,
+          "house_mean_pair_accuracy_where_informative": 0.6533518565582317
+        },
+        "houses": {
+          "cal_01": {
+            "instances": 0.08912037072392802,
+            "gain": 0.02893518516793847,
+            "origin_instances": 0.06018518563359976,
+            "override": 0.4564043209876544,
+            "pair_credit": 10.8125,
+            "strict_pairs": 16.0,
+            "no_opportunity": 0.8333333333333334,
+            "no_distinction": 0.8333333333333334,
+            "pair_accuracy": 0.67578125,
+            "informative_starts": 3,
+            "starts": 4
+          },
+          "cal_02": {
+            "instances": 0.0,
+            "gain": 0.0,
+            "origin_instances": 0.0,
+            "override": 0.4441137566137565,
+            "pair_credit": 0.0,
+            "strict_pairs": 0.0,
+            "no_opportunity": 1.0,
+            "no_distinction": 1.0,
+            "pair_accuracy": null,
+            "informative_starts": 0,
+            "starts": 4
+          },
+          "cal_03": {
+            "instances": 0.15939153839523593,
+            "gain": 0.037698413749846324,
+            "origin_instances": 0.121693125149856,
+            "override": 0.5436507936507936,
+            "pair_credit": 16.104166666666668,
+            "strict_pairs": 23.166666666666668,
+            "no_opportunity": 0.7976190476190476,
+            "no_distinction": 0.7976190476190476,
+            "pair_accuracy": 0.6951438848920863,
+            "informative_starts": 3,
+            "starts": 4
+          },
+          "cal_04": {
+            "instances": 0.073495370723928,
+            "gain": 0.027199074936409794,
+            "origin_instances": 0.04629629695167144,
+            "override": 0.5295138888888888,
+            "pair_credit": 5.645833333333333,
+            "strict_pairs": 9.583333333333334,
+            "no_opportunity": 0.8333333333333334,
+            "no_distinction": 0.8333333333333334,
+            "pair_accuracy": 0.5891304347826086,
+            "informative_starts": 3,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.6058396239661508,
+          "double_difference": 0.875,
+          "ranking_starts": 9,
+          "opposite_starts": 2
+        }
+      },
+      "joint_no_future": {
+        "mean": {
+          "instances": 0.05694031232269481,
+          "gain": -0.00010334007674828172,
+          "origin_instances": 0.0570436519337818,
+          "override": 0.8460097001763669,
+          "no_opportunity": 0.8660714285714286,
+          "no_distinction": 0.8660714285714286,
+          "house_mean_pair_accuracy_where_informative": 0.5364600982257671
+        },
+        "houses": {
+          "cal_01": {
+            "instances": 0.11458333628252149,
+            "gain": 0.05439814917432765,
+            "origin_instances": 0.06018518563359976,
+            "override": 0.8375771604938272,
+            "pair_credit": 10.104166666666668,
+            "strict_pairs": 16.0,
+            "no_opportunity": 0.8333333333333334,
+            "no_distinction": 0.8333333333333334,
+            "pair_accuracy": 0.6315104166666667,
+            "informative_starts": 3,
+            "starts": 4
+          },
+          "cal_02": {
+            "instances": 0.0,
+            "gain": 0.0,
+            "origin_instances": 0.0,
+            "override": 0.8472222222222223,
+            "pair_credit": 0.0,
+            "strict_pairs": 0.0,
+            "no_opportunity": 1.0,
+            "no_distinction": 1.0,
+            "pair_accuracy": null,
+            "informative_starts": 0,
+            "starts": 4
+          },
+          "cal_03": {
+            "instances": 0.10681217225889364,
+            "gain": -0.01488095335662365,
+            "origin_instances": 0.121693125149856,
+            "override": 0.855489417989418,
+            "pair_credit": 12.833333333333332,
+            "strict_pairs": 23.166666666666668,
+            "no_opportunity": 0.7976190476190476,
+            "no_distinction": 0.7976190476190476,
+            "pair_accuracy": 0.553956834532374,
+            "informative_starts": 3,
+            "starts": 4
+          },
+          "cal_04": {
+            "instances": 0.006365740749364098,
+            "gain": -0.03993055612469713,
+            "origin_instances": 0.04629629695167144,
+            "override": 0.8437500000000001,
+            "pair_credit": 4.0625,
+            "strict_pairs": 9.583333333333334,
+            "no_opportunity": 0.8333333333333334,
+            "no_distinction": 0.8333333333333334,
+            "pair_accuracy": 0.42391304347826086,
+            "informative_starts": 3,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.545798017401938,
+          "double_difference": 0.25,
+          "ranking_starts": 9,
+          "opposite_starts": 2
+        }
+      },
+      "no_word": {
+        "mean": {
+          "instances": 0.09341931284870951,
+          "gain": 0.03637566204997711,
+          "origin_instances": 0.0570436519337818,
+          "override": 0.8287037037037037,
+          "no_opportunity": 0.8660714285714286,
+          "no_distinction": 0.8660714285714286,
+          "house_mean_pair_accuracy_where_informative": 0.5605555772773085
+        },
+        "houses": {
+          "cal_01": {
+            "instances": 0.15625000031044084,
+            "gain": 0.09606481599621475,
+            "origin_instances": 0.06018518563359976,
+            "override": 0.8194444444444445,
+            "pair_credit": 9.083333333333332,
+            "strict_pairs": 16.0,
+            "no_opportunity": 0.8333333333333334,
+            "no_distinction": 0.8333333333333334,
+            "pair_accuracy": 0.5677083333333333,
+            "informative_starts": 3,
+            "starts": 4
+          },
+          "cal_02": {
+            "instances": 0.0,
+            "gain": 0.0,
+            "origin_instances": 0.0,
+            "override": 0.8310185185185186,
+            "pair_credit": 0.0,
+            "strict_pairs": 0.0,
+            "no_opportunity": 1.0,
+            "no_distinction": 1.0,
+            "pair_accuracy": null,
+            "informative_starts": 0,
+            "starts": 4
+          },
+          "cal_03": {
+            "instances": 0.16302910291900236,
+            "gain": 0.04133597994223238,
+            "origin_instances": 0.121693125149856,
+            "override": 0.8425925925925927,
+            "pair_credit": 10.395833333333334,
+            "strict_pairs": 23.166666666666668,
+            "no_opportunity": 0.7976190476190476,
+            "no_distinction": 0.7976190476190476,
+            "pair_accuracy": 0.4487410071942446,
+            "informative_starts": 3,
+            "starts": 4
+          },
+          "cal_04": {
+            "instances": 0.05439814816539486,
+            "gain": 0.008101852261461318,
+            "origin_instances": 0.04629629695167144,
+            "override": 0.8217592592592593,
+            "pair_credit": 6.375,
+            "strict_pairs": 9.583333333333334,
+            "no_opportunity": 0.8333333333333334,
+            "no_distinction": 0.8333333333333334,
+            "pair_accuracy": 0.6652173913043478,
+            "informative_starts": 3,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.4988474643409804,
+          "double_difference": 0.5,
+          "ranking_starts": 9,
+          "opposite_starts": 2
+        }
+      },
+      "retain": {
+        "mean": {
+          "instances": 0.0570436519337818,
+          "gain": 0.0,
+          "origin_instances": 0.0570436519337818,
+          "override": 0.0,
+          "no_opportunity": 0.8660714285714286,
+          "no_distinction": 0.8660714285714286,
+          "house_mean_pair_accuracy_where_informative": 0.5
+        },
+        "houses": {
+          "cal_01": {
+            "instances": 0.06018518563359976,
+            "gain": 0.0,
+            "origin_instances": 0.06018518563359976,
+            "override": 0.0,
+            "pair_credit": 8.0,
+            "strict_pairs": 16.0,
+            "no_opportunity": 0.8333333333333334,
+            "no_distinction": 0.8333333333333334,
+            "pair_accuracy": 0.5,
+            "informative_starts": 3,
+            "starts": 4
+          },
+          "cal_02": {
+            "instances": 0.0,
+            "gain": 0.0,
+            "origin_instances": 0.0,
+            "override": 0.0,
+            "pair_credit": 0.0,
+            "strict_pairs": 0.0,
+            "no_opportunity": 1.0,
+            "no_distinction": 1.0,
+            "pair_accuracy": null,
+            "informative_starts": 0,
+            "starts": 4
+          },
+          "cal_03": {
+            "instances": 0.121693125149856,
+            "gain": 0.0,
+            "origin_instances": 0.121693125149856,
+            "override": 0.0,
+            "pair_credit": 11.583333333333334,
+            "strict_pairs": 23.166666666666668,
+            "no_opportunity": 0.7976190476190476,
+            "no_distinction": 0.7976190476190476,
+            "pair_accuracy": 0.5,
+            "informative_starts": 3,
+            "starts": 4
+          },
+          "cal_04": {
+            "instances": 0.04629629695167144,
+            "gain": 0.0,
+            "origin_instances": 0.04629629695167144,
+            "override": 0.0,
+            "pair_credit": 4.791666666666667,
+            "strict_pairs": 9.583333333333334,
+            "no_opportunity": 0.8333333333333334,
+            "no_distinction": 0.8333333333333334,
+            "pair_accuracy": 0.5,
+            "informative_starts": 3,
+            "starts": 4
+          }
+        },
+        "matched_nominal_geometry": {
+          "rank": 0.5,
+          "double_difference": 0.5,
+          "ranking_starts": 9,
+          "opposite_starts": 2
+        }
+      }
+    }
+  },
+  "training_groups": {
+    "frontiers": 432,
+    "primitives": 216
+  }
+}

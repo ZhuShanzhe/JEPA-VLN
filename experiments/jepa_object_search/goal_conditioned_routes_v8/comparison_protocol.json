@@ -1,0 +1,22 @@
+{
+  "research_question": "Does a forecast of target-relevant future evidence improve route choice over an independently trained current-view scorer given exactly the same candidate routes?",
+  "primary_comparison": ["current_view_auxiliary_only", "joint_jepa_and_auxiliary"],
+  "development_case_ordinals": [1, 14, 21, 32, 39],
+  "target_quotas": [2, 3, 3, 3, 5],
+  "historical_original_counts": [1, 0, 2, 2, 0],
+  "operating_conditions": {
+    "action_budget": 300,
+    "high_level_service": "APIyi",
+    "high_level_model": "gpt-4o-2024-11-20",
+    "identical_across_arms": ["frozen episode starts", "goal", "candidate generator", "action budget", "navigation follower", "interruption and reporting rules", "mapping and evaluation interfaces"],
+    "endpoint_measurements": ["confirmed unique instances per episode", "sum of unique counts capped per episode at the required quota", "episodes meeting the quota", "executed deviations and their temporal relationship to encounters and reports"],
+    "interpretation": "Five previously examined baseline failures are a development comparison. Independent hosted VLM calls may diverge even without a route intervention. Exact route-to-report causation requires evidence beyond a final count."
+  },
+  "natural_test": {
+    "unit": "Physical start nested in held-out house",
+    "extra_primitive_splits": {"train_houses": 12, "calibration_houses": 4, "heldout_houses": 4},
+    "supervision": "Number of distinct new instances reaching an eligible reporting viewpoint within a fixed action budget; exclude instances already eligible at the start.",
+    "controls": ["planned-motion geometry", "JEPA prediction", "current-view auxiliary scorer", "joint", "word removed or permuted"],
+    "report": ["all starts including zero opportunities", "same-cost mirrored branches", "opposite target preferences where available", "house-level paired gain", "separate natural and controlled results"]
+  }
+}
