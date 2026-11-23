@@ -1,0 +1,9 @@
+{
+  "independent_origin_checks": 3,
+  "arms": [
+    "geometry",
+    "observed",
+    "jepa"
+  ],
+  "max_feature_error": 1.8775463104248047e-06
+}

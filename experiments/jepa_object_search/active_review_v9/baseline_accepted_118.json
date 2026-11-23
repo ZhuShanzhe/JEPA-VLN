@@ -1,0 +1,92 @@
+{
+  "planned": 300,
+  "accepted": 118,
+  "paused": true,
+  "cohort": "accepted original episodes only",
+  "groups": {
+    "all": {
+      "n": 118,
+      "scene_count": 15,
+      "mean": {
+        "sr": 0.0847457627118644,
+        "osr": 0.16101694915254236,
+        "precision": 0.4573244552058111,
+        "recall": 0.25827952649986546,
+        "f1": 0.3031547991169128,
+        "spl_multi": 0.010542957719791553
+      },
+      "failure_partition": {
+        "success": 10,
+        "insufficient_approach_quota": 99,
+        "sufficient_approach_but_underreported": 9,
+        "diagnostic_unknown": 0
+      },
+      "quota_shortfall": {
+        "total_missing": 523,
+        "missing_to_reach_quota": 359,
+        "reached_but_unreported": 164
+      },
+      "termination": {
+        "incomplete_finish": 14,
+        "max_steps": 94,
+        "success": 10
+      }
+    },
+    "many_category": {
+      "n": 63,
+      "scene_count": 15,
+      "mean": {
+        "sr": 0.1111111111111111,
+        "osr": 0.20634920634920634,
+        "precision": 0.5616024187452758,
+        "recall": 0.29996220710506427,
+        "f1": 0.35631995351883305,
+        "spl_multi": 0.012315180262260564
+      },
+      "failure_partition": {
+        "success": 7,
+        "insufficient_approach_quota": 50,
+        "sufficient_approach_but_underreported": 6,
+        "diagnostic_unknown": 0
+      },
+      "quota_shortfall": {
+        "total_missing": 280,
+        "missing_to_reach_quota": 190,
+        "reached_but_unreported": 90
+      },
+      "termination": {
+        "incomplete_finish": 6,
+        "max_steps": 50,
+        "success": 7
+      }
+    },
+    "many_attribute": {
+      "n": 55,
+      "scene_count": 15,
+      "mean": {
+        "sr": 0.05454545454545454,
+        "osr": 0.10909090909090909,
+        "precision": 0.3378787878787879,
+        "recall": 0.21053391053391055,
+        "f1": 0.24225653134744043,
+        "spl_multi": 0.008577401809053194
+      },
+      "failure_partition": {
+        "success": 3,
+        "insufficient_approach_quota": 49,
+        "sufficient_approach_but_underreported": 3,
+        "diagnostic_unknown": 0
+      },
+      "quota_shortfall": {
+        "total_missing": 243,
+        "missing_to_reach_quota": 169,
+        "reached_but_unreported": 74
+      },
+      "termination": {
+        "max_steps": 44,
+        "incomplete_finish": 8,
+        "success": 3
+      }
+    }
+  }
+}

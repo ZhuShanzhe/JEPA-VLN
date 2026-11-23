@@ -1,0 +1,14 @@
+{
+  "threshold": 0.92,
+  "seed": 91,
+  "train_starts": 592,
+  "calibration_starts": 179,
+  "supervised_memory": {
+    "memory_query_origins": 6285,
+    "removed_positive_views": 1483,
+    "other_instance_positive_views": 4401
+  },
+  "SHA256": "0952a568ebb9520ebed56a80920d78a4cbf4391c06019c8bb1a712c7fe225e1d",
+  "feature": "224-RN50/7x7",
+  "threshold_support_decisions": 12
+}

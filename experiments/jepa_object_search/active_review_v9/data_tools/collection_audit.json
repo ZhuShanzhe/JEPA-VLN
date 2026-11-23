@@ -1,0 +1,47 @@
+{
+  "train": {
+    "houses": 12,
+    "positions": 592,
+    "views": 7104,
+    "origins": {
+      "viewpoint": 269,
+      "offset": 251,
+      "natural": 72
+    },
+    "eligible_instance_positions": 2553,
+    "eligible_instances_well_visible_some_heading": 2440,
+    "eligible_instances_below64_all_headings": 113,
+    "eligible_instances_cross64_by_one_turn": 2435,
+    "start_ids_sha256": "580f10bd158361fe812f442da046819fd9afca6aee01f69c6b1358dae6e21c27"
+  },
+  "calibration": {
+    "houses": 4,
+    "positions": 179,
+    "views": 2148,
+    "origins": {
+      "viewpoint": 79,
+      "offset": 76,
+      "natural": 24
+    },
+    "eligible_instance_positions": 456,
+    "eligible_instances_well_visible_some_heading": 437,
+    "eligible_instances_below64_all_headings": 19,
+    "eligible_instances_cross64_by_one_turn": 436,
+    "start_ids_sha256": "e4b8ce15971ce0a6fdeb7cafd0264ae5023e8e4fdd30b98d275841247eeffba3"
+  },
+  "holdout": {
+    "houses": 4,
+    "positions": 191,
+    "views": 2292,
+    "origins": {
+      "viewpoint": 89,
+      "offset": 86,
+      "natural": 16
+    },
+    "eligible_instance_positions": 597,
+    "eligible_instances_well_visible_some_heading": 581,
+    "eligible_instances_below64_all_headings": 16,
+    "eligible_instances_cross64_by_one_turn": 575,
+    "start_ids_sha256": "06fc78fd76731b5b5b461ff0fc0d68c1418ebafefe2bf37c9213f1454cbc49ec"
+  }
+}

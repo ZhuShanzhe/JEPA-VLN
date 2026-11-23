@@ -1,0 +1,148 @@
+{
+  "routes": [
+    "LLRR",
+    "RRLL",
+    "LFFR",
+    "RFFL",
+    "FFLR",
+    "FFRL"
+  ],
+  "splits": {
+    "train": {
+      "houses": 12,
+      "origins": 120,
+      "traces": 720,
+      "actions": 2880,
+      "eligible_state_query_pairs": 1570,
+      "move_better_than_both_rotations": 45,
+      "any_rotation_better_than_all_moves": 73,
+      "movement_reveals_target_none_of_the_rotations_do": 37,
+      "any_recoverable_query": 181,
+      "action_selection_affects_gain": 180,
+      "route_instance_gains": [
+        97,
+        106,
+        75,
+        103,
+        67,
+        75
+      ],
+      "route_distance_average": [
+        0.0,
+        0.0,
+        0.28456476727345337,
+        0.3289764755560706,
+        0.3093272856100309,
+        0.3093272856100309
+      ],
+      "blocked_forward_actions": [
+        0,
+        0,
+        122,
+        102,
+        111,
+        111
+      ],
+      "start_rgb_semantics_eligibility_exact_matches": 120,
+      "turns_return_same_legal_clear": 240,
+      "turns_checked": 240,
+      "null_motion_end_max_rgb_mae": 0.4023640950520833,
+      "split_sha256": "9cf23bae9626beb2f560a87dc727b965c5b6ee0de14f938b9a4493fb9c599d4d",
+      "plan_sha256": "4181d00b6aaecf4a523d7574cb3e216e2bf31cacca5a758782f9f214232a3def"
+    },
+    "calibration": {
+      "houses": 4,
+      "origins": 40,
+      "traces": 240,
+      "actions": 960,
+      "eligible_state_query_pairs": 440,
+      "move_better_than_both_rotations": 24,
+      "any_rotation_better_than_all_moves": 14,
+      "movement_reveals_target_none_of_the_rotations_do": 20,
+      "any_recoverable_query": 50,
+      "action_selection_affects_gain": 50,
+      "route_instance_gains": [
+        17,
+        13,
+        31,
+        20,
+        17,
+        16
+      ],
+      "route_distance_average": [
+        0.0,
+        0.0,
+        0.386700648535043,
+        0.36153888867702333,
+        0.3624654558638126,
+        0.3624654558638126
+      ],
+      "blocked_forward_actions": [
+        0,
+        0,
+        21,
+        29,
+        27,
+        27
+      ],
+      "start_rgb_semantics_eligibility_exact_matches": 40,
+      "turns_return_same_legal_clear": 80,
+      "turns_checked": 80,
+      "null_motion_end_max_rgb_mae": 0.0340423583984375,
+      "split_sha256": "936dbcffc63fafb5ac0c2021a2f15b736e8a86578a1ee5ad341c2b21c0cd144b",
+      "plan_sha256": "533525746c94f766813c5c1a712a36fb8d1cf022e3a2d0deacac8b63c43002aa"
+    },
+    "holdout": {
+      "houses": 4,
+      "origins": 40,
+      "traces": 240,
+      "actions": 960,
+      "eligible_state_query_pairs": 490,
+      "move_better_than_both_rotations": 20,
+      "any_rotation_better_than_all_moves": 13,
+      "movement_reveals_target_none_of_the_rotations_do": 19,
+      "any_recoverable_query": 47,
+      "action_selection_affects_gain": 47,
+      "route_instance_gains": [
+        14,
+        17,
+        27,
+        17,
+        20,
+        17
+      ],
+      "route_distance_average": [
+        0.0,
+        0.0,
+        0.4104267993941903,
+        0.3874738131184131,
+        0.40060279173986296,
+        0.40060279173986296
+      ],
+      "blocked_forward_actions": [
+        0,
+        0,
+        17,
+        22,
+        20,
+        20
+      ],
+      "start_rgb_semantics_eligibility_exact_matches": 40,
+      "turns_return_same_legal_clear": 80,
+      "turns_checked": 80,
+      "null_motion_end_max_rgb_mae": 0.0061798095703125,
+      "split_sha256": "eea969c1692f365a005869cb090fcc5374d71ae0a919dce1a137d25d27051927",
+      "plan_sha256": "f3d121e3c29fc73d8f845cc8faa4a8b6d24161e412c9735ba25602ae03ad78c8"
+    }
+  },
+  "independent_geometry_replays": 1200,
+  "geometry_replay_maxima": {
+    "max_horizontal_step": 0.2500016391277313,
+    "max_abs_height_step": 0.3117765188217163,
+    "max_3d_path": 0.6625882983207703,
+    "max_replay_error": 0.0
+  },
+  "shared_house_count_between_any_splits": 0,
+  "source_words_sha256": "272dc37224409ae27f7e76952e02a5d9001a4a6dec633572ea5ce860d6a90847",
+  "collector_sha256": "fa16965b004f3bb6b5826810316f2da85cc6fc27205e249279dc7dd898d53e5e"
+}

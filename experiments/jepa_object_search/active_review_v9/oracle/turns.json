@@ -1,0 +1,406 @@
+{
+  "cases": [
+    {
+      "ordinal": 32,
+      "control_steps": [
+        114,
+        126
+      ],
+      "max_pose_error_m": 0.0,
+      "rgb_reference_mae_64px": [
+        0.23152669270833334
+      ],
+      "rendered_instance_id_and_category_verified": true,
+      "instances": [
+        {
+          "example_index": 1,
+          "first_step": 124,
+          "consecutive_eligible_logged_states": 11,
+          "total_eligible_logged_states": 16,
+          "same_instance_pixel_support": {
+            "0": {
+              "pixels": 0,
+              "central_half": 0
+            },
+            "30": {
+              "pixels": 0,
+              "central_half": 0
+            },
+            "60": {
+              "pixels": 0,
+              "central_half": 0
+            },
+            "-60": {
+              "pixels": 0,
+              "central_half": 0
+            },
+            "-30": {
+              "pixels": 0,
+              "central_half": 0
+            }
+          },
+          "first_pose_360_by_yaw_deg": {
+            "0": 0,
+            "30": 0,
+            "60": 0,
+            "90": 0,
+            "120": 0,
+            "150": 0,
+            "180": 0,
+            "-150": 0,
+            "-120": 0,
+            "-90": 0,
+            "-60": 0,
+            "-30": 0
+          },
+          "first_contiguous_window": {
+            "actual_view_max_pixels": 0,
+            "best_two_turn_view_max_pixels": 0,
+            "states_with_two_distinct_moderate_views": 0,
+            "earliest_two_turn_nonzero_step": null
+          },
+          "positive_control_max_observed_pixels": 6238,
+          "could_meet_moderate_two_distinct_views": false,
+          "official_viewpoint_checks": {
+            "number_of_annotated_poses": 167,
+            "annotated_poses_within_scoring_radius": 1,
+            "maximum_aligned_pixels_at_those_raw_poses": 0,
+            "nearest": {
+              "navmesh_distance_m": 0.18205246329307556,
+              "raw_euclidean_distance_m": 0.18205246329307556,
+              "raw_horizontal_distance_m": 0.18205246329307556,
+              "raw_height_offset_m": 0.0,
+              "raw_annotated_yaw_view_pixels": 0,
+              "viewpoint_horizontal_at_original_height_with_annotated_orientation_pixels": 0,
+              "original_position_with_annotated_orientation_pixels": 0,
+              "flatness_of_original_and_annotated_up_axis": [
+                1.0,
+                1.0
+              ],
+              "raw_viewpoint_max_over_12_flat_headings_pixels": 0
+            },
+            "closest_tested_annotated_pose_with_103px": {
+              "navmesh_distance_m": 0.37366026639938354,
+              "raw_euclidean_distance_m": 0.37366026639938354,
+              "raw_horizontal_distance_m": 0.37366026639938354,
+              "raw_height_offset_m": 0.0,
+              "raw_annotated_yaw_view_pixels": 856,
+              "viewpoint_horizontal_at_original_height_with_annotated_orientation_pixels": 856,
+              "original_position_with_annotated_orientation_pixels": 1981,
+              "flatness_of_original_and_annotated_up_axis": [
+                1.0,
+                0.9593790971986468
+              ],
+              "raw_viewpoint_max_over_12_flat_headings_pixels": null
+            }
+          },
+          "eight_action_search": {
+            "max_pixels_while_eligible": 0,
+            "first_at_least_103": null,
+            "first_at_least_512": null,
+            "legal_states": 584,
+            "distinct_searched_poses": 866,
+            "rendered_poses_eligible_for_any_assessed_instance": 584,
+            "actuations": {
+              "F": 0.25,
+              "L": 30,
+              "R": 30
+            }
+          },
+          "eight_stationary_yaw_or_pitch_search": {
+            "max_pixels_while_eligible": 0,
+            "first_at_least_103": null,
+            "first_at_least_512": null,
+            "legal_states": 122,
+            "distinct_searched_poses": 122,
+            "rendered_poses_eligible_for_any_assessed_instance": 122,
+            "actuations": {
+              "L": 30,
+              "R": 30,
+              "U": 30,
+              "D": 30
+            }
+          },
+          "official_env_step_rechecks": [],
+          "could_meet_large_three_distinct_views": false,
+          "credited": false,
+          "target": "white door"
+        },
+        {
+          "example_index": 2,
+          "first_step": 124,
+          "consecutive_eligible_logged_states": 11,
+          "total_eligible_logged_states": 16,
+          "same_instance_pixel_support": {
+            "0": {
+              "pixels": 0,
+              "central_half": 0
+            },
+            "30": {
+              "pixels": 0,
+              "central_half": 0
+            },
+            "60": {
+              "pixels": 0,
+              "central_half": 0
+            },
+            "-60": {
+              "pixels": 0,
+              "central_half": 0
+            },
+            "-30": {
+              "pixels": 0,
+              "central_half": 0
+            }
+          },
+          "first_pose_360_by_yaw_deg": {
+            "0": 0,
+            "30": 0,
+            "60": 0,
+            "90": 0,
+            "120": 0,
+            "150": 0,
+            "180": 0,
+            "-150": 0,
+            "-120": 0,
+            "-90": 0,
+            "-60": 0,
+            "-30": 0
+          },
+          "first_contiguous_window": {
+            "actual_view_max_pixels": 0,
+            "best_two_turn_view_max_pixels": 0,
+            "states_with_two_distinct_moderate_views": 0,
+            "earliest_two_turn_nonzero_step": null
+          },
+          "positive_control_max_observed_pixels": 2358,
+          "could_meet_moderate_two_distinct_views": false,
+          "official_viewpoint_checks": {
+            "number_of_annotated_poses": 153,
+            "annotated_poses_within_scoring_radius": 1,
+            "maximum_aligned_pixels_at_those_raw_poses": 0,
+            "nearest": {
+              "navmesh_distance_m": 0.18205246329307556,
+              "raw_euclidean_distance_m": 0.18205246329307556,
+              "raw_horizontal_distance_m": 0.18205246329307556,
+              "raw_height_offset_m": 0.0,
+              "raw_annotated_yaw_view_pixels": 0,
+              "viewpoint_horizontal_at_original_height_with_annotated_orientation_pixels": 0,
+              "original_position_with_annotated_orientation_pixels": 0,
+              "flatness_of_original_and_annotated_up_axis": [
+                1.0,
+                1.0
+              ],
+              "raw_viewpoint_max_over_12_flat_headings_pixels": 0
+            },
+            "closest_tested_annotated_pose_with_103px": {
+              "navmesh_distance_m": 2.8199381828308105,
+              "raw_euclidean_distance_m": 2.0964231491088867,
+              "raw_horizontal_distance_m": 2.0964231491088867,
+              "raw_height_offset_m": 0.0,
+              "raw_annotated_yaw_view_pixels": 180,
+              "viewpoint_horizontal_at_original_height_with_annotated_orientation_pixels": 180,
+              "original_position_with_annotated_orientation_pixels": 0,
+              "flatness_of_original_and_annotated_up_axis": [
+                1.0,
+                0.9278569183748703
+              ],
+              "raw_viewpoint_max_over_12_flat_headings_pixels": null
+            }
+          },
+          "eight_action_search": {
+            "max_pixels_while_eligible": 0,
+            "first_at_least_103": null,
+            "first_at_least_512": null,
+            "legal_states": 584,
+            "distinct_searched_poses": 866,
+            "rendered_poses_eligible_for_any_assessed_instance": 584,
+            "actuations": {
+              "F": 0.25,
+              "L": 30,
+              "R": 30
+            }
+          },
+          "eight_stationary_yaw_or_pitch_search": {
+            "max_pixels_while_eligible": 0,
+            "first_at_least_103": null,
+            "first_at_least_512": null,
+            "legal_states": 122,
+            "distinct_searched_poses": 122,
+            "rendered_poses_eligible_for_any_assessed_instance": 122,
+            "actuations": {
+              "L": 30,
+              "R": 30,
+              "U": 30,
+              "D": 30
+            }
+          },
+          "official_env_step_rechecks": [],
+          "could_meet_large_three_distinct_views": false,
+          "credited": false,
+          "target": "white door"
+        }
+      ]
+    },
+    {
+      "ordinal": 39,
+      "control_steps": [
+        116,
+        125
+      ],
+      "max_pose_error_m": 0.0,
+      "rgb_reference_mae_64px": [
+        0.22371419270833334
+      ],
+      "rendered_instance_id_and_category_verified": true,
+      "instances": [
+        {
+          "example_index": 1,
+          "first_step": 119,
+          "consecutive_eligible_logged_states": 17,
+          "total_eligible_logged_states": 24,
+          "same_instance_pixel_support": {
+            "0": {
+              "pixels": 0,
+              "central_half": 0
+            },
+            "30": {
+              "pixels": 0,
+              "central_half": 0
+            },
+            "60": {
+              "pixels": 0,
+              "central_half": 0
+            },
+            "-60": {
+              "pixels": 0,
+              "central_half": 0
+            },
+            "-30": {
+              "pixels": 0,
+              "central_half": 0
+            }
+          },
+          "first_pose_360_by_yaw_deg": {
+            "0": 0,
+            "30": 0,
+            "60": 0,
+            "90": 0,
+            "120": 0,
+            "150": 0,
+            "180": 0,
+            "-150": 0,
+            "-120": 0,
+            "-90": 0,
+            "-60": 0,
+            "-30": 0
+          },
+          "first_contiguous_window": {
+            "actual_view_max_pixels": 0,
+            "best_two_turn_view_max_pixels": 0,
+            "states_with_two_distinct_moderate_views": 0,
+            "earliest_two_turn_nonzero_step": null
+          },
+          "positive_control_max_observed_pixels": 820,
+          "could_meet_moderate_two_distinct_views": false,
+          "official_viewpoint_checks": {
+            "number_of_annotated_poses": 76,
+            "annotated_poses_within_scoring_radius": 1,
+            "maximum_aligned_pixels_at_those_raw_poses": 0,
+            "nearest": {
+              "navmesh_distance_m": 0.20726367831230164,
+              "raw_euclidean_distance_m": 0.20726367831230164,
+              "raw_horizontal_distance_m": 0.20726367831230164,
+              "raw_height_offset_m": 0.0,
+              "raw_annotated_yaw_view_pixels": 0,
+              "viewpoint_horizontal_at_original_height_with_annotated_orientation_pixels": 0,
+              "original_position_with_annotated_orientation_pixels": 0,
+              "flatness_of_original_and_annotated_up_axis": [
+                1.0,
+                1.0
+              ],
+              "raw_viewpoint_max_over_12_flat_headings_pixels": 0
+            },
+            "closest_tested_annotated_pose_with_103px": {
+              "navmesh_distance_m": 0.4838610589504242,
+              "raw_euclidean_distance_m": 0.4838610589504242,
+              "raw_horizontal_distance_m": 0.4838610589504242,
+              "raw_height_offset_m": 0.0,
+              "raw_annotated_yaw_view_pixels": 126,
+              "viewpoint_horizontal_at_original_height_with_annotated_orientation_pixels": 126,
+              "original_position_with_annotated_orientation_pixels": 0,
+              "flatness_of_original_and_annotated_up_axis": [
+                1.0,
+                1.0
+              ],
+              "raw_viewpoint_max_over_12_flat_headings_pixels": null
+            }
+          },
+          "eight_action_search": {
+            "max_pixels_while_eligible": 1554,
+            "first_at_least_103": {
+              "actions": "RFRF",
+              "steps": 4,
+              "pixels": 191,
+              "net_horizontal_travel_m": 0.48236972093582153
+            },
+            "first_at_least_512": {
+              "actions": "RFRFFF",
+              "steps": 6,
+              "pixels": 657,
+              "net_horizontal_travel_m": 0.9748673439025879
+            },
+            "legal_states": 1249,
+            "distinct_searched_poses": 1465,
+            "rendered_poses_eligible_for_any_assessed_instance": 1249,
+            "actuations": {
+              "F": 0.25,
+              "L": 30,
+              "R": 30
+            }
+          },
+          "eight_stationary_yaw_or_pitch_search": {
+            "max_pixels_while_eligible": 0,
+            "first_at_least_103": null,
+            "first_at_least_512": null,
+            "legal_states": 119,
+            "distinct_searched_poses": 119,
+            "rendered_poses_eligible_for_any_assessed_instance": 119,
+            "actuations": {
+              "L": 30,
+              "R": 30,
+              "U": 30,
+              "D": 30
+            }
+          },
+          "official_env_step_rechecks": [
+            {
+              "actions": "RFRF",
+              "normal_env_pixels": 191,
+              "normal_env_eligible": true
+            },
+            {
+              "actions": "RFRFFF",
+              "normal_env_pixels": 657,
+              "normal_env_eligible": true
+            }
+          ],
+          "could_meet_large_three_distinct_views": false,
+          "credited": false,
+          "target": "lamp"
+        }
+      ]
+    }
+  ],
+  "semantic_resolution": [
+    320,
+    320
+  ],
+  "horizontal_fov_deg": 120,
+  "counted_pixels": "exact HM3D semantic instance ID",
+  "yaw_deg": "positive=left",
+  "step_budget": 2,
+  "protocol": "V8 diagnostic with ground-truth instance masks; historical development cases only.",
+  "exposure_rule": "103 pixels per 320x320 frame is the moderate single-frame threshold; 512 is the large threshold. Neither implies recognition or a formal report.",
+  "search_actuation": "Each optional search uses at most 8 physical actions, 0.25m forward or 30 degree yaw/pitch. Translation+yaw and stationary yaw+pitch are two distinct action families. Positive paths checked using normal Habitat Env.step."
+}

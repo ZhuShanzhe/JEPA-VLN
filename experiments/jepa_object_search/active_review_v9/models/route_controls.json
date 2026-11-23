@@ -1,0 +1,306 @@
+{
+  "equal_learned_turn_budget": {
+    "all": {
+      "learned": 524,
+      "single_frame": 497,
+      "wrong_word": 444
+    },
+    "viewpoint": {
+      "learned": 289,
+      "single_frame": 273,
+      "wrong_word": 239
+    },
+    "house_1": {
+      "learned": 103,
+      "single_frame": 99,
+      "wrong_word": 96
+    },
+    "offset": {
+      "learned": 198,
+      "single_frame": 187,
+      "wrong_word": 170
+    },
+    "natural": {
+      "learned": 37,
+      "single_frame": 37,
+      "wrong_word": 35
+    },
+    "house_2": {
+      "learned": 210,
+      "single_frame": 198,
+      "wrong_word": 176
+    },
+    "house_3": {
+      "learned": 50,
+      "single_frame": 50,
+      "wrong_word": 43
+    },
+    "house_4": {
+      "learned": 161,
+      "single_frame": 150,
+      "wrong_word": 129
+    }
+  },
+  "learned_metrics_by_class_and_house": {
+    "basket.n.01": {
+      "decisions": 1692,
+      "tp": 0,
+      "fp": 0,
+      "nearby_opportunities": 108,
+      "turns": 1167,
+      "initially_clear": 44,
+      "new_evidence": 16,
+      "initially_hidden_reachable": 64,
+      "correct_reviews_after_new_view": 0,
+      "precision": null,
+      "reachable_recall": 0.0
+    },
+    "bed.n.01": {
+      "decisions": 2292,
+      "tp": 18,
+      "fp": 7,
+      "nearby_opportunities": 232,
+      "turns": 2763,
+      "initially_clear": 140,
+      "new_evidence": 26,
+      "initially_hidden_reachable": 92,
+      "correct_reviews_after_new_view": 4,
+      "precision": 0.72,
+      "reachable_recall": 0.07758620689655173
+    },
+    "cabinet.n.01": {
+      "decisions": 2292,
+      "tp": 0,
+      "fp": 0,
+      "nearby_opportunities": 352,
+      "turns": 2757,
+      "initially_clear": 219,
+      "new_evidence": 37,
+      "initially_hidden_reachable": 133,
+      "correct_reviews_after_new_view": 0,
+      "precision": null,
+      "reachable_recall": 0.0
+    },
+    "chair.n.01": {
+      "decisions": 1848,
+      "tp": 1,
+      "fp": 1,
+      "nearby_opportunities": 401,
+      "turns": 1995,
+      "initially_clear": 208,
+      "new_evidence": 80,
+      "initially_hidden_reachable": 193,
+      "correct_reviews_after_new_view": 0,
+      "precision": 0.5,
+      "reachable_recall": 0.0024937655860349127
+    },
+    "clock.n.01": {
+      "decisions": 1224,
+      "tp": 0,
+      "fp": 0,
+      "nearby_opportunities": 49,
+      "turns": 105,
+      "initially_clear": 21,
+      "new_evidence": 0,
+      "initially_hidden_reachable": 28,
+      "correct_reviews_after_new_view": 0,
+      "precision": null,
+      "reachable_recall": 0.0
+    },
+    "door.n.01": {
+      "decisions": 2292,
+      "tp": 2,
+      "fp": 4,
+      "nearby_opportunities": 138,
+      "turns": 1492,
+      "initially_clear": 74,
+      "new_evidence": 21,
+      "initially_hidden_reachable": 64,
+      "correct_reviews_after_new_view": 1,
+      "precision": 0.3333333333333333,
+      "reachable_recall": 0.014492753623188406
+    },
+    "lamp.n.01": {
+      "decisions": 2292,
+      "tp": 78,
+      "fp": 19,
+      "nearby_opportunities": 513,
+      "turns": 3006,
+      "initially_clear": 240,
+      "new_evidence": 111,
+      "initially_hidden_reachable": 273,
+      "correct_reviews_after_new_view": 26,
+      "precision": 0.8041237113402062,
+      "reachable_recall": 0.15204678362573099
+    },
+    "mirror.n.01": {
+      "decisions": 2292,
+      "tp": 0,
+      "fp": 0,
+      "nearby_opportunities": 352,
+      "turns": 2671,
+      "initially_clear": 178,
+      "new_evidence": 68,
+      "initially_hidden_reachable": 174,
+      "correct_reviews_after_new_view": 0,
+      "precision": null,
+      "reachable_recall": 0.0
+    },
+    "picture_frame.n.01": {
+      "decisions": 444,
+      "tp": 0,
+      "fp": 0,
+      "nearby_opportunities": 19,
+      "turns": 14,
+      "initially_clear": 7,
+      "new_evidence": 0,
+      "initially_hidden_reachable": 12,
+      "correct_reviews_after_new_view": 0,
+      "precision": null,
+      "reachable_recall": 0.0
+    },
+    "potted_plant.n.01": {
+      "decisions": 2292,
+      "tp": 28,
+      "fp": 6,
+      "nearby_opportunities": 585,
+      "turns": 1371,
+      "initially_clear": 267,
+      "new_evidence": 60,
+      "initially_hidden_reachable": 318,
+      "correct_reviews_after_new_view": 2,
+      "precision": 0.8235294117647058,
+      "reachable_recall": 0.04786324786324787
+    },
+    "shelf.n.01": {
+      "decisions": 1224,
+      "tp": 0,
+      "fp": 0,
+      "nearby_opportunities": 145,
+      "turns": 519,
+      "initially_clear": 107,
+      "new_evidence": 5,
+      "initially_hidden_reachable": 38,
+      "correct_reviews_after_new_view": 0,
+      "precision": null,
+      "reachable_recall": 0.0
+    },
+    "sofa.n.01": {
+      "decisions": 1848,
+      "tp": 1,
+      "fp": 1,
+      "nearby_opportunities": 177,
+      "turns": 1923,
+      "initially_clear": 103,
+      "new_evidence": 19,
+      "initially_hidden_reachable": 74,
+      "correct_reviews_after_new_view": 0,
+      "precision": 0.5,
+      "reachable_recall": 0.005649717514124294
+    },
+    "stool.n.01": {
+      "decisions": 1692,
+      "tp": 0,
+      "fp": 0,
+      "nearby_opportunities": 97,
+      "turns": 1320,
+      "initially_clear": 49,
+      "new_evidence": 4,
+      "initially_hidden_reachable": 48,
+      "correct_reviews_after_new_view": 0,
+      "precision": null,
+      "reachable_recall": 0.0
+    },
+    "television_receiver.n.01": {
+      "decisions": 1248,
+      "tp": 5,
+      "fp": 1,
+      "nearby_opportunities": 97,
+      "turns": 676,
+      "initially_clear": 49,
+      "new_evidence": 13,
+      "initially_hidden_reachable": 48,
+      "correct_reviews_after_new_view": 0,
+      "precision": 0.8333333333333334,
+      "reachable_recall": 0.05154639175257732
+    },
+    "toilet.n.02": {
+      "decisions": 1224,
+      "tp": 0,
+      "fp": 0,
+      "nearby_opportunities": 60,
+      "turns": 338,
+      "initially_clear": 24,
+      "new_evidence": 4,
+      "initially_hidden_reachable": 36,
+      "correct_reviews_after_new_view": 0,
+      "precision": null,
+      "reachable_recall": 0.0
+    },
+    "wall_art.n.01": {
+      "decisions": 2292,
+      "tp": 44,
+      "fp": 62,
+      "nearby_opportunities": 301,
+      "turns": 2505,
+      "initially_clear": 134,
+      "new_evidence": 60,
+      "initially_hidden_reachable": 167,
+      "correct_reviews_after_new_view": 12,
+      "precision": 0.41509433962264153,
+      "reachable_recall": 0.1461794019933555
+    },
+    "house_1": {
+      "decisions": 8736,
+      "tp": 27,
+      "fp": 10,
+      "nearby_opportunities": 782,
+      "turns": 6809,
+      "initially_clear": 392,
+      "new_evidence": 103,
+      "initially_hidden_reachable": 390,
+      "correct_reviews_after_new_view": 6,
+      "precision": 0.7297297297297297,
+      "reachable_recall": 0.034526854219948847
+    },
+    "house_2": {
+      "decisions": 7200,
+      "tp": 84,
+      "fp": 23,
+      "nearby_opportunities": 1373,
+      "turns": 6144,
+      "initially_clear": 736,
+      "new_evidence": 210,
+      "initially_hidden_reachable": 637,
+      "correct_reviews_after_new_view": 24,
+      "precision": 0.7850467289719626,
+      "reachable_recall": 0.06117989803350328
+    },
+    "house_3": {
+      "decisions": 4440,
+      "tp": 6,
+      "fp": 34,
+      "nearby_opportunities": 350,
+      "turns": 4063,
+      "initially_clear": 170,
+      "new_evidence": 50,
+      "initially_hidden_reachable": 180,
+      "correct_reviews_after_new_view": 1,
+      "precision": 0.15,
+      "reachable_recall": 0.017142857142857144
+    },
+    "house_4": {
+      "decisions": 8112,
+      "tp": 60,
+      "fp": 34,
+      "nearby_opportunities": 1121,
+      "turns": 7606,
+      "initially_clear": 566,
+      "new_evidence": 161,
+      "initially_hidden_reachable": 555,
+      "correct_reviews_after_new_view": 14,
+      "precision": 0.6382978723404256,
+      "reachable_recall": 0.05352363960749331
+    }
+  }
+}

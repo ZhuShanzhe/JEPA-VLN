@@ -1,0 +1,284 @@
+{
+  "protocol": {
+    "model": "gpt-4o-2024-11-20",
+    "provider": "APIyi",
+    "max_steps": 300,
+    "v9_threshold": 0.92,
+    "corrective_turns_per_burst": 2,
+    "review_request_cap": 6,
+    "look_turn_cap": 12,
+    "cooldown": 12,
+    "v8_reference": "Previously completed, same five development cases with identical V8 joint route chooser",
+    "causal_input": "One or two previously observed RGB frames, true rotation actions since the last translation; no report crop memory in the closed loop",
+    "model_target": "Category-only supplementary perception; the original VLM always receives the full goal and decides reports"
+  },
+  "totals": {
+    "official_success": 0,
+    "capped_instances": 4,
+    "replays": 5,
+    "engineering_quarantines": 0
+  },
+  "cases": [
+    {
+      "ordinal": 1,
+      "quota": 2,
+      "historical_most_nav": 1,
+      "v8_observed": 1,
+      "v8_joint": 1,
+      "v9": 1,
+      "steps": 104,
+      "new_report_steps": [
+        [
+          50,
+          1
+        ],
+        [
+          102,
+          0
+        ]
+      ],
+      "verified_model_responses": 21,
+      "quarantined": 0,
+      "audit": {
+        "ordinal": 1,
+        "steps": 104,
+        "found": 1,
+        "success": 0,
+        "report_calls": 2,
+        "eligible_ever": 1,
+        "events": {},
+        "decisions": {},
+        "scored": 0,
+        "scored_when_eligible_unreported": 0,
+        "look_steps_when_eligible_unreported": 0,
+        "distinct_eligible_at_look": 0,
+        "look_steps_improved_max_target_pixels": 0,
+        "look_steps_moderate_before": 0,
+        "look_steps_moderate_after": 0,
+        "look_steps_cross_moderate_threshold": 0,
+        "extra_review_requests": 0,
+        "extra_reviews_with_eligible_unreported": 0,
+        "immediate_official_new_instances": 0,
+        "reviews_followed_by_matching_new_report_within_6": 0,
+        "original_vlm_response_to_extra_reviews": {}
+      }
+    },
+    {
+      "ordinal": 14,
+      "quota": 3,
+      "historical_most_nav": 0,
+      "v8_observed": 0,
+      "v8_joint": 1,
+      "v9": 0,
+      "steps": 300,
+      "new_report_steps": [
+        [
+          113,
+          0
+        ],
+        [
+          174,
+          0
+        ]
+      ],
+      "verified_model_responses": 37,
+      "quarantined": 0,
+      "audit": {
+        "ordinal": 14,
+        "steps": 300,
+        "found": 0,
+        "success": 0,
+        "report_calls": 2,
+        "eligible_ever": 2,
+        "events": {
+          "predict": 85,
+          "verification_turn": 4,
+          "restore_heading": 4
+        },
+        "decisions": {
+          "continue": 81,
+          "right": 4
+        },
+        "scored": 85,
+        "scored_when_eligible_unreported": 17,
+        "look_steps_when_eligible_unreported": 1,
+        "distinct_eligible_at_look": 1,
+        "look_steps_improved_max_target_pixels": 0,
+        "look_steps_moderate_before": 0,
+        "look_steps_moderate_after": 0,
+        "look_steps_cross_moderate_threshold": 0,
+        "extra_review_requests": 0,
+        "extra_reviews_with_eligible_unreported": 0,
+        "immediate_official_new_instances": 0,
+        "reviews_followed_by_matching_new_report_within_6": 0,
+        "original_vlm_response_to_extra_reviews": {}
+      }
+    },
+    {
+      "ordinal": 21,
+      "quota": 3,
+      "historical_most_nav": 2,
+      "v8_observed": 0,
+      "v8_joint": 0,
+      "v9": 1,
+      "steps": 95,
+      "new_report_steps": [
+        [
+          44,
+          0
+        ],
+        [
+          54,
+          1
+        ],
+        [
+          93,
+          0
+        ]
+      ],
+      "verified_model_responses": 32,
+      "quarantined": 0,
+      "audit": {
+        "ordinal": 21,
+        "steps": 95,
+        "found": 1,
+        "success": 0,
+        "report_calls": 3,
+        "eligible_ever": 1,
+        "events": {
+          "predict": 5,
+          "verification_turn": 2,
+          "restore_heading": 2
+        },
+        "decisions": {
+          "right": 2,
+          "continue": 3
+        },
+        "scored": 5,
+        "scored_when_eligible_unreported": 0,
+        "look_steps_when_eligible_unreported": 0,
+        "distinct_eligible_at_look": 0,
+        "look_steps_improved_max_target_pixels": 0,
+        "look_steps_moderate_before": 0,
+        "look_steps_moderate_after": 0,
+        "look_steps_cross_moderate_threshold": 0,
+        "extra_review_requests": 0,
+        "extra_reviews_with_eligible_unreported": 0,
+        "immediate_official_new_instances": 0,
+        "reviews_followed_by_matching_new_report_within_6": 0,
+        "original_vlm_response_to_extra_reviews": {}
+      }
+    },
+    {
+      "ordinal": 32,
+      "quota": 3,
+      "historical_most_nav": 2,
+      "v8_observed": 2,
+      "v8_joint": 2,
+      "v9": 2,
+      "steps": 162,
+      "new_report_steps": [
+        [
+          52,
+          2
+        ],
+        [
+          130,
+          0
+        ],
+        [
+          160,
+          0
+        ]
+      ],
+      "verified_model_responses": 45,
+      "quarantined": 0,
+      "audit": {
+        "ordinal": 32,
+        "steps": 162,
+        "found": 2,
+        "success": 0,
+        "report_calls": 3,
+        "eligible_ever": 2,
+        "events": {
+          "predict": 16,
+          "verification_turn": 4,
+          "restore_heading": 4
+        },
+        "decisions": {
+          "right": 5,
+          "continue": 11
+        },
+        "scored": 16,
+        "scored_when_eligible_unreported": 0,
+        "look_steps_when_eligible_unreported": 0,
+        "distinct_eligible_at_look": 0,
+        "look_steps_improved_max_target_pixels": 0,
+        "look_steps_moderate_before": 0,
+        "look_steps_moderate_after": 0,
+        "look_steps_cross_moderate_threshold": 0,
+        "extra_review_requests": 0,
+        "extra_reviews_with_eligible_unreported": 0,
+        "immediate_official_new_instances": 0,
+        "reviews_followed_by_matching_new_report_within_6": 0,
+        "original_vlm_response_to_extra_reviews": {}
+      }
+    },
+    {
+      "ordinal": 39,
+      "quota": 5,
+      "historical_most_nav": 0,
+      "v8_observed": 0,
+      "v8_joint": 2,
+      "v9": 0,
+      "steps": 300,
+      "new_report_steps": [
+        [
+          153,
+          0
+        ],
+        [
+          297,
+          0
+        ]
+      ],
+      "verified_model_responses": 47,
+      "quarantined": 0,
+      "audit": {
+        "ordinal": 39,
+        "steps": 300,
+        "found": 0,
+        "success": 0,
+        "report_calls": 2,
+        "eligible_ever": 0,
+        "events": {
+          "predict": 54,
+          "verification_turn": 12,
+          "restore_heading": 11,
+          "request_native_review": 1
+        },
+        "decisions": {
+          "right": 32,
+          "continue": 9,
+          "left": 12,
+          "review": 1
+        },
+        "scored": 54,
+        "scored_when_eligible_unreported": 0,
+        "look_steps_when_eligible_unreported": 0,
+        "distinct_eligible_at_look": 0,
+        "look_steps_improved_max_target_pixels": 0,
+        "look_steps_moderate_before": 0,
+        "look_steps_moderate_after": 0,
+        "look_steps_cross_moderate_threshold": 0,
+        "extra_review_requests": 1,
+        "extra_reviews_with_eligible_unreported": 0,
+        "immediate_official_new_instances": 0,
+        "reviews_followed_by_matching_new_report_within_6": 0,
+        "original_vlm_response_to_extra_reviews": {
+          "GOTO_INSTANCE": 1
+        }
+      }
+    }
+  ]
+}

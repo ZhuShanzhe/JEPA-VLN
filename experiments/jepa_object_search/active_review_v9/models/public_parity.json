@@ -1,0 +1,12 @@
+{
+  "conditions": 12,
+  "maximum_probability_difference": 0,
+  "all_actions_equal": true,
+  "queries": [
+    "mirror",
+    "white door",
+    "colorful landscape painting"
+  ],
+  "current_and_temporal": true,
+  "empty_and_simulated_report_crop": true
+}
