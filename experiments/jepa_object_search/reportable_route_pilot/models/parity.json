@@ -1,0 +1,32 @@
+{
+  "physical_training_starts": 1,
+  "equal_budget_horizons": [
+    4,
+    12,
+    24
+  ],
+  "conditions": [
+    "full",
+    "one_observed_heading",
+    "two_observed_headings",
+    "three_observed_headings"
+  ],
+  "prediction_cases": 12,
+  "score_and_feature_max_abs": 0.0,
+  "v7_loss_max_abs": 0.0,
+  "v7s_loss_max_abs": 0.0,
+  "v7_parameter_gradient_max_abs": 0.0,
+  "v7s_parameter_gradient_max_abs": 0.0,
+  "frozen_project_weights": {
+    "v7.pt": "85d7db9fa7f83d260a293bda423f9cf896a9e2a7f81b2f643eceed8890ad436c",
+    "semantic.pt": "0d309ea16e6da50ed8299cafce2d33fe73b9afaf94fe58194e6076ede4879ecc"
+  },
+  "source_sha256": {
+    "report_head.py": "f96328606445214e0553c62a891e483b27f4e56d31acca32f314f16a39963f11",
+    "route_heads.py": "f0f53f53ebb5138e252d9cc37e7d8931e5e35fff0566a5d3e28ef7ac7cfb1198",
+    "semantic_head.py": "46869007503e485199f1ec23371fc51563a7c62ccbab3db2817b6da415da881d",
+    "train_report_head.py": "0d7977de6bfe5f7da685ff0e8cd88917221b20bbd32c333f613b9a15fb31863f",
+    "train_semantic.py": "b02a71899c6deeacbe51f9b1def327da1eea63cf36be92c8be570e4a2d2e3961"
+  },
+  "passes": true
+}

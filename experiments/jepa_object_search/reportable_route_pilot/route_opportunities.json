@@ -1,0 +1,329 @@
+{
+  "blind_sha256": "637f8f09cc2747d83e366939aafedf1c6f3c421fb93d3c908b42d8773a0842c2",
+  "predictions_sha256": "8e3eeb0f852e627590cb68498b99b38aee0f635ba6947e47b73d1f366ab7ec30",
+  "truth_seal_sha256": "b186a452a3a2228465bab29a8c31971a65fdc5f759dac17d2181c9cd249e1df5",
+  "receipts_verified": true,
+  "summary": {
+    "fitted_budget/other_vlm_choice": {
+      "coverage": {
+        "windows": 16,
+        "after_quota": 0,
+        "has_scores": 16,
+        "exact_train_horizon_at_original_budget": 6,
+        "new_vs_best_existing_strict_win": 1,
+        "any_eligible_route_finds_new_instance": 4,
+        "best_possible_sum": 6,
+        "best_supported_sum": 6
+      },
+      "arms": {
+        "v6": {
+          "windows": 16,
+          "selected_new_template": 15,
+          "selected_instance_sum": 1,
+          "selected_nonzero": 1
+        },
+        "v7": {
+          "windows": 16,
+          "selected_new_template": 13,
+          "selected_instance_sum": 1,
+          "selected_nonzero": 1
+        },
+        "v7s": {
+          "windows": 16,
+          "selected_new_template": 15,
+          "selected_instance_sum": 2,
+          "selected_nonzero": 2
+        },
+        "no_word": {
+          "windows": 16,
+          "selected_new_template": 15,
+          "selected_instance_sum": 2,
+          "selected_nonzero": 2
+        },
+        "displacement": {
+          "windows": 16,
+          "selected_new_template": 15,
+          "selected_instance_sum": 2,
+          "selected_nonzero": 2
+        }
+      }
+    },
+    "original_budget/other_vlm_choice": {
+      "coverage": {
+        "windows": 16,
+        "after_quota": 0,
+        "has_scores": 16,
+        "exact_train_horizon_at_original_budget": 6,
+        "new_vs_best_existing_strict_win": 1,
+        "any_eligible_route_finds_new_instance": 4,
+        "best_possible_sum": 6,
+        "best_supported_sum": 6
+      },
+      "arms": {
+        "v6": {
+          "windows": 16,
+          "selected_new_template": 16,
+          "selected_instance_sum": 1,
+          "selected_nonzero": 1
+        },
+        "v7": {
+          "windows": 16,
+          "selected_new_template": 14,
+          "selected_instance_sum": 1,
+          "selected_nonzero": 1
+        },
+        "v7s": {
+          "windows": 16,
+          "selected_new_template": 15,
+          "selected_instance_sum": 2,
+          "selected_nonzero": 2
+        },
+        "no_word": {
+          "windows": 16,
+          "selected_new_template": 15,
+          "selected_instance_sum": 2,
+          "selected_nonzero": 2
+        },
+        "displacement": {
+          "windows": 16,
+          "selected_new_template": 15,
+          "selected_instance_sum": 2,
+          "selected_nonzero": 2
+        }
+      }
+    },
+    "fitted_budget/original_frontier": {
+      "coverage": {
+        "windows": 33,
+        "after_quota": 10,
+        "has_scores": 33,
+        "exact_train_horizon_at_original_budget": 17,
+        "new_vs_best_existing_strict_win": 4,
+        "any_eligible_route_finds_new_instance": 4,
+        "best_possible_sum": 4,
+        "best_supported_sum": 4,
+        "original_sum": 0,
+        "union_can_improve": 4,
+        "supported_union_can_improve": 4,
+        "existing_native_can_improve": 0,
+        "max_union_advantage_sum": 4
+      },
+      "arms": {
+        "v6": {
+          "windows": 33,
+          "selected_new_template": 29,
+          "selected_instance_sum": 1,
+          "selected_nonzero": 1,
+          "win": 1,
+          "tie": 32,
+          "loss": 0,
+          "gain_sum_over_original": 1,
+          "overrides": 29,
+          "opportunities": 4,
+          "opportunity_strictly_improved": 1,
+          "opportunity_best_chosen": 1,
+          "equal_episode_mean_gain": 0.02857142857142857
+        },
+        "v7": {
+          "windows": 33,
+          "selected_new_template": 26,
+          "selected_instance_sum": 0,
+          "selected_nonzero": 0,
+          "win": 0,
+          "tie": 33,
+          "loss": 0,
+          "gain_sum_over_original": 0,
+          "overrides": 26,
+          "opportunities": 4,
+          "opportunity_strictly_improved": 0,
+          "opportunity_best_chosen": 0,
+          "equal_episode_mean_gain": 0.0
+        },
+        "v7s": {
+          "windows": 33,
+          "selected_new_template": 33,
+          "selected_instance_sum": 3,
+          "selected_nonzero": 3,
+          "win": 3,
+          "tie": 30,
+          "loss": 0,
+          "gain_sum_over_original": 3,
+          "overrides": 33,
+          "opportunities": 4,
+          "opportunity_strictly_improved": 3,
+          "opportunity_best_chosen": 3,
+          "equal_episode_mean_gain": 0.09523809523809523
+        },
+        "no_word": {
+          "windows": 33,
+          "selected_new_template": 33,
+          "selected_instance_sum": 2,
+          "selected_nonzero": 2,
+          "win": 2,
+          "tie": 31,
+          "loss": 0,
+          "gain_sum_over_original": 2,
+          "overrides": 33,
+          "opportunities": 4,
+          "opportunity_strictly_improved": 2,
+          "opportunity_best_chosen": 2,
+          "equal_episode_mean_gain": 0.06190476190476191
+        },
+        "displacement": {
+          "windows": 33,
+          "selected_new_template": 33,
+          "selected_instance_sum": 2,
+          "selected_nonzero": 2,
+          "win": 2,
+          "tie": 31,
+          "loss": 0,
+          "gain_sum_over_original": 2,
+          "overrides": 33,
+          "opportunities": 4,
+          "opportunity_strictly_improved": 2,
+          "opportunity_best_chosen": 2,
+          "equal_episode_mean_gain": 0.06190476190476191
+        }
+      }
+    },
+    "original_budget/original_frontier": {
+      "coverage": {
+        "windows": 33,
+        "after_quota": 10,
+        "has_scores": 33,
+        "exact_train_horizon_at_original_budget": 17,
+        "new_vs_best_existing_strict_win": 5,
+        "any_eligible_route_finds_new_instance": 5,
+        "best_possible_sum": 6,
+        "best_supported_sum": 6,
+        "original_sum": 1,
+        "union_can_improve": 5,
+        "supported_union_can_improve": 5,
+        "existing_native_can_improve": 0,
+        "max_union_advantage_sum": 5
+      },
+      "arms": {
+        "v6": {
+          "windows": 33,
+          "selected_new_template": 27,
+          "selected_instance_sum": 2,
+          "selected_nonzero": 2,
+          "win": 1,
+          "tie": 32,
+          "loss": 0,
+          "gain_sum_over_original": 1,
+          "overrides": 27,
+          "opportunities": 5,
+          "opportunity_strictly_improved": 1,
+          "opportunity_best_chosen": 1,
+          "equal_episode_mean_gain": 0.02857142857142857
+        },
+        "v7": {
+          "windows": 33,
+          "selected_new_template": 26,
+          "selected_instance_sum": 0,
+          "selected_nonzero": 0,
+          "win": 0,
+          "tie": 32,
+          "loss": 1,
+          "gain_sum_over_original": -1,
+          "overrides": 26,
+          "opportunities": 5,
+          "opportunity_strictly_improved": 0,
+          "opportunity_best_chosen": 0,
+          "equal_episode_mean_gain": -0.02857142857142857
+        },
+        "v7s": {
+          "windows": 33,
+          "selected_new_template": 33,
+          "selected_instance_sum": 3,
+          "selected_nonzero": 3,
+          "win": 2,
+          "tie": 31,
+          "loss": 0,
+          "gain_sum_over_original": 2,
+          "overrides": 33,
+          "opportunities": 5,
+          "opportunity_strictly_improved": 2,
+          "opportunity_best_chosen": 2,
+          "equal_episode_mean_gain": 0.06666666666666667
+        },
+        "no_word": {
+          "windows": 33,
+          "selected_new_template": 33,
+          "selected_instance_sum": 2,
+          "selected_nonzero": 2,
+          "win": 1,
+          "tie": 32,
+          "loss": 0,
+          "gain_sum_over_original": 1,
+          "overrides": 33,
+          "opportunities": 5,
+          "opportunity_strictly_improved": 1,
+          "opportunity_best_chosen": 1,
+          "equal_episode_mean_gain": 0.03333333333333333
+        },
+        "displacement": {
+          "windows": 33,
+          "selected_new_template": 33,
+          "selected_instance_sum": 2,
+          "selected_nonzero": 2,
+          "win": 1,
+          "tie": 32,
+          "loss": 0,
+          "gain_sum_over_original": 1,
+          "overrides": 33,
+          "opportunities": 5,
+          "opportunity_strictly_improved": 1,
+          "opportunity_best_chosen": 1,
+          "equal_episode_mean_gain": 0.03333333333333333
+        }
+      }
+    }
+  },
+  "quota_strata": {
+    "fitted_budget": {
+      "before_quota": {
+        "physical_windows": 23,
+        "episodes_with_opportunity": 2,
+        "v7_net_over_reference": 0,
+        "v7s_net_over_reference": 3,
+        "v6_net_over_reference": 1,
+        "displacement_net_over_reference": 2,
+        "no_word_net_over_reference": 2,
+        "opportunity": 4
+      },
+      "after_quota": {
+        "physical_windows": 10,
+        "episodes_with_opportunity": 0,
+        "v7_net_over_reference": 0,
+        "v7s_net_over_reference": 0,
+        "v6_net_over_reference": 0,
+        "displacement_net_over_reference": 0,
+        "no_word_net_over_reference": 0
+      }
+    },
+    "original_budget": {
+      "before_quota": {
+        "physical_windows": 23,
+        "episodes_with_opportunity": 2,
+        "v7_net_over_reference": -1,
+        "v7s_net_over_reference": 2,
+        "v6_net_over_reference": 1,
+        "displacement_net_over_reference": 1,
+        "no_word_net_over_reference": 1,
+        "opportunity": 5
+      },
+      "after_quota": {
+        "physical_windows": 10,
+        "episodes_with_opportunity": 0,
+        "v7_net_over_reference": 0,
+        "v7s_net_over_reference": 0,
+        "v6_net_over_reference": 0,
+        "displacement_net_over_reference": 0,
+        "no_word_net_over_reference": 0
+      }
+    }
+  },
+  "study": "Predictions were frozen before revealing local simulator outcomes. Source trajectories from five prior V6 policy runs; 33 valid original frontier choices, 16 other policy decisions. The nine added action templates are goal-independent. Local same-budget interventions; not an episode success metric."
+}

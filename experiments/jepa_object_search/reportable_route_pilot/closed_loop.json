@@ -1,0 +1,135 @@
+{
+  "actual_changes": 3,
+  "cases": [
+    {
+      "changed_applied": 0,
+      "found_native": 1,
+      "found_v6": 1,
+      "matched": 1,
+      "ordinal": 1,
+      "quarantined": 0,
+      "quota": 2,
+      "recall": 0.5,
+      "reports_new_count_steps": [
+        [
+          56,
+          0
+        ],
+        [
+          84,
+          1
+        ]
+      ],
+      "scored": 0,
+      "steps": 86,
+      "success": 0,
+      "verified_gateway_responses": 20
+    },
+    {
+      "changed_applied": 2,
+      "found_native": 0,
+      "found_v6": 1,
+      "matched": 0,
+      "ordinal": 14,
+      "quarantined": 0,
+      "quota": 3,
+      "recall": 0.0,
+      "reports_new_count_steps": [],
+      "scored": 9,
+      "steps": 300,
+      "success": 0,
+      "verified_gateway_responses": 18
+    },
+    {
+      "changed_applied": 1,
+      "found_native": 2,
+      "found_v6": 1,
+      "matched": 1,
+      "ordinal": 21,
+      "quarantined": 0,
+      "quota": 3,
+      "recall": 0.3333333333333333,
+      "reports_new_count_steps": [
+        [
+          52,
+          1
+        ],
+        [
+          119,
+          0
+        ],
+        [
+          226,
+          0
+        ]
+      ],
+      "scored": 3,
+      "steps": 228,
+      "success": 0,
+      "verified_gateway_responses": 49
+    },
+    {
+      "changed_applied": 0,
+      "found_native": 2,
+      "found_v6": 5,
+      "matched": 4,
+      "ordinal": 32,
+      "quarantined": 0,
+      "quota": 3,
+      "recall": 1.0,
+      "reports_new_count_steps": [
+        [
+          82,
+          4
+        ],
+        [
+          184,
+          0
+        ],
+        [
+          193,
+          0
+        ]
+      ],
+      "scored": 0,
+      "steps": 195,
+      "success": 1,
+      "verified_gateway_responses": 54
+    },
+    {
+      "changed_applied": 0,
+      "found_native": 0,
+      "found_v6": 0,
+      "matched": 2,
+      "ordinal": 39,
+      "quarantined": 0,
+      "quota": 5,
+      "recall": 0.4,
+      "reports_new_count_steps": [
+        [
+          77,
+          0
+        ],
+        [
+          138,
+          2
+        ]
+      ],
+      "scored": 1,
+      "steps": 300,
+      "success": 0,
+      "verified_gateway_responses": 84
+    }
+  ],
+  "experiment_role": "exploratory_only",
+  "failed_primary_checks": [
+    "better_wrong",
+    "generality"
+  ],
+  "matched_instances": 8,
+  "mean_episode_recall": 0.44666666666666666,
+  "model": "gpt-4o-2024-11-20",
+  "primary_gate_passed": false,
+  "quota_success": 1,
+  "selected_cases": 5
+}

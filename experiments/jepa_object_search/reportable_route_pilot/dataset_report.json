@@ -1,0 +1,744 @@
+{
+  "radius_m": 0.25,
+  "camera_hfov_deg": 90,
+  "grid_spacing_m": 0.4,
+  "camera_height_m": 1.25,
+  "derived_view_criteria": {
+    "resolution": [
+      128,
+      128
+    ],
+    "minimum_target_pixels": 48,
+    "minimum_target_pixels_with_depth_at_most_2m": 32,
+    "maximum_abs_camera_pitch_deg": 30
+  },
+  "primary_label": "Distinct instances of the requested category reached during a branch, excluding the start-eligible and already-reported sets. Natural trajectories here have an empty report history.",
+  "geometry": {
+    "official": {
+      "train": {
+        "houses": 12,
+        "starts": 144,
+        "informative_starts": 73,
+        "starts_with_seen_but_new": 71,
+        "rows": {
+          "rows": 2448,
+          "any_new": 299,
+          "informative": 281,
+          "zero": 2149,
+          "includes_previously_seen": 263
+        },
+        "categories": {
+          "bed": {
+            "rows": 432,
+            "any_new": 17,
+            "informative": 16,
+            "zero": 415,
+            "includes_previously_seen": 13
+          },
+          "chair": {
+            "rows": 432,
+            "any_new": 90,
+            "informative": 87,
+            "zero": 342,
+            "includes_previously_seen": 85
+          },
+          "couch": {
+            "rows": 432,
+            "any_new": 64,
+            "informative": 55,
+            "zero": 368,
+            "includes_previously_seen": 61
+          },
+          "potted_plant": {
+            "rows": 432,
+            "any_new": 97,
+            "informative": 93,
+            "zero": 335,
+            "includes_previously_seen": 89
+          },
+          "toilet": {
+            "rows": 360,
+            "any_new": 15,
+            "informative": 15,
+            "zero": 345,
+            "includes_previously_seen": 6
+          },
+          "tv": {
+            "rows": 360,
+            "any_new": 16,
+            "informative": 15,
+            "zero": 344,
+            "includes_previously_seen": 9
+          }
+        }
+      },
+      "calibration": {
+        "houses": 4,
+        "starts": 48,
+        "informative_starts": 25,
+        "starts_with_seen_but_new": 20,
+        "rows": {
+          "rows": 720,
+          "any_new": 68,
+          "informative": 68,
+          "zero": 652,
+          "includes_previously_seen": 60
+        },
+        "categories": {
+          "bed": {
+            "rows": 144,
+            "any_new": 4,
+            "informative": 4,
+            "zero": 140,
+            "includes_previously_seen": 4
+          },
+          "chair": {
+            "rows": 144,
+            "any_new": 28,
+            "informative": 28,
+            "zero": 116,
+            "includes_previously_seen": 28
+          },
+          "couch": {
+            "rows": 108,
+            "any_new": 12,
+            "informative": 12,
+            "zero": 96,
+            "includes_previously_seen": 11
+          },
+          "potted_plant": {
+            "rows": 108,
+            "any_new": 18,
+            "informative": 18,
+            "zero": 90,
+            "includes_previously_seen": 11
+          },
+          "toilet": {
+            "rows": 72,
+            "any_new": 0,
+            "informative": 0,
+            "zero": 72,
+            "includes_previously_seen": 0
+          },
+          "tv": {
+            "rows": 144,
+            "any_new": 6,
+            "informative": 6,
+            "zero": 138,
+            "includes_previously_seen": 6
+          }
+        }
+      },
+      "holdout": {
+        "houses": 4,
+        "starts": 16,
+        "informative_starts": 9,
+        "starts_with_seen_but_new": 9,
+        "rows": {
+          "rows": 240,
+          "any_new": 31,
+          "informative": 31,
+          "zero": 209,
+          "includes_previously_seen": 21
+        },
+        "categories": {
+          "bed": {
+            "rows": 48,
+            "any_new": 7,
+            "informative": 7,
+            "zero": 41,
+            "includes_previously_seen": 5
+          },
+          "chair": {
+            "rows": 48,
+            "any_new": 15,
+            "informative": 15,
+            "zero": 33,
+            "includes_previously_seen": 14
+          },
+          "couch": {
+            "rows": 36,
+            "any_new": 1,
+            "informative": 1,
+            "zero": 35,
+            "includes_previously_seen": 1
+          },
+          "potted_plant": {
+            "rows": 36,
+            "any_new": 1,
+            "informative": 1,
+            "zero": 35,
+            "includes_previously_seen": 1
+          },
+          "toilet": {
+            "rows": 36,
+            "any_new": 2,
+            "informative": 2,
+            "zero": 34,
+            "includes_previously_seen": 0
+          },
+          "tv": {
+            "rows": 36,
+            "any_new": 5,
+            "informative": 5,
+            "zero": 31,
+            "includes_previously_seen": 0
+          }
+        }
+      },
+      "second_holdout": {
+        "houses": 4,
+        "starts": 16,
+        "informative_starts": 10,
+        "starts_with_seen_but_new": 7,
+        "rows": {
+          "rows": 264,
+          "any_new": 29,
+          "informative": 27,
+          "zero": 235,
+          "includes_previously_seen": 22
+        },
+        "categories": {
+          "bed": {
+            "rows": 48,
+            "any_new": 2,
+            "informative": 2,
+            "zero": 46,
+            "includes_previously_seen": 2
+          },
+          "chair": {
+            "rows": 48,
+            "any_new": 10,
+            "informative": 8,
+            "zero": 38,
+            "includes_previously_seen": 10
+          },
+          "couch": {
+            "rows": 48,
+            "any_new": 11,
+            "informative": 11,
+            "zero": 37,
+            "includes_previously_seen": 7
+          },
+          "potted_plant": {
+            "rows": 48,
+            "any_new": 3,
+            "informative": 3,
+            "zero": 45,
+            "includes_previously_seen": 3
+          },
+          "toilet": {
+            "rows": 36,
+            "any_new": 0,
+            "informative": 0,
+            "zero": 36,
+            "includes_previously_seen": 0
+          },
+          "tv": {
+            "rows": 36,
+            "any_new": 3,
+            "informative": 3,
+            "zero": 33,
+            "includes_previously_seen": 0
+          }
+        }
+      }
+    },
+    "derived": {
+      "train": {
+        "houses": 12,
+        "starts": 144,
+        "informative_starts": 98,
+        "starts_with_seen_but_new": 94,
+        "rows": {
+          "rows": 3204,
+          "any_new": 543,
+          "informative": 478,
+          "zero": 2661,
+          "includes_previously_seen": 427
+        },
+        "categories": {
+          "basket": {
+            "rows": 216,
+            "any_new": 37,
+            "informative": 34,
+            "zero": 179,
+            "includes_previously_seen": 24
+          },
+          "cabinet": {
+            "rows": 432,
+            "any_new": 69,
+            "informative": 67,
+            "zero": 363,
+            "includes_previously_seen": 60
+          },
+          "clock": {
+            "rows": 288,
+            "any_new": 24,
+            "informative": 18,
+            "zero": 264,
+            "includes_previously_seen": 15
+          },
+          "door": {
+            "rows": 432,
+            "any_new": 42,
+            "informative": 40,
+            "zero": 390,
+            "includes_previously_seen": 31
+          },
+          "lamp": {
+            "rows": 432,
+            "any_new": 150,
+            "informative": 125,
+            "zero": 282,
+            "includes_previously_seen": 122
+          },
+          "mirror": {
+            "rows": 396,
+            "any_new": 59,
+            "informative": 51,
+            "zero": 337,
+            "includes_previously_seen": 43
+          },
+          "picture frame": {
+            "rows": 144,
+            "any_new": 8,
+            "informative": 7,
+            "zero": 136,
+            "includes_previously_seen": 3
+          },
+          "shelf": {
+            "rows": 108,
+            "any_new": 14,
+            "informative": 10,
+            "zero": 94,
+            "includes_previously_seen": 9
+          },
+          "stool": {
+            "rows": 324,
+            "any_new": 31,
+            "informative": 23,
+            "zero": 293,
+            "includes_previously_seen": 28
+          },
+          "wall art": {
+            "rows": 432,
+            "any_new": 109,
+            "informative": 103,
+            "zero": 323,
+            "includes_previously_seen": 92
+          }
+        }
+      },
+      "calibration": {
+        "houses": 4,
+        "starts": 48,
+        "informative_starts": 31,
+        "starts_with_seen_but_new": 31,
+        "rows": {
+          "rows": 864,
+          "any_new": 141,
+          "informative": 137,
+          "zero": 723,
+          "includes_previously_seen": 121
+        },
+        "categories": {
+          "basket": {
+            "rows": 36,
+            "any_new": 0,
+            "informative": 0,
+            "zero": 36,
+            "includes_previously_seen": 0
+          },
+          "cabinet": {
+            "rows": 144,
+            "any_new": 14,
+            "informative": 14,
+            "zero": 130,
+            "includes_previously_seen": 13
+          },
+          "clock": {
+            "rows": 72,
+            "any_new": 5,
+            "informative": 5,
+            "zero": 67,
+            "includes_previously_seen": 5
+          },
+          "door": {
+            "rows": 72,
+            "any_new": 10,
+            "informative": 10,
+            "zero": 62,
+            "includes_previously_seen": 9
+          },
+          "lamp": {
+            "rows": 144,
+            "any_new": 54,
+            "informative": 50,
+            "zero": 90,
+            "includes_previously_seen": 51
+          },
+          "mirror": {
+            "rows": 108,
+            "any_new": 11,
+            "informative": 11,
+            "zero": 97,
+            "includes_previously_seen": 5
+          },
+          "picture frame": {
+            "rows": 36,
+            "any_new": 0,
+            "informative": 0,
+            "zero": 36,
+            "includes_previously_seen": 0
+          },
+          "shelf": {
+            "rows": 36,
+            "any_new": 0,
+            "informative": 0,
+            "zero": 36,
+            "includes_previously_seen": 0
+          },
+          "stool": {
+            "rows": 72,
+            "any_new": 12,
+            "informative": 12,
+            "zero": 60,
+            "includes_previously_seen": 10
+          },
+          "wall art": {
+            "rows": 144,
+            "any_new": 35,
+            "informative": 35,
+            "zero": 109,
+            "includes_previously_seen": 28
+          }
+        }
+      },
+      "holdout": {
+        "houses": 4,
+        "starts": 16,
+        "informative_starts": 14,
+        "starts_with_seen_but_new": 14,
+        "rows": {
+          "rows": 300,
+          "any_new": 55,
+          "informative": 51,
+          "zero": 245,
+          "includes_previously_seen": 48
+        },
+        "categories": {
+          "cabinet": {
+            "rows": 48,
+            "any_new": 20,
+            "informative": 18,
+            "zero": 28,
+            "includes_previously_seen": 20
+          },
+          "clock": {
+            "rows": 36,
+            "any_new": 5,
+            "informative": 5,
+            "zero": 31,
+            "includes_previously_seen": 5
+          },
+          "door": {
+            "rows": 48,
+            "any_new": 2,
+            "informative": 2,
+            "zero": 46,
+            "includes_previously_seen": 2
+          },
+          "lamp": {
+            "rows": 48,
+            "any_new": 16,
+            "informative": 14,
+            "zero": 32,
+            "includes_previously_seen": 13
+          },
+          "mirror": {
+            "rows": 48,
+            "any_new": 2,
+            "informative": 2,
+            "zero": 46,
+            "includes_previously_seen": 2
+          },
+          "picture frame": {
+            "rows": 12,
+            "any_new": 1,
+            "informative": 1,
+            "zero": 11,
+            "includes_previously_seen": 0
+          },
+          "stool": {
+            "rows": 12,
+            "any_new": 0,
+            "informative": 0,
+            "zero": 12,
+            "includes_previously_seen": 0
+          },
+          "wall art": {
+            "rows": 48,
+            "any_new": 9,
+            "informative": 9,
+            "zero": 39,
+            "includes_previously_seen": 6
+          }
+        }
+      },
+      "second_holdout": {
+        "houses": 4,
+        "starts": 16,
+        "informative_starts": 13,
+        "starts_with_seen_but_new": 12,
+        "rows": {
+          "rows": 336,
+          "any_new": 73,
+          "informative": 67,
+          "zero": 263,
+          "includes_previously_seen": 62
+        },
+        "categories": {
+          "basket": {
+            "rows": 12,
+            "any_new": 2,
+            "informative": 2,
+            "zero": 10,
+            "includes_previously_seen": 2
+          },
+          "cabinet": {
+            "rows": 48,
+            "any_new": 13,
+            "informative": 13,
+            "zero": 35,
+            "includes_previously_seen": 13
+          },
+          "clock": {
+            "rows": 12,
+            "any_new": 0,
+            "informative": 0,
+            "zero": 12,
+            "includes_previously_seen": 0
+          },
+          "door": {
+            "rows": 48,
+            "any_new": 5,
+            "informative": 5,
+            "zero": 43,
+            "includes_previously_seen": 5
+          },
+          "lamp": {
+            "rows": 48,
+            "any_new": 24,
+            "informative": 19,
+            "zero": 24,
+            "includes_previously_seen": 20
+          },
+          "mirror": {
+            "rows": 48,
+            "any_new": 4,
+            "informative": 4,
+            "zero": 44,
+            "includes_previously_seen": 2
+          },
+          "picture frame": {
+            "rows": 36,
+            "any_new": 3,
+            "informative": 3,
+            "zero": 33,
+            "includes_previously_seen": 3
+          },
+          "shelf": {
+            "rows": 12,
+            "any_new": 0,
+            "informative": 0,
+            "zero": 12,
+            "includes_previously_seen": 0
+          },
+          "stool": {
+            "rows": 24,
+            "any_new": 7,
+            "informative": 7,
+            "zero": 17,
+            "includes_previously_seen": 7
+          },
+          "wall art": {
+            "rows": 48,
+            "any_new": 15,
+            "informative": 14,
+            "zero": 33,
+            "includes_previously_seen": 10
+          }
+        }
+      }
+    }
+  },
+  "catalog_checks": {
+    "train": [
+      {
+        "views": 30,
+        "by_class": {
+          "shelf": 3,
+          "cabinet": 3,
+          "door": 3,
+          "wall art": 3,
+          "stool": 3,
+          "basket": 3,
+          "mirror": 3,
+          "picture frame": 3,
+          "lamp": 3,
+          "clock": 3
+        },
+        "max_pixel_count_difference": 0
+      },
+      {
+        "views": 18,
+        "by_class": {
+          "cabinet": 3,
+          "wall art": 3,
+          "stool": 3,
+          "door": 3,
+          "lamp": 3,
+          "mirror": 3
+        },
+        "max_pixel_count_difference": 0
+      }
+    ],
+    "calibration": [
+      {
+        "views": 18,
+        "by_class": {
+          "lamp": 3,
+          "wall art": 3,
+          "stool": 3,
+          "mirror": 3,
+          "clock": 3,
+          "cabinet": 3
+        },
+        "max_pixel_count_difference": 0
+      },
+      {
+        "views": 21,
+        "by_class": {
+          "lamp": 3,
+          "wall art": 3,
+          "door": 3,
+          "mirror": 3,
+          "cabinet": 3,
+          "stool": 3,
+          "picture frame": 3
+        },
+        "max_pixel_count_difference": 0
+      }
+    ],
+    "holdout": [
+      {
+        "views": 18,
+        "by_class": {
+          "wall art": 3,
+          "lamp": 3,
+          "door": 3,
+          "cabinet": 3,
+          "clock": 3,
+          "mirror": 3
+        },
+        "max_pixel_count_difference": 0
+      },
+      {
+        "views": 15,
+        "by_class": {
+          "lamp": 3,
+          "wall art": 3,
+          "door": 3,
+          "cabinet": 3,
+          "mirror": 3
+        },
+        "max_pixel_count_difference": 0
+      }
+    ]
+  },
+  "catalog": {
+    "train": {
+      "houses": 12,
+      "counts": {
+        "rendered_views": 25718,
+        "instances": 772,
+        "instances_with_views": 735,
+        "valid_views": 14481
+      },
+      "instances_with_views_by_category": {
+        "cabinet": 162,
+        "lamp": 196,
+        "wall art": 163,
+        "stool": 25,
+        "door": 41,
+        "mirror": 50,
+        "picture frame": 8,
+        "clock": 16,
+        "shelf": 33,
+        "basket": 41
+      }
+    },
+    "calibration": {
+      "houses": 4,
+      "counts": {
+        "rendered_views": 6141,
+        "instances": 181,
+        "instances_with_views": 143,
+        "valid_views": 3156
+      },
+      "instances_with_views_by_category": {
+        "lamp": 60,
+        "wall art": 29,
+        "stool": 8,
+        "mirror": 13,
+        "clock": 3,
+        "cabinet": 17,
+        "door": 5,
+        "picture frame": 1,
+        "shelf": 3,
+        "basket": 4
+      }
+    },
+    "first_independent": {
+      "houses": 4,
+      "counts": {
+        "rendered_views": 6613,
+        "instances": 211,
+        "instances_with_views": 205,
+        "valid_views": 4048
+      },
+      "instances_with_views_by_category": {
+        "lamp": 42,
+        "wall art": 84,
+        "door": 8,
+        "cabinet": 58,
+        "mirror": 6,
+        "clock": 4,
+        "picture frame": 1,
+        "stool": 2
+      }
+    },
+    "second_independent": {
+      "houses": 4,
+      "counts": {
+        "rendered_views": 4992,
+        "instances": 165,
+        "instances_with_views": 162,
+        "valid_views": 3191
+      },
+      "instances_with_views_by_category": {
+        "picture frame": 6,
+        "lamp": 56,
+        "wall art": 38,
+        "mirror": 11,
+        "door": 7,
+        "cabinet": 29,
+        "stool": 10,
+        "clock": 1,
+        "basket": 1,
+        "shelf": 3
+      }
+    }
+  }
+}

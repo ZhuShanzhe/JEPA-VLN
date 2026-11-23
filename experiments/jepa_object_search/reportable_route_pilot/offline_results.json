@@ -1,0 +1,757 @@
+{
+  "metric": "House-weighted improvement in the number of newly reportable instances relative to retaining a reference candidate drawn uniformly from the supplied routes. Alternative routes must have a different equal-budget action prefix. Official closed-loop success is evaluated separately.",
+  "v7": {
+    "official": {
+      "v7": {
+        "house_weighted": {
+          "instances": 0.06600328138059317,
+          "gain": 0.015984341502189636,
+          "origin_instances": 0.050018939965715006,
+          "override": 0.6571687297077922,
+          "no_opportunity": 0.8628472222222223,
+          "no_distinction": 0.8628472222222223,
+          "already_eligible_at_start_rate": 0.1593750026077032,
+          "house_mean_pair_accuracy_where_informative": 0.6081389046003016
+        },
+        "house_deltas": [
+          0.00917658768594265,
+          0.012896825520632167,
+          0.045336174739835165,
+          -0.0034722219376514363
+        ]
+      },
+      "v6": {
+        "house_weighted": {
+          "instances": 0.06321800639852881,
+          "gain": 0.013199066966384027,
+          "origin_instances": 0.050018939965715006,
+          "override": 0.595894604527417,
+          "no_opportunity": 0.8628472222222223,
+          "no_distinction": 0.8628472222222223,
+          "already_eligible_at_start_rate": 0.1593750026077032,
+          "house_mean_pair_accuracy_where_informative": 0.6237401691445809
+        },
+        "house_deltas": [
+          -0.01705109141767025,
+          0.01646825442245851,
+          0.054490215688322984,
+          -0.0011111108275751284
+        ]
+      },
+      "observed": {
+        "house_weighted": {
+          "instances": 0.04654108102355773,
+          "gain": -0.003477858961559832,
+          "origin_instances": 0.050018939965715006,
+          "override": 0.38817294973544975,
+          "no_opportunity": 0.8628472222222223,
+          "no_distinction": 0.8628472222222223,
+          "already_eligible_at_start_rate": 0.1593750026077032,
+          "house_mean_pair_accuracy_where_informative": 0.4645249205451411
+        },
+        "house_deltas": [
+          -0.009796627331525087,
+          0.007738096018632253,
+          -0.005602904362604022,
+          -0.006250000170742472
+        ]
+      },
+      "clip_observed": {
+        "house_weighted": {
+          "instances": 0.04998489411082119,
+          "gain": -3.404583549126983e-05,
+          "origin_instances": 0.050018939965715006,
+          "override": 0.34089420995670994,
+          "no_opportunity": 0.8628472222222223,
+          "no_distinction": 0.8628472222222223,
+          "already_eligible_at_start_rate": 0.1593750026077032,
+          "house_mean_pair_accuracy_where_informative": 0.45941253905408314
+        },
+        "house_deltas": [
+          -0.009796627331525087,
+          0.002182540173331896,
+          0.010811237307886284,
+          -0.0033333334916581716
+        ]
+      },
+      "planned_displacement": {
+        "house_weighted": {
+          "instances": 0.06448863726109266,
+          "gain": 0.014469697023741901,
+          "origin_instances": 0.050018939965715006,
+          "override": 0.7175302128427128,
+          "no_opportunity": 0.8628472222222223,
+          "no_distinction": 0.8628472222222223,
+          "already_eligible_at_start_rate": 0.1593750026077032,
+          "house_mean_pair_accuracy_where_informative": 0.7385972177332472
+        },
+        "house_deltas": [
+          -0.008928571362048388,
+          0.010317460323373476,
+          0.030934342493613563,
+          0.025555556640028954
+        ]
+      },
+      "wrong": {
+        "house_weighted": {
+          "instances": 0.07182286133562835,
+          "gain": 0.02180392083634312,
+          "origin_instances": 0.050018939965715006,
+          "override": 0.6571687297077922,
+          "no_opportunity": 0.8628472222222223,
+          "no_distinction": 0.8628472222222223,
+          "already_eligible_at_start_rate": 0.1593750026077032,
+          "house_mean_pair_accuracy_where_informative": 0.5915752599116569
+        },
+        "house_deltas": [
+          0.04414682489975045,
+          -0.005158730045271416,
+          0.03933869969720642,
+          0.008888888793687025
+        ]
+      },
+      "retain": {
+        "house_weighted": {
+          "instances": 0.050018939965715006,
+          "gain": 0.0,
+          "origin_instances": 0.050018939965715006,
+          "override": 0.0,
+          "no_opportunity": 0.8628472222222223,
+          "no_distinction": 0.8628472222222223,
+          "already_eligible_at_start_rate": 0.1593750026077032,
+          "house_mean_pair_accuracy_where_informative": 0.5
+        },
+        "house_deltas": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "derived": {
+      "v7": {
+        "house_weighted": {
+          "instances": 0.2655888716496217,
+          "gain": 0.07562734859917933,
+          "origin_instances": 0.18996152114899212,
+          "override": 0.6709300689183502,
+          "no_opportunity": 0.8086805555555555,
+          "no_distinction": 0.8239583333333333,
+          "already_eligible_at_start_rate": 0.17343750316649675,
+          "house_mean_pair_accuracy_where_informative": 0.5633441783410603
+        },
+        "house_deltas": [
+          -0.02300347317941487,
+          0.24605158914346248,
+          -0.013420665403828025,
+          0.09288194383649775
+        ]
+      },
+      "v6": {
+        "house_weighted": {
+          "instances": 0.24950218551869816,
+          "gain": 0.05954066333166945,
+          "origin_instances": 0.18996152114899212,
+          "override": 0.6067411184012748,
+          "no_opportunity": 0.8086805555555555,
+          "no_distinction": 0.8239583333333333,
+          "already_eligible_at_start_rate": 0.17343750316649675,
+          "house_mean_pair_accuracy_where_informative": 0.5378098911089835
+        },
+        "house_deltas": [
+          0.00496031693182886,
+          0.16166666829182458,
+          -0.012058080872520804,
+          0.08359374897554517
+        ]
+      },
+      "observed": {
+        "house_weighted": {
+          "instances": 0.18117730584344827,
+          "gain": -0.008784215421959138,
+          "origin_instances": 0.18996152114899212,
+          "override": 0.3883133135672198,
+          "no_opportunity": 0.8086805555555555,
+          "no_distinction": 0.8239583333333333,
+          "already_eligible_at_start_rate": 0.17343750316649675,
+          "house_mean_pair_accuracy_where_informative": 0.5976937193442183
+        },
+        "house_deltas": [
+          0.01905588603888949,
+          -0.04023809746528666,
+          0.007139099529013038,
+          -0.02109374979045242
+        ]
+      },
+      "clip_observed": {
+        "house_weighted": {
+          "instances": 0.16854016451785964,
+          "gain": -0.021421356902768213,
+          "origin_instances": 0.18996152114899212,
+          "override": 0.3376546811117123,
+          "no_opportunity": 0.8086805555555555,
+          "no_distinction": 0.8239583333333333,
+          "already_eligible_at_start_rate": 0.17343750316649675,
+          "house_mean_pair_accuracy_where_informative": 0.5226585964271315
+        },
+        "house_deltas": [
+          0.018477182486094534,
+          -0.06664682722960909,
+          0.002414772752672434,
+          -0.039930555620230734
+        ]
+      },
+      "planned_displacement": {
+        "house_weighted": {
+          "instances": 0.2744391857025524,
+          "gain": 0.08447766373865306,
+          "origin_instances": 0.18996152114899212,
+          "override": 0.7175302128427128,
+          "no_opportunity": 0.8086805555555555,
+          "no_distinction": 0.8239583333333333,
+          "already_eligible_at_start_rate": 0.17343750316649675,
+          "house_mean_pair_accuracy_where_informative": 0.6293703386414029
+        },
+        "house_deltas": [
+          -0.03480489443366726,
+          0.25071428545440233,
+          0.01887626356134812,
+          0.10312500037252903
+        ]
+      },
+      "wrong": {
+        "house_weighted": {
+          "instances": 0.2651553124887869,
+          "gain": 0.07519379055399139,
+          "origin_instances": 0.18996152114899212,
+          "override": 0.6709300689183502,
+          "no_opportunity": 0.8086805555555555,
+          "no_distinction": 0.8239583333333333,
+          "already_eligible_at_start_rate": 0.17343750316649675,
+          "house_mean_pair_accuracy_where_informative": 0.5470628349039173
+        },
+        "house_deltas": [
+          -0.043898810748942196,
+          0.2903968275835117,
+          -0.01221590923766295,
+          0.06649305461905897
+        ]
+      },
+      "retain": {
+        "house_weighted": {
+          "instances": 0.18996152114899212,
+          "gain": 0.0,
+          "origin_instances": 0.18996152114899212,
+          "override": 0.0,
+          "no_opportunity": 0.8086805555555555,
+          "no_distinction": 0.8239583333333333,
+          "already_eligible_at_start_rate": 0.17343750316649675,
+          "house_mean_pair_accuracy_where_informative": 0.5
+        },
+        "house_deltas": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "gates": {
+      "opportunities": true,
+      "positive": true,
+      "better_v6": true,
+      "better_observed": true,
+      "better_wrong": false,
+      "generality": false
+    },
+    "passed": false,
+    "selection_sha256": "7a607959601599f259673003ab7023598e32c6ce1d3d64df82c2e1ffa1b608f9",
+    "checkpoint_sha256": "85d7db9fa7f83d260a293bda423f9cf896a9e2a7f81b2f643eceed8890ad436c"
+  },
+  "v7s": {
+    "official": {
+      "correct": {
+        "house_weighted": {
+          "instances": 0.1134837987095428,
+          "gain": 0.035714286379516125,
+          "origin_instances": 0.0777695121554037,
+          "override": 0.6342943948412699,
+          "no_opportunity": 0.8854166666666667,
+          "no_distinction": 0.89375,
+          "already_eligible_at_start_rate": 0.16666666977107525,
+          "house_mean_pair_accuracy_where_informative": 0.7559984543130609
+        },
+        "house_deltas": [
+          0.008333333457509678,
+          0.0,
+          0.04861111162851254,
+          0.08591270043204229
+        ]
+      },
+      "wrong": {
+        "house_weighted": {
+          "instances": 0.11671627219766378,
+          "gain": 0.03894675992584477,
+          "origin_instances": 0.0777695121554037,
+          "override": 0.6342943948412699,
+          "no_opportunity": 0.8854166666666667,
+          "no_distinction": 0.89375,
+          "already_eligible_at_start_rate": 0.16666666977107525,
+          "house_mean_pair_accuracy_where_informative": 0.6927620236609
+        },
+        "house_deltas": [
+          0.018750000124176342,
+          0.0,
+          0.04398148196438948,
+          0.09305555761481325
+        ]
+      },
+      "no_word": {
+        "house_weighted": {
+          "instances": 0.122271828353405,
+          "gain": 0.04450231577114512,
+          "origin_instances": 0.0777695121554037,
+          "override": 0.5510912698412698,
+          "no_opportunity": 0.8854166666666667,
+          "no_distinction": 0.89375,
+          "already_eligible_at_start_rate": 0.16666666977107525,
+          "house_mean_pair_accuracy_where_informative": 0.7139765768979252
+        },
+        "house_deltas": [
+          0.04375000111758709,
+          0.0,
+          0.057870370956758656,
+          0.07638889101023476
+        ]
+      },
+      "displacement": {
+        "house_weighted": {
+          "instances": 0.12346230447292326,
+          "gain": 0.0456927918906634,
+          "origin_instances": 0.0777695121554037,
+          "override": 0.5592757936507936,
+          "no_opportunity": 0.8854166666666667,
+          "no_distinction": 0.89375,
+          "already_eligible_at_start_rate": 0.16666666977107525,
+          "house_mean_pair_accuracy_where_informative": 0.7213839843053326
+        },
+        "house_deltas": [
+          0.04375000111758709,
+          0.0,
+          0.057870370956758656,
+          0.08115079548830788
+        ]
+      },
+      "observed": {
+        "house_weighted": {
+          "instances": 0.12182126617214332,
+          "gain": 0.04405175359958472,
+          "origin_instances": 0.0777695121554037,
+          "override": 0.5948164682539683,
+          "no_opportunity": 0.8854166666666667,
+          "no_distinction": 0.89375,
+          "already_eligible_at_start_rate": 0.16666666977107525,
+          "house_mean_pair_accuracy_where_informative": 0.7293115748171929
+        },
+        "house_deltas": [
+          0.06250000186264515,
+          0.0,
+          0.0532407412926356,
+          0.06046627124305815
+        ]
+      },
+      "v6": {
+        "house_weighted": {
+          "instances": 0.09787533277994953,
+          "gain": 0.020105820556636896,
+          "origin_instances": 0.0777695121554037,
+          "override": 0.43121693121693117,
+          "no_opportunity": 0.8854166666666667,
+          "no_distinction": 0.89375,
+          "already_eligible_at_start_rate": 0.16666666977107525,
+          "house_mean_pair_accuracy_where_informative": 0.5289519053563998
+        },
+        "house_deltas": [
+          0.0156250005432715,
+          0.0,
+          0.00810185179580003,
+          0.05669642988747606
+        ]
+      },
+      "v7": {
+        "house_weighted": {
+          "instances": 0.08792989590438083,
+          "gain": 0.010160383593756704,
+          "origin_instances": 0.0777695121554037,
+          "override": 0.5599247685185186,
+          "no_opportunity": 0.8854166666666667,
+          "no_distinction": 0.89375,
+          "already_eligible_at_start_rate": 0.16666666977107525,
+          "house_mean_pair_accuracy_where_informative": 0.6022679983354141
+        },
+        "house_deltas": [
+          -0.006250000869234405,
+          0.0,
+          0.004629629664123058,
+          0.04226190558013816
+        ]
+      },
+      "retain": {
+        "house_weighted": {
+          "instances": 0.0777695121554037,
+          "gain": 0.0,
+          "origin_instances": 0.0777695121554037,
+          "override": 0.0,
+          "no_opportunity": 0.8854166666666667,
+          "no_distinction": 0.89375,
+          "already_eligible_at_start_rate": 0.16666666977107525,
+          "house_mean_pair_accuracy_where_informative": 0.5
+        },
+        "house_deltas": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "derived": {
+      "correct": {
+        "house_weighted": {
+          "instances": 0.19176794161709648,
+          "gain": 0.05838707089424133,
+          "origin_instances": 0.1333808705288296,
+          "override": 0.6291904348544973,
+          "no_opportunity": 0.7881944444444444,
+          "no_distinction": 0.8064236111111112,
+          "already_eligible_at_start_rate": 0.16406250186264515,
+          "house_mean_pair_accuracy_where_informative": 0.6811249555856547
+        },
+        "house_deltas": [
+          0.015625,
+          0.10503472286897401,
+          0.04600694511706631,
+          0.06688161559092502
+        ]
+      },
+      "wrong": {
+        "house_weighted": {
+          "instances": 0.1892903662713555,
+          "gain": 0.05590949548059143,
+          "origin_instances": 0.1333808705288296,
+          "override": 0.6291904348544973,
+          "no_opportunity": 0.7881944444444444,
+          "no_distinction": 0.8064236111111112,
+          "already_eligible_at_start_rate": 0.16406250186264515,
+          "house_mean_pair_accuracy_where_informative": 0.6411366233675382
+        },
+        "house_deltas": [
+          0.015625,
+          0.10091145844974866,
+          0.03125000031044086,
+          0.07585152316217621
+        ]
+      },
+      "no_word": {
+        "house_weighted": {
+          "instances": 0.20772362896241248,
+          "gain": 0.07434275882163396,
+          "origin_instances": 0.1333808705288296,
+          "override": 0.5510912698412698,
+          "no_opportunity": 0.7881944444444444,
+          "no_distinction": 0.8064236111111112,
+          "already_eligible_at_start_rate": 0.16406250186264515,
+          "house_mean_pair_accuracy_where_informative": 0.6972028201083651
+        },
+        "house_deltas": [
+          0.015625,
+          0.13368055550381544,
+          0.04340277845039963,
+          0.10466270133232078
+        ]
+      },
+      "displacement": {
+        "house_weighted": {
+          "instances": 0.21004877759454152,
+          "gain": 0.07666790760898341,
+          "origin_instances": 0.1333808705288296,
+          "override": 0.5592757936507936,
+          "no_opportunity": 0.7881944444444444,
+          "no_distinction": 0.8064236111111112,
+          "already_eligible_at_start_rate": 0.16406250186264515,
+          "house_mean_pair_accuracy_where_informative": 0.7012131390577085
+        },
+        "house_deltas": [
+          0.015625,
+          0.14496527767429748,
+          0.04340277845039963,
+          0.10267857431123655
+        ]
+      },
+      "observed": {
+        "house_weighted": {
+          "instances": 0.2118546435182604,
+          "gain": 0.07847377359090994,
+          "origin_instances": 0.1333808705288296,
+          "override": 0.5921146453373016,
+          "no_opportunity": 0.7881944444444444,
+          "no_distinction": 0.8064236111111112,
+          "already_eligible_at_start_rate": 0.16406250186264515,
+          "house_mean_pair_accuracy_where_informative": 0.6997349244175546
+        },
+        "house_deltas": [
+          0.015625,
+          0.13172743104708692,
+          0.03645833383779973,
+          0.13008432947875312
+        ]
+      },
+      "v6": {
+        "house_weighted": {
+          "instances": 0.14886894503918785,
+          "gain": 0.015488074791695304,
+          "origin_instances": 0.1333808705288296,
+          "override": 0.44297443369708994,
+          "no_opportunity": 0.7881944444444444,
+          "no_distinction": 0.8064236111111112,
+          "already_eligible_at_start_rate": 0.16406250186264515,
+          "house_mean_pair_accuracy_where_informative": 0.557103538484462
+        },
+        "house_deltas": [
+          -0.0008680555814256271,
+          0.034505208255723126,
+          0.006076389031174282,
+          0.022238757461309436
+        ]
+      },
+      "v7": {
+        "house_weighted": {
+          "instances": 0.16856295562077622,
+          "gain": 0.03518208446136365,
+          "origin_instances": 0.1333808705288296,
+          "override": 0.5749033771494709,
+          "no_opportunity": 0.7881944444444444,
+          "no_distinction": 0.8064236111111112,
+          "already_eligible_at_start_rate": 0.16406250186264515,
+          "house_mean_pair_accuracy_where_informative": 0.6080197906172399
+        },
+        "house_deltas": [
+          -0.005208333372138441,
+          0.07942708341094354,
+          0.04774305333072941,
+          0.0187665344759201
+        ]
+      },
+      "retain": {
+        "house_weighted": {
+          "instances": 0.1333808705288296,
+          "gain": 0.0,
+          "origin_instances": 0.1333808705288296,
+          "override": 0.0,
+          "no_opportunity": 0.7881944444444444,
+          "no_distinction": 0.8064236111111112,
+          "already_eligible_at_start_rate": 0.16406250186264515,
+          "house_mean_pair_accuracy_where_informative": 0.5
+        },
+        "house_deltas": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "conflict": {
+      "official": {
+        "correct": {
+          "double_difference": 0.4173611104488373,
+          "both_directions": 0.08819444632778566,
+          "opposite_starts": 3,
+          "opposite_houses": 3,
+          "opposite_query_pairs_including_view_masks": 124
+        },
+        "wrong": {
+          "double_difference": 0.4618055572112401,
+          "both_directions": 0.2312499980131785,
+          "opposite_starts": 3,
+          "opposite_houses": 3,
+          "opposite_query_pairs_including_view_masks": 124
+        },
+        "no_word": {
+          "double_difference": 0.5,
+          "both_directions": 0.0,
+          "opposite_starts": 3,
+          "opposite_houses": 3,
+          "opposite_query_pairs_including_view_masks": 124
+        },
+        "displacement": {
+          "double_difference": 0.5,
+          "both_directions": 0.0,
+          "opposite_starts": 3,
+          "opposite_houses": 3,
+          "opposite_query_pairs_including_view_masks": 124
+        },
+        "observed": {
+          "double_difference": 0.7451388897995154,
+          "both_directions": 0.04097222350537777,
+          "opposite_starts": 3,
+          "opposite_houses": 3,
+          "opposite_query_pairs_including_view_masks": 124
+        },
+        "v6": {
+          "double_difference": 0.7312500004967054,
+          "both_directions": 0.33055555416891974,
+          "opposite_starts": 3,
+          "opposite_houses": 3,
+          "opposite_query_pairs_including_view_masks": 124
+        },
+        "v7": {
+          "double_difference": 0.9256944457689921,
+          "both_directions": 0.46597222425043583,
+          "opposite_starts": 3,
+          "opposite_houses": 3,
+          "opposite_query_pairs_including_view_masks": 124
+        },
+        "retain": {
+          "double_difference": 0.5,
+          "both_directions": 0.0,
+          "opposite_starts": 3,
+          "opposite_houses": 3,
+          "opposite_query_pairs_including_view_masks": 124
+        }
+      },
+      "derived": {
+        "correct": {
+          "double_difference": 0.577812503091991,
+          "both_directions": 0.11541666812263429,
+          "opposite_starts": 5,
+          "opposite_houses": 4,
+          "opposite_query_pairs_including_view_masks": 524
+        },
+        "wrong": {
+          "double_difference": 0.4376041707582772,
+          "both_directions": 0.1309895843733102,
+          "opposite_starts": 5,
+          "opposite_houses": 4,
+          "opposite_query_pairs_including_view_masks": 524
+        },
+        "no_word": {
+          "double_difference": 0.5,
+          "both_directions": 0.0,
+          "opposite_starts": 5,
+          "opposite_houses": 4,
+          "opposite_query_pairs_including_view_masks": 524
+        },
+        "displacement": {
+          "double_difference": 0.5,
+          "both_directions": 0.0,
+          "opposite_starts": 5,
+          "opposite_houses": 4,
+          "opposite_query_pairs_including_view_masks": 524
+        },
+        "observed": {
+          "double_difference": 0.6920312531292439,
+          "both_directions": 0.041406249860301614,
+          "opposite_starts": 5,
+          "opposite_houses": 4,
+          "opposite_query_pairs_including_view_masks": 524
+        },
+        "v6": {
+          "double_difference": 0.5669791694963351,
+          "both_directions": 0.09229166759178042,
+          "opposite_starts": 5,
+          "opposite_houses": 4,
+          "opposite_query_pairs_including_view_masks": 524
+        },
+        "v7": {
+          "double_difference": 0.657447918318212,
+          "both_directions": 0.15390625083819032,
+          "opposite_starts": 5,
+          "opposite_houses": 4,
+          "opposite_query_pairs_including_view_masks": 524
+        },
+        "retain": {
+          "double_difference": 0.5,
+          "both_directions": 0.0,
+          "opposite_starts": 5,
+          "opposite_houses": 4,
+          "opposite_query_pairs_including_view_masks": 524
+        }
+      },
+      "joint": {
+        "correct": {
+          "double_difference": 0.5215651369653642,
+          "both_directions": 0.159938711381983,
+          "opposite_starts": 6,
+          "opposite_houses": 4,
+          "opposite_query_pairs_including_view_masks": 1036
+        },
+        "wrong": {
+          "double_difference": 0.4242834618780762,
+          "both_directions": 0.13923874171450734,
+          "opposite_starts": 6,
+          "opposite_houses": 4,
+          "opposite_query_pairs_including_view_masks": 1036
+        },
+        "no_word": {
+          "double_difference": 0.5,
+          "both_directions": 0.0,
+          "opposite_starts": 6,
+          "opposite_houses": 4,
+          "opposite_query_pairs_including_view_masks": 1036
+        },
+        "displacement": {
+          "double_difference": 0.5,
+          "both_directions": 0.0,
+          "opposite_starts": 6,
+          "opposite_houses": 4,
+          "opposite_query_pairs_including_view_masks": 1036
+        },
+        "observed": {
+          "double_difference": 0.6605773940682411,
+          "both_directions": 0.028188131109345704,
+          "opposite_starts": 6,
+          "opposite_houses": 4,
+          "opposite_query_pairs_including_view_masks": 1036
+        },
+        "v6": {
+          "double_difference": 0.5429274543421343,
+          "both_directions": 0.15978825016645715,
+          "opposite_starts": 6,
+          "opposite_houses": 4,
+          "opposite_query_pairs_including_view_masks": 1036
+        },
+        "v7": {
+          "double_difference": 0.6422056504525244,
+          "both_directions": 0.25916062109172344,
+          "opposite_starts": 6,
+          "opposite_houses": 4,
+          "opposite_query_pairs_including_view_masks": 1036
+        },
+        "retain": {
+          "double_difference": 0.5,
+          "both_directions": 0.0,
+          "opposite_starts": 6,
+          "opposite_houses": 4,
+          "opposite_query_pairs_including_view_masks": 1036
+        }
+      }
+    },
+    "gates": {
+      "opportunity": true,
+      "official_positive": true,
+      "official_vs_wrong": false,
+      "official_vs_no_word": false,
+      "official_vs_v6": true,
+      "derived_vs_wrong": true,
+      "derived_vs_no_word": false,
+      "goal_interaction": false,
+      "displacement": false
+    },
+    "passed": false,
+    "selection_sha256": "bfa7937db5cfcc999a37fc448191bd7dc37d0b86708ca13370ba5b441153488c",
+    "checkpoint_sha256": "0d309ea16e6da50ed8299cafce2d33fe73b9afaf94fe58194e6076ede4879ecc"
+  },
+  "v7s_data": "Second independent four-house group, disjoint from the first evaluation and from training and calibration."
+}

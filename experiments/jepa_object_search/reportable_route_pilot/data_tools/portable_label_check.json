@@ -1,0 +1,11 @@
+{
+  "paired_rows_agree": {
+    "reportable_data/train": 2448,
+    "reportable_data/calibration": 720,
+    "reportable_data/holdout": 240,
+    "aux_reportable/train": 3204,
+    "aux_reportable/calibration": 864,
+    "aux_reportable/holdout": 300
+  },
+  "all_reported_control_was_zero": true
+}

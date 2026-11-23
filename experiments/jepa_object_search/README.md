@@ -46,3 +46,5 @@ HSSD 的代理目标是新增可见性。开发集 48 个起点中只有 2 个�
 | [整条链路与对照方法](pipeline/README.md) | 建图、控制、裁判与外部方法的工程验收 |
 
 [MOST-Nav 五回合 JEPA 选路评测](five_case_pilot/README.md)
+
+[HSSD 可报告实例路线预测](reportable_route_pilot/README.md)

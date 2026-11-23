@@ -1,0 +1,111 @@
+{
+  "scope": "Observational timing on an exploratory five-case diagnostic study. Nominal route agreement is not a same-state counterfactual.",
+  "cases": [
+    {
+      "ordinal": 1,
+      "episodes_success": false,
+      "first_quota_step": null,
+      "new_report_steps": [
+        [
+          84,
+          1
+        ]
+      ],
+      "scored": 0,
+      "bypassed": 1,
+      "choices_different_from_v6": 0,
+      "choices_different_from_observed_only": 0,
+      "applied_changes": []
+    },
+    {
+      "ordinal": 14,
+      "episodes_success": false,
+      "first_quota_step": null,
+      "new_report_steps": [],
+      "scored": 9,
+      "bypassed": 0,
+      "choices_different_from_v6": 2,
+      "choices_different_from_observed_only": 2,
+      "applied_changes": [
+        {
+          "step": 37,
+          "first_planned_divergence_offset": 8,
+          "follows_selected_through_divergence": true,
+          "v6_different_on_identical_inputs": false,
+          "observed_only_different": false,
+          "subsequent_newly_credited_reports": []
+        },
+        {
+          "step": 138,
+          "first_planned_divergence_offset": 2,
+          "follows_selected_through_divergence": true,
+          "v6_different_on_identical_inputs": true,
+          "observed_only_different": true,
+          "subsequent_newly_credited_reports": []
+        }
+      ]
+    },
+    {
+      "ordinal": 21,
+      "episodes_success": false,
+      "first_quota_step": null,
+      "new_report_steps": [
+        [
+          52,
+          1
+        ]
+      ],
+      "scored": 3,
+      "bypassed": 1,
+      "choices_different_from_v6": 2,
+      "choices_different_from_observed_only": 0,
+      "applied_changes": [
+        {
+          "step": 12,
+          "first_planned_divergence_offset": 0,
+          "follows_selected_through_divergence": true,
+          "v6_different_on_identical_inputs": true,
+          "observed_only_different": false,
+          "subsequent_newly_credited_reports": [
+            [
+              52,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "ordinal": 32,
+      "episodes_success": true,
+      "first_quota_step": 82,
+      "new_report_steps": [
+        [
+          82,
+          4
+        ]
+      ],
+      "scored": 0,
+      "bypassed": 1,
+      "choices_different_from_v6": 0,
+      "choices_different_from_observed_only": 0,
+      "applied_changes": []
+    },
+    {
+      "ordinal": 39,
+      "episodes_success": false,
+      "first_quota_step": null,
+      "new_report_steps": [
+        [
+          138,
+          2
+        ]
+      ],
+      "scored": 1,
+      "bypassed": 3,
+      "choices_different_from_v6": 0,
+      "choices_different_from_observed_only": 0,
+      "applied_changes": []
+    }
+  ]
+}
