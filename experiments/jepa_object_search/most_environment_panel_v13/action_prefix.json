@@ -1,0 +1,59 @@
+{
+  "cases": [
+    {
+      "ordinal": 1,
+      "common_action_prefix": 48,
+      "first_differing_action_step": 48,
+      "first_scan_start_step": 79,
+      "first_rank_step": 84,
+      "first_alternative_selection_step": 84,
+      "first_difference_predates_any_scan": true,
+      "credited_by_treatment_before_its_first_scan": 1,
+      "credited_by_native_before_the_same_step": 1
+    },
+    {
+      "ordinal": 14,
+      "common_action_prefix": 0,
+      "first_differing_action_step": 0,
+      "first_scan_start_step": 62,
+      "first_rank_step": 66,
+      "first_alternative_selection_step": 126,
+      "first_difference_predates_any_scan": true,
+      "credited_by_treatment_before_its_first_scan": 0,
+      "credited_by_native_before_the_same_step": 0
+    },
+    {
+      "ordinal": 21,
+      "common_action_prefix": 41,
+      "first_differing_action_step": 41,
+      "first_scan_start_step": null,
+      "first_rank_step": null,
+      "first_alternative_selection_step": null,
+      "first_difference_predates_any_scan": true,
+      "credited_by_treatment_before_its_first_scan": 1,
+      "credited_by_native_before_the_same_step": 2
+    },
+    {
+      "ordinal": 32,
+      "common_action_prefix": 51,
+      "first_differing_action_step": 51,
+      "first_scan_start_step": null,
+      "first_rank_step": null,
+      "first_alternative_selection_step": null,
+      "first_difference_predates_any_scan": true,
+      "credited_by_treatment_before_its_first_scan": 4,
+      "credited_by_native_before_the_same_step": 2
+    },
+    {
+      "ordinal": 39,
+      "common_action_prefix": 0,
+      "first_differing_action_step": 0,
+      "first_scan_start_step": null,
+      "first_rank_step": null,
+      "first_alternative_selection_step": null,
+      "first_difference_predates_any_scan": true,
+      "credited_by_treatment_before_its_first_scan": 0,
+      "credited_by_native_before_the_same_step": 0
+    }
+  ]
+}

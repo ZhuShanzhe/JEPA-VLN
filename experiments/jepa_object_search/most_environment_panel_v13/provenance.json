@@ -1,0 +1,31 @@
+{
+  "panel_sha256": "ae7f55150231e0a7f8aed2a715970e78034215813e4844ce74df0e57c67a92d2",
+  "hashed_smoke_dependencies": 31,
+  "sources": {
+    "jepa_pilot_agent.py": "856079689c49837953d96435856b67f651ef74affe7efbb0cae0b4dd02338443",
+    "v13_worker.py": "000865290e50b293467f57378a72050a1449b225953eb2f491348f6126e4669e",
+    "v13_inputs.py": "2b0917e7285fbd594cfe3db3a08a42eeeb5c0f930dec5e4fa9800ee52e7e55db"
+  },
+  "checkpoints": {
+    "reader.pt": "4eaaf9081fb23a6fdc6ea04b8130c88f6fbe3e2659636c7802fde54d7fb2b138",
+    "jepa_11.pt": "154917c3bb73820a7f2ea75500710dbdf857ae886ce513ad0b62aacfa2ba14e6",
+    "v8.pt": "37fc573a287b333b96892086ff4bf3d28a1247bd9340bd44c4041c698aeabf33",
+    "head_v5.pt": "25020757510523ea7ab2d63b4c89c9a17c703f7b828d29aa3376c13be6bd1ed6",
+    "clip_RN50_openai.safetensors": "da0baa37fb2211eee5729ab69ed587eb10d48f5b7076ceeed01552fc3d4cb4ee",
+    "direct_11_180.pt": "49ab720e99bc767551e7dd90f0c06f57d50395113b116d36d0e1980d440fce08",
+    "jepa_11_180.pt": "fc5dd3d3845c0a46e80c62032b46385c8bc3469cb2d40c1d281e31b1be3feb70"
+  },
+  "simulator_check": {
+    "passed": true,
+    "no_paid_calls": true,
+    "causal_frames_only": true,
+    "actual_scan_turns": [
+      3,
+      2,
+      2,
+      3
+    ],
+    "report_preempted_scan": true,
+    "heading_restored_on_complete_scan": true
+  }
+}

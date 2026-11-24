@@ -1,5 +1,7 @@
 # 多实例寻物中的前沿选择
 
+[MOST-Nav 上的五例整机测试与失败原因](most_environment_panel_v13/README.md)
+
 [环境先验、长程 JEPA 选路与本屋记忆](environment_prior_v13/README.md)。在 HSSD 隐藏目标寻物中，通过预测候选路线的未来环境安排探索，报告同等步数下发现第一和第二个实例的表现。
 
 [上一阶段选路训练与结果](goal_conditioned_v12/README.md) · [系统开发路线](goal_conditioned_v12/route.md)

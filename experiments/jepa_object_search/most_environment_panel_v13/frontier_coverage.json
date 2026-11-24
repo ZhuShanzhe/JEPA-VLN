@@ -1,0 +1,160 @@
+{
+  "prior_fixed_control": {
+    "cases": [
+      {
+        "ordinal": 1,
+        "counts": {
+          "activated_native_frontiers": 4,
+          "native_plus_one_early_divergence_within_four_actions": 1,
+          "native_plus_one_distinct_plan_comparable_for_6_to_24_steps": 3,
+          "2_plans_24_steps": 2,
+          "3_plans_24_steps": 2,
+          "2_plans_18_steps": 1
+        },
+        "sum_earliest_divergent_command_offsets": 38,
+        "count_with_a_measurably_different_route": 3
+      },
+      {
+        "ordinal": 14,
+        "counts": {
+          "activated_native_frontiers": 11,
+          "2_plans_24_steps": 6,
+          "3_plans_24_steps": 5,
+          "native_plus_one_distinct_plan_comparable_for_6_to_24_steps": 8,
+          "2_plans_18_steps": 5,
+          "3_plans_18_steps": 4,
+          "2_plans_12_steps": 1,
+          "native_plus_one_early_divergence_within_four_actions": 1
+        },
+        "sum_earliest_divergent_command_offsets": 121,
+        "count_with_a_measurably_different_route": 8
+      },
+      {
+        "ordinal": 21,
+        "counts": {
+          "activated_native_frontiers": 5,
+          "native_plus_one_distinct_plan_comparable_for_6_to_24_steps": 1,
+          "2_plans_12_steps": 1
+        },
+        "sum_earliest_divergent_command_offsets": 9,
+        "count_with_a_measurably_different_route": 1
+      },
+      {
+        "ordinal": 32,
+        "counts": {
+          "activated_native_frontiers": 3
+        },
+        "sum_earliest_divergent_command_offsets": 0,
+        "count_with_a_measurably_different_route": 0
+      },
+      {
+        "ordinal": 39,
+        "counts": {
+          "activated_native_frontiers": 10,
+          "native_plus_one_distinct_plan_comparable_for_6_to_24_steps": 1,
+          "2_plans_24_steps": 1,
+          "2_plans_18_steps": 1,
+          "3_plans_18_steps": 1,
+          "3_plans_24_steps": 1
+        },
+        "sum_earliest_divergent_command_offsets": 18,
+        "count_with_a_measurably_different_route": 1
+      }
+    ],
+    "sums": {
+      "activated_native_frontiers": 33,
+      "native_plus_one_early_divergence_within_four_actions": 2,
+      "native_plus_one_distinct_plan_comparable_for_6_to_24_steps": 13,
+      "2_plans_24_steps": 9,
+      "3_plans_24_steps": 8,
+      "2_plans_18_steps": 7,
+      "3_plans_18_steps": 5,
+      "2_plans_12_steps": 2
+    }
+  },
+  "current_v13": {
+    "cases": [
+      {
+        "ordinal": 1,
+        "counts": {
+          "activated_native_frontiers": 9,
+          "native_plus_one_distinct_plan_comparable_for_6_to_24_steps": 7,
+          "2_plans_24_steps": 5,
+          "2_plans_12_steps": 5,
+          "2_plans_18_steps": 6,
+          "3_plans_18_steps": 3,
+          "3_plans_12_steps": 4,
+          "3_plans_24_steps": 3,
+          "native_plus_one_early_divergence_within_four_actions": 1
+        },
+        "sum_earliest_divergent_command_offsets": 75,
+        "count_with_a_measurably_different_route": 7
+      },
+      {
+        "ordinal": 14,
+        "counts": {
+          "activated_native_frontiers": 10,
+          "2_plans_24_steps": 9,
+          "3_plans_24_steps": 9,
+          "native_plus_one_distinct_plan_comparable_for_6_to_24_steps": 9,
+          "2_plans_18_steps": 5,
+          "3_plans_18_steps": 5
+        },
+        "sum_earliest_divergent_command_offsets": 162,
+        "count_with_a_measurably_different_route": 9
+      },
+      {
+        "ordinal": 21,
+        "counts": {
+          "activated_native_frontiers": 13,
+          "native_plus_one_early_divergence_within_four_actions": 4,
+          "native_plus_one_distinct_plan_comparable_for_6_to_24_steps": 7,
+          "2_plans_12_steps": 3,
+          "3_plans_12_steps": 1,
+          "2_plans_24_steps": 1,
+          "2_plans_18_steps": 1
+        },
+        "sum_earliest_divergent_command_offsets": 41,
+        "count_with_a_measurably_different_route": 7
+      },
+      {
+        "ordinal": 32,
+        "counts": {
+          "activated_native_frontiers": 9,
+          "native_plus_one_distinct_plan_comparable_for_6_to_24_steps": 3,
+          "2_plans_12_steps": 3,
+          "native_plus_one_early_divergence_within_four_actions": 2,
+          "3_plans_12_steps": 2
+        },
+        "sum_earliest_divergent_command_offsets": 14,
+        "count_with_a_measurably_different_route": 3
+      },
+      {
+        "ordinal": 39,
+        "counts": {
+          "activated_native_frontiers": 9
+        },
+        "sum_earliest_divergent_command_offsets": 0,
+        "count_with_a_measurably_different_route": 0
+      }
+    ],
+    "sums": {
+      "activated_native_frontiers": 50,
+      "native_plus_one_distinct_plan_comparable_for_6_to_24_steps": 26,
+      "2_plans_24_steps": 15,
+      "2_plans_12_steps": 11,
+      "2_plans_18_steps": 12,
+      "3_plans_18_steps": 8,
+      "3_plans_12_steps": 7,
+      "3_plans_24_steps": 12,
+      "native_plus_one_early_divergence_within_four_actions": 7
+    }
+  },
+  "description_to_prior_current_adapter_on_accepted_native_prefix": {
+    "clock.n.01": 1,
+    "wall_art.n.01": 25,
+    "unmapped": 82,
+    "mirror.n.01": 6,
+    "lamp.n.01": 4
+  }
+}

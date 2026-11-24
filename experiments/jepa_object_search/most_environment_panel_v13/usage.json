@@ -1,0 +1,19 @@
+{
+  "provider": "APIyi",
+  "model": "gpt-4o-2024-11-20",
+  "events": {
+    "success": 329,
+    "outcome_unknown": 1,
+    "terminal_error": 1
+  },
+  "successful_responses": 329,
+  "tokens_for_successful_responses": {
+    "prompt_tokens": 4390631,
+    "completion_tokens": 13834,
+    "total_tokens": 4404465
+  },
+  "requests_with_recorded_prior_possible_charges": 0,
+  "cost_in_currency": null,
+  "cost_note": "No final currency amount is provided in the request ledger.",
+  "scope": "Decision requests tagged to this pilot. The mapper's shared image-caption service is excluded."
+}

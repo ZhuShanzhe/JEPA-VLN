@@ -1,0 +1,27 @@
+{
+  "study": "V13 MOST-Nav paired development panel",
+  "scope": "Full simulator navigation, original high-level decision making, perception, mapping, instance reporting and stopping.",
+  "paired_historical_ordinals": [1, 14, 21, 32, 39],
+  "instance_quotas": [2, 3, 3, 3, 5],
+  "max_actions_per_episode": 300,
+  "official_reporting_distance_m": 0.25,
+  "provider": "APIyi",
+  "requested_model": "gpt-4o-2024-11-20",
+  "baseline": "Previously accepted original MOST-Nav runs from the same episode manifest.",
+  "treatment": "Frozen seed-11 environment JEPA with a learned longer-horizon value and episode-local observation memory, applied when the native host provides valid candidates. Charge real scan actions to the same episode budget.",
+  "primary_outputs": [
+    "unique officially credited targets per episode",
+    "task quota reached",
+    "total unique hits capped by each episode quota",
+    "official recall by episode"
+  ],
+  "diagnostic_outputs": [
+    "distinct instances that entered the official reporting range",
+    "visually exposed instances under a stated threshold",
+    "repeated or empty reports and in-range unreported targets",
+    "eligible exploration decisions, scored decisions, and executed changes of direction",
+    "scan overhead and native fallback reasons"
+  ],
+  "diagnostic_replay": "Enumerate compatible native frontier decisions in all five frozen historical fixed-arm episodes. At each compatible decision replay its exact prefix, spend four physical scan turns and execute each candidate's 24 actions separately. The seed-11 V13 cold-start policy makes a local choice using current RGB and plans only. Treat this as a local mechanism check.",
+  "inference": "Report accepted episodes and incomplete or engineering-interrupted episodes separately. The five paired development episodes were reused previously and do not estimate 300-episode generalization. Independent hosted model requests may yield different high-level decisions."
+}

@@ -1,0 +1,237 @@
+{
+  "protocol": "post-hoc cold-start, native frontier candidates, counted physical scan, no paid calls",
+  "counts": {
+    "1": {
+      "logged": 4,
+      "eligible": 2
+    },
+    "14": {
+      "logged": 11,
+      "eligible": 4
+    },
+    "21": {
+      "logged": 5,
+      "eligible": 0
+    },
+    "32": {
+      "logged": 3,
+      "eligible": 0
+    },
+    "39": {
+      "logged": 10,
+      "eligible": 1
+    }
+  },
+  "decisions": [
+    {
+      "ordinal": 1,
+      "step": 50,
+      "outcomes": [
+        {
+          "new_reachable": 0,
+          "reachable": 1,
+          "target_visible_103px": 1,
+          "forward": 11,
+          "collisions": 0
+        },
+        {
+          "new_reachable": 0,
+          "reachable": 1,
+          "target_visible_103px": 1,
+          "forward": 10,
+          "collisions": 0
+        },
+        {
+          "new_reachable": 0,
+          "reachable": 1,
+          "target_visible_103px": 1,
+          "forward": 7,
+          "collisions": 0
+        }
+      ],
+      "chosen": 0,
+      "full_fov_choice": 0,
+      "native": 0
+    },
+    {
+      "ordinal": 1,
+      "step": 51,
+      "outcomes": [
+        {
+          "new_reachable": 0,
+          "reachable": 1,
+          "target_visible_103px": 1,
+          "forward": 10,
+          "collisions": 0
+        },
+        {
+          "new_reachable": 0,
+          "reachable": 1,
+          "target_visible_103px": 1,
+          "forward": 8,
+          "collisions": 0
+        },
+        {
+          "new_reachable": 0,
+          "reachable": 1,
+          "target_visible_103px": 1,
+          "forward": 9,
+          "collisions": 0
+        }
+      ],
+      "chosen": 0,
+      "full_fov_choice": 0,
+      "native": 0
+    },
+    {
+      "ordinal": 14,
+      "step": 62,
+      "outcomes": [
+        {
+          "new_reachable": 0,
+          "reachable": 1,
+          "target_visible_103px": 0,
+          "forward": 10,
+          "collisions": 1
+        },
+        {
+          "new_reachable": 0,
+          "reachable": 1,
+          "target_visible_103px": 0,
+          "forward": 11,
+          "collisions": 0
+        },
+        {
+          "new_reachable": 0,
+          "reachable": 1,
+          "target_visible_103px": 0,
+          "forward": 10,
+          "collisions": 0
+        }
+      ],
+      "chosen": 1,
+      "full_fov_choice": 1,
+      "native": 0
+    },
+    {
+      "ordinal": 14,
+      "step": 139,
+      "outcomes": [
+        {
+          "new_reachable": 0,
+          "reachable": 1,
+          "target_visible_103px": 0,
+          "forward": 17,
+          "collisions": 1
+        },
+        {
+          "new_reachable": 0,
+          "reachable": 1,
+          "target_visible_103px": 0,
+          "forward": 19,
+          "collisions": 4
+        },
+        {
+          "new_reachable": 0,
+          "reachable": 1,
+          "target_visible_103px": 0,
+          "forward": 15,
+          "collisions": 2
+        }
+      ],
+      "chosen": 1,
+      "full_fov_choice": 1,
+      "native": 0
+    },
+    {
+      "ordinal": 14,
+      "step": 169,
+      "outcomes": [
+        {
+          "new_reachable": 0,
+          "reachable": 0,
+          "target_visible_103px": 0,
+          "forward": 14,
+          "collisions": 7
+        },
+        {
+          "new_reachable": 0,
+          "reachable": 0,
+          "target_visible_103px": 0,
+          "forward": 15,
+          "collisions": 5
+        },
+        {
+          "new_reachable": 0,
+          "reachable": 0,
+          "target_visible_103px": 0,
+          "forward": 11,
+          "collisions": 3
+        }
+      ],
+      "chosen": 1,
+      "full_fov_choice": 0,
+      "native": 0
+    },
+    {
+      "ordinal": 14,
+      "step": 220,
+      "outcomes": [
+        {
+          "new_reachable": 0,
+          "reachable": 0,
+          "target_visible_103px": 0,
+          "forward": 13,
+          "collisions": 5
+        },
+        {
+          "new_reachable": 0,
+          "reachable": 0,
+          "target_visible_103px": 0,
+          "forward": 11,
+          "collisions": 5
+        },
+        {
+          "new_reachable": 0,
+          "reachable": 0,
+          "target_visible_103px": 0,
+          "forward": 13,
+          "collisions": 7
+        }
+      ],
+      "chosen": 0,
+      "full_fov_choice": 0,
+      "native": 0
+    },
+    {
+      "ordinal": 39,
+      "step": 51,
+      "outcomes": [
+        {
+          "new_reachable": 0,
+          "reachable": 0,
+          "target_visible_103px": 1,
+          "forward": 12,
+          "collisions": 1
+        },
+        {
+          "new_reachable": 0,
+          "reachable": 0,
+          "target_visible_103px": 1,
+          "forward": 14,
+          "collisions": 6
+        },
+        {
+          "new_reachable": 0,
+          "reachable": 0,
+          "target_visible_103px": 2,
+          "forward": 16,
+          "collisions": 4
+        }
+      ],
+      "chosen": 2,
+      "full_fov_choice": 2,
+      "native": 0
+    }
+  ]
+}
