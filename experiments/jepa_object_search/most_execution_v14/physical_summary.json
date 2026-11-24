@@ -1,0 +1,139 @@
+{
+  "cases": [
+    {
+      "ordinal": 1,
+      "step": 84,
+      "archived_selection_changed": true,
+      "fork_offset": 10,
+      "selected": "f0",
+      "original": "f1",
+      "status": "first_difference_observed",
+      "common_start_position_error_m": 0.0,
+      "common_start_angle_error_deg": 0.0,
+      "separation_m": 0.0,
+      "separation_deg": 59.99999847563957,
+      "handback_status": "three_native_actions_observed",
+      "handback_steps": 3,
+      "handback_separation_m": 0.24999998159876147,
+      "handback_separation_deg": 149.9999986341948,
+      "simulated_decisions": 1
+    },
+    {
+      "ordinal": 14,
+      "step": 66,
+      "archived_selection_changed": false,
+      "fork_offset": null,
+      "selected": "f1",
+      "original": "f1",
+      "status": "unchanged_native",
+      "common_start_position_error_m": 0.0,
+      "common_start_angle_error_deg": 2.4148365394514667e-06,
+      "separation_m": 0.0,
+      "separation_deg": 0.0,
+      "handback_status": "three_native_actions_observed",
+      "handback_steps": 3,
+      "handback_separation_m": 0.0,
+      "handback_separation_deg": 0.0,
+      "simulated_decisions": 1
+    },
+    {
+      "ordinal": 14,
+      "step": 126,
+      "archived_selection_changed": true,
+      "fork_offset": 20,
+      "selected": "f2",
+      "original": "f1",
+      "status": "first_difference_observed",
+      "common_start_position_error_m": 0.0,
+      "common_start_angle_error_deg": 0.0,
+      "separation_m": 0.24999997855820674,
+      "separation_deg": 29.999995693742463,
+      "handback_status": "three_native_actions_observed",
+      "handback_steps": 3,
+      "handback_separation_m": 0.790569347237191,
+      "handback_separation_deg": 119.99999126426032,
+      "simulated_decisions": 1
+    },
+    {
+      "ordinal": 14,
+      "step": 161,
+      "archived_selection_changed": true,
+      "fork_offset": 12,
+      "selected": "f1",
+      "original": "f0",
+      "status": "first_difference_observed",
+      "common_start_position_error_m": 0.0,
+      "common_start_angle_error_deg": 0.0,
+      "separation_m": 0.16562086900114265,
+      "separation_deg": 29.999999193198743,
+      "handback_status": "three_native_actions_observed",
+      "handback_steps": 3,
+      "handback_separation_m": 0.6798894779646645,
+      "handback_separation_deg": 120.00000113756329,
+      "simulated_decisions": 1
+    },
+    {
+      "ordinal": 14,
+      "step": 219,
+      "archived_selection_changed": true,
+      "fork_offset": 20,
+      "selected": "f2",
+      "original": "f0",
+      "status": "first_difference_observed",
+      "common_start_position_error_m": 0.0,
+      "common_start_angle_error_deg": 0.0,
+      "separation_m": 0.2500001864587362,
+      "separation_deg": 30.000003902100055,
+      "handback_status": "three_native_actions_observed",
+      "handback_steps": 3,
+      "handback_separation_m": 0.5132855936597785,
+      "handback_separation_deg": 30.000003902100055,
+      "simulated_decisions": 1
+    }
+  ],
+  "counts": {
+    "first_difference_observed": 4,
+    "unchanged_native": 1
+  },
+  "input_digests": [
+    {
+      "ordinal": 1,
+      "ranks": 1,
+      "result_sha256": "bfb89b9ab8aa34575748f5a7ba424a09347cf46c74cbbcb7415854d2683121b6",
+      "rank_log_sha256": "8c49a76491f171bb04f81f55e5258859ff5de71fe0ce0e48217be9a01e64ec14",
+      "frontier_log_sha256": "dd5b8c12802363e4ea075177e7a74fab395c823176f992db4e789ce790ee0648"
+    },
+    {
+      "ordinal": 14,
+      "ranks": 4,
+      "result_sha256": "0b0173c9979b994f52390f6239c8f5e5f9610d3ccb32e5bda078655a7484a2d0",
+      "rank_log_sha256": "8a7dbf05c89cee2e3a36664ee280a571be31e579796ca2728d6b5c0e32425c76",
+      "frontier_log_sha256": "ae86c7a519a5c7a14755b7a2603ed152514eefaab3790e5462dfa135e4edb739"
+    },
+    {
+      "ordinal": 21,
+      "ranks": 0,
+      "result_sha256": "083e30bddd607a485ee75db613fc977d87d64fef58b57bd39ac01af487c0f944",
+      "rank_log_sha256": "e3cb6be02de490d3d031eb1300218f37fafde8c5f1aa2cc78439be5e52ea9abf",
+      "frontier_log_sha256": "1abc8138f0c9146eb0dabcbd32fc5165db25947a3caf86fa48fdca7eacd2780a"
+    },
+    {
+      "ordinal": 32,
+      "ranks": 0,
+      "result_sha256": "c38acf7258085a0a3774738fc955c40618fcdc9b0f21df9f70f23b565efc65a7",
+      "rank_log_sha256": "24454b7d4fba54f050e0112b2b60831cb3b8db1f001679e742ce28f622f88dc7",
+      "frontier_log_sha256": "cb6a240872d201fb0fb5e65d312780f1f688ca5184d6d7b42795357755b6d535"
+    },
+    {
+      "ordinal": 39,
+      "ranks": 0,
+      "result_sha256": "85b3d40e81ab59744cfc14af3dcf929036f8353bb39a0673b55fa776d5a92067",
+      "rank_log_sha256": "788ca1d35338f2cd2ed16fc1c9b088670bf0d253199f4d173bf0842a1879684e",
+      "frontier_log_sha256": "0a462cbe9e380cd6758ab1934e63d1ec013e578a61f0203dc4a3f5447863d9df"
+    }
+  ],
+  "new_paid_requests": 0,
+  "source": "all ranks in the archived five V13 episodes; metric path geometry; mocked rank responses and mapper poses; real adapter, PathFollower, Habitat observations",
+  "verifier_sha256": "57559a299bb597f3ac6c7e36d210895203073ec5640181f637342e51ae9b69c5",
+  "adapter_sha256": "adb86da1ad8884ae1c1e5e3b2f52bb64743ee3bc7c30997a6aeb2540909bafb5"
+}

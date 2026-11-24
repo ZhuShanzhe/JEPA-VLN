@@ -1,0 +1,68 @@
+{
+  "passed": true,
+  "inherited_ip_socket_denial": true,
+  "paid_requests": 0,
+  "environment": "HM3D branch_execution_03",
+  "inputs": "simulated frontier geometry",
+  "verified_checkpoints": {
+    "reader.pt": "4eaaf9081fb23a6fdc6ea04b8130c88f6fbe3e2659636c7802fde54d7fb2b138",
+    "jepa_11.pt": "154917c3bb73820a7f2ea75500710dbdf857ae886ce513ad0b62aacfa2ba14e6",
+    "v8.pt": "37fc573a287b333b96892086ff4bf3d28a1247bd9340bd44c4041c698aeabf33",
+    "head_v5.pt": "25020757510523ea7ab2d63b4c89c9a17c703f7b828d29aa3376c13be6bd1ed6",
+    "clip_RN50_openai.safetensors": "da0baa37fb2211eee5729ab69ed587eb10d48f5b7076ceeed01552fc3d4cb4ee",
+    "direct_11_180.pt": "49ab720e99bc767551e7dd90f0c06f57d50395113b116d36d0e1980d440fce08",
+    "jepa_11_180.pt": "fc5dd3d3845c0a46e80c62032b46385c8bc3469cb2d40c1d281e31b1be3feb70"
+  },
+  "cases": [
+    {
+      "selected_by": "frozen_jepa",
+      "original": "f0",
+      "selected": "f0",
+      "scan_steps": [
+        1,
+        2,
+        3
+      ],
+      "first_difference": null,
+      "executed_actions": [
+        3,
+        2,
+        2,
+        3,
+        1
+      ],
+      "physical_last_action": {
+        "command": 1,
+        "forward_m": 0.24999983608722687,
+        "cos_half_turn": 1.0000000091621253,
+        "blocked": false
+      },
+      "reached_changed_action": false
+    },
+    {
+      "selected_by": "simulated_index_1",
+      "original": "f0",
+      "selected": "f1",
+      "scan_steps": [
+        1,
+        2,
+        3
+      ],
+      "first_difference": 0,
+      "executed_actions": [
+        3,
+        2,
+        2,
+        3,
+        2
+      ],
+      "physical_last_action": {
+        "command": 2,
+        "forward_m": 0.0,
+        "cos_half_turn": 0.9659258760444587,
+        "blocked": false
+      },
+      "reached_changed_action": true
+    }
+  ]
+}
