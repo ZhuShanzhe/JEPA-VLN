@@ -1,0 +1,449 @@
+{
+  "comparison": "Stored real outbound-and-return memory choice vs best remaining initial score including initial memory; same model and identical first action plan.",
+  "observations": "Goal opportunities sampled at four fixed physical frames on each outward search leg. Union counts deduplicate simulator instance IDs across legs. Physical return imagery updates memory only.",
+  "statistics": "Queries within origin, origins per house and seed, seeds within house, houses equally weighted. Delta is updated minus initial ranking. House bootstrap 20000, seed 711. Exploratory comparisons.",
+  "denominators": "Valid-return panel omits shared interruptions; confirmed-all retains only first-leg findings for shared interruptions. The switch rate uses valid returns. First-miss rescued uses all rows of the panel as denominator.",
+  "interpretation": "Measures the joint contribution of cue, collision, time, pose and novelty updates to the second decision given the same first decision. No isolated semantic-memory effect or whole-navigation success rate.",
+  "private_input_sha256": {
+    "test_predictions.jsonl": "49e1825eaf6a0d49414786f0184f70658e56a9129639b921d2410dfd2094eaa2",
+    "physical_returns.jsonl": "a866dd97ee1190c0e92ebecb0101fe5ea96f11d271610f0c194101c7821c6c40"
+  },
+  "tables": {
+    "combined|direct": {
+      "invalid_return_rows": 29,
+      "confirmed_all": {
+        "houses": 16,
+        "distinct_origins": 275,
+        "seeded_queries": 1272,
+        "initial_hit": 0.48143590570560674,
+        "valid_return": 0.9122509057971014,
+        "cumulative_confirmation": {
+          "updated": 0.759709752711471,
+          "initial_ranking": 0.7568582309131382,
+          "delta": 0.0028515217983328747,
+          "house_bootstrap_95": [
+            -0.0016637731481481332,
+            0.00781884113473286
+          ]
+        },
+        "any_additional_unique_instance": {
+          "updated": 0.2888855116596485,
+          "initial_ranking": 0.28512819275986634,
+          "delta": 0.0037573188997821385,
+          "house_bootstrap_95": [
+            -0.0015233523965141587,
+            0.010092769274829501
+          ]
+        },
+        "additional_unique_instance_count": {
+          "updated": 0.3227863170548193,
+          "initial_ranking": 0.31951649312283104,
+          "delta": 0.0032698239319882624,
+          "house_bootstrap_95": [
+            -0.0033214132950885574,
+            0.010907750781471983
+          ]
+        },
+        "first_miss_rescued": {
+          "updated": 0.2782738470058642,
+          "initial_ranking": 0.2754223252075314,
+          "delta": 0.002851521798332852,
+          "house_bootstrap_95": [
+            -0.0016637731481481469,
+            0.007818841134732843
+          ]
+        },
+        "cumulative_unique_instance_count": {
+          "updated": 0.8619737678091659,
+          "initial_ranking": 0.8587039438771775,
+          "delta": 0.0032698239319882416,
+          "house_bootstrap_95": [
+            -0.003321413295088547,
+            0.010907750781471956
+          ]
+        }
+      },
+      "valid_return_only": {
+        "houses": 15,
+        "distinct_origins": 271,
+        "seeded_queries": 1243,
+        "initial_hit": 0.4776219935176838,
+        "valid_return": 1.0,
+        "cumulative_confirmation": {
+          "updated": 0.7821351298464976,
+          "initial_ranking": 0.7789143247433731,
+          "delta": 0.003220805103124406,
+          "house_bootstrap_95": [
+            -0.0016920053045372365,
+            0.008687351370754255
+          ]
+        },
+        "any_additional_unique_instance": {
+          "updated": 0.3158898066681079,
+          "initial_ranking": 0.3117028179901043,
+          "delta": 0.004186988678003617,
+          "house_bootstrap_95": [
+            -0.0014995974235104737,
+            0.010981844174232114
+          ]
+        },
+        "additional_unique_instance_count": {
+          "updated": 0.3531442612587338,
+          "initial_ranking": 0.34949068642936143,
+          "delta": 0.0036535748293723895,
+          "house_bootstrap_95": [
+            -0.003419145690312723,
+            0.011855877616747187
+          ]
+        },
+        "first_miss_rescued": {
+          "updated": 0.30451313632881355,
+          "initial_ranking": 0.30129233122568927,
+          "delta": 0.0032208051031243873,
+          "house_bootstrap_95": [
+            -0.0016920053045372714,
+            0.008687351370754244
+          ]
+        },
+        "cumulative_unique_instance_count": {
+          "updated": 0.8940431154170442,
+          "initial_ranking": 0.890389540587672,
+          "delta": 0.0036535748293723487,
+          "house_bootstrap_95": [
+            -0.003419145690312749,
+            0.01185587761674712
+          ]
+        }
+      },
+      "second_choice_switch_house_macro_valid": 0.03937617394537349,
+      "second_choice_switch_raw_valid": 41
+    },
+    "combined|jepa": {
+      "invalid_return_rows": 36,
+      "confirmed_all": {
+        "houses": 16,
+        "distinct_origins": 275,
+        "seeded_queries": 1272,
+        "initial_hit": 0.4900184021992086,
+        "valid_return": 0.910967693236715,
+        "cumulative_confirmation": {
+          "updated": 0.7960171921823735,
+          "initial_ranking": 0.7836548765037415,
+          "delta": 0.012362315678632038,
+          "house_bootstrap_95": [
+            0.0031621661302792463,
+            0.022400052347053247
+          ]
+        },
+        "any_additional_unique_instance": {
+          "updated": 0.314015723356756,
+          "initial_ranking": 0.30252146323367946,
+          "delta": 0.011494260123076479,
+          "house_bootstrap_95": [
+            0.0019379569014419734,
+            0.021910926789743136
+          ]
+        },
+        "additional_unique_instance_count": {
+          "updated": 0.34805287933684675,
+          "initial_ranking": 0.33489170093679765,
+          "delta": 0.013161178400049088,
+          "house_bootstrap_95": [
+            0.003255104687042526,
+            0.024013179040040727
+          ]
+        },
+        "first_miss_rescued": {
+          "updated": 0.305998789983165,
+          "initial_ranking": 0.293636474304533,
+          "delta": 0.012362315678632033,
+          "house_bootstrap_95": [
+            0.003162166130279247,
+            0.02240005234705323
+          ]
+        },
+        "cumulative_unique_instance_count": {
+          "updated": 0.8957719663197405,
+          "initial_ranking": 0.8826107879196913,
+          "delta": 0.013161178400049073,
+          "house_bootstrap_95": [
+            0.0032551046870425157,
+            0.024013179040040716
+          ]
+        }
+      },
+      "valid_return_only": {
+        "houses": 15,
+        "distinct_origins": 271,
+        "seeded_queries": 1236,
+        "initial_hit": 0.4613287418374931,
+        "valid_return": 1.0,
+        "cumulative_confirmation": {
+          "updated": 0.7963363021854425,
+          "initial_ranking": 0.7833147472340349,
+          "delta": 0.01302155495140757,
+          "house_bootstrap_95": [
+            0.003063456801359629,
+            0.023553503563627193
+          ]
+        },
+        "any_additional_unique_instance": {
+          "updated": 0.34369438409007447,
+          "initial_ranking": 0.33159875506459274,
+          "delta": 0.012095629025481646,
+          "house_bootstrap_95": [
+            0.0016522739150981241,
+            0.0230855539058191
+          ]
+        },
+        "additional_unique_instance_count": {
+          "updated": 0.38096586682144784,
+          "initial_ranking": 0.36690502887995635,
+          "delta": 0.014060837941491464,
+          "house_bootstrap_95": [
+            0.003469551031470548,
+            0.025350196789993538
+          ]
+        },
+        "first_miss_rescued": {
+          "updated": 0.33500756034794943,
+          "initial_ranking": 0.3219860053965418,
+          "delta": 0.013021554951407575,
+          "house_bootstrap_95": [
+            0.0030634568013596527,
+            0.023553503563627197
+          ]
+        },
+        "cumulative_unique_instance_count": {
+          "updated": 0.9051725092882027,
+          "initial_ranking": 0.8911116713467113,
+          "delta": 0.014060837941491437,
+          "house_bootstrap_95": [
+            0.003469551031470473,
+            0.025350196789993517
+          ]
+        }
+      },
+      "second_choice_switch_house_macro_valid": 0.04636882115527177,
+      "second_choice_switch_raw_valid": 57
+    },
+    "hssd|direct": {
+      "invalid_return_rows": 21,
+      "confirmed_all": {
+        "houses": 16,
+        "distinct_origins": 275,
+        "seeded_queries": 1272,
+        "initial_hit": 0.43587603543695697,
+        "valid_return": 0.9221769323671498,
+        "cumulative_confirmation": {
+          "updated": 0.7226661596786277,
+          "initial_ranking": 0.729433551871012,
+          "delta": -0.006767392192384189,
+          "house_bootstrap_95": [
+            -0.02365451388888888,
+            0.005920982523444162
+          ]
+        },
+        "any_additional_unique_instance": {
+          "updated": 0.30024841640240857,
+          "initial_ranking": 0.306509442854052,
+          "delta": -0.006261026451643437,
+          "house_bootstrap_95": [
+            -0.023270808172302714,
+            0.006503756393861922
+          ]
+        },
+        "additional_unique_instance_count": {
+          "updated": 0.3351042140958821,
+          "initial_ranking": 0.33872333233496515,
+          "delta": -0.003619118239083067,
+          "house_bootstrap_95": [
+            -0.021254193196753333,
+            0.00955683007275977
+          ]
+        },
+        "first_miss_rescued": {
+          "updated": 0.2867901242416707,
+          "initial_ranking": 0.293557516434055,
+          "delta": -0.0067673921923841925,
+          "house_bootstrap_95": [
+            -0.02365451388888887,
+            0.005920982523444158
+          ]
+        },
+        "cumulative_unique_instance_count": {
+          "updated": 0.8190399203296822,
+          "initial_ranking": 0.8226590385687653,
+          "delta": -0.0036191182390830356,
+          "house_bootstrap_95": [
+            -0.021254193196753316,
+            0.009556830072759778
+          ]
+        }
+      },
+      "valid_return_only": {
+        "houses": 15,
+        "distinct_origins": 272,
+        "seeded_queries": 1251,
+        "initial_hit": 0.44190292181138296,
+        "valid_return": 1.0,
+        "cumulative_confirmation": {
+          "updated": 0.7554479984352107,
+          "initial_ranking": 0.7625820090442854,
+          "delta": -0.0071340106090745335,
+          "house_bootstrap_95": [
+            -0.025152782711313187,
+            0.00623676825802786
+          ]
+        },
+        "any_additional_unique_instance": {
+          "updated": 0.32800928391412193,
+          "initial_ranking": 0.3346031710664063,
+          "delta": -0.006593887152284402,
+          "house_bootstrap_95": [
+            -0.02476916481165733,
+            0.006802949662151523
+          ]
+        },
+        "additional_unique_instance_count": {
+          "updated": 0.365903278871203,
+          "initial_ranking": 0.36967913059675633,
+          "delta": -0.0037758517255533403,
+          "house_bootstrap_95": [
+            -0.022515884997316146,
+            0.010120733478576616
+          ]
+        },
+        "first_miss_rescued": {
+          "updated": 0.31354507662382763,
+          "initial_ranking": 0.3206790872329022,
+          "delta": -0.0071340106090745335,
+          "house_bootstrap_95": [
+            -0.025152782711313177,
+            0.0062367682580278415
+          ]
+        },
+        "cumulative_unique_instance_count": {
+          "updated": 0.8596380574920643,
+          "initial_ranking": 0.8634139092176177,
+          "delta": -0.003775851725553303,
+          "house_bootstrap_95": [
+            -0.022515884997316125,
+            0.010120733478576678
+          ]
+        }
+      },
+      "second_choice_switch_house_macro_valid": 0.08135208650873611,
+      "second_choice_switch_raw_valid": 70
+    },
+    "hssd|jepa": {
+      "invalid_return_rows": 20,
+      "confirmed_all": {
+        "houses": 16,
+        "distinct_origins": 275,
+        "seeded_queries": 1272,
+        "initial_hit": 0.5060215745073282,
+        "valid_return": 0.9160628019323672,
+        "cumulative_confirmation": {
+          "updated": 0.8059199195708147,
+          "initial_ranking": 0.7981523091367638,
+          "delta": 0.00776761043405063,
+          "house_bootstrap_95": [
+            -0.007638445711645454,
+            0.026063818380819042
+          ]
+        },
+        "any_additional_unique_instance": {
+          "updated": 0.31041251072371195,
+          "initial_ranking": 0.30380230769706873,
+          "delta": 0.006610203026643238,
+          "house_bootstrap_95": [
+            -0.00839799432275655,
+            0.024839998719074753
+          ]
+        },
+        "additional_unique_instance_count": {
+          "updated": 0.34340353294507303,
+          "initial_ranking": 0.3389445980343718,
+          "delta": 0.004458934910701201,
+          "house_bootstrap_95": [
+            -0.011692159365393074,
+            0.023292023495827825
+          ]
+        },
+        "first_miss_rescued": {
+          "updated": 0.29989834506348656,
+          "initial_ranking": 0.2921307346294359,
+          "delta": 0.007767610434050649,
+          "house_bootstrap_95": [
+            -0.007638445711645439,
+            0.02606381838081905
+          ]
+        },
+        "cumulative_unique_instance_count": {
+          "updated": 0.9056423173820473,
+          "initial_ranking": 0.9011833824713461,
+          "delta": 0.0044589349107012205,
+          "house_bootstrap_95": [
+            -0.011692159365393038,
+            0.02329202349582782
+          ]
+        }
+      },
+      "valid_return_only": {
+        "houses": 15,
+        "distinct_origins": 272,
+        "seeded_queries": 1252,
+        "initial_hit": 0.47721876224582405,
+        "valid_return": 1.0,
+        "cumulative_confirmation": {
+          "updated": 0.8111551040837173,
+          "initial_ranking": 0.7993386838243144,
+          "delta": 0.011816420259402705,
+          "house_bootstrap_95": [
+            -0.008234635937486827,
+            0.038384364478114386
+          ]
+        },
+        "any_additional_unique_instance": {
+          "updated": 0.34534517289298655,
+          "initial_ranking": 0.33476332053481855,
+          "delta": 0.010581852358168145,
+          "house_bootstrap_95": [
+            -0.0091471049256137,
+            0.037146106005755145
+          ]
+        },
+        "additional_unique_instance_count": {
+          "updated": 0.38111110945198645,
+          "initial_ranking": 0.37282394308415656,
+          "delta": 0.00828716636782997,
+          "house_bootstrap_95": [
+            -0.01245456080684439,
+            0.035788567107455316
+          ]
+        },
+        "first_miss_rescued": {
+          "updated": 0.3339363418378932,
+          "initial_ranking": 0.32211992157849045,
+          "delta": 0.011816420259402714,
+          "house_bootstrap_95": [
+            -0.008234635937486813,
+            0.03838436447811444
+          ]
+        },
+        "cumulative_unique_instance_count": {
+          "updated": 0.9190237709511837,
+          "initial_ranking": 0.9107366045833537,
+          "delta": 0.008287166367830001,
+          "house_bootstrap_95": [
+            -0.012454560806844343,
+            0.035788567107455344
+          ]
+        }
+      },
+      "second_choice_switch_house_macro_valid": 0.09784792079464982,
+      "second_choice_switch_raw_valid": 75
+    }
+  }
+}

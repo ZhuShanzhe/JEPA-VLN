@@ -1,0 +1,96 @@
+{
+  "replay": {
+    "origins": 275,
+    "branches": 825,
+    "successful_returns": 811,
+    "alternatives_from_return": 1622,
+    "max_first_frame_mae": 0.0,
+    "max_origin_rgb_mae": 0.0,
+    "first_gain_reproduced_all_houses": true
+  },
+  "houses": 16,
+  "hssd": {
+    "confirmed": {
+      "houses": 16,
+      "seeded_pairs": 1272,
+      "house_macro": [
+        0.8059199195708147,
+        0.7226661596786277
+      ],
+      "observed_delta": 0.08325375989218697,
+      "ci95": [
+        0.012100008654990849,
+        0.1799296692010686
+      ],
+      "possible_delta_with_missing_second": [
+        0.029660764723104877,
+        0.1021245328390469
+      ],
+      "house_signflip_p": 0.03997802734375
+    },
+    "both_returns_valid": {
+      "houses": 15,
+      "seeded_pairs": 1249,
+      "house_macro": [
+        0.8111198307151105,
+        0.7552189536009027
+      ],
+      "observed_delta": 0.05590087711420775,
+      "ci95": [
+        0.003972870601946424,
+        0.12021465983341455
+      ],
+      "possible_delta_with_missing_second": [
+        0.05590087711420775,
+        0.05590087711420775
+      ],
+      "house_signflip_p": 0.0765380859375
+    },
+    "interrupted_per_arm": [
+      20,
+      21
+    ]
+  },
+  "combined": {
+    "confirmed": {
+      "houses": 16,
+      "seeded_pairs": 1272,
+      "house_macro": [
+        0.7960171921823735,
+        0.759709752711471
+      ],
+      "observed_delta": 0.03630743947090256,
+      "ci95": [
+        -0.003364317014924919,
+        0.08694365097217095
+      ],
+      "possible_delta_with_missing_second": [
+        -0.006529215118469434,
+        0.05921655782839046
+      ],
+      "house_signflip_p": 0.13232421875
+    },
+    "both_returns_valid": {
+      "houses": 15,
+      "seeded_pairs": 1233,
+      "house_macro": [
+        0.7967540635776509,
+        0.7840914726627439
+      ],
+      "observed_delta": 0.012662590914907283,
+      "ci95": [
+        -0.021668226426311988,
+        0.04167143693510309
+      ],
+      "possible_delta_with_missing_second": [
+        0.012662590914907285,
+        0.012662590914907285
+      ],
+      "house_signflip_p": 0.4788818359375
+    },
+    "interrupted_per_arm": [
+      36,
+      29
+    ]
+  }
+}

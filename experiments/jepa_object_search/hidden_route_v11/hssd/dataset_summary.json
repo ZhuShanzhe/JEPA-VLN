@@ -1,0 +1,376 @@
+{
+  "cohort_sha256": "815afc00aa125239ec9f2a717a47d49e2999dd24ed792dcf61db11d8ae8152e4",
+  "same_house_prefix_overlap": 0,
+  "exact_rigid_layout_hash_overlap": 0,
+  "historic_roots": 22,
+  "historical_camera_only_house_count": 168,
+  "groups": {
+    "train": {
+      "counts": {
+        "attempted": 9342,
+        "valid_forks_tested": 3698,
+        "origins": 565,
+        "queries": 945,
+        "multi_instance_house_queries": 732,
+        "any_branch_multiple_eligible_instances": 138,
+        "two_unique_action_prefixes_origins": 3,
+        "two_unique_action_prefixes_queries": 10
+      },
+      "classes": {
+        "television_receiver.n.01": 46,
+        "stool.n.01": 66,
+        "table.n.02": 70,
+        "chair.n.01": 87,
+        "bed.n.01": 103,
+        "toilet.n.02": 59,
+        "cabinet.n.01": 65,
+        "sofa.n.01": 57,
+        "sink.n.01": 7,
+        "mirror.n.01": 66,
+        "potted_plant.n.01": 38,
+        "ceiling_lamp.n.01": 43,
+        "vase.n.01": 17,
+        "basket.n.01": 9,
+        "wall_art.n.01": 36,
+        "floor_lamp.n.01": 18,
+        "refrigerator.n.01": 34,
+        "shelf.n.01": 17,
+        "bathtub.n.01": 50,
+        "bookcase.n.01": 45,
+        "picture_frame.n.01": 9,
+        "plant.n.02": 3
+      },
+      "houses": {
+        "108294783_176710410": {
+          "origins": 24,
+          "queries": 52
+        },
+        "102344022": {
+          "origins": 20,
+          "queries": 26
+        },
+        "103997940_171031257": {
+          "origins": 17,
+          "queries": 28
+        },
+        "104862396_172226349": {
+          "origins": 24,
+          "queries": 33
+        },
+        "108294465_176709960": {
+          "origins": 4,
+          "queries": 10
+        },
+        "103997613_171030702": {
+          "origins": 24,
+          "queries": 45
+        },
+        "108294624_176710203": {
+          "origins": 24,
+          "queries": 29
+        },
+        "104348511_171513654": {
+          "origins": 23,
+          "queries": 36
+        },
+        "107734119_175999932": {
+          "origins": 15,
+          "queries": 30
+        },
+        "102344328": {
+          "origins": 24,
+          "queries": 31
+        },
+        "104862573_172226682": {
+          "origins": 24,
+          "queries": 29
+        },
+        "102816729": {
+          "origins": 24,
+          "queries": 45
+        },
+        "106879023_174887148": {
+          "origins": 2,
+          "queries": 2
+        },
+        "104862669_172226853": {
+          "origins": 24,
+          "queries": 62
+        },
+        "104862621_172226772": {
+          "origins": 24,
+          "queries": 38
+        },
+        "102817200": {
+          "origins": 24,
+          "queries": 38
+        },
+        "104862660_172226844": {
+          "origins": 21,
+          "queries": 40
+        },
+        "105515337_173104347": {
+          "origins": 17,
+          "queries": 30
+        },
+        "106366173_174226431": {
+          "origins": 24,
+          "queries": 35
+        },
+        "102816066": {
+          "origins": 24,
+          "queries": 40
+        },
+        "105515175_173104107": {
+          "origins": 6,
+          "queries": 7
+        },
+        "104348037_171512898": {
+          "origins": 20,
+          "queries": 43
+        },
+        "104348082_171512994": {
+          "origins": 17,
+          "queries": 32
+        },
+        "104862513_172226580": {
+          "origins": 24,
+          "queries": 35
+        },
+        "102344280": {
+          "origins": 24,
+          "queries": 30
+        },
+        "105515490_173104566": {
+          "origins": 19,
+          "queries": 33
+        },
+        "103997970_171031287": {
+          "origins": 24,
+          "queries": 44
+        },
+        "103997478_171030528": {
+          "origins": 24,
+          "queries": 42
+        }
+      },
+      "physical_replay": {
+        "origins": 565,
+        "panoramic_views": 6780,
+        "routes": 1695,
+        "actions": 40680,
+        "future_images": 6780,
+        "evaluated_queries": 945
+      },
+      "positive_count_by_candidate_order": [
+        357,
+        363,
+        356
+      ],
+      "candidate_success_random": 0.3795414462081122,
+      "prefer_net_forward": 0.35978835978835977,
+      "prefer_most_forward_steps": 0.36895943562610223,
+      "unique_initial_observations": 565,
+      "panels_digest": "adaefd8f7d6a2e4b31e95ec9edc34ff3b5ba0263e30cd39a3ee72ef9e8a871a5"
+    },
+    "calibration": {
+      "counts": {
+        "attempted": 1819,
+        "valid_forks_tested": 979,
+        "origins": 127,
+        "queries": 218,
+        "multi_instance_house_queries": 169,
+        "any_branch_multiple_eligible_instances": 28,
+        "two_unique_action_prefixes_origins": 2,
+        "two_unique_action_prefixes_queries": 4
+      },
+      "classes": {
+        "bookcase.n.01": 15,
+        "potted_plant.n.01": 10,
+        "bathtub.n.01": 11,
+        "sofa.n.01": 10,
+        "bed.n.01": 27,
+        "stool.n.01": 11,
+        "cabinet.n.01": 14,
+        "chair.n.01": 17,
+        "wall_art.n.01": 6,
+        "floor_lamp.n.01": 1,
+        "table.n.02": 17,
+        "mirror.n.01": 23,
+        "refrigerator.n.01": 9,
+        "toilet.n.02": 20,
+        "basket.n.01": 6,
+        "television_receiver.n.01": 7,
+        "vase.n.01": 2,
+        "sink.n.01": 2,
+        "ceiling_lamp.n.01": 3,
+        "shelf.n.01": 6,
+        "picture_frame.n.01": 1
+      },
+      "houses": {
+        "106366134_174226362": {
+          "origins": 16,
+          "queries": 19
+        },
+        "103997919_171031233": {
+          "origins": 24,
+          "queries": 34
+        },
+        "102816009": {
+          "origins": 24,
+          "queries": 31
+        },
+        "107734017_175999794": {
+          "origins": 24,
+          "queries": 58
+        },
+        "104348133_171513054": {
+          "origins": 15,
+          "queries": 28
+        },
+        "108294816_176710461": {
+          "origins": 24,
+          "queries": 48
+        }
+      },
+      "physical_replay": {
+        "origins": 127,
+        "panoramic_views": 1524,
+        "routes": 381,
+        "actions": 9144,
+        "future_images": 1524,
+        "evaluated_queries": 218
+      },
+      "positive_count_by_candidate_order": [
+        86,
+        87,
+        68
+      ],
+      "candidate_success_random": 0.3685015290519877,
+      "prefer_net_forward": 0.3669724770642202,
+      "prefer_most_forward_steps": 0.3769113149847094,
+      "unique_initial_observations": 127,
+      "panels_digest": "5f359b52cfb1b204bff66fdc9766c8bb2ce280463742482b964abad8c93ec139"
+    },
+    "test": {
+      "counts": {
+        "attempted": 5814,
+        "valid_forks_tested": 2892,
+        "origins": 275,
+        "queries": 424,
+        "multi_instance_house_queries": 332,
+        "any_branch_multiple_eligible_instances": 53,
+        "two_unique_action_prefixes_origins": 2,
+        "two_unique_action_prefixes_queries": 5
+      },
+      "classes": {
+        "sofa.n.01": 33,
+        "stool.n.01": 30,
+        "wall_art.n.01": 24,
+        "floor_lamp.n.01": 6,
+        "toilet.n.02": 27,
+        "shelf.n.01": 7,
+        "refrigerator.n.01": 13,
+        "chair.n.01": 21,
+        "bathtub.n.01": 16,
+        "mirror.n.01": 36,
+        "cabinet.n.01": 42,
+        "potted_plant.n.01": 18,
+        "bed.n.01": 48,
+        "table.n.02": 25,
+        "television_receiver.n.01": 28,
+        "bookcase.n.01": 21,
+        "ceiling_lamp.n.01": 12,
+        "plant.n.02": 2,
+        "basket.n.01": 5,
+        "picture_frame.n.01": 1,
+        "vase.n.01": 7,
+        "sink.n.01": 2
+      },
+      "houses": {
+        "105515403_173104449": {
+          "origins": 3,
+          "queries": 3
+        },
+        "106366353_174226695": {
+          "origins": 24,
+          "queries": 44
+        },
+        "108736722_177263382": {
+          "origins": 23,
+          "queries": 50
+        },
+        "107734227_176000091": {
+          "origins": 24,
+          "queries": 41
+        },
+        "103997562_171030642": {
+          "origins": 24,
+          "queries": 34
+        },
+        "108736737_177263406": {
+          "origins": 24,
+          "queries": 38
+        },
+        "105515505_173104584": {
+          "origins": 24,
+          "queries": 37
+        },
+        "103997643_171030747": {
+          "origins": 24,
+          "queries": 44
+        },
+        "104348463_171513588": {
+          "origins": 16,
+          "queries": 24
+        },
+        "104862534_172226625": {
+          "origins": 23,
+          "queries": 30
+        },
+        "104348253_171513237": {
+          "origins": 1,
+          "queries": 1
+        },
+        "106366371_174226743": {
+          "origins": 17,
+          "queries": 20
+        },
+        "107734146_175999971": {
+          "origins": 9,
+          "queries": 11
+        },
+        "103997781_171030978": {
+          "origins": 24,
+          "queries": 30
+        },
+        "104348160_171513093": {
+          "origins": 4,
+          "queries": 4
+        },
+        "102815859": {
+          "origins": 11,
+          "queries": 13
+        }
+      },
+      "physical_replay": {
+        "origins": 275,
+        "panoramic_views": 3300,
+        "routes": 825,
+        "actions": 19800,
+        "future_images": 3300,
+        "evaluated_queries": 424
+      },
+      "positive_count_by_candidate_order": [
+        148,
+        170,
+        159
+      ],
+      "candidate_success_random": 0.37500000000000044,
+      "prefer_net_forward": 0.39622641509433965,
+      "prefer_most_forward_steps": 0.3714622641509434,
+      "unique_initial_observations": 275,
+      "panels_digest": "cb63127be8758b51d4143145860dfcc8149f265a54863e75c363dbdae8c9c589"
+    }
+  }
+}

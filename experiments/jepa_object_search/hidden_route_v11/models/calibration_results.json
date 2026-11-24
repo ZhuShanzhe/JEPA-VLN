@@ -1,0 +1,1850 @@
+{
+  "hssd|hssd|all_positive": {
+    "origins": 127,
+    "query_origins": 218,
+    "houses": 6,
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "first_success_house_macro_jepa_direct": [
+      0.4549489980212369,
+      0.46012086825441106
+    ],
+    "first_success_micro_jepa_direct": [
+      0.45871559633027525,
+      0.45718654434250766
+    ],
+    "first_gain_micro_jepa_direct": [
+      0.536697247706422,
+      0.5214067278287462
+    ],
+    "two_probe_success_micro_jepa_direct": [
+      0.7660550458715596,
+      0.7614678899082569
+    ],
+    "house_paired_delta": -0.00517187023317416,
+    "cluster_bootstrap_95": [
+      -0.03721228358251951,
+      0.025501867413632112
+    ],
+    "discordant_choices": 234,
+    "random_uniform_first_success": 0.3685015290519878,
+    "per_house_macro_jepa_direct": {
+      "102816009": [
+        0.44086021505376344,
+        0.43010752688172044
+      ],
+      "103997919_171031233": [
+        0.4215686274509804,
+        0.37254901960784315
+      ],
+      "104348133_171513054": [
+        0.4642857142857143,
+        0.5
+      ],
+      "106366134_174226362": [
+        0.45614035087719296,
+        0.5263157894736842
+      ],
+      "107734017_175999794": [
+        0.4885057471264368,
+        0.4942528735632184
+      ],
+      "108294816_176710461": [
+        0.4583333333333333,
+        0.4375
+      ]
+    }
+  },
+  "hssd|hssd|registered:no_category_in_start_panorama": {
+    "origins": 127,
+    "query_origins": 218,
+    "houses": 6,
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "first_success_house_macro_jepa_direct": [
+      0.4549489980212369,
+      0.46012086825441106
+    ],
+    "first_success_micro_jepa_direct": [
+      0.45871559633027525,
+      0.45718654434250766
+    ],
+    "first_gain_micro_jepa_direct": [
+      0.536697247706422,
+      0.5214067278287462
+    ],
+    "two_probe_success_micro_jepa_direct": [
+      0.7660550458715596,
+      0.7614678899082569
+    ],
+    "house_paired_delta": -0.00517187023317416,
+    "cluster_bootstrap_95": [
+      -0.03721228358251951,
+      0.025501867413632112
+    ],
+    "discordant_choices": 234,
+    "random_uniform_first_success": 0.3685015290519878,
+    "per_house_macro_jepa_direct": {
+      "102816009": [
+        0.44086021505376344,
+        0.43010752688172044
+      ],
+      "103997919_171031233": [
+        0.4215686274509804,
+        0.37254901960784315
+      ],
+      "104348133_171513054": [
+        0.4642857142857143,
+        0.5
+      ],
+      "106366134_174226362": [
+        0.45614035087719296,
+        0.5263157894736842
+      ],
+      "107734017_175999794": [
+        0.4885057471264368,
+        0.4942528735632184
+      ],
+      "108294816_176710461": [
+        0.4583333333333333,
+        0.4375
+      ]
+    }
+  },
+  "hssd|hssd|informative": {
+    "origins": 127,
+    "query_origins": 218,
+    "houses": 6,
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "first_success_house_macro_jepa_direct": [
+      0.4549489980212369,
+      0.46012086825441106
+    ],
+    "first_success_micro_jepa_direct": [
+      0.45871559633027525,
+      0.45718654434250766
+    ],
+    "first_gain_micro_jepa_direct": [
+      0.536697247706422,
+      0.5214067278287462
+    ],
+    "two_probe_success_micro_jepa_direct": [
+      0.7660550458715596,
+      0.7614678899082569
+    ],
+    "house_paired_delta": -0.00517187023317416,
+    "cluster_bootstrap_95": [
+      -0.03721228358251951,
+      0.025501867413632112
+    ],
+    "discordant_choices": 234,
+    "random_uniform_first_success": 0.3685015290519878,
+    "per_house_macro_jepa_direct": {
+      "102816009": [
+        0.44086021505376344,
+        0.43010752688172044
+      ],
+      "103997919_171031233": [
+        0.4215686274509804,
+        0.37254901960784315
+      ],
+      "104348133_171513054": [
+        0.4642857142857143,
+        0.5
+      ],
+      "106366134_174226362": [
+        0.45614035087719296,
+        0.5263157894736842
+      ],
+      "107734017_175999794": [
+        0.4885057471264368,
+        0.4942528735632184
+      ],
+      "108294816_176710461": [
+        0.4583333333333333,
+        0.4375
+      ]
+    }
+  },
+  "hssd|hssd|multiple_profitable_routes": {
+    "origins": 21,
+    "query_origins": 23,
+    "houses": 6,
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "first_success_house_macro_jepa_direct": [
+      0.662962962962963,
+      0.6555555555555556
+    ],
+    "first_success_micro_jepa_direct": [
+      0.6666666666666666,
+      0.6231884057971014
+    ],
+    "first_gain_micro_jepa_direct": [
+      0.927536231884058,
+      0.855072463768116
+    ],
+    "two_probe_success_micro_jepa_direct": [
+      1.0,
+      1.0
+    ],
+    "house_paired_delta": 0.0074074074074074,
+    "cluster_bootstrap_95": [
+      -0.13888888888888892,
+      0.11481481481481481
+    ],
+    "discordant_choices": 26,
+    "random_uniform_first_success": 0.6666666666666664,
+    "per_house_macro_jepa_direct": {
+      "102816009": [
+        1.0,
+        0.8333333333333334
+      ],
+      "103997919_171031233": [
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "104348133_171513054": [
+        0.5,
+        0.5
+      ],
+      "106366134_174226362": [
+        0.6666666666666666,
+        1.0
+      ],
+      "107734017_175999794": [
+        0.7777777777777778,
+        0.6666666666666666
+      ],
+      "108294816_176710461": [
+        0.7,
+        0.6
+      ]
+    }
+  },
+  "hssd|combined|all_positive": {
+    "origins": 127,
+    "query_origins": 218,
+    "houses": 6,
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "first_success_house_macro_jepa_direct": [
+      0.4644416771515767,
+      0.45511479803495014
+    ],
+    "first_success_micro_jepa_direct": [
+      0.4617737003058104,
+      0.45718654434250766
+    ],
+    "first_gain_micro_jepa_direct": [
+      0.5275229357798165,
+      0.5061162079510704
+    ],
+    "two_probe_success_micro_jepa_direct": [
+      0.808868501529052,
+      0.7935779816513762
+    ],
+    "house_paired_delta": 0.009326879116626599,
+    "cluster_bootstrap_95": [
+      -0.015543881396075246,
+      0.03837519434915237
+    ],
+    "discordant_choices": 212,
+    "random_uniform_first_success": 0.3685015290519878,
+    "per_house_macro_jepa_direct": {
+      "102816009": [
+        0.41935483870967744,
+        0.3763440860215054
+      ],
+      "103997919_171031233": [
+        0.37254901960784315,
+        0.38235294117647056
+      ],
+      "104348133_171513054": [
+        0.5238095238095238,
+        0.4523809523809524
+      ],
+      "106366134_174226362": [
+        0.5087719298245614,
+        0.5263157894736842
+      ],
+      "107734017_175999794": [
+        0.4482758620689655,
+        0.46551724137931033
+      ],
+      "108294816_176710461": [
+        0.5138888888888888,
+        0.5277777777777778
+      ]
+    }
+  },
+  "hssd|combined|registered:no_category_in_start_panorama": {
+    "origins": 127,
+    "query_origins": 218,
+    "houses": 6,
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "first_success_house_macro_jepa_direct": [
+      0.4644416771515767,
+      0.45511479803495014
+    ],
+    "first_success_micro_jepa_direct": [
+      0.4617737003058104,
+      0.45718654434250766
+    ],
+    "first_gain_micro_jepa_direct": [
+      0.5275229357798165,
+      0.5061162079510704
+    ],
+    "two_probe_success_micro_jepa_direct": [
+      0.808868501529052,
+      0.7935779816513762
+    ],
+    "house_paired_delta": 0.009326879116626599,
+    "cluster_bootstrap_95": [
+      -0.015543881396075246,
+      0.03837519434915237
+    ],
+    "discordant_choices": 212,
+    "random_uniform_first_success": 0.3685015290519878,
+    "per_house_macro_jepa_direct": {
+      "102816009": [
+        0.41935483870967744,
+        0.3763440860215054
+      ],
+      "103997919_171031233": [
+        0.37254901960784315,
+        0.38235294117647056
+      ],
+      "104348133_171513054": [
+        0.5238095238095238,
+        0.4523809523809524
+      ],
+      "106366134_174226362": [
+        0.5087719298245614,
+        0.5263157894736842
+      ],
+      "107734017_175999794": [
+        0.4482758620689655,
+        0.46551724137931033
+      ],
+      "108294816_176710461": [
+        0.5138888888888888,
+        0.5277777777777778
+      ]
+    }
+  },
+  "hssd|combined|informative": {
+    "origins": 127,
+    "query_origins": 218,
+    "houses": 6,
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "first_success_house_macro_jepa_direct": [
+      0.4644416771515767,
+      0.45511479803495014
+    ],
+    "first_success_micro_jepa_direct": [
+      0.4617737003058104,
+      0.45718654434250766
+    ],
+    "first_gain_micro_jepa_direct": [
+      0.5275229357798165,
+      0.5061162079510704
+    ],
+    "two_probe_success_micro_jepa_direct": [
+      0.808868501529052,
+      0.7935779816513762
+    ],
+    "house_paired_delta": 0.009326879116626599,
+    "cluster_bootstrap_95": [
+      -0.015543881396075246,
+      0.03837519434915237
+    ],
+    "discordant_choices": 212,
+    "random_uniform_first_success": 0.3685015290519878,
+    "per_house_macro_jepa_direct": {
+      "102816009": [
+        0.41935483870967744,
+        0.3763440860215054
+      ],
+      "103997919_171031233": [
+        0.37254901960784315,
+        0.38235294117647056
+      ],
+      "104348133_171513054": [
+        0.5238095238095238,
+        0.4523809523809524
+      ],
+      "106366134_174226362": [
+        0.5087719298245614,
+        0.5263157894736842
+      ],
+      "107734017_175999794": [
+        0.4482758620689655,
+        0.46551724137931033
+      ],
+      "108294816_176710461": [
+        0.5138888888888888,
+        0.5277777777777778
+      ]
+    }
+  },
+  "hssd|combined|multiple_profitable_routes": {
+    "origins": 21,
+    "query_origins": 23,
+    "houses": 6,
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "first_success_house_macro_jepa_direct": [
+      0.726851851851852,
+      0.6249999999999999
+    ],
+    "first_success_micro_jepa_direct": [
+      0.6956521739130435,
+      0.6086956521739131
+    ],
+    "first_gain_micro_jepa_direct": [
+      0.8840579710144928,
+      0.782608695652174
+    ],
+    "two_probe_success_micro_jepa_direct": [
+      1.0,
+      1.0
+    ],
+    "house_paired_delta": 0.10185185185185187,
+    "cluster_bootstrap_95": [
+      0.018518518518518528,
+      0.212962962962963
+    ],
+    "discordant_choices": 22,
+    "random_uniform_first_success": 0.6666666666666664,
+    "per_house_macro_jepa_direct": {
+      "102816009": [
+        0.8333333333333334,
+        0.6666666666666666
+      ],
+      "103997919_171031233": [
+        0.5,
+        0.5
+      ],
+      "104348133_171513054": [
+        0.5833333333333334,
+        0.25
+      ],
+      "106366134_174226362": [
+        1.0,
+        1.0
+      ],
+      "107734017_175999794": [
+        0.7777777777777778,
+        0.6666666666666666
+      ],
+      "108294816_176710461": [
+        0.6666666666666666,
+        0.6666666666666666
+      ]
+    }
+  },
+  "blender|hssd|all_positive": {
+    "origins": 144,
+    "query_origins": 264,
+    "houses": 2,
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "first_success_house_macro_jepa_direct": [
+      0.43813131313131315,
+      0.4255050505050505
+    ],
+    "first_success_micro_jepa_direct": [
+      0.43813131313131315,
+      0.4255050505050505
+    ],
+    "first_gain_micro_jepa_direct": [
+      0.43813131313131315,
+      0.4255050505050505
+    ],
+    "two_probe_success_micro_jepa_direct": [
+      0.7575757575757576,
+      0.7537878787878788
+    ],
+    "house_paired_delta": 0.012626262626262624,
+    "cluster_bootstrap_95": [
+      0.007575757575757569,
+      0.01767676767676768
+    ],
+    "discordant_choices": 366,
+    "random_uniform_first_success": 0.42424242424242425,
+    "per_house_macro_jepa_direct": {
+      "tri11_09": [
+        0.4318181818181818,
+        0.42424242424242425
+      ],
+      "tri11_10": [
+        0.4444444444444444,
+        0.42676767676767674
+      ]
+    }
+  },
+  "blender|hssd|registered:no_cue": {
+    "origins": 12,
+    "query_origins": 24,
+    "houses": 2,
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "first_success_house_macro_jepa_direct": [
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "first_success_micro_jepa_direct": [
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "first_gain_micro_jepa_direct": [
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "two_probe_success_micro_jepa_direct": [
+      0.6666666666666666,
+      0.6666666666666666
+    ],
+    "house_paired_delta": 0.0,
+    "cluster_bootstrap_95": [
+      0.0,
+      0.0
+    ],
+    "discordant_choices": 42,
+    "random_uniform_first_success": 0.3333333333333333,
+    "per_house_macro_jepa_direct": {
+      "tri11_09": [
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "tri11_10": [
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    }
+  },
+  "blender|hssd|informative": {
+    "origins": 144,
+    "query_origins": 264,
+    "houses": 2,
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "first_success_house_macro_jepa_direct": [
+      0.43813131313131315,
+      0.4255050505050505
+    ],
+    "first_success_micro_jepa_direct": [
+      0.43813131313131315,
+      0.4255050505050505
+    ],
+    "first_gain_micro_jepa_direct": [
+      0.43813131313131315,
+      0.4255050505050505
+    ],
+    "two_probe_success_micro_jepa_direct": [
+      0.7575757575757576,
+      0.7537878787878788
+    ],
+    "house_paired_delta": 0.012626262626262624,
+    "cluster_bootstrap_95": [
+      0.007575757575757569,
+      0.01767676767676768
+    ],
+    "discordant_choices": 366,
+    "random_uniform_first_success": 0.42424242424242425,
+    "per_house_macro_jepa_direct": {
+      "tri11_09": [
+        0.4318181818181818,
+        0.42424242424242425
+      ],
+      "tri11_10": [
+        0.4444444444444444,
+        0.42676767676767674
+      ]
+    }
+  },
+  "blender|combined|all_positive": {
+    "origins": 144,
+    "query_origins": 264,
+    "houses": 2,
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "first_success_house_macro_jepa_direct": [
+      0.4482323232323232,
+      0.46464646464646464
+    ],
+    "first_success_micro_jepa_direct": [
+      0.44823232323232326,
+      0.46464646464646464
+    ],
+    "first_gain_micro_jepa_direct": [
+      0.44823232323232326,
+      0.46464646464646464
+    ],
+    "two_probe_success_micro_jepa_direct": [
+      0.803030303030303,
+      0.821969696969697
+    ],
+    "house_paired_delta": -0.01641414141414141,
+    "cluster_bootstrap_95": [
+      -0.02020202020202022,
+      -0.012626262626262597
+    ],
+    "discordant_choices": 282,
+    "random_uniform_first_success": 0.42424242424242425,
+    "per_house_macro_jepa_direct": {
+      "tri11_09": [
+        0.44696969696969696,
+        0.4671717171717172
+      ],
+      "tri11_10": [
+        0.4494949494949495,
+        0.4621212121212121
+      ]
+    }
+  },
+  "blender|combined|registered:no_cue": {
+    "origins": 12,
+    "query_origins": 24,
+    "houses": 2,
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "first_success_house_macro_jepa_direct": [
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "first_success_micro_jepa_direct": [
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "first_gain_micro_jepa_direct": [
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "two_probe_success_micro_jepa_direct": [
+      0.6666666666666666,
+      0.6666666666666666
+    ],
+    "house_paired_delta": 0.0,
+    "cluster_bootstrap_95": [
+      0.0,
+      0.0
+    ],
+    "discordant_choices": 30,
+    "random_uniform_first_success": 0.3333333333333333,
+    "per_house_macro_jepa_direct": {
+      "tri11_09": [
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "tri11_10": [
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    }
+  },
+  "blender|combined|informative": {
+    "origins": 144,
+    "query_origins": 264,
+    "houses": 2,
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "first_success_house_macro_jepa_direct": [
+      0.4482323232323232,
+      0.46464646464646464
+    ],
+    "first_success_micro_jepa_direct": [
+      0.44823232323232326,
+      0.46464646464646464
+    ],
+    "first_gain_micro_jepa_direct": [
+      0.44823232323232326,
+      0.46464646464646464
+    ],
+    "two_probe_success_micro_jepa_direct": [
+      0.803030303030303,
+      0.821969696969697
+    ],
+    "house_paired_delta": -0.01641414141414141,
+    "cluster_bootstrap_95": [
+      -0.02020202020202022,
+      -0.012626262626262597
+    ],
+    "discordant_choices": 282,
+    "random_uniform_first_success": 0.42424242424242425,
+    "per_house_macro_jepa_direct": {
+      "tri11_09": [
+        0.44696969696969696,
+        0.4671717171717172
+      ],
+      "tri11_10": [
+        0.4494949494949495,
+        0.4621212121212121
+      ]
+    }
+  },
+  "blender|hssd|absent_or_zero_opportunity": {
+    "origins": 24,
+    "query_origins": 24,
+    "houses": 2,
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "first_success_house_macro_jepa_direct": [
+      0.0,
+      0.0
+    ],
+    "first_success_micro_jepa_direct": [
+      0.0,
+      0.0
+    ],
+    "first_gain_micro_jepa_direct": [
+      0.0,
+      0.0
+    ],
+    "two_probe_success_micro_jepa_direct": [
+      0.0,
+      0.0
+    ],
+    "house_paired_delta": 0.0,
+    "cluster_bootstrap_95": [
+      0.0,
+      0.0
+    ],
+    "discordant_choices": 30,
+    "random_uniform_first_success": 0.0,
+    "per_house_macro_jepa_direct": {
+      "tri11_09": [
+        0.0,
+        0.0
+      ],
+      "tri11_10": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "blender|hssd|registered:absent_cup": {
+    "origins": 12,
+    "query_origins": 24,
+    "houses": 2,
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "first_success_house_macro_jepa_direct": [
+      0.20833333333333331,
+      0.1527777777777778
+    ],
+    "first_success_micro_jepa_direct": [
+      0.20833333333333334,
+      0.1527777777777778
+    ],
+    "first_gain_micro_jepa_direct": [
+      0.20833333333333334,
+      0.1527777777777778
+    ],
+    "two_probe_success_micro_jepa_direct": [
+      0.3333333333333333,
+      0.3194444444444444
+    ],
+    "house_paired_delta": 0.05555555555555555,
+    "cluster_bootstrap_95": [
+      0.02777777777777779,
+      0.08333333333333331
+    ],
+    "discordant_choices": 30,
+    "random_uniform_first_success": 0.16666666666666666,
+    "per_house_macro_jepa_direct": {
+      "tri11_09": [
+        0.19444444444444445,
+        0.16666666666666666
+      ],
+      "tri11_10": [
+        0.2222222222222222,
+        0.1388888888888889
+      ]
+    }
+  },
+  "blender|combined|absent_or_zero_opportunity": {
+    "origins": 24,
+    "query_origins": 24,
+    "houses": 2,
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "first_success_house_macro_jepa_direct": [
+      0.0,
+      0.0
+    ],
+    "first_success_micro_jepa_direct": [
+      0.0,
+      0.0
+    ],
+    "first_gain_micro_jepa_direct": [
+      0.0,
+      0.0
+    ],
+    "two_probe_success_micro_jepa_direct": [
+      0.0,
+      0.0
+    ],
+    "house_paired_delta": 0.0,
+    "cluster_bootstrap_95": [
+      0.0,
+      0.0
+    ],
+    "discordant_choices": 24,
+    "random_uniform_first_success": 0.0,
+    "per_house_macro_jepa_direct": {
+      "tri11_09": [
+        0.0,
+        0.0
+      ],
+      "tri11_10": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "blender|combined|registered:absent_cup": {
+    "origins": 12,
+    "query_origins": 24,
+    "houses": 2,
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "first_success_house_macro_jepa_direct": [
+      0.20833333333333331,
+      0.2777777777777778
+    ],
+    "first_success_micro_jepa_direct": [
+      0.20833333333333334,
+      0.2777777777777778
+    ],
+    "first_gain_micro_jepa_direct": [
+      0.20833333333333334,
+      0.2777777777777778
+    ],
+    "two_probe_success_micro_jepa_direct": [
+      0.3888888888888889,
+      0.4027777777777778
+    ],
+    "house_paired_delta": -0.06944444444444446,
+    "cluster_bootstrap_95": [
+      -0.11111111111111113,
+      -0.02777777777777779
+    ],
+    "discordant_choices": 24,
+    "random_uniform_first_success": 0.16666666666666666,
+    "per_house_macro_jepa_direct": {
+      "tri11_09": [
+        0.19444444444444445,
+        0.3055555555555556
+      ],
+      "tri11_10": [
+        0.2222222222222222,
+        0.25
+      ]
+    }
+  },
+  "blender|hssd|registered:absent_sofa": {
+    "origins": 12,
+    "query_origins": 24,
+    "houses": 2,
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "first_success_house_macro_jepa_direct": [
+      0.19444444444444442,
+      0.1527777777777778
+    ],
+    "first_success_micro_jepa_direct": [
+      0.19444444444444445,
+      0.1527777777777778
+    ],
+    "first_gain_micro_jepa_direct": [
+      0.19444444444444445,
+      0.1527777777777778
+    ],
+    "two_probe_success_micro_jepa_direct": [
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "house_paired_delta": 0.04166666666666666,
+    "cluster_bootstrap_95": [
+      0.027777777777777762,
+      0.05555555555555555
+    ],
+    "discordant_choices": 30,
+    "random_uniform_first_success": 0.16666666666666666,
+    "per_house_macro_jepa_direct": {
+      "tri11_09": [
+        0.2222222222222222,
+        0.16666666666666666
+      ],
+      "tri11_10": [
+        0.16666666666666666,
+        0.1388888888888889
+      ]
+    }
+  },
+  "blender|combined|registered:absent_sofa": {
+    "origins": 12,
+    "query_origins": 24,
+    "houses": 2,
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "first_success_house_macro_jepa_direct": [
+      0.2222222222222222,
+      0.25
+    ],
+    "first_success_micro_jepa_direct": [
+      0.2222222222222222,
+      0.25
+    ],
+    "first_gain_micro_jepa_direct": [
+      0.2222222222222222,
+      0.25
+    ],
+    "two_probe_success_micro_jepa_direct": [
+      0.3888888888888889,
+      0.4166666666666667
+    ],
+    "house_paired_delta": -0.02777777777777779,
+    "cluster_bootstrap_95": [
+      -0.02777777777777779,
+      -0.02777777777777779
+    ],
+    "discordant_choices": 24,
+    "random_uniform_first_success": 0.16666666666666666,
+    "per_house_macro_jepa_direct": {
+      "tri11_09": [
+        0.2222222222222222,
+        0.25
+      ],
+      "tri11_10": [
+        0.2222222222222222,
+        0.25
+      ]
+    }
+  },
+  "blender|hssd|registered:swapped": {
+    "origins": 12,
+    "query_origins": 24,
+    "houses": 2,
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "first_success_house_macro_jepa_direct": [
+      0.3611111111111111,
+      0.3472222222222222
+    ],
+    "first_success_micro_jepa_direct": [
+      0.3611111111111111,
+      0.3472222222222222
+    ],
+    "first_gain_micro_jepa_direct": [
+      0.3611111111111111,
+      0.3472222222222222
+    ],
+    "two_probe_success_micro_jepa_direct": [
+      0.6666666666666666,
+      0.6527777777777778
+    ],
+    "house_paired_delta": 0.013888888888888895,
+    "cluster_bootstrap_95": [
+      0.0,
+      0.02777777777777779
+    ],
+    "discordant_choices": 30,
+    "random_uniform_first_success": 0.3333333333333333,
+    "per_house_macro_jepa_direct": {
+      "tri11_09": [
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "tri11_10": [
+        0.3888888888888889,
+        0.3611111111111111
+      ]
+    }
+  },
+  "blender|combined|registered:swapped": {
+    "origins": 12,
+    "query_origins": 24,
+    "houses": 2,
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "first_success_house_macro_jepa_direct": [
+      0.4305555555555556,
+      0.4027777777777778
+    ],
+    "first_success_micro_jepa_direct": [
+      0.4305555555555556,
+      0.4027777777777778
+    ],
+    "first_gain_micro_jepa_direct": [
+      0.4305555555555556,
+      0.4027777777777778
+    ],
+    "two_probe_success_micro_jepa_direct": [
+      0.7777777777777778,
+      0.8194444444444444
+    ],
+    "house_paired_delta": 0.027777777777777762,
+    "cluster_bootstrap_95": [
+      0.027777777777777735,
+      0.02777777777777779
+    ],
+    "discordant_choices": 24,
+    "random_uniform_first_success": 0.3333333333333333,
+    "per_house_macro_jepa_direct": {
+      "tri11_09": [
+        0.4166666666666667,
+        0.3888888888888889
+      ],
+      "tri11_10": [
+        0.4444444444444444,
+        0.4166666666666667
+      ]
+    }
+  },
+  "blender|hssd|registered:rare_multi_cup": {
+    "origins": 12,
+    "query_origins": 24,
+    "houses": 2,
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "first_success_house_macro_jepa_direct": [
+      0.4722222222222222,
+      0.5
+    ],
+    "first_success_micro_jepa_direct": [
+      0.4722222222222222,
+      0.5
+    ],
+    "first_gain_micro_jepa_direct": [
+      0.4722222222222222,
+      0.5
+    ],
+    "two_probe_success_micro_jepa_direct": [
+      0.8333333333333334,
+      0.8194444444444444
+    ],
+    "house_paired_delta": -0.02777777777777779,
+    "cluster_bootstrap_95": [
+      -0.02777777777777779,
+      -0.02777777777777779
+    ],
+    "discordant_choices": 30,
+    "random_uniform_first_success": 0.5,
+    "per_house_macro_jepa_direct": {
+      "tri11_09": [
+        0.4722222222222222,
+        0.5
+      ],
+      "tri11_10": [
+        0.4722222222222222,
+        0.5
+      ]
+    }
+  },
+  "blender|hssd|multiple_profitable_routes": {
+    "origins": 72,
+    "query_origins": 72,
+    "houses": 2,
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "first_success_house_macro_jepa_direct": [
+      0.6342592592592593,
+      0.6712962962962963
+    ],
+    "first_success_micro_jepa_direct": [
+      0.6342592592592593,
+      0.6712962962962963
+    ],
+    "first_gain_micro_jepa_direct": [
+      0.6342592592592593,
+      0.6712962962962963
+    ],
+    "two_probe_success_micro_jepa_direct": [
+      1.0,
+      1.0
+    ],
+    "house_paired_delta": -0.037037037037037035,
+    "cluster_bootstrap_95": [
+      -0.04629629629629628,
+      -0.02777777777777779
+    ],
+    "discordant_choices": 102,
+    "random_uniform_first_success": 0.6666666666666666,
+    "per_house_macro_jepa_direct": {
+      "tri11_09": [
+        0.6388888888888888,
+        0.6666666666666666
+      ],
+      "tri11_10": [
+        0.6296296296296297,
+        0.6759259259259259
+      ]
+    }
+  },
+  "blender|combined|registered:rare_multi_cup": {
+    "origins": 12,
+    "query_origins": 24,
+    "houses": 2,
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "first_success_house_macro_jepa_direct": [
+      0.4861111111111111,
+      0.4027777777777778
+    ],
+    "first_success_micro_jepa_direct": [
+      0.4861111111111111,
+      0.4027777777777778
+    ],
+    "first_gain_micro_jepa_direct": [
+      0.4861111111111111,
+      0.4027777777777778
+    ],
+    "two_probe_success_micro_jepa_direct": [
+      0.8888888888888888,
+      0.9027777777777778
+    ],
+    "house_paired_delta": 0.08333333333333331,
+    "cluster_bootstrap_95": [
+      0.08333333333333331,
+      0.08333333333333331
+    ],
+    "discordant_choices": 24,
+    "random_uniform_first_success": 0.5,
+    "per_house_macro_jepa_direct": {
+      "tri11_09": [
+        0.4722222222222222,
+        0.3888888888888889
+      ],
+      "tri11_10": [
+        0.5,
+        0.4166666666666667
+      ]
+    }
+  },
+  "blender|combined|multiple_profitable_routes": {
+    "origins": 72,
+    "query_origins": 72,
+    "houses": 2,
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "first_success_house_macro_jepa_direct": [
+      0.6018518518518519,
+      0.5787037037037037
+    ],
+    "first_success_micro_jepa_direct": [
+      0.6018518518518519,
+      0.5787037037037037
+    ],
+    "first_gain_micro_jepa_direct": [
+      0.6018518518518519,
+      0.5787037037037037
+    ],
+    "two_probe_success_micro_jepa_direct": [
+      1.0,
+      1.0
+    ],
+    "house_paired_delta": 0.02314814814814814,
+    "cluster_bootstrap_95": [
+      0.00925925925925919,
+      0.03703703703703709
+    ],
+    "discordant_choices": 78,
+    "random_uniform_first_success": 0.6666666666666666,
+    "per_house_macro_jepa_direct": {
+      "tri11_09": [
+        0.6111111111111112,
+        0.5740740740740741
+      ],
+      "tri11_10": [
+        0.5925925925925926,
+        0.5833333333333334
+      ]
+    }
+  },
+  "blender|hssd|registered:no_cue_multi_cup": {
+    "origins": 12,
+    "query_origins": 24,
+    "houses": 2,
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "first_success_house_macro_jepa_direct": [
+      0.5,
+      0.5
+    ],
+    "first_success_micro_jepa_direct": [
+      0.5,
+      0.5
+    ],
+    "first_gain_micro_jepa_direct": [
+      0.5,
+      0.5
+    ],
+    "two_probe_success_micro_jepa_direct": [
+      0.8333333333333334,
+      0.8333333333333334
+    ],
+    "house_paired_delta": 0.0,
+    "cluster_bootstrap_95": [
+      0.0,
+      0.0
+    ],
+    "discordant_choices": 42,
+    "random_uniform_first_success": 0.5,
+    "per_house_macro_jepa_direct": {
+      "tri11_09": [
+        0.5,
+        0.5
+      ],
+      "tri11_10": [
+        0.5,
+        0.5
+      ]
+    }
+  },
+  "blender|combined|registered:no_cue_multi_cup": {
+    "origins": 12,
+    "query_origins": 24,
+    "houses": 2,
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "first_success_house_macro_jepa_direct": [
+      0.5,
+      0.5
+    ],
+    "first_success_micro_jepa_direct": [
+      0.5,
+      0.5
+    ],
+    "first_gain_micro_jepa_direct": [
+      0.5,
+      0.5
+    ],
+    "two_probe_success_micro_jepa_direct": [
+      0.8333333333333334,
+      0.8333333333333334
+    ],
+    "house_paired_delta": 0.0,
+    "cluster_bootstrap_95": [
+      0.0,
+      0.0
+    ],
+    "discordant_choices": 30,
+    "random_uniform_first_success": 0.5,
+    "per_house_macro_jepa_direct": {
+      "tri11_09": [
+        0.5,
+        0.5
+      ],
+      "tri11_10": [
+        0.5,
+        0.5
+      ]
+    }
+  },
+  "blender|hssd|registered:usual_multi_sofa": {
+    "origins": 12,
+    "query_origins": 24,
+    "houses": 2,
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "first_success_house_macro_jepa_direct": [
+      0.5277777777777778,
+      0.5
+    ],
+    "first_success_micro_jepa_direct": [
+      0.5277777777777778,
+      0.5
+    ],
+    "first_gain_micro_jepa_direct": [
+      0.5277777777777778,
+      0.5
+    ],
+    "two_probe_success_micro_jepa_direct": [
+      0.8333333333333334,
+      0.8333333333333334
+    ],
+    "house_paired_delta": 0.02777777777777779,
+    "cluster_bootstrap_95": [
+      0.02777777777777779,
+      0.02777777777777779
+    ],
+    "discordant_choices": 30,
+    "random_uniform_first_success": 0.5,
+    "per_house_macro_jepa_direct": {
+      "tri11_09": [
+        0.5277777777777778,
+        0.5
+      ],
+      "tri11_10": [
+        0.5277777777777778,
+        0.5
+      ]
+    }
+  },
+  "blender|combined|registered:usual_multi_sofa": {
+    "origins": 12,
+    "query_origins": 24,
+    "houses": 2,
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "first_success_house_macro_jepa_direct": [
+      0.5138888888888888,
+      0.5972222222222223
+    ],
+    "first_success_micro_jepa_direct": [
+      0.5138888888888888,
+      0.5972222222222222
+    ],
+    "first_gain_micro_jepa_direct": [
+      0.5138888888888888,
+      0.5972222222222222
+    ],
+    "two_probe_success_micro_jepa_direct": [
+      0.8888888888888888,
+      0.9166666666666666
+    ],
+    "house_paired_delta": -0.08333333333333337,
+    "cluster_bootstrap_95": [
+      -0.08333333333333337,
+      -0.08333333333333337
+    ],
+    "discordant_choices": 24,
+    "random_uniform_first_success": 0.5,
+    "per_house_macro_jepa_direct": {
+      "tri11_09": [
+        0.5277777777777778,
+        0.6111111111111112
+      ],
+      "tri11_10": [
+        0.5,
+        0.5833333333333334
+      ]
+    }
+  },
+  "blender|hssd|registered:no_cue_multi_sofa": {
+    "origins": 12,
+    "query_origins": 24,
+    "houses": 2,
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "first_success_house_macro_jepa_direct": [
+      0.5,
+      0.5
+    ],
+    "first_success_micro_jepa_direct": [
+      0.5,
+      0.5
+    ],
+    "first_gain_micro_jepa_direct": [
+      0.5,
+      0.5
+    ],
+    "two_probe_success_micro_jepa_direct": [
+      0.8333333333333334,
+      0.8333333333333334
+    ],
+    "house_paired_delta": 0.0,
+    "cluster_bootstrap_95": [
+      0.0,
+      0.0
+    ],
+    "discordant_choices": 42,
+    "random_uniform_first_success": 0.5,
+    "per_house_macro_jepa_direct": {
+      "tri11_09": [
+        0.5,
+        0.5
+      ],
+      "tri11_10": [
+        0.5,
+        0.5
+      ]
+    }
+  },
+  "blender|combined|registered:no_cue_multi_sofa": {
+    "origins": 12,
+    "query_origins": 24,
+    "houses": 2,
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "first_success_house_macro_jepa_direct": [
+      0.5,
+      0.5
+    ],
+    "first_success_micro_jepa_direct": [
+      0.5,
+      0.5
+    ],
+    "first_gain_micro_jepa_direct": [
+      0.5,
+      0.5
+    ],
+    "two_probe_success_micro_jepa_direct": [
+      0.8333333333333334,
+      0.8333333333333334
+    ],
+    "house_paired_delta": 0.0,
+    "cluster_bootstrap_95": [
+      0.0,
+      0.0
+    ],
+    "discordant_choices": 30,
+    "random_uniform_first_success": 0.5,
+    "per_house_macro_jepa_direct": {
+      "tri11_09": [
+        0.5,
+        0.5
+      ],
+      "tri11_10": [
+        0.5,
+        0.5
+      ]
+    }
+  },
+  "blender|hssd|registered:usual": {
+    "origins": 12,
+    "query_origins": 24,
+    "houses": 2,
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "first_success_house_macro_jepa_direct": [
+      0.4027777777777778,
+      0.3055555555555556
+    ],
+    "first_success_micro_jepa_direct": [
+      0.4027777777777778,
+      0.3055555555555556
+    ],
+    "first_gain_micro_jepa_direct": [
+      0.4027777777777778,
+      0.3055555555555556
+    ],
+    "two_probe_success_micro_jepa_direct": [
+      0.6666666666666666,
+      0.6527777777777778
+    ],
+    "house_paired_delta": 0.09722222222222224,
+    "cluster_bootstrap_95": [
+      0.08333333333333337,
+      0.1111111111111111
+    ],
+    "discordant_choices": 30,
+    "random_uniform_first_success": 0.3333333333333333,
+    "per_house_macro_jepa_direct": {
+      "tri11_09": [
+        0.4166666666666667,
+        0.3333333333333333
+      ],
+      "tri11_10": [
+        0.3888888888888889,
+        0.2777777777777778
+      ]
+    }
+  },
+  "blender|combined|registered:usual": {
+    "origins": 12,
+    "query_origins": 24,
+    "houses": 2,
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "first_success_house_macro_jepa_direct": [
+      0.4305555555555556,
+      0.5277777777777778
+    ],
+    "first_success_micro_jepa_direct": [
+      0.4305555555555556,
+      0.5277777777777778
+    ],
+    "first_gain_micro_jepa_direct": [
+      0.4305555555555556,
+      0.5277777777777778
+    ],
+    "two_probe_success_micro_jepa_direct": [
+      0.7777777777777778,
+      0.8194444444444444
+    ],
+    "house_paired_delta": -0.09722222222222224,
+    "cluster_bootstrap_95": [
+      -0.1388888888888889,
+      -0.05555555555555558
+    ],
+    "discordant_choices": 24,
+    "random_uniform_first_success": 0.3333333333333333,
+    "per_house_macro_jepa_direct": {
+      "tri11_09": [
+        0.4166666666666667,
+        0.5555555555555556
+      ],
+      "tri11_10": [
+        0.4444444444444444,
+        0.5
+      ]
+    }
+  },
+  "blender|hssd|registered:usual_multi_cup": {
+    "origins": 12,
+    "query_origins": 24,
+    "houses": 2,
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "first_success_house_macro_jepa_direct": [
+      0.5138888888888888,
+      0.45833333333333337
+    ],
+    "first_success_micro_jepa_direct": [
+      0.5138888888888888,
+      0.4583333333333333
+    ],
+    "first_gain_micro_jepa_direct": [
+      0.5138888888888888,
+      0.4583333333333333
+    ],
+    "two_probe_success_micro_jepa_direct": [
+      0.8333333333333334,
+      0.8194444444444444
+    ],
+    "house_paired_delta": 0.05555555555555555,
+    "cluster_bootstrap_95": [
+      0.055555555555555525,
+      0.05555555555555558
+    ],
+    "discordant_choices": 30,
+    "random_uniform_first_success": 0.5,
+    "per_house_macro_jepa_direct": {
+      "tri11_09": [
+        0.5555555555555556,
+        0.5
+      ],
+      "tri11_10": [
+        0.4722222222222222,
+        0.4166666666666667
+      ]
+    }
+  },
+  "blender|combined|registered:usual_multi_cup": {
+    "origins": 12,
+    "query_origins": 24,
+    "houses": 2,
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "first_success_house_macro_jepa_direct": [
+      0.4861111111111111,
+      0.5277777777777778
+    ],
+    "first_success_micro_jepa_direct": [
+      0.4861111111111111,
+      0.5277777777777778
+    ],
+    "first_gain_micro_jepa_direct": [
+      0.4861111111111111,
+      0.5277777777777778
+    ],
+    "two_probe_success_micro_jepa_direct": [
+      0.8888888888888888,
+      0.9027777777777778
+    ],
+    "house_paired_delta": -0.041666666666666685,
+    "cluster_bootstrap_95": [
+      -0.08333333333333337,
+      0.0
+    ],
+    "discordant_choices": 24,
+    "random_uniform_first_success": 0.5,
+    "per_house_macro_jepa_direct": {
+      "tri11_09": [
+        0.4722222222222222,
+        0.5555555555555556
+      ],
+      "tri11_10": [
+        0.5,
+        0.5
+      ]
+    }
+  },
+  "blender|hssd|registered:rare_distractor": {
+    "origins": 12,
+    "query_origins": 24,
+    "houses": 2,
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "first_success_house_macro_jepa_direct": [
+      0.3194444444444444,
+      0.38888888888888884
+    ],
+    "first_success_micro_jepa_direct": [
+      0.3194444444444444,
+      0.3888888888888889
+    ],
+    "first_gain_micro_jepa_direct": [
+      0.3194444444444444,
+      0.3888888888888889
+    ],
+    "two_probe_success_micro_jepa_direct": [
+      0.6666666666666666,
+      0.6944444444444444
+    ],
+    "house_paired_delta": -0.06944444444444442,
+    "cluster_bootstrap_95": [
+      -0.08333333333333331,
+      -0.055555555555555525
+    ],
+    "discordant_choices": 30,
+    "random_uniform_first_success": 0.3333333333333333,
+    "per_house_macro_jepa_direct": {
+      "tri11_09": [
+        0.25,
+        0.3333333333333333
+      ],
+      "tri11_10": [
+        0.3888888888888889,
+        0.4444444444444444
+      ]
+    }
+  },
+  "blender|combined|registered:rare_distractor": {
+    "origins": 12,
+    "query_origins": 24,
+    "houses": 2,
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "first_success_house_macro_jepa_direct": [
+      0.3055555555555556,
+      0.3194444444444444
+    ],
+    "first_success_micro_jepa_direct": [
+      0.3055555555555556,
+      0.3194444444444444
+    ],
+    "first_gain_micro_jepa_direct": [
+      0.3055555555555556,
+      0.3194444444444444
+    ],
+    "two_probe_success_micro_jepa_direct": [
+      0.6111111111111112,
+      0.6111111111111112
+    ],
+    "house_paired_delta": -0.013888888888888895,
+    "cluster_bootstrap_95": [
+      -0.055555555555555525,
+      0.027777777777777735
+    ],
+    "discordant_choices": 24,
+    "random_uniform_first_success": 0.3333333333333333,
+    "per_house_macro_jepa_direct": {
+      "tri11_09": [
+        0.3333333333333333,
+        0.3055555555555556
+      ],
+      "tri11_10": [
+        0.2777777777777778,
+        0.3333333333333333
+      ]
+    }
+  },
+  "blender|hssd|registered:rare_multi_sofa": {
+    "origins": 12,
+    "query_origins": 24,
+    "houses": 2,
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "first_success_house_macro_jepa_direct": [
+      0.4861111111111111,
+      0.5416666666666667
+    ],
+    "first_success_micro_jepa_direct": [
+      0.4861111111111111,
+      0.5416666666666666
+    ],
+    "first_gain_micro_jepa_direct": [
+      0.4861111111111111,
+      0.5416666666666666
+    ],
+    "two_probe_success_micro_jepa_direct": [
+      0.8333333333333334,
+      0.8333333333333334
+    ],
+    "house_paired_delta": -0.05555555555555558,
+    "cluster_bootstrap_95": [
+      -0.05555555555555558,
+      -0.05555555555555558
+    ],
+    "discordant_choices": 30,
+    "random_uniform_first_success": 0.5,
+    "per_house_macro_jepa_direct": {
+      "tri11_09": [
+        0.4444444444444444,
+        0.5
+      ],
+      "tri11_10": [
+        0.5277777777777778,
+        0.5833333333333334
+      ]
+    }
+  },
+  "blender|combined|registered:rare_multi_sofa": {
+    "origins": 12,
+    "query_origins": 24,
+    "houses": 2,
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "first_success_house_macro_jepa_direct": [
+      0.5138888888888888,
+      0.4722222222222222
+    ],
+    "first_success_micro_jepa_direct": [
+      0.5138888888888888,
+      0.4722222222222222
+    ],
+    "first_gain_micro_jepa_direct": [
+      0.5138888888888888,
+      0.4722222222222222
+    ],
+    "two_probe_success_micro_jepa_direct": [
+      0.8888888888888888,
+      0.9166666666666666
+    ],
+    "house_paired_delta": 0.041666666666666685,
+    "cluster_bootstrap_95": [
+      0.0,
+      0.08333333333333337
+    ],
+    "discordant_choices": 24,
+    "random_uniform_first_success": 0.5,
+    "per_house_macro_jepa_direct": {
+      "tri11_09": [
+        0.5277777777777778,
+        0.4444444444444444
+      ],
+      "tri11_10": [
+        0.5,
+        0.5
+      ]
+    }
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "train": {
+    "houses": 8,
+    "configs": 576,
+    "hypotheses": 1152,
+    "unique_initial_three_view_inputs": 24,
+    "exact_equal_history_first_choice_ceiling": {
+      "success": 496,
+      "present": 1056,
+      "rate": 0.4696969696969697,
+      "uniform_expected": 0.4242424242424246,
+      "placement_oracle": 1.0
+    },
+    "condition_counts_by_target_instances": {
+      "rare_multi_sofa": {
+        "1": 48,
+        "2": 48
+      },
+      "rare_multi_cup": {
+        "2": 48,
+        "1": 48
+      },
+      "no_cue_multi_cup": {
+        "2": 48,
+        "1": 48
+      },
+      "absent_sofa": {
+        "1": 48,
+        "0": 48
+      },
+      "usual": {
+        "1": 96
+      },
+      "swapped": {
+        "1": 96
+      },
+      "no_cue": {
+        "1": 96
+      },
+      "absent_cup": {
+        "0": 48,
+        "1": 48
+      },
+      "rare_distractor": {
+        "1": 96
+      },
+      "usual_multi_cup": {
+        "2": 48,
+        "1": 48
+      },
+      "usual_multi_sofa": {
+        "1": 48,
+        "2": 48
+      },
+      "no_cue_multi_sofa": {
+        "1": 48,
+        "2": 48
+      }
+    },
+    "max_distance_error_m": 1.087784767150879e-06,
+    "max_return_error_m": 1.4010261111252476e-06
+  },
+  "calibration": {
+    "houses": 2,
+    "configs": 144,
+    "hypotheses": 288,
+    "unique_initial_three_view_inputs": 6,
+    "exact_equal_history_first_choice_ceiling": {
+      "success": 124,
+      "present": 264,
+      "rate": 0.4696969696969697,
+      "uniform_expected": 0.4242424242424243,
+      "placement_oracle": 1.0
+    },
+    "condition_counts_by_target_instances": {
+      "no_cue_multi_cup": {
+        "2": 12,
+        "1": 12
+      },
+      "usual": {
+        "1": 24
+      },
+      "rare_distractor": {
+        "1": 24
+      },
+      "no_cue": {
+        "1": 24
+      },
+      "rare_multi_sofa": {
+        "1": 12,
+        "2": 12
+      },
+      "rare_multi_cup": {
+        "2": 12,
+        "1": 12
+      },
+      "usual_multi_cup": {
+        "2": 12,
+        "1": 12
+      },
+      "swapped": {
+        "1": 24
+      },
+      "absent_cup": {
+        "0": 12,
+        "1": 12
+      },
+      "absent_sofa": {
+        "1": 12,
+        "0": 12
+      },
+      "no_cue_multi_sofa": {
+        "1": 12,
+        "2": 12
+      },
+      "usual_multi_sofa": {
+        "1": 12,
+        "2": 12
+      }
+    },
+    "max_distance_error_m": 1.087784767150879e-06,
+    "max_return_error_m": 1.4010261111252476e-06
+  },
+  "test": {
+    "houses": 6,
+    "configs": 432,
+    "hypotheses": 864,
+    "unique_initial_three_view_inputs": 18,
+    "exact_equal_history_first_choice_ceiling": {
+      "success": 372,
+      "present": 792,
+      "rate": 0.4696969696969697,
+      "uniform_expected": 0.42424242424242437,
+      "placement_oracle": 1.0
+    },
+    "condition_counts_by_target_instances": {
+      "usual_multi_cup": {
+        "2": 36,
+        "1": 36
+      },
+      "no_cue_multi_sofa": {
+        "1": 36,
+        "2": 36
+      },
+      "usual": {
+        "1": 72
+      },
+      "absent_sofa": {
+        "1": 36,
+        "0": 36
+      },
+      "rare_multi_sofa": {
+        "1": 36,
+        "2": 36
+      },
+      "no_cue": {
+        "1": 72
+      },
+      "swapped": {
+        "1": 72
+      },
+      "no_cue_multi_cup": {
+        "2": 36,
+        "1": 36
+      },
+      "absent_cup": {
+        "0": 36,
+        "1": 36
+      },
+      "usual_multi_sofa": {
+        "1": 36,
+        "2": 36
+      },
+      "rare_distractor": {
+        "1": 72
+      },
+      "rare_multi_cup": {
+        "2": 36,
+        "1": 36
+      }
+    },
+    "max_distance_error_m": 1.087784767150879e-06,
+    "max_return_error_m": 1.4010261111252476e-06
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "protocol": "v11-paired-fixed",
+  "seeds": [
+    11,
+    29,
+    47
+  ],
+  "steps": 480,
+  "batch": 48,
+  "learning_rate": 0.001,
+  "latent_weight": 0.65,
+  "differential_latent_weight": 0.5,
+  "memory_weights": "3ff4a95fb4ef5d742386476a913a2637a2e8016d2282eb23ba8caf89944583e7",
+  "fit_sources": [
+    "hssd",
+    "combined"
+  ],
+  "horizon_taps": [
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "starting_headings_degrees": [
+    -30,
+    0,
+    30
+  ],
+  "primary": "new physical goal-instance opportunity on first choice",
+  "allowed_test_inputs": "three observed color views, relative headings, frozen target text, equal-length planned actions, same episode-local memory",
+  "declared_before_blind_test": true,
+  "source_sha256": "eac757e1f561539f322bc4f345ca07b5413f4d07890425a27a6221f109084bbf"
+}

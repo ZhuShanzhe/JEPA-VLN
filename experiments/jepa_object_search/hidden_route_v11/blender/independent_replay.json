@@ -1,0 +1,8 @@
+{
+  "configurations": 72,
+  "actual_routes": 216,
+  "panorama_frames": 864,
+  "future_frames": 864,
+  "actions_out_and_back": 14688,
+  "repeated_observation_bytes_and_labels_equal": true
+}

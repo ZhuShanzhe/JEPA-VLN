@@ -1,0 +1,60 @@
+{
+  "unit": "average over disjoint goal pairs within a junction, origins and seeds within a house, then houses",
+  "scope": "swaps complete first choices, including goal-dependent visual cues in shared memory; diagnostic only",
+  "arms": {
+    "hssd|direct": {
+      "houses": 12,
+      "origins": 54,
+      "unique_query_pairs": 104,
+      "matched": 0.3879629629629629,
+      "exchanged": 0.47420634920634924,
+      "both_goals_correct": 0.06373456790123458,
+      "different_first_choices": 0.38957231040564366
+    },
+    "hssd|jepa": {
+      "houses": 12,
+      "origins": 54,
+      "unique_query_pairs": 104,
+      "matched": 0.3582947530864198,
+      "exchanged": 0.42288359788359786,
+      "both_goals_correct": 0.018540564373897703,
+      "different_first_choices": 0.15934376837154615
+    },
+    "hssd|wrong_future": {
+      "houses": 12,
+      "origins": 54,
+      "unique_query_pairs": 104,
+      "matched": 0.38738977072310415,
+      "exchanged": 0.39409722222222227,
+      "both_goals_correct": 0.020061728395061727,
+      "different_first_choices": 0.08543871252204584
+    },
+    "combined|direct": {
+      "houses": 12,
+      "origins": 54,
+      "unique_query_pairs": 104,
+      "matched": 0.39077197236919453,
+      "exchanged": 0.4389476778365667,
+      "both_goals_correct": 0.08172766019988241,
+      "different_first_choices": 0.3459178424456202
+    },
+    "combined|jepa": {
+      "houses": 12,
+      "origins": 54,
+      "unique_query_pairs": 104,
+      "matched": 0.39361772486772484,
+      "exchanged": 0.39130291005291,
+      "both_goals_correct": 0.0030864197530864196,
+      "different_first_choices": 0.012345679012345678
+    },
+    "combined|wrong_future": {
+      "houses": 12,
+      "origins": 54,
+      "unique_query_pairs": 104,
+      "matched": 0.3947200176366843,
+      "exchanged": 0.3943342151675486,
+      "both_goals_correct": 0.005015432098765432,
+      "different_first_choices": 0.013117283950617281
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "available_stages": 168,
+  "distinct_geometry_signatures": 168,
+  "equal_geometry_groups": 0,
+  "official_train": 125,
+  "official_val": 43,
+  "cohort_sizes": {
+    "train": 28,
+    "calibration": 6,
+    "test": 16
+  },
+  "shared_prefixes": {
+    "train": 0,
+    "calibration": 0,
+    "protected": 0
+  }
+}

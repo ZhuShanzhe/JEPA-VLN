@@ -1,0 +1,63 @@
+{
+  "unit": "same as primary paired_analysis.summarize; all goal-origins with any profitable route",
+  "delta": "JEPA minus cyclically mismatched future supervision",
+  "seeds": [
+    11,
+    29,
+    47
+  ],
+  "results": {
+    "hssd": {
+      "houses": 16,
+      "origins": 275,
+      "origin_queries": 424,
+      "delta": -0.005514372868712704,
+      "ci95": [
+        -0.04545090139392109,
+        0.0244792517701525
+      ],
+      "seed_deltas": [
+        0.01816140343653931,
+        -0.043048622817045135,
+        0.008344100774367706
+      ],
+      "house_wins_ties_losses": [
+        8,
+        3,
+        5
+      ],
+      "paired_house_signflip_p_two_sided": 0.852294921875,
+      "jepa_wrong_future_uniform": [
+        0.5060215745073282,
+        0.5115359473760409,
+        0.39244612041127397
+      ]
+    },
+    "combined": {
+      "houses": 16,
+      "origins": 275,
+      "origin_queries": 424,
+      "delta": -0.004171769512042856,
+      "ci95": [
+        -0.03580047960355364,
+        0.026804867916026192
+      ],
+      "seed_deltas": [
+        -0.005611279838022166,
+        -0.006192388640238709,
+        -0.0007116400578676858
+      ],
+      "house_wins_ties_losses": [
+        8,
+        1,
+        7
+      ],
+      "paired_house_signflip_p_two_sided": 0.80242919921875,
+      "jepa_wrong_future_uniform": [
+        0.49001840219920867,
+        0.4941901717112514,
+        0.39244612041127397
+      ]
+    }
+  }
+}

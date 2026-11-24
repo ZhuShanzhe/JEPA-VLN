@@ -1,0 +1,76 @@
+{
+  "hssd|jepa": {
+    "rows_including_three_seeds": 1272,
+    "invalid_return": 20,
+    "hit_rate_micro": 0.7775157232704403,
+    "house_macro": 0.7994568407740461,
+    "mean_unique_instances": 0.9205974842767296
+  },
+  "hssd|direct": {
+    "rows_including_three_seeds": 1272,
+    "invalid_return": 21,
+    "hit_rate_micro": 0.7468553459119497,
+    "house_macro": 0.7203629169400709,
+    "mean_unique_instances": 0.8844339622641509
+  },
+  "hssd|wrong_future": {
+    "rows_including_three_seeds": 1272,
+    "invalid_return": 25,
+    "hit_rate_micro": 0.7720125786163522,
+    "house_macro": 0.775615774820449,
+    "mean_unique_instances": 0.9080188679245284
+  },
+  "combined|jepa": {
+    "rows_including_three_seeds": 1272,
+    "invalid_return": 36,
+    "hit_rate_micro": 0.7940251572327044,
+    "house_macro": 0.796318385311981,
+    "mean_unique_instances": 0.9339622641509434
+  },
+  "combined|direct": {
+    "rows_including_three_seeds": 1272,
+    "invalid_return": 29,
+    "hit_rate_micro": 0.7688679245283019,
+    "house_macro": 0.7600293535898667,
+    "mean_unique_instances": 0.9111635220125787
+  },
+  "combined|wrong_future": {
+    "rows_including_three_seeds": 1272,
+    "invalid_return": 26,
+    "hit_rate_micro": 0.7822327044025157,
+    "house_macro": 0.7867229814968478,
+    "mean_unique_instances": 0.9245283018867925
+  },
+  "hssd|jepa_minus_direct": {
+    "houses": 16,
+    "paired_house_mean": 0.0790939238339752,
+    "house_bootstrap_95": [
+      0.010520743174686539,
+      0.17710261208847133
+    ]
+  },
+  "hssd|jepa_minus_wrong_future": {
+    "houses": 16,
+    "paired_house_mean": 0.023841065953597092,
+    "house_bootstrap_95": [
+      -0.009077938046314049,
+      0.07233589791617497
+    ]
+  },
+  "combined|jepa_minus_direct": {
+    "houses": 16,
+    "paired_house_mean": 0.036289031722114284,
+    "house_bootstrap_95": [
+      -0.0027779925377005073,
+      0.08648753645198107
+    ]
+  },
+  "combined|jepa_minus_wrong_future": {
+    "houses": 16,
+    "paired_house_mean": 0.009595403815133095,
+    "house_bootstrap_95": [
+      -0.01281660008046119,
+      0.02991614818142275
+    ]
+  }
+}

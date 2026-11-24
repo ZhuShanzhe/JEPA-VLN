@@ -54,3 +54,5 @@ HSSD 的代理目标是新增可见性。开发集 48 个起点中只有 2 个�
 [MOST-Nav 主动补看与上报复核](active_review_v9/README.md)
 
 [MOST-Nav 在线记忆与探索选路](online_memory_v10/README.md)
+
+[隐藏目标的 JEPA 与直接监督选路](hidden_route_v11/README.md)
