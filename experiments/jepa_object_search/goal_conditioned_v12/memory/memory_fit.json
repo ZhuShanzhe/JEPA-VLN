@@ -1,0 +1,34 @@
+{
+  "fit_houses": 28,
+  "training_pairs": 1729,
+  "gate": 0.5,
+  "calibration": [
+    {
+      "gate": 0.0,
+      "objective": 0.4999610339506172,
+      "new_discovery": 0.3356635802469135,
+      "any_hit": 0.8050848765432099
+    },
+    {
+      "gate": 0.25,
+      "objective": 0.4965273919753086,
+      "new_discovery": 0.33304012345679007,
+      "any_hit": 0.8001466049382716
+    },
+    {
+      "gate": 0.5,
+      "objective": 0.5003854166666667,
+      "new_discovery": 0.33716820987654317,
+      "any_hit": 0.8035030864197531
+    },
+    {
+      "gate": 1.0,
+      "objective": 0.495400848765432,
+      "new_discovery": 0.3321836419753086,
+      "any_hit": 0.7985185185185184
+    }
+  ],
+  "selection_arm": "v12_jepa",
+  "features": 23,
+  "weights_sha256": "4d8ae3356d8b3975fddc3a02a709b202f7e4394f9ee8fbc611a5fbd545b385fb"
+}

@@ -1,0 +1,297 @@
+{
+  "counts": {
+    "origins": 565,
+    "queries": 945,
+    "visible_route_queries": 1076,
+    "zero_routes": 1759,
+    "distinct_instances_summed_over_route_queries": 1435,
+    "disjoint_pairs": 239,
+    "junctions_with_disjoint_pairs": 116
+  },
+  "houses": {
+    "102344022": {
+      "origins": 20,
+      "queries": 26,
+      "visible_route_queries": 28,
+      "zero_routes": 50,
+      "distinct_instances_summed_over_route_queries": 41,
+      "disjoint_pairs": 2,
+      "junctions_with_disjoint_pairs": 1
+    },
+    "102344280": {
+      "origins": 24,
+      "queries": 30,
+      "visible_route_queries": 34,
+      "zero_routes": 56,
+      "distinct_instances_summed_over_route_queries": 44,
+      "disjoint_pairs": 1,
+      "junctions_with_disjoint_pairs": 1
+    },
+    "102344328": {
+      "origins": 24,
+      "queries": 31,
+      "visible_route_queries": 35,
+      "zero_routes": 58,
+      "distinct_instances_summed_over_route_queries": 38,
+      "disjoint_pairs": 2,
+      "junctions_with_disjoint_pairs": 2
+    },
+    "102816066": {
+      "origins": 24,
+      "queries": 40,
+      "visible_route_queries": 43,
+      "zero_routes": 77,
+      "distinct_instances_summed_over_route_queries": 83,
+      "disjoint_pairs": 13,
+      "junctions_with_disjoint_pairs": 5
+    },
+    "102816729": {
+      "origins": 24,
+      "queries": 45,
+      "visible_route_queries": 48,
+      "zero_routes": 87,
+      "distinct_instances_summed_over_route_queries": 53,
+      "disjoint_pairs": 7,
+      "junctions_with_disjoint_pairs": 5
+    },
+    "102817200": {
+      "origins": 24,
+      "queries": 38,
+      "visible_route_queries": 39,
+      "zero_routes": 75,
+      "distinct_instances_summed_over_route_queries": 61,
+      "disjoint_pairs": 13,
+      "junctions_with_disjoint_pairs": 6
+    },
+    "103997478_171030528": {
+      "origins": 24,
+      "queries": 42,
+      "visible_route_queries": 50,
+      "zero_routes": 76,
+      "distinct_instances_summed_over_route_queries": 58,
+      "disjoint_pairs": 9,
+      "junctions_with_disjoint_pairs": 6
+    },
+    "103997613_171030702": {
+      "origins": 24,
+      "queries": 45,
+      "visible_route_queries": 51,
+      "zero_routes": 84,
+      "distinct_instances_summed_over_route_queries": 54,
+      "disjoint_pairs": 13,
+      "junctions_with_disjoint_pairs": 6
+    },
+    "103997940_171031257": {
+      "origins": 17,
+      "queries": 28,
+      "visible_route_queries": 30,
+      "zero_routes": 54,
+      "distinct_instances_summed_over_route_queries": 60,
+      "disjoint_pairs": 8,
+      "junctions_with_disjoint_pairs": 5
+    },
+    "103997970_171031287": {
+      "origins": 24,
+      "queries": 44,
+      "visible_route_queries": 48,
+      "zero_routes": 84,
+      "distinct_instances_summed_over_route_queries": 48,
+      "disjoint_pairs": 24,
+      "junctions_with_disjoint_pairs": 8
+    },
+    "104348037_171512898": {
+      "origins": 20,
+      "queries": 43,
+      "visible_route_queries": 55,
+      "zero_routes": 74,
+      "distinct_instances_summed_over_route_queries": 64,
+      "disjoint_pairs": 15,
+      "junctions_with_disjoint_pairs": 8
+    },
+    "104348082_171512994": {
+      "origins": 17,
+      "queries": 32,
+      "visible_route_queries": 40,
+      "zero_routes": 56,
+      "distinct_instances_summed_over_route_queries": 48,
+      "disjoint_pairs": 9,
+      "junctions_with_disjoint_pairs": 3
+    },
+    "104348511_171513654": {
+      "origins": 23,
+      "queries": 36,
+      "visible_route_queries": 45,
+      "zero_routes": 63,
+      "distinct_instances_summed_over_route_queries": 51,
+      "disjoint_pairs": 9,
+      "junctions_with_disjoint_pairs": 5
+    },
+    "104862396_172226349": {
+      "origins": 24,
+      "queries": 33,
+      "visible_route_queries": 35,
+      "zero_routes": 64,
+      "distinct_instances_summed_over_route_queries": 59,
+      "disjoint_pairs": 5,
+      "junctions_with_disjoint_pairs": 4
+    },
+    "104862513_172226580": {
+      "origins": 24,
+      "queries": 35,
+      "visible_route_queries": 43,
+      "zero_routes": 62,
+      "distinct_instances_summed_over_route_queries": 48,
+      "disjoint_pairs": 3,
+      "junctions_with_disjoint_pairs": 3
+    },
+    "104862573_172226682": {
+      "origins": 24,
+      "queries": 29,
+      "visible_route_queries": 30,
+      "zero_routes": 57,
+      "distinct_instances_summed_over_route_queries": 43,
+      "disjoint_pairs": 4,
+      "junctions_with_disjoint_pairs": 4
+    },
+    "104862621_172226772": {
+      "origins": 24,
+      "queries": 38,
+      "visible_route_queries": 42,
+      "zero_routes": 72,
+      "distinct_instances_summed_over_route_queries": 43,
+      "disjoint_pairs": 10,
+      "junctions_with_disjoint_pairs": 6
+    },
+    "104862660_172226844": {
+      "origins": 21,
+      "queries": 40,
+      "visible_route_queries": 50,
+      "zero_routes": 70,
+      "distinct_instances_summed_over_route_queries": 73,
+      "disjoint_pairs": 9,
+      "junctions_with_disjoint_pairs": 4
+    },
+    "104862669_172226853": {
+      "origins": 24,
+      "queries": 62,
+      "visible_route_queries": 70,
+      "zero_routes": 116,
+      "distinct_instances_summed_over_route_queries": 76,
+      "disjoint_pairs": 32,
+      "junctions_with_disjoint_pairs": 13
+    },
+    "105515175_173104107": {
+      "origins": 6,
+      "queries": 7,
+      "visible_route_queries": 7,
+      "zero_routes": 14,
+      "distinct_instances_summed_over_route_queries": 7,
+      "disjoint_pairs": 1,
+      "junctions_with_disjoint_pairs": 1
+    },
+    "105515337_173104347": {
+      "origins": 17,
+      "queries": 30,
+      "visible_route_queries": 38,
+      "zero_routes": 52,
+      "distinct_instances_summed_over_route_queries": 49,
+      "disjoint_pairs": 9,
+      "junctions_with_disjoint_pairs": 5
+    },
+    "105515490_173104566": {
+      "origins": 19,
+      "queries": 33,
+      "visible_route_queries": 38,
+      "zero_routes": 61,
+      "distinct_instances_summed_over_route_queries": 73,
+      "disjoint_pairs": 4,
+      "junctions_with_disjoint_pairs": 2
+    },
+    "106366173_174226431": {
+      "origins": 24,
+      "queries": 35,
+      "visible_route_queries": 38,
+      "zero_routes": 67,
+      "distinct_instances_summed_over_route_queries": 89,
+      "disjoint_pairs": 6,
+      "junctions_with_disjoint_pairs": 3
+    },
+    "106879023_174887148": {
+      "origins": 2,
+      "queries": 2,
+      "visible_route_queries": 2,
+      "zero_routes": 4,
+      "distinct_instances_summed_over_route_queries": 2,
+      "disjoint_pairs": 0,
+      "junctions_with_disjoint_pairs": 0
+    },
+    "107734119_175999932": {
+      "origins": 15,
+      "queries": 30,
+      "visible_route_queries": 33,
+      "zero_routes": 57,
+      "distinct_instances_summed_over_route_queries": 41,
+      "disjoint_pairs": 7,
+      "junctions_with_disjoint_pairs": 3
+    },
+    "108294465_176709960": {
+      "origins": 4,
+      "queries": 10,
+      "visible_route_queries": 15,
+      "zero_routes": 15,
+      "distinct_instances_summed_over_route_queries": 15,
+      "disjoint_pairs": 8,
+      "junctions_with_disjoint_pairs": 1
+    },
+    "108294624_176710203": {
+      "origins": 24,
+      "queries": 29,
+      "visible_route_queries": 30,
+      "zero_routes": 57,
+      "distinct_instances_summed_over_route_queries": 48,
+      "disjoint_pairs": 2,
+      "junctions_with_disjoint_pairs": 1
+    },
+    "108294783_176710410": {
+      "origins": 24,
+      "queries": 52,
+      "visible_route_queries": 59,
+      "zero_routes": 97,
+      "distinct_instances_summed_over_route_queries": 66,
+      "disjoint_pairs": 14,
+      "junctions_with_disjoint_pairs": 5
+    }
+  },
+  "n_houses": 28,
+  "target_query_counts": {
+    "basket.n.01": 9,
+    "mirror.n.01": 66,
+    "cabinet.n.01": 65,
+    "chair.n.01": 87,
+    "bed.n.01": 103,
+    "ceiling_lamp.n.01": 43,
+    "wall_art.n.01": 36,
+    "floor_lamp.n.01": 18,
+    "refrigerator.n.01": 34,
+    "vase.n.01": 17,
+    "potted_plant.n.01": 38,
+    "bookcase.n.01": 45,
+    "stool.n.01": 66,
+    "table.n.02": 70,
+    "sofa.n.01": 57,
+    "bathtub.n.01": 50,
+    "television_receiver.n.01": 46,
+    "toilet.n.02": 59,
+    "shelf.n.01": 17,
+    "picture_frame.n.01": 9,
+    "sink.n.01": 7,
+    "plant.n.02": 3
+  },
+  "first_instance_pixels_quartiles": [
+    32.0,
+    119.0,
+    296.0,
+    632.0,
+    7512.0
+  ]
+}

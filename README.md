@@ -4,6 +4,7 @@
 
 | 阅读入口 | 内容 |
 |---|---|
+| [当前选路系统开发与训练](experiments/jepa_object_search/goal_conditioned_v12/README.md) | 目标条件 JEPA、实走后的在线改选、未用房屋表现与接管条件 |
 | [首轮训练与后续研究路线](experiments/jepa_object_search/TRAINING_ROADMAP.md) | 同起点采集与训练、跨物体类别泛化、RSI 经验修正和服务器自动启动入口 |
 | [研究问题与训练设计](experiments/jepa_object_search/RESEARCH_PLAN.md) | JEPA 接在哪一步、如何取得同一起点的多个未来，以及如何与直接打分模型比较 |
 | [MOST-Nav 基线的前 16 个回合](experiments/jepa_object_search/pipeline/baseline_snapshot_16.md) | 路线覆盖、相机曝光、有效报告和重复报告的实测区别 |

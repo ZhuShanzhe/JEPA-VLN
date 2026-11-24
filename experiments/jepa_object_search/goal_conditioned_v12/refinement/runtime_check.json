@@ -1,0 +1,7 @@
+{
+  "arm": "rv_jepa",
+  "seed": 11,
+  "houses": 6,
+  "choices_agree": 6,
+  "max_abs_error": 7.784196904836449e-07
+}

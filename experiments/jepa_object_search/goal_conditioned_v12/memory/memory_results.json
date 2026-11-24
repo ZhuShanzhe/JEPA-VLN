@@ -1,0 +1,402 @@
+{
+  "first_panel": {
+    "physical": {
+      "origins": 317,
+      "branches": 951,
+      "successful_returns": 927,
+      "alternatives_from_return": 1854
+    },
+    "arms": {
+      "v11_jepa": {
+        "shared_online_memory": {
+          "houses": 16,
+          "seeded_cases": 1575,
+          "interrupted": 43,
+          "first_hit": 0.47533472748316496,
+          "any_hit": 0.7928659424102132,
+          "new_discovery": 0.32908753331930407,
+          "instances": 1.0896699196829405,
+          "changed": 0.0,
+          "valid": 0.9683291245791246
+        },
+        "trained_update": {
+          "houses": 16,
+          "seeded_cases": 1575,
+          "interrupted": 43,
+          "first_hit": 0.47533472748316496,
+          "any_hit": 0.788394141063412,
+          "new_discovery": 0.3266701301206509,
+          "instances": 1.0974587454405165,
+          "changed": 0.13916245791245793,
+          "valid": 0.9683291245791246
+        }
+      },
+      "v11_direct": {
+        "shared_online_memory": {
+          "houses": 16,
+          "seeded_cases": 1575,
+          "interrupted": 43,
+          "first_hit": 0.46899682589786756,
+          "any_hit": 0.7825943900813692,
+          "new_discovery": 0.3233848905723905,
+          "instances": 1.0472711051487091,
+          "changed": 0.0,
+          "valid": 0.9660011574074074
+        },
+        "trained_update": {
+          "houses": 16,
+          "seeded_cases": 1575,
+          "interrupted": 43,
+          "first_hit": 0.46899682589786756,
+          "any_hit": 0.7878270552749719,
+          "new_discovery": 0.3296302872474748,
+          "instances": 1.0450726886924802,
+          "changed": 0.13217987163299663,
+          "valid": 0.9660011574074074
+        }
+      },
+      "v12_direct": {
+        "shared_online_memory": {
+          "houses": 16,
+          "seeded_cases": 1575,
+          "interrupted": 44,
+          "first_hit": 0.435405706369248,
+          "any_hit": 0.7614964751683503,
+          "new_discovery": 0.33653637065095393,
+          "instances": 1.0258226799242425,
+          "changed": 0.0,
+          "valid": 0.9675399831649831
+        },
+        "trained_update": {
+          "houses": 16,
+          "seeded_cases": 1575,
+          "interrupted": 44,
+          "first_hit": 0.435405706369248,
+          "any_hit": 0.7628798839085298,
+          "new_discovery": 0.3376593627244669,
+          "instances": 1.021999070566779,
+          "changed": 0.14370462436868686,
+          "valid": 0.9675399831649831
+        }
+      },
+      "v12_jepa": {
+        "shared_online_memory": {
+          "houses": 16,
+          "seeded_cases": 1575,
+          "interrupted": 48,
+          "first_hit": 0.4783902391975309,
+          "any_hit": 0.776165956439394,
+          "new_discovery": 0.3046261223344557,
+          "instances": 1.0514026988636365,
+          "changed": 0.0,
+          "valid": 0.9666193181818181
+        },
+        "trained_update": {
+          "houses": 16,
+          "seeded_cases": 1575,
+          "interrupted": 48,
+          "first_hit": 0.4783902391975309,
+          "any_hit": 0.7856290772306396,
+          "new_discovery": 0.3141615810886644,
+          "instances": 1.073104087752525,
+          "changed": 0.1364706088664422,
+          "valid": 0.9666193181818181
+        }
+      },
+      "v12_jepa_crop": {
+        "shared_online_memory": {
+          "houses": 16,
+          "seeded_cases": 1575,
+          "interrupted": 48,
+          "first_hit": 0.4629605516975309,
+          "any_hit": 0.7641881050084176,
+          "new_discovery": 0.3117257645903479,
+          "instances": 1.0353719486531987,
+          "changed": 0.0,
+          "valid": 0.9644886363636362
+        },
+        "trained_update": {
+          "houses": 16,
+          "seeded_cases": 1575,
+          "interrupted": 48,
+          "first_hit": 0.4629605516975309,
+          "any_hit": 0.7584545542227833,
+          "new_discovery": 0.30635390361952863,
+          "instances": 1.0338050645342312,
+          "changed": 0.1294031898849607,
+          "valid": 0.9644886363636362
+        }
+      }
+    },
+    "comparisons": {
+      "first_head_with_shared_memory_vs_v11": {
+        "any_hit": {
+          "delta": -0.028677837401795782,
+          "ci95": [
+            -0.07191932344276099,
+            0.014781780478394938
+          ]
+        },
+        "new_discovery": {
+          "delta": -0.017361768728956246,
+          "ci95": [
+            -0.06724421953914143,
+            0.029986749000420837
+          ]
+        },
+        "instances": {
+          "delta": -0.05429797102974186,
+          "ci95": [
+            -0.13617920195882444,
+            0.015759877420033687
+          ]
+        }
+      },
+      "first_head_with_learned_memory_vs_v11": {
+        "any_hit": {
+          "delta": -0.03441138818742987,
+          "ci95": [
+            -0.07261080860690237,
+            0.008814874000420777
+          ]
+        },
+        "new_discovery": {
+          "delta": -0.022733629699775534,
+          "ci95": [
+            -0.07481254603324917,
+            0.02786751521289268
+          ]
+        },
+        "instances": {
+          "delta": -0.055864855148709334,
+          "ci95": [
+            -0.13524179512135245,
+            0.013249026725589232
+          ]
+        }
+      },
+      "same_first_head_effect_of_learned_memory": {
+        "any_hit": {
+          "delta": -0.0057335507856340895,
+          "ci95": [
+            -0.022270140642536445,
+            0.009044360707772167
+          ]
+        },
+        "new_discovery": {
+          "delta": -0.005371860970819292,
+          "ci95": [
+            -0.02492283950617282,
+            0.011265881470959601
+          ]
+        },
+        "instances": {
+          "delta": -0.0015668841189674723,
+          "ci95": [
+            -0.02575290667087551,
+            0.019748274849186218
+          ]
+        }
+      },
+      "same_memory_vs_direct": {
+        "any_hit": {
+          "delta": -0.004425329685746354,
+          "ci95": [
+            -0.024249055222362523,
+            0.013262080439814763
+          ]
+        },
+        "new_discovery": {
+          "delta": -0.03130545910493825,
+          "ci95": [
+            -0.0772812982253086,
+            0.010452062947180051
+          ]
+        },
+        "instances": {
+          "delta": 0.011805993967452286,
+          "ci95": [
+            -0.01878622378296856,
+            0.04179823407687992
+          ]
+        }
+      }
+    }
+  },
+  "second_panel": {
+    "physical": {
+      "origins": 269,
+      "branches": 807,
+      "successful_returns": 792,
+      "alternatives_from_return": 1584
+    },
+    "arms": {
+      "v11_jepa": {
+        "shared_online_memory": {
+          "houses": 12,
+          "seeded_cases": 1290,
+          "interrupted": 30,
+          "first_hit": 0.45896990740740734,
+          "any_hit": 0.753395061728395,
+          "new_discovery": 0.3044560185185185,
+          "instances": 1.0020833333333334,
+          "changed": 0.0,
+          "valid": 0.970949074074074
+        },
+        "trained_update": {
+          "houses": 12,
+          "seeded_cases": 1290,
+          "interrupted": 30,
+          "first_hit": 0.45896990740740734,
+          "any_hit": 0.7826003086419755,
+          "new_discovery": 0.33742283950617286,
+          "instances": 1.0432484567901235,
+          "changed": 0.16820987654320987,
+          "valid": 0.970949074074074
+        }
+      },
+      "rv_direct": {
+        "shared_online_memory": {
+          "houses": 12,
+          "seeded_cases": 1290,
+          "interrupted": 30,
+          "first_hit": 0.45850694444444445,
+          "any_hit": 0.7639274691358026,
+          "new_discovery": 0.3147762345679012,
+          "instances": 1.005054012345679,
+          "changed": 0.0,
+          "valid": 0.970949074074074
+        },
+        "trained_update": {
+          "houses": 12,
+          "seeded_cases": 1290,
+          "interrupted": 30,
+          "first_hit": 0.45850694444444445,
+          "any_hit": 0.7773341049382717,
+          "new_discovery": 0.3312692901234568,
+          "instances": 1.038329475308642,
+          "changed": 0.1516975308641975,
+          "valid": 0.970949074074074
+        }
+      },
+      "rv_jepa": {
+        "shared_online_memory": {
+          "houses": 12,
+          "seeded_cases": 1290,
+          "interrupted": 28,
+          "first_hit": 0.45405092592592594,
+          "any_hit": 0.7609374999999999,
+          "new_discovery": 0.31624228395061726,
+          "instances": 1.0116319444444444,
+          "changed": 0.0,
+          "valid": 0.9739583333333334
+        },
+        "trained_update": {
+          "houses": 12,
+          "seeded_cases": 1290,
+          "interrupted": 28,
+          "first_hit": 0.45405092592592594,
+          "any_hit": 0.7782600308641975,
+          "new_discovery": 0.33742283950617286,
+          "instances": 1.0492283950617285,
+          "changed": 0.1254243827160494,
+          "valid": 0.9739583333333334
+        }
+      }
+    },
+    "comparisons": {
+      "first_head_with_shared_memory_vs_v11": {
+        "any_hit": {
+          "delta": 0.007542438271604936,
+          "ci95": [
+            -0.02988184799382717,
+            0.0551509452160494
+          ]
+        },
+        "new_discovery": {
+          "delta": 0.011786265432098757,
+          "ci95": [
+            -0.012287808641975326,
+            0.04035493827160492
+          ]
+        },
+        "instances": {
+          "delta": 0.009548611111111105,
+          "ci95": [
+            -0.047087191358024645,
+            0.07604359567901223
+          ]
+        }
+      },
+      "first_head_with_learned_memory_vs_v11": {
+        "any_hit": {
+          "delta": 0.024864969135802467,
+          "ci95": [
+            -0.0037615740740740704,
+            0.05657841435185182
+          ]
+        },
+        "new_discovery": {
+          "delta": 0.032966820987654306,
+          "ci95": [
+            0.017110339506172814,
+            0.04824459876543208
+          ]
+        },
+        "instances": {
+          "delta": 0.047145061728395006,
+          "ci95": [
+            0.0011574074074073384,
+            0.09805217978395055
+          ]
+        }
+      },
+      "same_first_head_effect_of_learned_memory": {
+        "any_hit": {
+          "delta": 0.017322530864197532,
+          "ci95": [
+            -0.0027203896604938264,
+            0.03566743827160492
+          ]
+        },
+        "new_discovery": {
+          "delta": 0.021180555555555546,
+          "ci95": [
+            0.0008675733024691422,
+            0.03913966049382712
+          ]
+        },
+        "instances": {
+          "delta": 0.0375964506172839,
+          "ci95": [
+            0.008796296296296293,
+            0.06768952546296288
+          ]
+        }
+      },
+      "same_memory_vs_direct": {
+        "any_hit": {
+          "delta": 0.0009259259259259226,
+          "ci95": [
+            -0.013889853395061769,
+            0.013888888888888895
+          ]
+        },
+        "new_discovery": {
+          "delta": 0.006153549382716043,
+          "ci95": [
+            -0.009433352623456796,
+            0.023186728395061723
+          ]
+        },
+        "instances": {
+          "delta": 0.010898919753086406,
+          "ci95": [
+            -0.0147183641975309,
+            0.03713348765432096
+          ]
+        }
+      }
+    }
+  }
+}

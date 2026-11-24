@@ -1,0 +1,10 @@
+{
+  "archived_selection_logs": 56,
+  "decisions_logged": 364,
+  "with_three_distinct_24_step_frontier_plans": 4,
+  "with_verified_three_headings_before_selection": 0,
+  "number_of_matched_headings_histogram": {
+    "1": 3,
+    "2": 1
+  }
+}

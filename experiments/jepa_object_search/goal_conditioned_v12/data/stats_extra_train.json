@@ -1,0 +1,150 @@
+{
+  "counts": {
+    "origins": 230,
+    "queries": 388,
+    "visible_route_queries": 429,
+    "zero_routes": 735,
+    "distinct_instances_summed_over_route_queries": 541,
+    "disjoint_pairs": 96,
+    "junctions_with_disjoint_pairs": 53
+  },
+  "houses": {
+    "102344469": {
+      "origins": 24,
+      "queries": 51,
+      "visible_route_queries": 54,
+      "zero_routes": 99,
+      "distinct_instances_summed_over_route_queries": 73,
+      "disjoint_pairs": 16,
+      "junctions_with_disjoint_pairs": 6
+    },
+    "102816615": {
+      "origins": 24,
+      "queries": 64,
+      "visible_route_queries": 70,
+      "zero_routes": 122,
+      "distinct_instances_summed_over_route_queries": 91,
+      "disjoint_pairs": 38,
+      "junctions_with_disjoint_pairs": 14
+    },
+    "103997460_171030507": {
+      "origins": 14,
+      "queries": 23,
+      "visible_route_queries": 24,
+      "zero_routes": 45,
+      "distinct_instances_summed_over_route_queries": 25,
+      "disjoint_pairs": 4,
+      "junctions_with_disjoint_pairs": 3
+    },
+    "105515151_173104068": {
+      "origins": 12,
+      "queries": 15,
+      "visible_route_queries": 15,
+      "zero_routes": 30,
+      "distinct_instances_summed_over_route_queries": 22,
+      "disjoint_pairs": 1,
+      "junctions_with_disjoint_pairs": 1
+    },
+    "105515160_173104077": {
+      "origins": 11,
+      "queries": 12,
+      "visible_route_queries": 13,
+      "zero_routes": 23,
+      "distinct_instances_summed_over_route_queries": 17,
+      "disjoint_pairs": 1,
+      "junctions_with_disjoint_pairs": 1
+    },
+    "106366302_174226617": {
+      "origins": 10,
+      "queries": 13,
+      "visible_route_queries": 14,
+      "zero_routes": 25,
+      "distinct_instances_summed_over_route_queries": 18,
+      "disjoint_pairs": 3,
+      "junctions_with_disjoint_pairs": 3
+    },
+    "107734080_175999881": {
+      "origins": 24,
+      "queries": 34,
+      "visible_route_queries": 39,
+      "zero_routes": 63,
+      "distinct_instances_summed_over_route_queries": 50,
+      "disjoint_pairs": 8,
+      "junctions_with_disjoint_pairs": 7
+    },
+    "108294417_176709879": {
+      "origins": 24,
+      "queries": 35,
+      "visible_route_queries": 38,
+      "zero_routes": 67,
+      "distinct_instances_summed_over_route_queries": 46,
+      "disjoint_pairs": 3,
+      "junctions_with_disjoint_pairs": 3
+    },
+    "108294558_176710095": {
+      "origins": 15,
+      "queries": 28,
+      "visible_route_queries": 32,
+      "zero_routes": 52,
+      "distinct_instances_summed_over_route_queries": 38,
+      "disjoint_pairs": 5,
+      "junctions_with_disjoint_pairs": 4
+    },
+    "108294573_176710113": {
+      "origins": 24,
+      "queries": 37,
+      "visible_route_queries": 42,
+      "zero_routes": 69,
+      "distinct_instances_summed_over_route_queries": 51,
+      "disjoint_pairs": 7,
+      "junctions_with_disjoint_pairs": 5
+    },
+    "108736824_177263559": {
+      "origins": 24,
+      "queries": 40,
+      "visible_route_queries": 43,
+      "zero_routes": 77,
+      "distinct_instances_summed_over_route_queries": 51,
+      "disjoint_pairs": 4,
+      "junctions_with_disjoint_pairs": 2
+    },
+    "108736872_177263607": {
+      "origins": 24,
+      "queries": 36,
+      "visible_route_queries": 45,
+      "zero_routes": 63,
+      "distinct_instances_summed_over_route_queries": 59,
+      "disjoint_pairs": 6,
+      "junctions_with_disjoint_pairs": 4
+    }
+  },
+  "n_houses": 12,
+  "target_query_counts": {
+    "chair.n.01": 35,
+    "toilet.n.02": 22,
+    "table.n.02": 31,
+    "bathtub.n.01": 12,
+    "bed.n.01": 34,
+    "mirror.n.01": 16,
+    "sofa.n.01": 35,
+    "cabinet.n.01": 31,
+    "refrigerator.n.01": 17,
+    "stool.n.01": 31,
+    "bookcase.n.01": 17,
+    "ceiling_lamp.n.01": 13,
+    "wall_art.n.01": 20,
+    "television_receiver.n.01": 21,
+    "basket.n.01": 7,
+    "vase.n.01": 5,
+    "floor_lamp.n.01": 6,
+    "potted_plant.n.01": 23,
+    "shelf.n.01": 12
+  },
+  "first_instance_pixels_quartiles": [
+    33.0,
+    131.0,
+    304.0,
+    715.0,
+    6613.0
+  ]
+}

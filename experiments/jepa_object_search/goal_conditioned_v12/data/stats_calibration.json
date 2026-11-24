@@ -1,0 +1,98 @@
+{
+  "counts": {
+    "origins": 127,
+    "queries": 218,
+    "visible_route_queries": 241,
+    "zero_routes": 413,
+    "distinct_instances_summed_over_route_queries": 279,
+    "disjoint_pairs": 80,
+    "junctions_with_disjoint_pairs": 35
+  },
+  "houses": {
+    "102816009": {
+      "origins": 24,
+      "queries": 31,
+      "visible_route_queries": 33,
+      "zero_routes": 60,
+      "distinct_instances_summed_over_route_queries": 45,
+      "disjoint_pairs": 6,
+      "junctions_with_disjoint_pairs": 2
+    },
+    "103997919_171031233": {
+      "origins": 24,
+      "queries": 34,
+      "visible_route_queries": 36,
+      "zero_routes": 66,
+      "distinct_instances_summed_over_route_queries": 36,
+      "disjoint_pairs": 8,
+      "junctions_with_disjoint_pairs": 5
+    },
+    "104348133_171513054": {
+      "origins": 15,
+      "queries": 28,
+      "visible_route_queries": 32,
+      "zero_routes": 52,
+      "distinct_instances_summed_over_route_queries": 36,
+      "disjoint_pairs": 12,
+      "junctions_with_disjoint_pairs": 4
+    },
+    "106366134_174226362": {
+      "origins": 16,
+      "queries": 19,
+      "visible_route_queries": 21,
+      "zero_routes": 36,
+      "distinct_instances_summed_over_route_queries": 22,
+      "disjoint_pairs": 0,
+      "junctions_with_disjoint_pairs": 0
+    },
+    "107734017_175999794": {
+      "origins": 24,
+      "queries": 58,
+      "visible_route_queries": 61,
+      "zero_routes": 113,
+      "distinct_instances_summed_over_route_queries": 70,
+      "disjoint_pairs": 37,
+      "junctions_with_disjoint_pairs": 14
+    },
+    "108294816_176710461": {
+      "origins": 24,
+      "queries": 48,
+      "visible_route_queries": 58,
+      "zero_routes": 86,
+      "distinct_instances_summed_over_route_queries": 70,
+      "disjoint_pairs": 17,
+      "junctions_with_disjoint_pairs": 10
+    }
+  },
+  "n_houses": 6,
+  "target_query_counts": {
+    "sofa.n.01": 10,
+    "cabinet.n.01": 14,
+    "chair.n.01": 17,
+    "table.n.02": 17,
+    "toilet.n.02": 20,
+    "stool.n.01": 11,
+    "wall_art.n.01": 6,
+    "basket.n.01": 6,
+    "bed.n.01": 27,
+    "potted_plant.n.01": 10,
+    "refrigerator.n.01": 9,
+    "bathtub.n.01": 11,
+    "bookcase.n.01": 15,
+    "mirror.n.01": 23,
+    "shelf.n.01": 6,
+    "ceiling_lamp.n.01": 3,
+    "television_receiver.n.01": 7,
+    "floor_lamp.n.01": 1,
+    "vase.n.01": 2,
+    "sink.n.01": 2,
+    "picture_frame.n.01": 1
+  },
+  "first_instance_pixels_quartiles": [
+    34.0,
+    152.0,
+    317.0,
+    765.0,
+    5931.0
+  ]
+}

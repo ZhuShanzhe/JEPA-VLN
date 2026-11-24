@@ -1,0 +1,8 @@
+{
+  "arm": "v12_jepa_crop",
+  "samples": 6,
+  "rooms": 6,
+  "exact_choice": 6,
+  "max_score_error": 3.242662378055705e-07,
+  "source": "one calibration junction per house; fresh RGB, text, plans and reset episode memory"
+}

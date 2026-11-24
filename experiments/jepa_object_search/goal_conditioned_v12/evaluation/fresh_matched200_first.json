@@ -1,0 +1,1916 @@
+{
+  "split": "fresh",
+  "paired_seeds": [
+    11,
+    29,
+    47
+  ],
+  "actions_per_route": 24,
+  "locked_predictions_sha256": "7b395f44e29237b09562bc48595c89f3198797ed3874d7c407b780fad799a848",
+  "aggregation": "average goals or pairs at each origin, then origins and paired seeds in each house, then houses",
+  "uncertainty": "20,000 house-paired bootstrap draws; intervals condition on these three seeds",
+  "choice": {
+    "1_profitable_routes": {
+      "houses": 16,
+      "origins": 299,
+      "unique_query_or_goal_pairs": 461,
+      "mean": {
+        "v12_jepa_crop": {
+          "hit": 0.4536842284124893,
+          "number_distinct_instances": 0.6061984634561628,
+          "fraction_of_room_instances": 0.1937408914601263,
+          "uniform_choice_hit": 0.33333333333333315,
+          "best_route_hit": 1.0,
+          "tied_high_score": 0.0026041666666666665
+        },
+        "v12_jepa": {
+          "hit": 0.4560433255519306,
+          "number_distinct_instances": 0.6005909574523706,
+          "fraction_of_room_instances": 0.20262463510694087,
+          "uniform_choice_hit": 0.33333333333333315,
+          "best_route_hit": 1.0,
+          "tied_high_score": 0.0026041666666666665
+        },
+        "v12_direct": {
+          "hit": 0.42227556142864114,
+          "number_distinct_instances": 0.5527754413963653,
+          "fraction_of_room_instances": 0.18795334725139173,
+          "uniform_choice_hit": 0.33333333333333315,
+          "best_route_hit": 1.0,
+          "tied_high_score": 0.0026041666666666665
+        },
+        "v11_jepa": {
+          "hit": 0.4604115963377739,
+          "number_distinct_instances": 0.6713016225923836,
+          "fraction_of_room_instances": 0.1931378623020432,
+          "uniform_choice_hit": 0.33333333333333315,
+          "best_route_hit": 1.0,
+          "tied_high_score": 0.001736111111111111
+        },
+        "v11_direct": {
+          "hit": 0.4465854057962301,
+          "number_distinct_instances": 0.5948894978729671,
+          "fraction_of_room_instances": 0.20376042876033287,
+          "uniform_choice_hit": 0.33333333333333315,
+          "best_route_hit": 1.0,
+          "tied_high_score": 0.0026041666666666665
+        }
+      },
+      "comparisons": {
+        "v12_jepa_crop_minus_v11_jepa": {
+          "hit": {
+            "delta": -0.006727367925284583,
+            "ci95": [
+              -0.042816687922836,
+              0.030161687805199792
+            ],
+            "house_wins_ties_losses": [
+              6,
+              3,
+              7
+            ]
+          },
+          "number_distinct_instances": {
+            "delta": -0.06510315913622072,
+            "ci95": [
+              -0.1987573665452402,
+              0.028025455719635967
+            ],
+            "house_wins_ties_losses": [
+              8,
+              1,
+              7
+            ]
+          },
+          "fraction_of_room_instances": {
+            "delta": 0.0006030291580831114,
+            "ci95": [
+              -0.018310536151031447,
+              0.022982115079428843
+            ],
+            "house_wins_ties_losses": [
+              9,
+              0,
+              7
+            ]
+          },
+          "uniform_choice_hit": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              16,
+              0
+            ]
+          },
+          "best_route_hit": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              16,
+              0
+            ]
+          },
+          "tied_high_score": {
+            "delta": 0.0008680555555555555,
+            "ci95": [
+              0.0,
+              0.0026041666666666665
+            ],
+            "house_wins_ties_losses": [
+              1,
+              15,
+              0
+            ]
+          }
+        },
+        "v12_jepa_crop_minus_v12_direct": {
+          "hit": {
+            "delta": 0.03140866698384815,
+            "ci95": [
+              0.010590949010899204,
+              0.049251825863012494
+            ],
+            "house_wins_ties_losses": [
+              14,
+              0,
+              2
+            ]
+          },
+          "number_distinct_instances": {
+            "delta": 0.05342302205979742,
+            "ci95": [
+              0.01882688818830122,
+              0.08961561052423819
+            ],
+            "house_wins_ties_losses": [
+              13,
+              0,
+              3
+            ]
+          },
+          "fraction_of_room_instances": {
+            "delta": 0.005787544208734561,
+            "ci95": [
+              -0.007049867909144524,
+              0.017630278455727785
+            ],
+            "house_wins_ties_losses": [
+              12,
+              0,
+              4
+            ]
+          },
+          "uniform_choice_hit": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              16,
+              0
+            ]
+          },
+          "best_route_hit": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              16,
+              0
+            ]
+          },
+          "tied_high_score": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              16,
+              0
+            ]
+          }
+        },
+        "v12_jepa_crop_minus_v12_jepa": {
+          "hit": {
+            "delta": -0.0023590971394413345,
+            "ci95": [
+              -0.02170446675824847,
+              0.01876203604039877
+            ],
+            "house_wins_ties_losses": [
+              6,
+              1,
+              9
+            ]
+          },
+          "number_distinct_instances": {
+            "delta": 0.005607506003792239,
+            "ci95": [
+              -0.018625122455795024,
+              0.03275312568620988
+            ],
+            "house_wins_ties_losses": [
+              9,
+              1,
+              6
+            ]
+          },
+          "fraction_of_room_instances": {
+            "delta": -0.008883743646814608,
+            "ci95": [
+              -0.01955736563129476,
+              0.001224132509602519
+            ],
+            "house_wins_ties_losses": [
+              7,
+              1,
+              8
+            ]
+          },
+          "uniform_choice_hit": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              16,
+              0
+            ]
+          },
+          "best_route_hit": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              16,
+              0
+            ]
+          },
+          "tied_high_score": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              16,
+              0
+            ]
+          }
+        },
+        "v12_jepa_minus_v11_jepa": {
+          "hit": {
+            "delta": -0.004368270785843249,
+            "ci95": [
+              -0.043129568197502965,
+              0.03491038425141684
+            ],
+            "house_wins_ties_losses": [
+              7,
+              1,
+              8
+            ]
+          },
+          "number_distinct_instances": {
+            "delta": -0.07071066514001295,
+            "ci95": [
+              -0.2233269099182822,
+              0.03554136898226575
+            ],
+            "house_wins_ties_losses": [
+              8,
+              1,
+              7
+            ]
+          },
+          "fraction_of_room_instances": {
+            "delta": 0.009486772804897719,
+            "ci95": [
+              -0.01145744181005979,
+              0.03464610021013019
+            ],
+            "house_wins_ties_losses": [
+              9,
+              1,
+              6
+            ]
+          },
+          "uniform_choice_hit": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              16,
+              0
+            ]
+          },
+          "best_route_hit": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              16,
+              0
+            ]
+          },
+          "tied_high_score": {
+            "delta": 0.0008680555555555555,
+            "ci95": [
+              0.0,
+              0.0026041666666666665
+            ],
+            "house_wins_ties_losses": [
+              1,
+              15,
+              0
+            ]
+          }
+        },
+        "v12_jepa_minus_v12_direct": {
+          "hit": {
+            "delta": 0.03376776412328948,
+            "ci95": [
+              0.009342086431080993,
+              0.056373387760672605
+            ],
+            "house_wins_ties_losses": [
+              12,
+              1,
+              3
+            ]
+          },
+          "number_distinct_instances": {
+            "delta": 0.047815516056005175,
+            "ci95": [
+              0.016697498732145488,
+              0.07843955495365142
+            ],
+            "house_wins_ties_losses": [
+              14,
+              0,
+              2
+            ]
+          },
+          "fraction_of_room_instances": {
+            "delta": 0.014671287855549171,
+            "ci95": [
+              -0.0016409178581185413,
+              0.032623384544049776
+            ],
+            "house_wins_ties_losses": [
+              12,
+              0,
+              4
+            ]
+          },
+          "uniform_choice_hit": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              16,
+              0
+            ]
+          },
+          "best_route_hit": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              16,
+              0
+            ]
+          },
+          "tied_high_score": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              16,
+              0
+            ]
+          }
+        },
+        "v12_direct_minus_v11_direct": {
+          "hit": {
+            "delta": -0.024309844367588943,
+            "ci95": [
+              -0.05986583697351361,
+              0.009707636789413275
+            ],
+            "house_wins_ties_losses": [
+              6,
+              0,
+              10
+            ]
+          },
+          "number_distinct_instances": {
+            "delta": -0.04211405647660178,
+            "ci95": [
+              -0.09486361625387325,
+              0.006520891375256013
+            ],
+            "house_wins_ties_losses": [
+              7,
+              0,
+              9
+            ]
+          },
+          "fraction_of_room_instances": {
+            "delta": -0.015807081508941098,
+            "ci95": [
+              -0.039347636772876074,
+              0.00521074013337071
+            ],
+            "house_wins_ties_losses": [
+              7,
+              0,
+              9
+            ]
+          },
+          "uniform_choice_hit": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              16,
+              0
+            ]
+          },
+          "best_route_hit": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              16,
+              0
+            ]
+          },
+          "tied_high_score": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              16,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "2_profitable_routes": {
+      "houses": 14,
+      "origins": 51,
+      "unique_query_or_goal_pairs": 64,
+      "mean": {
+        "v12_jepa_crop": {
+          "hit": 0.7101851851851851,
+          "number_distinct_instances": 0.9015873015873017,
+          "fraction_of_room_instances": 0.2237762116130491,
+          "uniform_choice_hit": 0.6666666666666666,
+          "best_route_hit": 1.0,
+          "tied_high_score": 0.011904761904761904
+        },
+        "v12_jepa": {
+          "hit": 0.7218253968253967,
+          "number_distinct_instances": 0.8953703703703705,
+          "fraction_of_room_instances": 0.22245355291994223,
+          "uniform_choice_hit": 0.6666666666666666,
+          "best_route_hit": 1.0,
+          "tied_high_score": 0.011904761904761904
+        },
+        "v12_direct": {
+          "hit": 0.6665343915343914,
+          "number_distinct_instances": 0.8529100529100528,
+          "fraction_of_room_instances": 0.2043374725142284,
+          "uniform_choice_hit": 0.6666666666666666,
+          "best_route_hit": 1.0,
+          "tied_high_score": 0.011904761904761904
+        },
+        "v11_jepa": {
+          "hit": 0.6506613756613756,
+          "number_distinct_instances": 0.8046296296296295,
+          "fraction_of_room_instances": 0.19282975001694866,
+          "uniform_choice_hit": 0.6666666666666666,
+          "best_route_hit": 1.0,
+          "tied_high_score": 0.011904761904761904
+        },
+        "v11_direct": {
+          "hit": 0.7112433862433861,
+          "number_distinct_instances": 0.843915343915344,
+          "fraction_of_room_instances": 0.20815985507835028,
+          "uniform_choice_hit": 0.6666666666666666,
+          "best_route_hit": 1.0,
+          "tied_high_score": 0.014285714285714287
+        }
+      },
+      "comparisons": {
+        "v12_jepa_crop_minus_v11_jepa": {
+          "hit": {
+            "delta": 0.05952380952380954,
+            "ci95": [
+              -0.07063492063492062,
+              0.20317460317460317
+            ],
+            "house_wins_ties_losses": [
+              8,
+              1,
+              5
+            ]
+          },
+          "number_distinct_instances": {
+            "delta": 0.09695767195767198,
+            "ci95": [
+              -0.07566137566137564,
+              0.28928571428571426
+            ],
+            "house_wins_ties_losses": [
+              8,
+              1,
+              5
+            ]
+          },
+          "fraction_of_room_instances": {
+            "delta": 0.030946461596100375,
+            "ci95": [
+              -0.0005258350641629525,
+              0.06362573546333566
+            ],
+            "house_wins_ties_losses": [
+              9,
+              0,
+              5
+            ]
+          },
+          "uniform_choice_hit": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              14,
+              0
+            ]
+          },
+          "best_route_hit": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              14,
+              0
+            ]
+          },
+          "tied_high_score": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              14,
+              0
+            ]
+          }
+        },
+        "v12_jepa_crop_minus_v12_direct": {
+          "hit": {
+            "delta": 0.043650793650793655,
+            "ci95": [
+              -0.040476190476190485,
+              0.13968253968253969
+            ],
+            "house_wins_ties_losses": [
+              6,
+              4,
+              4
+            ]
+          },
+          "number_distinct_instances": {
+            "delta": 0.0486772486772487,
+            "ci95": [
+              -0.08280423280423281,
+              0.20423280423280424
+            ],
+            "house_wins_ties_losses": [
+              5,
+              4,
+              5
+            ]
+          },
+          "fraction_of_room_instances": {
+            "delta": 0.01943873909882066,
+            "ci95": [
+              -0.005378722313632486,
+              0.04639340390927036
+            ],
+            "house_wins_ties_losses": [
+              5,
+              3,
+              6
+            ]
+          },
+          "uniform_choice_hit": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              14,
+              0
+            ]
+          },
+          "best_route_hit": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              14,
+              0
+            ]
+          },
+          "tied_high_score": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              14,
+              0
+            ]
+          }
+        },
+        "v12_jepa_crop_minus_v12_jepa": {
+          "hit": {
+            "delta": -0.011640211640211633,
+            "ci95": [
+              -0.08280423280423278,
+              0.0535714285714286
+            ],
+            "house_wins_ties_losses": [
+              3,
+              6,
+              5
+            ]
+          },
+          "number_distinct_instances": {
+            "delta": 0.006216931216931216,
+            "ci95": [
+              -0.07592592592592594,
+              0.08955026455026456
+            ],
+            "house_wins_ties_losses": [
+              3,
+              7,
+              4
+            ]
+          },
+          "fraction_of_room_instances": {
+            "delta": 0.001322658693106869,
+            "ci95": [
+              -0.014880957012434607,
+              0.01926835317460315
+            ],
+            "house_wins_ties_losses": [
+              3,
+              6,
+              5
+            ]
+          },
+          "uniform_choice_hit": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              14,
+              0
+            ]
+          },
+          "best_route_hit": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              14,
+              0
+            ]
+          },
+          "tied_high_score": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              14,
+              0
+            ]
+          }
+        },
+        "v12_jepa_minus_v11_jepa": {
+          "hit": {
+            "delta": 0.07116402116402118,
+            "ci95": [
+              -0.04444444444444444,
+              0.20793650793650795
+            ],
+            "house_wins_ties_losses": [
+              7,
+              2,
+              5
+            ]
+          },
+          "number_distinct_instances": {
+            "delta": 0.09074074074074076,
+            "ci95": [
+              -0.05741402116402115,
+              0.257936507936508
+            ],
+            "house_wins_ties_losses": [
+              6,
+              2,
+              6
+            ]
+          },
+          "fraction_of_room_instances": {
+            "delta": 0.029623802902993514,
+            "ci95": [
+              0.00125323576940343,
+              0.0617980303521969
+            ],
+            "house_wins_ties_losses": [
+              7,
+              1,
+              6
+            ]
+          },
+          "uniform_choice_hit": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              14,
+              0
+            ]
+          },
+          "best_route_hit": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              14,
+              0
+            ]
+          },
+          "tied_high_score": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              14,
+              0
+            ]
+          }
+        },
+        "v12_jepa_minus_v12_direct": {
+          "hit": {
+            "delta": 0.055291005291005293,
+            "ci95": [
+              -0.02539682539682541,
+              0.14100529100529102
+            ],
+            "house_wins_ties_losses": [
+              7,
+              3,
+              4
+            ]
+          },
+          "number_distinct_instances": {
+            "delta": 0.04246031746031747,
+            "ci95": [
+              -0.07222222222222223,
+              0.15634920634920638
+            ],
+            "house_wins_ties_losses": [
+              6,
+              3,
+              5
+            ]
+          },
+          "fraction_of_room_instances": {
+            "delta": 0.018116080405713792,
+            "ci95": [
+              -0.001317674114612852,
+              0.039528654388539766
+            ],
+            "house_wins_ties_losses": [
+              7,
+              3,
+              4
+            ]
+          },
+          "uniform_choice_hit": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              14,
+              0
+            ]
+          },
+          "best_route_hit": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              14,
+              0
+            ]
+          },
+          "tied_high_score": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              14,
+              0
+            ]
+          }
+        },
+        "v12_direct_minus_v11_direct": {
+          "hit": {
+            "delta": -0.04470899470899471,
+            "ci95": [
+              -0.12725198412698413,
+              0.03373015873015871
+            ],
+            "house_wins_ties_losses": [
+              5,
+              3,
+              6
+            ]
+          },
+          "number_distinct_instances": {
+            "delta": 0.008994708994708975,
+            "ci95": [
+              -0.08267195767195769,
+              0.09960317460317458
+            ],
+            "house_wins_ties_losses": [
+              6,
+              3,
+              5
+            ]
+          },
+          "fraction_of_room_instances": {
+            "delta": -0.0038223825641218482,
+            "ci95": [
+              -0.022802181552809556,
+              0.013899610812555571
+            ],
+            "house_wins_ties_losses": [
+              7,
+              1,
+              6
+            ]
+          },
+          "uniform_choice_hit": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              14,
+              0
+            ]
+          },
+          "best_route_hit": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              14,
+              0
+            ]
+          },
+          "tied_high_score": {
+            "delta": -0.0023809523809523825,
+            "ci95": [
+              -0.007142857142857147,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              13,
+              1
+            ]
+          }
+        }
+      }
+    },
+    "all": {
+      "houses": 16,
+      "origins": 317,
+      "unique_query_or_goal_pairs": 525,
+      "mean": {
+        "v12_jepa_crop": {
+          "hit": 0.47914737654321,
+          "number_distinct_instances": 0.6480262696408529,
+          "fraction_of_room_instances": 0.19874631777120744,
+          "uniform_choice_hit": 0.36583193041526363,
+          "best_route_hit": 1.0,
+          "tied_high_score": 0.006944444444444444
+        },
+        "v12_jepa": {
+          "hit": 0.4783902391975309,
+          "number_distinct_instances": 0.6372240197109988,
+          "fraction_of_room_instances": 0.2057966271146364,
+          "uniform_choice_hit": 0.36583193041526363,
+          "best_route_hit": 1.0,
+          "tied_high_score": 0.006944444444444444
+        },
+        "v12_direct": {
+          "hit": 0.4456255260942762,
+          "number_distinct_instances": 0.5931397306397307,
+          "fraction_of_room_instances": 0.19111740498595667,
+          "uniform_choice_hit": 0.36583193041526363,
+          "best_route_hit": 1.0,
+          "tied_high_score": 0.006944444444444444
+        },
+        "v11_jepa": {
+          "hit": 0.47533472748316496,
+          "number_distinct_instances": 0.66501078493266,
+          "fraction_of_room_instances": 0.19236550075172787,
+          "uniform_choice_hit": 0.36583193041526363,
+          "best_route_hit": 1.0,
+          "tied_high_score": 0.006076388888888889
+        },
+        "v11_direct": {
+          "hit": 0.4689968258978675,
+          "number_distinct_instances": 0.6301105674803592,
+          "fraction_of_room_instances": 0.20474922405316304,
+          "uniform_choice_hit": 0.36583193041526363,
+          "best_route_hit": 1.0,
+          "tied_high_score": 0.0078125
+        }
+      },
+      "comparisons": {
+        "v12_jepa_crop_minus_v11_jepa": {
+          "hit": {
+            "delta": 0.003812649060044887,
+            "ci95": [
+              -0.033305110567480374,
+              0.040706791219486484
+            ],
+            "house_wins_ties_losses": [
+              7,
+              0,
+              9
+            ]
+          },
+          "number_distinct_instances": {
+            "delta": -0.016984515291806928,
+            "ci95": [
+              -0.07632686456579683,
+              0.03578426408179007
+            ],
+            "house_wins_ties_losses": [
+              8,
+              1,
+              7
+            ]
+          },
+          "fraction_of_room_instances": {
+            "delta": 0.006380817019479544,
+            "ci95": [
+              -0.010638507980322379,
+              0.027373085045148914
+            ],
+            "house_wins_ties_losses": [
+              8,
+              0,
+              8
+            ]
+          },
+          "uniform_choice_hit": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              16,
+              0
+            ]
+          },
+          "best_route_hit": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              16,
+              0
+            ]
+          },
+          "tied_high_score": {
+            "delta": 0.0008680555555555555,
+            "ci95": [
+              0.0,
+              0.0026041666666666665
+            ],
+            "house_wins_ties_losses": [
+              1,
+              15,
+              0
+            ]
+          }
+        },
+        "v12_jepa_crop_minus_v12_direct": {
+          "hit": {
+            "delta": 0.033521850448933764,
+            "ci95": [
+              0.011208285108024654,
+              0.05529250841750839
+            ],
+            "house_wins_ties_losses": [
+              14,
+              0,
+              2
+            ]
+          },
+          "number_distinct_instances": {
+            "delta": 0.05488653900112235,
+            "ci95": [
+              0.020887696408529777,
+              0.09086937079124577
+            ],
+            "house_wins_ties_losses": [
+              13,
+              0,
+              3
+            ]
+          },
+          "fraction_of_room_instances": {
+            "delta": 0.007628912785250749,
+            "ci95": [
+              -0.006068554501253491,
+              0.022240813677595908
+            ],
+            "house_wins_ties_losses": [
+              11,
+              0,
+              5
+            ]
+          },
+          "uniform_choice_hit": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              16,
+              0
+            ]
+          },
+          "best_route_hit": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              16,
+              0
+            ]
+          },
+          "tied_high_score": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              16,
+              0
+            ]
+          }
+        },
+        "v12_jepa_crop_minus_v12_jepa": {
+          "hit": {
+            "delta": 0.0007571373456790077,
+            "ci95": [
+              -0.01810382470538722,
+              0.020732038264590316
+            ],
+            "house_wins_ties_losses": [
+              5,
+              1,
+              10
+            ]
+          },
+          "number_distinct_instances": {
+            "delta": 0.010802249929854117,
+            "ci95": [
+              -0.012983502560325462,
+              0.036965208727904035
+            ],
+            "house_wins_ties_losses": [
+              9,
+              2,
+              5
+            ]
+          },
+          "fraction_of_room_instances": {
+            "delta": -0.007050309343428958,
+            "ci95": [
+              -0.015770905379851183,
+              0.0014549419622613144
+            ],
+            "house_wins_ties_losses": [
+              6,
+              1,
+              9
+            ]
+          },
+          "uniform_choice_hit": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              16,
+              0
+            ]
+          },
+          "best_route_hit": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              16,
+              0
+            ]
+          },
+          "tied_high_score": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              16,
+              0
+            ]
+          }
+        },
+        "v12_jepa_minus_v11_jepa": {
+          "hit": {
+            "delta": 0.0030555117143658793,
+            "ci95": [
+              -0.03521770438762627,
+              0.03982096902181538
+            ],
+            "house_wins_ties_losses": [
+              8,
+              0,
+              8
+            ]
+          },
+          "number_distinct_instances": {
+            "delta": -0.027786765221661045,
+            "ci95": [
+              -0.10107737531565653,
+              0.036117117354096555
+            ],
+            "house_wins_ties_losses": [
+              7,
+              0,
+              9
+            ]
+          },
+          "fraction_of_room_instances": {
+            "delta": 0.013431126362908502,
+            "ci95": [
+              -0.004864559696462001,
+              0.036841776492768506
+            ],
+            "house_wins_ties_losses": [
+              8,
+              0,
+              8
+            ]
+          },
+          "uniform_choice_hit": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              16,
+              0
+            ]
+          },
+          "best_route_hit": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              16,
+              0
+            ]
+          },
+          "tied_high_score": {
+            "delta": 0.0008680555555555555,
+            "ci95": [
+              0.0,
+              0.0026041666666666665
+            ],
+            "house_wins_ties_losses": [
+              1,
+              15,
+              0
+            ]
+          }
+        },
+        "v12_jepa_minus_v12_direct": {
+          "hit": {
+            "delta": 0.03276471310325475,
+            "ci95": [
+              0.01052303635311446,
+              0.05430894228745787
+            ],
+            "house_wins_ties_losses": [
+              14,
+              0,
+              2
+            ]
+          },
+          "number_distinct_instances": {
+            "delta": 0.04408428907126824,
+            "ci95": [
+              0.01639028632680979,
+              0.07120820838594275
+            ],
+            "house_wins_ties_losses": [
+              14,
+              0,
+              2
+            ]
+          },
+          "fraction_of_room_instances": {
+            "delta": 0.014679222128679708,
+            "ci95": [
+              -0.0006532473732951611,
+              0.032149433116791006
+            ],
+            "house_wins_ties_losses": [
+              12,
+              0,
+              4
+            ]
+          },
+          "uniform_choice_hit": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              16,
+              0
+            ]
+          },
+          "best_route_hit": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              16,
+              0
+            ]
+          },
+          "tied_high_score": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              16,
+              0
+            ]
+          }
+        },
+        "v12_direct_minus_v11_direct": {
+          "hit": {
+            "delta": -0.023371299803591452,
+            "ci95": [
+              -0.0542156920770202,
+              0.007413632856341201
+            ],
+            "house_wins_ties_losses": [
+              7,
+              0,
+              9
+            ]
+          },
+          "number_distinct_instances": {
+            "delta": -0.03697083684062853,
+            "ci95": [
+              -0.08526478982533676,
+              0.005986163720538727
+            ],
+            "house_wins_ties_losses": [
+              8,
+              0,
+              8
+            ]
+          },
+          "fraction_of_room_instances": {
+            "delta": -0.013631819067206351,
+            "ci95": [
+              -0.034947716740822206,
+              0.005269045201279882
+            ],
+            "house_wins_ties_losses": [
+              6,
+              0,
+              10
+            ]
+          },
+          "uniform_choice_hit": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              16,
+              0
+            ]
+          },
+          "best_route_hit": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              16,
+              0
+            ]
+          },
+          "tied_high_score": {
+            "delta": -0.0008680555555555551,
+            "ci95": [
+              -0.0026041666666666652,
+              0.0
+            ],
+            "house_wins_ties_losses": [
+              0,
+              15,
+              1
+            ]
+          }
+        }
+      }
+    }
+  },
+  "disjoint_targets": {
+    "houses": 15,
+    "origins": 81,
+    "unique_query_or_goal_pairs": 157,
+    "mean": {
+      "v12_jepa_crop": {
+        "hit_given_right_goal": 0.3922885602052269,
+        "hit_after_exchanging_routes": 0.37805415263748604,
+        "paired_goal_advantage": 0.014234407567740893,
+        "both_goals_satisfied": 0.07059804393137727,
+        "changed_route": 0.2774362674362674
+      },
+      "v12_jepa": {
+        "hit_given_right_goal": 0.3797915664582331,
+        "hit_after_exchanging_routes": 0.3905800064133398,
+        "paired_goal_advantage": -0.010788439955106621,
+        "both_goals_satisfied": 0.06516754850088183,
+        "changed_route": 0.3282050665383999
+      },
+      "v12_direct": {
+        "hit_given_right_goal": 0.3694576719576718,
+        "hit_after_exchanging_routes": 0.3982299182299182,
+        "paired_goal_advantage": -0.02877224627224628,
+        "both_goals_satisfied": 0.08282748116081451,
+        "changed_route": 0.42317700817700815
+      },
+      "v11_jepa": {
+        "hit_given_right_goal": 0.39314093314093307,
+        "hit_after_exchanging_routes": 0.40236852653519317,
+        "paired_goal_advantage": -0.00922759339426006,
+        "both_goals_satisfied": 0.05606060606060605,
+        "changed_route": 0.22869007535674205
+      },
+      "v11_direct": {
+        "hit_given_right_goal": 0.38412437870771204,
+        "hit_after_exchanging_routes": 0.3981972502805836,
+        "paired_goal_advantage": -0.014072871572871574,
+        "both_goals_satisfied": 0.11316498316498318,
+        "changed_route": 0.39806557639890977
+      }
+    },
+    "comparisons": {
+      "v12_jepa_crop_minus_v11_jepa": {
+        "hit_given_right_goal": {
+          "delta": -0.0008523729357062896,
+          "ci95": [
+            -0.043877966169632854,
+            0.04311510942760929
+          ],
+          "house_wins_ties_losses": [
+            7,
+            0,
+            8
+          ]
+        },
+        "hit_after_exchanging_routes": {
+          "delta": -0.02431437389770723,
+          "ci95": [
+            -0.06285769400352732,
+            0.009905257936507936
+          ],
+          "house_wins_ties_losses": [
+            6,
+            3,
+            6
+          ]
+        },
+        "paired_goal_advantage": {
+          "delta": 0.023462000962000965,
+          "ci95": [
+            -0.03744570707070707,
+            0.08424374699374688
+          ],
+          "house_wins_ties_losses": [
+            8,
+            0,
+            7
+          ]
+        },
+        "both_goals_satisfied": {
+          "delta": 0.014537437870771204,
+          "ci95": [
+            -0.021119809203142537,
+            0.0509042809042809
+          ],
+          "house_wins_ties_losses": [
+            7,
+            5,
+            3
+          ]
+        },
+        "changed_route": {
+          "delta": 0.048746192079525415,
+          "ci95": [
+            -0.03041476270642937,
+            0.12392586580086554
+          ],
+          "house_wins_ties_losses": [
+            10,
+            1,
+            4
+          ]
+        }
+      },
+      "v12_jepa_crop_minus_v12_direct": {
+        "hit_given_right_goal": {
+          "delta": 0.022830888247554904,
+          "ci95": [
+            -0.019490961199294544,
+            0.06220238596280262
+          ],
+          "house_wins_ties_losses": [
+            10,
+            0,
+            5
+          ]
+        },
+        "hit_after_exchanging_routes": {
+          "delta": -0.020175765592432244,
+          "ci95": [
+            -0.056938462000962003,
+            0.012521043771043787
+          ],
+          "house_wins_ties_losses": [
+            5,
+            2,
+            8
+          ]
+        },
+        "paired_goal_advantage": {
+          "delta": 0.04300665383998717,
+          "ci95": [
+            -0.01558677048260383,
+            0.1022126022126022
+          ],
+          "house_wins_ties_losses": [
+            9,
+            1,
+            5
+          ]
+        },
+        "both_goals_satisfied": {
+          "delta": -0.01222943722943723,
+          "ci95": [
+            -0.04392340067340068,
+            0.02091167628667627
+          ],
+          "house_wins_ties_losses": [
+            5,
+            3,
+            7
+          ]
+        },
+        "changed_route": {
+          "delta": -0.14574074074074075,
+          "ci95": [
+            -0.2040740740740741,
+            -0.0933950617283951
+          ],
+          "house_wins_ties_losses": [
+            0,
+            1,
+            14
+          ]
+        }
+      },
+      "v12_jepa_crop_minus_v12_jepa": {
+        "hit_given_right_goal": {
+          "delta": 0.012496993746993739,
+          "ci95": [
+            -0.012692765953182639,
+            0.03619519600769597
+          ],
+          "house_wins_ties_losses": [
+            9,
+            0,
+            6
+          ]
+        },
+        "hit_after_exchanging_routes": {
+          "delta": -0.012525853775853775,
+          "ci95": [
+            -0.04154139109347444,
+            0.015118646785313454
+          ],
+          "house_wins_ties_losses": [
+            5,
+            2,
+            8
+          ]
+        },
+        "paired_goal_advantage": {
+          "delta": 0.025022847522847513,
+          "ci95": [
+            -0.02005291005291006,
+            0.0719276996151996
+          ],
+          "house_wins_ties_losses": [
+            8,
+            1,
+            6
+          ]
+        },
+        "both_goals_satisfied": {
+          "delta": 0.005430495430495426,
+          "ci95": [
+            -0.01919191919191919,
+            0.030952380952380943
+          ],
+          "house_wins_ties_losses": [
+            5,
+            7,
+            3
+          ]
+        },
+        "changed_route": {
+          "delta": -0.05076879910213245,
+          "ci95": [
+            -0.13774410774410775,
+            0.020062570145903395
+          ],
+          "house_wins_ties_losses": [
+            6,
+            1,
+            8
+          ]
+        }
+      },
+      "v12_jepa_minus_v11_jepa": {
+        "hit_given_right_goal": {
+          "delta": -0.01334936668270003,
+          "ci95": [
+            -0.05154952300785636,
+            0.023713003046336317
+          ],
+          "house_wins_ties_losses": [
+            6,
+            2,
+            7
+          ]
+        },
+        "hit_after_exchanging_routes": {
+          "delta": -0.011788520121853456,
+          "ci95": [
+            -0.04891885121051789,
+            0.026450727513227492
+          ],
+          "house_wins_ties_losses": [
+            6,
+            1,
+            8
+          ]
+        },
+        "paired_goal_advantage": {
+          "delta": -0.0015608465608465572,
+          "ci95": [
+            -0.06342592592592591,
+            0.05688536155202798
+          ],
+          "house_wins_ties_losses": [
+            9,
+            0,
+            6
+          ]
+        },
+        "both_goals_satisfied": {
+          "delta": 0.009106942440275774,
+          "ci95": [
+            -0.020370370370370372,
+            0.037243987493987475
+          ],
+          "house_wins_ties_losses": [
+            5,
+            8,
+            2
+          ]
+        },
+        "changed_route": {
+          "delta": 0.09951499118165784,
+          "ci95": [
+            0.008402557319223994,
+            0.19278659611992943
+          ],
+          "house_wins_ties_losses": [
+            11,
+            1,
+            3
+          ]
+        }
+      },
+      "v12_jepa_minus_v12_direct": {
+        "hit_given_right_goal": {
+          "delta": 0.010333894500561163,
+          "ci95": [
+            -0.025617424242424258,
+            0.043883908529741826
+          ],
+          "house_wins_ties_losses": [
+            8,
+            2,
+            5
+          ]
+        },
+        "hit_after_exchanging_routes": {
+          "delta": -0.0076499118165784695,
+          "ci95": [
+            -0.04394631834215167,
+            0.028342702821869466
+          ],
+          "house_wins_ties_losses": [
+            6,
+            4,
+            5
+          ]
+        },
+        "paired_goal_advantage": {
+          "delta": 0.017983806317139656,
+          "ci95": [
+            -0.03760754369087702,
+            0.07831691919191916
+          ],
+          "house_wins_ties_losses": [
+            7,
+            1,
+            7
+          ]
+        },
+        "both_goals_satisfied": {
+          "delta": -0.017659932659932664,
+          "ci95": [
+            -0.055808080808080814,
+            0.025185185185185185
+          ],
+          "house_wins_ties_losses": [
+            3,
+            4,
+            8
+          ]
+        },
+        "changed_route": {
+          "delta": -0.09497194163860831,
+          "ci95": [
+            -0.18432182940516273,
+            0.014013047138047078
+          ],
+          "house_wins_ties_losses": [
+            3,
+            0,
+            12
+          ]
+        }
+      },
+      "v12_direct_minus_v11_direct": {
+        "hit_given_right_goal": {
+          "delta": -0.014666706750040085,
+          "ci95": [
+            -0.06436770482603815,
+            0.03374873737373732
+          ],
+          "house_wins_ties_losses": [
+            7,
+            0,
+            8
+          ]
+        },
+        "hit_after_exchanging_routes": {
+          "delta": 3.266794933460271e-05,
+          "ci95": [
+            -0.06741513848805517,
+            0.05757093253968249
+          ],
+          "house_wins_ties_losses": [
+            10,
+            0,
+            5
+          ]
+        },
+        "paired_goal_advantage": {
+          "delta": -0.0146993746993747,
+          "ci95": [
+            -0.10334148027898028,
+            0.08614025172358494
+          ],
+          "house_wins_ties_losses": [
+            5,
+            0,
+            10
+          ]
+        },
+        "both_goals_satisfied": {
+          "delta": -0.030337502004168668,
+          "ci95": [
+            -0.07088211479878147,
+            0.007138167388167381
+          ],
+          "house_wins_ties_losses": [
+            5,
+            3,
+            7
+          ]
+        },
+        "changed_route": {
+          "delta": 0.025111431778098454,
+          "ci95": [
+            -0.03998637165303832,
+            0.09377200577200573
+          ],
+          "house_wins_ties_losses": [
+            6,
+            1,
+            8
+          ]
+        }
+      }
+    }
+  },
+  "source_audit": {
+    "planned_houses": 16,
+    "finished_receipts": 16,
+    "houses_without_eligible_queries": 0,
+    "cached_and_raw_query_ids_match": true,
+    "cached_and_raw_instance_counts_match": true
+  }
+}

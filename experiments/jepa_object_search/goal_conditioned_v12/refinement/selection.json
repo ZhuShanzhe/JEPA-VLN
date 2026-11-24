@@ -1,0 +1,262 @@
+{
+  "seeds": [
+    11,
+    29,
+    47
+  ],
+  "train_query_origins": 1333,
+  "extra_train_query_origins": 388,
+  "train_houses": 40,
+  "train_conflicts": 335,
+  "validation_houses": 6,
+  "criterion": "Eligible nonzero caps must improve actual first hit in >=2/3 seeds, have nonnegative mean delta in >=3/6 houses, and clear +0.5pp average. Maximize gain minus 0.4 house SE; ties use swap then smaller step and cap. Zero cap falls back to original.",
+  "arms": {
+    "rv_direct": {
+      "step": 160,
+      "cap": 0.06,
+      "grid": {
+        "160/0.0": {
+          "hit": 0.4417901234567901,
+          "swap": 0.059458874458874454,
+          "net": 0.0,
+          "regularized_gain": 0.0,
+          "eligible": true
+        },
+        "160/0.03": {
+          "hit": 0.44564814814814824,
+          "swap": 0.08696608946608946,
+          "net": 0.003858024691358036,
+          "regularized_gain": 0.0005807468238278944,
+          "eligible": false
+        },
+        "160/0.06": {
+          "hit": 0.453016975308642,
+          "swap": 0.10499639249639249,
+          "net": 0.011226851851851844,
+          "regularized_gain": 0.008031512918220964,
+          "eligible": true
+        },
+        "160/0.1": {
+          "hit": 0.44989197530864194,
+          "swap": 0.037316017316017316,
+          "net": 0.008101851851851841,
+          "regularized_gain": 0.0034568157582430693,
+          "eligible": true
+        },
+        "160/0.15": {
+          "hit": 0.4454783950617283,
+          "swap": 0.0005591630591630555,
+          "net": 0.0036882716049382535,
+          "regularized_gain": -0.0027873459658680137,
+          "eligible": false
+        },
+        "320/0.0": {
+          "hit": 0.4417901234567901,
+          "swap": 0.059458874458874454,
+          "net": 0.0,
+          "regularized_gain": 0.0,
+          "eligible": true
+        },
+        "320/0.03": {
+          "hit": 0.43249228395061734,
+          "swap": 0.04498196248196248,
+          "net": -0.009297839506172842,
+          "regularized_gain": -0.011207495478337083,
+          "eligible": false
+        },
+        "320/0.06": {
+          "hit": 0.4313348765432099,
+          "swap": 0.07577200577200577,
+          "net": -0.010455246913580253,
+          "regularized_gain": -0.013057786986289295,
+          "eligible": false
+        },
+        "320/0.1": {
+          "hit": 0.43152777777777773,
+          "swap": 0.08428571428571428,
+          "net": -0.010262345679012358,
+          "regularized_gain": -0.015812068268475452,
+          "eligible": false
+        },
+        "320/0.15": {
+          "hit": 0.4302083333333333,
+          "swap": 0.05147546897546898,
+          "net": -0.011581790123456797,
+          "regularized_gain": -0.018357012971643046,
+          "eligible": false
+        },
+        "480/0.0": {
+          "hit": 0.4417901234567901,
+          "swap": 0.059458874458874454,
+          "net": 0.0,
+          "regularized_gain": 0.0,
+          "eligible": true
+        },
+        "480/0.03": {
+          "hit": 0.4294058641975309,
+          "swap": 0.055299422799422814,
+          "net": -0.01238425925925926,
+          "regularized_gain": -0.015368725022828782,
+          "eligible": false
+        },
+        "480/0.06": {
+          "hit": 0.43577160493827155,
+          "swap": 0.05254689754689754,
+          "net": -0.006018518518518533,
+          "regularized_gain": -0.01065154196593265,
+          "eligible": false
+        },
+        "480/0.1": {
+          "hit": 0.42948302469135796,
+          "swap": 0.04966810966810967,
+          "net": -0.012307098765432109,
+          "regularized_gain": -0.020160035763395333,
+          "eligible": false
+        },
+        "480/0.15": {
+          "hit": 0.4279398148148148,
+          "swap": 0.06073232323232323,
+          "net": -0.01385030864197532,
+          "regularized_gain": -0.024588266366424562,
+          "eligible": false
+        }
+      },
+      "hashes": {
+        "11": "0840a6b9c62d70ed56473c944e13dbd8cc31d838d9b0cf993c1e4d3d5d07d3a7",
+        "29": "031ad25ab52f7876248e5b2086bcccc015dfdd4fce4a40bbc95d728b0c6e4114",
+        "47": "d2e23f942bc7aa4eb5229f44f85a817d7011e8b65fd2b478bc3ca6bad7edae5d"
+      },
+      "matched_hashes": {
+        "11": "40d1c0cb79d495c0b0461aacfd1229462312e68751c548833ddf97fc115c34fd",
+        "29": "bfdfef217abd915015cef50f53d9dd0240971138cd4a757b91f3e48fb598171b",
+        "47": "22d0ab8180c55dab28e43027c79acd875bc0bb738ae9d2178e383c7a38deee3b"
+      }
+    },
+    "rv_jepa": {
+      "step": 160,
+      "cap": 0.15,
+      "grid": {
+        "160/0.0": {
+          "hit": 0.4417901234567901,
+          "swap": 0.059458874458874454,
+          "net": 0.0,
+          "regularized_gain": 0.0,
+          "eligible": true
+        },
+        "160/0.03": {
+          "hit": 0.44487654320987663,
+          "swap": 0.08295815295815297,
+          "net": 0.003086419753086421,
+          "regularized_gain": 0.0009896977994717539,
+          "eligible": false
+        },
+        "160/0.06": {
+          "hit": 0.4508564814814815,
+          "swap": 0.08958513708513709,
+          "net": 0.009066358024691357,
+          "regularized_gain": 0.00516093925548862,
+          "eligible": true
+        },
+        "160/0.1": {
+          "hit": 0.442554012345679,
+          "swap": 0.054383116883116894,
+          "net": 0.000763888888888873,
+          "regularized_gain": -0.004365905087174312,
+          "eligible": false
+        },
+        "160/0.15": {
+          "hit": 0.45535493827160495,
+          "swap": 0.02718975468975469,
+          "net": 0.013564814814814802,
+          "regularized_gain": 0.007049541352060739,
+          "eligible": true
+        },
+        "320/0.0": {
+          "hit": 0.4417901234567901,
+          "swap": 0.059458874458874454,
+          "net": 0.0,
+          "regularized_gain": 0.0,
+          "eligible": true
+        },
+        "320/0.03": {
+          "hit": 0.4314891975308642,
+          "swap": 0.061727994227994236,
+          "net": -0.010300925925925927,
+          "regularized_gain": -0.013239069467589955,
+          "eligible": false
+        },
+        "320/0.06": {
+          "hit": 0.43862654320987654,
+          "swap": 0.07123015873015871,
+          "net": -0.003163580246913588,
+          "regularized_gain": -0.008538560530299905,
+          "eligible": false
+        },
+        "320/0.1": {
+          "hit": 0.43762345679012343,
+          "swap": 0.057745310245310245,
+          "net": -0.004166666666666673,
+          "regularized_gain": -0.011154187386935528,
+          "eligible": false
+        },
+        "320/0.15": {
+          "hit": 0.42993827160493825,
+          "swap": 0.05212842712842713,
+          "net": -0.011851851851851851,
+          "regularized_gain": -0.017621720211447235,
+          "eligible": false
+        },
+        "480/0.0": {
+          "hit": 0.4417901234567901,
+          "swap": 0.059458874458874454,
+          "net": 0.0,
+          "regularized_gain": 0.0,
+          "eligible": true
+        },
+        "480/0.03": {
+          "hit": 0.43418981481481483,
+          "swap": 0.06495310245310244,
+          "net": -0.00760030864197531,
+          "regularized_gain": -0.011533072360776185,
+          "eligible": false
+        },
+        "480/0.06": {
+          "hit": 0.4444135802469136,
+          "swap": 0.07911616161616163,
+          "net": 0.0026234567901234573,
+          "regularized_gain": -0.003844636378140941,
+          "eligible": false
+        },
+        "480/0.1": {
+          "hit": 0.43731481481481477,
+          "swap": 0.049390331890331894,
+          "net": -0.004475308641975322,
+          "regularized_gain": -0.011472501995746277,
+          "eligible": false
+        },
+        "480/0.15": {
+          "hit": 0.443449074074074,
+          "swap": 0.0727922077922078,
+          "net": 0.0016589506172839513,
+          "regularized_gain": -0.005826189999724782,
+          "eligible": false
+        }
+      },
+      "hashes": {
+        "11": "0194c13322a2fee936507da1dc9cba1e27d338fc27537fcc6b780eebd3578620",
+        "29": "cfeb8935f7d52feaba404eff2867c9d278750c3a70d30a9a280aa7d6d26544b3",
+        "47": "94cac25d16894dbc05eaaaf1e650c865c7247144456c72ff214267053f50db96"
+      },
+      "matched_hashes": {
+        "11": "2a0a88756c11549231dc58aaa3965640c129ad72c77f26a345a4fb097ae970b8",
+        "29": "fd25894e39bcfc40b920b13ddedea84f9d12dc7947da5e90822e10d89a0a8bdb",
+        "47": "20e391b42ec29034dfbc84cc001d288dba9939c277767ce32906f6c1fbc43f74"
+      }
+    }
+  },
+  "matched": {
+    "step": 320,
+    "cap": 0.1
+  },
+  "source_sha256": "a3624c06a6904e83762cc55d2a6cb4b84d3f06e5d25cee1428606b44c3d60fa8"
+}

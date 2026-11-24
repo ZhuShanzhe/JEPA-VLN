@@ -1,0 +1,49 @@
+{
+  "source": "first calibration house / origin in filename order; first stored query",
+  "scorer": "BoundedSelector rv_jepa seed=11",
+  "decisions": [
+    {
+      "scan_steps": 4,
+      "search_steps": 24,
+      "candidate_count": 3,
+      "distinct_plans": 3,
+      "odometric_path_m": 3.249999910593033,
+      "search_collisions": 0,
+      "search_rgb_samples": 4,
+      "observed_actions": 4,
+      "observed_frames": 3,
+      "clock": 4,
+      "choice": 2,
+      "scores": [
+        0.10437153092812254,
+        0.2665127281137146,
+        1.0270739674611524
+      ]
+    },
+    {
+      "scan_steps": 4,
+      "search_steps": 24,
+      "candidate_count": 3,
+      "distinct_plans": 3,
+      "odometric_path_m": 3.499999463558197,
+      "search_collisions": 0,
+      "search_rgb_samples": 4,
+      "observed_actions": 28,
+      "observed_frames": 7,
+      "clock": 32,
+      "choice": 1,
+      "scores": [
+        0.7598080744704099,
+        1.0403320161117264,
+        0.041881713005010535
+      ]
+    }
+  ],
+  "selection_uses_ground_truth": false,
+  "last_observations": {
+    "observed_actions": 24,
+    "observed_frames": 4,
+    "clock": 56
+  },
+  "termination": "two successive real choices executed"
+}
