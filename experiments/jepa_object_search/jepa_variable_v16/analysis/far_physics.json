@@ -1,0 +1,31 @@
+{
+  "archived_distant_forks": 2,
+  "ip_sockets_denied": true,
+  "cases": [
+    {
+      "ordinal": 1,
+      "step": 38,
+      "required_common_steps": 19,
+      "observed_without_collision": 9,
+      "archive_matching_prefix": 3,
+      "collision": true,
+      "distance_traveled_m": 1.164668662906599,
+      "displacement_m": 1.1504347156929435,
+      "heading_change_deg": 90.00000088311728,
+      "rotated_scan_completed": false
+    },
+    {
+      "ordinal": 39,
+      "step": 37,
+      "required_common_steps": 18,
+      "observed_without_collision": 14,
+      "archive_matching_prefix": 1,
+      "collision": true,
+      "distance_traveled_m": 1.6696231656606033,
+      "displacement_m": 1.6081162145242631,
+      "heading_change_deg": 119.99999253083807,
+      "rotated_scan_completed": false
+    }
+  ],
+  "scope": "Archived native geometry, physical Habitat motion and fresh RGB at the reached viewpoint. Historical live A* revisions and VLM interrupts are unavailable. No full-episode detection or search outcome is assessed."
+}

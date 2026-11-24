@@ -1,0 +1,101 @@
+{
+  "protocol": "independent local HM3D interventions at frozen V15 eligibility events",
+  "comparison_endpoint": "first distinct primitive, or first original action if unchanged",
+  "position_threshold_m": 0.005,
+  "heading_threshold_deg": 1.0,
+  "upstream": "archived MOST candidate geometry and actions; Habitat-rendered causal RGB",
+  "network": "IPv4 and IPv6 sockets blocked in evaluator and scorer subprocess; zero paid calls",
+  "natural": {
+    "activation_count": 12,
+    "ranked": 9,
+    "ranked_candidate_count": {
+      "2": 3,
+      "3": 3,
+      "4": 2,
+      "5": 1
+    },
+    "delayed_watch_starts": 0,
+    "minimum_scored_length": 16,
+    "maximum_scored_length": 24,
+    "mixed_length_decisions": 4,
+    "keep_native": 4,
+    "fallback_without_scan": {
+      "no_distinct_spatial_branch_in_horizon": 3
+    },
+    "committed_changes": 5,
+    "position_different": 4,
+    "heading_only_different": 1,
+    "no_measured_pose_difference": 0,
+    "safety_interruptions": {}
+  },
+  "natural_per_task": {
+    "clock": {
+      "activation_count": 2,
+      "ranked": 1,
+      "ranked_candidate_count": {
+        "2": 1
+      },
+      "delayed_watch_starts": 0,
+      "minimum_scored_length": 24,
+      "maximum_scored_length": 24,
+      "mixed_length_decisions": 0,
+      "keep_native": 0,
+      "fallback_without_scan": {
+        "no_distinct_spatial_branch_in_horizon": 1
+      },
+      "committed_changes": 1,
+      "position_different": 1,
+      "heading_only_different": 0,
+      "no_measured_pose_difference": 0,
+      "safety_interruptions": {}
+    },
+    "wall_art": {
+      "activation_count": 10,
+      "ranked": 8,
+      "ranked_candidate_count": {
+        "2": 2,
+        "3": 3,
+        "4": 2,
+        "5": 1
+      },
+      "delayed_watch_starts": 0,
+      "minimum_scored_length": 16,
+      "maximum_scored_length": 24,
+      "mixed_length_decisions": 4,
+      "keep_native": 4,
+      "fallback_without_scan": {
+        "no_distinct_spatial_branch_in_horizon": 2
+      },
+      "committed_changes": 4,
+      "position_different": 3,
+      "heading_only_different": 1,
+      "no_measured_pose_difference": 0,
+      "safety_interruptions": {}
+    }
+  },
+  "forced_last_option_controls": {
+    "activation_count": 2,
+    "ranked": 2,
+    "ranked_candidate_count": {
+      "3": 1,
+      "4": 1
+    },
+    "delayed_watch_starts": 0,
+    "minimum_scored_length": 20,
+    "maximum_scored_length": 24,
+    "mixed_length_decisions": 2,
+    "keep_native": 0,
+    "fallback_without_scan": {},
+    "committed_changes": 2,
+    "position_different": 2,
+    "heading_only_different": 0,
+    "no_measured_pose_difference": 0,
+    "safety_interruptions": {}
+  },
+  "public_dispatcher_checks": {
+    "follow": "first_difference_observed",
+    "report": "native_decision_REPORT_FOUND",
+    "finish": "higher_priority_action"
+  },
+  "verified_source_manifest_sha256": "60a79c893ee6876fb28757f8851bed04e29c8610712e7fda7cadf448169a81cd"
+}

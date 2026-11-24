@@ -1,5 +1,7 @@
 # 多实例寻物中的前沿选择
 
+[可变数量的路线选择与执行验收](jepa_variable_v16/README.md)
+
 [缺线索时的路线选择与新证据预测](route_evidence_v15/README.md)
 
 [JEPA 选路与 MOST 跟随器的离线执行验收](most_execution_v14/README.md)

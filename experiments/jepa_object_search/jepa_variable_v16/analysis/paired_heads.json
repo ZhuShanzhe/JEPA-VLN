@@ -1,0 +1,48 @@
+{
+  "control_sha256": "912e7427647bfddc15c1140aad6da356b4e756b1064bbb61683bbffe414b32c1",
+  "calibration": "Independent positive-scale hazard calibration for each frozen head, same calibration split",
+  "direct_scale": 0.51950260417193,
+  "direct_offset": -1.0604075060456368,
+  "uncertainty": "Equal house mean of paired per-query discovery differences, percentile bootstrap over 16 houses, seed 1616, 10000 resamples",
+  "results": {
+    "ragged_2": {
+      "queries": 105,
+      "houses": 16,
+      "jepa_hits": 19,
+      "direct_hits": 24,
+      "jepa_only": 2,
+      "direct_only": 7,
+      "equal_house_mean_difference": -0.05476190476190476,
+      "house_bootstrap_95": [
+        -0.10059709821428571,
+        -0.009895833333333333
+      ]
+    },
+    "ragged_3": {
+      "queries": 105,
+      "houses": 16,
+      "jepa_hits": 16,
+      "direct_hits": 32,
+      "jepa_only": 2,
+      "direct_only": 18,
+      "equal_house_mean_difference": -0.19459325396825397,
+      "house_bootstrap_95": [
+        -0.33835193452380946,
+        -0.07375992063492064
+      ]
+    },
+    "24": {
+      "queries": 105,
+      "houses": 16,
+      "jepa_hits": 57,
+      "direct_hits": 57,
+      "jepa_only": 15,
+      "direct_only": 15,
+      "equal_house_mean_difference": 0.008283730158730167,
+      "house_bootstrap_95": [
+        -0.13442708333333334,
+        0.14288628472222215
+      ]
+    }
+  }
+}

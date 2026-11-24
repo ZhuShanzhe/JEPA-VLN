@@ -1,0 +1,335 @@
+{
+  "adapter_input_sha256": "33ef9a7528b8cfd5e37879cc5aeb16bb591ac3abe6498c65a5c186c856cdd4af",
+  "scope": "Eligibility on all recorded native activations of accepted historical trajectories. Does not rerun the policy, verify scan completion, or estimate episode success. The two panels share task IDs and must be reported separately.",
+  "panels": {
+    "v15_primary": {
+      "cases": [
+        {
+          "ordinal": 1,
+          "checks": 2,
+          "old_eligible": 0,
+          "new_eligible": 1,
+          "retained": 0,
+          "newly_eligible": 1,
+          "previously_eligible_now_rejected": 0,
+          "first_old_step": null,
+          "first_new_step": 80,
+          "raw_candidate_counts": {
+            "4": 1,
+            "3": 1
+          },
+          "accepted_route_counts": {
+            "2": 1
+          },
+          "route_lengths": {
+            "24": 2
+          },
+          "fallback": {
+            "no_distinct_spatial_branch_in_horizon": 1
+          },
+          "newly_eligible_by_previous_reason": {
+            "fewer_than_three_distinct_native_plans": 1
+          }
+        },
+        {
+          "ordinal": 14,
+          "checks": 10,
+          "old_eligible": 1,
+          "new_eligible": 8,
+          "retained": 1,
+          "newly_eligible": 7,
+          "previously_eligible_now_rejected": 0,
+          "first_old_step": 237,
+          "first_new_step": 62,
+          "raw_candidate_counts": {
+            "1": 2,
+            "3": 3,
+            "2": 2,
+            "4": 2,
+            "5": 1
+          },
+          "accepted_route_counts": {
+            "3": 3,
+            "2": 2,
+            "4": 2,
+            "5": 1
+          },
+          "route_lengths": {
+            "16": 4,
+            "18": 1,
+            "19": 1,
+            "20": 6,
+            "22": 1,
+            "24": 13
+          },
+          "fallback": {
+            "no_distinct_spatial_branch_in_horizon": 2
+          },
+          "newly_eligible_by_previous_reason": {
+            "fewer_than_three_distinct_native_plans": 4,
+            "native_plan_short": 1,
+            "remaining_budget_below_28": 2
+          }
+        }
+      ],
+      "total": {
+        "checks": 12,
+        "old_eligible": 1,
+        "new_eligible": 9,
+        "newly_eligible": 8,
+        "retained": 1,
+        "previously_eligible_now_rejected": 0,
+        "raw_candidate_counts": {
+          "1": 2,
+          "2": 2,
+          "3": 4,
+          "4": 3,
+          "5": 1
+        },
+        "accepted_route_counts": {
+          "2": 3,
+          "3": 3,
+          "4": 2,
+          "5": 1
+        },
+        "route_lengths": {
+          "16": 4,
+          "18": 1,
+          "19": 1,
+          "20": 6,
+          "22": 1,
+          "24": 15
+        },
+        "fallback": {
+          "no_distinct_spatial_branch_in_horizon": 3
+        },
+        "newly_eligible_by_previous_reason": {
+          "fewer_than_three_distinct_native_plans": 5,
+          "native_plan_short": 1,
+          "remaining_budget_below_28": 2
+        }
+      }
+    },
+    "v13_supplementary": {
+      "cases": [
+        {
+          "ordinal": 1,
+          "checks": 8,
+          "old_eligible": 2,
+          "new_eligible": 6,
+          "retained": 2,
+          "newly_eligible": 4,
+          "previously_eligible_now_rejected": 0,
+          "first_old_step": 79,
+          "first_new_step": 79,
+          "raw_candidate_counts": {
+            "4": 2,
+            "3": 3,
+            "2": 3
+          },
+          "accepted_route_counts": {
+            "4": 1,
+            "3": 2,
+            "2": 3
+          },
+          "route_lengths": {
+            "15": 1,
+            "18": 1,
+            "22": 1,
+            "23": 1,
+            "24": 12
+          },
+          "fallback": {
+            "no_distinct_spatial_branch_in_horizon": 2
+          },
+          "newly_eligible_by_previous_reason": {
+            "native_plan_short": 2,
+            "fewer_than_three_distinct_native_plans": 2
+          }
+        },
+        {
+          "ordinal": 14,
+          "checks": 7,
+          "old_eligible": 5,
+          "new_eligible": 6,
+          "retained": 5,
+          "newly_eligible": 1,
+          "previously_eligible_now_rejected": 0,
+          "first_old_step": 62,
+          "first_new_step": 62,
+          "raw_candidate_counts": {
+            "1": 1,
+            "4": 1,
+            "9": 1,
+            "8": 3,
+            "7": 1
+          },
+          "accepted_route_counts": {
+            "4": 1,
+            "2": 1,
+            "3": 2,
+            "6": 1,
+            "5": 1
+          },
+          "route_lengths": {
+            "19": 3,
+            "22": 1,
+            "23": 1,
+            "24": 18
+          },
+          "fallback": {
+            "no_distinct_spatial_branch_in_horizon": 1
+          },
+          "newly_eligible_by_previous_reason": {
+            "remaining_budget_below_28": 1
+          }
+        },
+        {
+          "ordinal": 21,
+          "checks": 13,
+          "old_eligible": 0,
+          "new_eligible": 7,
+          "retained": 0,
+          "newly_eligible": 7,
+          "previously_eligible_now_rejected": 0,
+          "first_old_step": null,
+          "first_new_step": 12,
+          "raw_candidate_counts": {
+            "3": 2,
+            "2": 5,
+            "1": 6
+          },
+          "accepted_route_counts": {
+            "3": 2,
+            "2": 5
+          },
+          "route_lengths": {
+            "6": 1,
+            "7": 1,
+            "8": 1,
+            "11": 1,
+            "12": 1,
+            "13": 1,
+            "14": 1,
+            "15": 2,
+            "16": 1,
+            "17": 1,
+            "23": 1,
+            "24": 4
+          },
+          "fallback": {
+            "no_distinct_spatial_branch_in_horizon": 6
+          },
+          "newly_eligible_by_previous_reason": {
+            "native_plan_short": 6,
+            "fewer_than_three_distinct_native_plans": 1
+          }
+        },
+        {
+          "ordinal": 32,
+          "checks": 9,
+          "old_eligible": 0,
+          "new_eligible": 0,
+          "retained": 0,
+          "newly_eligible": 0,
+          "previously_eligible_now_rejected": 0,
+          "first_old_step": null,
+          "first_new_step": null,
+          "raw_candidate_counts": {
+            "4": 2,
+            "1": 6,
+            "3": 1
+          },
+          "accepted_route_counts": {},
+          "route_lengths": {},
+          "fallback": {
+            "unsupported_target_category": 9
+          },
+          "newly_eligible_by_previous_reason": {}
+        },
+        {
+          "ordinal": 39,
+          "checks": 9,
+          "old_eligible": 0,
+          "new_eligible": 1,
+          "retained": 0,
+          "newly_eligible": 1,
+          "previously_eligible_now_rejected": 0,
+          "first_old_step": null,
+          "first_new_step": 183,
+          "raw_candidate_counts": {
+            "3": 1,
+            "1": 6,
+            "2": 2
+          },
+          "accepted_route_counts": {
+            "2": 1
+          },
+          "route_lengths": {
+            "2": 1,
+            "8": 1
+          },
+          "fallback": {
+            "no_distinct_spatial_branch_in_horizon": 7,
+            "insufficient_post_scan_budget": 1
+          },
+          "newly_eligible_by_previous_reason": {
+            "native_plan_short": 1
+          }
+        }
+      ],
+      "total": {
+        "checks": 46,
+        "old_eligible": 7,
+        "new_eligible": 20,
+        "newly_eligible": 13,
+        "retained": 7,
+        "previously_eligible_now_rejected": 0,
+        "raw_candidate_counts": {
+          "1": 19,
+          "2": 10,
+          "3": 7,
+          "4": 5,
+          "7": 1,
+          "8": 3,
+          "9": 1
+        },
+        "accepted_route_counts": {
+          "2": 10,
+          "3": 6,
+          "4": 2,
+          "5": 1,
+          "6": 1
+        },
+        "route_lengths": {
+          "2": 1,
+          "6": 1,
+          "7": 1,
+          "8": 2,
+          "11": 1,
+          "12": 1,
+          "13": 1,
+          "14": 1,
+          "15": 3,
+          "16": 1,
+          "17": 1,
+          "18": 1,
+          "19": 3,
+          "22": 2,
+          "23": 3,
+          "24": 34
+        },
+        "fallback": {
+          "insufficient_post_scan_budget": 1,
+          "no_distinct_spatial_branch_in_horizon": 16,
+          "unsupported_target_category": 9
+        },
+        "newly_eligible_by_previous_reason": {
+          "fewer_than_three_distinct_native_plans": 3,
+          "native_plan_short": 9,
+          "remaining_budget_below_28": 1
+        }
+      }
+    }
+  }
+}

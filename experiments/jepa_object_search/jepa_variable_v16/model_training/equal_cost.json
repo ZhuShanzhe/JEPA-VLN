@@ -1,0 +1,144 @@
+{
+  "queries": 430,
+  "unit": "queries with a physical discovery at any step",
+  "results": {
+    "jepa": {
+      "2": {
+        "6": {
+          "selected": 12,
+          "random_expected": 9.0,
+          "oracle": 16
+        },
+        "12": {
+          "selected": 54,
+          "random_expected": 45.0,
+          "oracle": 83
+        },
+        "18": {
+          "selected": 128,
+          "random_expected": 103.5,
+          "oracle": 187
+        },
+        "24": {
+          "selected": 197,
+          "random_expected": 168.5,
+          "oracle": 305
+        }
+      },
+      "3": {
+        "6": {
+          "selected": 11,
+          "random_expected": 8.666666666666666,
+          "oracle": 19
+        },
+        "12": {
+          "selected": 66,
+          "random_expected": 47.0,
+          "oracle": 120
+        },
+        "18": {
+          "selected": 152,
+          "random_expected": 110.33333333333333,
+          "oracle": 271
+        },
+        "24": {
+          "selected": 225,
+          "random_expected": 178.33333333333334,
+          "oracle": 430
+        }
+      }
+    },
+    "direct": {
+      "2": {
+        "6": {
+          "selected": 12,
+          "random_expected": 9.0,
+          "oracle": 16
+        },
+        "12": {
+          "selected": 57,
+          "random_expected": 45.0,
+          "oracle": 83
+        },
+        "18": {
+          "selected": 128,
+          "random_expected": 103.5,
+          "oracle": 187
+        },
+        "24": {
+          "selected": 200,
+          "random_expected": 168.5,
+          "oracle": 305
+        }
+      },
+      "3": {
+        "6": {
+          "selected": 11,
+          "random_expected": 8.666666666666666,
+          "oracle": 19
+        },
+        "12": {
+          "selected": 68,
+          "random_expected": 47.0,
+          "oracle": 120
+        },
+        "18": {
+          "selected": 151,
+          "random_expected": 110.33333333333333,
+          "oracle": 271
+        },
+        "24": {
+          "selected": 228,
+          "random_expected": 178.33333333333334,
+          "oracle": 430
+        }
+      }
+    },
+    "production_evidence_rate": {
+      "2": {
+        "6": {
+          "selected": 12,
+          "random_expected": 9.0,
+          "oracle": 16
+        },
+        "12": {
+          "selected": 51,
+          "random_expected": 45.0,
+          "oracle": 83
+        },
+        "18": {
+          "selected": 134,
+          "random_expected": 103.5,
+          "oracle": 187
+        },
+        "24": {
+          "selected": 206,
+          "random_expected": 168.5,
+          "oracle": 305
+        }
+      },
+      "3": {
+        "6": {
+          "selected": 12,
+          "random_expected": 8.666666666666666,
+          "oracle": 19
+        },
+        "12": {
+          "selected": 60,
+          "random_expected": 47.0,
+          "oracle": 120
+        },
+        "18": {
+          "selected": 151,
+          "random_expected": 110.33333333333333,
+          "oracle": 271
+        },
+        "24": {
+          "selected": 219,
+          "random_expected": 178.33333333333334,
+          "oracle": 430
+        }
+      }
+    }
+  }
+}

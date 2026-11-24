@@ -1,0 +1,22 @@
+{
+  "test": {
+    "queries": 424,
+    "branches": 3,
+    "houses": 16,
+    "selected_discovery": 191,
+    "random_discovery": 0.375,
+    "brier": 0.23464922606945038,
+    "original_brier": 0.23326413333415985,
+    "full_length_feature_max_abs_diff": 0.0
+  },
+  "fresh2": {
+    "queries": 430,
+    "branches": 3,
+    "houses": 12,
+    "selected_discovery": 197,
+    "random_discovery": 0.3736434108527132,
+    "brier": 0.22668230533599854,
+    "original_brier": 0.22594666481018066,
+    "full_length_feature_max_abs_diff": 0.0
+  }
+}

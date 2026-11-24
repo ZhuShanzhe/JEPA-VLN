@@ -1,0 +1,18 @@
+{
+  "scope": "Geometric screen on native plans from accepted archived decisions. Live map refresh and high-priority interrupts cannot be reconstructed by this screen.",
+  "panels": {
+    "jepa_evidence_v15_first2": {
+      "checks": 12,
+      "no_distant_split_detected": 3,
+      "immediate": 9
+    },
+    "jepa_round13_horizon_five": {
+      "checks": 46,
+      "no_distant_split_detected": 13,
+      "no_nearby_fork_but_distinct_distant_geometry": 2,
+      "immediate": 20,
+      "other_local_fallback": 2,
+      "other_guard": 9
+    }
+  }
+}

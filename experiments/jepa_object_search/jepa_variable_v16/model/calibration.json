@@ -1,0 +1,16 @@
+{
+  "scale": 1.131817191542776,
+  "offset": 0.10360283876462428,
+  "training_split": "calibration",
+  "training_houses": [
+    "102816009",
+    "103997919_171031233",
+    "104348133_171513054",
+    "106366134_174226362",
+    "107734017_175999794",
+    "108294816_176710461"
+  ],
+  "training_queries": 218,
+  "target": "first observed discovery at 6, 12, 18 or 24 actions, conditional on no previous discovery",
+  "checkpoint_sha256": "2a0c1666ca48fb8f3b821f92963e597ec75c1da3639f98323d62742088fc8160"
+}
