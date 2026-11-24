@@ -1,0 +1,94 @@
+{
+  "fresh_rgb_replay_houses": 6,
+  "first": {
+    "jepa|all": {
+      "houses": 6,
+      "origins": 127,
+      "hits": 0.5164891975308642
+    },
+    "jepa|same": {
+      "houses": 5,
+      "origins": 21,
+      "hits": 0.4238095238095238
+    },
+    "direct|all": {
+      "houses": 6,
+      "origins": 127,
+      "hits": 0.5171064814814814
+    },
+    "direct|same": {
+      "houses": 5,
+      "origins": 21,
+      "hits": 0.44841269841269843
+    },
+    "v11|all": {
+      "houses": 6,
+      "origins": 127,
+      "hits": 0.4417901234567901
+    },
+    "v11|same": {
+      "houses": 5,
+      "origins": 21,
+      "hits": 0.45357142857142857
+    },
+    "semantic_jepa|all": {
+      "houses": 6,
+      "origins": 127,
+      "hits": 0.49383487654320984
+    },
+    "semantic_jepa|same": {
+      "houses": 5,
+      "origins": 21,
+      "hits": 0.5408730158730158
+    },
+    "semantic_direct|all": {
+      "houses": 6,
+      "origins": 127,
+      "hits": 0.49084876543209877
+    },
+    "semantic_direct|same": {
+      "houses": 5,
+      "origins": 21,
+      "hits": 0.5376984126984127
+    },
+    "jepa|changing": {
+      "houses": 6,
+      "origins": 106,
+      "hits": 0.5480092592592593
+    },
+    "direct|changing": {
+      "houses": 6,
+      "origins": 106,
+      "hits": 0.5442494388327722
+    },
+    "v11|changing": {
+      "houses": 6,
+      "origins": 106,
+      "hits": 0.4397862888140666
+    },
+    "semantic_jepa|changing": {
+      "houses": 6,
+      "origins": 106,
+      "hits": 0.4780064534231201
+    },
+    "semantic_direct|changing": {
+      "houses": 6,
+      "origins": 106,
+      "hits": 0.47018378226711555
+    }
+  },
+  "rooms": {
+    "jepa": {
+      "route_dominant_room_accuracy": 0.3340277777777778,
+      "visible_distribution_cross_entropy": 1.9013884484549457
+    },
+    "direct": {
+      "route_dominant_room_accuracy": 0.34012345679012346,
+      "visible_distribution_cross_entropy": 1.8998235251922677
+    },
+    "copy": {
+      "route_dominant_room_accuracy": 0.26851851851851855,
+      "visible_distribution_cross_entropy": 2.22812038627022
+    }
+  }
+}

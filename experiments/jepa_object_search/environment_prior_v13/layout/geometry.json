@@ -1,0 +1,74 @@
+{
+  "jepa|all": {
+    "houses": 11,
+    "transitions": 22,
+    "original_brier": 0.5980272527850125,
+    "updated_brier": 0.5866444178083295,
+    "original_accuracy": 0.4393939393939394,
+    "updated_accuracy": 0.4393939393939394,
+    "delta_brier_ci95": [
+      -0.057608678760619224,
+      0.020171526466690504
+    ]
+  },
+  "jepa|same": {
+    "houses": 6,
+    "transitions": 10,
+    "original_brier": 0.5470374505199813,
+    "updated_brier": 0.522356956278053,
+    "original_accuracy": 0.611111111111111,
+    "updated_accuracy": 0.6388888888888888,
+    "delta_brier_ci95": [
+      -0.10523359039094031,
+      0.031987920160032525
+    ]
+  },
+  "jepa|changed": {
+    "houses": 6,
+    "transitions": 11,
+    "original_brier": 0.6748420669635496,
+    "updated_brier": 0.680000837839925,
+    "original_accuracy": 0.19444444444444442,
+    "updated_accuracy": 0.16666666666666666,
+    "delta_brier_ci95": [
+      -0.01204316351722646,
+      0.02183055501246513
+    ]
+  },
+  "direct|all": {
+    "houses": 11,
+    "transitions": 22,
+    "original_brier": 0.6074084530809978,
+    "updated_brier": 0.5914264030079265,
+    "original_accuracy": 0.42424242424242425,
+    "updated_accuracy": 0.4393939393939394,
+    "delta_brier_ci95": [
+      -0.044998341510257334,
+      0.0047417496726215504
+    ]
+  },
+  "direct|same": {
+    "houses": 6,
+    "transitions": 10,
+    "original_brier": 0.5508372585297204,
+    "updated_brier": 0.527620021558966,
+    "original_accuracy": 0.5833333333333334,
+    "updated_accuracy": 0.611111111111111,
+    "delta_brier_ci95": [
+      -0.0720058217176102,
+      0.009599009513671337
+    ]
+  },
+  "direct|changed": {
+    "houses": 6,
+    "transitions": 11,
+    "original_brier": 0.7013905519235007,
+    "updated_brier": 0.695311538310484,
+    "original_accuracy": 0.19444444444444442,
+    "updated_accuracy": 0.19444444444444442,
+    "delta_brier_ci95": [
+      -0.02242554325654178,
+      0.009206724368684823
+    ]
+  }
+}

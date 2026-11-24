@@ -1,0 +1,113 @@
+{
+  "strength": {
+    "jepa": 1.0,
+    "direct": 1.0
+  },
+  "calibration": {
+    "jepa": {
+      "0.0": {
+        "room_brier": 0.11812711906383615,
+        "route_contrast_brier": 0.05739190176892167,
+        "copy_current_room": 0.14868549778226492,
+        "delta_vs_base": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "houses": 6,
+        "improved_houses": 0
+      },
+      "0.25": {
+        "room_brier": 0.11546923228153222,
+        "route_contrast_brier": 0.05665543236932428,
+        "copy_current_room": 0.14868549778226492,
+        "delta_vs_base": -0.002657886782303933,
+        "ci95": [
+          -0.003731451749995974,
+          -0.0016131501178614227
+        ],
+        "houses": 6,
+        "improved_houses": 6
+      },
+      "0.5": {
+        "room_brier": 0.11342925735341892,
+        "route_contrast_brier": 0.05611372186334406,
+        "copy_current_room": 0.14868549778226492,
+        "delta_vs_base": -0.00469786171041722,
+        "ci95": [
+          -0.006576889613630603,
+          -0.002880293455770684
+        ],
+        "houses": 6,
+        "improved_houses": 6
+      },
+      "1.0": {
+        "room_brier": 0.1111468424461068,
+        "route_contrast_brier": 0.05558840597365558,
+        "copy_current_room": 0.14868549778226492,
+        "delta_vs_base": -0.006980276617729352,
+        "ci95": [
+          -0.009804589725354904,
+          -0.0043491760434022685
+        ],
+        "houses": 6,
+        "improved_houses": 6
+      }
+    },
+    "direct": {
+      "0.0": {
+        "room_brier": 0.12360265514559161,
+        "route_contrast_brier": 0.05931268091140993,
+        "copy_current_room": 0.14868549778226492,
+        "delta_vs_base": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "houses": 6,
+        "improved_houses": 0
+      },
+      "0.25": {
+        "room_brier": 0.12100284326504591,
+        "route_contrast_brier": 0.05855667081274731,
+        "copy_current_room": 0.14868549778226492,
+        "delta_vs_base": -0.0025998118805456993,
+        "ci95": [
+          -0.003772431127664122,
+          -0.0015034047439000248
+        ],
+        "houses": 6,
+        "improved_houses": 6
+      },
+      "0.5": {
+        "room_brier": 0.11887574019563324,
+        "route_contrast_brier": 0.05797432539549346,
+        "copy_current_room": 0.14868549778226492,
+        "delta_vs_base": -0.00472691494995837,
+        "ci95": [
+          -0.006873584023561895,
+          -0.0027566475981070865
+        ],
+        "houses": 6,
+        "improved_houses": 6
+      },
+      "1.0": {
+        "room_brier": 0.11599317728570822,
+        "route_contrast_brier": 0.0573288937841753,
+        "copy_current_room": 0.14868549778226492,
+        "delta_vs_base": -0.0076094778598834,
+        "ci95": [
+          -0.011215868919460964,
+          -0.004411384754245902
+        ],
+        "houses": 6,
+        "improved_houses": 6
+      }
+    }
+  },
+  "frozen_criterion": "minimum calibration soft-label squared room error; smallest change on tie",
+  "train_houses": 12,
+  "train_roots": 48,
+  "train_edges_after_arrival": 1728,
+  "checkpoint_sha256": "46fa40165f8d48d8ab8054c453d0e1a0436203d6c1785055e98b5fc751b49c28"
+}

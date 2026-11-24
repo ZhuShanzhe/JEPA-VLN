@@ -1,0 +1,16 @@
+{
+  "method": "jepa_horizon",
+  "seed": 11,
+  "query_selection": "first eligible origin per house, first multiple target in frozen order",
+  "houses": 12,
+  "actions": 1344,
+  "exact_rgb_and_id_sets": 336,
+  "cursor_and_event_times_match": true,
+  "collision_flags_match": true,
+  "total_distinct_over_budgets": [
+    1,
+    3,
+    3,
+    4
+  ]
+}

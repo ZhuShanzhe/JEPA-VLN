@@ -1,10 +1,12 @@
 # 用 JEPA 为多实例寻物选择探索方向
 
+[环境先验、长程 JEPA 选路与本屋记忆](experiments/jepa_object_search/environment_prior_v13/README.md)。在 HSSD 隐藏目标寻物中，通过预测候选路线的未来环境安排探索，报告同等步数下发现第一和第二个实例的表现。
+
 机器人按文本要求在同一栋房屋中寻找多个不同实例，例如找到三把黑色的椅子。系统以 MOST-Nav 为基线。VLM 决定何时探索、访问目标、上报或结束。研究聚焦它决定探索的时刻：给定相同的移动预算，预测哪个可达前沿更可能让机器人看清一个尚未确认、且符合查询的实例。
 
 | 阅读入口 | 内容 |
 |---|---|
-| [当前选路系统开发与训练](experiments/jepa_object_search/goal_conditioned_v12/README.md) | 目标条件 JEPA、实走后的在线改选、未用房屋表现与接管条件 |
+| [目标条件选路训练](experiments/jepa_object_search/goal_conditioned_v12/README.md) | 目标条件 JEPA、实走后的在线改选、未用房屋表现与接管条件 |
 | [首轮训练与后续研究路线](experiments/jepa_object_search/TRAINING_ROADMAP.md) | 同起点采集与训练、跨物体类别泛化、RSI 经验修正和服务器自动启动入口 |
 | [研究问题与训练设计](experiments/jepa_object_search/RESEARCH_PLAN.md) | JEPA 接在哪一步、如何取得同一起点的多个未来，以及如何与直接打分模型比较 |
 | [MOST-Nav 基线的前 16 个回合](experiments/jepa_object_search/pipeline/baseline_snapshot_16.md) | 路线覆盖、相机曝光、有效报告和重复报告的实测区别 |

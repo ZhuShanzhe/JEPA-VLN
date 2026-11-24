@@ -1,0 +1,11 @@
+{
+  "setting": "scout_strong",
+  "formula": "0.5 distinct@112 + 0.3 multiple-two@112 + 0.2 present-any@56",
+  "candidates": {
+    "jepa_model_only": 0.10358796296296297,
+    "jepa_weak": 0.10543981481481482,
+    "jepa_balanced": 0.1150462962962963,
+    "jepa_scout": 0.11111111111111113,
+    "jepa_scout_strong": 0.12013888888888889
+  }
+}

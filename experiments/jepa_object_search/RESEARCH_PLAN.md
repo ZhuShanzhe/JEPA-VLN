@@ -1,8 +1,10 @@
 # 用 JEPA 为多实例寻物选择下一条探索路线
 
+[环境先验、长程 JEPA 选路与本屋记忆](environment_prior_v13/README.md)。在 HSSD 隐藏目标寻物中，通过预测候选路线的未来环境安排探索，报告同等步数下发现第一和第二个实例的表现。
+
 当前开发目标是在同等动作预算内发现更多不同的目标实例。以原选路头为主干，训练目标条件的 JEPA 局部预测和有限度的路线修正；在回合内用沿途观察更新记忆，优先选择仍可能发现新实例的前沿。
 
-[当前系统开发路线](goal_conditioned_v12/route.md) · [训练、接入与已测结果](goal_conditioned_v12/README.md)
+[目标条件选路路线](goal_conditioned_v12/route.md) · [训练、接入与已测结果](goal_conditioned_v12/README.md)
 
 [HSSD 与 Blender 场景构建、训练标签及回合内经验更新](SCENE_TRAINING.md)
 

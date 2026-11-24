@@ -1,0 +1,24 @@
+{
+  "calibration": {
+    "roots": 48,
+    "nodes": 192,
+    "movements": 5376,
+    "rgb_checked": 1344,
+    "id_sets_checked": 1344,
+    "exact_rgb": 1344,
+    "max_rgb_mae": 0.0,
+    "collision_mismatch": 0,
+    "id_set_mismatch": 0
+  },
+  "fresh": {
+    "roots": 96,
+    "nodes": 384,
+    "movements": 10752,
+    "rgb_checked": 2688,
+    "id_sets_checked": 2688,
+    "exact_rgb": 2688,
+    "max_rgb_mae": 0.0,
+    "collision_mismatch": 0,
+    "id_set_mismatch": 0
+  }
+}

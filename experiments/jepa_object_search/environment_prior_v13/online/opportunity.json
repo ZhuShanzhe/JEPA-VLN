@@ -1,0 +1,198 @@
+{
+  "v11_baseline": {
+    "opportunity": [
+      {
+        "budget": 28,
+        "reachable_queries": 14,
+        "reachable_seeded_runs": 42,
+        "confirmed_seeded_runs": 15,
+        "micro_fraction_of_attainable_first": 0.35714285714285715
+      },
+      {
+        "budget": 56,
+        "reachable_queries": 52,
+        "reachable_seeded_runs": 156,
+        "confirmed_seeded_runs": 41,
+        "micro_fraction_of_attainable_first": 0.26282051282051283
+      },
+      {
+        "budget": 84,
+        "reachable_queries": 80,
+        "reachable_seeded_runs": 240,
+        "confirmed_seeded_runs": 61,
+        "micro_fraction_of_attainable_first": 0.25416666666666665
+      },
+      {
+        "budget": 112,
+        "reachable_queries": 106,
+        "reachable_seeded_runs": 318,
+        "confirmed_seeded_runs": 84,
+        "micro_fraction_of_attainable_first": 0.2641509433962264
+      }
+    ],
+    "by_prior": {
+      "diffuse": {
+        "houses": 12,
+        "queries": 112,
+        "any112": 0.08085317460317461,
+        "distinct112": 0.13756613756613756
+      },
+      "specific": {
+        "houses": 12,
+        "queries": 155,
+        "any112": 0.12883046737213405,
+        "distinct112": 0.22255291005291003
+      }
+    }
+  },
+  "jepa_full": {
+    "opportunity": [
+      {
+        "budget": 28,
+        "reachable_queries": 14,
+        "reachable_seeded_runs": 42,
+        "confirmed_seeded_runs": 24,
+        "micro_fraction_of_attainable_first": 0.5714285714285714
+      },
+      {
+        "budget": 56,
+        "reachable_queries": 52,
+        "reachable_seeded_runs": 156,
+        "confirmed_seeded_runs": 53,
+        "micro_fraction_of_attainable_first": 0.33974358974358976
+      },
+      {
+        "budget": 84,
+        "reachable_queries": 80,
+        "reachable_seeded_runs": 240,
+        "confirmed_seeded_runs": 74,
+        "micro_fraction_of_attainable_first": 0.30833333333333335
+      },
+      {
+        "budget": 112,
+        "reachable_queries": 106,
+        "reachable_seeded_runs": 318,
+        "confirmed_seeded_runs": 96,
+        "micro_fraction_of_attainable_first": 0.3018867924528302
+      }
+    ],
+    "by_prior": {
+      "diffuse": {
+        "houses": 12,
+        "queries": 112,
+        "any112": 0.12380952380952381,
+        "distinct112": 0.21906415343915342
+      },
+      "specific": {
+        "houses": 12,
+        "queries": 155,
+        "any112": 0.11273699294532628,
+        "distinct112": 0.17664241622574953
+      }
+    }
+  },
+  "jepa_horizon": {
+    "opportunity": [
+      {
+        "budget": 28,
+        "reachable_queries": 14,
+        "reachable_seeded_runs": 42,
+        "confirmed_seeded_runs": 30,
+        "micro_fraction_of_attainable_first": 0.7142857142857143
+      },
+      {
+        "budget": 56,
+        "reachable_queries": 52,
+        "reachable_seeded_runs": 156,
+        "confirmed_seeded_runs": 65,
+        "micro_fraction_of_attainable_first": 0.4166666666666667
+      },
+      {
+        "budget": 84,
+        "reachable_queries": 80,
+        "reachable_seeded_runs": 240,
+        "confirmed_seeded_runs": 81,
+        "micro_fraction_of_attainable_first": 0.3375
+      },
+      {
+        "budget": 112,
+        "reachable_queries": 106,
+        "reachable_seeded_runs": 318,
+        "confirmed_seeded_runs": 105,
+        "micro_fraction_of_attainable_first": 0.330188679245283
+      }
+    ],
+    "by_prior": {
+      "diffuse": {
+        "houses": 12,
+        "queries": 112,
+        "any112": 0.11666666666666665,
+        "distinct112": 0.1964451058201058
+      },
+      "specific": {
+        "houses": 12,
+        "queries": 155,
+        "any112": 0.1461364638447972,
+        "distinct112": 0.24983465608465605
+      }
+    }
+  },
+  "direct_horizon": {
+    "opportunity": [
+      {
+        "budget": 28,
+        "reachable_queries": 14,
+        "reachable_seeded_runs": 42,
+        "confirmed_seeded_runs": 32,
+        "micro_fraction_of_attainable_first": 0.7619047619047619
+      },
+      {
+        "budget": 56,
+        "reachable_queries": 52,
+        "reachable_seeded_runs": 156,
+        "confirmed_seeded_runs": 63,
+        "micro_fraction_of_attainable_first": 0.40384615384615385
+      },
+      {
+        "budget": 84,
+        "reachable_queries": 80,
+        "reachable_seeded_runs": 240,
+        "confirmed_seeded_runs": 77,
+        "micro_fraction_of_attainable_first": 0.32083333333333336
+      },
+      {
+        "budget": 112,
+        "reachable_queries": 106,
+        "reachable_seeded_runs": 318,
+        "confirmed_seeded_runs": 102,
+        "micro_fraction_of_attainable_first": 0.32075471698113206
+      }
+    ],
+    "by_prior": {
+      "diffuse": {
+        "houses": 12,
+        "queries": 112,
+        "any112": 0.10277777777777779,
+        "distinct112": 0.19991732804232806
+      },
+      "specific": {
+        "houses": 12,
+        "queries": 155,
+        "any112": 0.15396274250440914,
+        "distinct112": 0.24131944444444442
+      }
+    }
+  },
+  "jepa_horizon_minus_v11_baseline": {
+    "seed_cases": 801,
+    "more": 59,
+    "same": 709,
+    "fewer": 33
+  },
+  "jepa_horizon_minus_direct_horizon": {
+    "seed_cases": 801,
+    "more": 24,
+    "same": 753,
+    "fewer": 24
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "train": {
+    "houses": 28,
+    "origins": 565,
+    "total_taps": 6780,
+    "known_pose": 6539,
+    "known_view": 6740,
+    "assignment_changes": 507,
+    "different_end_views": 513,
+    "replayed_frames": 6780
+  },
+  "extra_train": {
+    "houses": 12,
+    "origins": 230,
+    "total_taps": 2760,
+    "known_pose": 2651,
+    "known_view": 2756,
+    "assignment_changes": 203,
+    "different_end_views": 205,
+    "replayed_frames": 2760
+  },
+  "calibration": {
+    "houses": 6,
+    "origins": 127,
+    "total_taps": 1524,
+    "known_pose": 1467,
+    "known_view": 1517,
+    "assignment_changes": 116,
+    "different_end_views": 120,
+    "replayed_frames": 1524
+  }
+}

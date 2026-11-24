@@ -1,0 +1,56 @@
+{
+  "unit": "matched_query_seed_or_matched_start_seed",
+  "budgets": [
+    28,
+    56,
+    84,
+    112
+  ],
+  "policies": {
+    "jepa_horizon": {
+      "present_query_seed_runs": 801,
+      "start_seed_groups_with_at_least_two_goals": 267,
+      "start_seed_groups_choosing_different_initial_directions": 51,
+      "first_observation_by_28_step_segment": [
+        30,
+        35,
+        16,
+        24
+      ]
+    },
+    "direct_horizon": {
+      "present_query_seed_runs": 801,
+      "start_seed_groups_with_at_least_two_goals": 267,
+      "start_seed_groups_choosing_different_initial_directions": 45,
+      "first_observation_by_28_step_segment": [
+        32,
+        31,
+        14,
+        25
+      ]
+    },
+    "v11_baseline": {
+      "present_query_seed_runs": 801,
+      "start_seed_groups_with_at_least_two_goals": 267,
+      "start_seed_groups_choosing_different_initial_directions": 46,
+      "first_observation_by_28_step_segment": [
+        15,
+        26,
+        20,
+        23
+      ]
+    }
+  },
+  "cue_evidence_on_vs_off_without_horizon": {
+    "changed_path": 13,
+    "more_instances": 0,
+    "equal_instances": 801,
+    "fewer_instances": 0
+  },
+  "layout_update_on_vs_off_with_horizon": {
+    "changed_path": 38,
+    "more_instances": 4,
+    "equal_instances": 796,
+    "fewer_instances": 1
+  }
+}

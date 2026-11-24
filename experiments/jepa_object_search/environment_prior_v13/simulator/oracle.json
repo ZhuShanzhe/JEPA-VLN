@@ -1,0 +1,467 @@
+{
+  "calibration": {
+    "groups": {
+      "absent|28": {
+        "houses": 6,
+        "origins": 48,
+        "queries": 48,
+        "can_find_one": 0,
+        "can_find_two": 0,
+        "no_opportunity": 48,
+        "max_distinct_sum": 0,
+        "macro_any": 0.0,
+        "macro_two": 0.0,
+        "macro_max_distinct": 0.0,
+        "macro_reach_inventory_capped_quota": null
+      },
+      "absent|56": {
+        "houses": 6,
+        "origins": 48,
+        "queries": 48,
+        "can_find_one": 0,
+        "can_find_two": 0,
+        "no_opportunity": 48,
+        "max_distinct_sum": 0,
+        "macro_any": 0.0,
+        "macro_two": 0.0,
+        "macro_max_distinct": 0.0,
+        "macro_reach_inventory_capped_quota": null
+      },
+      "absent|84": {
+        "houses": 6,
+        "origins": 48,
+        "queries": 48,
+        "can_find_one": 0,
+        "can_find_two": 0,
+        "no_opportunity": 48,
+        "max_distinct_sum": 0,
+        "macro_any": 0.0,
+        "macro_two": 0.0,
+        "macro_max_distinct": 0.0,
+        "macro_reach_inventory_capped_quota": null
+      },
+      "absent|112": {
+        "houses": 6,
+        "origins": 48,
+        "queries": 48,
+        "can_find_one": 0,
+        "can_find_two": 0,
+        "no_opportunity": 48,
+        "max_distinct_sum": 0,
+        "macro_any": 0.0,
+        "macro_two": 0.0,
+        "macro_max_distinct": 0.0,
+        "macro_reach_inventory_capped_quota": null
+      },
+      "all_present|28": {
+        "houses": 6,
+        "origins": 48,
+        "queries": 134,
+        "can_find_one": 10,
+        "can_find_two": 0,
+        "no_opportunity": 124,
+        "max_distinct_sum": 10,
+        "macro_any": 0.07986111111111112,
+        "macro_two": 0.0,
+        "macro_max_distinct": 0.07986111111111112,
+        "macro_reach_inventory_capped_quota": 0.0
+      },
+      "all_present|56": {
+        "houses": 6,
+        "origins": 48,
+        "queries": 134,
+        "can_find_one": 31,
+        "can_find_two": 7,
+        "no_opportunity": 103,
+        "max_distinct_sum": 39,
+        "macro_any": 0.2569444444444444,
+        "macro_two": 0.05208333333333332,
+        "macro_max_distinct": 0.3159722222222222,
+        "macro_reach_inventory_capped_quota": 0.11805555555555557
+      },
+      "all_present|84": {
+        "houses": 6,
+        "origins": 48,
+        "queries": 134,
+        "can_find_one": 49,
+        "can_find_two": 16,
+        "no_opportunity": 85,
+        "max_distinct_sum": 74,
+        "macro_any": 0.38888888888888884,
+        "macro_two": 0.12152777777777778,
+        "macro_max_distinct": 0.5729166666666666,
+        "macro_reach_inventory_capped_quota": 0.23263888888888884
+      },
+      "all_present|112": {
+        "houses": 6,
+        "origins": 48,
+        "queries": 134,
+        "can_find_one": 63,
+        "can_find_two": 19,
+        "no_opportunity": 71,
+        "max_distinct_sum": 96,
+        "macro_any": 0.5069444444444444,
+        "macro_two": 0.14583333333333331,
+        "macro_max_distinct": 0.75,
+        "macro_reach_inventory_capped_quota": 0.34722222222222227
+      },
+      "multiple|28": {
+        "houses": 6,
+        "origins": 46,
+        "queries": 86,
+        "can_find_one": 10,
+        "can_find_two": 0,
+        "no_opportunity": 76,
+        "max_distinct_sum": 10,
+        "macro_any": 0.15625,
+        "macro_two": 0.0,
+        "macro_max_distinct": 0.15625,
+        "macro_reach_inventory_capped_quota": 0.0
+      },
+      "multiple|56": {
+        "houses": 6,
+        "origins": 46,
+        "queries": 86,
+        "can_find_one": 25,
+        "can_find_two": 7,
+        "no_opportunity": 61,
+        "max_distinct_sum": 33,
+        "macro_any": 0.3541666666666667,
+        "macro_two": 0.09375,
+        "macro_max_distinct": 0.4583333333333333,
+        "macro_reach_inventory_capped_quota": 0.09375
+      },
+      "multiple|84": {
+        "houses": 6,
+        "origins": 46,
+        "queries": 86,
+        "can_find_one": 37,
+        "can_find_two": 16,
+        "no_opportunity": 49,
+        "max_distinct_sum": 62,
+        "macro_any": 0.4895833333333333,
+        "macro_two": 0.23263888888888892,
+        "macro_max_distinct": 0.829861111111111,
+        "macro_reach_inventory_capped_quota": 0.23263888888888892
+      },
+      "multiple|112": {
+        "houses": 6,
+        "origins": 46,
+        "queries": 86,
+        "can_find_one": 41,
+        "can_find_two": 19,
+        "no_opportunity": 45,
+        "max_distinct_sum": 74,
+        "macro_any": 0.53125,
+        "macro_two": 0.28125,
+        "macro_max_distinct": 0.9722222222222223,
+        "macro_reach_inventory_capped_quota": 0.28125
+      },
+      "single|28": {
+        "houses": 6,
+        "origins": 48,
+        "queries": 48,
+        "can_find_one": 0,
+        "can_find_two": 0,
+        "no_opportunity": 48,
+        "max_distinct_sum": 0,
+        "macro_any": 0.0,
+        "macro_two": 0.0,
+        "macro_max_distinct": 0.0,
+        "macro_reach_inventory_capped_quota": 0.0
+      },
+      "single|56": {
+        "houses": 6,
+        "origins": 48,
+        "queries": 48,
+        "can_find_one": 6,
+        "can_find_two": 0,
+        "no_opportunity": 42,
+        "max_distinct_sum": 6,
+        "macro_any": 0.125,
+        "macro_two": 0.0,
+        "macro_max_distinct": 0.125,
+        "macro_reach_inventory_capped_quota": 0.125
+      },
+      "single|84": {
+        "houses": 6,
+        "origins": 48,
+        "queries": 48,
+        "can_find_one": 12,
+        "can_find_two": 0,
+        "no_opportunity": 36,
+        "max_distinct_sum": 12,
+        "macro_any": 0.25,
+        "macro_two": 0.0,
+        "macro_max_distinct": 0.25,
+        "macro_reach_inventory_capped_quota": 0.25
+      },
+      "single|112": {
+        "houses": 6,
+        "origins": 48,
+        "queries": 48,
+        "can_find_one": 22,
+        "can_find_two": 0,
+        "no_opportunity": 26,
+        "max_distinct_sum": 22,
+        "macro_any": 0.4583333333333333,
+        "macro_two": 0.0,
+        "macro_max_distinct": 0.4583333333333333,
+        "macro_reach_inventory_capped_quota": 0.4583333333333333
+      }
+    },
+    "exclusive_first_directions_between_target_pairs": {
+      "28": {
+        "all_present_goal_pairs": 126,
+        "both_encounterable": 1
+      },
+      "56": {
+        "all_present_goal_pairs": 126,
+        "both_encounterable": 12,
+        "disjoint_needed_first_choice": 1
+      },
+      "84": {
+        "all_present_goal_pairs": 126,
+        "both_encounterable": 29,
+        "disjoint_needed_first_choice": 3
+      },
+      "112": {
+        "all_present_goal_pairs": 126,
+        "both_encounterable": 46
+      }
+    }
+  },
+  "fresh": {
+    "groups": {
+      "absent|28": {
+        "houses": 12,
+        "origins": 96,
+        "queries": 96,
+        "can_find_one": 0,
+        "can_find_two": 0,
+        "no_opportunity": 96,
+        "max_distinct_sum": 0,
+        "macro_any": 0.0,
+        "macro_two": 0.0,
+        "macro_max_distinct": 0.0,
+        "macro_reach_inventory_capped_quota": null
+      },
+      "absent|56": {
+        "houses": 12,
+        "origins": 96,
+        "queries": 96,
+        "can_find_one": 0,
+        "can_find_two": 0,
+        "no_opportunity": 96,
+        "max_distinct_sum": 0,
+        "macro_any": 0.0,
+        "macro_two": 0.0,
+        "macro_max_distinct": 0.0,
+        "macro_reach_inventory_capped_quota": null
+      },
+      "absent|84": {
+        "houses": 12,
+        "origins": 96,
+        "queries": 96,
+        "can_find_one": 0,
+        "can_find_two": 0,
+        "no_opportunity": 96,
+        "max_distinct_sum": 0,
+        "macro_any": 0.0,
+        "macro_two": 0.0,
+        "macro_max_distinct": 0.0,
+        "macro_reach_inventory_capped_quota": null
+      },
+      "absent|112": {
+        "houses": 12,
+        "origins": 96,
+        "queries": 96,
+        "can_find_one": 0,
+        "can_find_two": 0,
+        "no_opportunity": 96,
+        "max_distinct_sum": 0,
+        "macro_any": 0.0,
+        "macro_two": 0.0,
+        "macro_max_distinct": 0.0,
+        "macro_reach_inventory_capped_quota": null
+      },
+      "all_present|28": {
+        "houses": 12,
+        "origins": 96,
+        "queries": 267,
+        "can_find_one": 14,
+        "can_find_two": 0,
+        "no_opportunity": 253,
+        "max_distinct_sum": 14,
+        "macro_any": 0.048611111111111105,
+        "macro_two": 0.0,
+        "macro_max_distinct": 0.048611111111111105,
+        "macro_reach_inventory_capped_quota": 0.01736111111111111
+      },
+      "all_present|56": {
+        "houses": 12,
+        "origins": 96,
+        "queries": 267,
+        "can_find_one": 52,
+        "can_find_two": 16,
+        "no_opportunity": 215,
+        "max_distinct_sum": 116,
+        "macro_any": 0.20312499999999997,
+        "macro_two": 0.057291666666666664,
+        "macro_max_distinct": 0.4270833333333333,
+        "macro_reach_inventory_capped_quota": 0.1267361111111111
+      },
+      "all_present|84": {
+        "houses": 12,
+        "origins": 96,
+        "queries": 267,
+        "can_find_one": 80,
+        "can_find_two": 27,
+        "no_opportunity": 187,
+        "max_distinct_sum": 172,
+        "macro_any": 0.3177083333333333,
+        "macro_two": 0.09722222222222222,
+        "macro_max_distinct": 0.640625,
+        "macro_reach_inventory_capped_quota": 0.2152777777777778
+      },
+      "all_present|112": {
+        "houses": 12,
+        "origins": 96,
+        "queries": 267,
+        "can_find_one": 106,
+        "can_find_two": 39,
+        "no_opportunity": 161,
+        "max_distinct_sum": 256,
+        "macro_any": 0.42708333333333326,
+        "macro_two": 0.14062499999999997,
+        "macro_max_distinct": 0.954861111111111,
+        "macro_reach_inventory_capped_quota": 0.3107638888888889
+      },
+      "multiple|28": {
+        "houses": 12,
+        "origins": 89,
+        "queries": 171,
+        "can_find_one": 9,
+        "can_find_two": 0,
+        "no_opportunity": 162,
+        "max_distinct_sum": 9,
+        "macro_any": 0.046875,
+        "macro_two": 0.0,
+        "macro_max_distinct": 0.046875,
+        "macro_reach_inventory_capped_quota": 0.0
+      },
+      "multiple|56": {
+        "houses": 12,
+        "origins": 89,
+        "queries": 171,
+        "can_find_one": 37,
+        "can_find_two": 16,
+        "no_opportunity": 134,
+        "max_distinct_sum": 101,
+        "macro_any": 0.23854166666666665,
+        "macro_two": 0.109375,
+        "macro_max_distinct": 0.640625,
+        "macro_reach_inventory_capped_quota": 0.109375
+      },
+      "multiple|84": {
+        "houses": 12,
+        "origins": 89,
+        "queries": 171,
+        "can_find_one": 55,
+        "can_find_two": 27,
+        "no_opportunity": 116,
+        "max_distinct_sum": 147,
+        "macro_any": 0.36354166666666665,
+        "macro_two": 0.171875,
+        "macro_max_distinct": 0.928125,
+        "macro_reach_inventory_capped_quota": 0.171875
+      },
+      "multiple|112": {
+        "houses": 12,
+        "origins": 89,
+        "queries": 171,
+        "can_find_one": 71,
+        "can_find_two": 39,
+        "no_opportunity": 100,
+        "max_distinct_sum": 221,
+        "macro_any": 0.46249999999999997,
+        "macro_two": 0.25,
+        "macro_max_distinct": 1.3614583333333332,
+        "macro_reach_inventory_capped_quota": 0.25
+      },
+      "single|28": {
+        "houses": 12,
+        "origins": 96,
+        "queries": 96,
+        "can_find_one": 5,
+        "can_find_two": 0,
+        "no_opportunity": 91,
+        "max_distinct_sum": 5,
+        "macro_any": 0.052083333333333336,
+        "macro_two": 0.0,
+        "macro_max_distinct": 0.052083333333333336,
+        "macro_reach_inventory_capped_quota": 0.052083333333333336
+      },
+      "single|56": {
+        "houses": 12,
+        "origins": 96,
+        "queries": 96,
+        "can_find_one": 15,
+        "can_find_two": 0,
+        "no_opportunity": 81,
+        "max_distinct_sum": 15,
+        "macro_any": 0.15625,
+        "macro_two": 0.0,
+        "macro_max_distinct": 0.15625,
+        "macro_reach_inventory_capped_quota": 0.15625
+      },
+      "single|84": {
+        "houses": 12,
+        "origins": 96,
+        "queries": 96,
+        "can_find_one": 25,
+        "can_find_two": 0,
+        "no_opportunity": 71,
+        "max_distinct_sum": 25,
+        "macro_any": 0.2604166666666667,
+        "macro_two": 0.0,
+        "macro_max_distinct": 0.2604166666666667,
+        "macro_reach_inventory_capped_quota": 0.2604166666666667
+      },
+      "single|112": {
+        "houses": 12,
+        "origins": 96,
+        "queries": 96,
+        "can_find_one": 35,
+        "can_find_two": 0,
+        "no_opportunity": 61,
+        "max_distinct_sum": 35,
+        "macro_any": 0.3645833333333333,
+        "macro_two": 0.0,
+        "macro_max_distinct": 0.3645833333333333,
+        "macro_reach_inventory_capped_quota": 0.3645833333333333
+      }
+    },
+    "exclusive_first_directions_between_target_pairs": {
+      "28": {
+        "all_present_goal_pairs": 253,
+        "both_encounterable": 3
+      },
+      "56": {
+        "all_present_goal_pairs": 253,
+        "both_encounterable": 27,
+        "disjoint_needed_first_choice": 10
+      },
+      "84": {
+        "all_present_goal_pairs": 253,
+        "both_encounterable": 49,
+        "disjoint_needed_first_choice": 4
+      },
+      "112": {
+        "all_present_goal_pairs": 253,
+        "both_encounterable": 71,
+        "disjoint_needed_first_choice": 1
+      }
+    }
+  }
+}

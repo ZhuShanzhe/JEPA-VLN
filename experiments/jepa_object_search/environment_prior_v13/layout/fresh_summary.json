@@ -1,0 +1,102 @@
+{
+  "jepa": {
+    "0.0": {
+      "room_brier": 0.15277294915137288,
+      "route_contrast_brier": 0.06086270577478564,
+      "copy_current_room": 0.16554212545718713,
+      "delta_vs_base": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "houses": 12,
+      "improved_houses": 0
+    },
+    "0.25": {
+      "room_brier": 0.1481014583468017,
+      "route_contrast_brier": 0.05993281846193293,
+      "copy_current_room": 0.16554212545718713,
+      "delta_vs_base": -0.004671490804571188,
+      "ci95": [
+        -0.00594293607456193,
+        -0.003337886014966812
+      ],
+      "houses": 12,
+      "improved_houses": 12
+    },
+    "0.5": {
+      "room_brier": 0.14433628485824881,
+      "route_contrast_brier": 0.059265949098970094,
+      "copy_current_room": 0.16554212545718713,
+      "delta_vs_base": -0.008436664293124065,
+      "ci95": [
+        -0.010812279015975137,
+        -0.005982116170689666
+      ],
+      "houses": 12,
+      "improved_houses": 12
+    },
+    "1.0": {
+      "room_brier": 0.13968852192733605,
+      "route_contrast_brier": 0.05865570870803094,
+      "copy_current_room": 0.16554212545718713,
+      "delta_vs_base": -0.013084427224036828,
+      "ci95": [
+        -0.01728908387234064,
+        -0.008989917552525328
+      ],
+      "houses": 12,
+      "improved_houses": 12
+    }
+  },
+  "direct": {
+    "0.0": {
+      "room_brier": 0.15689205981395696,
+      "route_contrast_brier": 0.06293285753167485,
+      "copy_current_room": 0.16554212545718713,
+      "delta_vs_base": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "houses": 12,
+      "improved_houses": 0
+    },
+    "0.25": {
+      "room_brier": 0.15304625813805003,
+      "route_contrast_brier": 0.06200946755269874,
+      "copy_current_room": 0.16554212545718713,
+      "delta_vs_base": -0.0038458016759069457,
+      "ci95": [
+        -0.004834269051481862,
+        -0.0028849764170329442
+      ],
+      "houses": 12,
+      "improved_houses": 12
+    },
+    "0.5": {
+      "room_brier": 0.1498170209565273,
+      "route_contrast_brier": 0.061328023743197714,
+      "copy_current_room": 0.16554212545718713,
+      "delta_vs_base": -0.007075038857429678,
+      "ci95": [
+        -0.008974679033786594,
+        -0.00527892953638429
+      ],
+      "houses": 12,
+      "improved_houses": 12
+    },
+    "1.0": {
+      "room_brier": 0.14542976377055536,
+      "route_contrast_brier": 0.06066798507064319,
+      "copy_current_room": 0.16554212545718713,
+      "delta_vs_base": -0.011462296043401618,
+      "ci95": [
+        -0.01499007400123884,
+        -0.00828677781598724
+      ],
+      "houses": 12,
+      "improved_houses": 12
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "houses": 12,
+  "all_cached_seeds_checked": true,
+  "comparisons_per_branch_across_queries": true,
+  "model_node_checks": 96,
+  "max_abs_error": 7.02028712940006e-09,
+  "inputs": "only the chosen ancestor actions, collisions and three arrival observations"
+}
