@@ -1,0 +1,151 @@
+{
+  "training": {
+    "training_houses": 40,
+    "training_queries": 1333,
+    "training_origins": 795,
+    "positive_route_queries": 1505,
+    "negative_route_queries": 2494,
+    "calibration_houses": 6,
+    "calibration_queries": 218,
+    "calibration": {
+      "jepa": [
+        {
+          "step": 120,
+          "queries": 218,
+          "selected_new_evidence": 103,
+          "house_macro": 0.47770833333333323,
+          "chance_house_macro": 0.3652854938271605,
+          "brier": 0.21964482963085175
+        },
+        {
+          "step": 240,
+          "queries": 218,
+          "selected_new_evidence": 103,
+          "house_macro": 0.4422685185185185,
+          "chance_house_macro": 0.3652854938271605,
+          "brier": 0.2323884218931198
+        },
+        {
+          "step": 360,
+          "queries": 218,
+          "selected_new_evidence": 100,
+          "house_macro": 0.43821759259259263,
+          "chance_house_macro": 0.3652854938271605,
+          "brier": 0.2715972363948822
+        }
+      ],
+      "direct": [
+        {
+          "step": 120,
+          "queries": 218,
+          "selected_new_evidence": 103,
+          "house_macro": 0.4696064814814815,
+          "chance_house_macro": 0.3652854938271605,
+          "brier": 0.22076618671417236
+        },
+        {
+          "step": 240,
+          "queries": 218,
+          "selected_new_evidence": 102,
+          "house_macro": 0.4515277777777778,
+          "chance_house_macro": 0.3652854938271605,
+          "brier": 0.23805658519268036
+        },
+        {
+          "step": 360,
+          "queries": 218,
+          "selected_new_evidence": 108,
+          "house_macro": 0.472361111111111,
+          "chance_house_macro": 0.3652854938271605,
+          "brier": 0.25196391344070435
+        }
+      ]
+    },
+    "disjoint": true,
+    "steps": {
+      "jepa": 120,
+      "direct": 360
+    },
+    "seed": 1511,
+    "checkpoint_sha256": "2a0c1666ca48fb8f3b821f92963e597ec75c1da3639f98323d62742088fc8160",
+    "heldout": {
+      "test": {
+        "houses": 16,
+        "queries": 424,
+        "results": {
+          "jepa": {
+            "queries": 424,
+            "selected_new_evidence": 191,
+            "house_macro": 0.4584204315372394,
+            "chance_house_macro": 0.39244612041127386,
+            "brier": 0.23326413333415985
+          },
+          "direct": {
+            "queries": 424,
+            "selected_new_evidence": 196,
+            "house_macro": 0.47007668597742125,
+            "chance_house_macro": 0.39244612041127386,
+            "brier": 0.2642625868320465
+          }
+        },
+        "delta_house_macro": -0.011656254440181875,
+        "delta_ci95": [
+          -0.0898006857860898,
+          0.05780584250230888
+        ]
+      },
+      "fresh2": {
+        "houses": 12,
+        "queries": 430,
+        "results": {
+          "jepa": {
+            "queries": 430,
+            "selected_new_evidence": 197,
+            "house_macro": 0.4673611111111111,
+            "chance_house_macro": 0.37069830246913577,
+            "brier": 0.22594663500785828
+          },
+          "direct": {
+            "queries": 430,
+            "selected_new_evidence": 213,
+            "house_macro": 0.5130208333333333,
+            "chance_house_macro": 0.37069830246913577,
+            "brier": 0.25500816106796265
+          }
+        },
+        "delta_house_macro": -0.04565972222222222,
+        "delta_ci95": [
+          -0.10532407407407408,
+          0.009087094907407414
+        ]
+      }
+    }
+  },
+  "checkpoint": {
+    "sha256": "2a0c1666ca48fb8f3b821f92963e597ec75c1da3639f98323d62742088fc8160",
+    "dim": 112,
+    "steps": {
+      "jepa": 120,
+      "direct": 360
+    },
+    "seed": 1511,
+    "selector": "highest calibration within-house/origin macro hit, lower Brier tie-break",
+    "selected_before_holdout": true
+  },
+  "deployment_check": {
+    "max_error": 0.00020959973335266113,
+    "matched": 8,
+    "split_overlaps": {
+      "train_extra_train": 0,
+      "train_calibration": 0,
+      "train_test": 0,
+      "train_fresh2": 0,
+      "extra_train_calibration": 0,
+      "extra_train_test": 0,
+      "extra_train_fresh2": 0,
+      "calibration_test": 0,
+      "calibration_fresh2": 0,
+      "test_fresh2": 0
+    }
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "cases": [
+    {
+      "ordinal": 1,
+      "eligibility_checks": 2,
+      "eligible": 0,
+      "first_eligible_step": null,
+      "bypassed": 2,
+      "bypass_reasons": {
+        "native_plan_short": 1,
+        "fewer_than_three_distinct_native_plans": 1
+      },
+      "scan_starts": 0,
+      "scan_end_reasons": {},
+      "scan_confirmed_turns": 0,
+      "ranks": 0,
+      "first_rank_step": null,
+      "deficit_bins": {},
+      "exploration_changed_choice": 0,
+      "evidence_changed_choice": 0,
+      "both_changed_choice": 0,
+      "changed_vs_v13": 0,
+      "confirmed_vs_v13": 0,
+      "changed_vs_native": 0,
+      "confirmed_vs_native": 0,
+      "rank_summary": [],
+      "search_and_reporting": {
+        "steps": 83,
+        "quota": 2,
+        "found": 0,
+        "capped_found": 0,
+        "approached": 1,
+        "clear_exposure": 1,
+        "clear_and_approached": 1,
+        "clear_never_approached": 0,
+        "clear_unreported": 1,
+        "approached_unreported": 1,
+        "required_missing_never_approached": 1,
+        "required_missing_approached_unreported": 1,
+        "reports": 2,
+        "reports_yielding_new_instances": 0,
+        "repeat_only_reports": 0,
+        "no_target_in_range_reports": 2
+      },
+      "commit_ends": {},
+      "trace_sha256": "e107ed3b74651706b3e9d492dff9cc78988ffffda780aaddd7a38cd1fdc0d63d"
+    },
+    {
+      "ordinal": 14,
+      "eligibility_checks": 10,
+      "eligible": 1,
+      "first_eligible_step": 237,
+      "bypassed": 9,
+      "bypass_reasons": {
+        "native_plan_short": 2,
+        "fewer_than_three_distinct_native_plans": 5,
+        "remaining_budget_below_28": 2
+      },
+      "scan_starts": 1,
+      "scan_end_reasons": {
+        "complete": 1
+      },
+      "scan_confirmed_turns": 4,
+      "ranks": 1,
+      "first_rank_step": 241,
+      "deficit_bins": {
+        "intermediate": 1
+      },
+      "exploration_changed_choice": 0,
+      "evidence_changed_choice": 0,
+      "both_changed_choice": 0,
+      "changed_vs_v13": 0,
+      "confirmed_vs_v13": 0,
+      "changed_vs_native": 1,
+      "confirmed_vs_native": 0,
+      "rank_summary": [
+        {
+          "step": 241,
+          "deficit": 0.445,
+          "explore_weight": 0.223,
+          "selected_new_evidence": 0.322,
+          "candidate_evidence_spread": 0.105,
+          "candidate_exploration_bonus_spread": 0.066,
+          "changed_by_exploration": false,
+          "changed_by_evidence": false,
+          "changed_vs_v13": false,
+          "executed_vs_v13": false,
+          "changed_vs_native": true,
+          "executed_vs_native": false
+        }
+      ],
+      "search_and_reporting": {
+        "steps": 300,
+        "quota": 3,
+        "found": 1,
+        "capped_found": 1,
+        "approached": 1,
+        "clear_exposure": 0,
+        "clear_and_approached": 0,
+        "clear_never_approached": 0,
+        "clear_unreported": 0,
+        "approached_unreported": 0,
+        "required_missing_never_approached": 2,
+        "required_missing_approached_unreported": 0,
+        "reports": 1,
+        "reports_yielding_new_instances": 1,
+        "repeat_only_reports": 0,
+        "no_target_in_range_reports": 0
+      },
+      "commit_ends": {
+        "map_pose_corrected": 1
+      },
+      "trace_sha256": "0c0509516f3eebc288f0d188ebdfd55d0c46c1a93279b28569190e8ad92adb24"
+    }
+  ],
+  "phase1_sha256": "04b6bebafc5bb8cfcceed722296b83d2b6a33a214b5aaa98d621a3bbd542c9e4",
+  "deficit_bins": "weak or absent >=0.75; strong <=0.25; intermediate otherwise; scored states only",
+  "clear_exposure": "103 target semantic pixels on two successive distinct camera views, 320x320",
+  "cue_source": "Episode-local classifier evidence is distinct from the evaluator's clear instance exposure.",
+  "decision_scope": "Ablations rescore identical candidate inputs; confirmed_vs counts rely on independent physical fork replay."
+}

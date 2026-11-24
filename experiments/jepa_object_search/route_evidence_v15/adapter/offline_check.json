@@ -1,0 +1,70 @@
+{
+  "passed": true,
+  "no_paid_calls": true,
+  "scan_source": "real Habitat RGB, simulated native candidate geometry",
+  "rank": {
+    "original": "f0",
+    "selected": "f0",
+    "v13_index": 0,
+    "index": 0,
+    "no_exploration_index": 0,
+    "no_evidence_index": 0,
+    "v13_scores": [
+      0.1823407289331367,
+      0.08121466692003597,
+      0.0636298011480654
+    ],
+    "evidence_probability": [
+      0.2499363273382187,
+      0.28298527002334595,
+      0.2305237203836441
+    ],
+    "unvisited_fraction": [
+      0.9583333333333334,
+      0.9523809523809523,
+      0.9523809523809523
+    ],
+    "clue_deficit": 1.0,
+    "adaptive_weight": 0.5,
+    "final_scores": [
+      0.6778301415569048,
+      0.6184572824267984,
+      0.5321727683171231
+    ],
+    "evidence_bonus": [
+      0.2499363273382187,
+      0.28298527002334595,
+      0.2305237203836441
+    ],
+    "exploration_bonus": [
+      0.2455530852855494,
+      0.25425734548341655,
+      0.23801924678541364
+    ]
+  },
+  "physical": {
+    "selected_by": "frozen_jepa",
+    "original": "f0",
+    "selected": "f0",
+    "scan_steps": [
+      1,
+      2,
+      3
+    ],
+    "first_difference": null,
+    "executed_actions": [
+      3,
+      2,
+      2,
+      3,
+      1
+    ],
+    "physical_last_action": {
+      "command": 1,
+      "forward_m": 0.24999983608722687,
+      "cos_half_turn": 1.0000000091621253,
+      "blocked": false
+    },
+    "reached_changed_action": false
+  }
+}

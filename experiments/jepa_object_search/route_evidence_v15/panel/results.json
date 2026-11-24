@@ -1,0 +1,139 @@
+{
+  "continue_phase2": false,
+  "conditions": {
+    "neither_regresses": false,
+    "at_least_three": false,
+    "verified_change_before_surplus": false
+  },
+  "cases": [
+    {
+      "ordinal": 1,
+      "quota": 2,
+      "native_hits": 1,
+      "v13_hits": 1,
+      "result": {
+        "quota": 2,
+        "found": 0,
+        "capped_found": 0,
+        "success": false,
+        "official_recall": 0.0,
+        "official_precision": 0.0,
+        "official_spl_multi": 0.0,
+        "approached": 1,
+        "clear_exposure": 1,
+        "clear_and_approached": 1,
+        "clear_never_approached": 0,
+        "clear_unreported": 1,
+        "approached_unreported": 1,
+        "approached_and_clear_unreported": 1,
+        "required_missing_never_approached": 1,
+        "required_missing_approached_unreported": 1,
+        "reports": 2,
+        "reports_yielding_new_instances": 0,
+        "repeat_only_reports": 0,
+        "no_target_in_range_reports": 2,
+        "credited_with_no_clear_exposure": 0,
+        "termination": "agent_finished_under_quota",
+        "steps": 83,
+        "motion": {
+          "forward_commands": 43,
+          "turns": 37,
+          "near_stationary_forward": 4,
+          "longest_consecutive_near_stationary_forward": 2,
+          "all_commands_under_1cm": 44,
+          "path_metres": 5.76049
+        }
+      },
+      "ranked_decisions": [],
+      "commit_ends": {},
+      "bypass_reasons": {
+        "native_plan_short": 1,
+        "fewer_than_three_distinct_native_plans": 1
+      },
+      "surplus_report_step": null,
+      "verified_change_before_surplus": false,
+      "result_sha256": "ea3038342b53ad86b22f8102806c0a93d2b25ecb11a3539d3517067f1d1687bc",
+      "replay_sha256": "68f37845418367e195e65da7358460d306b9acf63977d3e8c7abbe09e35a23f2"
+    },
+    {
+      "ordinal": 14,
+      "quota": 3,
+      "native_hits": 0,
+      "v13_hits": 1,
+      "result": {
+        "quota": 3,
+        "found": 1,
+        "capped_found": 1,
+        "success": false,
+        "official_recall": 0.3333333333333333,
+        "official_precision": 1.0,
+        "official_spl_multi": 0.0,
+        "approached": 1,
+        "clear_exposure": 0,
+        "clear_and_approached": 0,
+        "clear_never_approached": 0,
+        "clear_unreported": 0,
+        "approached_unreported": 0,
+        "approached_and_clear_unreported": 0,
+        "required_missing_never_approached": 2,
+        "required_missing_approached_unreported": 0,
+        "reports": 1,
+        "reports_yielding_new_instances": 1,
+        "repeat_only_reports": 0,
+        "no_target_in_range_reports": 0,
+        "credited_with_no_clear_exposure": 1,
+        "termination": "step_budget",
+        "steps": 300,
+        "motion": {
+          "forward_commands": 160,
+          "turns": 139,
+          "near_stationary_forward": 0,
+          "longest_consecutive_near_stationary_forward": 0,
+          "all_commands_under_1cm": 140,
+          "path_metres": 35.27192
+        }
+      },
+      "ranked_decisions": [
+        {
+          "step": 241,
+          "clue_deficit": 0.4450435744971071,
+          "adaptive_weight": 0.22252178724855354,
+          "change_from_v13": false,
+          "change_with_exploration": false,
+          "native_execution": {
+            "verified": false,
+            "reason": "actual_path_did_not_reach_predicted_fork"
+          },
+          "v13_execution": null
+        }
+      ],
+      "commit_ends": {
+        "map_pose_corrected": 1
+      },
+      "bypass_reasons": {
+        "native_plan_short": 2,
+        "fewer_than_three_distinct_native_plans": 5,
+        "eligible": 1,
+        "remaining_budget_below_28": 2
+      },
+      "surplus_report_step": null,
+      "verified_change_before_surplus": false,
+      "result_sha256": "98b142d642cdcab85150c953b8e6a7ca3e3065d96f20b871d8c10ea61cc7f7ed",
+      "replay_sha256": "4ce87719fc33e206e560768f937a0c688230867addcf3edef16b7967870209cd"
+    }
+  ],
+  "decision_usage": {
+    "first2": {
+      "events": {
+        "success": 74
+      },
+      "reported_tokens": {
+        "completion_tokens": 2645,
+        "prompt_tokens": 994567,
+        "total_tokens": 997212
+      },
+      "known_currency_amount": null,
+      "shared_caption_ledger_excluded_from_decision_usage": true
+    }
+  }
+}

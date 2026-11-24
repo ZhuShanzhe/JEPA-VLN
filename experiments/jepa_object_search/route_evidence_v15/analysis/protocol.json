@@ -1,0 +1,19 @@
+{
+  "task": "MOST-Nav text-conditioned multi-instance object search",
+  "pilot_order": [1, 14],
+  "conditional_order": [21, 32, 39],
+  "quota": {"1": 2, "14": 3, "21": 3, "32": 3, "39": 5},
+  "previous_v13_capped_hits": {"1": 1, "14": 1},
+  "native_capped_hits": {"1": 1, "14": 0},
+  "max_actions": 300,
+  "decision_provider": "APIyi",
+  "decision_model": "gpt-4o-2024-11-20",
+  "primary": "Official distinct credited instances capped at the episode quota",
+  "continue_if_all": [
+    "Both original episodes are accepted, including independent Habitat replay",
+    "Each pilot episode has at least its V13 credited count and the sum is at least three",
+    "In an improved episode a physically verified departure from the same-input V13 choice precedes the first report exceeding its V13 credited count"
+  ],
+  "engineering_exceptions": "Incomplete or quarantined runs are never scored. No tuning from these pilot outcomes.",
+  "inference": "Two previously used development episodes; continuation screen, not a significance test. V14 was evaluated offline only. A pre-report action cannot establish causality."
+}

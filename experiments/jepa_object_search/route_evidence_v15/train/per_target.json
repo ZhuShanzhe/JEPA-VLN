@@ -1,0 +1,106 @@
+{
+  "checkpoints_sha256": {
+    "jepa": "2a0c1666ca48fb8f3b821f92963e597ec75c1da3639f98323d62742088fc8160",
+    "direct": "912e7427647bfddc15c1140aad6da356b4e756b1064bbb61683bbffe414b32c1"
+  },
+  "categories": [
+    "clock.n.01",
+    "wall_art.n.01"
+  ],
+  "splits": {
+    "train": {
+      "clock.n.01": {
+        "queries": 0,
+        "houses": 0,
+        "positive_routes": 0,
+        "total_routes": 0
+      },
+      "wall_art.n.01": {
+        "queries": 36,
+        "houses": 15,
+        "positive_routes": 43,
+        "total_routes": 108
+      }
+    },
+    "extra_train": {
+      "clock.n.01": {
+        "queries": 0,
+        "houses": 0,
+        "positive_routes": 0,
+        "total_routes": 0
+      },
+      "wall_art.n.01": {
+        "queries": 20,
+        "houses": 9,
+        "positive_routes": 24,
+        "total_routes": 60
+      }
+    },
+    "calibration": {
+      "clock.n.01": {
+        "queries": 0,
+        "houses": 0,
+        "positive_routes": 0,
+        "total_routes": 0
+      },
+      "wall_art.n.01": {
+        "queries": 6,
+        "houses": 4,
+        "positive_routes": 6,
+        "total_routes": 18
+      }
+    },
+    "test": {
+      "clock.n.01": {
+        "queries": 0,
+        "houses": 0,
+        "positive_routes": 0,
+        "total_routes": 0
+      },
+      "wall_art.n.01": {
+        "queries": 24,
+        "houses": 6,
+        "positive_routes": 29,
+        "total_routes": 72,
+        "jepa": {
+          "first_choice_hits": 15,
+          "micro": 0.625,
+          "house_macro": 0.5361111111111111
+        },
+        "direct": {
+          "first_choice_hits": 14,
+          "micro": 0.5833333333333334,
+          "house_macro": 0.513888888888889
+        },
+        "different_choice": 9,
+        "uniform_chance_micro": 0.4027777777777778
+      }
+    },
+    "fresh2": {
+      "clock.n.01": {
+        "queries": 0,
+        "houses": 0,
+        "positive_routes": 0,
+        "total_routes": 0
+      },
+      "wall_art.n.01": {
+        "queries": 10,
+        "houses": 5,
+        "positive_routes": 11,
+        "total_routes": 30,
+        "jepa": {
+          "first_choice_hits": 4,
+          "micro": 0.4,
+          "house_macro": 0.4666666666666666
+        },
+        "direct": {
+          "first_choice_hits": 5,
+          "micro": 0.5,
+          "house_macro": 0.5333333333333333
+        },
+        "different_choice": 3,
+        "uniform_chance_micro": 0.36666666666666664
+      }
+    }
+  }
+}

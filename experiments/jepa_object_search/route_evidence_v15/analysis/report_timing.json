@@ -1,0 +1,166 @@
+[
+  {
+    "ordinal": 1,
+    "arms": {
+      "native": {
+        "steps": 90,
+        "termination_action": "finish",
+        "agent_finished": true,
+        "last_validated_decision": "REPORT_FOUND",
+        "clear_exposures": [
+          1
+        ],
+        "approached": 1,
+        "reports": [
+          {
+            "step": 65,
+            "new_instances": 1
+          },
+          {
+            "step": 88,
+            "new_instances": 0
+          }
+        ],
+        "capped_hits": 1,
+        "successful_decision_counts": {
+          "SCAN": 1,
+          "GOTO_INSTANCE": 3,
+          "GOTO_FRONTIER": 2,
+          "REPORT_FOUND": 2
+        }
+      },
+      "v13": {
+        "steps": 227,
+        "termination_action": "finish",
+        "agent_finished": true,
+        "last_validated_decision": "REPORT_FOUND",
+        "clear_exposures": [
+          1
+        ],
+        "approached": 1,
+        "reports": [
+          {
+            "step": 78,
+            "new_instances": 1
+          },
+          {
+            "step": 225,
+            "new_instances": 0
+          }
+        ],
+        "capped_hits": 1,
+        "successful_decision_counts": {
+          "SCAN": 1,
+          "GOTO_INSTANCE": 3,
+          "GOTO_FRONTIER": 8,
+          "REPORT_FOUND": 2
+        }
+      },
+      "v15": {
+        "steps": 83,
+        "termination_action": "finish",
+        "agent_finished": true,
+        "last_validated_decision": "REPORT_FOUND",
+        "clear_exposures": [
+          1
+        ],
+        "approached": 1,
+        "reports": [
+          {
+            "step": 79,
+            "new_instances": 0
+          },
+          {
+            "step": 81,
+            "new_instances": 0
+          }
+        ],
+        "capped_hits": 0,
+        "successful_decision_counts": {
+          "SCAN": 1,
+          "GOTO_INSTANCE": 4,
+          "GOTO_FRONTIER": 2,
+          "REPORT_FOUND": 2
+        }
+      }
+    },
+    "first_different_action_vs_logged_v13": 38,
+    "first_v15_scan": null,
+    "divergence_before_v15_scan": true
+  },
+  {
+    "ordinal": 14,
+    "arms": {
+      "native": {
+        "steps": 300,
+        "termination_action": "navigate",
+        "agent_finished": false,
+        "last_validated_decision": "GOTO_FRONTIER",
+        "clear_exposures": [
+          94
+        ],
+        "approached": 1,
+        "reports": [
+          {
+            "step": 217,
+            "new_instances": 0
+          },
+          {
+            "step": 256,
+            "new_instances": 0
+          }
+        ],
+        "capped_hits": 0,
+        "successful_decision_counts": {
+          "SCAN": 1,
+          "GOTO_FRONTIER": 10,
+          "GOTO_INSTANCE": 4,
+          "REPORT_FOUND": 2
+        }
+      },
+      "v13": {
+        "steps": 300,
+        "termination_action": "navigate",
+        "agent_finished": false,
+        "last_validated_decision": "GOTO_FRONTIER",
+        "clear_exposures": [],
+        "approached": 1,
+        "reports": [
+          {
+            "step": 120,
+            "new_instances": 1
+          }
+        ],
+        "capped_hits": 1,
+        "successful_decision_counts": {
+          "GOTO_FRONTIER": 7,
+          "GOTO_INSTANCE": 1,
+          "REPORT_FOUND": 1
+        }
+      },
+      "v15": {
+        "steps": 300,
+        "termination_action": "navigate",
+        "agent_finished": false,
+        "last_validated_decision": "GOTO_FRONTIER",
+        "clear_exposures": [],
+        "approached": 1,
+        "reports": [
+          {
+            "step": 113,
+            "new_instances": 1
+          }
+        ],
+        "capped_hits": 1,
+        "successful_decision_counts": {
+          "GOTO_FRONTIER": 10,
+          "GOTO_INSTANCE": 1,
+          "REPORT_FOUND": 1
+        }
+      }
+    },
+    "first_different_action_vs_logged_v13": 63,
+    "first_v15_scan": 237,
+    "divergence_before_v15_scan": true
+  }
+]
