@@ -1,0 +1,441 @@
+{
+  "unique_sampled_rgb": 238,
+  "per_query_visible_target_grounding": {
+    "cup": {
+      "present": 28,
+      "absent": 210,
+      "AUC": 0.9641156462585034,
+      "median_when_visible": 0.37353041768074036,
+      "median_when_absent": 0.2629431486129761
+    },
+    "sofa": {
+      "present": 62,
+      "absent": 176,
+      "AUC": 0.7753848973607038,
+      "median_when_visible": 0.521937221288681,
+      "median_when_absent": 0.39136481285095215
+    }
+  },
+  "different_branch_for_cup_vs_sofa": {
+    "stationary/unseen": {
+      "fixed": [
+        2,
+        12
+      ],
+      "geometry": [
+        0,
+        12
+      ],
+      "observed": [
+        4,
+        12
+      ],
+      "full": [
+        2,
+        12
+      ],
+      "v8": [
+        2,
+        12
+      ],
+      "exploration_only": [
+        0,
+        12
+      ],
+      "persistent_trace": [
+        2,
+        12
+      ]
+    },
+    "stationary/left_observed": {
+      "fixed": [
+        2,
+        12
+      ],
+      "geometry": [
+        0,
+        12
+      ],
+      "observed": [
+        0,
+        12
+      ],
+      "full": [
+        0,
+        12
+      ],
+      "v8": [
+        2,
+        12
+      ],
+      "exploration_only": [
+        0,
+        12
+      ],
+      "persistent_trace": [
+        2,
+        12
+      ]
+    },
+    "stationary/both_observed": {
+      "fixed": [
+        2,
+        12
+      ],
+      "geometry": [
+        0,
+        12
+      ],
+      "observed": [
+        6,
+        12
+      ],
+      "full": [
+        6,
+        12
+      ],
+      "v8": [
+        2,
+        12
+      ],
+      "exploration_only": [
+        0,
+        12
+      ],
+      "persistent_trace": [
+        5,
+        12
+      ]
+    },
+    "stationary/unobserved_event": {
+      "fixed": [
+        2,
+        12
+      ],
+      "geometry": [
+        0,
+        12
+      ],
+      "observed": [
+        6,
+        12
+      ],
+      "full": [
+        6,
+        12
+      ],
+      "v8": [
+        2,
+        12
+      ],
+      "exploration_only": [
+        0,
+        12
+      ],
+      "persistent_trace": [
+        5,
+        12
+      ]
+    },
+    "stationary/old_evidence": {
+      "fixed": [
+        2,
+        12
+      ],
+      "geometry": [
+        0,
+        12
+      ],
+      "observed": [
+        4,
+        12
+      ],
+      "full": [
+        4,
+        12
+      ],
+      "v8": [
+        2,
+        12
+      ],
+      "exploration_only": [
+        0,
+        12
+      ],
+      "persistent_trace": [
+        3,
+        12
+      ]
+    },
+    "stationary/revisited_left": {
+      "fixed": [
+        2,
+        12
+      ],
+      "geometry": [
+        0,
+        12
+      ],
+      "observed": [
+        2,
+        12
+      ],
+      "full": [
+        2,
+        12
+      ],
+      "v8": [
+        2,
+        12
+      ],
+      "exploration_only": [
+        0,
+        12
+      ],
+      "persistent_trace": [
+        0,
+        12
+      ]
+    },
+    "stationary/revisited_both": {
+      "fixed": [
+        2,
+        12
+      ],
+      "geometry": [
+        0,
+        12
+      ],
+      "observed": [
+        6,
+        12
+      ],
+      "full": [
+        6,
+        12
+      ],
+      "v8": [
+        2,
+        12
+      ],
+      "exploration_only": [
+        0,
+        12
+      ],
+      "persistent_trace": [
+        5,
+        12
+      ]
+    },
+    "moved/unseen": {
+      "fixed": [
+        2,
+        12
+      ],
+      "geometry": [
+        0,
+        12
+      ],
+      "observed": [
+        4,
+        12
+      ],
+      "full": [
+        2,
+        12
+      ],
+      "v8": [
+        2,
+        12
+      ],
+      "exploration_only": [
+        0,
+        12
+      ],
+      "persistent_trace": [
+        2,
+        12
+      ]
+    },
+    "moved/left_observed": {
+      "fixed": [
+        2,
+        12
+      ],
+      "geometry": [
+        0,
+        12
+      ],
+      "observed": [
+        0,
+        12
+      ],
+      "full": [
+        0,
+        12
+      ],
+      "v8": [
+        2,
+        12
+      ],
+      "exploration_only": [
+        0,
+        12
+      ],
+      "persistent_trace": [
+        2,
+        12
+      ]
+    },
+    "moved/both_observed": {
+      "fixed": [
+        2,
+        12
+      ],
+      "geometry": [
+        0,
+        12
+      ],
+      "observed": [
+        6,
+        12
+      ],
+      "full": [
+        6,
+        12
+      ],
+      "v8": [
+        2,
+        12
+      ],
+      "exploration_only": [
+        0,
+        12
+      ],
+      "persistent_trace": [
+        5,
+        12
+      ]
+    },
+    "moved/unobserved_event": {
+      "fixed": [
+        2,
+        12
+      ],
+      "geometry": [
+        0,
+        12
+      ],
+      "observed": [
+        6,
+        12
+      ],
+      "full": [
+        6,
+        12
+      ],
+      "v8": [
+        2,
+        12
+      ],
+      "exploration_only": [
+        0,
+        12
+      ],
+      "persistent_trace": [
+        5,
+        12
+      ]
+    },
+    "moved/old_evidence": {
+      "fixed": [
+        2,
+        12
+      ],
+      "geometry": [
+        0,
+        12
+      ],
+      "observed": [
+        4,
+        12
+      ],
+      "full": [
+        4,
+        12
+      ],
+      "v8": [
+        2,
+        12
+      ],
+      "exploration_only": [
+        0,
+        12
+      ],
+      "persistent_trace": [
+        3,
+        12
+      ]
+    },
+    "moved/revisited_left": {
+      "fixed": [
+        2,
+        12
+      ],
+      "geometry": [
+        0,
+        12
+      ],
+      "observed": [
+        2,
+        12
+      ],
+      "full": [
+        2,
+        12
+      ],
+      "v8": [
+        2,
+        12
+      ],
+      "exploration_only": [
+        0,
+        12
+      ],
+      "persistent_trace": [
+        0,
+        12
+      ]
+    },
+    "moved/revisited_both": {
+      "fixed": [
+        2,
+        12
+      ],
+      "geometry": [
+        0,
+        12
+      ],
+      "observed": [
+        6,
+        12
+      ],
+      "full": [
+        6,
+        12
+      ],
+      "v8": [
+        2,
+        12
+      ],
+      "exploration_only": [
+        0,
+        12
+      ],
+      "persistent_trace": [
+        6,
+        12
+      ]
+    }
+  }
+}

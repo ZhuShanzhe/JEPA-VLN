@@ -1,0 +1,48 @@
+{
+  "houses": 4,
+  "origins": 16,
+  "matched_rgb_frames": 170,
+  "max_rgb_mean_absolute_error": 0.0,
+  "all_conditions": {
+    "clearly_seen": 330,
+    "never_visible": 240,
+    "weak_only": 18
+  },
+  "all_branches_zero": {
+    "clearly_seen": 229,
+    "never_visible": 240,
+    "weak_only": 18
+  },
+  "all_branches_same_positive": {
+    "clearly_seen": 3
+  },
+  "informative": {
+    "never_visible": {
+      "conditions": 0,
+      "houses": 0,
+      "source_origins": 0,
+      "metrics_house_equal_weight": {}
+    },
+    "weak_only": {
+      "conditions": 0,
+      "houses": 0,
+      "source_origins": 0,
+      "metrics_house_equal_weight": {}
+    },
+    "clearly_seen": {
+      "conditions": 98,
+      "houses": 4,
+      "source_origins": 12,
+      "metrics_house_equal_weight": {
+        "online": 0.6170951439244122,
+        "fixed": 0.6897604921995165,
+        "observed": 0.595506482091848,
+        "no_semantic_memory": 0.6184135354867062,
+        "v8": 0.7256866622720282,
+        "oracle": 1.232663150955834
+      }
+    }
+  },
+  "unit": "One goal x origin x horizon. Gains count newly eligible distinct instances. Informative cases have at least two different candidate outcomes.",
+  "scope": "Never visible means zero teacher pixels of the category across all retained RGB keyframes in this executed prefix. Evaluation only."
+}

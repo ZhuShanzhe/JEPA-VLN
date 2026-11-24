@@ -1,0 +1,12 @@
+{
+  "new_instances": {
+    "shared": 2,
+    "online_only": 1,
+    "fixed_only": 0
+  },
+  "moderate_instances": {
+    "shared": 2,
+    "online_only": 1,
+    "fixed_only": 0
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "train_houses": 8,
+  "test_houses": 6,
+  "train_starts": 144,
+  "test_starts": 108,
+  "test_queries": 216,
+  "pairwise_visibility_matches": 54,
+  "max_initial_target_pixels": 0,
+  "min_visible_cue_pixels": 2348,
+  "max_imbalance_m": 0.0,
+  "training_prior_weight": {
+    "aligned": 3,
+    "contradictory": 1,
+    "no_cues": 1
+  },
+  "arm_means": {
+    "aligned": {
+      "latent_head": 1.0,
+      "direct_supervised": 1.0,
+      "wrong_goal": 0.0,
+      "pure_text": 0.9444444444444444,
+      "frozen_v8": 0.6527777777777778,
+      "equal_geometry": 0.5
+    },
+    "contradictory": {
+      "latent_head": 0.0,
+      "direct_supervised": 0.0,
+      "wrong_goal": 1.0,
+      "pure_text": 0.05555555555555555,
+      "frozen_v8": 0.3472222222222222,
+      "equal_geometry": 0.5
+    },
+    "no_cues": {
+      "latent_head": 0.5,
+      "direct_supervised": 0.5,
+      "wrong_goal": 0.5,
+      "pure_text": 0.5,
+      "frozen_v8": 0.5,
+      "equal_geometry": 0.5
+    },
+    "cue_mixture_75_25": {
+      "latent_head": 0.75,
+      "direct_supervised": 0.75,
+      "wrong_goal": 0.25,
+      "pure_text": 0.7222222222222221,
+      "frozen_v8": 0.576388888888889,
+      "equal_geometry": 0.5
+    },
+    "full_factorial": {
+      "latent_head": 0.5,
+      "direct_supervised": 0.5,
+      "wrong_goal": 0.5,
+      "pure_text": 0.5,
+      "frozen_v8": 0.5,
+      "equal_geometry": 0.5
+    }
+  },
+  "house_accuracies": {
+    "house_09": {
+      "aligned": {
+        "latent_head": 1.0,
+        "direct_supervised": 1.0,
+        "wrong_goal": 0.0,
+        "pure_text": 1.0,
+        "frozen_v8": 0.75,
+        "equal_geometry": 0.5
+      },
+      "contradictory": {
+        "latent_head": 0.0,
+        "direct_supervised": 0.0,
+        "wrong_goal": 1.0,
+        "pure_text": 0.0,
+        "frozen_v8": 0.25,
+        "equal_geometry": 0.5
+      },
+      "no_cues": {
+        "latent_head": 0.5,
+        "direct_supervised": 0.5,
+        "wrong_goal": 0.5,
+        "pure_text": 0.5,
+        "frozen_v8": 0.5,
+        "equal_geometry": 0.5
+      }
+    },
+    "house_10": {
+      "aligned": {
+        "latent_head": 1.0,
+        "direct_supervised": 1.0,
+        "wrong_goal": 0.0,
+        "pure_text": 1.0,
+        "frozen_v8": 0.6666666666666666,
+        "equal_geometry": 0.5
+      },
+      "contradictory": {
+        "latent_head": 0.0,
+        "direct_supervised": 0.0,
+        "wrong_goal": 1.0,
+        "pure_text": 0.0,
+        "frozen_v8": 0.3333333333333333,
+        "equal_geometry": 0.5
+      },
+      "no_cues": {
+        "latent_head": 0.5,
+        "direct_supervised": 0.5,
+        "wrong_goal": 0.5,
+        "pure_text": 0.5,
+        "frozen_v8": 0.5,
+        "equal_geometry": 0.5
+      }
+    },
+    "house_11": {
+      "aligned": {
+        "latent_head": 1.0,
+        "direct_supervised": 1.0,
+        "wrong_goal": 0.0,
+        "pure_text": 1.0,
+        "frozen_v8": 0.5833333333333334,
+        "equal_geometry": 0.5
+      },
+      "contradictory": {
+        "latent_head": 0.0,
+        "direct_supervised": 0.0,
+        "wrong_goal": 1.0,
+        "pure_text": 0.0,
+        "frozen_v8": 0.4166666666666667,
+        "equal_geometry": 0.5
+      },
+      "no_cues": {
+        "latent_head": 0.5,
+        "direct_supervised": 0.5,
+        "wrong_goal": 0.5,
+        "pure_text": 0.5,
+        "frozen_v8": 0.5,
+        "equal_geometry": 0.5
+      }
+    },
+    "house_12": {
+      "aligned": {
+        "latent_head": 1.0,
+        "direct_supervised": 1.0,
+        "wrong_goal": 0.0,
+        "pure_text": 1.0,
+        "frozen_v8": 0.6666666666666666,
+        "equal_geometry": 0.5
+      },
+      "contradictory": {
+        "latent_head": 0.0,
+        "direct_supervised": 0.0,
+        "wrong_goal": 1.0,
+        "pure_text": 0.0,
+        "frozen_v8": 0.3333333333333333,
+        "equal_geometry": 0.5
+      },
+      "no_cues": {
+        "latent_head": 0.5,
+        "direct_supervised": 0.5,
+        "wrong_goal": 0.5,
+        "pure_text": 0.5,
+        "frozen_v8": 0.5,
+        "equal_geometry": 0.5
+      }
+    },
+    "house_13": {
+      "aligned": {
+        "latent_head": 1.0,
+        "direct_supervised": 1.0,
+        "wrong_goal": 0.0,
+        "pure_text": 1.0,
+        "frozen_v8": 0.6666666666666666,
+        "equal_geometry": 0.5
+      },
+      "contradictory": {
+        "latent_head": 0.0,
+        "direct_supervised": 0.0,
+        "wrong_goal": 1.0,
+        "pure_text": 0.0,
+        "frozen_v8": 0.3333333333333333,
+        "equal_geometry": 0.5
+      },
+      "no_cues": {
+        "latent_head": 0.5,
+        "direct_supervised": 0.5,
+        "wrong_goal": 0.5,
+        "pure_text": 0.5,
+        "frozen_v8": 0.5,
+        "equal_geometry": 0.5
+      }
+    },
+    "house_14": {
+      "aligned": {
+        "latent_head": 1.0,
+        "direct_supervised": 1.0,
+        "wrong_goal": 0.0,
+        "pure_text": 0.6666666666666666,
+        "frozen_v8": 0.5833333333333334,
+        "equal_geometry": 0.5
+      },
+      "contradictory": {
+        "latent_head": 0.0,
+        "direct_supervised": 0.0,
+        "wrong_goal": 1.0,
+        "pure_text": 0.3333333333333333,
+        "frozen_v8": 0.4166666666666667,
+        "equal_geometry": 0.5
+      },
+      "no_cues": {
+        "latent_head": 0.5,
+        "direct_supervised": 0.5,
+        "wrong_goal": 0.5,
+        "pure_text": 0.5,
+        "frozen_v8": 0.5,
+        "equal_geometry": 0.5
+      }
+    }
+  },
+  "weights_sha256": "674336e1c8fad05180f78bee8af79fdf844b9e82bcf29f261b7044e87607beae",
+  "test_hash": "e0b1fd7a87bef015a65ed74e04b55e5c9edff82acd9e2416475811c645dbe695",
+  "source_sha256": "cd5564796f256a74e1081777f288c63eca1d1d23a7cf831e53bc5d2a16dec640",
+  "limitation": "Two categories; engineered visual cue-target correlation; six new procedurally generated room geometries. No natural-house performance claim."
+}

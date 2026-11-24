@@ -1,0 +1,32 @@
+{
+  "rooms": [
+    "dynamic_21",
+    "dynamic_22",
+    "dynamic_23",
+    "dynamic_24",
+    "dynamic_25",
+    "dynamic_26"
+  ],
+  "seed": 65479,
+  "events": [
+    "unchanged",
+    "physical_target_swap"
+  ],
+  "cues": [
+    "congruent",
+    "conflicting",
+    "hidden"
+  ],
+  "categories": [
+    "cup",
+    "sofa"
+  ],
+  "poses": "both target orders, live Habitat; two 24-action candidate routes",
+  "memory": "after sufficient route-local inspection, EWMA signed visual evidence (85% newest) with a 96-step half life",
+  "score": "0.18 x max-normalized prior + upcoming route evidence. Equal starts split across target queries. Ties half.",
+  "hypotheses": [
+    "same prediction before a differentiating observation",
+    "improve after physical re-observation",
+    "compare same memory with direct supervised and constant priors"
+  ]
+}

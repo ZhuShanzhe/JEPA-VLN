@@ -1,0 +1,1063 @@
+{
+  "target": "P(at least one newly eligible catalogued goal-instance viewpoint within the specified physical action budget | legal action prefix, RGB evidence, recent visual trace, frozen V8 features)",
+  "task": "HSSD-derived branch opportunity; all 16 query classes scored, including truly absent classes; corrupt category catalogues excluded. No class-presence flag or exploration bonus is a predictor input.",
+  "sha256": "5f5a21d47afe5168ee91f4bcb19759b0d47e73bda941fd38c1a57494ac6b253e",
+  "counts": {
+    "train": {
+      "origins": 72,
+      "nominal_candidate_query_rows": 31104,
+      "removed_duplicate_prefix_rows": 4608,
+      "excluded_unresolved_catalog_rows": 0,
+      "num_sequences": 1656,
+      "duplicate_physical_label_disagreements": 0,
+      "duplicate_max_feature_difference": 5.960464477539063e-08
+    },
+    "calibration": {
+      "origins": 16,
+      "nominal_candidate_query_rows": 6912,
+      "removed_duplicate_prefix_rows": 1024,
+      "excluded_unresolved_catalog_rows": 92,
+      "num_sequences": 368,
+      "duplicate_physical_label_disagreements": 0,
+      "duplicate_max_feature_difference": 5.960464477539063e-08
+    },
+    "holdout": {
+      "origins": 16,
+      "nominal_candidate_query_rows": 6912,
+      "removed_duplicate_prefix_rows": 1024,
+      "excluded_unresolved_catalog_rows": 0,
+      "num_sequences": 368,
+      "duplicate_physical_label_disagreements": 0,
+      "duplicate_max_feature_difference": 2.9802322387695312e-08
+    }
+  },
+  "splits": {
+    "train": {
+      "all": {
+        "horizon_frequency": {
+          "n": 26496,
+          "positives": 1330,
+          "negative": 25166,
+          "prevalence": 0.050196256038647344,
+          "average_precision": 0.0540781427199238,
+          "brier": 0.0480062331805192,
+          "mean_prediction": 0.030678994894937014
+        },
+        "joint": {
+          "n": 26496,
+          "positives": 1330,
+          "negative": 25166,
+          "prevalence": 0.050196256038647344,
+          "average_precision": 0.26601662100738555,
+          "brier": 0.04222843685444627,
+          "mean_prediction": 0.038870799379668475
+        },
+        "observed": {
+          "n": 26496,
+          "positives": 1330,
+          "negative": 25166,
+          "prevalence": 0.050196256038647344,
+          "average_precision": 0.2386587646223435,
+          "brier": 0.04274125115926428,
+          "mean_prediction": 0.03779565427311656
+        }
+      },
+      "4_actions": {
+        "horizon_frequency": {
+          "n": 5760,
+          "positives": 210,
+          "negative": 5550,
+          "prevalence": 0.036458333333333336,
+          "average_precision": 0.036458333333333336,
+          "brier": 0.03564146553155389,
+          "mean_prediction": 0.013823354480570978
+        },
+        "joint": {
+          "n": 5760,
+          "positives": 210,
+          "negative": 5550,
+          "prevalence": 0.036458333333333336,
+          "average_precision": 0.20148611862204224,
+          "brier": 0.03276880013227074,
+          "mean_prediction": 0.022952974782804305
+        },
+        "observed": {
+          "n": 5760,
+          "positives": 210,
+          "negative": 5550,
+          "prevalence": 0.036458333333333336,
+          "average_precision": 0.18546252312043796,
+          "brier": 0.03311909578203412,
+          "mean_prediction": 0.020492255905506934
+        }
+      },
+      "12_actions": {
+        "horizon_frequency": {
+          "n": 10368,
+          "positives": 544,
+          "negative": 9824,
+          "prevalence": 0.05246913580246913,
+          "average_precision": 0.05246913580246913,
+          "brier": 0.050087736070140686,
+          "mean_prediction": 0.03319193477302777
+        },
+        "joint": {
+          "n": 10368,
+          "positives": 544,
+          "negative": 9824,
+          "prevalence": 0.05246913580246913,
+          "average_precision": 0.28406153100301657,
+          "brier": 0.04349710786009364,
+          "mean_prediction": 0.04162668525369948
+        },
+        "observed": {
+          "n": 10368,
+          "positives": 544,
+          "negative": 9824,
+          "prevalence": 0.05246913580246913,
+          "average_precision": 0.2526908081681735,
+          "brier": 0.04401527623891604,
+          "mean_prediction": 0.041323695562578776
+        }
+      },
+      "24_actions": {
+        "horizon_frequency": {
+          "n": 10368,
+          "positives": 576,
+          "negative": 9792,
+          "prevalence": 0.05555555555555555,
+          "average_precision": 0.05555555555555555,
+          "brier": 0.05279404565143401,
+          "mean_prediction": 0.03753029969149405
+        },
+        "joint": {
+          "n": 10368,
+          "positives": 576,
+          "negative": 9792,
+          "prevalence": 0.05555555555555555,
+          "average_precision": 0.2766614251426726,
+          "brier": 0.046215119583340854,
+          "mean_prediction": 0.04495814939278423
+        },
+        "observed": {
+          "n": 10368,
+          "positives": 576,
+          "negative": 9792,
+          "prevalence": 0.05555555555555555,
+          "average_precision": 0.24970521743660212,
+          "brier": 0.04681286795585149,
+          "mean_prediction": 0.043880612076770825
+        }
+      },
+      "catalog_contains_target_class": {
+        "horizon_frequency": {
+          "n": 21666,
+          "positives": 1330,
+          "negative": 20336,
+          "prevalence": 0.061386504200129234,
+          "average_precision": 0.06613377963200873,
+          "brier": 0.05848002327055507,
+          "mean_prediction": 0.030678994894937014
+        },
+        "joint": {
+          "n": 21666,
+          "positives": 1330,
+          "negative": 20336,
+          "prevalence": 0.061386504200129234,
+          "average_precision": 0.273942327451846,
+          "brier": 0.051493789616456065,
+          "mean_prediction": 0.04402206169049933
+        },
+        "observed": {
+          "n": 21666,
+          "positives": 1330,
+          "negative": 20336,
+          "prevalence": 0.061386504200129234,
+          "average_precision": 0.2409117590228373,
+          "brier": 0.05221885137800125,
+          "mean_prediction": 0.04372708584873165
+        }
+      },
+      "per_house_all": {
+        "102344328": {
+          "horizon_frequency": {
+            "n": 2208,
+            "positives": 71,
+            "negative": 2137,
+            "prevalence": 0.03215579710144927,
+            "average_precision": 0.034829953958857816,
+            "brier": 0.03111613822294544,
+            "mean_prediction": 0.030678994894937014
+          },
+          "joint": {
+            "n": 2208,
+            "positives": 71,
+            "negative": 2137,
+            "prevalence": 0.03215579710144927,
+            "average_precision": 0.1847765783515761,
+            "brier": 0.02851055002252173,
+            "mean_prediction": 0.04721680241524615
+          },
+          "observed": {
+            "n": 2208,
+            "positives": 71,
+            "negative": 2137,
+            "prevalence": 0.03215579710144927,
+            "average_precision": 0.14607628485724758,
+            "brier": 0.02987690917397753,
+            "mean_prediction": 0.042416513808239416
+          }
+        },
+        "102816729": {
+          "horizon_frequency": {
+            "n": 2208,
+            "positives": 184,
+            "negative": 2024,
+            "prevalence": 0.08333333333333333,
+            "average_precision": 0.08813909017713364,
+            "brier": 0.07908004076426929,
+            "mean_prediction": 0.030678994894937014
+          },
+          "joint": {
+            "n": 2208,
+            "positives": 184,
+            "negative": 2024,
+            "prevalence": 0.08333333333333333,
+            "average_precision": 0.41050754888396246,
+            "brier": 0.06694064415074312,
+            "mean_prediction": 0.043635130004465256
+          },
+          "observed": {
+            "n": 2208,
+            "positives": 184,
+            "negative": 2024,
+            "prevalence": 0.08333333333333333,
+            "average_precision": 0.3640810305858651,
+            "brier": 0.06781252631621576,
+            "mean_prediction": 0.04135380470326964
+          }
+        },
+        "102817053": {
+          "horizon_frequency": {
+            "n": 2208,
+            "positives": 206,
+            "negative": 2002,
+            "prevalence": 0.09329710144927536,
+            "average_precision": 0.09649817081750388,
+            "brier": 0.088464061350535,
+            "mean_prediction": 0.030678994894937014
+          },
+          "joint": {
+            "n": 2208,
+            "positives": 206,
+            "negative": 2002,
+            "prevalence": 0.09329710144927536,
+            "average_precision": 0.4192913565381752,
+            "brier": 0.07600599551704873,
+            "mean_prediction": 0.042769131124969495
+          },
+          "observed": {
+            "n": 2208,
+            "positives": 206,
+            "negative": 2002,
+            "prevalence": 0.09329710144927536,
+            "average_precision": 0.353467862669666,
+            "brier": 0.07723420425923505,
+            "mean_prediction": 0.04151312932324146
+          }
+        },
+        "103997940_171031257": {
+          "horizon_frequency": {
+            "n": 2208,
+            "positives": 7,
+            "negative": 2201,
+            "prevalence": 0.003170289855072464,
+            "average_precision": 0.006531084656084656,
+            "brier": 0.003960059024773712,
+            "mean_prediction": 0.030678994894937014
+          },
+          "joint": {
+            "n": 2208,
+            "positives": 7,
+            "negative": 2201,
+            "prevalence": 0.003170289855072464,
+            "average_precision": 0.050463803512418005,
+            "brier": 0.0043916106619638125,
+            "mean_prediction": 0.027957306695042785
+          },
+          "observed": {
+            "n": 2208,
+            "positives": 7,
+            "negative": 2201,
+            "prevalence": 0.003170289855072464,
+            "average_precision": 0.017374515333002858,
+            "brier": 0.0039033444503697883,
+            "mean_prediction": 0.02195969246701723
+          }
+        },
+        "104348037_171512898": {
+          "horizon_frequency": {
+            "n": 2208,
+            "positives": 239,
+            "negative": 1969,
+            "prevalence": 0.1082427536231884,
+            "average_precision": 0.12095212708615474,
+            "brier": 0.10216928466279339,
+            "mean_prediction": 0.030678994894937014
+          },
+          "joint": {
+            "n": 2208,
+            "positives": 239,
+            "negative": 1969,
+            "prevalence": 0.1082427536231884,
+            "average_precision": 0.5061145057528166,
+            "brier": 0.08756990928968715,
+            "mean_prediction": 0.038896169433996854
+          },
+          "observed": {
+            "n": 2208,
+            "positives": 239,
+            "negative": 1969,
+            "prevalence": 0.1082427536231884,
+            "average_precision": 0.3789418531514851,
+            "brier": 0.08773729762493329,
+            "mean_prediction": 0.04410003336388104
+          }
+        },
+        "104348082_171512994": {
+          "horizon_frequency": {
+            "n": 2208,
+            "positives": 74,
+            "negative": 2134,
+            "prevalence": 0.03351449275362319,
+            "average_precision": 0.034493732863298085,
+            "brier": 0.032441200090225115,
+            "mean_prediction": 0.030678994894937014
+          },
+          "joint": {
+            "n": 2208,
+            "positives": 74,
+            "negative": 2134,
+            "prevalence": 0.03351449275362319,
+            "average_precision": 0.17398598449945588,
+            "brier": 0.029549797039989306,
+            "mean_prediction": 0.0353821167574172
+          },
+          "observed": {
+            "n": 2208,
+            "positives": 74,
+            "negative": 2134,
+            "prevalence": 0.03351449275362319,
+            "average_precision": 0.29600777474420525,
+            "brier": 0.027963100666923004,
+            "mean_prediction": 0.039391100725397914
+          }
+        },
+        "104348202_171513150": {
+          "horizon_frequency": {
+            "n": 2208,
+            "positives": 47,
+            "negative": 2161,
+            "prevalence": 0.021286231884057972,
+            "average_precision": 0.022870841470517697,
+            "brier": 0.02094118725146534,
+            "mean_prediction": 0.030678994894937014
+          },
+          "joint": {
+            "n": 2208,
+            "positives": 47,
+            "negative": 2161,
+            "prevalence": 0.021286231884057972,
+            "average_precision": 0.1588441585525831,
+            "brier": 0.019118677404456517,
+            "mean_prediction": 0.033653372810318306
+          },
+          "observed": {
+            "n": 2208,
+            "positives": 47,
+            "negative": 2161,
+            "prevalence": 0.021286231884057972,
+            "average_precision": 0.22912563505560712,
+            "brier": 0.018673521164567122,
+            "mean_prediction": 0.03972309776775783
+          }
+        },
+        "104348394_171513453": {
+          "horizon_frequency": {
+            "n": 2208,
+            "positives": 167,
+            "negative": 2041,
+            "prevalence": 0.0756340579710145,
+            "average_precision": 0.07912707194307038,
+            "brier": 0.07187460818685108,
+            "mean_prediction": 0.030678994894937014
+          },
+          "joint": {
+            "n": 2208,
+            "positives": 167,
+            "negative": 2041,
+            "prevalence": 0.0756340579710145,
+            "average_precision": 0.26409088072928133,
+            "brier": 0.06408551303824861,
+            "mean_prediction": 0.04583262333860096
+          },
+          "observed": {
+            "n": 2208,
+            "positives": 167,
+            "negative": 2041,
+            "prevalence": 0.0756340579710145,
+            "average_precision": 0.29115694914770424,
+            "brier": 0.0628457413294595,
+            "mean_prediction": 0.042810449284963276
+          }
+        },
+        "106366173_174226431": {
+          "horizon_frequency": {
+            "n": 2208,
+            "positives": 98,
+            "negative": 2110,
+            "prevalence": 0.044384057971014496,
+            "average_precision": 0.04695253705346873,
+            "brier": 0.04258106305392902,
+            "mean_prediction": 0.030678994894937014
+          },
+          "joint": {
+            "n": 2208,
+            "positives": 98,
+            "negative": 2110,
+            "prevalence": 0.044384057971014496,
+            "average_precision": 0.36494278340106256,
+            "brier": 0.0356585701352281,
+            "mean_prediction": 0.03160897906475989
+          },
+          "observed": {
+            "n": 2208,
+            "positives": 98,
+            "negative": 2110,
+            "prevalence": 0.044384057971014496,
+            "average_precision": 0.2851734982138334,
+            "brier": 0.037366873110956086,
+            "mean_prediction": 0.029780446569161803
+          }
+        },
+        "108294465_176709960": {
+          "horizon_frequency": {
+            "n": 2208,
+            "positives": 26,
+            "negative": 2182,
+            "prevalence": 0.01177536231884058,
+            "average_precision": 0.012325034064164499,
+            "brier": 0.012061965108272284,
+            "mean_prediction": 0.030678994894937014
+          },
+          "joint": {
+            "n": 2208,
+            "positives": 26,
+            "negative": 2182,
+            "prevalence": 0.01177536231884058,
+            "average_precision": 0.2321320790532976,
+            "brier": 0.01213196186222606,
+            "mean_prediction": 0.0419695660015066
+          },
+          "observed": {
+            "n": 2208,
+            "positives": 26,
+            "negative": 2182,
+            "prevalence": 0.01177536231884058,
+            "average_precision": 0.09301767574723584,
+            "brier": 0.013365048516631424,
+            "mean_prediction": 0.04160303425520663
+          }
+        },
+        "108294783_176710410": {
+          "horizon_frequency": {
+            "n": 2208,
+            "positives": 107,
+            "negative": 2101,
+            "prevalence": 0.04846014492753623,
+            "average_precision": 0.050488076963595044,
+            "brier": 0.046427406562230406,
+            "mean_prediction": 0.030678994894937014
+          },
+          "joint": {
+            "n": 2208,
+            "positives": 107,
+            "negative": 2101,
+            "prevalence": 0.04846014492753623,
+            "average_precision": 0.14731188529007078,
+            "brier": 0.044490472849786196,
+            "mean_prediction": 0.030627938988206427
+          },
+          "observed": {
+            "n": 2208,
+            "positives": 107,
+            "negative": 2101,
+            "prevalence": 0.04846014492753623,
+            "average_precision": 0.08041739545253773,
+            "brier": 0.04643835381958225,
+            "mean_prediction": 0.031550453139049174
+          }
+        },
+        "108736656_177263304": {
+          "horizon_frequency": {
+            "n": 2208,
+            "positives": 104,
+            "negative": 2104,
+            "prevalence": 0.04710144927536232,
+            "average_precision": 0.058593266134027,
+            "brier": 0.0449577838879404,
+            "mean_prediction": 0.030678994894937014
+          },
+          "joint": {
+            "n": 2208,
+            "positives": 104,
+            "negative": 2104,
+            "prevalence": 0.04710144927536232,
+            "average_precision": 0.35486011198507567,
+            "brier": 0.038287540281455916,
+            "mean_prediction": 0.046900455921491765
+          },
+          "observed": {
+            "n": 2208,
+            "positives": 104,
+            "negative": 2104,
+            "prevalence": 0.04710144927536232,
+            "average_precision": 0.2554821400747117,
+            "brier": 0.03967809347832049,
+            "mean_prediction": 0.037346095870213376
+          }
+        }
+      }
+    },
+    "calibration": {
+      "all": {
+        "horizon_frequency": {
+          "n": 5796,
+          "positives": 177,
+          "negative": 5619,
+          "prevalence": 0.030538302277432712,
+          "average_precision": 0.03587728749441678,
+          "brier": 0.029521226533744192,
+          "mean_prediction": 0.030678994894937018
+        },
+        "joint": {
+          "n": 5796,
+          "positives": 177,
+          "negative": 5619,
+          "prevalence": 0.030538302277432712,
+          "average_precision": 0.07621150316395392,
+          "brier": 0.029780268348760998,
+          "mean_prediction": 0.03523824143624968
+        },
+        "observed": {
+          "n": 5796,
+          "positives": 177,
+          "negative": 5619,
+          "prevalence": 0.030538302277432712,
+          "average_precision": 0.11753789525968032,
+          "brier": 0.02880429865778918,
+          "mean_prediction": 0.03297051340094655
+        }
+      },
+      "4_actions": {
+        "horizon_frequency": {
+          "n": 1260,
+          "positives": 17,
+          "negative": 1243,
+          "prevalence": 0.013492063492063493,
+          "average_precision": 0.013492063492063493,
+          "brier": 0.013310137468508685,
+          "mean_prediction": 0.01382335448057098
+        },
+        "joint": {
+          "n": 1260,
+          "positives": 17,
+          "negative": 1243,
+          "prevalence": 0.013492063492063493,
+          "average_precision": 0.05513480427425726,
+          "brier": 0.013352126164161789,
+          "mean_prediction": 0.021656851906316988
+        },
+        "observed": {
+          "n": 1260,
+          "positives": 17,
+          "negative": 1243,
+          "prevalence": 0.013492063492063493,
+          "average_precision": 0.11154735016565842,
+          "brier": 0.012784544339560049,
+          "mean_prediction": 0.018131883204258334
+        }
+      },
+      "12_actions": {
+        "horizon_frequency": {
+          "n": 2268,
+          "positives": 75,
+          "negative": 2193,
+          "prevalence": 0.03306878306878307,
+          "average_precision": 0.03306878306878307,
+          "brier": 0.03197525382147509,
+          "mean_prediction": 0.033191934773027766
+        },
+        "joint": {
+          "n": 2268,
+          "positives": 75,
+          "negative": 2193,
+          "prevalence": 0.03306878306878307,
+          "average_precision": 0.07431787080625168,
+          "brier": 0.032538183066025315,
+          "mean_prediction": 0.03721642353306722
+        },
+        "observed": {
+          "n": 2268,
+          "positives": 75,
+          "negative": 2193,
+          "prevalence": 0.03306878306878307,
+          "average_precision": 0.1065030830060207,
+          "brier": 0.031581618867400615,
+          "mean_prediction": 0.03534937141547574
+        }
+      },
+      "24_actions": {
+        "horizon_frequency": {
+          "n": 2268,
+          "positives": 85,
+          "negative": 2183,
+          "prevalence": 0.03747795414462081,
+          "average_precision": 0.03747795414462081,
+          "brier": 0.03607335983781079,
+          "mean_prediction": 0.037530299691494046
+        },
+        "joint": {
+          "n": 2268,
+          "positives": 85,
+          "negative": 2183,
+          "prevalence": 0.03747795414462081,
+          "average_precision": 0.08840707059312633,
+          "brier": 0.036149099289607356,
+          "mean_prediction": 0.0408052757449503
+        },
+        "observed": {
+          "n": 2268,
+          "positives": 85,
+          "negative": 2183,
+          "prevalence": 0.03747795414462081,
+          "average_precision": 0.14362062397445657,
+          "brier": 0.03492684195830503,
+          "mean_prediction": 0.038835338829021904
+        }
+      },
+      "catalog_contains_target_class": {
+        "horizon_frequency": {
+          "n": 4048,
+          "positives": 177,
+          "negative": 3871,
+          "prevalence": 0.043725296442687744,
+          "average_precision": 0.05136975254882403,
+          "brier": 0.04182693200028419,
+          "mean_prediction": 0.030678994894937014
+        },
+        "joint": {
+          "n": 4048,
+          "positives": 177,
+          "negative": 3871,
+          "prevalence": 0.043725296442687744,
+          "average_precision": 0.08275612372866123,
+          "brier": 0.04241557918582714,
+          "mean_prediction": 0.04279245916004168
+        },
+        "observed": {
+          "n": 4048,
+          "positives": 177,
+          "negative": 3871,
+          "prevalence": 0.043725296442687744,
+          "average_precision": 0.12222340690380969,
+          "brier": 0.041080948646681194,
+          "mean_prediction": 0.041275792335588084
+        }
+      },
+      "per_house_all": {
+        "103997478_171030528": {
+          "horizon_frequency": {
+            "n": 1380,
+            "positives": 33,
+            "negative": 1347,
+            "prevalence": 0.02391304347826087,
+            "average_precision": 0.02742643829600351,
+            "brier": 0.0233393054054501,
+            "mean_prediction": 0.030678994894937014
+          },
+          "joint": {
+            "n": 1380,
+            "positives": 33,
+            "negative": 1347,
+            "prevalence": 0.02391304347826087,
+            "average_precision": 0.08693673644362664,
+            "brier": 0.02327740935934943,
+            "mean_prediction": 0.030892040336354235
+          },
+          "observed": {
+            "n": 1380,
+            "positives": 33,
+            "negative": 1347,
+            "prevalence": 0.02391304347826087,
+            "average_precision": 0.2142399208889361,
+            "brier": 0.021594732557440297,
+            "mean_prediction": 0.02963545984421111
+          }
+        },
+        "103997541_171030615": {
+          "horizon_frequency": {
+            "n": 1472,
+            "positives": 0,
+            "negative": 1472,
+            "prevalence": 0.0,
+            "average_precision": null,
+            "brier": 0.0010238033480726176,
+            "mean_prediction": 0.030678994894937018
+          },
+          "joint": {
+            "n": 1472,
+            "positives": 0,
+            "negative": 1472,
+            "prevalence": 0.0,
+            "average_precision": null,
+            "brier": 0.00222774935930138,
+            "mean_prediction": 0.025281876698691554
+          },
+          "observed": {
+            "n": 1472,
+            "positives": 0,
+            "negative": 1472,
+            "prevalence": 0.0,
+            "average_precision": null,
+            "brier": 0.0017337924308535604,
+            "mean_prediction": 0.02336335704568502
+          }
+        },
+        "104862621_172226772": {
+          "horizon_frequency": {
+            "n": 1472,
+            "positives": 72,
+            "negative": 1400,
+            "prevalence": 0.04891304347826087,
+            "average_precision": 0.06164085564278046,
+            "brier": 0.04659739809114676,
+            "mean_prediction": 0.030678994894937018
+          },
+          "joint": {
+            "n": 1472,
+            "positives": 72,
+            "negative": 1400,
+            "prevalence": 0.04891304347826087,
+            "average_precision": 0.12118281038453559,
+            "brier": 0.04589774737742689,
+            "mean_prediction": 0.053714791478057286
+          },
+          "observed": {
+            "n": 1472,
+            "positives": 72,
+            "negative": 1400,
+            "prevalence": 0.04891304347826087,
+            "average_precision": 0.18292403896057063,
+            "brier": 0.04378631980869545,
+            "mean_prediction": 0.04748925070114253
+          }
+        },
+        "107734119_175999932": {
+          "horizon_frequency": {
+            "n": 1472,
+            "positives": 72,
+            "negative": 1400,
+            "prevalence": 0.04891304347826087,
+            "average_precision": 0.05435149540391841,
+            "brier": 0.04673802921978891,
+            "mean_prediction": 0.030678994894937018
+          },
+          "joint": {
+            "n": 1472,
+            "positives": 72,
+            "negative": 1400,
+            "prevalence": 0.04891304347826087,
+            "average_precision": 0.0670397392742015,
+            "brier": 0.04731173861212805,
+            "mean_prediction": 0.03079261966315218
+          },
+          "observed": {
+            "n": 1472,
+            "positives": 72,
+            "negative": 1400,
+            "prevalence": 0.04891304347826087,
+            "average_precision": 0.08477432806493804,
+            "brier": 0.047651751952895595,
+            "mean_prediction": 0.031185545165451543
+          }
+        }
+      }
+    },
+    "holdout": {
+      "all": {
+        "horizon_frequency": {
+          "n": 5888,
+          "positives": 374,
+          "negative": 5514,
+          "prevalence": 0.06351902173913043,
+          "average_precision": 0.07017485436203466,
+          "brier": 0.06041051422886238,
+          "mean_prediction": 0.030678994894937018
+        },
+        "joint": {
+          "n": 5888,
+          "positives": 374,
+          "negative": 5514,
+          "prevalence": 0.06351902173913043,
+          "average_precision": 0.3016197600580025,
+          "brier": 0.05293574363058699,
+          "mean_prediction": 0.04144213795347129
+        },
+        "observed": {
+          "n": 5888,
+          "positives": 374,
+          "negative": 5514,
+          "prevalence": 0.06351902173913043,
+          "average_precision": 0.32035615761935815,
+          "brier": 0.05169369379776163,
+          "mean_prediction": 0.04284178169817845
+        }
+      },
+      "4_actions": {
+        "horizon_frequency": {
+          "n": 1280,
+          "positives": 50,
+          "negative": 1230,
+          "prevalence": 0.0390625,
+          "average_precision": 0.0390625,
+          "brier": 0.038173635560300914,
+          "mean_prediction": 0.013823354480570978
+        },
+        "joint": {
+          "n": 1280,
+          "positives": 50,
+          "negative": 1230,
+          "prevalence": 0.0390625,
+          "average_precision": 0.20800986059207752,
+          "brier": 0.03485317448050763,
+          "mean_prediction": 0.025147480946135052
+        },
+        "observed": {
+          "n": 1280,
+          "positives": 50,
+          "negative": 1230,
+          "prevalence": 0.0390625,
+          "average_precision": 0.2390495651720712,
+          "brier": 0.03472538863805917,
+          "mean_prediction": 0.022597428242511174
+        }
+      },
+      "12_actions": {
+        "horizon_frequency": {
+          "n": 2304,
+          "positives": 158,
+          "negative": 2146,
+          "prevalence": 0.0685763888888889,
+          "average_precision": 0.0685763888888889,
+          "brier": 0.06512572736892625,
+          "mean_prediction": 0.033191934773027766
+        },
+        "joint": {
+          "n": 2304,
+          "positives": 158,
+          "negative": 2146,
+          "prevalence": 0.0685763888888889,
+          "average_precision": 0.32054216147137937,
+          "brier": 0.05634629200327276,
+          "mean_prediction": 0.04472242633709668
+        },
+        "observed": {
+          "n": 2304,
+          "positives": 158,
+          "negative": 2146,
+          "prevalence": 0.0685763888888889,
+          "average_precision": 0.3381277924301859,
+          "brier": 0.05471759467726467,
+          "mean_prediction": 0.04709935474035678
+        }
+      },
+      "24_actions": {
+        "horizon_frequency": {
+          "n": 2304,
+          "positives": 166,
+          "negative": 2138,
+          "prevalence": 0.0720486111111111,
+          "average_precision": 0.0720486111111111,
+          "brier": 0.06804912257133265,
+          "mean_prediction": 0.03753029969149405
+        },
+        "joint": {
+          "n": 2304,
+          "positives": 166,
+          "negative": 2138,
+          "prevalence": 0.0720486111111111,
+          "average_precision": 0.31522199774194537,
+          "brier": 0.059571067007945316,
+          "mean_prediction": 0.047214436796143816
+        },
+        "observed": {
+          "n": 2304,
+          "positives": 166,
+          "negative": 2138,
+          "prevalence": 0.0720486111111111,
+          "average_precision": 0.3315637052053103,
+          "brier": 0.05809662911809329,
+          "mean_prediction": 0.04983107168692639
+        }
+      },
+      "catalog_contains_target_class": {
+        "horizon_frequency": {
+          "n": 4508,
+          "positives": 374,
+          "negative": 4134,
+          "prevalence": 0.08296362023070097,
+          "average_precision": 0.09165695263612691,
+          "brier": 0.07859011960053272,
+          "mean_prediction": 0.030678994894937018
+        },
+        "joint": {
+          "n": 4508,
+          "positives": 374,
+          "negative": 4134,
+          "prevalence": 0.08296362023070097,
+          "average_precision": 0.30889217119248846,
+          "brier": 0.06895513562363072,
+          "mean_prediction": 0.049254038115477836
+        },
+        "observed": {
+          "n": 4508,
+          "positives": 374,
+          "negative": 4134,
+          "prevalence": 0.08296362023070097,
+          "average_precision": 0.3558298757795221,
+          "brier": 0.06686666013085364,
+          "mean_prediction": 0.05050276508980684
+        }
+      },
+      "per_house_all": {
+        "102817200": {
+          "horizon_frequency": {
+            "n": 1472,
+            "positives": 49,
+            "negative": 1423,
+            "prevalence": 0.03328804347826087,
+            "average_precision": 0.038508700581681946,
+            "brier": 0.03209806381608783,
+            "mean_prediction": 0.030678994894937018
+          },
+          "joint": {
+            "n": 1472,
+            "positives": 49,
+            "negative": 1423,
+            "prevalence": 0.03328804347826087,
+            "average_precision": 0.04006054408130748,
+            "brier": 0.0345270642167836,
+            "mean_prediction": 0.036508491537338074
+          },
+          "observed": {
+            "n": 1472,
+            "positives": 49,
+            "negative": 1423,
+            "prevalence": 0.03328804347826087,
+            "average_precision": 0.047057394622487037,
+            "brier": 0.033108489363872444,
+            "mean_prediction": 0.03212711638889423
+          }
+        },
+        "107734479_176000442": {
+          "horizon_frequency": {
+            "n": 1472,
+            "positives": 117,
+            "negative": 1355,
+            "prevalence": 0.07948369565217392,
+            "average_precision": 0.0877110300796895,
+            "brier": 0.07534560489763079,
+            "mean_prediction": 0.030678994894937018
+          },
+          "joint": {
+            "n": 1472,
+            "positives": 117,
+            "negative": 1355,
+            "prevalence": 0.07948369565217392,
+            "average_precision": 0.25524015314318915,
+            "brier": 0.0699219275193991,
+            "mean_prediction": 0.03805108976424802
+          },
+          "observed": {
+            "n": 1472,
+            "positives": 117,
+            "negative": 1355,
+            "prevalence": 0.07948369565217392,
+            "average_precision": 0.2407480507901007,
+            "brier": 0.06833738456576001,
+            "mean_prediction": 0.04184565777962691
+          }
+        },
+        "108294537_176710050": {
+          "horizon_frequency": {
+            "n": 1472,
+            "positives": 19,
+            "negative": 1453,
+            "prevalence": 0.012907608695652174,
+            "average_precision": 0.013733949911009407,
+            "brier": 0.0131063469089994,
+            "mean_prediction": 0.030678994894937018
+          },
+          "joint": {
+            "n": 1472,
+            "positives": 19,
+            "negative": 1453,
+            "prevalence": 0.012907608695652174,
+            "average_precision": 0.10448178464177384,
+            "brier": 0.012285040138710334,
+            "mean_prediction": 0.02613743893572817
+          },
+          "observed": {
+            "n": 1472,
+            "positives": 19,
+            "negative": 1453,
+            "prevalence": 0.012907608695652174,
+            "average_precision": 0.10188134021308637,
+            "brier": 0.013613337511591075,
+            "mean_prediction": 0.0338299413424907
+          }
+        },
+        "108736635_177263256": {
+          "horizon_frequency": {
+            "n": 1472,
+            "positives": 189,
+            "negative": 1283,
+            "prevalence": 0.12839673913043478,
+            "average_precision": 0.14083507463640316,
+            "brier": 0.12109204129273149,
+            "mean_prediction": 0.030678994894937018
+          },
+          "joint": {
+            "n": 1472,
+            "positives": 189,
+            "negative": 1283,
+            "prevalence": 0.12839673913043478,
+            "average_precision": 0.5058887326959565,
+            "brier": 0.09500894264745494,
+            "mean_prediction": 0.0650715315765709
+          },
+          "observed": {
+            "n": 1472,
+            "positives": 189,
+            "negative": 1283,
+            "prevalence": 0.12839673913043478,
+            "average_precision": 0.5592564957433447,
+            "brier": 0.091715563749823,
+            "mean_prediction": 0.06356441128170197
+          }
+        }
+      }
+    }
+  }
+}

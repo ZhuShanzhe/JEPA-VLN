@@ -1,0 +1,162 @@
+{
+  "houses": 4,
+  "unique_panoramas": 16,
+  "signal": "max target visibility across 49 cells of one actually acquired RGB image",
+  "label": "target class has at least 20 semantic pixels in one grid cell",
+  "unit": "view x category, restricted to represented categories in that house",
+  "overall": {
+    "views": 2352,
+    "positive": 632,
+    "prevalence": 0.2687074829931973,
+    "auroc": 0.7211942522814248,
+    "average_precision": 0.514765334407609,
+    "median_score_positive": 0.648514062166214,
+    "median_score_negative": 0.39738036692142487
+  },
+  "categories": {
+    "basket.n.01": {
+      "views": 144,
+      "positive": 16,
+      "prevalence": 0.1111111111111111,
+      "auroc": 0.7685546875,
+      "average_precision": 0.36676476521381357,
+      "median_score_positive": 0.47447623312473297,
+      "median_score_negative": 0.39974038302898407
+    },
+    "bed.n.01": {
+      "views": 192,
+      "positive": 23,
+      "prevalence": 0.11979166666666667,
+      "auroc": 0.7429894520195524,
+      "average_precision": 0.21200516736882374,
+      "median_score_positive": 0.4971224367618561,
+      "median_score_negative": 0.41246312856674194
+    },
+    "cabinet.n.01": {
+      "views": 192,
+      "positive": 47,
+      "prevalence": 0.24479166666666666,
+      "auroc": 0.6798239178283199,
+      "average_precision": 0.37740616169791463,
+      "median_score_positive": 0.821384847164154,
+      "median_score_negative": 0.8011364936828613
+    },
+    "chair.n.01": {
+      "views": 144,
+      "positive": 71,
+      "prevalence": 0.4930555555555556,
+      "auroc": 0.854138529808991,
+      "average_precision": 0.841881926489781,
+      "median_score_positive": 0.65259850025177,
+      "median_score_negative": 0.4971114695072174
+    },
+    "clock.n.01": {
+      "views": 96,
+      "positive": 3,
+      "prevalence": 0.03125,
+      "auroc": 0.41935483870967727,
+      "average_precision": 0.03944099378881988,
+      "median_score_positive": 0.07415597140789032,
+      "median_score_negative": 0.07424746453762054
+    },
+    "door.n.01": {
+      "views": 192,
+      "positive": 41,
+      "prevalence": 0.21354166666666666,
+      "auroc": 0.4886125020190599,
+      "average_precision": 0.2575159377873215,
+      "median_score_positive": 0.43360844254493713,
+      "median_score_negative": 0.4430254399776459
+    },
+    "lamp.n.01": {
+      "views": 192,
+      "positive": 82,
+      "prevalence": 0.4270833333333333,
+      "auroc": 0.8119733924611974,
+      "average_precision": 0.7904074913438841,
+      "median_score_positive": 0.7762792110443115,
+      "median_score_negative": 0.6725158095359802
+    },
+    "mirror.n.01": {
+      "views": 192,
+      "positive": 31,
+      "prevalence": 0.16145833333333334,
+      "auroc": 0.577639751552795,
+      "average_precision": 0.22741231465539916,
+      "median_score_positive": 0.31903788447380066,
+      "median_score_negative": 0.3010968565940857
+    },
+    "picture_frame.n.01": {
+      "views": 48,
+      "positive": 3,
+      "prevalence": 0.0625,
+      "auroc": 0.22962962962962957,
+      "average_precision": 0.05210350290441823,
+      "median_score_positive": 0.07145677506923676,
+      "median_score_negative": 0.07179487496614456
+    },
+    "potted_plant.n.01": {
+      "views": 192,
+      "positive": 108,
+      "prevalence": 0.5625,
+      "auroc": 0.7924382716049383,
+      "average_precision": 0.8038949890916524,
+      "median_score_positive": 0.8207304179668427,
+      "median_score_negative": 0.4982822686433792
+    },
+    "shelf.n.01": {
+      "views": 96,
+      "positive": 57,
+      "prevalence": 0.59375,
+      "auroc": 0.518668466036887,
+      "average_precision": 0.6295239786772754,
+      "median_score_positive": 0.2386581301689148,
+      "median_score_negative": 0.24210569262504578
+    },
+    "sofa.n.01": {
+      "views": 144,
+      "positive": 43,
+      "prevalence": 0.2986111111111111,
+      "auroc": 0.7695141607183973,
+      "average_precision": 0.5686940325337015,
+      "median_score_positive": 0.7502642869949341,
+      "median_score_negative": 0.5763296484947205
+    },
+    "stool.n.01": {
+      "views": 144,
+      "positive": 18,
+      "prevalence": 0.125,
+      "auroc": 0.6772486772486772,
+      "average_precision": 0.23196023882367928,
+      "median_score_positive": 0.2601953148841858,
+      "median_score_negative": 0.23264095932245255
+    },
+    "television_receiver.n.01": {
+      "views": 96,
+      "positive": 16,
+      "prevalence": 0.16666666666666666,
+      "auroc": 0.5203125,
+      "average_precision": 0.16936013933128619,
+      "median_score_positive": 0.28787940740585327,
+      "median_score_negative": 0.2894415706396103
+    },
+    "toilet.n.02": {
+      "views": 96,
+      "positive": 4,
+      "prevalence": 0.041666666666666664,
+      "auroc": 0.5923913043478262,
+      "average_precision": 0.0658356422789569,
+      "median_score_positive": 0.20639588683843613,
+      "median_score_negative": 0.17188414931297302
+    },
+    "wall_art.n.01": {
+      "views": 192,
+      "positive": 69,
+      "prevalence": 0.359375,
+      "auroc": 0.6869329562860846,
+      "average_precision": 0.5230212736668959,
+      "median_score_positive": 0.6636822819709778,
+      "median_score_negative": 0.6271655559539795
+    }
+  }
+}

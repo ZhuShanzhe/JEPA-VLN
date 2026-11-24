@@ -1,0 +1,1230 @@
+{
+  "cases": 72,
+  "queries_per_case": 2,
+  "physical_relocations": 36,
+  "matched_events": 36,
+  "first_differentiating_rgb_minmax": [
+    185,
+    185
+  ],
+  "predictions_before_new_observation_max_delta": 0.0,
+  "train_houses": 8,
+  "new_dynamic_rooms": 6,
+  "categories": [
+    "cup",
+    "sofa"
+  ],
+  "actual_actions": 300,
+  "phases_at_steps": [
+    [
+      "unseen",
+      12
+    ],
+    [
+      "left_observed",
+      72
+    ],
+    [
+      "both_observed",
+      132
+    ],
+    [
+      "unobserved_event",
+      132
+    ],
+    [
+      "old_evidence",
+      180
+    ],
+    [
+      "revisited_left",
+      240
+    ],
+    [
+      "revisited_both",
+      300
+    ]
+  ],
+  "per_probe": "24 outward + 36 return/reorientation = 60 actions per visit",
+  "prior_weights_sha256": "674336e1c8fad05180f78bee8af79fdf844b9e82bcf29f261b7044e87607beae",
+  "evidence_weights_sha256": "db3a3a008a1af07e1a4f11e5bcf9cefd19455ef26123ad0b07cd6f62b11ec7a7",
+  "model_sha256": "b947bc02d1cdded969d68dc9798f4ecdb52756911c1c8ff8c646f195637aab00",
+  "protocol_sha256": "b399df4dd1add11d486e39af39c4385d9a2698587dc5517878a6a2d2271171da",
+  "conditional": {
+    "correct_static_preserved": {
+      "jepa_plus_update": [
+        72,
+        72
+      ],
+      "direct_plus_update": [
+        72,
+        72
+      ],
+      "uniform_plus_update": [
+        72,
+        72
+      ],
+      "jepa_permanent_positive": [
+        72,
+        72
+      ],
+      "jepa_prior_only": [
+        36,
+        36
+      ],
+      "direct_prior_only": [
+        36,
+        36
+      ]
+    },
+    "correct_old_recovered_new": {
+      "jepa_plus_update": [
+        72,
+        72
+      ],
+      "direct_plus_update": [
+        72,
+        72
+      ],
+      "uniform_plus_update": [
+        72,
+        72
+      ],
+      "jepa_permanent_positive": [
+        36,
+        72
+      ],
+      "jepa_prior_only": [
+        0,
+        36
+      ],
+      "direct_prior_only": [
+        0,
+        36
+      ]
+    }
+  },
+  "accuracy": {
+    "stationary/unseen/all": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 0.5,
+      "direct_plus_update": 0.5,
+      "uniform_plus_update": 0.5,
+      "jepa_permanent_positive": 0.5
+    },
+    "stationary/unseen/conflicting": {
+      "jepa_prior_only": 0.0,
+      "direct_prior_only": 0.0,
+      "jepa_plus_update": 0.0,
+      "direct_plus_update": 0.0,
+      "uniform_plus_update": 0.5,
+      "jepa_permanent_positive": 0.0
+    },
+    "stationary/unseen/dynamic_21": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 0.5,
+      "direct_plus_update": 0.5,
+      "uniform_plus_update": 0.5,
+      "jepa_permanent_positive": 0.5
+    },
+    "stationary/left_observed/all": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/left_observed/conflicting": {
+      "jepa_prior_only": 0.0,
+      "direct_prior_only": 0.0,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/left_observed/dynamic_21": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/both_observed/all": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/both_observed/conflicting": {
+      "jepa_prior_only": 0.0,
+      "direct_prior_only": 0.0,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/both_observed/dynamic_21": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/unobserved_event/all": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/unobserved_event/conflicting": {
+      "jepa_prior_only": 0.0,
+      "direct_prior_only": 0.0,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/unobserved_event/dynamic_21": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/old_evidence/all": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/old_evidence/conflicting": {
+      "jepa_prior_only": 0.0,
+      "direct_prior_only": 0.0,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/old_evidence/dynamic_21": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/revisited_left/all": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/revisited_left/conflicting": {
+      "jepa_prior_only": 0.0,
+      "direct_prior_only": 0.0,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/revisited_left/dynamic_21": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/revisited_both/all": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/revisited_both/conflicting": {
+      "jepa_prior_only": 0.0,
+      "direct_prior_only": 0.0,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/revisited_both/dynamic_21": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "moved/unseen/all": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 0.5,
+      "direct_plus_update": 0.5,
+      "uniform_plus_update": 0.5,
+      "jepa_permanent_positive": 0.5
+    },
+    "moved/unseen/conflicting": {
+      "jepa_prior_only": 0.0,
+      "direct_prior_only": 0.0,
+      "jepa_plus_update": 0.0,
+      "direct_plus_update": 0.0,
+      "uniform_plus_update": 0.5,
+      "jepa_permanent_positive": 0.0
+    },
+    "moved/unseen/dynamic_21": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 0.5,
+      "direct_plus_update": 0.5,
+      "uniform_plus_update": 0.5,
+      "jepa_permanent_positive": 0.5
+    },
+    "moved/left_observed/all": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "moved/left_observed/conflicting": {
+      "jepa_prior_only": 0.0,
+      "direct_prior_only": 0.0,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "moved/left_observed/dynamic_21": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "moved/both_observed/all": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "moved/both_observed/conflicting": {
+      "jepa_prior_only": 0.0,
+      "direct_prior_only": 0.0,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "moved/both_observed/dynamic_21": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "moved/unobserved_event/all": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 0.0,
+      "direct_plus_update": 0.0,
+      "uniform_plus_update": 0.0,
+      "jepa_permanent_positive": 0.0
+    },
+    "moved/unobserved_event/conflicting": {
+      "jepa_prior_only": 1.0,
+      "direct_prior_only": 1.0,
+      "jepa_plus_update": 0.0,
+      "direct_plus_update": 0.0,
+      "uniform_plus_update": 0.0,
+      "jepa_permanent_positive": 0.0
+    },
+    "moved/unobserved_event/dynamic_21": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 0.0,
+      "direct_plus_update": 0.0,
+      "uniform_plus_update": 0.0,
+      "jepa_permanent_positive": 0.0
+    },
+    "moved/old_evidence/all": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 0.0,
+      "direct_plus_update": 0.0,
+      "uniform_plus_update": 0.0,
+      "jepa_permanent_positive": 0.0
+    },
+    "moved/old_evidence/conflicting": {
+      "jepa_prior_only": 1.0,
+      "direct_prior_only": 1.0,
+      "jepa_plus_update": 0.0,
+      "direct_plus_update": 0.0,
+      "uniform_plus_update": 0.0,
+      "jepa_permanent_positive": 0.0
+    },
+    "moved/old_evidence/dynamic_21": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 0.0,
+      "direct_plus_update": 0.0,
+      "uniform_plus_update": 0.0,
+      "jepa_permanent_positive": 0.0
+    },
+    "moved/revisited_left/all": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 0.6388888888888888,
+      "direct_plus_update": 0.6388888888888888,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 0.2361111111111111
+    },
+    "moved/revisited_left/conflicting": {
+      "jepa_prior_only": 1.0,
+      "direct_prior_only": 1.0,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 0.5
+    },
+    "moved/revisited_left/dynamic_21": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 0.6666666666666666,
+      "direct_plus_update": 0.6666666666666666,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 0.25
+    },
+    "moved/revisited_both/all": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 0.5
+    },
+    "moved/revisited_both/conflicting": {
+      "jepa_prior_only": 1.0,
+      "direct_prior_only": 1.0,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "moved/revisited_both/dynamic_21": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 0.5
+    },
+    "stationary/unseen/congruent": {
+      "jepa_prior_only": 1.0,
+      "direct_prior_only": 1.0,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 0.5,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/left_observed/congruent": {
+      "jepa_prior_only": 1.0,
+      "direct_prior_only": 1.0,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/both_observed/congruent": {
+      "jepa_prior_only": 1.0,
+      "direct_prior_only": 1.0,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/unobserved_event/congruent": {
+      "jepa_prior_only": 1.0,
+      "direct_prior_only": 1.0,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/old_evidence/congruent": {
+      "jepa_prior_only": 1.0,
+      "direct_prior_only": 1.0,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/revisited_left/congruent": {
+      "jepa_prior_only": 1.0,
+      "direct_prior_only": 1.0,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/revisited_both/congruent": {
+      "jepa_prior_only": 1.0,
+      "direct_prior_only": 1.0,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "moved/unseen/congruent": {
+      "jepa_prior_only": 1.0,
+      "direct_prior_only": 1.0,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 0.5,
+      "jepa_permanent_positive": 1.0
+    },
+    "moved/left_observed/congruent": {
+      "jepa_prior_only": 1.0,
+      "direct_prior_only": 1.0,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "moved/both_observed/congruent": {
+      "jepa_prior_only": 1.0,
+      "direct_prior_only": 1.0,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "moved/unobserved_event/congruent": {
+      "jepa_prior_only": 0.0,
+      "direct_prior_only": 0.0,
+      "jepa_plus_update": 0.0,
+      "direct_plus_update": 0.0,
+      "uniform_plus_update": 0.0,
+      "jepa_permanent_positive": 0.0
+    },
+    "moved/old_evidence/congruent": {
+      "jepa_prior_only": 0.0,
+      "direct_prior_only": 0.0,
+      "jepa_plus_update": 0.0,
+      "direct_plus_update": 0.0,
+      "uniform_plus_update": 0.0,
+      "jepa_permanent_positive": 0.0
+    },
+    "moved/revisited_left/congruent": {
+      "jepa_prior_only": 0.0,
+      "direct_prior_only": 0.0,
+      "jepa_plus_update": 0.08333333333333333,
+      "direct_plus_update": 0.08333333333333333,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 0.0
+    },
+    "moved/revisited_both/congruent": {
+      "jepa_prior_only": 0.0,
+      "direct_prior_only": 0.0,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 0.0
+    },
+    "stationary/unseen/hidden": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 0.5,
+      "direct_plus_update": 0.5,
+      "uniform_plus_update": 0.5,
+      "jepa_permanent_positive": 0.5
+    },
+    "stationary/left_observed/hidden": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/both_observed/hidden": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/unobserved_event/hidden": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/old_evidence/hidden": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/revisited_left/hidden": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/revisited_both/hidden": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "moved/unseen/hidden": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 0.5,
+      "direct_plus_update": 0.5,
+      "uniform_plus_update": 0.5,
+      "jepa_permanent_positive": 0.5
+    },
+    "moved/left_observed/hidden": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "moved/both_observed/hidden": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "moved/unobserved_event/hidden": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 0.0,
+      "direct_plus_update": 0.0,
+      "uniform_plus_update": 0.0,
+      "jepa_permanent_positive": 0.0
+    },
+    "moved/old_evidence/hidden": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 0.0,
+      "direct_plus_update": 0.0,
+      "uniform_plus_update": 0.0,
+      "jepa_permanent_positive": 0.0
+    },
+    "moved/revisited_left/hidden": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 0.8333333333333334,
+      "direct_plus_update": 0.8333333333333334,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 0.20833333333333334
+    },
+    "moved/revisited_both/hidden": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 0.5
+    },
+    "stationary/unseen/dynamic_22": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 0.5,
+      "direct_plus_update": 0.5,
+      "uniform_plus_update": 0.5,
+      "jepa_permanent_positive": 0.5
+    },
+    "stationary/left_observed/dynamic_22": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/both_observed/dynamic_22": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/unobserved_event/dynamic_22": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/old_evidence/dynamic_22": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/revisited_left/dynamic_22": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/revisited_both/dynamic_22": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "moved/unseen/dynamic_22": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 0.5,
+      "direct_plus_update": 0.5,
+      "uniform_plus_update": 0.5,
+      "jepa_permanent_positive": 0.5
+    },
+    "moved/left_observed/dynamic_22": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "moved/both_observed/dynamic_22": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "moved/unobserved_event/dynamic_22": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 0.0,
+      "direct_plus_update": 0.0,
+      "uniform_plus_update": 0.0,
+      "jepa_permanent_positive": 0.0
+    },
+    "moved/old_evidence/dynamic_22": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 0.0,
+      "direct_plus_update": 0.0,
+      "uniform_plus_update": 0.0,
+      "jepa_permanent_positive": 0.0
+    },
+    "moved/revisited_left/dynamic_22": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 0.5,
+      "direct_plus_update": 0.5,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 0.25
+    },
+    "moved/revisited_both/dynamic_22": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 0.5
+    },
+    "stationary/unseen/dynamic_23": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 0.5,
+      "direct_plus_update": 0.5,
+      "uniform_plus_update": 0.5,
+      "jepa_permanent_positive": 0.5
+    },
+    "stationary/left_observed/dynamic_23": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/both_observed/dynamic_23": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/unobserved_event/dynamic_23": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/old_evidence/dynamic_23": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/revisited_left/dynamic_23": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/revisited_both/dynamic_23": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "moved/unseen/dynamic_23": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 0.5,
+      "direct_plus_update": 0.5,
+      "uniform_plus_update": 0.5,
+      "jepa_permanent_positive": 0.5
+    },
+    "moved/left_observed/dynamic_23": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "moved/both_observed/dynamic_23": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "moved/unobserved_event/dynamic_23": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 0.0,
+      "direct_plus_update": 0.0,
+      "uniform_plus_update": 0.0,
+      "jepa_permanent_positive": 0.0
+    },
+    "moved/old_evidence/dynamic_23": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 0.0,
+      "direct_plus_update": 0.0,
+      "uniform_plus_update": 0.0,
+      "jepa_permanent_positive": 0.0
+    },
+    "moved/revisited_left/dynamic_23": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 0.6666666666666666,
+      "direct_plus_update": 0.6666666666666666,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 0.16666666666666666
+    },
+    "moved/revisited_both/dynamic_23": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 0.5
+    },
+    "stationary/unseen/dynamic_24": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 0.5,
+      "direct_plus_update": 0.5,
+      "uniform_plus_update": 0.5,
+      "jepa_permanent_positive": 0.5
+    },
+    "stationary/left_observed/dynamic_24": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/both_observed/dynamic_24": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/unobserved_event/dynamic_24": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/old_evidence/dynamic_24": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/revisited_left/dynamic_24": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/revisited_both/dynamic_24": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "moved/unseen/dynamic_24": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 0.5,
+      "direct_plus_update": 0.5,
+      "uniform_plus_update": 0.5,
+      "jepa_permanent_positive": 0.5
+    },
+    "moved/left_observed/dynamic_24": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "moved/both_observed/dynamic_24": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "moved/unobserved_event/dynamic_24": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 0.0,
+      "direct_plus_update": 0.0,
+      "uniform_plus_update": 0.0,
+      "jepa_permanent_positive": 0.0
+    },
+    "moved/old_evidence/dynamic_24": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 0.0,
+      "direct_plus_update": 0.0,
+      "uniform_plus_update": 0.0,
+      "jepa_permanent_positive": 0.0
+    },
+    "moved/revisited_left/dynamic_24": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 0.6666666666666666,
+      "direct_plus_update": 0.6666666666666666,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 0.25
+    },
+    "moved/revisited_both/dynamic_24": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 0.5
+    },
+    "stationary/unseen/dynamic_25": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 0.5,
+      "direct_plus_update": 0.5,
+      "uniform_plus_update": 0.5,
+      "jepa_permanent_positive": 0.5
+    },
+    "stationary/left_observed/dynamic_25": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/both_observed/dynamic_25": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/unobserved_event/dynamic_25": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/old_evidence/dynamic_25": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/revisited_left/dynamic_25": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/revisited_both/dynamic_25": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "moved/unseen/dynamic_25": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 0.5,
+      "direct_plus_update": 0.5,
+      "uniform_plus_update": 0.5,
+      "jepa_permanent_positive": 0.5
+    },
+    "moved/left_observed/dynamic_25": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "moved/both_observed/dynamic_25": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "moved/unobserved_event/dynamic_25": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 0.0,
+      "direct_plus_update": 0.0,
+      "uniform_plus_update": 0.0,
+      "jepa_permanent_positive": 0.0
+    },
+    "moved/old_evidence/dynamic_25": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 0.0,
+      "direct_plus_update": 0.0,
+      "uniform_plus_update": 0.0,
+      "jepa_permanent_positive": 0.0
+    },
+    "moved/revisited_left/dynamic_25": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 0.6666666666666666,
+      "direct_plus_update": 0.6666666666666666,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 0.25
+    },
+    "moved/revisited_both/dynamic_25": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 0.5
+    },
+    "stationary/unseen/dynamic_26": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 0.5,
+      "direct_plus_update": 0.5,
+      "uniform_plus_update": 0.5,
+      "jepa_permanent_positive": 0.5
+    },
+    "stationary/left_observed/dynamic_26": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/both_observed/dynamic_26": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/unobserved_event/dynamic_26": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/old_evidence/dynamic_26": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/revisited_left/dynamic_26": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "stationary/revisited_both/dynamic_26": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "moved/unseen/dynamic_26": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 0.5,
+      "direct_plus_update": 0.5,
+      "uniform_plus_update": 0.5,
+      "jepa_permanent_positive": 0.5
+    },
+    "moved/left_observed/dynamic_26": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "moved/both_observed/dynamic_26": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 1.0
+    },
+    "moved/unobserved_event/dynamic_26": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 0.0,
+      "direct_plus_update": 0.0,
+      "uniform_plus_update": 0.0,
+      "jepa_permanent_positive": 0.0
+    },
+    "moved/old_evidence/dynamic_26": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 0.0,
+      "direct_plus_update": 0.0,
+      "uniform_plus_update": 0.0,
+      "jepa_permanent_positive": 0.0
+    },
+    "moved/revisited_left/dynamic_26": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 0.6666666666666666,
+      "direct_plus_update": 0.6666666666666666,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 0.25
+    },
+    "moved/revisited_both/dynamic_26": {
+      "jepa_prior_only": 0.5,
+      "direct_prior_only": 0.5,
+      "jepa_plus_update": 1.0,
+      "direct_plus_update": 1.0,
+      "uniform_plus_update": 1.0,
+      "jepa_permanent_positive": 0.5
+    }
+  },
+  "limitations": "Two object categories, mutually exclusive occupant in a fork, scripted history, target-locating task, known nominal routes. Not multi-instance search SR."
+}

@@ -1,0 +1,170 @@
+{
+  "train": {
+    "coverage": {
+      "translated_origins": 29,
+      "translated_informative": 171,
+      "rotation_or_blockage_origins": 43,
+      "rotation_or_blockage_informative": 198
+    },
+    "changes_pooled_counts": {
+      "fixed_to_exploration_added_changes": 137,
+      "fixed_to_exploration_added_same": 71,
+      "fixed_to_full_changes": 173,
+      "fixed_to_full_same": 84,
+      "exploration_and_obstacle_to_full_changes": 114,
+      "exploration_and_obstacle_to_full_same": 57,
+      "exploration_and_obstacle_to_full_improve": 30,
+      "fixed_to_full_improve": 35,
+      "fixed_to_exploration_added_regress": 44,
+      "fixed_to_full_regress": 54,
+      "exploration_and_obstacle_to_full_regress": 27,
+      "fixed_to_exploration_added_improve": 22,
+      "exploration_added_to_exploration_and_obstacle_changes": 2,
+      "exploration_added_to_exploration_and_obstacle_same": 1,
+      "exploration_added_to_exploration_and_obstacle_regress": 1
+    },
+    "informative_mean_gain_pooled_by_history": {
+      "translated": {
+        "fixed": 0.935672514619883,
+        "exploration_added": 0.7953216374269005,
+        "exploration_and_obstacle": 0.7660818713450293,
+        "full": 0.7719298245614035,
+        "v8": 0.8654970760233918,
+        "observed_memory": 0.6842105263157895
+      },
+      "rotation_or_blockage": {
+        "fixed": 0.6565656565656566,
+        "exploration_added": 0.6666666666666666,
+        "exploration_and_obstacle": 0.6666666666666666,
+        "full": 0.6616161616161617,
+        "v8": 0.6868686868686869,
+        "observed_memory": 0.696969696969697
+      }
+    },
+    "mean_absolute_candidate_range": {
+      "prior": 0.06423517370823863,
+      "geometry": 0.0076521509197582105,
+      "novelty": 0.017251736810384333,
+      "clearance": 0.00020805690939771317,
+      "trace": 0.0241770883890819
+    },
+    "all_present_house_macro_top_gain": {
+      "fixed": 0.109361221340388,
+      "exploration_added": 0.10210655471072137,
+      "exploration_and_obstacle": 0.09979173989590656,
+      "full": 0.09988283321616655,
+      "v8": 0.1071179206595873,
+      "observed_memory": 0.09574740460157126
+    }
+  },
+  "calibration": {
+    "coverage": {
+      "rotation_or_blockage_origins": 8,
+      "translated_origins": 8,
+      "translated_informative": 40,
+      "rotation_or_blockage_informative": 21
+    },
+    "changes_pooled_counts": {
+      "fixed_to_exploration_added_changes": 23,
+      "fixed_to_exploration_added_improve": 4,
+      "fixed_to_full_changes": 26,
+      "fixed_to_full_improve": 5,
+      "fixed_to_exploration_added_same": 10,
+      "exploration_and_obstacle_to_full_changes": 16,
+      "exploration_and_obstacle_to_full_same": 7,
+      "fixed_to_full_same": 16,
+      "exploration_and_obstacle_to_full_improve": 7,
+      "exploration_and_obstacle_to_full_regress": 2,
+      "fixed_to_exploration_added_regress": 9,
+      "fixed_to_full_regress": 5
+    },
+    "informative_mean_gain_pooled_by_history": {
+      "translated": {
+        "fixed": 0.675,
+        "exploration_added": 0.575,
+        "exploration_and_obstacle": 0.575,
+        "full": 0.675,
+        "v8": 0.65,
+        "observed_memory": 0.4
+      },
+      "rotation_or_blockage": {
+        "fixed": 0.3333333333333333,
+        "exploration_added": 0.23809523809523808,
+        "exploration_and_obstacle": 0.23809523809523808,
+        "full": 0.3333333333333333,
+        "v8": 0.38095238095238093,
+        "observed_memory": 0.09523809523809523
+      }
+    },
+    "mean_absolute_candidate_range": {
+      "prior": 0.06820200063002839,
+      "geometry": 0.006633554404471389,
+      "novelty": 0.019307784805292955,
+      "clearance": 0.0,
+      "trace": 0.024204179378114792
+    },
+    "all_present_house_macro_top_gain": {
+      "fixed": 0.0709680944055944,
+      "exploration_added": 0.061935460372960376,
+      "exploration_and_obstacle": 0.061935460372960376,
+      "full": 0.07213359557109557,
+      "v8": 0.07196969696969696,
+      "observed_memory": 0.04073790792540792
+    }
+  },
+  "holdout": {
+    "coverage": {
+      "rotation_or_blockage_origins": 10,
+      "rotation_or_blockage_informative": 49,
+      "translated_origins": 6,
+      "translated_informative": 49
+    },
+    "changes_pooled_counts": {
+      "fixed_to_exploration_added_changes": 39,
+      "fixed_to_exploration_added_regress": 11,
+      "fixed_to_full_changes": 44,
+      "fixed_to_full_regress": 12,
+      "fixed_to_exploration_added_same": 17,
+      "fixed_to_full_same": 21,
+      "fixed_to_exploration_added_improve": 11,
+      "fixed_to_full_improve": 11,
+      "exploration_and_obstacle_to_full_changes": 21,
+      "exploration_and_obstacle_to_full_regress": 4,
+      "exploration_and_obstacle_to_full_same": 13,
+      "exploration_and_obstacle_to_full_improve": 4
+    },
+    "informative_mean_gain_pooled_by_history": {
+      "rotation_or_blockage": {
+        "fixed": 0.5918367346938775,
+        "exploration_added": 0.5918367346938775,
+        "exploration_and_obstacle": 0.5918367346938775,
+        "full": 0.5918367346938775,
+        "v8": 0.5714285714285714,
+        "observed_memory": 0.5306122448979592
+      },
+      "translated": {
+        "fixed": 0.5510204081632653,
+        "exploration_added": 0.5918367346938775,
+        "exploration_and_obstacle": 0.5918367346938775,
+        "full": 0.5918367346938775,
+        "v8": 0.6938775510204082,
+        "observed_memory": 0.6326530612244898
+      }
+    },
+    "mean_absolute_candidate_range": {
+      "prior": 0.06219324645351148,
+      "geometry": 0.0073998143603266585,
+      "novelty": 0.01644229252983356,
+      "clearance": 0.00017038421283509795,
+      "trace": 0.02455064809505076
+    },
+    "all_present_house_macro_top_gain": {
+      "fixed": 0.10784874847374848,
+      "exploration_added": 0.11156517094017093,
+      "exploration_and_obstacle": 0.11156517094017093,
+      "full": 0.11129807692307692,
+      "v8": 0.11733058608058608,
+      "observed_memory": 0.10868055555555556
+    }
+  }
+}

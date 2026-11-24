@@ -1,0 +1,51 @@
+{
+  "ordinal": 39,
+  "decision_step": 175,
+  "role": "exploratory post-hoc physical branch",
+  "paired_fork": true,
+  "exact_same_position_camera_quaternion_rgb_prior_eligible_and_credited": true,
+  "prior_eligible_count": 0,
+  "prior_credited_count": 0,
+  "additional_api_calls": 0,
+  "actual_closed_loop_score_generated": false,
+  "actions": {
+    "online": "24 forwards",
+    "fixed": "one right 30 degree turn and 23 forwards"
+  },
+  "arms": {
+    "online": {
+      "action_budget": 24,
+      "forward_commands": 24,
+      "forward_collisions": 12,
+      "forward_without_displacement": 0,
+      "distance_m": 4.93761,
+      "all_eligible_on_branch": 3,
+      "previously_unreached_eligible": 3,
+      "as_yet_uncredited_eligible": 3,
+      "eligible_at_endpoint": 3,
+      "any_visible_target_instances": 3,
+      "two_distinct_consecutive_views_103px_instances": 3,
+      "maximum_single_target_pixels": 6208,
+      "first_new_eligible_action_offset": 12,
+      "matched_logged_24_action_sequence": true,
+      "max_position_error_m": 0.0
+    },
+    "fixed": {
+      "action_budget": 24,
+      "forward_commands": 23,
+      "forward_collisions": 14,
+      "forward_without_displacement": 0,
+      "distance_m": 3.51372,
+      "all_eligible_on_branch": 2,
+      "previously_unreached_eligible": 2,
+      "as_yet_uncredited_eligible": 2,
+      "eligible_at_endpoint": 2,
+      "any_visible_target_instances": 2,
+      "two_distinct_consecutive_views_103px_instances": 2,
+      "maximum_single_target_pixels": 983,
+      "first_new_eligible_action_offset": 13,
+      "matched_logged_24_action_sequence": false,
+      "max_position_error_m": null
+    }
+  }
+}

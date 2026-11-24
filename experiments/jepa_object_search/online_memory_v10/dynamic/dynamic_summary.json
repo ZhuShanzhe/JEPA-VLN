@@ -1,0 +1,1101 @@
+{
+  "train_rooms": [
+    "closed_left",
+    "closed_right",
+    "gallery",
+    "open_table"
+  ],
+  "train_sequences": 48,
+  "training_visible_event_count": 12,
+  "test_rooms": [
+    "offset_gallery",
+    "split_rear"
+  ],
+  "test_sequences": 24,
+  "goal_categories": 2,
+  "true_object_relocations": 12,
+  "stationary_pairs": 12,
+  "steps_per_history": 300,
+  "observations_per_history": 301,
+  "checkpoints_per_query": 7,
+  "queries_per_sequence": 2,
+  "pairs_with_equal_prefix": 12,
+  "first_distinguishing_frame_minmax": [
+    183,
+    184
+  ],
+  "prefix_prediction_difference": 0.0,
+  "target_label": "independent instance mask >=64 pixels; <=2m horizontal distance; actual 24-action legal trajectory",
+  "route_length_m_minmax": [
+    5.0,
+    5.0
+  ],
+  "split_sha256": "3d5526c9bb4991444fdd1a1b359eee5a99dd44437236729a3be370c130a6d8c7",
+  "checkpoint_sha256": "3ff4a95fb4ef5d742386476a913a2637a2e8016d2282eb23ba8caf89944583e7",
+  "base_sha256": "37fc573a287b333b96892086ff4bf3d28a1247bd9340bd44c4041c698aeabf33",
+  "memory_source_sha256": "6a3a4cbda7f9684dfa9454a588aea8c6050ac45b6bccbc3941c7615e7f2a035a",
+  "sample_unit": "paired same-house paths, point estimates, ties 0.5; no independent-house significance claim",
+  "samples_per_layout_phase": 24,
+  "acc_by_layout_phase_arm": {
+    "stationary/unseen": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "stationary/left_observed": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "stationary/both_observed": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5416666666666666
+    },
+    "stationary/unobserved_event": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5416666666666666
+    },
+    "stationary/old_evidence": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5416666666666666
+    },
+    "stationary/revisited_left": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "stationary/revisited_both": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5416666666666666
+    },
+    "moved/unseen": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "moved/left_observed": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "moved/both_observed": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5416666666666666
+    },
+    "moved/unobserved_event": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.4583333333333333
+    },
+    "moved/old_evidence": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.4583333333333333
+    },
+    "moved/revisited_left": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "moved/revisited_both": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    }
+  },
+  "tie_count": {
+    "stationary/unseen": {
+      "fixed": 0,
+      "geometry": 0,
+      "observed": 0,
+      "full": 0,
+      "v8": 0,
+      "exploration_only": 24,
+      "persistent_trace": 0
+    },
+    "stationary/left_observed": {
+      "fixed": 0,
+      "geometry": 0,
+      "observed": 0,
+      "full": 0,
+      "v8": 0,
+      "exploration_only": 0,
+      "persistent_trace": 0
+    },
+    "stationary/both_observed": {
+      "fixed": 0,
+      "geometry": 0,
+      "observed": 0,
+      "full": 0,
+      "v8": 0,
+      "exploration_only": 0,
+      "persistent_trace": 0
+    },
+    "stationary/unobserved_event": {
+      "fixed": 0,
+      "geometry": 0,
+      "observed": 0,
+      "full": 0,
+      "v8": 0,
+      "exploration_only": 0,
+      "persistent_trace": 0
+    },
+    "stationary/old_evidence": {
+      "fixed": 0,
+      "geometry": 0,
+      "observed": 0,
+      "full": 0,
+      "v8": 0,
+      "exploration_only": 0,
+      "persistent_trace": 0
+    },
+    "stationary/revisited_left": {
+      "fixed": 0,
+      "geometry": 0,
+      "observed": 0,
+      "full": 0,
+      "v8": 0,
+      "exploration_only": 0,
+      "persistent_trace": 0
+    },
+    "stationary/revisited_both": {
+      "fixed": 0,
+      "geometry": 0,
+      "observed": 0,
+      "full": 0,
+      "v8": 0,
+      "exploration_only": 0,
+      "persistent_trace": 0
+    },
+    "moved/unseen": {
+      "fixed": 0,
+      "geometry": 0,
+      "observed": 0,
+      "full": 0,
+      "v8": 0,
+      "exploration_only": 24,
+      "persistent_trace": 0
+    },
+    "moved/left_observed": {
+      "fixed": 0,
+      "geometry": 0,
+      "observed": 0,
+      "full": 0,
+      "v8": 0,
+      "exploration_only": 0,
+      "persistent_trace": 0
+    },
+    "moved/both_observed": {
+      "fixed": 0,
+      "geometry": 0,
+      "observed": 0,
+      "full": 0,
+      "v8": 0,
+      "exploration_only": 0,
+      "persistent_trace": 0
+    },
+    "moved/unobserved_event": {
+      "fixed": 0,
+      "geometry": 0,
+      "observed": 0,
+      "full": 0,
+      "v8": 0,
+      "exploration_only": 0,
+      "persistent_trace": 0
+    },
+    "moved/old_evidence": {
+      "fixed": 0,
+      "geometry": 0,
+      "observed": 0,
+      "full": 0,
+      "v8": 0,
+      "exploration_only": 0,
+      "persistent_trace": 0
+    },
+    "moved/revisited_left": {
+      "fixed": 0,
+      "geometry": 0,
+      "observed": 0,
+      "full": 0,
+      "v8": 0,
+      "exploration_only": 0,
+      "persistent_trace": 0
+    },
+    "moved/revisited_both": {
+      "fixed": 0,
+      "geometry": 0,
+      "observed": 0,
+      "full": 0,
+      "v8": 0,
+      "exploration_only": 0,
+      "persistent_trace": 0
+    }
+  },
+  "acc_by_house": {
+    "offset_gallery/stationary/unseen": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "offset_gallery/stationary/left_observed": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "offset_gallery/stationary/both_observed": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "offset_gallery/stationary/unobserved_event": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "offset_gallery/stationary/old_evidence": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5833333333333334
+    },
+    "offset_gallery/stationary/revisited_left": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "offset_gallery/stationary/revisited_both": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "offset_gallery/moved/unseen": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "offset_gallery/moved/left_observed": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "offset_gallery/moved/both_observed": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "offset_gallery/moved/unobserved_event": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "offset_gallery/moved/old_evidence": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.4166666666666667
+    },
+    "offset_gallery/moved/revisited_left": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "offset_gallery/moved/revisited_both": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "split_rear/stationary/unseen": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "split_rear/stationary/left_observed": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "split_rear/stationary/both_observed": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5833333333333334
+    },
+    "split_rear/stationary/unobserved_event": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5833333333333334
+    },
+    "split_rear/stationary/old_evidence": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "split_rear/stationary/revisited_left": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "split_rear/stationary/revisited_both": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5833333333333334
+    },
+    "split_rear/moved/unseen": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "split_rear/moved/left_observed": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "split_rear/moved/both_observed": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5833333333333334
+    },
+    "split_rear/moved/unobserved_event": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.4166666666666667
+    },
+    "split_rear/moved/old_evidence": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "split_rear/moved/revisited_left": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "split_rear/moved/revisited_both": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    }
+  },
+  "acc_by_cue": {
+    "conflicting/stationary/unseen": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.375,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "conflicting/stationary/left_observed": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "conflicting/stationary/both_observed": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.25,
+      "full": 0.25,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.375
+    },
+    "conflicting/stationary/unobserved_event": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.25,
+      "full": 0.25,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.375
+    },
+    "conflicting/stationary/old_evidence": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.375,
+      "full": 0.375,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "conflicting/stationary/revisited_left": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "conflicting/stationary/revisited_both": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.25,
+      "full": 0.25,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.375
+    },
+    "conflicting/moved/unseen": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.375,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "conflicting/moved/left_observed": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "conflicting/moved/both_observed": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.25,
+      "full": 0.25,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.375
+    },
+    "conflicting/moved/unobserved_event": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.75,
+      "full": 0.75,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.625
+    },
+    "conflicting/moved/old_evidence": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.625,
+      "full": 0.625,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "conflicting/moved/revisited_left": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "conflicting/moved/revisited_both": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.75,
+      "full": 0.75,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.75
+    },
+    "congruent/stationary/unseen": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.625,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "congruent/stationary/left_observed": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "congruent/stationary/both_observed": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.75,
+      "full": 0.75,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.75
+    },
+    "congruent/stationary/unobserved_event": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.75,
+      "full": 0.75,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.75
+    },
+    "congruent/stationary/old_evidence": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.625,
+      "full": 0.625,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.625
+    },
+    "congruent/stationary/revisited_left": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "congruent/stationary/revisited_both": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.75,
+      "full": 0.75,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.75
+    },
+    "congruent/moved/unseen": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.625,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "congruent/moved/left_observed": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "congruent/moved/both_observed": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.75,
+      "full": 0.75,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.75
+    },
+    "congruent/moved/unobserved_event": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.25,
+      "full": 0.25,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.25
+    },
+    "congruent/moved/old_evidence": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.375,
+      "full": 0.375,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.375
+    },
+    "congruent/moved/revisited_left": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "congruent/moved/revisited_both": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.25,
+      "full": 0.25,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.25
+    },
+    "hidden/stationary/unseen": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "hidden/stationary/left_observed": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "hidden/stationary/both_observed": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "hidden/stationary/unobserved_event": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "hidden/stationary/old_evidence": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "hidden/stationary/revisited_left": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "hidden/stationary/revisited_both": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "hidden/moved/unseen": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "hidden/moved/left_observed": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "hidden/moved/both_observed": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "hidden/moved/unobserved_event": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "hidden/moved/old_evidence": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "hidden/moved/revisited_left": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    },
+    "hidden/moved/revisited_both": {
+      "fixed": 0.5,
+      "geometry": 0.5,
+      "observed": 0.5,
+      "full": 0.5,
+      "v8": 0.5,
+      "exploration_only": 0.5,
+      "persistent_trace": 0.5
+    }
+  },
+  "maintained_initially_correct": {
+    "old_evidence/geometry": {
+      "initially_correct": 12,
+      "became_wrong": 0
+    },
+    "revisited_left/geometry": {
+      "initially_correct": 12,
+      "became_wrong": 12
+    },
+    "revisited_both/geometry": {
+      "initially_correct": 12,
+      "became_wrong": 0
+    },
+    "old_evidence/exploration_only": {
+      "initially_correct": 12,
+      "became_wrong": 0
+    },
+    "revisited_left/exploration_only": {
+      "initially_correct": 12,
+      "became_wrong": 12
+    },
+    "revisited_both/exploration_only": {
+      "initially_correct": 12,
+      "became_wrong": 0
+    },
+    "old_evidence/fixed": {
+      "initially_correct": 12,
+      "became_wrong": 0
+    },
+    "revisited_left/fixed": {
+      "initially_correct": 12,
+      "became_wrong": 0
+    },
+    "revisited_both/fixed": {
+      "initially_correct": 12,
+      "became_wrong": 0
+    },
+    "old_evidence/v8": {
+      "initially_correct": 12,
+      "became_wrong": 0
+    },
+    "revisited_left/v8": {
+      "initially_correct": 12,
+      "became_wrong": 0
+    },
+    "revisited_both/v8": {
+      "initially_correct": 12,
+      "became_wrong": 0
+    },
+    "old_evidence/observed": {
+      "initially_correct": 12,
+      "became_wrong": 1
+    },
+    "revisited_left/observed": {
+      "initially_correct": 12,
+      "became_wrong": 2
+    },
+    "revisited_both/observed": {
+      "initially_correct": 12,
+      "became_wrong": 0
+    },
+    "old_evidence/full": {
+      "initially_correct": 12,
+      "became_wrong": 1
+    },
+    "revisited_left/full": {
+      "initially_correct": 12,
+      "became_wrong": 2
+    },
+    "revisited_both/full": {
+      "initially_correct": 12,
+      "became_wrong": 0
+    },
+    "old_evidence/persistent_trace": {
+      "initially_correct": 13,
+      "became_wrong": 1
+    },
+    "revisited_left/persistent_trace": {
+      "initially_correct": 13,
+      "became_wrong": 3
+    },
+    "revisited_both/persistent_trace": {
+      "initially_correct": 13,
+      "became_wrong": 0
+    }
+  },
+  "recovered_after_change": {
+    "old_evidence/geometry": {
+      "initially_correct_unmoved": 12,
+      "correct_new_position": 0
+    },
+    "revisited_left/geometry": {
+      "initially_correct_unmoved": 12,
+      "correct_new_position": 12
+    },
+    "revisited_both/geometry": {
+      "initially_correct_unmoved": 12,
+      "correct_new_position": 0
+    },
+    "old_evidence/exploration_only": {
+      "initially_correct_unmoved": 12,
+      "correct_new_position": 0
+    },
+    "revisited_left/exploration_only": {
+      "initially_correct_unmoved": 12,
+      "correct_new_position": 12
+    },
+    "revisited_both/exploration_only": {
+      "initially_correct_unmoved": 12,
+      "correct_new_position": 0
+    },
+    "old_evidence/fixed": {
+      "initially_correct_unmoved": 12,
+      "correct_new_position": 0
+    },
+    "revisited_left/fixed": {
+      "initially_correct_unmoved": 12,
+      "correct_new_position": 0
+    },
+    "revisited_both/fixed": {
+      "initially_correct_unmoved": 12,
+      "correct_new_position": 0
+    },
+    "old_evidence/v8": {
+      "initially_correct_unmoved": 12,
+      "correct_new_position": 0
+    },
+    "revisited_left/v8": {
+      "initially_correct_unmoved": 12,
+      "correct_new_position": 0
+    },
+    "revisited_both/v8": {
+      "initially_correct_unmoved": 12,
+      "correct_new_position": 0
+    },
+    "old_evidence/observed": {
+      "initially_correct_unmoved": 12,
+      "correct_new_position": 1
+    },
+    "revisited_left/observed": {
+      "initially_correct_unmoved": 12,
+      "correct_new_position": 2
+    },
+    "revisited_both/observed": {
+      "initially_correct_unmoved": 12,
+      "correct_new_position": 0
+    },
+    "old_evidence/full": {
+      "initially_correct_unmoved": 12,
+      "correct_new_position": 1
+    },
+    "revisited_left/full": {
+      "initially_correct_unmoved": 12,
+      "correct_new_position": 2
+    },
+    "revisited_both/full": {
+      "initially_correct_unmoved": 12,
+      "correct_new_position": 0
+    },
+    "old_evidence/persistent_trace": {
+      "initially_correct_unmoved": 13,
+      "correct_new_position": 1
+    },
+    "revisited_left/persistent_trace": {
+      "initially_correct_unmoved": 13,
+      "correct_new_position": 3
+    },
+    "revisited_both/persistent_trace": {
+      "initially_correct_unmoved": 13,
+      "correct_new_position": 1
+    }
+  }
+}

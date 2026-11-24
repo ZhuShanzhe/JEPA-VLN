@@ -1,0 +1,122 @@
+{
+  "cases": [
+    {
+      "ordinal": 1,
+      "raw_unique_credited": 1,
+      "quota": 2,
+      "capped_fraction": 0.5,
+      "official_recall": 0.5,
+      "first_executed_online_static_divergence": 37,
+      "unique_credited_by_first_fork": 0,
+      "first_ever_eligible_step": 19,
+      "first_previously_unreached_instance_after_first_fork": null,
+      "first_report_with_new_credit": 99,
+      "quota_reached_step": null,
+      "raw_unique_by_report_step": [
+        [
+          99,
+          1
+        ]
+      ],
+      "executed_memory_divergences": 4,
+      "converted_windows": []
+    },
+    {
+      "ordinal": 14,
+      "raw_unique_credited": 0,
+      "quota": 3,
+      "capped_fraction": 0.0,
+      "official_recall": 0.0,
+      "first_executed_online_static_divergence": 25,
+      "unique_credited_by_first_fork": 0,
+      "first_ever_eligible_step": 7,
+      "first_previously_unreached_instance_after_first_fork": null,
+      "first_report_with_new_credit": null,
+      "quota_reached_step": null,
+      "raw_unique_by_report_step": [],
+      "executed_memory_divergences": 6,
+      "converted_windows": []
+    },
+    {
+      "ordinal": 21,
+      "raw_unique_credited": 2,
+      "quota": 3,
+      "capped_fraction": 0.6666666666666666,
+      "official_recall": 0.6666666666666666,
+      "first_executed_online_static_divergence": 12,
+      "unique_credited_by_first_fork": 0,
+      "first_ever_eligible_step": 21,
+      "first_previously_unreached_instance_after_first_fork": 21,
+      "first_report_with_new_credit": 51,
+      "quota_reached_step": null,
+      "raw_unique_by_report_step": [
+        [
+          51,
+          1
+        ],
+        [
+          87,
+          1
+        ]
+      ],
+      "executed_memory_divergences": 1,
+      "converted_windows": []
+    },
+    {
+      "ordinal": 32,
+      "raw_unique_credited": 5,
+      "quota": 3,
+      "capped_fraction": 1.0,
+      "official_recall": 1.0,
+      "first_executed_online_static_divergence": null,
+      "unique_credited_by_first_fork": null,
+      "first_ever_eligible_step": 0,
+      "first_previously_unreached_instance_after_first_fork": null,
+      "first_report_with_new_credit": 53,
+      "quota_reached_step": 53,
+      "raw_unique_by_report_step": [
+        [
+          53,
+          4
+        ],
+        [
+          145,
+          1
+        ]
+      ],
+      "executed_memory_divergences": 0,
+      "converted_windows": []
+    },
+    {
+      "ordinal": 39,
+      "raw_unique_credited": 3,
+      "quota": 5,
+      "capped_fraction": 0.6,
+      "official_recall": 0.6,
+      "first_executed_online_static_divergence": 37,
+      "unique_credited_by_first_fork": 0,
+      "first_ever_eligible_step": 187,
+      "first_previously_unreached_instance_after_first_fork": 187,
+      "first_report_with_new_credit": 199,
+      "quota_reached_step": null,
+      "raw_unique_by_report_step": [
+        [
+          199,
+          3
+        ]
+      ],
+      "executed_memory_divergences": 11,
+      "converted_windows": [
+        {
+          "decision_step": 175,
+          "first_executed_divergence_step": 175,
+          "control_window_end": 199,
+          "first_newly_eligible_in_window": 187,
+          "new_in_window": 3,
+          "eventually_newly_reported": 3,
+          "first_eventual_report": 199
+        }
+      ]
+    }
+  ]
+}

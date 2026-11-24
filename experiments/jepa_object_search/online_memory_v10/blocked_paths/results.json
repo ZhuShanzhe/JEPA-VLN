@@ -1,0 +1,272 @@
+{
+  "task": "physical budget-conditioned 1m / 3m route reachability after observing a revisited corridor; simulated returns and gate relocation in same world",
+  "models": "prior, actual historical RGB-stall memory, current-only visual classifier, time-adaptive change classifier conditioned on history and plan budget, raw image difference and unconditional whole-side veto",
+  "split_geometry": "Geometry, materials, barrier lengths and widths are seeded per unique layout. 8 train / 2 validation / 4 held-out layouts. Static and swapped gate controls both include an unrelated moving distractor.",
+  "weights_sha256": "da6b6541f089c2e461514a07096756fe9b7d56af20b74612451c1d8693cbe615",
+  "sklearn_version": "1.6.1",
+  "splits": {
+    "train": {
+      "layouts": [
+        "h00",
+        "h01",
+        "h02",
+        "h03",
+        "h04",
+        "h05",
+        "h06",
+        "h07"
+      ],
+      "episodes": 32,
+      "decision_records": 128,
+      "counts": {
+        "short_all": 64,
+        "short_reachable_target_in_closed_lane": 32,
+        "long_all": 64,
+        "stable": 32,
+        "long_brier": 64,
+        "reopened": 16,
+        "newly_blocked": 16
+      },
+      "scores": {
+        "short_all": {
+          "current_rgb": 1.0,
+          "collision_memory": 1.0,
+          "updated": 1.0,
+          "fixed_frequency": 1.0,
+          "raw_rgb_change": 1.0,
+          "blanket_dead_end_veto": 0.5
+        },
+        "short_reachable_target_in_closed_lane": {
+          "current_rgb": 1.0,
+          "collision_memory": 1.0,
+          "updated": 1.0,
+          "fixed_frequency": 1.0,
+          "raw_rgb_change": 1.0,
+          "blanket_dead_end_veto": 0.5
+        },
+        "long_all": {
+          "current_rgb": 1.0,
+          "collision_memory": 0.5,
+          "updated": 1.0,
+          "fixed_frequency": 0.5,
+          "raw_rgb_change": 1.0,
+          "blanket_dead_end_veto": 0.5
+        },
+        "stable": {
+          "current_rgb": 1.0,
+          "collision_memory": 1.0,
+          "updated": 1.0,
+          "fixed_frequency": 0.5,
+          "raw_rgb_change": 1.0,
+          "blanket_dead_end_veto": 1.0
+        },
+        "long_brier": {
+          "current_rgb": 0.01697357042369322,
+          "collision_memory": 0.5,
+          "updated": 0.004563751758222222,
+          "fixed_frequency": 0.25,
+          "raw_rgb_change": 0.0,
+          "blanket_dead_end_veto": 0.5
+        },
+        "reopened": {
+          "current_rgb": 1.0,
+          "collision_memory": 0.0,
+          "updated": 1.0,
+          "fixed_frequency": 0.5,
+          "raw_rgb_change": 1.0,
+          "blanket_dead_end_veto": 0.0
+        },
+        "newly_blocked": {
+          "current_rgb": 1.0,
+          "collision_memory": 0.0,
+          "updated": 1.0,
+          "fixed_frequency": 0.5,
+          "raw_rgb_change": 1.0,
+          "blanket_dead_end_veto": 0.0
+        }
+      },
+      "long_route_selection": {
+        "current_rgb": 1.0,
+        "collision_memory": 0.5,
+        "updated": 1.0,
+        "fixed_frequency": 0.5,
+        "raw_rgb_change": 1.0,
+        "blanket_dead_end_veto": 0.5
+      },
+      "max_return_drift_m": 6.752391641384747e-07,
+      "max_neutral_view_change": 0.0
+    },
+    "validation": {
+      "layouts": [
+        "h08",
+        "h09"
+      ],
+      "episodes": 8,
+      "decision_records": 32,
+      "counts": {
+        "short_all": 16,
+        "short_reachable_target_in_closed_lane": 8,
+        "long_all": 16,
+        "stable": 8,
+        "long_brier": 16,
+        "reopened": 4,
+        "newly_blocked": 4
+      },
+      "scores": {
+        "short_all": {
+          "current_rgb": 1.0,
+          "collision_memory": 1.0,
+          "updated": 1.0,
+          "fixed_frequency": 1.0,
+          "raw_rgb_change": 1.0,
+          "blanket_dead_end_veto": 0.5
+        },
+        "short_reachable_target_in_closed_lane": {
+          "current_rgb": 1.0,
+          "collision_memory": 1.0,
+          "updated": 1.0,
+          "fixed_frequency": 1.0,
+          "raw_rgb_change": 1.0,
+          "blanket_dead_end_veto": 0.5
+        },
+        "long_all": {
+          "current_rgb": 1.0,
+          "collision_memory": 0.5,
+          "updated": 1.0,
+          "fixed_frequency": 0.5,
+          "raw_rgb_change": 1.0,
+          "blanket_dead_end_veto": 0.5
+        },
+        "stable": {
+          "current_rgb": 1.0,
+          "collision_memory": 1.0,
+          "updated": 1.0,
+          "fixed_frequency": 0.5,
+          "raw_rgb_change": 1.0,
+          "blanket_dead_end_veto": 1.0
+        },
+        "long_brier": {
+          "current_rgb": 0.02051177927975614,
+          "collision_memory": 0.5,
+          "updated": 0.0020911856016206055,
+          "fixed_frequency": 0.25,
+          "raw_rgb_change": 0.0,
+          "blanket_dead_end_veto": 0.5
+        },
+        "reopened": {
+          "current_rgb": 1.0,
+          "collision_memory": 0.0,
+          "updated": 1.0,
+          "fixed_frequency": 0.5,
+          "raw_rgb_change": 1.0,
+          "blanket_dead_end_veto": 0.0
+        },
+        "newly_blocked": {
+          "current_rgb": 1.0,
+          "collision_memory": 0.0,
+          "updated": 1.0,
+          "fixed_frequency": 0.5,
+          "raw_rgb_change": 1.0,
+          "blanket_dead_end_veto": 0.0
+        }
+      },
+      "long_route_selection": {
+        "current_rgb": 1.0,
+        "collision_memory": 0.5,
+        "updated": 1.0,
+        "fixed_frequency": 0.5,
+        "raw_rgb_change": 1.0,
+        "blanket_dead_end_veto": 0.5
+      },
+      "max_return_drift_m": 6.519487669720547e-07,
+      "max_neutral_view_change": 0.0
+    },
+    "test": {
+      "layouts": [
+        "h10",
+        "h11",
+        "h12",
+        "h13"
+      ],
+      "episodes": 16,
+      "decision_records": 64,
+      "counts": {
+        "short_all": 32,
+        "short_reachable_target_in_closed_lane": 16,
+        "long_all": 32,
+        "stable": 16,
+        "long_brier": 32,
+        "reopened": 8,
+        "newly_blocked": 8
+      },
+      "scores": {
+        "short_all": {
+          "current_rgb": 1.0,
+          "collision_memory": 1.0,
+          "updated": 1.0,
+          "fixed_frequency": 1.0,
+          "raw_rgb_change": 1.0,
+          "blanket_dead_end_veto": 0.5
+        },
+        "short_reachable_target_in_closed_lane": {
+          "current_rgb": 1.0,
+          "collision_memory": 1.0,
+          "updated": 1.0,
+          "fixed_frequency": 1.0,
+          "raw_rgb_change": 1.0,
+          "blanket_dead_end_veto": 0.5
+        },
+        "long_all": {
+          "current_rgb": 0.9375,
+          "collision_memory": 0.5,
+          "updated": 1.0,
+          "fixed_frequency": 0.5,
+          "raw_rgb_change": 1.0,
+          "blanket_dead_end_veto": 0.5
+        },
+        "stable": {
+          "current_rgb": 0.9375,
+          "collision_memory": 1.0,
+          "updated": 1.0,
+          "fixed_frequency": 0.5,
+          "raw_rgb_change": 1.0,
+          "blanket_dead_end_veto": 1.0
+        },
+        "long_brier": {
+          "current_rgb": 0.06529828329059714,
+          "collision_memory": 0.5,
+          "updated": 0.000799641903161385,
+          "fixed_frequency": 0.25,
+          "raw_rgb_change": 0.0,
+          "blanket_dead_end_veto": 0.5
+        },
+        "reopened": {
+          "current_rgb": 1.0,
+          "collision_memory": 0.0,
+          "updated": 1.0,
+          "fixed_frequency": 0.5,
+          "raw_rgb_change": 1.0,
+          "blanket_dead_end_veto": 0.0
+        },
+        "newly_blocked": {
+          "current_rgb": 0.875,
+          "collision_memory": 0.0,
+          "updated": 1.0,
+          "fixed_frequency": 0.5,
+          "raw_rgb_change": 1.0,
+          "blanket_dead_end_veto": 0.0
+        }
+      },
+      "long_route_selection": {
+        "current_rgb": 1.0,
+        "collision_memory": 0.5,
+        "updated": 1.0,
+        "fixed_frequency": 0.5,
+        "raw_rgb_change": 1.0,
+        "blanket_dead_end_veto": 0.5
+      },
+      "max_return_drift_m": 7.643647563781997e-07,
+      "max_neutral_view_change": 0.0
+    }
+  }
+}

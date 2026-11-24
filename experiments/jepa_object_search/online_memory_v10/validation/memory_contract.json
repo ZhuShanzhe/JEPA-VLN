@@ -1,0 +1,14 @@
+{
+  "save_load_exact": true,
+  "identical_unobserved_change_prefix": true,
+  "reset_exact": true,
+  "duplicate_write_idempotent": true,
+  "future_history_refused": true,
+  "blocked_direction_reopens_after_actual_traversal": true,
+  "semantic_clue_peak_fresh": 0.38382001070632854,
+  "semantic_clue_peak_after_240_steps": 0.00037482422920539897,
+  "score_margin_left_minus_right_same_room": 0.10794612410124382,
+  "score_margin_left_minus_right_after_new_observations": -0.10908907342869201,
+  "synthetic_semantic_reversal_changes_top_choice": true,
+  "note": "Constructed two-candidate interface test with supplied visual evidence and equal priors. Scores here do not assess perception or closed-loop navigation."
+}

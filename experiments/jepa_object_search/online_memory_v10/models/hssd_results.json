@@ -1,0 +1,1670 @@
+{
+  "checkpoint_sha256": "3ff4a95fb4ef5d742386476a913a2637a2e8016d2282eb23ba8caf89944583e7",
+  "outcome": "newly eligible instance-viewpoint opportunities along a physical candidate. Scores are on present goal/origin/horizons with differing realized candidate gains; this is not end-to-end success.",
+  "inputs": "single final RGB for frozen V8 prior; entire executed supplied prefix RGB/odometry for memory; no semantic IDs; actual return validated only for collection",
+  "arms": [
+    "full",
+    "fixed",
+    "observed",
+    "geometry",
+    "no_semantic_memory",
+    "wrong_goal",
+    "v8"
+  ],
+  "splits": {
+    "train": {
+      "coverage": {
+        "origins": 72,
+        "origins_with_real_translation": 29,
+        "executed_prefix_actions": 1240,
+        "real_prefix_rgb_keyframes": 818,
+        "present_goal_origin_horizons": 2826
+      },
+      "opportunities": {
+        "any_feasible_gain": 382,
+        "different_candidate_outcomes": 369
+      },
+      "evaluated_houses": [
+        "102344328",
+        "102816729",
+        "102817053",
+        "103997940_171031257",
+        "104348037_171512898",
+        "104348082_171512994",
+        "104348202_171513150",
+        "104348394_171513453",
+        "106366173_174226431",
+        "108294465_176709960",
+        "108294783_176710410",
+        "108736656_177263304"
+      ],
+      "house_macro": {
+        "full": {
+          "top_gain": 0.7042723104948982,
+          "any_gain": 0.6123110705895795,
+          "selects_best": 0.5276949273111554,
+          "regret": 0.6667785025241165,
+          "pair_accuracy": 0.711162122291348
+        },
+        "fixed": {
+          "top_gain": 0.790643018247185,
+          "any_gain": 0.6447344768616698,
+          "selects_best": 0.5669793697205978,
+          "regret": 0.5804077947718299,
+          "pair_accuracy": 0.7238247803459101
+        },
+        "observed": {
+          "top_gain": 0.6666384287820692,
+          "any_gain": 0.5719417177202265,
+          "selects_best": 0.4944855015030454,
+          "regret": 0.7044123842369457,
+          "pair_accuracy": 0.6596531281445152
+        },
+        "geometry": {
+          "top_gain": 0.4826111530607144,
+          "any_gain": 0.40696396886089864,
+          "selects_best": 0.3298953513591672,
+          "regret": 0.8884396599583003,
+          "pair_accuracy": 0.5077064562615347
+        },
+        "no_semantic_memory": {
+          "top_gain": 0.643653962184664,
+          "any_gain": 0.5393293374104778,
+          "selects_best": 0.452706173375033,
+          "regret": 0.7273968508343508,
+          "pair_accuracy": 0.6852761808718033
+        },
+        "wrong_goal": {
+          "top_gain": 0.5163710781583589,
+          "any_gain": 0.44836045107426675,
+          "selects_best": 0.38137813595598685,
+          "regret": 0.8546797348606558,
+          "pair_accuracy": 0.5752995285905631
+        },
+        "v8": {
+          "top_gain": 0.7294651224749908,
+          "any_gain": 0.5865192160422424,
+          "selects_best": 0.4981498662967961,
+          "regret": 0.6415856905440238,
+          "pair_accuracy": 0.7166862667892904
+        }
+      },
+      "selection_changes_house_macro": {
+        "action_differs_from_fixed": 0.44206098178137654,
+        "semantic_memory_changes_action": 0.3254195964448157,
+        "choice_improves_vs_fixed": 0.07866758911166806,
+        "choice_regresses_vs_fixed": 0.13678926661382804
+      },
+      "full_minus_reference_mean_top_gain": {
+        "fixed": {
+          "mean": -0.08637070775228674,
+          "house_resampling_95pct": [
+            -0.19381279052331682,
+            0.01569713881391509
+          ]
+        },
+        "observed": {
+          "mean": 0.03763388171282905,
+          "house_resampling_95pct": [
+            -0.027397211199294568,
+            0.08882244339481177
+          ]
+        },
+        "no_semantic_memory": {
+          "mean": 0.06061834831023425,
+          "house_resampling_95pct": [
+            -0.038261857791737214,
+            0.19191218564573823
+          ]
+        },
+        "geometry": {
+          "mean": 0.22166115743418371,
+          "house_resampling_95pct": [
+            0.12486821771978021,
+            0.33233094672444996
+          ]
+        },
+        "wrong_goal": {
+          "mean": 0.18790123233653933,
+          "house_resampling_95pct": [
+            0.1046622267585809,
+            0.2800458321730251
+          ]
+        },
+        "v8": {
+          "mean": -0.0251928119800927,
+          "house_resampling_95pct": [
+            -0.17767506874825958,
+            0.140907804478254
+          ]
+        }
+      },
+      "per_house": {
+        "108736656_177263304": {
+          "fixed": {
+            "top_gain": 0.5,
+            "any_gain": 0.5,
+            "selects_best": 0.36666666666666664,
+            "regret": 0.7666666666666667,
+            "pair_accuracy": 0.7538193006671269
+          },
+          "v8": {
+            "top_gain": 0.36666666666666664,
+            "any_gain": 0.36666666666666664,
+            "selects_best": 0.23333333333333334,
+            "regret": 0.9,
+            "pair_accuracy": 0.7202179664136187
+          },
+          "geometry": {
+            "top_gain": 0.3333333333333333,
+            "any_gain": 0.3333333333333333,
+            "selects_best": 0.26666666666666666,
+            "regret": 0.9333333333333333,
+            "pair_accuracy": 0.4262813434552565
+          },
+          "no_semantic_memory": {
+            "top_gain": 0.4,
+            "any_gain": 0.4,
+            "selects_best": 0.3333333333333333,
+            "regret": 0.8666666666666667,
+            "pair_accuracy": 0.616598228663446
+          },
+          "full": {
+            "top_gain": 0.5333333333333333,
+            "any_gain": 0.5333333333333333,
+            "selects_best": 0.43333333333333335,
+            "regret": 0.7333333333333333,
+            "pair_accuracy": 0.6919248907292386
+          },
+          "observed": {
+            "top_gain": 0.43333333333333335,
+            "any_gain": 0.43333333333333335,
+            "selects_best": 0.36666666666666664,
+            "regret": 0.8333333333333334,
+            "pair_accuracy": 0.7182154359328273
+          },
+          "wrong_goal": {
+            "top_gain": 0.5,
+            "any_gain": 0.5,
+            "selects_best": 0.36666666666666664,
+            "regret": 0.7666666666666667,
+            "pair_accuracy": 0.5803341384863124
+          }
+        },
+        "108294783_176710410": {
+          "fixed": {
+            "top_gain": 0.84375,
+            "any_gain": 0.75,
+            "selects_best": 0.625,
+            "regret": 0.375,
+            "pair_accuracy": 0.734858630952381
+          },
+          "v8": {
+            "top_gain": 0.78125,
+            "any_gain": 0.65625,
+            "selects_best": 0.5625,
+            "regret": 0.4375,
+            "pair_accuracy": 0.7109002976190476
+          },
+          "geometry": {
+            "top_gain": 0.5625,
+            "any_gain": 0.5625,
+            "selects_best": 0.46875,
+            "regret": 0.65625,
+            "pair_accuracy": 0.5748511904761905
+          },
+          "no_semantic_memory": {
+            "top_gain": 0.75,
+            "any_gain": 0.6875,
+            "selects_best": 0.5625,
+            "regret": 0.46875,
+            "pair_accuracy": 0.7014508928571428
+          },
+          "full": {
+            "top_gain": 0.71875,
+            "any_gain": 0.6875,
+            "selects_best": 0.5625,
+            "regret": 0.5,
+            "pair_accuracy": 0.7199404761904762
+          },
+          "observed": {
+            "top_gain": 0.59375,
+            "any_gain": 0.5625,
+            "selects_best": 0.5,
+            "regret": 0.625,
+            "pair_accuracy": 0.6753348214285715
+          },
+          "wrong_goal": {
+            "top_gain": 0.5625,
+            "any_gain": 0.46875,
+            "selects_best": 0.34375,
+            "regret": 0.65625,
+            "pair_accuracy": 0.6234871031746032
+          }
+        },
+        "102344328": {
+          "fixed": {
+            "top_gain": 0.7083333333333334,
+            "any_gain": 0.7083333333333334,
+            "selects_best": 0.5833333333333334,
+            "regret": 0.4166666666666667,
+            "pair_accuracy": 0.6830357142857143
+          },
+          "v8": {
+            "top_gain": 0.6666666666666666,
+            "any_gain": 0.6666666666666666,
+            "selects_best": 0.5416666666666666,
+            "regret": 0.4583333333333333,
+            "pair_accuracy": 0.6854166666666667
+          },
+          "geometry": {
+            "top_gain": 0.25,
+            "any_gain": 0.25,
+            "selects_best": 0.25,
+            "regret": 0.875,
+            "pair_accuracy": 0.36195436507936507
+          },
+          "no_semantic_memory": {
+            "top_gain": 0.5416666666666666,
+            "any_gain": 0.5416666666666666,
+            "selects_best": 0.4166666666666667,
+            "regret": 0.5833333333333334,
+            "pair_accuracy": 0.5989583333333334
+          },
+          "full": {
+            "top_gain": 0.5416666666666666,
+            "any_gain": 0.5,
+            "selects_best": 0.5,
+            "regret": 0.5833333333333334,
+            "pair_accuracy": 0.6617063492063492
+          },
+          "observed": {
+            "top_gain": 0.5,
+            "any_gain": 0.4583333333333333,
+            "selects_best": 0.4166666666666667,
+            "regret": 0.625,
+            "pair_accuracy": 0.6057539682539682
+          },
+          "wrong_goal": {
+            "top_gain": 0.2916666666666667,
+            "any_gain": 0.2916666666666667,
+            "selects_best": 0.2916666666666667,
+            "regret": 0.8333333333333334,
+            "pair_accuracy": 0.3210813492063492
+          }
+        },
+        "106366173_174226431": {
+          "fixed": {
+            "top_gain": 1.2222222222222223,
+            "any_gain": 0.7037037037037037,
+            "selects_best": 0.6666666666666666,
+            "regret": 0.7407407407407407,
+            "pair_accuracy": 0.7924235170209405
+          },
+          "v8": {
+            "top_gain": 1.3703703703703705,
+            "any_gain": 0.8148148148148148,
+            "selects_best": 0.7407407407407407,
+            "regret": 0.5925925925925926,
+            "pair_accuracy": 0.8132887435222379
+          },
+          "geometry": {
+            "top_gain": 0.5555555555555556,
+            "any_gain": 0.4074074074074074,
+            "selects_best": 0.25925925925925924,
+            "regret": 1.4074074074074074,
+            "pair_accuracy": 0.40459469706651674
+          },
+          "no_semantic_memory": {
+            "top_gain": 0.7777777777777778,
+            "any_gain": 0.5555555555555556,
+            "selects_best": 0.4444444444444444,
+            "regret": 1.1851851851851851,
+            "pair_accuracy": 0.682019790312866
+          },
+          "full": {
+            "top_gain": 0.8888888888888888,
+            "any_gain": 0.6296296296296297,
+            "selects_best": 0.48148148148148145,
+            "regret": 1.0740740740740742,
+            "pair_accuracy": 0.7258661211157184
+          },
+          "observed": {
+            "top_gain": 0.8518518518518519,
+            "any_gain": 0.5925925925925926,
+            "selects_best": 0.4444444444444444,
+            "regret": 1.1111111111111112,
+            "pair_accuracy": 0.665707299201663
+          },
+          "wrong_goal": {
+            "top_gain": 0.7407407407407407,
+            "any_gain": 0.5555555555555556,
+            "selects_best": 0.37037037037037035,
+            "regret": 1.2222222222222223,
+            "pair_accuracy": 0.5657612382250063
+          }
+        },
+        "102817053": {
+          "fixed": {
+            "top_gain": 0.8148148148148148,
+            "any_gain": 0.6666666666666666,
+            "selects_best": 0.5740740740740741,
+            "regret": 0.5740740740740741,
+            "pair_accuracy": 0.7002543752543753
+          },
+          "v8": {
+            "top_gain": 0.7407407407407407,
+            "any_gain": 0.6296296296296297,
+            "selects_best": 0.5185185185185185,
+            "regret": 0.6481481481481481,
+            "pair_accuracy": 0.6748162845385067
+          },
+          "geometry": {
+            "top_gain": 0.48148148148148145,
+            "any_gain": 0.35185185185185186,
+            "selects_best": 0.24074074074074073,
+            "regret": 0.9074074074074074,
+            "pair_accuracy": 0.5420278795278797
+          },
+          "no_semantic_memory": {
+            "top_gain": 0.6296296296296297,
+            "any_gain": 0.5370370370370371,
+            "selects_best": 0.4074074074074074,
+            "regret": 0.7592592592592593,
+            "pair_accuracy": 0.6492521367521366
+          },
+          "full": {
+            "top_gain": 0.6481481481481481,
+            "any_gain": 0.5185185185185185,
+            "selects_best": 0.42592592592592593,
+            "regret": 0.7407407407407407,
+            "pair_accuracy": 0.6583559444670557
+          },
+          "observed": {
+            "top_gain": 0.6851851851851852,
+            "any_gain": 0.5,
+            "selects_best": 0.4074074074074074,
+            "regret": 0.7037037037037037,
+            "pair_accuracy": 0.6538862886085106
+          },
+          "wrong_goal": {
+            "top_gain": 0.5555555555555556,
+            "any_gain": 0.5,
+            "selects_best": 0.4444444444444444,
+            "regret": 0.8333333333333334,
+            "pair_accuracy": 0.5863078279744945
+          }
+        },
+        "104348394_171513453": {
+          "fixed": {
+            "top_gain": 0.5192307692307693,
+            "any_gain": 0.46153846153846156,
+            "selects_best": 0.3269230769230769,
+            "regret": 1.0961538461538463,
+            "pair_accuracy": 0.633633164339686
+          },
+          "v8": {
+            "top_gain": 0.5961538461538461,
+            "any_gain": 0.5,
+            "selects_best": 0.36538461538461536,
+            "regret": 1.0192307692307692,
+            "pair_accuracy": 0.6444198917025002
+          },
+          "geometry": {
+            "top_gain": 0.5769230769230769,
+            "any_gain": 0.4807692307692308,
+            "selects_best": 0.3269230769230769,
+            "regret": 1.0384615384615385,
+            "pair_accuracy": 0.543314797119145
+          },
+          "no_semantic_memory": {
+            "top_gain": 0.5769230769230769,
+            "any_gain": 0.5192307692307693,
+            "selects_best": 0.40384615384615385,
+            "regret": 1.0384615384615385,
+            "pair_accuracy": 0.6397107421563942
+          },
+          "full": {
+            "top_gain": 0.6923076923076923,
+            "any_gain": 0.6346153846153846,
+            "selects_best": 0.4230769230769231,
+            "regret": 0.9230769230769231,
+            "pair_accuracy": 0.6792825733043123
+          },
+          "observed": {
+            "top_gain": 0.5961538461538461,
+            "any_gain": 0.5,
+            "selects_best": 0.3269230769230769,
+            "regret": 1.0192307692307692,
+            "pair_accuracy": 0.6038224858877033
+          },
+          "wrong_goal": {
+            "top_gain": 0.6730769230769231,
+            "any_gain": 0.5384615384615384,
+            "selects_best": 0.4423076923076923,
+            "regret": 0.9423076923076923,
+            "pair_accuracy": 0.610612425014599
+          }
+        },
+        "104348082_171512994": {
+          "fixed": {
+            "top_gain": 1.4210526315789473,
+            "any_gain": 0.8421052631578947,
+            "selects_best": 0.8421052631578947,
+            "regret": 0.3684210526315789,
+            "pair_accuracy": 0.8087092731829575
+          },
+          "v8": {
+            "top_gain": 1.3157894736842106,
+            "any_gain": 0.8421052631578947,
+            "selects_best": 0.7368421052631579,
+            "regret": 0.47368421052631576,
+            "pair_accuracy": 0.7767543859649123
+          },
+          "geometry": {
+            "top_gain": 0.5263157894736842,
+            "any_gain": 0.42105263157894735,
+            "selects_best": 0.3684210526315789,
+            "regret": 1.263157894736842,
+            "pair_accuracy": 0.42644110275689223
+          },
+          "no_semantic_memory": {
+            "top_gain": 1.105263157894737,
+            "any_gain": 0.7894736842105263,
+            "selects_best": 0.7368421052631579,
+            "regret": 0.6842105263157895,
+            "pair_accuracy": 0.7545112781954887
+          },
+          "full": {
+            "top_gain": 0.9473684210526315,
+            "any_gain": 0.6842105263157895,
+            "selects_best": 0.5789473684210527,
+            "regret": 0.8421052631578947,
+            "pair_accuracy": 0.7539473684210526
+          },
+          "observed": {
+            "top_gain": 0.7894736842105263,
+            "any_gain": 0.6842105263157895,
+            "selects_best": 0.631578947368421,
+            "regret": 1.0,
+            "pair_accuracy": 0.7011278195488723
+          },
+          "wrong_goal": {
+            "top_gain": 0.8421052631578947,
+            "any_gain": 0.7368421052631579,
+            "selects_best": 0.6842105263157895,
+            "regret": 0.9473684210526315,
+            "pair_accuracy": 0.6848997493734336
+          }
+        },
+        "102816729": {
+          "fixed": {
+            "top_gain": 0.8571428571428571,
+            "any_gain": 0.6571428571428571,
+            "selects_best": 0.6,
+            "regret": 0.6,
+            "pair_accuracy": 0.7518541775684633
+          },
+          "v8": {
+            "top_gain": 0.8857142857142857,
+            "any_gain": 0.6857142857142857,
+            "selects_best": 0.6,
+            "regret": 0.5714285714285714,
+            "pair_accuracy": 0.7530350601779173
+          },
+          "geometry": {
+            "top_gain": 0.6285714285714286,
+            "any_gain": 0.4,
+            "selects_best": 0.3142857142857143,
+            "regret": 0.8285714285714286,
+            "pair_accuracy": 0.47860282574568286
+          },
+          "no_semantic_memory": {
+            "top_gain": 0.9428571428571428,
+            "any_gain": 0.6571428571428571,
+            "selects_best": 0.5714285714285714,
+            "regret": 0.5142857142857142,
+            "pair_accuracy": 0.7409959881388453
+          },
+          "full": {
+            "top_gain": 0.8571428571428571,
+            "any_gain": 0.6285714285714286,
+            "selects_best": 0.5714285714285714,
+            "regret": 0.6,
+            "pair_accuracy": 0.7528990057561487
+          },
+          "observed": {
+            "top_gain": 1.1142857142857143,
+            "any_gain": 0.7428571428571429,
+            "selects_best": 0.6571428571428571,
+            "regret": 0.34285714285714286,
+            "pair_accuracy": 0.7434772370486656
+          },
+          "wrong_goal": {
+            "top_gain": 0.37142857142857144,
+            "any_gain": 0.3142857142857143,
+            "selects_best": 0.2571428571428571,
+            "regret": 1.0857142857142856,
+            "pair_accuracy": 0.5413901971044828
+          }
+        },
+        "104348037_171512898": {
+          "fixed": {
+            "top_gain": 0.8,
+            "any_gain": 0.6461538461538462,
+            "selects_best": 0.5230769230769231,
+            "regret": 0.7230769230769231,
+            "pair_accuracy": 0.6903302901474969
+          },
+          "v8": {
+            "top_gain": 0.7846153846153846,
+            "any_gain": 0.6307692307692307,
+            "selects_best": 0.5384615384615384,
+            "regret": 0.7384615384615385,
+            "pair_accuracy": 0.7161878251256639
+          },
+          "geometry": {
+            "top_gain": 0.7538461538461538,
+            "any_gain": 0.5538461538461539,
+            "selects_best": 0.4461538461538462,
+            "regret": 0.7692307692307693,
+            "pair_accuracy": 0.6034302563191964
+          },
+          "no_semantic_memory": {
+            "top_gain": 0.8769230769230769,
+            "any_gain": 0.6615384615384615,
+            "selects_best": 0.5384615384615384,
+            "regret": 0.6461538461538462,
+            "pair_accuracy": 0.7033948072455741
+          },
+          "full": {
+            "top_gain": 0.7230769230769231,
+            "any_gain": 0.6307692307692307,
+            "selects_best": 0.5076923076923077,
+            "regret": 0.8,
+            "pair_accuracy": 0.7274408609070125
+          },
+          "observed": {
+            "top_gain": 0.6461538461538462,
+            "any_gain": 0.6,
+            "selects_best": 0.4461538461538462,
+            "regret": 0.8769230769230769,
+            "pair_accuracy": 0.6753419373716918
+          },
+          "wrong_goal": {
+            "top_gain": 0.676923076923077,
+            "any_gain": 0.49230769230769234,
+            "selects_best": 0.4461538461538462,
+            "regret": 0.8461538461538461,
+            "pair_accuracy": 0.5482824808127542
+          }
+        },
+        "103997940_171031257": {
+          "fixed": {
+            "top_gain": 0.6666666666666666,
+            "any_gain": 0.6666666666666666,
+            "selects_best": 0.6666666666666666,
+            "regret": 0.3333333333333333,
+            "pair_accuracy": 0.7037037037037037
+          },
+          "v8": {
+            "top_gain": 0.0,
+            "any_gain": 0.0,
+            "selects_best": 0.0,
+            "regret": 1.0,
+            "pair_accuracy": 0.6435185185185185
+          },
+          "geometry": {
+            "top_gain": 0.0,
+            "any_gain": 0.0,
+            "selects_best": 0.0,
+            "regret": 1.0,
+            "pair_accuracy": 0.6990740740740741
+          },
+          "no_semantic_memory": {
+            "top_gain": 0.0,
+            "any_gain": 0.0,
+            "selects_best": 0.0,
+            "regret": 1.0,
+            "pair_accuracy": 0.6990740740740741
+          },
+          "full": {
+            "top_gain": 0.6666666666666666,
+            "any_gain": 0.6666666666666666,
+            "selects_best": 0.6666666666666666,
+            "regret": 0.3333333333333333,
+            "pair_accuracy": 0.7592592592592592
+          },
+          "observed": {
+            "top_gain": 0.6666666666666666,
+            "any_gain": 0.6666666666666666,
+            "selects_best": 0.6666666666666666,
+            "regret": 0.3333333333333333,
+            "pair_accuracy": 0.611111111111111
+          },
+          "wrong_goal": {
+            "top_gain": 0.3333333333333333,
+            "any_gain": 0.3333333333333333,
+            "selects_best": 0.3333333333333333,
+            "regret": 0.6666666666666666,
+            "pair_accuracy": 0.6249999999999999
+          }
+        },
+        "104348202_171513150": {
+          "fixed": {
+            "top_gain": 0.5789473684210527,
+            "any_gain": 0.5789473684210527,
+            "selects_best": 0.47368421052631576,
+            "regret": 0.5263157894736842,
+            "pair_accuracy": 0.7487514075042679
+          },
+          "v8": {
+            "top_gain": 0.5789473684210527,
+            "any_gain": 0.5789473684210527,
+            "selects_best": 0.47368421052631576,
+            "regret": 0.5263157894736842,
+            "pair_accuracy": 0.7533462278885621
+          },
+          "geometry": {
+            "top_gain": 0.7894736842105263,
+            "any_gain": 0.7894736842105263,
+            "selects_best": 0.6842105263157895,
+            "regret": 0.3157894736842105,
+            "pair_accuracy": 0.752143038756311
+          },
+          "no_semantic_memory": {
+            "top_gain": 0.7894736842105263,
+            "any_gain": 0.7894736842105263,
+            "selects_best": 0.6842105263157895,
+            "regret": 0.3157894736842105,
+            "pair_accuracy": 0.7786177400021794
+          },
+          "full": {
+            "top_gain": 0.7894736842105263,
+            "any_gain": 0.7894736842105263,
+            "selects_best": 0.7368421052631579,
+            "regret": 0.3157894736842105,
+            "pair_accuracy": 0.8199892848062184
+          },
+          "observed": {
+            "top_gain": 0.7894736842105263,
+            "any_gain": 0.7894736842105263,
+            "selects_best": 0.7368421052631579,
+            "regret": 0.3157894736842105,
+            "pair_accuracy": 0.7918210381025027
+          },
+          "wrong_goal": {
+            "top_gain": 0.3157894736842105,
+            "any_gain": 0.3157894736842105,
+            "selects_best": 0.2631578947368421,
+            "regret": 0.7894736842105263,
+            "pair_accuracy": 0.652945770222658
+          }
+        },
+        "108294465_176709960": {
+          "fixed": {
+            "top_gain": 0.5555555555555556,
+            "any_gain": 0.5555555555555556,
+            "selects_best": 0.5555555555555556,
+            "regret": 0.4444444444444444,
+            "pair_accuracy": 0.6845238095238095
+          },
+          "v8": {
+            "top_gain": 0.6666666666666666,
+            "any_gain": 0.6666666666666666,
+            "selects_best": 0.6666666666666666,
+            "regret": 0.3333333333333333,
+            "pair_accuracy": 0.7083333333333335
+          },
+          "geometry": {
+            "top_gain": 0.3333333333333333,
+            "any_gain": 0.3333333333333333,
+            "selects_best": 0.3333333333333333,
+            "regret": 0.6666666666666666,
+            "pair_accuracy": 0.27976190476190477
+          },
+          "no_semantic_memory": {
+            "top_gain": 0.3333333333333333,
+            "any_gain": 0.3333333333333333,
+            "selects_best": 0.3333333333333333,
+            "regret": 0.6666666666666666,
+            "pair_accuracy": 0.6587301587301587
+          },
+          "full": {
+            "top_gain": 0.4444444444444444,
+            "any_gain": 0.4444444444444444,
+            "selects_best": 0.4444444444444444,
+            "regret": 0.5555555555555556,
+            "pair_accuracy": 0.5833333333333334
+          },
+          "observed": {
+            "top_gain": 0.3333333333333333,
+            "any_gain": 0.3333333333333333,
+            "selects_best": 0.3333333333333333,
+            "regret": 0.6666666666666666,
+            "pair_accuracy": 0.4702380952380952
+          },
+          "wrong_goal": {
+            "top_gain": 0.3333333333333333,
+            "any_gain": 0.3333333333333333,
+            "selects_best": 0.3333333333333333,
+            "regret": 0.6666666666666666,
+            "pair_accuracy": 0.5634920634920635
+          }
+        }
+      },
+      "per_goal_pooled_top_gain": {
+        "lamp.n.01": {
+          "fixed": 0.78125,
+          "v8": 0.796875,
+          "geometry": 0.578125,
+          "no_semantic_memory": 0.65625,
+          "full": 0.71875,
+          "observed": 0.625,
+          "wrong_goal": 0.890625
+        },
+        "clock.n.01": {
+          "fixed": 0.6666666666666666,
+          "v8": 0.6666666666666666,
+          "geometry": 0.8888888888888888,
+          "no_semantic_memory": 0.6666666666666666,
+          "full": 0.5555555555555556,
+          "observed": 0.4444444444444444,
+          "wrong_goal": 0.8888888888888888
+        },
+        "television_receiver.n.01": {
+          "fixed": 0.8333333333333334,
+          "v8": 0.6666666666666666,
+          "geometry": 0.6666666666666666,
+          "no_semantic_memory": 0.75,
+          "full": 0.75,
+          "observed": 0.3333333333333333,
+          "wrong_goal": 0.25
+        },
+        "wall_art.n.01": {
+          "fixed": 0.8809523809523809,
+          "v8": 0.9285714285714286,
+          "geometry": 0.5952380952380952,
+          "no_semantic_memory": 0.8095238095238095,
+          "full": 0.6904761904761905,
+          "observed": 0.5714285714285714,
+          "wrong_goal": 0.6666666666666666
+        },
+        "door.n.01": {
+          "fixed": 0.5116279069767442,
+          "v8": 0.4186046511627907,
+          "geometry": 0.27906976744186046,
+          "no_semantic_memory": 0.46511627906976744,
+          "full": 0.5348837209302325,
+          "observed": 0.5581395348837209,
+          "wrong_goal": 0.32558139534883723
+        },
+        "stool.n.01": {
+          "fixed": 0.8571428571428571,
+          "v8": 0.8571428571428571,
+          "geometry": 0.5714285714285714,
+          "no_semantic_memory": 0.5714285714285714,
+          "full": 0.5714285714285714,
+          "observed": 0.5714285714285714,
+          "wrong_goal": 0.7142857142857143
+        },
+        "cabinet.n.01": {
+          "fixed": 1.2758620689655173,
+          "v8": 1.0344827586206897,
+          "geometry": 0.7931034482758621,
+          "no_semantic_memory": 0.7931034482758621,
+          "full": 0.9310344827586207,
+          "observed": 1.0,
+          "wrong_goal": 0.3103448275862069
+        },
+        "chair.n.01": {
+          "fixed": 1.05,
+          "v8": 1.05,
+          "geometry": 0.775,
+          "no_semantic_memory": 1.1,
+          "full": 1.025,
+          "observed": 1.1,
+          "wrong_goal": 0.775
+        },
+        "toilet.n.02": {
+          "fixed": 0.5454545454545454,
+          "v8": 0.5454545454545454,
+          "geometry": 0.0,
+          "no_semantic_memory": 0.45454545454545453,
+          "full": 0.5454545454545454,
+          "observed": 0.18181818181818182,
+          "wrong_goal": 0.09090909090909091
+        },
+        "potted_plant.n.01": {
+          "fixed": 0.6538461538461539,
+          "v8": 0.6538461538461539,
+          "geometry": 0.5769230769230769,
+          "no_semantic_memory": 0.6730769230769231,
+          "full": 0.6923076923076923,
+          "observed": 0.7115384615384616,
+          "wrong_goal": 0.36538461538461536
+        },
+        "sofa.n.01": {
+          "fixed": 0.7586206896551724,
+          "v8": 0.8275862068965517,
+          "geometry": 0.3448275862068966,
+          "no_semantic_memory": 0.7586206896551724,
+          "full": 0.6206896551724138,
+          "observed": 0.6551724137931034,
+          "wrong_goal": 0.6896551724137931
+        },
+        "mirror.n.01": {
+          "fixed": 0.8125,
+          "v8": 0.875,
+          "geometry": 0.5625,
+          "no_semantic_memory": 0.75,
+          "full": 0.75,
+          "observed": 0.5,
+          "wrong_goal": 0.375
+        },
+        "basket.n.01": {
+          "fixed": 0.3333333333333333,
+          "v8": 0.4,
+          "geometry": 0.4666666666666667,
+          "no_semantic_memory": 0.4666666666666667,
+          "full": 0.4666666666666667,
+          "observed": 0.8,
+          "wrong_goal": 0.4666666666666667
+        }
+      }
+    },
+    "calibration": {
+      "coverage": {
+        "origins": 16,
+        "origins_with_real_translation": 8,
+        "executed_prefix_actions": 294,
+        "real_prefix_rgb_keyframes": 198,
+        "present_goal_origin_horizons": 528
+      },
+      "opportunities": {
+        "any_feasible_gain": 61,
+        "different_candidate_outcomes": 61
+      },
+      "evaluated_houses": [
+        "103997478_171030528",
+        "104862621_172226772",
+        "107734119_175999932"
+      ],
+      "house_macro": {
+        "full": {
+          "top_gain": 0.5658008658008659,
+          "any_gain": 0.40606060606060607,
+          "selects_best": 0.3206060606060606,
+          "regret": 0.8730735930735931,
+          "pair_accuracy": 0.5611795858845549
+        },
+        "fixed": {
+          "top_gain": 0.5311688311688312,
+          "any_gain": 0.37142857142857144,
+          "selects_best": 0.285974025974026,
+          "regret": 0.9077056277056278,
+          "pair_accuracy": 0.51317827732424
+        },
+        "observed": {
+          "top_gain": 0.4727272727272727,
+          "any_gain": 0.36424242424242426,
+          "selects_best": 0.2618181818181818,
+          "regret": 0.9661471861471861,
+          "pair_accuracy": 0.5574260295719923
+        },
+        "geometry": {
+          "top_gain": 0.3187012987012987,
+          "any_gain": 0.21203463203463202,
+          "selects_best": 0.15324675324675324,
+          "regret": 1.1201731601731602,
+          "pair_accuracy": 0.31098070976642406
+        },
+        "no_semantic_memory": {
+          "top_gain": 0.4575757575757576,
+          "any_gain": 0.32995670995670995,
+          "selects_best": 0.22753246753246756,
+          "regret": 0.9812987012987012,
+          "pair_accuracy": 0.44098545691713387
+        },
+        "wrong_goal": {
+          "top_gain": 0.3612987012987013,
+          "any_gain": 0.330995670995671,
+          "selects_best": 0.274025974025974,
+          "regret": 1.0775757575757574,
+          "pair_accuracy": 0.5363156583467141
+        },
+        "v8": {
+          "top_gain": 0.5293506493506493,
+          "any_gain": 0.36961038961038956,
+          "selects_best": 0.2993073593073593,
+          "regret": 0.9095238095238095,
+          "pair_accuracy": 0.5177144818604446
+        }
+      },
+      "selection_changes_house_macro": {
+        "action_differs_from_fixed": 0.4591341991341991,
+        "semantic_memory_changes_action": 0.2834632034632035,
+        "choice_improves_vs_fixed": 0.10857142857142855,
+        "choice_regresses_vs_fixed": 0.07393939393939394
+      },
+      "full_minus_reference_mean_top_gain": {
+        "fixed": {
+          "mean": 0.034632034632034646,
+          "house_resampling_95pct": [
+            -0.1818181818181818,
+            0.28571428571428575
+          ]
+        },
+        "observed": {
+          "mean": 0.09307359307359309,
+          "house_resampling_95pct": [
+            0.0,
+            0.1428571428571429
+          ]
+        },
+        "no_semantic_memory": {
+          "mean": 0.10822510822510824,
+          "house_resampling_95pct": [
+            0.0,
+            0.1818181818181818
+          ]
+        },
+        "geometry": {
+          "mean": 0.24709956709956707,
+          "house_resampling_95pct": [
+            0.039999999999999925,
+            0.4285714285714286
+          ]
+        },
+        "wrong_goal": {
+          "mean": 0.20450216450216452,
+          "house_resampling_95pct": [
+            0.12,
+            0.3571428571428572
+          ]
+        },
+        "v8": {
+          "mean": 0.036450216450216434,
+          "house_resampling_95pct": [
+            -0.1363636363636364,
+            0.28571428571428575
+          ]
+        }
+      },
+      "per_house": {
+        "103997478_171030528": {
+          "fixed": {
+            "top_gain": 0.35714285714285715,
+            "any_gain": 0.21428571428571427,
+            "selects_best": 0.21428571428571427,
+            "regret": 0.9285714285714286,
+            "pair_accuracy": 0.4395408163265306
+          },
+          "v8": {
+            "top_gain": 0.35714285714285715,
+            "any_gain": 0.21428571428571427,
+            "selects_best": 0.21428571428571427,
+            "regret": 0.9285714285714286,
+            "pair_accuracy": 0.4462868480725623
+          },
+          "geometry": {
+            "top_gain": 0.21428571428571427,
+            "any_gain": 0.21428571428571427,
+            "selects_best": 0.21428571428571427,
+            "regret": 1.0714285714285714,
+            "pair_accuracy": 0.29124149659863946
+          },
+          "no_semantic_memory": {
+            "top_gain": 0.5,
+            "any_gain": 0.35714285714285715,
+            "selects_best": 0.35714285714285715,
+            "regret": 0.7857142857142857,
+            "pair_accuracy": 0.38832199546485263
+          },
+          "full": {
+            "top_gain": 0.6428571428571429,
+            "any_gain": 0.5,
+            "selects_best": 0.5,
+            "regret": 0.6428571428571429,
+            "pair_accuracy": 0.5302721088435375
+          },
+          "observed": {
+            "top_gain": 0.5,
+            "any_gain": 0.5,
+            "selects_best": 0.5,
+            "regret": 0.7857142857142857,
+            "pair_accuracy": 0.5796201814058957
+          },
+          "wrong_goal": {
+            "top_gain": 0.2857142857142857,
+            "any_gain": 0.2857142857142857,
+            "selects_best": 0.2857142857142857,
+            "regret": 1.0,
+            "pair_accuracy": 0.4697562358276643
+          }
+        },
+        "107734119_175999932": {
+          "fixed": {
+            "top_gain": 0.6,
+            "any_gain": 0.4,
+            "selects_best": 0.28,
+            "regret": 0.84,
+            "pair_accuracy": 0.5117067473589212
+          },
+          "v8": {
+            "top_gain": 0.64,
+            "any_gain": 0.44,
+            "selects_best": 0.32,
+            "regret": 0.8,
+            "pair_accuracy": 0.5445638902160641
+          },
+          "geometry": {
+            "top_gain": 0.56,
+            "any_gain": 0.24,
+            "selects_best": 0.2,
+            "regret": 0.88,
+            "pair_accuracy": 0.45420757020757013
+          },
+          "no_semantic_memory": {
+            "top_gain": 0.6,
+            "any_gain": 0.36,
+            "selects_best": 0.28,
+            "regret": 0.84,
+            "pair_accuracy": 0.5180193236714975
+          },
+          "full": {
+            "top_gain": 0.6,
+            "any_gain": 0.4,
+            "selects_best": 0.28,
+            "regret": 0.84,
+            "pair_accuracy": 0.5579627860062643
+          },
+          "observed": {
+            "top_gain": 0.6,
+            "any_gain": 0.32,
+            "selects_best": 0.24,
+            "regret": 0.84,
+            "pair_accuracy": 0.5542574189095928
+          },
+          "wrong_goal": {
+            "top_gain": 0.48,
+            "any_gain": 0.48,
+            "selects_best": 0.4,
+            "regret": 0.96,
+            "pair_accuracy": 0.5667207092424483
+          }
+        },
+        "104862621_172226772": {
+          "fixed": {
+            "top_gain": 0.6363636363636364,
+            "any_gain": 0.5,
+            "selects_best": 0.36363636363636365,
+            "regret": 0.9545454545454546,
+            "pair_accuracy": 0.5882872682872683
+          },
+          "v8": {
+            "top_gain": 0.5909090909090909,
+            "any_gain": 0.45454545454545453,
+            "selects_best": 0.36363636363636365,
+            "regret": 1.0,
+            "pair_accuracy": 0.5622927072927073
+          },
+          "geometry": {
+            "top_gain": 0.18181818181818182,
+            "any_gain": 0.18181818181818182,
+            "selects_best": 0.045454545454545456,
+            "regret": 1.4090909090909092,
+            "pair_accuracy": 0.18749306249306252
+          },
+          "no_semantic_memory": {
+            "top_gain": 0.2727272727272727,
+            "any_gain": 0.2727272727272727,
+            "selects_best": 0.045454545454545456,
+            "regret": 1.3181818181818181,
+            "pair_accuracy": 0.4166150516150516
+          },
+          "full": {
+            "top_gain": 0.45454545454545453,
+            "any_gain": 0.3181818181818182,
+            "selects_best": 0.18181818181818182,
+            "regret": 1.1363636363636365,
+            "pair_accuracy": 0.5953038628038629
+          },
+          "observed": {
+            "top_gain": 0.3181818181818182,
+            "any_gain": 0.2727272727272727,
+            "selects_best": 0.045454545454545456,
+            "regret": 1.2727272727272727,
+            "pair_accuracy": 0.5384004884004884
+          },
+          "wrong_goal": {
+            "top_gain": 0.3181818181818182,
+            "any_gain": 0.22727272727272727,
+            "selects_best": 0.13636363636363635,
+            "regret": 1.2727272727272727,
+            "pair_accuracy": 0.5724700299700299
+          }
+        }
+      },
+      "per_goal_pooled_top_gain": {
+        "lamp.n.01": {
+          "fixed": 0.5294117647058824,
+          "v8": 0.47058823529411764,
+          "geometry": 0.35294117647058826,
+          "no_semantic_memory": 0.47058823529411764,
+          "full": 0.6470588235294118,
+          "observed": 0.6470588235294118,
+          "wrong_goal": 0.5294117647058824
+        },
+        "wall_art.n.01": {
+          "fixed": 0.0,
+          "v8": 0.0,
+          "geometry": 0.0,
+          "no_semantic_memory": 0.0,
+          "full": 0.0,
+          "observed": 0.125,
+          "wrong_goal": 0.25
+        },
+        "mirror.n.01": {
+          "fixed": 1.5,
+          "v8": 1.5,
+          "geometry": 0.0,
+          "no_semantic_memory": 1.25,
+          "full": 1.25,
+          "observed": 0.0,
+          "wrong_goal": 0.0
+        },
+        "potted_plant.n.01": {
+          "fixed": 0.5,
+          "v8": 0.5,
+          "geometry": 0.25,
+          "no_semantic_memory": 0.25,
+          "full": 0.5,
+          "observed": 0.5,
+          "wrong_goal": 0.25
+        },
+        "chair.n.01": {
+          "fixed": 1.0,
+          "v8": 1.0,
+          "geometry": 0.7272727272727273,
+          "no_semantic_memory": 1.0909090909090908,
+          "full": 1.0909090909090908,
+          "observed": 1.0,
+          "wrong_goal": 0.5454545454545454
+        },
+        "television_receiver.n.01": {
+          "fixed": 0.5,
+          "v8": 0.5,
+          "geometry": 0.0,
+          "no_semantic_memory": 0.0,
+          "full": 0.25,
+          "observed": 0.0,
+          "wrong_goal": 0.0
+        },
+        "cabinet.n.01": {
+          "fixed": 0.0,
+          "v8": 0.2,
+          "geometry": 1.0,
+          "no_semantic_memory": 0.0,
+          "full": 0.0,
+          "observed": 0.4,
+          "wrong_goal": 0.4
+        },
+        "sofa.n.01": {
+          "fixed": 0.5,
+          "v8": 0.5,
+          "geometry": 0.0,
+          "no_semantic_memory": 0.5,
+          "full": 0.5,
+          "observed": 0.5,
+          "wrong_goal": 0.5
+        },
+        "stool.n.01": {
+          "fixed": 0.5,
+          "v8": 0.5,
+          "geometry": 0.0,
+          "no_semantic_memory": 0.0,
+          "full": 0.0,
+          "observed": 0.0,
+          "wrong_goal": 0.0
+        },
+        "bed.n.01": {
+          "fixed": 1.0,
+          "v8": 1.0,
+          "geometry": 0.0,
+          "no_semantic_memory": 0.0,
+          "full": 1.0,
+          "observed": 0.0,
+          "wrong_goal": 0.0
+        },
+        "door.n.01": {
+          "fixed": 0.0,
+          "v8": 0.0,
+          "geometry": 1.0,
+          "no_semantic_memory": 0.0,
+          "full": 0.0,
+          "observed": 0.0,
+          "wrong_goal": 1.0
+        }
+      }
+    },
+    "holdout": {
+      "coverage": {
+        "origins": 16,
+        "origins_with_real_translation": 6,
+        "executed_prefix_actions": 262,
+        "real_prefix_rgb_keyframes": 170,
+        "present_goal_origin_horizons": 588
+      },
+      "opportunities": {
+        "any_feasible_gain": 101,
+        "different_candidate_outcomes": 98
+      },
+      "evaluated_houses": [
+        "102817200",
+        "107734479_176000442",
+        "108294537_176710050",
+        "108736635_177263256"
+      ],
+      "house_macro": {
+        "full": {
+          "top_gain": 0.6170951439244122,
+          "any_gain": 0.5500219731927048,
+          "selects_best": 0.5101406284333113,
+          "regret": 0.6155680070314216,
+          "pair_accuracy": 0.5682660021697667
+        },
+        "fixed": {
+          "top_gain": 0.6897604921995166,
+          "any_gain": 0.6002307185234015,
+          "selects_best": 0.5799604482531312,
+          "regret": 0.5429026587563173,
+          "pair_accuracy": 0.5696927383141593
+        },
+        "observed": {
+          "top_gain": 0.595506482091848,
+          "any_gain": 0.5072950999780268,
+          "selects_best": 0.4613161942430235,
+          "regret": 0.6371566688639859,
+          "pair_accuracy": 0.5235122266259594
+        },
+        "geometry": {
+          "top_gain": 0.5247198417930126,
+          "any_gain": 0.4365084596791914,
+          "selects_best": 0.3844319929685784,
+          "regret": 0.7079433091628213,
+          "pair_accuracy": 0.46108926823004237
+        },
+        "no_semantic_memory": {
+          "top_gain": 0.6184135354867062,
+          "any_gain": 0.5574379257306086,
+          "selects_best": 0.5114590199956053,
+          "regret": 0.6142496154691277,
+          "pair_accuracy": 0.55136382475725
+        },
+        "wrong_goal": {
+          "top_gain": 0.6154691276642497,
+          "any_gain": 0.5570863546473304,
+          "selects_best": 0.5056690837178642,
+          "regret": 0.6171940232915842,
+          "pair_accuracy": 0.5742369920816368
+        },
+        "v8": {
+          "top_gain": 0.7256866622720282,
+          "any_gain": 0.6252801582069875,
+          "selects_best": 0.5853988134475939,
+          "regret": 0.5069764886838057,
+          "pair_accuracy": 0.5761907952986955
+        }
+      },
+      "selection_changes_house_macro": {
+        "action_differs_from_fixed": 0.3897604921995166,
+        "semantic_memory_changes_action": 0.1458690397714788,
+        "choice_improves_vs_fixed": 0.07102834541858932,
+        "choice_regresses_vs_fixed": 0.14084816523840915
+      },
+      "full_minus_reference_mean_top_gain": {
+        "fixed": {
+          "mean": -0.07266534827510435,
+          "house_resampling_95pct": [
+            -0.23333333333333328,
+            0.08800263678312459
+          ]
+        },
+        "observed": {
+          "mean": 0.02158866183256425,
+          "house_resampling_95pct": [
+            -0.03658536585365857,
+            0.10135135135135132
+          ]
+        },
+        "no_semantic_memory": {
+          "mean": -0.0013183915622939912,
+          "house_resampling_95pct": [
+            -0.04054054054054054,
+            0.03658536585365857
+          ]
+        },
+        "geometry": {
+          "mean": 0.09237530213139972,
+          "house_resampling_95pct": [
+            0.051417270929466075,
+            0.16351351351351356
+          ]
+        },
+        "wrong_goal": {
+          "mean": 0.0016260162601625938,
+          "house_resampling_95pct": [
+            -0.04999999999999999,
+            0.05487804878048777
+          ]
+        },
+        "v8": {
+          "mean": -0.1085915183476159,
+          "house_resampling_95pct": [
+            -0.23333333333333328,
+            0.01615029663810147
+          ]
+        }
+      },
+      "per_house": {
+        "108294537_176710050": {
+          "fixed": {
+            "top_gain": 1.0,
+            "any_gain": 1.0,
+            "selects_best": 1.0,
+            "regret": 0.0,
+            "pair_accuracy": 0.5266666666666666
+          },
+          "v8": {
+            "top_gain": 1.0,
+            "any_gain": 1.0,
+            "selects_best": 1.0,
+            "regret": 0.0,
+            "pair_accuracy": 0.5566666666666668
+          },
+          "geometry": {
+            "top_gain": 0.6,
+            "any_gain": 0.6,
+            "selects_best": 0.6,
+            "regret": 0.4,
+            "pair_accuracy": 0.38333333333333336
+          },
+          "no_semantic_memory": {
+            "top_gain": 0.8,
+            "any_gain": 0.8,
+            "selects_best": 0.8,
+            "regret": 0.2,
+            "pair_accuracy": 0.5144444444444445
+          },
+          "full": {
+            "top_gain": 0.8,
+            "any_gain": 0.8,
+            "selects_best": 0.8,
+            "regret": 0.2,
+            "pair_accuracy": 0.5811111111111111
+          },
+          "observed": {
+            "top_gain": 0.8,
+            "any_gain": 0.8,
+            "selects_best": 0.8,
+            "regret": 0.2,
+            "pair_accuracy": 0.5411111111111111
+          },
+          "wrong_goal": {
+            "top_gain": 0.8,
+            "any_gain": 0.8,
+            "selects_best": 0.8,
+            "regret": 0.2,
+            "pair_accuracy": 0.6066666666666667
+          }
+        },
+        "102817200": {
+          "fixed": {
+            "top_gain": 0.7333333333333333,
+            "any_gain": 0.6,
+            "selects_best": 0.6,
+            "regret": 0.6666666666666666,
+            "pair_accuracy": 0.5891005291005291
+          },
+          "v8": {
+            "top_gain": 0.7333333333333333,
+            "any_gain": 0.6,
+            "selects_best": 0.6,
+            "regret": 0.6666666666666666,
+            "pair_accuracy": 0.5965079365079364
+          },
+          "geometry": {
+            "top_gain": 0.4,
+            "any_gain": 0.26666666666666666,
+            "selects_best": 0.26666666666666666,
+            "regret": 1.0,
+            "pair_accuracy": 0.4046031746031746
+          },
+          "no_semantic_memory": {
+            "top_gain": 0.4666666666666667,
+            "any_gain": 0.4666666666666667,
+            "selects_best": 0.4666666666666667,
+            "regret": 0.9333333333333333,
+            "pair_accuracy": 0.5855820105820106
+          },
+          "full": {
+            "top_gain": 0.4666666666666667,
+            "any_gain": 0.4666666666666667,
+            "selects_best": 0.4666666666666667,
+            "regret": 0.9333333333333333,
+            "pair_accuracy": 0.5547089947089946
+          },
+          "observed": {
+            "top_gain": 0.4666666666666667,
+            "any_gain": 0.3333333333333333,
+            "selects_best": 0.3333333333333333,
+            "regret": 0.9333333333333333,
+            "pair_accuracy": 0.4863492063492064
+          },
+          "wrong_goal": {
+            "top_gain": 0.5333333333333333,
+            "any_gain": 0.4,
+            "selects_best": 0.4,
+            "regret": 0.8666666666666667,
+            "pair_accuracy": 0.5364285714285714
+          }
+        },
+        "107734479_176000442": {
+          "fixed": {
+            "top_gain": 0.5135135135135135,
+            "any_gain": 0.4594594594594595,
+            "selects_best": 0.3783783783783784,
+            "regret": 0.6756756756756757,
+            "pair_accuracy": 0.656842556842557
+          },
+          "v8": {
+            "top_gain": 0.4864864864864865,
+            "any_gain": 0.4864864864864865,
+            "selects_best": 0.35135135135135137,
+            "regret": 0.7027027027027027,
+            "pair_accuracy": 0.6558344058344059
+          },
+          "geometry": {
+            "top_gain": 0.5135135135135135,
+            "any_gain": 0.5135135135135135,
+            "selects_best": 0.3783783783783784,
+            "regret": 0.6756756756756757,
+            "pair_accuracy": 0.6974688974688975
+          },
+          "no_semantic_memory": {
+            "top_gain": 0.6216216216216216,
+            "any_gain": 0.6216216216216216,
+            "selects_best": 0.4864864864864865,
+            "regret": 0.5675675675675675,
+            "pair_accuracy": 0.6795152295152295
+          },
+          "full": {
+            "top_gain": 0.5675675675675675,
+            "any_gain": 0.5675675675675675,
+            "selects_best": 0.43243243243243246,
+            "regret": 0.6216216216216216,
+            "pair_accuracy": 0.6563813813813812
+          },
+          "observed": {
+            "top_gain": 0.43243243243243246,
+            "any_gain": 0.43243243243243246,
+            "selects_best": 0.2972972972972973,
+            "regret": 0.7567567567567568,
+            "pair_accuracy": 0.5639210639210639
+          },
+          "wrong_goal": {
+            "top_gain": 0.5675675675675675,
+            "any_gain": 0.5405405405405406,
+            "selects_best": 0.43243243243243246,
+            "regret": 0.6216216216216216,
+            "pair_accuracy": 0.6652831402831402
+          }
+        },
+        "108736635_177263256": {
+          "fixed": {
+            "top_gain": 0.5121951219512195,
+            "any_gain": 0.34146341463414637,
+            "selects_best": 0.34146341463414637,
+            "regret": 0.8292682926829268,
+            "pair_accuracy": 0.5061612006468845
+          },
+          "v8": {
+            "top_gain": 0.6829268292682927,
+            "any_gain": 0.4146341463414634,
+            "selects_best": 0.3902439024390244,
+            "regret": 0.6585365853658537,
+            "pair_accuracy": 0.49575417218577345
+          },
+          "geometry": {
+            "top_gain": 0.5853658536585366,
+            "any_gain": 0.36585365853658536,
+            "selects_best": 0.2926829268292683,
+            "regret": 0.7560975609756098,
+            "pair_accuracy": 0.35895166751476404
+          },
+          "no_semantic_memory": {
+            "top_gain": 0.5853658536585366,
+            "any_gain": 0.34146341463414637,
+            "selects_best": 0.2926829268292683,
+            "regret": 0.7560975609756098,
+            "pair_accuracy": 0.4259136144873154
+          },
+          "full": {
+            "top_gain": 0.6341463414634146,
+            "any_gain": 0.36585365853658536,
+            "selects_best": 0.34146341463414637,
+            "regret": 0.7073170731707317,
+            "pair_accuracy": 0.48086252147757974
+          },
+          "observed": {
+            "top_gain": 0.6829268292682927,
+            "any_gain": 0.4634146341463415,
+            "selects_best": 0.4146341463414634,
+            "regret": 0.6585365853658537,
+            "pair_accuracy": 0.5026675251224562
+          },
+          "wrong_goal": {
+            "top_gain": 0.5609756097560976,
+            "any_gain": 0.4878048780487805,
+            "selects_best": 0.3902439024390244,
+            "regret": 0.7804878048780488,
+            "pair_accuracy": 0.48856958994816896
+          }
+        }
+      },
+      "per_goal_pooled_top_gain": {
+        "lamp.n.01": {
+          "fixed": 0.7272727272727273,
+          "v8": 1.0,
+          "geometry": 0.8181818181818182,
+          "no_semantic_memory": 1.0,
+          "full": 0.9090909090909091,
+          "observed": 0.6818181818181818,
+          "wrong_goal": 0.7727272727272727
+        },
+        "wall_art.n.01": {
+          "fixed": 0.3333333333333333,
+          "v8": 0.3333333333333333,
+          "geometry": 0.16666666666666666,
+          "no_semantic_memory": 0.16666666666666666,
+          "full": 0.16666666666666666,
+          "observed": 0.3333333333333333,
+          "wrong_goal": 0.6666666666666666
+        },
+        "potted_plant.n.01": {
+          "fixed": 1.0,
+          "v8": 1.0,
+          "geometry": 0.3888888888888889,
+          "no_semantic_memory": 0.6666666666666666,
+          "full": 0.6111111111111112,
+          "observed": 1.0555555555555556,
+          "wrong_goal": 0.7777777777777778
+        },
+        "door.n.01": {
+          "fixed": 0.42857142857142855,
+          "v8": 0.42857142857142855,
+          "geometry": 0.8571428571428571,
+          "no_semantic_memory": 0.8571428571428571,
+          "full": 0.8571428571428571,
+          "observed": 0.8571428571428571,
+          "wrong_goal": 0.5714285714285714
+        },
+        "shelf.n.01": {
+          "fixed": 0.3333333333333333,
+          "v8": 0.5,
+          "geometry": 0.5,
+          "no_semantic_memory": 0.3333333333333333,
+          "full": 0.3333333333333333,
+          "observed": 0.0,
+          "wrong_goal": 0.0
+        },
+        "mirror.n.01": {
+          "fixed": 0.4444444444444444,
+          "v8": 0.4444444444444444,
+          "geometry": 0.6666666666666666,
+          "no_semantic_memory": 0.5555555555555556,
+          "full": 0.5555555555555556,
+          "observed": 0.0,
+          "wrong_goal": 0.3333333333333333
+        },
+        "chair.n.01": {
+          "fixed": 0.46153846153846156,
+          "v8": 0.38461538461538464,
+          "geometry": 0.6153846153846154,
+          "no_semantic_memory": 0.5384615384615384,
+          "full": 0.6153846153846154,
+          "observed": 0.5384615384615384,
+          "wrong_goal": 0.5384615384615384
+        },
+        "sofa.n.01": {
+          "fixed": 0.1,
+          "v8": 0.1,
+          "geometry": 0.0,
+          "no_semantic_memory": 0.0,
+          "full": 0.2,
+          "observed": 0.3,
+          "wrong_goal": 0.4
+        },
+        "stool.n.01": {
+          "fixed": 0.25,
+          "v8": 0.25,
+          "geometry": 0.0,
+          "no_semantic_memory": 0.0,
+          "full": 0.0,
+          "observed": 0.0,
+          "wrong_goal": 0.25
+        },
+        "cabinet.n.01": {
+          "fixed": 1.0,
+          "v8": 1.0,
+          "geometry": 1.0,
+          "no_semantic_memory": 1.0,
+          "full": 1.0,
+          "observed": 1.0,
+          "wrong_goal": 0.6666666666666666
+        }
+      }
+    }
+  }
+}

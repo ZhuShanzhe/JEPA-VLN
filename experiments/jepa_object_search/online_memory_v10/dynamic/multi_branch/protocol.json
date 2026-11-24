@@ -1,0 +1,46 @@
+{
+  "train_houses": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "test_houses": [
+    7,
+    8,
+    9,
+    10
+  ],
+  "seed": 7461,
+  "angles_deg": [
+    0,
+    120,
+    -120
+  ],
+  "plan_steps": 28,
+  "return_steps": 40,
+  "budget_branches": 2,
+  "initial_panorama_steps": 12,
+  "modes": [
+    "aligned_single",
+    "rotated_single",
+    "absent_cup",
+    "absent_sofa",
+    "multi_cup",
+    "multi_sofa",
+    "no_cues_single"
+  ],
+  "orders": "all cyclic shifts of both cue orders",
+  "targets": [
+    "cup",
+    "sofa"
+  ],
+  "minimum_visible_pixels": 64,
+  "minimum_stop_confidence_margin": 0.1,
+  "weak_prior": 0.18,
+  "feedback": 0.85,
+  "visited_gate": -1,
+  "score": "terminal target opportunity if real instance >=64px and <=2m. If both inspections yield no estimated target: output not_found. Count false absence when any unreported target existed."
+}

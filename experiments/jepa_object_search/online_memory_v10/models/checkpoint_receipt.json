@@ -1,0 +1,7 @@
+{
+  "file": "v10.json",
+  "sha256": "3ff4a95fb4ef5d742386476a913a2637a2e8016d2282eb23ba8caf89944583e7",
+  "train_houses": 12,
+  "informative_training_pairs": 6069,
+  "rebuild": "Run collect_prefix.py per frozen house, build_examples.py, then fit_score.py train and fit_score.py test."
+}
