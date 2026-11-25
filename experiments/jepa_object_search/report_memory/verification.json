@@ -1,0 +1,25 @@
+{
+  "entry": "report_agent:ReportFrontier",
+  "passed": 39,
+  "skipped": 0,
+  "groups": {
+    "test_appearance": 8,
+    "test_identity": 7,
+    "test_exploration_memory": 6,
+    "test_chain": 18
+  },
+  "ip_attempts": 0,
+  "paid_calls": 0,
+  "scope": "Synthetic observations and recorded action acknowledgements, no live navigation run.",
+  "source_sha256": {
+    "appearance.py": "a69af2fb084dce22bb442a9c888815e8be3012986ea6d6ec4fa20bfe15c0277b",
+    "exploration_memory.py": "914758d689f7a1cb2029a8715587ed847ca47eeb4dfe6b0d846bd6c3df83dd6b",
+    "identity.py": "0d8e4abd177ee3386e691dd7503863269c41ca75f6206c3bd429c0394e1531b9",
+    "report_agent.py": "2bdc4a371740003ef43ca7b8e9675648bacaea4ea773b6b539412ac6dc3c7b6e",
+    "test_appearance.py": "4fbb8676c52619d8d94cc7c2de3c3867a138d284a2b5445672bb4920d395162e",
+    "test_chain.py": "dba0dde9fc59d0a369e591a01e4abc043c4d2eb35b68deaabf1cbc78b9bbc2ee",
+    "test_exploration_memory.py": "f73ef976591edae0680cf00861fa30444b18e784847081cb1baf4dbc100d5f97",
+    "test_identity.py": "70e175dcf8f6e28b5e8a9867e222ce50bcb1d6db42e02f29e5eed1136fe7a987",
+    "verify_offline.py": "1bfdb28ff2ad32ac1554f5f69a604ff1485a4d6269a7d39763a2100d62322fa8"
+  }
+}

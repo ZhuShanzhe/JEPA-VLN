@@ -1,0 +1,90 @@
+{
+  "scope": "Prior V18 initial causal evidence and fixed archived native report images. This tests only V19 full-image template matching, not live decision or navigation outcomes.",
+  "mapper_bbox_grid_wh": [
+    518,
+    518
+  ],
+  "records": [
+    {
+      "ordinal": 1,
+      "registered_step": 12,
+      "rgb_source": "current_rgb_same_keyframe_step",
+      "source_dimensions_hw": [
+        768,
+        768
+      ],
+      "source_copies": 4,
+      "template_created": true,
+      "template_dimensions_hw": [
+        75,
+        66
+      ],
+      "max_channel_std": 57.68,
+      "archived_reports": [
+        {
+          "step": 102,
+          "rgb_copies": 1,
+          "new_credits_in_archived_run": 0,
+          "appearance_passed": false,
+          "score": 0.5105,
+          "margin": 0.5105,
+          "reason": "different_appearance"
+        }
+      ]
+    },
+    {
+      "ordinal": 14,
+      "registered_step": 218,
+      "rgb_source": "current_rgb_same_keyframe_step",
+      "source_dimensions_hw": [
+        768,
+        768
+      ],
+      "source_copies": 3,
+      "template_created": true,
+      "template_dimensions_hw": [
+        277,
+        180
+      ],
+      "max_channel_std": 54.57,
+      "archived_reports": [
+        {
+          "step": 238,
+          "rgb_copies": 1,
+          "new_credits_in_archived_run": 1,
+          "appearance_passed": false,
+          "score": 0.0,
+          "margin": 0.0,
+          "reason": "different_appearance"
+        }
+      ]
+    },
+    {
+      "ordinal": 14,
+      "registered_step": 239,
+      "rgb_source": "retrieved_keyframe",
+      "source_dimensions_hw": [
+        518,
+        518
+      ],
+      "source_copies": 2,
+      "template_created": true,
+      "template_dimensions_hw": [
+        123,
+        320
+      ],
+      "max_channel_std": 18.33,
+      "archived_reports": [
+        {
+          "step": 252,
+          "rgb_copies": 1,
+          "new_credits_in_archived_run": 0,
+          "appearance_passed": false,
+          "score": 0.0,
+          "margin": 0.0,
+          "reason": "different_appearance"
+        }
+      ]
+    }
+  ]
+}
