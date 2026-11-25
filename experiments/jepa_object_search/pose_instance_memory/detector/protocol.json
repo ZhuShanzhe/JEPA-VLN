@@ -1,0 +1,13 @@
+{
+  "selected_mode": "augment",
+  "box_threshold": 0.35,
+  "text_threshold": 0.25,
+  "nms_iou": 0.85,
+  "window_fraction": 0.8,
+  "cut_edge_exclusion_pixels": 3,
+  "score_iou": 0.5,
+  "calibration_frames": 108,
+  "device": "cuda",
+  "manifest_sha256": "c8e193238d820b4d4153cc0c54c1d52052894c06f1bed183a38fdb9ae444e227",
+  "validation_rule": "Maximize 1:1 matches; allow <=0.15 extra unmatched proposals/frame and <=0.04 extra duplicates/frame vs full. Tie-break dual coverage, fewer unmatched, then simpler mode."
+}

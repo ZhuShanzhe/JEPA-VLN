@@ -1,0 +1,536 @@
+{
+  "protocol": "all view combinations; one-to-one links; independently localized IoU >= 0.5; unresolved background proposals have unknown identity",
+  "houses": 8,
+  "sequences": 20,
+  "soft_separation_diagnostic": {
+    "unverified_candidates": 168,
+    "unverified_flagged": 17,
+    "same_candidates": 55,
+    "same_flagged": 0,
+    "different_seen_together_candidates": 39,
+    "different_seen_together_flagged": 6
+  },
+  "methods": {
+    "geometric_rule": {
+      "all": {
+        "frame_pairs": 60,
+        "visible_same": 88,
+        "detectable_same": 55,
+        "links": 73,
+        "correct": 52,
+        "wrong": 0,
+        "unverified": 21
+      },
+      "category_wall_art": {
+        "frame_pairs": 30,
+        "visible_same": 43,
+        "detectable_same": 30,
+        "links": 44,
+        "correct": 27,
+        "wrong": 0,
+        "unverified": 17
+      },
+      "stratum_single": {
+        "frame_pairs": 30,
+        "visible_same": 30,
+        "detectable_same": 21,
+        "links": 30,
+        "correct": 21,
+        "wrong": 0,
+        "unverified": 9
+      },
+      "excluding_bookcase": {
+        "frame_pairs": 60,
+        "visible_same": 88,
+        "detectable_same": 55,
+        "links": 73,
+        "correct": 52,
+        "wrong": 0,
+        "unverified": 21
+      },
+      "stratum_double": {
+        "frame_pairs": 30,
+        "visible_same": 58,
+        "detectable_same": 34,
+        "links": 43,
+        "correct": 31,
+        "wrong": 0,
+        "unverified": 12
+      },
+      "category_clock": {
+        "frame_pairs": 30,
+        "visible_same": 45,
+        "detectable_same": 25,
+        "links": 29,
+        "correct": 25,
+        "wrong": 0,
+        "unverified": 4
+      }
+    },
+    "location": {
+      "all": {
+        "frame_pairs": 60,
+        "visible_same": 88,
+        "detectable_same": 55,
+        "links": 76,
+        "correct": 53,
+        "wrong": 0,
+        "unverified": 23
+      },
+      "category_wall_art": {
+        "frame_pairs": 30,
+        "visible_same": 43,
+        "detectable_same": 30,
+        "links": 47,
+        "correct": 28,
+        "wrong": 0,
+        "unverified": 19
+      },
+      "stratum_single": {
+        "frame_pairs": 30,
+        "visible_same": 30,
+        "detectable_same": 21,
+        "links": 30,
+        "correct": 21,
+        "wrong": 0,
+        "unverified": 9
+      },
+      "excluding_bookcase": {
+        "frame_pairs": 60,
+        "visible_same": 88,
+        "detectable_same": 55,
+        "links": 76,
+        "correct": 53,
+        "wrong": 0,
+        "unverified": 23
+      },
+      "stratum_double": {
+        "frame_pairs": 30,
+        "visible_same": 58,
+        "detectable_same": 34,
+        "links": 46,
+        "correct": 32,
+        "wrong": 0,
+        "unverified": 14
+      },
+      "category_clock": {
+        "frame_pairs": 30,
+        "visible_same": 45,
+        "detectable_same": 25,
+        "links": 29,
+        "correct": 25,
+        "wrong": 0,
+        "unverified": 4
+      }
+    },
+    "heading_jepa": {
+      "all": {
+        "frame_pairs": 60,
+        "visible_same": 88,
+        "detectable_same": 55,
+        "links": 23,
+        "correct": 15,
+        "wrong": 0,
+        "unverified": 8
+      },
+      "category_wall_art": {
+        "frame_pairs": 30,
+        "visible_same": 43,
+        "detectable_same": 30,
+        "links": 19,
+        "correct": 12,
+        "wrong": 0,
+        "unverified": 7
+      },
+      "stratum_single": {
+        "frame_pairs": 30,
+        "visible_same": 30,
+        "detectable_same": 21,
+        "links": 10,
+        "correct": 7,
+        "wrong": 0,
+        "unverified": 3
+      },
+      "excluding_bookcase": {
+        "frame_pairs": 60,
+        "visible_same": 88,
+        "detectable_same": 55,
+        "links": 23,
+        "correct": 15,
+        "wrong": 0,
+        "unverified": 8
+      },
+      "stratum_double": {
+        "frame_pairs": 30,
+        "visible_same": 58,
+        "detectable_same": 34,
+        "links": 13,
+        "correct": 8,
+        "wrong": 0,
+        "unverified": 5
+      },
+      "category_clock": {
+        "frame_pairs": 30,
+        "visible_same": 45,
+        "detectable_same": 25,
+        "links": 4,
+        "correct": 3,
+        "wrong": 0,
+        "unverified": 1
+      }
+    },
+    "pose_forecast": {
+      "all": {
+        "frame_pairs": 60,
+        "visible_same": 88,
+        "detectable_same": 55,
+        "links": 31,
+        "correct": 23,
+        "wrong": 0,
+        "unverified": 8
+      },
+      "category_wall_art": {
+        "frame_pairs": 30,
+        "visible_same": 43,
+        "detectable_same": 30,
+        "links": 21,
+        "correct": 14,
+        "wrong": 0,
+        "unverified": 7
+      },
+      "stratum_single": {
+        "frame_pairs": 30,
+        "visible_same": 30,
+        "detectable_same": 21,
+        "links": 13,
+        "correct": 10,
+        "wrong": 0,
+        "unverified": 3
+      },
+      "excluding_bookcase": {
+        "frame_pairs": 60,
+        "visible_same": 88,
+        "detectable_same": 55,
+        "links": 31,
+        "correct": 23,
+        "wrong": 0,
+        "unverified": 8
+      },
+      "stratum_double": {
+        "frame_pairs": 30,
+        "visible_same": 58,
+        "detectable_same": 34,
+        "links": 18,
+        "correct": 13,
+        "wrong": 0,
+        "unverified": 5
+      },
+      "category_clock": {
+        "frame_pairs": 30,
+        "visible_same": 45,
+        "detectable_same": 25,
+        "links": 10,
+        "correct": 9,
+        "wrong": 0,
+        "unverified": 1
+      }
+    },
+    "pose_direct": {
+      "all": {
+        "frame_pairs": 60,
+        "visible_same": 88,
+        "detectable_same": 55,
+        "links": 69,
+        "correct": 50,
+        "wrong": 0,
+        "unverified": 19
+      },
+      "category_wall_art": {
+        "frame_pairs": 30,
+        "visible_same": 43,
+        "detectable_same": 30,
+        "links": 40,
+        "correct": 25,
+        "wrong": 0,
+        "unverified": 15
+      },
+      "stratum_single": {
+        "frame_pairs": 30,
+        "visible_same": 30,
+        "detectable_same": 21,
+        "links": 28,
+        "correct": 21,
+        "wrong": 0,
+        "unverified": 7
+      },
+      "excluding_bookcase": {
+        "frame_pairs": 60,
+        "visible_same": 88,
+        "detectable_same": 55,
+        "links": 69,
+        "correct": 50,
+        "wrong": 0,
+        "unverified": 19
+      },
+      "stratum_double": {
+        "frame_pairs": 30,
+        "visible_same": 58,
+        "detectable_same": 34,
+        "links": 41,
+        "correct": 29,
+        "wrong": 0,
+        "unverified": 12
+      },
+      "category_clock": {
+        "frame_pairs": 30,
+        "visible_same": 45,
+        "detectable_same": 25,
+        "links": 29,
+        "correct": 25,
+        "wrong": 0,
+        "unverified": 4
+      }
+    },
+    "pose_jepa": {
+      "all": {
+        "frame_pairs": 60,
+        "visible_same": 88,
+        "detectable_same": 55,
+        "links": 69,
+        "correct": 52,
+        "wrong": 0,
+        "unverified": 17
+      },
+      "category_wall_art": {
+        "frame_pairs": 30,
+        "visible_same": 43,
+        "detectable_same": 30,
+        "links": 41,
+        "correct": 27,
+        "wrong": 0,
+        "unverified": 14
+      },
+      "stratum_single": {
+        "frame_pairs": 30,
+        "visible_same": 30,
+        "detectable_same": 21,
+        "links": 28,
+        "correct": 21,
+        "wrong": 0,
+        "unverified": 7
+      },
+      "excluding_bookcase": {
+        "frame_pairs": 60,
+        "visible_same": 88,
+        "detectable_same": 55,
+        "links": 69,
+        "correct": 52,
+        "wrong": 0,
+        "unverified": 17
+      },
+      "stratum_double": {
+        "frame_pairs": 30,
+        "visible_same": 58,
+        "detectable_same": 34,
+        "links": 41,
+        "correct": 31,
+        "wrong": 0,
+        "unverified": 10
+      },
+      "category_clock": {
+        "frame_pairs": 30,
+        "visible_same": 45,
+        "detectable_same": 25,
+        "links": 28,
+        "correct": 25,
+        "wrong": 0,
+        "unverified": 3
+      }
+    },
+    "geometry_then_direct": {
+      "all": {
+        "frame_pairs": 60,
+        "visible_same": 88,
+        "detectable_same": 55,
+        "links": 75,
+        "correct": 52,
+        "wrong": 0,
+        "unverified": 23
+      },
+      "category_wall_art": {
+        "frame_pairs": 30,
+        "visible_same": 43,
+        "detectable_same": 30,
+        "links": 46,
+        "correct": 27,
+        "wrong": 0,
+        "unverified": 19
+      },
+      "stratum_single": {
+        "frame_pairs": 30,
+        "visible_same": 30,
+        "detectable_same": 21,
+        "links": 30,
+        "correct": 21,
+        "wrong": 0,
+        "unverified": 9
+      },
+      "excluding_bookcase": {
+        "frame_pairs": 60,
+        "visible_same": 88,
+        "detectable_same": 55,
+        "links": 75,
+        "correct": 52,
+        "wrong": 0,
+        "unverified": 23
+      },
+      "stratum_double": {
+        "frame_pairs": 30,
+        "visible_same": 58,
+        "detectable_same": 34,
+        "links": 45,
+        "correct": 31,
+        "wrong": 0,
+        "unverified": 14
+      },
+      "category_clock": {
+        "frame_pairs": 30,
+        "visible_same": 45,
+        "detectable_same": 25,
+        "links": 29,
+        "correct": 25,
+        "wrong": 0,
+        "unverified": 4
+      }
+    },
+    "geometry_then_jepa": {
+      "all": {
+        "frame_pairs": 60,
+        "visible_same": 88,
+        "detectable_same": 55,
+        "links": 75,
+        "correct": 52,
+        "wrong": 0,
+        "unverified": 23
+      },
+      "category_wall_art": {
+        "frame_pairs": 30,
+        "visible_same": 43,
+        "detectable_same": 30,
+        "links": 46,
+        "correct": 27,
+        "wrong": 0,
+        "unverified": 19
+      },
+      "stratum_single": {
+        "frame_pairs": 30,
+        "visible_same": 30,
+        "detectable_same": 21,
+        "links": 30,
+        "correct": 21,
+        "wrong": 0,
+        "unverified": 9
+      },
+      "excluding_bookcase": {
+        "frame_pairs": 60,
+        "visible_same": 88,
+        "detectable_same": 55,
+        "links": 75,
+        "correct": 52,
+        "wrong": 0,
+        "unverified": 23
+      },
+      "stratum_double": {
+        "frame_pairs": 30,
+        "visible_same": 58,
+        "detectable_same": 34,
+        "links": 45,
+        "correct": 31,
+        "wrong": 0,
+        "unverified": 14
+      },
+      "category_clock": {
+        "frame_pairs": 30,
+        "visible_same": 45,
+        "detectable_same": 25,
+        "links": 29,
+        "correct": 25,
+        "wrong": 0,
+        "unverified": 4
+      }
+    },
+    "geometry_jepa_separation_probe": {
+      "all": {
+        "frame_pairs": 60,
+        "visible_same": 88,
+        "detectable_same": 55,
+        "links": 75,
+        "correct": 52,
+        "wrong": 0,
+        "unverified": 23
+      },
+      "category_wall_art": {
+        "frame_pairs": 30,
+        "visible_same": 43,
+        "detectable_same": 30,
+        "links": 46,
+        "correct": 27,
+        "wrong": 0,
+        "unverified": 19
+      },
+      "stratum_single": {
+        "frame_pairs": 30,
+        "visible_same": 30,
+        "detectable_same": 21,
+        "links": 30,
+        "correct": 21,
+        "wrong": 0,
+        "unverified": 9
+      },
+      "excluding_bookcase": {
+        "frame_pairs": 60,
+        "visible_same": 88,
+        "detectable_same": 55,
+        "links": 75,
+        "correct": 52,
+        "wrong": 0,
+        "unverified": 23
+      },
+      "stratum_double": {
+        "frame_pairs": 30,
+        "visible_same": 58,
+        "detectable_same": 34,
+        "links": 45,
+        "correct": 31,
+        "wrong": 0,
+        "unverified": 14
+      },
+      "category_clock": {
+        "frame_pairs": 30,
+        "visible_same": 45,
+        "detectable_same": 25,
+        "links": 29,
+        "correct": 25,
+        "wrong": 0,
+        "unverified": 4
+      }
+    }
+  },
+  "joint_minus_reference_visible_recall_delta_ci95": {
+    "geometry_then_direct": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "geometric_rule": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "heading_jepa": [
+      0.42045454545454547,
+      0.21518987341772153,
+      0.5897727272727269
+    ]
+  }
+}

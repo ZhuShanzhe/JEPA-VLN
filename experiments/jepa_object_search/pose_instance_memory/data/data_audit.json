@@ -1,0 +1,128 @@
+{
+  "splits": {
+    "test": {
+      "houses": 16,
+      "sequences": 96,
+      "frames": 288,
+      "categories": {
+        "wall_art": 81,
+        "chair": 84,
+        "mirror": 24,
+        "clock": 15,
+        "stool": 21,
+        "picture_frame": 6,
+        "basket": 3,
+        "bookcase": 15,
+        "vase": 6,
+        "table": 6,
+        "sofa": 6,
+        "bench": 3,
+        "ceiling_lamp": 6,
+        "potted_plant": 3,
+        "cabinet": 6,
+        "bed": 3
+      },
+      "strata": {
+        "multiple": 48,
+        "single": 32,
+        "turned": 16
+      },
+      "counts": {
+        "duplicate_camera_poses": 0,
+        "gt_targets": 661,
+        "zero_target_frames": 44,
+        "single_target_frames": 99,
+        "multiple_target_frames": 145,
+        "source_rgb_matches": 80,
+        "covisible_pairs": 2828,
+        "near_covisible_pairs": 2155,
+        "near_covisible_same_asset": 2061,
+        "cross_view_same_instance_pairs": 576,
+        "cross_view_different_instance_pairs": 5573,
+        "neighbor_pairs_each_reveals_exclusive_instance": 16
+      },
+      "unique_near_distinct_pairs": 932,
+      "unique_near_same_asset_pairs": 889
+    },
+    "val": {
+      "houses": 6,
+      "sequences": 36,
+      "frames": 108,
+      "categories": {
+        "wall_art": 36,
+        "chair": 36,
+        "stool": 9,
+        "cabinet": 6,
+        "mirror": 9,
+        "vase": 3,
+        "picture_frame": 6,
+        "ceiling_lamp": 3
+      },
+      "strata": {
+        "multiple": 18,
+        "single": 12,
+        "turned": 6
+      },
+      "counts": {
+        "duplicate_camera_poses": 0,
+        "gt_targets": 194,
+        "zero_target_frames": 15,
+        "single_target_frames": 36,
+        "multiple_target_frames": 57,
+        "source_rgb_matches": 30,
+        "covisible_pairs": 161,
+        "near_covisible_pairs": 103,
+        "near_covisible_same_asset": 54,
+        "cross_view_same_instance_pairs": 181,
+        "cross_view_different_instance_pairs": 318,
+        "neighbor_pairs_each_reveals_exclusive_instance": 0
+      },
+      "unique_near_distinct_pairs": 35,
+      "unique_near_same_asset_pairs": 20
+    },
+    "train": {
+      "houses": 10,
+      "sequences": 60,
+      "frames": 180,
+      "categories": {
+        "wall_art": 54,
+        "chair": 57,
+        "stool": 9,
+        "mirror": 15,
+        "shelf": 3,
+        "table": 6,
+        "bathtub": 3,
+        "vase": 6,
+        "bookcase": 6,
+        "book": 3,
+        "ceiling_lamp": 3,
+        "picture_frame": 6,
+        "potted_plant": 3,
+        "television_receiver": 3,
+        "sofa": 3
+      },
+      "strata": {
+        "multiple": 30,
+        "single": 20,
+        "turned": 10
+      },
+      "counts": {
+        "duplicate_camera_poses": 0,
+        "gt_targets": 445,
+        "zero_target_frames": 22,
+        "single_target_frames": 66,
+        "multiple_target_frames": 92,
+        "source_rgb_matches": 50,
+        "covisible_pairs": 1912,
+        "near_covisible_pairs": 1477,
+        "near_covisible_same_asset": 1259,
+        "cross_view_same_instance_pairs": 374,
+        "cross_view_different_instance_pairs": 3567,
+        "neighbor_pairs_each_reveals_exclusive_instance": 7
+      },
+      "unique_near_distinct_pairs": 845,
+      "unique_near_same_asset_pairs": 717
+    }
+  },
+  "manifest_sha256": "c8e193238d820b4d4153cc0c54c1d52052894c06f1bed183a38fdb9ae444e227"
+}

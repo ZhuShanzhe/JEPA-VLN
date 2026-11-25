@@ -1,0 +1,14 @@
+{
+  "pose_direct": {
+    "source_sha256": "1961945587e5b1c6e49c8b8947872f2860f1ead2801dddce29e765465664a148",
+    "review_sha256": "ce437771976b3fde65f2727cf550b4c01881df6e50def3ff25cdc9021878f23f",
+    "identical_parameter_tensors": 10,
+    "detected_threshold": 0.9968944787979126
+  },
+  "pose_jepa": {
+    "source_sha256": "ab2a0ca46f0b1a9c241263ed9a388b80bca2bd227d6738ecc93b513d534cfbac",
+    "review_sha256": "b13d22da04887b1bb58e55e8188032200a1ef03d3fe026f011c03b09caaaf88e",
+    "identical_parameter_tensors": 10,
+    "detected_threshold": 0.9412854313850403
+  }
+}

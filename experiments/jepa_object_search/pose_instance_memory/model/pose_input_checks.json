@@ -1,0 +1,9 @@
+{
+  "test_positive_pairs": 181,
+  "max_swap_probability_error": 0.0,
+  "max_rigid_frame_change_probability_error": 7.033348083496094e-06,
+  "location_shift_metres": 1.0,
+  "pairs_with_lower_score_after_location_conflict": 178,
+  "median_probability_change": -0.39982008934020996,
+  "passed": true
+}

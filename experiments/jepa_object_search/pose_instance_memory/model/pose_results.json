@@ -1,0 +1,1057 @@
+{
+  "pair_counts": {
+    "train": {
+      "legacy": 55208,
+      "new": 1112
+    },
+    "val": {
+      "legacy": 11500,
+      "new": 461
+    },
+    "test": {
+      "legacy": 30242,
+      "new": 936
+    }
+  },
+  "seed": 12511,
+  "methods": {
+    "location": {
+      "epoch": null,
+      "thresholds": {
+        "legacy": -0.7484054565429688,
+        "detected": -0.3242943286895752
+      },
+      "metrics": {
+        "legacy": {
+          "all": {
+            "positive": 15121,
+            "negative": 15121,
+            "tp": 11471,
+            "fp": 708,
+            "tpr": 0.758613848290457,
+            "fpr": 0.04682230011242643,
+            "auroc": 0.964185471550151,
+            "average_precision": 0.9584439916371645
+          }
+        },
+        "detected": {
+          "adjacent": {
+            "positive": 181,
+            "negative": 227,
+            "tp": 147,
+            "fp": 13,
+            "tpr": 0.8121546961325967,
+            "fpr": 0.05726872246696035,
+            "auroc": 0.9665344269476964,
+            "average_precision": 0.9602149810791804
+          },
+          "simultaneous": {
+            "positive": 0,
+            "negative": 190,
+            "tp": 0,
+            "fp": 8,
+            "tpr": null,
+            "fpr": 0.042105263157894736,
+            "auroc": null,
+            "average_precision": null
+          },
+          "same_view_jitter": {
+            "positive": 338,
+            "negative": 0,
+            "tp": 310,
+            "fp": 0,
+            "tpr": 0.9171597633136095,
+            "fpr": null,
+            "auroc": null,
+            "average_precision": 1.0
+          },
+          "adjacent_estimated_within_60cm": {
+            "positive": 171,
+            "negative": 37,
+            "tp": 147,
+            "fp": 13,
+            "tpr": 0.8596491228070176,
+            "fpr": 0.35135135135135137,
+            "auroc": 0.8816184605658289,
+            "average_precision": 0.9729586708724877
+          },
+          "adjacent_excluding_bookcase": {
+            "positive": 177,
+            "negative": 225,
+            "tp": 146,
+            "fp": 13,
+            "tpr": 0.8248587570621468,
+            "fpr": 0.057777777777777775,
+            "auroc": 0.9686880100439421,
+            "average_precision": 0.9624446246840377
+          },
+          "adjacent_bed": {
+            "positive": 2,
+            "negative": 0,
+            "tp": 2,
+            "fp": 0,
+            "tpr": 1.0,
+            "fpr": null,
+            "auroc": null,
+            "average_precision": 1.0
+          },
+          "adjacent_bookcase": {
+            "positive": 4,
+            "negative": 2,
+            "tp": 1,
+            "fp": 0,
+            "tpr": 0.25,
+            "fpr": 0.0,
+            "auroc": 0.5,
+            "average_precision": 0.8166666666666667
+          },
+          "adjacent_cabinet": {
+            "positive": 0,
+            "negative": 1,
+            "tp": 0,
+            "fp": 0,
+            "tpr": null,
+            "fpr": 0.0,
+            "auroc": null,
+            "average_precision": null
+          },
+          "adjacent_ceiling_lamp": {
+            "positive": 6,
+            "negative": 4,
+            "tp": 3,
+            "fp": 0,
+            "tpr": 0.5,
+            "fpr": 0.0,
+            "auroc": 1.0,
+            "average_precision": 1.0
+          },
+          "adjacent_chair": {
+            "positive": 59,
+            "negative": 93,
+            "tp": 44,
+            "fp": 3,
+            "tpr": 0.7457627118644068,
+            "fpr": 0.03225806451612903,
+            "auroc": 0.9804993621286677,
+            "average_precision": 0.9665196011670456
+          },
+          "adjacent_clock": {
+            "positive": 8,
+            "negative": 0,
+            "tp": 8,
+            "fp": 0,
+            "tpr": 1.0,
+            "fpr": null,
+            "auroc": null,
+            "average_precision": 1.0
+          },
+          "adjacent_mirror": {
+            "positive": 16,
+            "negative": 15,
+            "tp": 15,
+            "fp": 0,
+            "tpr": 0.9375,
+            "fpr": 0.0,
+            "auroc": 1.0,
+            "average_precision": 1.0
+          },
+          "adjacent_picture_frame": {
+            "positive": 4,
+            "negative": 4,
+            "tp": 4,
+            "fp": 4,
+            "tpr": 1.0,
+            "fpr": 1.0,
+            "auroc": 1.0,
+            "average_precision": 1.0
+          },
+          "adjacent_sofa": {
+            "positive": 5,
+            "negative": 6,
+            "tp": 2,
+            "fp": 1,
+            "tpr": 0.4,
+            "fpr": 0.16666666666666666,
+            "auroc": 0.8333333333333334,
+            "average_precision": 0.8261904761904761
+          },
+          "adjacent_stool": {
+            "positive": 21,
+            "negative": 44,
+            "tp": 16,
+            "fp": 2,
+            "tpr": 0.7619047619047619,
+            "fpr": 0.045454545454545456,
+            "auroc": 0.9534632034632036,
+            "average_precision": 0.8699217750003283
+          },
+          "adjacent_table": {
+            "positive": 2,
+            "negative": 0,
+            "tp": 0,
+            "fp": 0,
+            "tpr": 0.0,
+            "fpr": null,
+            "auroc": null,
+            "average_precision": 1.0
+          },
+          "adjacent_vase": {
+            "positive": 1,
+            "negative": 1,
+            "tp": 1,
+            "fp": 1,
+            "tpr": 1.0,
+            "fpr": 1.0,
+            "auroc": 1.0,
+            "average_precision": 1.0
+          },
+          "adjacent_wall_art": {
+            "positive": 53,
+            "negative": 57,
+            "tp": 51,
+            "fp": 2,
+            "tpr": 0.9622641509433962,
+            "fpr": 0.03508771929824561,
+            "auroc": 0.9983449189010262,
+            "average_precision": 0.9982904063092742
+          }
+        }
+      }
+    },
+    "heading_jepa": {
+      "epoch": 6,
+      "thresholds": {
+        "legacy": 0.796350359916687,
+        "detected": 0.9060788154602051
+      },
+      "metrics": {
+        "legacy": {
+          "all": {
+            "positive": 15121,
+            "negative": 15121,
+            "tp": 4951,
+            "fp": 1045,
+            "tpr": 0.32742543482573905,
+            "fpr": 0.06910918590040341,
+            "auroc": 0.7971648152470803,
+            "average_precision": 0.7721284237604231
+          }
+        },
+        "detected": {
+          "adjacent": {
+            "positive": 181,
+            "negative": 227,
+            "tp": 92,
+            "fp": 20,
+            "tpr": 0.5082872928176796,
+            "fpr": 0.0881057268722467,
+            "auroc": 0.8142478156107771,
+            "average_precision": 0.7822328906534803
+          },
+          "simultaneous": {
+            "positive": 0,
+            "negative": 190,
+            "tp": 0,
+            "fp": 23,
+            "tpr": null,
+            "fpr": 0.12105263157894737,
+            "auroc": null,
+            "average_precision": null
+          },
+          "same_view_jitter": {
+            "positive": 338,
+            "negative": 0,
+            "tp": 292,
+            "fp": 0,
+            "tpr": 0.863905325443787,
+            "fpr": null,
+            "auroc": null,
+            "average_precision": 1.0
+          },
+          "adjacent_estimated_within_60cm": {
+            "positive": 171,
+            "negative": 37,
+            "tp": 88,
+            "fp": 10,
+            "tpr": 0.5146198830409356,
+            "fpr": 0.2702702702702703,
+            "auroc": 0.6480164374901216,
+            "average_precision": 0.8968876384422841
+          },
+          "adjacent_excluding_bookcase": {
+            "positive": 177,
+            "negative": 225,
+            "tp": 89,
+            "fp": 19,
+            "tpr": 0.5028248587570622,
+            "fpr": 0.08444444444444445,
+            "auroc": 0.8164218455743878,
+            "average_precision": 0.7870785726748805
+          },
+          "adjacent_bed": {
+            "positive": 2,
+            "negative": 0,
+            "tp": 0,
+            "fp": 0,
+            "tpr": 0.0,
+            "fpr": null,
+            "auroc": null,
+            "average_precision": 1.0
+          },
+          "adjacent_bookcase": {
+            "positive": 4,
+            "negative": 2,
+            "tp": 3,
+            "fp": 1,
+            "tpr": 0.75,
+            "fpr": 0.5,
+            "auroc": 0.375,
+            "average_precision": 0.6458333333333333
+          },
+          "adjacent_cabinet": {
+            "positive": 0,
+            "negative": 1,
+            "tp": 0,
+            "fp": 0,
+            "tpr": null,
+            "fpr": 0.0,
+            "auroc": null,
+            "average_precision": null
+          },
+          "adjacent_ceiling_lamp": {
+            "positive": 6,
+            "negative": 4,
+            "tp": 0,
+            "fp": 0,
+            "tpr": 0.0,
+            "fpr": 0.0,
+            "auroc": 1.0,
+            "average_precision": 1.0
+          },
+          "adjacent_chair": {
+            "positive": 59,
+            "negative": 93,
+            "tp": 34,
+            "fp": 9,
+            "tpr": 0.576271186440678,
+            "fpr": 0.0967741935483871,
+            "auroc": 0.8620375432841262,
+            "average_precision": 0.7964828865904721
+          },
+          "adjacent_clock": {
+            "positive": 8,
+            "negative": 0,
+            "tp": 2,
+            "fp": 0,
+            "tpr": 0.25,
+            "fpr": null,
+            "auroc": null,
+            "average_precision": 1.0
+          },
+          "adjacent_mirror": {
+            "positive": 16,
+            "negative": 15,
+            "tp": 6,
+            "fp": 0,
+            "tpr": 0.375,
+            "fpr": 0.0,
+            "auroc": 0.95,
+            "average_precision": 0.9732142857142857
+          },
+          "adjacent_picture_frame": {
+            "positive": 4,
+            "negative": 4,
+            "tp": 2,
+            "fp": 0,
+            "tpr": 0.5,
+            "fpr": 0.0,
+            "auroc": 1.0,
+            "average_precision": 1.0
+          },
+          "adjacent_sofa": {
+            "positive": 5,
+            "negative": 6,
+            "tp": 5,
+            "fp": 0,
+            "tpr": 1.0,
+            "fpr": 0.0,
+            "auroc": 1.0,
+            "average_precision": 1.0
+          },
+          "adjacent_stool": {
+            "positive": 21,
+            "negative": 44,
+            "tp": 9,
+            "fp": 4,
+            "tpr": 0.42857142857142855,
+            "fpr": 0.09090909090909091,
+            "auroc": 0.7413419913419913,
+            "average_precision": 0.5985312966692322
+          },
+          "adjacent_table": {
+            "positive": 2,
+            "negative": 0,
+            "tp": 1,
+            "fp": 0,
+            "tpr": 0.5,
+            "fpr": null,
+            "auroc": null,
+            "average_precision": 1.0
+          },
+          "adjacent_vase": {
+            "positive": 1,
+            "negative": 1,
+            "tp": 0,
+            "fp": 0,
+            "tpr": 0.0,
+            "fpr": 0.0,
+            "auroc": 1.0,
+            "average_precision": 1.0
+          },
+          "adjacent_wall_art": {
+            "positive": 53,
+            "negative": 57,
+            "tp": 30,
+            "fp": 6,
+            "tpr": 0.5660377358490566,
+            "fpr": 0.10526315789473684,
+            "auroc": 0.8037073816617014,
+            "average_precision": 0.8393405990722854
+          }
+        }
+      }
+    },
+    "pose_forecast": {
+      "epoch": 8,
+      "thresholds": {
+        "legacy": 0.8508891463279724,
+        "detected": 0.9407845735549927
+      },
+      "metrics": {
+        "legacy": {
+          "all": {
+            "positive": 15121,
+            "negative": 15121,
+            "tp": 5890,
+            "fp": 976,
+            "tpr": 0.38952450234772834,
+            "fpr": 0.06454599563520931,
+            "auroc": 0.8565142797289528,
+            "average_precision": 0.8249451143279647
+          }
+        },
+        "detected": {
+          "adjacent": {
+            "positive": 181,
+            "negative": 227,
+            "tp": 87,
+            "fp": 16,
+            "tpr": 0.48066298342541436,
+            "fpr": 0.07048458149779736,
+            "auroc": 0.816852045659211,
+            "average_precision": 0.7786670279505237
+          },
+          "simultaneous": {
+            "positive": 0,
+            "negative": 190,
+            "tp": 0,
+            "fp": 21,
+            "tpr": null,
+            "fpr": 0.11052631578947368,
+            "auroc": null,
+            "average_precision": null
+          },
+          "same_view_jitter": {
+            "positive": 338,
+            "negative": 0,
+            "tp": 300,
+            "fp": 0,
+            "tpr": 0.8875739644970414,
+            "fpr": null,
+            "auroc": null,
+            "average_precision": 1.0
+          },
+          "adjacent_estimated_within_60cm": {
+            "positive": 171,
+            "negative": 37,
+            "tp": 85,
+            "fp": 8,
+            "tpr": 0.49707602339181284,
+            "fpr": 0.21621621621621623,
+            "auroc": 0.6470681207523312,
+            "average_precision": 0.8953251762642382
+          },
+          "adjacent_excluding_bookcase": {
+            "positive": 177,
+            "negative": 225,
+            "tp": 87,
+            "fp": 15,
+            "tpr": 0.4915254237288136,
+            "fpr": 0.06666666666666667,
+            "auroc": 0.8201632140615192,
+            "average_precision": 0.7838796142508669
+          },
+          "adjacent_bed": {
+            "positive": 2,
+            "negative": 0,
+            "tp": 0,
+            "fp": 0,
+            "tpr": 0.0,
+            "fpr": null,
+            "auroc": null,
+            "average_precision": 1.0
+          },
+          "adjacent_bookcase": {
+            "positive": 4,
+            "negative": 2,
+            "tp": 0,
+            "fp": 1,
+            "tpr": 0.0,
+            "fpr": 0.5,
+            "auroc": 0.125,
+            "average_precision": 0.5666666666666667
+          },
+          "adjacent_cabinet": {
+            "positive": 0,
+            "negative": 1,
+            "tp": 0,
+            "fp": 0,
+            "tpr": null,
+            "fpr": 0.0,
+            "auroc": null,
+            "average_precision": null
+          },
+          "adjacent_ceiling_lamp": {
+            "positive": 6,
+            "negative": 4,
+            "tp": 0,
+            "fp": 0,
+            "tpr": 0.0,
+            "fpr": 0.0,
+            "auroc": 1.0,
+            "average_precision": 1.0
+          },
+          "adjacent_chair": {
+            "positive": 59,
+            "negative": 93,
+            "tp": 34,
+            "fp": 9,
+            "tpr": 0.576271186440678,
+            "fpr": 0.0967741935483871,
+            "auroc": 0.8538363404410424,
+            "average_precision": 0.7876208493795771
+          },
+          "adjacent_clock": {
+            "positive": 8,
+            "negative": 0,
+            "tp": 3,
+            "fp": 0,
+            "tpr": 0.375,
+            "fpr": null,
+            "auroc": null,
+            "average_precision": 1.0
+          },
+          "adjacent_mirror": {
+            "positive": 16,
+            "negative": 15,
+            "tp": 6,
+            "fp": 0,
+            "tpr": 0.375,
+            "fpr": 0.0,
+            "auroc": 0.9541666666666667,
+            "average_precision": 0.974537037037037
+          },
+          "adjacent_picture_frame": {
+            "positive": 4,
+            "negative": 4,
+            "tp": 2,
+            "fp": 0,
+            "tpr": 0.5,
+            "fpr": 0.0,
+            "auroc": 1.0,
+            "average_precision": 1.0
+          },
+          "adjacent_sofa": {
+            "positive": 5,
+            "negative": 6,
+            "tp": 3,
+            "fp": 0,
+            "tpr": 0.6,
+            "fpr": 0.0,
+            "auroc": 0.9666666666666667,
+            "average_precision": 0.9666666666666666
+          },
+          "adjacent_stool": {
+            "positive": 21,
+            "negative": 44,
+            "tp": 7,
+            "fp": 3,
+            "tpr": 0.3333333333333333,
+            "fpr": 0.06818181818181818,
+            "auroc": 0.7326839826839827,
+            "average_precision": 0.5835648219716634
+          },
+          "adjacent_table": {
+            "positive": 2,
+            "negative": 0,
+            "tp": 1,
+            "fp": 0,
+            "tpr": 0.5,
+            "fpr": null,
+            "auroc": null,
+            "average_precision": 1.0
+          },
+          "adjacent_vase": {
+            "positive": 1,
+            "negative": 1,
+            "tp": 0,
+            "fp": 0,
+            "tpr": 0.0,
+            "fpr": 0.0,
+            "auroc": 1.0,
+            "average_precision": 1.0
+          },
+          "adjacent_wall_art": {
+            "positive": 53,
+            "negative": 57,
+            "tp": 31,
+            "fp": 3,
+            "tpr": 0.5849056603773585,
+            "fpr": 0.05263157894736842,
+            "auroc": 0.8037073816617013,
+            "average_precision": 0.836305769975275
+          }
+        }
+      }
+    },
+    "pose_direct": {
+      "epoch": 11,
+      "thresholds": {
+        "legacy": 0.9245769381523132,
+        "detected": 0.9845257997512817
+      },
+      "metrics": {
+        "legacy": {
+          "all": {
+            "positive": 15121,
+            "negative": 15121,
+            "tp": 12635,
+            "fp": 672,
+            "tpr": 0.835592884068514,
+            "fpr": 0.044441505191455594,
+            "auroc": 0.9762411488139799,
+            "average_precision": 0.97075189566809
+          }
+        },
+        "detected": {
+          "adjacent": {
+            "positive": 181,
+            "negative": 227,
+            "tp": 150,
+            "fp": 15,
+            "tpr": 0.8287292817679558,
+            "fpr": 0.06607929515418502,
+            "auroc": 0.9525884099593546,
+            "average_precision": 0.9427696536599561
+          },
+          "simultaneous": {
+            "positive": 0,
+            "negative": 190,
+            "tp": 0,
+            "fp": 8,
+            "tpr": null,
+            "fpr": 0.042105263157894736,
+            "auroc": null,
+            "average_precision": null
+          },
+          "same_view_jitter": {
+            "positive": 338,
+            "negative": 0,
+            "tp": 317,
+            "fp": 0,
+            "tpr": 0.9378698224852071,
+            "fpr": null,
+            "auroc": null,
+            "average_precision": 1.0
+          },
+          "adjacent_estimated_within_60cm": {
+            "positive": 171,
+            "negative": 37,
+            "tp": 146,
+            "fp": 13,
+            "tpr": 0.8538011695906432,
+            "fpr": 0.35135135135135137,
+            "auroc": 0.8270902481428798,
+            "average_precision": 0.958423813437481
+          },
+          "adjacent_excluding_bookcase": {
+            "positive": 177,
+            "negative": 225,
+            "tp": 146,
+            "fp": 13,
+            "tpr": 0.8248587570621468,
+            "fpr": 0.057777777777777775,
+            "auroc": 0.956735718769617,
+            "average_precision": 0.9502302297569691
+          },
+          "adjacent_bed": {
+            "positive": 2,
+            "negative": 0,
+            "tp": 2,
+            "fp": 0,
+            "tpr": 1.0,
+            "fpr": null,
+            "auroc": null,
+            "average_precision": 1.0
+          },
+          "adjacent_bookcase": {
+            "positive": 4,
+            "negative": 2,
+            "tp": 4,
+            "fp": 2,
+            "tpr": 1.0,
+            "fpr": 1.0,
+            "auroc": 0.5,
+            "average_precision": 0.8166666666666667
+          },
+          "adjacent_cabinet": {
+            "positive": 0,
+            "negative": 1,
+            "tp": 0,
+            "fp": 0,
+            "tpr": null,
+            "fpr": 0.0,
+            "auroc": null,
+            "average_precision": null
+          },
+          "adjacent_ceiling_lamp": {
+            "positive": 6,
+            "negative": 4,
+            "tp": 3,
+            "fp": 0,
+            "tpr": 0.5,
+            "fpr": 0.0,
+            "auroc": 1.0,
+            "average_precision": 1.0
+          },
+          "adjacent_chair": {
+            "positive": 59,
+            "negative": 93,
+            "tp": 46,
+            "fp": 5,
+            "tpr": 0.7796610169491526,
+            "fpr": 0.053763440860215055,
+            "auroc": 0.96045197740113,
+            "average_precision": 0.9378353729821111
+          },
+          "adjacent_clock": {
+            "positive": 8,
+            "negative": 0,
+            "tp": 8,
+            "fp": 0,
+            "tpr": 1.0,
+            "fpr": null,
+            "auroc": null,
+            "average_precision": 1.0
+          },
+          "adjacent_mirror": {
+            "positive": 16,
+            "negative": 15,
+            "tp": 15,
+            "fp": 0,
+            "tpr": 0.9375,
+            "fpr": 0.0,
+            "auroc": 1.0,
+            "average_precision": 1.0
+          },
+          "adjacent_picture_frame": {
+            "positive": 4,
+            "negative": 4,
+            "tp": 4,
+            "fp": 0,
+            "tpr": 1.0,
+            "fpr": 0.0,
+            "auroc": 1.0,
+            "average_precision": 1.0
+          },
+          "adjacent_sofa": {
+            "positive": 5,
+            "negative": 6,
+            "tp": 5,
+            "fp": 2,
+            "tpr": 1.0,
+            "fpr": 0.3333333333333333,
+            "auroc": 0.9333333333333333,
+            "average_precision": 0.9428571428571428
+          },
+          "adjacent_stool": {
+            "positive": 21,
+            "negative": 44,
+            "tp": 14,
+            "fp": 2,
+            "tpr": 0.6666666666666666,
+            "fpr": 0.045454545454545456,
+            "auroc": 0.9523809523809524,
+            "average_precision": 0.8979125067994942
+          },
+          "adjacent_table": {
+            "positive": 2,
+            "negative": 0,
+            "tp": 1,
+            "fp": 0,
+            "tpr": 0.5,
+            "fpr": null,
+            "auroc": null,
+            "average_precision": 1.0
+          },
+          "adjacent_vase": {
+            "positive": 1,
+            "negative": 1,
+            "tp": 1,
+            "fp": 1,
+            "tpr": 1.0,
+            "fpr": 1.0,
+            "auroc": 1.0,
+            "average_precision": 1.0
+          },
+          "adjacent_wall_art": {
+            "positive": 53,
+            "negative": 57,
+            "tp": 47,
+            "fp": 3,
+            "tpr": 0.8867924528301887,
+            "fpr": 0.05263157894736842,
+            "auroc": 0.9546507778881166,
+            "average_precision": 0.9635547189383811
+          }
+        }
+      }
+    },
+    "pose_jepa": {
+      "epoch": 12,
+      "thresholds": {
+        "legacy": 0.8289859890937805,
+        "detected": 0.7982690334320068
+      },
+      "metrics": {
+        "legacy": {
+          "all": {
+            "positive": 15121,
+            "negative": 15121,
+            "tp": 12516,
+            "fp": 732,
+            "tpr": 0.8277230341908604,
+            "fpr": 0.048409496726406986,
+            "auroc": 0.9704904432901186,
+            "average_precision": 0.9648717732463368
+          }
+        },
+        "detected": {
+          "adjacent": {
+            "positive": 181,
+            "negative": 227,
+            "tp": 159,
+            "fp": 26,
+            "tpr": 0.8784530386740331,
+            "fpr": 0.1145374449339207,
+            "auroc": 0.9544138048531166,
+            "average_precision": 0.9451560744791203
+          },
+          "simultaneous": {
+            "positive": 0,
+            "negative": 190,
+            "tp": 0,
+            "fp": 9,
+            "tpr": null,
+            "fpr": 0.04736842105263158,
+            "auroc": null,
+            "average_precision": null
+          },
+          "same_view_jitter": {
+            "positive": 338,
+            "negative": 0,
+            "tp": 331,
+            "fp": 0,
+            "tpr": 0.9792899408284024,
+            "fpr": null,
+            "auroc": null,
+            "average_precision": 1.0
+          },
+          "adjacent_estimated_within_60cm": {
+            "positive": 171,
+            "negative": 37,
+            "tp": 157,
+            "fp": 23,
+            "tpr": 0.9181286549707602,
+            "fpr": 0.6216216216216216,
+            "auroc": 0.8392603129445235,
+            "average_precision": 0.9608742041549249
+          },
+          "adjacent_excluding_bookcase": {
+            "positive": 177,
+            "negative": 225,
+            "tp": 156,
+            "fp": 25,
+            "tpr": 0.8813559322033898,
+            "fpr": 0.1111111111111111,
+            "auroc": 0.9561079723791588,
+            "average_precision": 0.9469107994968372
+          },
+          "adjacent_bed": {
+            "positive": 2,
+            "negative": 0,
+            "tp": 2,
+            "fp": 0,
+            "tpr": 1.0,
+            "fpr": null,
+            "auroc": null,
+            "average_precision": 1.0
+          },
+          "adjacent_bookcase": {
+            "positive": 4,
+            "negative": 2,
+            "tp": 3,
+            "fp": 1,
+            "tpr": 0.75,
+            "fpr": 0.5,
+            "auroc": 0.5,
+            "average_precision": 0.6791666666666667
+          },
+          "adjacent_cabinet": {
+            "positive": 0,
+            "negative": 1,
+            "tp": 0,
+            "fp": 0,
+            "tpr": null,
+            "fpr": 0.0,
+            "auroc": null,
+            "average_precision": null
+          },
+          "adjacent_ceiling_lamp": {
+            "positive": 6,
+            "negative": 4,
+            "tp": 4,
+            "fp": 0,
+            "tpr": 0.6666666666666666,
+            "fpr": 0.0,
+            "auroc": 1.0,
+            "average_precision": 1.0
+          },
+          "adjacent_chair": {
+            "positive": 59,
+            "negative": 93,
+            "tp": 50,
+            "fp": 4,
+            "tpr": 0.847457627118644,
+            "fpr": 0.043010752688172046,
+            "auroc": 0.9659194459631857,
+            "average_precision": 0.9450341693026884
+          },
+          "adjacent_clock": {
+            "positive": 8,
+            "negative": 0,
+            "tp": 8,
+            "fp": 0,
+            "tpr": 1.0,
+            "fpr": null,
+            "auroc": null,
+            "average_precision": 1.0
+          },
+          "adjacent_mirror": {
+            "positive": 16,
+            "negative": 15,
+            "tp": 15,
+            "fp": 0,
+            "tpr": 0.9375,
+            "fpr": 0.0,
+            "auroc": 1.0,
+            "average_precision": 1.0
+          },
+          "adjacent_picture_frame": {
+            "positive": 4,
+            "negative": 4,
+            "tp": 4,
+            "fp": 0,
+            "tpr": 1.0,
+            "fpr": 0.0,
+            "auroc": 1.0,
+            "average_precision": 1.0
+          },
+          "adjacent_sofa": {
+            "positive": 5,
+            "negative": 6,
+            "tp": 4,
+            "fp": 2,
+            "tpr": 0.8,
+            "fpr": 0.3333333333333333,
+            "auroc": 0.9333333333333333,
+            "average_precision": 0.9428571428571428
+          },
+          "adjacent_stool": {
+            "positive": 21,
+            "negative": 44,
+            "tp": 19,
+            "fp": 3,
+            "tpr": 0.9047619047619048,
+            "fpr": 0.06818181818181818,
+            "auroc": 0.9534632034632035,
+            "average_precision": 0.8292526976452159
+          },
+          "adjacent_table": {
+            "positive": 2,
+            "negative": 0,
+            "tp": 0,
+            "fp": 0,
+            "tpr": 0.0,
+            "fpr": null,
+            "auroc": null,
+            "average_precision": 1.0
+          },
+          "adjacent_vase": {
+            "positive": 1,
+            "negative": 1,
+            "tp": 1,
+            "fp": 1,
+            "tpr": 1.0,
+            "fpr": 1.0,
+            "auroc": 1.0,
+            "average_precision": 1.0
+          },
+          "adjacent_wall_art": {
+            "positive": 53,
+            "negative": 57,
+            "tp": 49,
+            "fp": 15,
+            "tpr": 0.9245283018867925,
+            "fpr": 0.2631578947368421,
+            "auroc": 0.9572989076464747,
+            "average_precision": 0.964798014992037
+          }
+        }
+      }
+    }
+  },
+  "test_houses_with_matched_revisits": 16,
+  "paired_pose_jepa_minus_other_recall_and_house_ci95": {
+    "location": [
+      0.06629834254143646,
+      0.009300182188404244,
+      0.12571428571428572
+    ],
+    "heading_jepa": [
+      0.3701657458563536,
+      0.2768361581920904,
+      0.45181012511584795
+    ],
+    "pose_forecast": [
+      0.39779005524861877,
+      0.31972285955802443,
+      0.4700067567567566
+    ],
+    "pose_direct": [
+      0.049723756906077346,
+      -0.011977851525863935,
+      0.12316528947507795
+    ]
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "selected_mode": "augment",
+  "methods": {
+    "base": {
+      "totals": {
+        "frames": 60,
+        "truth": 91,
+        "proposed": 101,
+        "true_positives": 58,
+        "unmatched_proposals": 43,
+        "duplicate_proposals": 0,
+        "empty_target_frames": 0,
+        "empty_target_frames_with_proposal": 0,
+        "multiple_frames": 30,
+        "multiple_with_two_recovered": 16,
+        "multiple_all_recovered": 16,
+        "frames_with_targets": 60,
+        "positive_frames_with_a_match": 41
+      },
+      "raw_before_nms": 101,
+      "by_category": {
+        "clock": {
+          "frames": 30,
+          "truth": 45,
+          "proposed": 35,
+          "true_positives": 24,
+          "unmatched_proposals": 11,
+          "duplicate_proposals": 0,
+          "empty_target_frames": 0,
+          "empty_target_frames_with_proposal": 0,
+          "multiple_frames": 15,
+          "multiple_with_two_recovered": 5,
+          "multiple_all_recovered": 5,
+          "frames_with_targets": 30,
+          "positive_frames_with_a_match": 19
+        },
+        "wall_art": {
+          "frames": 30,
+          "truth": 46,
+          "proposed": 66,
+          "true_positives": 34,
+          "unmatched_proposals": 32,
+          "duplicate_proposals": 0,
+          "empty_target_frames": 0,
+          "empty_target_frames_with_proposal": 0,
+          "multiple_frames": 15,
+          "multiple_with_two_recovered": 11,
+          "multiple_all_recovered": 11,
+          "frames_with_targets": 30,
+          "positive_frames_with_a_match": 22
+        }
+      }
+    },
+    "empty": {
+      "totals": {
+        "frames": 60,
+        "truth": 91,
+        "proposed": 103,
+        "true_positives": 60,
+        "unmatched_proposals": 43,
+        "duplicate_proposals": 0,
+        "empty_target_frames": 0,
+        "empty_target_frames_with_proposal": 0,
+        "multiple_frames": 30,
+        "multiple_with_two_recovered": 16,
+        "multiple_all_recovered": 16,
+        "frames_with_targets": 60,
+        "positive_frames_with_a_match": 43
+      },
+      "raw_before_nms": 105,
+      "by_category": {
+        "clock": {
+          "frames": 30,
+          "truth": 45,
+          "proposed": 37,
+          "true_positives": 26,
+          "unmatched_proposals": 11,
+          "duplicate_proposals": 0,
+          "empty_target_frames": 0,
+          "empty_target_frames_with_proposal": 0,
+          "multiple_frames": 15,
+          "multiple_with_two_recovered": 5,
+          "multiple_all_recovered": 5,
+          "frames_with_targets": 30,
+          "positive_frames_with_a_match": 21
+        },
+        "wall_art": {
+          "frames": 30,
+          "truth": 46,
+          "proposed": 66,
+          "true_positives": 34,
+          "unmatched_proposals": 32,
+          "duplicate_proposals": 0,
+          "empty_target_frames": 0,
+          "empty_target_frames_with_proposal": 0,
+          "multiple_frames": 15,
+          "multiple_with_two_recovered": 11,
+          "multiple_all_recovered": 11,
+          "frames_with_targets": 30,
+          "positive_frames_with_a_match": 22
+        }
+      }
+    },
+    "augment": {
+      "totals": {
+        "frames": 60,
+        "truth": 91,
+        "proposed": 115,
+        "true_positives": 66,
+        "unmatched_proposals": 49,
+        "duplicate_proposals": 0,
+        "empty_target_frames": 0,
+        "empty_target_frames_with_proposal": 0,
+        "multiple_frames": 30,
+        "multiple_with_two_recovered": 19,
+        "multiple_all_recovered": 19,
+        "frames_with_targets": 60,
+        "positive_frames_with_a_match": 46
+      },
+      "raw_before_nms": 220,
+      "by_category": {
+        "clock": {
+          "frames": 30,
+          "truth": 45,
+          "proposed": 44,
+          "true_positives": 31,
+          "unmatched_proposals": 13,
+          "duplicate_proposals": 0,
+          "empty_target_frames": 0,
+          "empty_target_frames_with_proposal": 0,
+          "multiple_frames": 15,
+          "multiple_with_two_recovered": 7,
+          "multiple_all_recovered": 7,
+          "frames_with_targets": 30,
+          "positive_frames_with_a_match": 24
+        },
+        "wall_art": {
+          "frames": 30,
+          "truth": 46,
+          "proposed": 71,
+          "true_positives": 35,
+          "unmatched_proposals": 36,
+          "duplicate_proposals": 0,
+          "empty_target_frames": 0,
+          "empty_target_frames_with_proposal": 0,
+          "multiple_frames": 15,
+          "multiple_with_two_recovered": 12,
+          "multiple_all_recovered": 12,
+          "frames_with_targets": 30,
+          "positive_frames_with_a_match": 22
+        }
+      }
+    }
+  }
+}

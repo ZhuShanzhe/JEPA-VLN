@@ -1,0 +1,46 @@
+{
+  "test_frames": 288,
+  "sequences": 96,
+  "same_view_close": {
+    "close_pair_opportunities": 2155,
+    "close_pair_both_detected": 114,
+    "close_same_asset_opportunities": 2061,
+    "close_same_asset_both_detected": 84
+  },
+  "multiview": {
+    "visible_at_both": 576,
+    "detected_at_both": 273,
+    "detected_at_either": 348
+  },
+  "distinct_close_pairs": 932,
+  "before_nms": {
+    "frames": 288,
+    "truth": 661,
+    "proposed": 1067,
+    "true_positives": 343,
+    "unmatched_proposals": 724,
+    "duplicate_proposals": 394,
+    "empty_target_frames": 44,
+    "empty_target_frames_with_proposal": 25,
+    "multiple_frames": 145,
+    "multiple_with_two_recovered": 89,
+    "multiple_all_recovered": 67,
+    "frames_with_targets": 244,
+    "positive_frames_with_a_match": 212
+  },
+  "after_nms": {
+    "frames": 288,
+    "truth": 661,
+    "proposed": 557,
+    "true_positives": 338,
+    "unmatched_proposals": 219,
+    "duplicate_proposals": 11,
+    "empty_target_frames": 44,
+    "empty_target_frames_with_proposal": 25,
+    "multiple_frames": 145,
+    "multiple_with_two_recovered": 86,
+    "multiple_all_recovered": 62,
+    "frames_with_targets": 244,
+    "positive_frames_with_a_match": 212
+  }
+}

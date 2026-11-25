@@ -1,0 +1,35 @@
+{
+  "reports": [
+    {
+      "category": "clock",
+      "step": 102,
+      "native": 0,
+      "counts": {
+        "base": 1,
+        "empty": 1,
+        "augment": 1
+      }
+    },
+    {
+      "category": "painting",
+      "step": 238,
+      "native": 0,
+      "counts": {
+        "base": 2,
+        "empty": 2,
+        "augment": 2
+      }
+    },
+    {
+      "category": "painting",
+      "step": 252,
+      "native": 0,
+      "counts": {
+        "base": 3,
+        "empty": 3,
+        "augment": 4
+      }
+    }
+  ],
+  "independent_identity_labels": false
+}

@@ -1,0 +1,514 @@
+{
+  "training": {
+    "seed": 12511,
+    "epochs": 14,
+    "updates_per_epoch": 80,
+    "batch_size": 256,
+    "original_crop_pool": {
+      "negative_pairs": 27604,
+      "hard_pool": 6917,
+      "extra_sampling_entries": 13834
+    },
+    "detection_pool": {
+      "negative_pairs": 709,
+      "hard_pool": 145,
+      "extra_sampling_entries": 345
+    },
+    "selected_epoch": 10
+  },
+  "scope": "Only uniquely assigned detector pairs enter these scores; unknown proposals remain unscored. Calibration houses only determine both thresholds.",
+  "methods": {
+    "pose_direct": {
+      "global_5pct": {
+        "threshold": 0.9845257997512817,
+        "val": {
+          "all": {
+            "repeats": 87,
+            "recognized": 66,
+            "impostors": 118,
+            "wrong_merge": 5
+          },
+          "within_60cm": {
+            "repeats": 85,
+            "recognized": 66,
+            "impostors": 21,
+            "wrong_merge": 3
+          },
+          "farther_than_60cm": {
+            "repeats": 2,
+            "recognized": 0,
+            "impostors": 97,
+            "wrong_merge": 2
+          },
+          "same_asset_different_object": {
+            "repeats": 0,
+            "recognized": 0,
+            "impostors": 63,
+            "wrong_merge": 3
+          }
+        },
+        "test": {
+          "all": {
+            "repeats": 181,
+            "recognized": 150,
+            "impostors": 227,
+            "wrong_merge": 15
+          },
+          "within_60cm": {
+            "repeats": 171,
+            "recognized": 146,
+            "impostors": 37,
+            "wrong_merge": 13
+          },
+          "farther_than_60cm": {
+            "repeats": 10,
+            "recognized": 4,
+            "impostors": 190,
+            "wrong_merge": 2
+          },
+          "same_asset_different_object": {
+            "repeats": 0,
+            "recognized": 0,
+            "impostors": 153,
+            "wrong_merge": 12
+          }
+        },
+        "controls": {
+          "all": {
+            "repeats": 34,
+            "recognized": 30,
+            "impostors": 23,
+            "wrong_merge": 8
+          },
+          "within_60cm": {
+            "repeats": 34,
+            "recognized": 30,
+            "impostors": 16,
+            "wrong_merge": 6
+          },
+          "farther_than_60cm": {
+            "repeats": 0,
+            "recognized": 0,
+            "impostors": 7,
+            "wrong_merge": 2
+          },
+          "same_asset_different_object": {
+            "repeats": 0,
+            "recognized": 0,
+            "impostors": 20,
+            "wrong_merge": 8
+          }
+        }
+      },
+      "global_and_near_5pct": {
+        "threshold": 0.9968944787979126,
+        "val": {
+          "all": {
+            "repeats": 87,
+            "recognized": 47,
+            "impostors": 118,
+            "wrong_merge": 1
+          },
+          "within_60cm": {
+            "repeats": 85,
+            "recognized": 47,
+            "impostors": 21,
+            "wrong_merge": 1
+          },
+          "farther_than_60cm": {
+            "repeats": 2,
+            "recognized": 0,
+            "impostors": 97,
+            "wrong_merge": 0
+          },
+          "same_asset_different_object": {
+            "repeats": 0,
+            "recognized": 0,
+            "impostors": 63,
+            "wrong_merge": 0
+          }
+        },
+        "test": {
+          "all": {
+            "repeats": 181,
+            "recognized": 104,
+            "impostors": 227,
+            "wrong_merge": 4
+          },
+          "within_60cm": {
+            "repeats": 171,
+            "recognized": 102,
+            "impostors": 37,
+            "wrong_merge": 4
+          },
+          "farther_than_60cm": {
+            "repeats": 10,
+            "recognized": 2,
+            "impostors": 190,
+            "wrong_merge": 0
+          },
+          "same_asset_different_object": {
+            "repeats": 0,
+            "recognized": 0,
+            "impostors": 153,
+            "wrong_merge": 4
+          }
+        },
+        "controls": {
+          "all": {
+            "repeats": 34,
+            "recognized": 29,
+            "impostors": 23,
+            "wrong_merge": 0
+          },
+          "within_60cm": {
+            "repeats": 34,
+            "recognized": 29,
+            "impostors": 16,
+            "wrong_merge": 0
+          },
+          "farther_than_60cm": {
+            "repeats": 0,
+            "recognized": 0,
+            "impostors": 7,
+            "wrong_merge": 0
+          },
+          "same_asset_different_object": {
+            "repeats": 0,
+            "recognized": 0,
+            "impostors": 20,
+            "wrong_merge": 0
+          }
+        }
+      }
+    },
+    "pose_jepa": {
+      "global_5pct": {
+        "threshold": 0.7982689738273621,
+        "val": {
+          "all": {
+            "repeats": 87,
+            "recognized": 74,
+            "impostors": 118,
+            "wrong_merge": 5
+          },
+          "within_60cm": {
+            "repeats": 85,
+            "recognized": 73,
+            "impostors": 21,
+            "wrong_merge": 4
+          },
+          "farther_than_60cm": {
+            "repeats": 2,
+            "recognized": 1,
+            "impostors": 97,
+            "wrong_merge": 1
+          },
+          "same_asset_different_object": {
+            "repeats": 0,
+            "recognized": 0,
+            "impostors": 63,
+            "wrong_merge": 2
+          }
+        },
+        "test": {
+          "all": {
+            "repeats": 181,
+            "recognized": 159,
+            "impostors": 227,
+            "wrong_merge": 26
+          },
+          "within_60cm": {
+            "repeats": 171,
+            "recognized": 157,
+            "impostors": 37,
+            "wrong_merge": 23
+          },
+          "farther_than_60cm": {
+            "repeats": 10,
+            "recognized": 2,
+            "impostors": 190,
+            "wrong_merge": 3
+          },
+          "same_asset_different_object": {
+            "repeats": 0,
+            "recognized": 0,
+            "impostors": 153,
+            "wrong_merge": 19
+          }
+        },
+        "controls": {
+          "all": {
+            "repeats": 34,
+            "recognized": 32,
+            "impostors": 23,
+            "wrong_merge": 4
+          },
+          "within_60cm": {
+            "repeats": 34,
+            "recognized": 32,
+            "impostors": 16,
+            "wrong_merge": 4
+          },
+          "farther_than_60cm": {
+            "repeats": 0,
+            "recognized": 0,
+            "impostors": 7,
+            "wrong_merge": 0
+          },
+          "same_asset_different_object": {
+            "repeats": 0,
+            "recognized": 0,
+            "impostors": 20,
+            "wrong_merge": 4
+          }
+        }
+      },
+      "global_and_near_5pct": {
+        "threshold": 0.9412854313850403,
+        "val": {
+          "all": {
+            "repeats": 87,
+            "recognized": 60,
+            "impostors": 118,
+            "wrong_merge": 1
+          },
+          "within_60cm": {
+            "repeats": 85,
+            "recognized": 60,
+            "impostors": 21,
+            "wrong_merge": 1
+          },
+          "farther_than_60cm": {
+            "repeats": 2,
+            "recognized": 0,
+            "impostors": 97,
+            "wrong_merge": 0
+          },
+          "same_asset_different_object": {
+            "repeats": 0,
+            "recognized": 0,
+            "impostors": 63,
+            "wrong_merge": 0
+          }
+        },
+        "test": {
+          "all": {
+            "repeats": 181,
+            "recognized": 127,
+            "impostors": 227,
+            "wrong_merge": 5
+          },
+          "within_60cm": {
+            "repeats": 171,
+            "recognized": 126,
+            "impostors": 37,
+            "wrong_merge": 5
+          },
+          "farther_than_60cm": {
+            "repeats": 10,
+            "recognized": 1,
+            "impostors": 190,
+            "wrong_merge": 0
+          },
+          "same_asset_different_object": {
+            "repeats": 0,
+            "recognized": 0,
+            "impostors": 153,
+            "wrong_merge": 5
+          }
+        },
+        "controls": {
+          "all": {
+            "repeats": 34,
+            "recognized": 30,
+            "impostors": 23,
+            "wrong_merge": 1
+          },
+          "within_60cm": {
+            "repeats": 34,
+            "recognized": 30,
+            "impostors": 16,
+            "wrong_merge": 1
+          },
+          "farther_than_60cm": {
+            "repeats": 0,
+            "recognized": 0,
+            "impostors": 7,
+            "wrong_merge": 0
+          },
+          "same_asset_different_object": {
+            "repeats": 0,
+            "recognized": 0,
+            "impostors": 20,
+            "wrong_merge": 1
+          }
+        }
+      }
+    },
+    "hard_jepa": {
+      "global_5pct": {
+        "threshold": 0.8189350962638855,
+        "val": {
+          "all": {
+            "repeats": 87,
+            "recognized": 75,
+            "impostors": 118,
+            "wrong_merge": 4
+          },
+          "within_60cm": {
+            "repeats": 85,
+            "recognized": 74,
+            "impostors": 21,
+            "wrong_merge": 2
+          },
+          "farther_than_60cm": {
+            "repeats": 2,
+            "recognized": 1,
+            "impostors": 97,
+            "wrong_merge": 2
+          },
+          "same_asset_different_object": {
+            "repeats": 0,
+            "recognized": 0,
+            "impostors": 63,
+            "wrong_merge": 2
+          }
+        },
+        "test": {
+          "all": {
+            "repeats": 181,
+            "recognized": 156,
+            "impostors": 227,
+            "wrong_merge": 24
+          },
+          "within_60cm": {
+            "repeats": 171,
+            "recognized": 154,
+            "impostors": 37,
+            "wrong_merge": 23
+          },
+          "farther_than_60cm": {
+            "repeats": 10,
+            "recognized": 2,
+            "impostors": 190,
+            "wrong_merge": 1
+          },
+          "same_asset_different_object": {
+            "repeats": 0,
+            "recognized": 0,
+            "impostors": 153,
+            "wrong_merge": 18
+          }
+        },
+        "controls": {
+          "all": {
+            "repeats": 34,
+            "recognized": 32,
+            "impostors": 23,
+            "wrong_merge": 4
+          },
+          "within_60cm": {
+            "repeats": 34,
+            "recognized": 32,
+            "impostors": 16,
+            "wrong_merge": 4
+          },
+          "farther_than_60cm": {
+            "repeats": 0,
+            "recognized": 0,
+            "impostors": 7,
+            "wrong_merge": 0
+          },
+          "same_asset_different_object": {
+            "repeats": 0,
+            "recognized": 0,
+            "impostors": 20,
+            "wrong_merge": 4
+          }
+        }
+      },
+      "global_and_near_5pct": {
+        "threshold": 0.92966228723526,
+        "val": {
+          "all": {
+            "repeats": 87,
+            "recognized": 61,
+            "impostors": 118,
+            "wrong_merge": 1
+          },
+          "within_60cm": {
+            "repeats": 85,
+            "recognized": 61,
+            "impostors": 21,
+            "wrong_merge": 1
+          },
+          "farther_than_60cm": {
+            "repeats": 2,
+            "recognized": 0,
+            "impostors": 97,
+            "wrong_merge": 0
+          },
+          "same_asset_different_object": {
+            "repeats": 0,
+            "recognized": 0,
+            "impostors": 63,
+            "wrong_merge": 0
+          }
+        },
+        "test": {
+          "all": {
+            "repeats": 181,
+            "recognized": 135,
+            "impostors": 227,
+            "wrong_merge": 6
+          },
+          "within_60cm": {
+            "repeats": 171,
+            "recognized": 134,
+            "impostors": 37,
+            "wrong_merge": 6
+          },
+          "farther_than_60cm": {
+            "repeats": 10,
+            "recognized": 1,
+            "impostors": 190,
+            "wrong_merge": 0
+          },
+          "same_asset_different_object": {
+            "repeats": 0,
+            "recognized": 0,
+            "impostors": 153,
+            "wrong_merge": 6
+          }
+        },
+        "controls": {
+          "all": {
+            "repeats": 34,
+            "recognized": 32,
+            "impostors": 23,
+            "wrong_merge": 1
+          },
+          "within_60cm": {
+            "repeats": 34,
+            "recognized": 32,
+            "impostors": 16,
+            "wrong_merge": 1
+          },
+          "farther_than_60cm": {
+            "repeats": 0,
+            "recognized": 0,
+            "impostors": 7,
+            "wrong_merge": 0
+          },
+          "same_asset_different_object": {
+            "repeats": 0,
+            "recognized": 0,
+            "impostors": 20,
+            "wrong_merge": 1
+          }
+        }
+      }
+    }
+  }
+}

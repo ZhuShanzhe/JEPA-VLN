@@ -1,0 +1,1753 @@
+{
+  "protocol": "all view combinations; one-to-one links; independently localized IoU >= 0.5; unresolved background proposals have unknown identity",
+  "houses": 16,
+  "sequences": 96,
+  "soft_separation_diagnostic": {
+    "same_candidates": 273,
+    "same_flagged": 0,
+    "different_seen_together_candidates": 338,
+    "different_seen_together_flagged": 52,
+    "unverified_candidates": 840,
+    "unverified_flagged": 135,
+    "different_never_seen_together_candidates": 8,
+    "different_never_seen_together_flagged": 2
+  },
+  "methods": {
+    "geometric_rule": {
+      "all": {
+        "frame_pairs": 288,
+        "visible_same": 576,
+        "detectable_same": 273,
+        "links": 326,
+        "correct": 237,
+        "wrong": 0,
+        "unverified": 89
+      },
+      "category_wall_art": {
+        "frame_pairs": 81,
+        "visible_same": 117,
+        "detectable_same": 80,
+        "links": 120,
+        "correct": 72,
+        "wrong": 0,
+        "unverified": 48
+      },
+      "stratum_multiple": {
+        "frame_pairs": 144,
+        "visible_same": 472,
+        "detectable_same": 192,
+        "links": 193,
+        "correct": 161,
+        "wrong": 0,
+        "unverified": 32
+      },
+      "excluding_bookcase": {
+        "frame_pairs": 273,
+        "visible_same": 444,
+        "detectable_same": 266,
+        "links": 316,
+        "correct": 230,
+        "wrong": 0,
+        "unverified": 86
+      },
+      "category_chair": {
+        "frame_pairs": 84,
+        "visible_same": 145,
+        "detectable_same": 90,
+        "links": 88,
+        "correct": 75,
+        "wrong": 0,
+        "unverified": 13
+      },
+      "category_mirror": {
+        "frame_pairs": 24,
+        "visible_same": 30,
+        "detectable_same": 23,
+        "links": 25,
+        "correct": 21,
+        "wrong": 0,
+        "unverified": 4
+      },
+      "category_clock": {
+        "frame_pairs": 15,
+        "visible_same": 15,
+        "detectable_same": 12,
+        "links": 12,
+        "correct": 12,
+        "wrong": 0,
+        "unverified": 0
+      },
+      "stratum_single": {
+        "frame_pairs": 96,
+        "visible_same": 92,
+        "detectable_same": 77,
+        "links": 106,
+        "correct": 73,
+        "wrong": 0,
+        "unverified": 33
+      },
+      "category_stool": {
+        "frame_pairs": 21,
+        "visible_same": 45,
+        "detectable_same": 31,
+        "links": 32,
+        "correct": 28,
+        "wrong": 0,
+        "unverified": 4
+      },
+      "stratum_turned": {
+        "frame_pairs": 48,
+        "visible_same": 12,
+        "detectable_same": 4,
+        "links": 27,
+        "correct": 3,
+        "wrong": 0,
+        "unverified": 24
+      },
+      "category_picture_frame": {
+        "frame_pairs": 6,
+        "visible_same": 12,
+        "detectable_same": 6,
+        "links": 7,
+        "correct": 6,
+        "wrong": 0,
+        "unverified": 1
+      },
+      "category_basket": {
+        "frame_pairs": 3,
+        "visible_same": 0,
+        "detectable_same": 0,
+        "links": 0,
+        "correct": 0,
+        "wrong": 0,
+        "unverified": 0
+      },
+      "category_bookcase": {
+        "frame_pairs": 15,
+        "visible_same": 132,
+        "detectable_same": 7,
+        "links": 10,
+        "correct": 7,
+        "wrong": 0,
+        "unverified": 3
+      },
+      "category_vase": {
+        "frame_pairs": 6,
+        "visible_same": 19,
+        "detectable_same": 1,
+        "links": 7,
+        "correct": 1,
+        "wrong": 0,
+        "unverified": 6
+      },
+      "category_table": {
+        "frame_pairs": 6,
+        "visible_same": 3,
+        "detectable_same": 3,
+        "links": 8,
+        "correct": 2,
+        "wrong": 0,
+        "unverified": 6
+      },
+      "category_sofa": {
+        "frame_pairs": 6,
+        "visible_same": 21,
+        "detectable_same": 8,
+        "links": 8,
+        "correct": 8,
+        "wrong": 0,
+        "unverified": 0
+      },
+      "category_bench": {
+        "frame_pairs": 3,
+        "visible_same": 0,
+        "detectable_same": 0,
+        "links": 2,
+        "correct": 0,
+        "wrong": 0,
+        "unverified": 2
+      },
+      "category_ceiling_lamp": {
+        "frame_pairs": 6,
+        "visible_same": 9,
+        "detectable_same": 9,
+        "links": 4,
+        "correct": 3,
+        "wrong": 0,
+        "unverified": 1
+      },
+      "category_potted_plant": {
+        "frame_pairs": 3,
+        "visible_same": 0,
+        "detectable_same": 0,
+        "links": 0,
+        "correct": 0,
+        "wrong": 0,
+        "unverified": 0
+      },
+      "category_cabinet": {
+        "frame_pairs": 6,
+        "visible_same": 25,
+        "detectable_same": 0,
+        "links": 1,
+        "correct": 0,
+        "wrong": 0,
+        "unverified": 1
+      },
+      "category_bed": {
+        "frame_pairs": 3,
+        "visible_same": 3,
+        "detectable_same": 3,
+        "links": 2,
+        "correct": 2,
+        "wrong": 0,
+        "unverified": 0
+      }
+    },
+    "location": {
+      "all": {
+        "frame_pairs": 288,
+        "visible_same": 576,
+        "detectable_same": 273,
+        "links": 330,
+        "correct": 217,
+        "wrong": 6,
+        "unverified": 107
+      },
+      "category_wall_art": {
+        "frame_pairs": 81,
+        "visible_same": 117,
+        "detectable_same": 80,
+        "links": 140,
+        "correct": 76,
+        "wrong": 0,
+        "unverified": 64
+      },
+      "stratum_multiple": {
+        "frame_pairs": 144,
+        "visible_same": 472,
+        "detectable_same": 192,
+        "links": 197,
+        "correct": 145,
+        "wrong": 6,
+        "unverified": 46
+      },
+      "excluding_bookcase": {
+        "frame_pairs": 273,
+        "visible_same": 444,
+        "detectable_same": 266,
+        "links": 324,
+        "correct": 213,
+        "wrong": 6,
+        "unverified": 105
+      },
+      "category_chair": {
+        "frame_pairs": 84,
+        "visible_same": 145,
+        "detectable_same": 90,
+        "links": 82,
+        "correct": 64,
+        "wrong": 4,
+        "unverified": 14
+      },
+      "category_mirror": {
+        "frame_pairs": 24,
+        "visible_same": 30,
+        "detectable_same": 23,
+        "links": 26,
+        "correct": 21,
+        "wrong": 0,
+        "unverified": 5
+      },
+      "category_clock": {
+        "frame_pairs": 15,
+        "visible_same": 15,
+        "detectable_same": 12,
+        "links": 13,
+        "correct": 12,
+        "wrong": 0,
+        "unverified": 1
+      },
+      "stratum_single": {
+        "frame_pairs": 96,
+        "visible_same": 92,
+        "detectable_same": 77,
+        "links": 105,
+        "correct": 70,
+        "wrong": 0,
+        "unverified": 35
+      },
+      "category_stool": {
+        "frame_pairs": 21,
+        "visible_same": 45,
+        "detectable_same": 31,
+        "links": 26,
+        "correct": 23,
+        "wrong": 1,
+        "unverified": 2
+      },
+      "stratum_turned": {
+        "frame_pairs": 48,
+        "visible_same": 12,
+        "detectable_same": 4,
+        "links": 28,
+        "correct": 2,
+        "wrong": 0,
+        "unverified": 26
+      },
+      "category_picture_frame": {
+        "frame_pairs": 6,
+        "visible_same": 12,
+        "detectable_same": 6,
+        "links": 7,
+        "correct": 6,
+        "wrong": 0,
+        "unverified": 1
+      },
+      "category_basket": {
+        "frame_pairs": 3,
+        "visible_same": 0,
+        "detectable_same": 0,
+        "links": 0,
+        "correct": 0,
+        "wrong": 0,
+        "unverified": 0
+      },
+      "category_bookcase": {
+        "frame_pairs": 15,
+        "visible_same": 132,
+        "detectable_same": 7,
+        "links": 6,
+        "correct": 4,
+        "wrong": 0,
+        "unverified": 2
+      },
+      "category_vase": {
+        "frame_pairs": 6,
+        "visible_same": 19,
+        "detectable_same": 1,
+        "links": 7,
+        "correct": 1,
+        "wrong": 0,
+        "unverified": 6
+      },
+      "category_table": {
+        "frame_pairs": 6,
+        "visible_same": 3,
+        "detectable_same": 3,
+        "links": 7,
+        "correct": 1,
+        "wrong": 0,
+        "unverified": 6
+      },
+      "category_sofa": {
+        "frame_pairs": 6,
+        "visible_same": 21,
+        "detectable_same": 8,
+        "links": 5,
+        "correct": 3,
+        "wrong": 1,
+        "unverified": 1
+      },
+      "category_bench": {
+        "frame_pairs": 3,
+        "visible_same": 0,
+        "detectable_same": 0,
+        "links": 1,
+        "correct": 0,
+        "wrong": 0,
+        "unverified": 1
+      },
+      "category_ceiling_lamp": {
+        "frame_pairs": 6,
+        "visible_same": 9,
+        "detectable_same": 9,
+        "links": 6,
+        "correct": 5,
+        "wrong": 0,
+        "unverified": 1
+      },
+      "category_potted_plant": {
+        "frame_pairs": 3,
+        "visible_same": 0,
+        "detectable_same": 0,
+        "links": 0,
+        "correct": 0,
+        "wrong": 0,
+        "unverified": 0
+      },
+      "category_cabinet": {
+        "frame_pairs": 6,
+        "visible_same": 25,
+        "detectable_same": 0,
+        "links": 1,
+        "correct": 0,
+        "wrong": 0,
+        "unverified": 1
+      },
+      "category_bed": {
+        "frame_pairs": 3,
+        "visible_same": 3,
+        "detectable_same": 3,
+        "links": 3,
+        "correct": 1,
+        "wrong": 0,
+        "unverified": 2
+      }
+    },
+    "heading_jepa": {
+      "all": {
+        "frame_pairs": 288,
+        "visible_same": 576,
+        "detectable_same": 273,
+        "links": 189,
+        "correct": 150,
+        "wrong": 4,
+        "unverified": 35
+      },
+      "category_wall_art": {
+        "frame_pairs": 81,
+        "visible_same": 117,
+        "detectable_same": 80,
+        "links": 61,
+        "correct": 47,
+        "wrong": 0,
+        "unverified": 14
+      },
+      "stratum_multiple": {
+        "frame_pairs": 144,
+        "visible_same": 472,
+        "detectable_same": 192,
+        "links": 120,
+        "correct": 109,
+        "wrong": 4,
+        "unverified": 7
+      },
+      "excluding_bookcase": {
+        "frame_pairs": 273,
+        "visible_same": 444,
+        "detectable_same": 266,
+        "links": 182,
+        "correct": 144,
+        "wrong": 3,
+        "unverified": 35
+      },
+      "category_chair": {
+        "frame_pairs": 84,
+        "visible_same": 145,
+        "detectable_same": 90,
+        "links": 64,
+        "correct": 56,
+        "wrong": 3,
+        "unverified": 5
+      },
+      "category_mirror": {
+        "frame_pairs": 24,
+        "visible_same": 30,
+        "detectable_same": 23,
+        "links": 11,
+        "correct": 7,
+        "wrong": 0,
+        "unverified": 4
+      },
+      "category_clock": {
+        "frame_pairs": 15,
+        "visible_same": 15,
+        "detectable_same": 12,
+        "links": 4,
+        "correct": 4,
+        "wrong": 0,
+        "unverified": 0
+      },
+      "stratum_single": {
+        "frame_pairs": 96,
+        "visible_same": 92,
+        "detectable_same": 77,
+        "links": 51,
+        "correct": 40,
+        "wrong": 0,
+        "unverified": 11
+      },
+      "category_stool": {
+        "frame_pairs": 21,
+        "visible_same": 45,
+        "detectable_same": 31,
+        "links": 18,
+        "correct": 14,
+        "wrong": 0,
+        "unverified": 4
+      },
+      "stratum_turned": {
+        "frame_pairs": 48,
+        "visible_same": 12,
+        "detectable_same": 4,
+        "links": 18,
+        "correct": 1,
+        "wrong": 0,
+        "unverified": 17
+      },
+      "category_picture_frame": {
+        "frame_pairs": 6,
+        "visible_same": 12,
+        "detectable_same": 6,
+        "links": 5,
+        "correct": 4,
+        "wrong": 0,
+        "unverified": 1
+      },
+      "category_basket": {
+        "frame_pairs": 3,
+        "visible_same": 0,
+        "detectable_same": 0,
+        "links": 0,
+        "correct": 0,
+        "wrong": 0,
+        "unverified": 0
+      },
+      "category_bookcase": {
+        "frame_pairs": 15,
+        "visible_same": 132,
+        "detectable_same": 7,
+        "links": 7,
+        "correct": 6,
+        "wrong": 1,
+        "unverified": 0
+      },
+      "category_vase": {
+        "frame_pairs": 6,
+        "visible_same": 19,
+        "detectable_same": 1,
+        "links": 0,
+        "correct": 0,
+        "wrong": 0,
+        "unverified": 0
+      },
+      "category_table": {
+        "frame_pairs": 6,
+        "visible_same": 3,
+        "detectable_same": 3,
+        "links": 6,
+        "correct": 2,
+        "wrong": 0,
+        "unverified": 4
+      },
+      "category_sofa": {
+        "frame_pairs": 6,
+        "visible_same": 21,
+        "detectable_same": 8,
+        "links": 8,
+        "correct": 8,
+        "wrong": 0,
+        "unverified": 0
+      },
+      "category_bench": {
+        "frame_pairs": 3,
+        "visible_same": 0,
+        "detectable_same": 0,
+        "links": 2,
+        "correct": 0,
+        "wrong": 0,
+        "unverified": 2
+      },
+      "category_ceiling_lamp": {
+        "frame_pairs": 6,
+        "visible_same": 9,
+        "detectable_same": 9,
+        "links": 1,
+        "correct": 1,
+        "wrong": 0,
+        "unverified": 0
+      },
+      "category_potted_plant": {
+        "frame_pairs": 3,
+        "visible_same": 0,
+        "detectable_same": 0,
+        "links": 0,
+        "correct": 0,
+        "wrong": 0,
+        "unverified": 0
+      },
+      "category_cabinet": {
+        "frame_pairs": 6,
+        "visible_same": 25,
+        "detectable_same": 0,
+        "links": 1,
+        "correct": 0,
+        "wrong": 0,
+        "unverified": 1
+      },
+      "category_bed": {
+        "frame_pairs": 3,
+        "visible_same": 3,
+        "detectable_same": 3,
+        "links": 1,
+        "correct": 1,
+        "wrong": 0,
+        "unverified": 0
+      }
+    },
+    "pose_forecast": {
+      "all": {
+        "frame_pairs": 288,
+        "visible_same": 576,
+        "detectable_same": 273,
+        "links": 186,
+        "correct": 143,
+        "wrong": 4,
+        "unverified": 39
+      },
+      "category_wall_art": {
+        "frame_pairs": 81,
+        "visible_same": 117,
+        "detectable_same": 80,
+        "links": 65,
+        "correct": 48,
+        "wrong": 0,
+        "unverified": 17
+      },
+      "stratum_multiple": {
+        "frame_pairs": 144,
+        "visible_same": 472,
+        "detectable_same": 192,
+        "links": 115,
+        "correct": 100,
+        "wrong": 4,
+        "unverified": 11
+      },
+      "excluding_bookcase": {
+        "frame_pairs": 273,
+        "visible_same": 444,
+        "detectable_same": 266,
+        "links": 184,
+        "correct": 142,
+        "wrong": 3,
+        "unverified": 39
+      },
+      "category_chair": {
+        "frame_pairs": 84,
+        "visible_same": 145,
+        "detectable_same": 90,
+        "links": 68,
+        "correct": 58,
+        "wrong": 3,
+        "unverified": 7
+      },
+      "category_mirror": {
+        "frame_pairs": 24,
+        "visible_same": 30,
+        "detectable_same": 23,
+        "links": 10,
+        "correct": 7,
+        "wrong": 0,
+        "unverified": 3
+      },
+      "category_clock": {
+        "frame_pairs": 15,
+        "visible_same": 15,
+        "detectable_same": 12,
+        "links": 4,
+        "correct": 4,
+        "wrong": 0,
+        "unverified": 0
+      },
+      "stratum_single": {
+        "frame_pairs": 96,
+        "visible_same": 92,
+        "detectable_same": 77,
+        "links": 54,
+        "correct": 42,
+        "wrong": 0,
+        "unverified": 12
+      },
+      "category_stool": {
+        "frame_pairs": 21,
+        "visible_same": 45,
+        "detectable_same": 31,
+        "links": 16,
+        "correct": 12,
+        "wrong": 0,
+        "unverified": 4
+      },
+      "stratum_turned": {
+        "frame_pairs": 48,
+        "visible_same": 12,
+        "detectable_same": 4,
+        "links": 17,
+        "correct": 1,
+        "wrong": 0,
+        "unverified": 16
+      },
+      "category_picture_frame": {
+        "frame_pairs": 6,
+        "visible_same": 12,
+        "detectable_same": 6,
+        "links": 5,
+        "correct": 4,
+        "wrong": 0,
+        "unverified": 1
+      },
+      "category_basket": {
+        "frame_pairs": 3,
+        "visible_same": 0,
+        "detectable_same": 0,
+        "links": 0,
+        "correct": 0,
+        "wrong": 0,
+        "unverified": 0
+      },
+      "category_bookcase": {
+        "frame_pairs": 15,
+        "visible_same": 132,
+        "detectable_same": 7,
+        "links": 2,
+        "correct": 1,
+        "wrong": 1,
+        "unverified": 0
+      },
+      "category_vase": {
+        "frame_pairs": 6,
+        "visible_same": 19,
+        "detectable_same": 1,
+        "links": 0,
+        "correct": 0,
+        "wrong": 0,
+        "unverified": 0
+      },
+      "category_table": {
+        "frame_pairs": 6,
+        "visible_same": 3,
+        "detectable_same": 3,
+        "links": 6,
+        "correct": 2,
+        "wrong": 0,
+        "unverified": 4
+      },
+      "category_sofa": {
+        "frame_pairs": 6,
+        "visible_same": 21,
+        "detectable_same": 8,
+        "links": 6,
+        "correct": 6,
+        "wrong": 0,
+        "unverified": 0
+      },
+      "category_bench": {
+        "frame_pairs": 3,
+        "visible_same": 0,
+        "detectable_same": 0,
+        "links": 2,
+        "correct": 0,
+        "wrong": 0,
+        "unverified": 2
+      },
+      "category_ceiling_lamp": {
+        "frame_pairs": 6,
+        "visible_same": 9,
+        "detectable_same": 9,
+        "links": 0,
+        "correct": 0,
+        "wrong": 0,
+        "unverified": 0
+      },
+      "category_potted_plant": {
+        "frame_pairs": 3,
+        "visible_same": 0,
+        "detectable_same": 0,
+        "links": 0,
+        "correct": 0,
+        "wrong": 0,
+        "unverified": 0
+      },
+      "category_cabinet": {
+        "frame_pairs": 6,
+        "visible_same": 25,
+        "detectable_same": 0,
+        "links": 1,
+        "correct": 0,
+        "wrong": 0,
+        "unverified": 1
+      },
+      "category_bed": {
+        "frame_pairs": 3,
+        "visible_same": 3,
+        "detectable_same": 3,
+        "links": 1,
+        "correct": 1,
+        "wrong": 0,
+        "unverified": 0
+      }
+    },
+    "pose_direct": {
+      "all": {
+        "frame_pairs": 288,
+        "visible_same": 576,
+        "detectable_same": 273,
+        "links": 330,
+        "correct": 223,
+        "wrong": 6,
+        "unverified": 101
+      },
+      "category_wall_art": {
+        "frame_pairs": 81,
+        "visible_same": 117,
+        "detectable_same": 80,
+        "links": 130,
+        "correct": 73,
+        "wrong": 0,
+        "unverified": 57
+      },
+      "stratum_multiple": {
+        "frame_pairs": 144,
+        "visible_same": 472,
+        "detectable_same": 192,
+        "links": 191,
+        "correct": 149,
+        "wrong": 6,
+        "unverified": 36
+      },
+      "excluding_bookcase": {
+        "frame_pairs": 273,
+        "visible_same": 444,
+        "detectable_same": 266,
+        "links": 318,
+        "correct": 216,
+        "wrong": 4,
+        "unverified": 98
+      },
+      "category_chair": {
+        "frame_pairs": 84,
+        "visible_same": 145,
+        "detectable_same": 90,
+        "links": 81,
+        "correct": 66,
+        "wrong": 2,
+        "unverified": 13
+      },
+      "category_mirror": {
+        "frame_pairs": 24,
+        "visible_same": 30,
+        "detectable_same": 23,
+        "links": 26,
+        "correct": 21,
+        "wrong": 0,
+        "unverified": 5
+      },
+      "category_clock": {
+        "frame_pairs": 15,
+        "visible_same": 15,
+        "detectable_same": 12,
+        "links": 12,
+        "correct": 12,
+        "wrong": 0,
+        "unverified": 0
+      },
+      "stratum_single": {
+        "frame_pairs": 96,
+        "visible_same": 92,
+        "detectable_same": 77,
+        "links": 108,
+        "correct": 72,
+        "wrong": 0,
+        "unverified": 36
+      },
+      "category_stool": {
+        "frame_pairs": 21,
+        "visible_same": 45,
+        "detectable_same": 31,
+        "links": 25,
+        "correct": 20,
+        "wrong": 1,
+        "unverified": 4
+      },
+      "stratum_turned": {
+        "frame_pairs": 48,
+        "visible_same": 12,
+        "detectable_same": 4,
+        "links": 31,
+        "correct": 2,
+        "wrong": 0,
+        "unverified": 29
+      },
+      "category_picture_frame": {
+        "frame_pairs": 6,
+        "visible_same": 12,
+        "detectable_same": 6,
+        "links": 8,
+        "correct": 6,
+        "wrong": 0,
+        "unverified": 2
+      },
+      "category_basket": {
+        "frame_pairs": 3,
+        "visible_same": 0,
+        "detectable_same": 0,
+        "links": 0,
+        "correct": 0,
+        "wrong": 0,
+        "unverified": 0
+      },
+      "category_bookcase": {
+        "frame_pairs": 15,
+        "visible_same": 132,
+        "detectable_same": 7,
+        "links": 12,
+        "correct": 7,
+        "wrong": 2,
+        "unverified": 3
+      },
+      "category_vase": {
+        "frame_pairs": 6,
+        "visible_same": 19,
+        "detectable_same": 1,
+        "links": 5,
+        "correct": 1,
+        "wrong": 0,
+        "unverified": 4
+      },
+      "category_table": {
+        "frame_pairs": 6,
+        "visible_same": 3,
+        "detectable_same": 3,
+        "links": 8,
+        "correct": 2,
+        "wrong": 0,
+        "unverified": 6
+      },
+      "category_sofa": {
+        "frame_pairs": 6,
+        "visible_same": 21,
+        "detectable_same": 8,
+        "links": 10,
+        "correct": 8,
+        "wrong": 1,
+        "unverified": 1
+      },
+      "category_bench": {
+        "frame_pairs": 3,
+        "visible_same": 0,
+        "detectable_same": 0,
+        "links": 3,
+        "correct": 0,
+        "wrong": 0,
+        "unverified": 3
+      },
+      "category_ceiling_lamp": {
+        "frame_pairs": 6,
+        "visible_same": 9,
+        "detectable_same": 9,
+        "links": 6,
+        "correct": 5,
+        "wrong": 0,
+        "unverified": 1
+      },
+      "category_potted_plant": {
+        "frame_pairs": 3,
+        "visible_same": 0,
+        "detectable_same": 0,
+        "links": 0,
+        "correct": 0,
+        "wrong": 0,
+        "unverified": 0
+      },
+      "category_cabinet": {
+        "frame_pairs": 6,
+        "visible_same": 25,
+        "detectable_same": 0,
+        "links": 1,
+        "correct": 0,
+        "wrong": 0,
+        "unverified": 1
+      },
+      "category_bed": {
+        "frame_pairs": 3,
+        "visible_same": 3,
+        "detectable_same": 3,
+        "links": 3,
+        "correct": 2,
+        "wrong": 0,
+        "unverified": 1
+      }
+    },
+    "pose_jepa": {
+      "all": {
+        "frame_pairs": 288,
+        "visible_same": 576,
+        "detectable_same": 273,
+        "links": 339,
+        "correct": 240,
+        "wrong": 5,
+        "unverified": 94
+      },
+      "category_wall_art": {
+        "frame_pairs": 81,
+        "visible_same": 117,
+        "detectable_same": 80,
+        "links": 128,
+        "correct": 76,
+        "wrong": 0,
+        "unverified": 52
+      },
+      "stratum_multiple": {
+        "frame_pairs": 144,
+        "visible_same": 472,
+        "detectable_same": 192,
+        "links": 207,
+        "correct": 164,
+        "wrong": 5,
+        "unverified": 38
+      },
+      "excluding_bookcase": {
+        "frame_pairs": 273,
+        "visible_same": 444,
+        "detectable_same": 266,
+        "links": 332,
+        "correct": 234,
+        "wrong": 4,
+        "unverified": 94
+      },
+      "category_chair": {
+        "frame_pairs": 84,
+        "visible_same": 145,
+        "detectable_same": 90,
+        "links": 94,
+        "correct": 77,
+        "wrong": 2,
+        "unverified": 15
+      },
+      "category_mirror": {
+        "frame_pairs": 24,
+        "visible_same": 30,
+        "detectable_same": 23,
+        "links": 26,
+        "correct": 21,
+        "wrong": 0,
+        "unverified": 5
+      },
+      "category_clock": {
+        "frame_pairs": 15,
+        "visible_same": 15,
+        "detectable_same": 12,
+        "links": 12,
+        "correct": 12,
+        "wrong": 0,
+        "unverified": 0
+      },
+      "stratum_single": {
+        "frame_pairs": 96,
+        "visible_same": 92,
+        "detectable_same": 77,
+        "links": 105,
+        "correct": 73,
+        "wrong": 0,
+        "unverified": 32
+      },
+      "category_stool": {
+        "frame_pairs": 21,
+        "visible_same": 45,
+        "detectable_same": 31,
+        "links": 31,
+        "correct": 25,
+        "wrong": 2,
+        "unverified": 4
+      },
+      "stratum_turned": {
+        "frame_pairs": 48,
+        "visible_same": 12,
+        "detectable_same": 4,
+        "links": 27,
+        "correct": 3,
+        "wrong": 0,
+        "unverified": 24
+      },
+      "category_picture_frame": {
+        "frame_pairs": 6,
+        "visible_same": 12,
+        "detectable_same": 6,
+        "links": 7,
+        "correct": 6,
+        "wrong": 0,
+        "unverified": 1
+      },
+      "category_basket": {
+        "frame_pairs": 3,
+        "visible_same": 0,
+        "detectable_same": 0,
+        "links": 0,
+        "correct": 0,
+        "wrong": 0,
+        "unverified": 0
+      },
+      "category_bookcase": {
+        "frame_pairs": 15,
+        "visible_same": 132,
+        "detectable_same": 7,
+        "links": 7,
+        "correct": 6,
+        "wrong": 1,
+        "unverified": 0
+      },
+      "category_vase": {
+        "frame_pairs": 6,
+        "visible_same": 19,
+        "detectable_same": 1,
+        "links": 5,
+        "correct": 1,
+        "wrong": 0,
+        "unverified": 4
+      },
+      "category_table": {
+        "frame_pairs": 6,
+        "visible_same": 3,
+        "detectable_same": 3,
+        "links": 7,
+        "correct": 1,
+        "wrong": 0,
+        "unverified": 6
+      },
+      "category_sofa": {
+        "frame_pairs": 6,
+        "visible_same": 21,
+        "detectable_same": 8,
+        "links": 9,
+        "correct": 7,
+        "wrong": 0,
+        "unverified": 2
+      },
+      "category_bench": {
+        "frame_pairs": 3,
+        "visible_same": 0,
+        "detectable_same": 0,
+        "links": 3,
+        "correct": 0,
+        "wrong": 0,
+        "unverified": 3
+      },
+      "category_ceiling_lamp": {
+        "frame_pairs": 6,
+        "visible_same": 9,
+        "detectable_same": 9,
+        "links": 6,
+        "correct": 6,
+        "wrong": 0,
+        "unverified": 0
+      },
+      "category_potted_plant": {
+        "frame_pairs": 3,
+        "visible_same": 0,
+        "detectable_same": 0,
+        "links": 0,
+        "correct": 0,
+        "wrong": 0,
+        "unverified": 0
+      },
+      "category_cabinet": {
+        "frame_pairs": 6,
+        "visible_same": 25,
+        "detectable_same": 0,
+        "links": 1,
+        "correct": 0,
+        "wrong": 0,
+        "unverified": 1
+      },
+      "category_bed": {
+        "frame_pairs": 3,
+        "visible_same": 3,
+        "detectable_same": 3,
+        "links": 3,
+        "correct": 2,
+        "wrong": 0,
+        "unverified": 1
+      }
+    },
+    "geometry_then_direct": {
+      "all": {
+        "frame_pairs": 288,
+        "visible_same": 576,
+        "detectable_same": 273,
+        "links": 363,
+        "correct": 248,
+        "wrong": 5,
+        "unverified": 110
+      },
+      "category_wall_art": {
+        "frame_pairs": 81,
+        "visible_same": 117,
+        "detectable_same": 80,
+        "links": 138,
+        "correct": 77,
+        "wrong": 0,
+        "unverified": 61
+      },
+      "stratum_multiple": {
+        "frame_pairs": 144,
+        "visible_same": 472,
+        "detectable_same": 192,
+        "links": 219,
+        "correct": 170,
+        "wrong": 5,
+        "unverified": 44
+      },
+      "excluding_bookcase": {
+        "frame_pairs": 273,
+        "visible_same": 444,
+        "detectable_same": 266,
+        "links": 351,
+        "correct": 241,
+        "wrong": 3,
+        "unverified": 107
+      },
+      "category_chair": {
+        "frame_pairs": 84,
+        "visible_same": 145,
+        "detectable_same": 90,
+        "links": 94,
+        "correct": 77,
+        "wrong": 2,
+        "unverified": 15
+      },
+      "category_mirror": {
+        "frame_pairs": 24,
+        "visible_same": 30,
+        "detectable_same": 23,
+        "links": 26,
+        "correct": 21,
+        "wrong": 0,
+        "unverified": 5
+      },
+      "category_clock": {
+        "frame_pairs": 15,
+        "visible_same": 15,
+        "detectable_same": 12,
+        "links": 12,
+        "correct": 12,
+        "wrong": 0,
+        "unverified": 0
+      },
+      "stratum_single": {
+        "frame_pairs": 96,
+        "visible_same": 92,
+        "detectable_same": 77,
+        "links": 111,
+        "correct": 74,
+        "wrong": 0,
+        "unverified": 37
+      },
+      "category_stool": {
+        "frame_pairs": 21,
+        "visible_same": 45,
+        "detectable_same": 31,
+        "links": 34,
+        "correct": 29,
+        "wrong": 0,
+        "unverified": 5
+      },
+      "stratum_turned": {
+        "frame_pairs": 48,
+        "visible_same": 12,
+        "detectable_same": 4,
+        "links": 33,
+        "correct": 4,
+        "wrong": 0,
+        "unverified": 29
+      },
+      "category_picture_frame": {
+        "frame_pairs": 6,
+        "visible_same": 12,
+        "detectable_same": 6,
+        "links": 8,
+        "correct": 6,
+        "wrong": 0,
+        "unverified": 2
+      },
+      "category_basket": {
+        "frame_pairs": 3,
+        "visible_same": 0,
+        "detectable_same": 0,
+        "links": 0,
+        "correct": 0,
+        "wrong": 0,
+        "unverified": 0
+      },
+      "category_bookcase": {
+        "frame_pairs": 15,
+        "visible_same": 132,
+        "detectable_same": 7,
+        "links": 12,
+        "correct": 7,
+        "wrong": 2,
+        "unverified": 3
+      },
+      "category_vase": {
+        "frame_pairs": 6,
+        "visible_same": 19,
+        "detectable_same": 1,
+        "links": 7,
+        "correct": 1,
+        "wrong": 0,
+        "unverified": 6
+      },
+      "category_table": {
+        "frame_pairs": 6,
+        "visible_same": 3,
+        "detectable_same": 3,
+        "links": 8,
+        "correct": 2,
+        "wrong": 0,
+        "unverified": 6
+      },
+      "category_sofa": {
+        "frame_pairs": 6,
+        "visible_same": 21,
+        "detectable_same": 8,
+        "links": 10,
+        "correct": 8,
+        "wrong": 1,
+        "unverified": 1
+      },
+      "category_bench": {
+        "frame_pairs": 3,
+        "visible_same": 0,
+        "detectable_same": 0,
+        "links": 3,
+        "correct": 0,
+        "wrong": 0,
+        "unverified": 3
+      },
+      "category_ceiling_lamp": {
+        "frame_pairs": 6,
+        "visible_same": 9,
+        "detectable_same": 9,
+        "links": 7,
+        "correct": 5,
+        "wrong": 0,
+        "unverified": 2
+      },
+      "category_potted_plant": {
+        "frame_pairs": 3,
+        "visible_same": 0,
+        "detectable_same": 0,
+        "links": 0,
+        "correct": 0,
+        "wrong": 0,
+        "unverified": 0
+      },
+      "category_cabinet": {
+        "frame_pairs": 6,
+        "visible_same": 25,
+        "detectable_same": 0,
+        "links": 1,
+        "correct": 0,
+        "wrong": 0,
+        "unverified": 1
+      },
+      "category_bed": {
+        "frame_pairs": 3,
+        "visible_same": 3,
+        "detectable_same": 3,
+        "links": 3,
+        "correct": 3,
+        "wrong": 0,
+        "unverified": 0
+      }
+    },
+    "geometry_then_jepa": {
+      "all": {
+        "frame_pairs": 288,
+        "visible_same": 576,
+        "detectable_same": 273,
+        "links": 365,
+        "correct": 253,
+        "wrong": 3,
+        "unverified": 109
+      },
+      "category_wall_art": {
+        "frame_pairs": 81,
+        "visible_same": 117,
+        "detectable_same": 80,
+        "links": 137,
+        "correct": 77,
+        "wrong": 0,
+        "unverified": 60
+      },
+      "stratum_multiple": {
+        "frame_pairs": 144,
+        "visible_same": 472,
+        "detectable_same": 192,
+        "links": 223,
+        "correct": 174,
+        "wrong": 3,
+        "unverified": 46
+      },
+      "excluding_bookcase": {
+        "frame_pairs": 273,
+        "visible_same": 444,
+        "detectable_same": 266,
+        "links": 354,
+        "correct": 246,
+        "wrong": 2,
+        "unverified": 106
+      },
+      "category_chair": {
+        "frame_pairs": 84,
+        "visible_same": 145,
+        "detectable_same": 90,
+        "links": 98,
+        "correct": 80,
+        "wrong": 2,
+        "unverified": 16
+      },
+      "category_mirror": {
+        "frame_pairs": 24,
+        "visible_same": 30,
+        "detectable_same": 23,
+        "links": 26,
+        "correct": 21,
+        "wrong": 0,
+        "unverified": 5
+      },
+      "category_clock": {
+        "frame_pairs": 15,
+        "visible_same": 15,
+        "detectable_same": 12,
+        "links": 12,
+        "correct": 12,
+        "wrong": 0,
+        "unverified": 0
+      },
+      "stratum_single": {
+        "frame_pairs": 96,
+        "visible_same": 92,
+        "detectable_same": 77,
+        "links": 109,
+        "correct": 75,
+        "wrong": 0,
+        "unverified": 34
+      },
+      "category_stool": {
+        "frame_pairs": 21,
+        "visible_same": 45,
+        "detectable_same": 31,
+        "links": 35,
+        "correct": 30,
+        "wrong": 0,
+        "unverified": 5
+      },
+      "stratum_turned": {
+        "frame_pairs": 48,
+        "visible_same": 12,
+        "detectable_same": 4,
+        "links": 33,
+        "correct": 4,
+        "wrong": 0,
+        "unverified": 29
+      },
+      "category_picture_frame": {
+        "frame_pairs": 6,
+        "visible_same": 12,
+        "detectable_same": 6,
+        "links": 7,
+        "correct": 6,
+        "wrong": 0,
+        "unverified": 1
+      },
+      "category_basket": {
+        "frame_pairs": 3,
+        "visible_same": 0,
+        "detectable_same": 0,
+        "links": 0,
+        "correct": 0,
+        "wrong": 0,
+        "unverified": 0
+      },
+      "category_bookcase": {
+        "frame_pairs": 15,
+        "visible_same": 132,
+        "detectable_same": 7,
+        "links": 11,
+        "correct": 7,
+        "wrong": 1,
+        "unverified": 3
+      },
+      "category_vase": {
+        "frame_pairs": 6,
+        "visible_same": 19,
+        "detectable_same": 1,
+        "links": 7,
+        "correct": 1,
+        "wrong": 0,
+        "unverified": 6
+      },
+      "category_table": {
+        "frame_pairs": 6,
+        "visible_same": 3,
+        "detectable_same": 3,
+        "links": 8,
+        "correct": 2,
+        "wrong": 0,
+        "unverified": 6
+      },
+      "category_sofa": {
+        "frame_pairs": 6,
+        "visible_same": 21,
+        "detectable_same": 8,
+        "links": 10,
+        "correct": 8,
+        "wrong": 0,
+        "unverified": 2
+      },
+      "category_bench": {
+        "frame_pairs": 3,
+        "visible_same": 0,
+        "detectable_same": 0,
+        "links": 3,
+        "correct": 0,
+        "wrong": 0,
+        "unverified": 3
+      },
+      "category_ceiling_lamp": {
+        "frame_pairs": 6,
+        "visible_same": 9,
+        "detectable_same": 9,
+        "links": 7,
+        "correct": 6,
+        "wrong": 0,
+        "unverified": 1
+      },
+      "category_potted_plant": {
+        "frame_pairs": 3,
+        "visible_same": 0,
+        "detectable_same": 0,
+        "links": 0,
+        "correct": 0,
+        "wrong": 0,
+        "unverified": 0
+      },
+      "category_cabinet": {
+        "frame_pairs": 6,
+        "visible_same": 25,
+        "detectable_same": 0,
+        "links": 1,
+        "correct": 0,
+        "wrong": 0,
+        "unverified": 1
+      },
+      "category_bed": {
+        "frame_pairs": 3,
+        "visible_same": 3,
+        "detectable_same": 3,
+        "links": 3,
+        "correct": 3,
+        "wrong": 0,
+        "unverified": 0
+      }
+    },
+    "geometry_jepa_separation_probe": {
+      "all": {
+        "frame_pairs": 288,
+        "visible_same": 576,
+        "detectable_same": 273,
+        "links": 365,
+        "correct": 253,
+        "wrong": 3,
+        "unverified": 109
+      },
+      "category_wall_art": {
+        "frame_pairs": 81,
+        "visible_same": 117,
+        "detectable_same": 80,
+        "links": 137,
+        "correct": 77,
+        "wrong": 0,
+        "unverified": 60
+      },
+      "stratum_multiple": {
+        "frame_pairs": 144,
+        "visible_same": 472,
+        "detectable_same": 192,
+        "links": 223,
+        "correct": 174,
+        "wrong": 3,
+        "unverified": 46
+      },
+      "excluding_bookcase": {
+        "frame_pairs": 273,
+        "visible_same": 444,
+        "detectable_same": 266,
+        "links": 354,
+        "correct": 246,
+        "wrong": 2,
+        "unverified": 106
+      },
+      "category_chair": {
+        "frame_pairs": 84,
+        "visible_same": 145,
+        "detectable_same": 90,
+        "links": 98,
+        "correct": 80,
+        "wrong": 2,
+        "unverified": 16
+      },
+      "category_mirror": {
+        "frame_pairs": 24,
+        "visible_same": 30,
+        "detectable_same": 23,
+        "links": 26,
+        "correct": 21,
+        "wrong": 0,
+        "unverified": 5
+      },
+      "category_clock": {
+        "frame_pairs": 15,
+        "visible_same": 15,
+        "detectable_same": 12,
+        "links": 12,
+        "correct": 12,
+        "wrong": 0,
+        "unverified": 0
+      },
+      "stratum_single": {
+        "frame_pairs": 96,
+        "visible_same": 92,
+        "detectable_same": 77,
+        "links": 109,
+        "correct": 75,
+        "wrong": 0,
+        "unverified": 34
+      },
+      "category_stool": {
+        "frame_pairs": 21,
+        "visible_same": 45,
+        "detectable_same": 31,
+        "links": 35,
+        "correct": 30,
+        "wrong": 0,
+        "unverified": 5
+      },
+      "stratum_turned": {
+        "frame_pairs": 48,
+        "visible_same": 12,
+        "detectable_same": 4,
+        "links": 33,
+        "correct": 4,
+        "wrong": 0,
+        "unverified": 29
+      },
+      "category_picture_frame": {
+        "frame_pairs": 6,
+        "visible_same": 12,
+        "detectable_same": 6,
+        "links": 7,
+        "correct": 6,
+        "wrong": 0,
+        "unverified": 1
+      },
+      "category_basket": {
+        "frame_pairs": 3,
+        "visible_same": 0,
+        "detectable_same": 0,
+        "links": 0,
+        "correct": 0,
+        "wrong": 0,
+        "unverified": 0
+      },
+      "category_bookcase": {
+        "frame_pairs": 15,
+        "visible_same": 132,
+        "detectable_same": 7,
+        "links": 11,
+        "correct": 7,
+        "wrong": 1,
+        "unverified": 3
+      },
+      "category_vase": {
+        "frame_pairs": 6,
+        "visible_same": 19,
+        "detectable_same": 1,
+        "links": 7,
+        "correct": 1,
+        "wrong": 0,
+        "unverified": 6
+      },
+      "category_table": {
+        "frame_pairs": 6,
+        "visible_same": 3,
+        "detectable_same": 3,
+        "links": 8,
+        "correct": 2,
+        "wrong": 0,
+        "unverified": 6
+      },
+      "category_sofa": {
+        "frame_pairs": 6,
+        "visible_same": 21,
+        "detectable_same": 8,
+        "links": 10,
+        "correct": 8,
+        "wrong": 0,
+        "unverified": 2
+      },
+      "category_bench": {
+        "frame_pairs": 3,
+        "visible_same": 0,
+        "detectable_same": 0,
+        "links": 3,
+        "correct": 0,
+        "wrong": 0,
+        "unverified": 3
+      },
+      "category_ceiling_lamp": {
+        "frame_pairs": 6,
+        "visible_same": 9,
+        "detectable_same": 9,
+        "links": 7,
+        "correct": 6,
+        "wrong": 0,
+        "unverified": 1
+      },
+      "category_potted_plant": {
+        "frame_pairs": 3,
+        "visible_same": 0,
+        "detectable_same": 0,
+        "links": 0,
+        "correct": 0,
+        "wrong": 0,
+        "unverified": 0
+      },
+      "category_cabinet": {
+        "frame_pairs": 6,
+        "visible_same": 25,
+        "detectable_same": 0,
+        "links": 1,
+        "correct": 0,
+        "wrong": 0,
+        "unverified": 1
+      },
+      "category_bed": {
+        "frame_pairs": 3,
+        "visible_same": 3,
+        "detectable_same": 3,
+        "links": 3,
+        "correct": 3,
+        "wrong": 0,
+        "unverified": 0
+      }
+    }
+  },
+  "joint_minus_reference_visible_recall_delta_ci95": {
+    "geometry_then_direct": [
+      0.008680555555555556,
+      0.0,
+      0.022540983606557378
+    ],
+    "geometric_rule": [
+      0.027777777777777776,
+      0.012145748987854251,
+      0.04849568886442854
+    ],
+    "heading_jepa": [
+      0.17881944444444445,
+      0.11481388490355492,
+      0.2625853020806289
+    ]
+  }
+}

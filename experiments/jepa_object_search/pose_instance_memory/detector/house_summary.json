@@ -1,0 +1,28 @@
+{
+  "houses": 16,
+  "resamples": 5000,
+  "contrast": "frozen calibrated model minus full-frame model",
+  "differences": {
+    "recall": {
+      "test_difference": 0.036308623298033284,
+      "paired_house_bootstrap_95": [
+        0.01668709316755252,
+        0.06158911532403496
+      ]
+    },
+    "two_box_coverage": {
+      "test_difference": 0.04827586206896552,
+      "paired_house_bootstrap_95": [
+        0.006944444444444444,
+        0.10458424110384881
+      ]
+    },
+    "unmatched_per_frame": {
+      "test_difference": 0.0798611111111111,
+      "paired_house_bootstrap_95": [
+        0.04513888888888889,
+        0.12152777777777778
+      ]
+    }
+  }
+}

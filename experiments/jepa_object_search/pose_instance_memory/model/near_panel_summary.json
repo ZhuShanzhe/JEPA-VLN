@@ -1,0 +1,78 @@
+{
+  "natural": {
+    "geometry_then_direct": {
+      "frame_pairs": 288,
+      "visible_same": 576,
+      "detectable_same": 273,
+      "links": 363,
+      "correct": 248,
+      "wrong": 5,
+      "unverified": 110
+    },
+    "geometry_then_jepa": {
+      "frame_pairs": 288,
+      "visible_same": 576,
+      "detectable_same": 273,
+      "links": 365,
+      "correct": 253,
+      "wrong": 3,
+      "unverified": 109
+    },
+    "geometry_then_direct_near_review": {
+      "frame_pairs": 288,
+      "visible_same": 576,
+      "detectable_same": 273,
+      "links": 354,
+      "correct": 245,
+      "wrong": 4,
+      "unverified": 105
+    },
+    "geometry_then_jepa_near_review": {
+      "frame_pairs": 288,
+      "visible_same": 576,
+      "detectable_same": 273,
+      "links": 347,
+      "correct": 246,
+      "wrong": 2,
+      "unverified": 99
+    }
+  },
+  "controlled_twins": {
+    "geometry_then_direct": {
+      "frame_pairs": 60,
+      "visible_same": 88,
+      "detectable_same": 55,
+      "links": 75,
+      "correct": 52,
+      "wrong": 0,
+      "unverified": 23
+    },
+    "geometry_then_jepa": {
+      "frame_pairs": 60,
+      "visible_same": 88,
+      "detectable_same": 55,
+      "links": 75,
+      "correct": 52,
+      "wrong": 0,
+      "unverified": 23
+    },
+    "geometry_then_direct_near_review": {
+      "frame_pairs": 60,
+      "visible_same": 88,
+      "detectable_same": 55,
+      "links": 75,
+      "correct": 52,
+      "wrong": 0,
+      "unverified": 23
+    },
+    "geometry_then_jepa_near_review": {
+      "frame_pairs": 60,
+      "visible_same": 88,
+      "detectable_same": 55,
+      "links": 74,
+      "correct": 52,
+      "wrong": 0,
+      "unverified": 22
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "clock_single": {
+    "frames": 15,
+    "label_boxes": 15,
+    "predicted_boxes": 18,
+    "matched_boxes": 13,
+    "one_target_visible": 15,
+    "one_found": 13,
+    "multiple_proposals_for_one_target": 4,
+    "two_proposals_both_overlap_same_label": 0
+  },
+  "clock_double": {
+    "frames": 15,
+    "label_boxes": 30,
+    "predicted_boxes": 26,
+    "matched_boxes": 18,
+    "two_targets_visible": 15,
+    "both_found": 7,
+    "original_and_clone_visible": 15,
+    "original_and_clone_both_found": 7
+  },
+  "wall_art_single": {
+    "frames": 15,
+    "label_boxes": 16,
+    "predicted_boxes": 29,
+    "matched_boxes": 12,
+    "one_target_visible": 14,
+    "one_found": 10,
+    "multiple_proposals_for_one_target": 7,
+    "two_proposals_both_overlap_same_label": 0,
+    "two_targets_visible": 1,
+    "both_found": 1
+  },
+  "wall_art_double": {
+    "frames": 15,
+    "label_boxes": 30,
+    "predicted_boxes": 42,
+    "matched_boxes": 23,
+    "two_targets_visible": 13,
+    "both_found": 10,
+    "original_and_clone_visible": 14,
+    "original_and_clone_both_found": 11,
+    "one_target_visible": 1,
+    "one_found": 0,
+    "multiple_proposals_for_one_target": 1,
+    "two_proposals_both_overlap_same_label": 0
+  }
+}

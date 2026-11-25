@@ -1,0 +1,70 @@
+{
+  "test_houses": 16,
+  "sequences": 96,
+  "protocol": "ground truth only for scoring; independently IoU>=0.50 uniquely labeled predictions; directional cross-frame pairs, three view pairs per sequence",
+  "methods": {
+    "measured_boxes": {
+      "frames": 288,
+      "frames_with_multiple_ground_truth": 145,
+      "co_visible_distinct_all": 421,
+      "co_visible_distinct_correct": 154,
+      "all_gt_co_visible_pairs": 2828,
+      "distinct_gt_pairs_recovered_in_frame": 145,
+      "co_visible_distinct_unknown": 267,
+      "baseline_3d_same_all": 368,
+      "baseline_3d_same_correct": 247,
+      "cross_view_same_all": 326,
+      "cross_view_same_correct": 233,
+      "cross_view_distinct_all": 196,
+      "cross_view_distinct_correct": 98,
+      "gt_same_opportunities": 576,
+      "gt_same_recovered": 232,
+      "persistent_distinct_opportunities": 4224,
+      "persistent_distinct_recovered": 95,
+      "close_same_asset_distinct_opportunities": 3222,
+      "close_same_asset_distinct_recovered": 49,
+      "baseline_3d_same_unknown": 120,
+      "cross_view_same_unknown": 93,
+      "cross_view_distinct_unknown": 98,
+      "baseline_pixel_same_all": 81,
+      "baseline_pixel_same_unknown": 49,
+      "baseline_pixel_same_wrong": 12,
+      "baseline_pixel_same_correct": 20,
+      "baseline_3d_same_wrong": 1
+    },
+    "oracle_boxes_diagnostic": {
+      "frames": 288,
+      "frames_with_multiple_ground_truth": 145,
+      "co_visible_distinct_all": 2448,
+      "co_visible_distinct_correct": 2448,
+      "all_gt_co_visible_pairs": 2828,
+      "distinct_gt_pairs_recovered_in_frame": 2448,
+      "baseline_3d_same_all": 548,
+      "baseline_3d_same_correct": 526,
+      "cross_view_same_all": 494,
+      "cross_view_same_correct": 494,
+      "cross_view_distinct_all": 3110,
+      "cross_view_distinct_correct": 3110,
+      "gt_same_opportunities": 576,
+      "gt_same_recovered": 494,
+      "persistent_distinct_opportunities": 4224,
+      "persistent_distinct_recovered": 3110,
+      "close_same_asset_distinct_opportunities": 3222,
+      "close_same_asset_distinct_recovered": 2548,
+      "baseline_pixel_same_all": 61,
+      "baseline_pixel_same_wrong": 39,
+      "baseline_pixel_same_correct": 22,
+      "baseline_3d_same_wrong": 22
+    }
+  },
+  "house_weighted_coverage": {
+    "gt_same_recovered": {
+      "mean": 0.4878132500225556,
+      "houses": 16
+    },
+    "persistent_distinct_recovered": {
+      "mean": 0.16215130817658738,
+      "houses": 16
+    }
+  }
+}
