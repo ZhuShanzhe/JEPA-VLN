@@ -1,0 +1,30 @@
+{
+  "accepted_episodes": 118,
+  "capped_failed_last_window": {
+    "episodes": 94,
+    "episodes_with_either": 9,
+    "episodes_with_first_clear_target_exposure": 6,
+    "episodes_with_neither": 85,
+    "episodes_with_new_credit": 4,
+    "first_clear_target_exposures": 6,
+    "new_instance_credits": 5,
+    "no_report_in_entire_episode": 25
+  },
+  "last_window_zero_based_inclusive": [
+    250,
+    299
+  ],
+  "planned_episodes": 300,
+  "step_limit": 300,
+  "task_quota_shortfall": {
+    "missing_to_reach_quota": 359,
+    "reached_but_unreported": 164,
+    "total_missing": 523
+  },
+  "terminal_outcomes": {
+    "cap_enough_in_range": 9,
+    "cap_insufficient_in_range": 85,
+    "early_insufficient_in_range": 14,
+    "success": 10
+  }
+}

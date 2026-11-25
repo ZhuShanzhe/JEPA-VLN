@@ -1,0 +1,50 @@
+[
+  {
+    "ordinal": 1,
+    "quota": 2,
+    "credited": 2,
+    "action_counts": {
+      "forward": 27,
+      "report": 2,
+      "turn": 5,
+      "finish": 1
+    },
+    "total": 35,
+    "evidence": [
+      {
+        "action_count": 3,
+        "total": 1
+      },
+      {
+        "action_count": 34,
+        "total": 2
+      }
+    ]
+  },
+  {
+    "ordinal": 14,
+    "quota": 3,
+    "credited": 3,
+    "action_counts": {
+      "forward": 68,
+      "report": 3,
+      "turn": 41,
+      "finish": 1
+    },
+    "total": 113,
+    "evidence": [
+      {
+        "action_count": 5,
+        "total": 1
+      },
+      {
+        "action_count": 26,
+        "total": 2
+      },
+      {
+        "action_count": 112,
+        "total": 3
+      }
+    ]
+  }
+]
