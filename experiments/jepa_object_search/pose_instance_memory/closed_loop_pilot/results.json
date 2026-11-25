@@ -1,0 +1,480 @@
+{
+  "protocol": {
+    "task": "HM3D multi-instance object search, paired development episodes",
+    "actions_per_episode": 300,
+    "official_report_radius_m": 0.25,
+    "decision_model": "gpt-4o-2024-11-20",
+    "provider": "APIyi",
+    "pose_weights_sha256": "b13d22da04887b1bb58e55e8188032200a1ef03d3fe026f011c03b09caaaf88e",
+    "pose_review_threshold": 0.9412854313850403,
+    "trace_source_sha256": "bf05cd9fc750002f009d172a9d3dd150c01ceda3e984dd4ecd5821cfb5413152"
+  },
+  "cases": [
+    {
+      "target": "clock",
+      "original": {
+        "required": 2,
+        "unique_correct": 1,
+        "official_sr": 0,
+        "steps": 90,
+        "credited_reports": 1,
+        "repeat_only_reports": 1,
+        "no_target_in_range": 0,
+        "approached_unique": 1
+      },
+      "previous_report_and_route_system": {
+        "required": 2,
+        "unique_correct": 0,
+        "official_sr": 0,
+        "steps": 300,
+        "credited_reports": 0,
+        "repeat_only_reports": 0,
+        "no_target_in_range": 1,
+        "approached_unique": 1
+      },
+      "pose_memory_system": {
+        "status": "engineering_interruption",
+        "outcome": null
+      }
+    },
+    {
+      "target": "wall_art",
+      "original": {
+        "required": 3,
+        "unique_correct": 0,
+        "official_sr": 0,
+        "steps": 300,
+        "credited_reports": 0,
+        "repeat_only_reports": 0,
+        "no_target_in_range": 2,
+        "approached_unique": 1
+      },
+      "previous_report_and_route_system": {
+        "required": 3,
+        "unique_correct": 1,
+        "official_sr": 0,
+        "steps": 300,
+        "credited_reports": 1,
+        "repeat_only_reports": 1,
+        "no_target_in_range": 0,
+        "approached_unique": 1
+      },
+      "pose_memory_system": {
+        "status": "accepted",
+        "outcome": {
+          "required": 3,
+          "unique_correct": 0,
+          "official_sr": 0,
+          "steps": 300,
+          "credited_reports": 0,
+          "repeat_only_reports": 0,
+          "no_target_in_range": 2,
+          "approached_unique": 1
+        },
+        "accepted_trace": {
+          "decision_calls": 44,
+          "image_caption_calls": 67,
+          "empty_model_captions": 0
+        },
+        "decisions": {
+          "decisions_showing_rgb_boxes": 16,
+          "rgb_boxes_shown_across_decisions": 39,
+          "local_candidate_ids_added": 1,
+          "local_candidate_ids_in_native_commit_instances": 1,
+          "pose_hint_pairs_in_state_or_tool_response": 0,
+          "successful_duplicate_links": 0,
+          "hinted_pairs_later_linked": 0
+        },
+        "modules": {
+          "available": true,
+          "detector_calls_including_cache": 29,
+          "detector_error_returns": 0,
+          "live_steps_with_boxes": 15,
+          "map_keyframes_with_boxes": 11,
+          "boxes_added_to_pending": 1,
+          "calls_with_pending_identity_review": 0,
+          "gated_pose_review_calls": 0,
+          "pose_score_calls": 0,
+          "distinct_observations_actually_scored": 0,
+          "distinct_observations_with_hint": 0,
+          "pose_gates": {},
+          "geometry_checks": 0,
+          "geometry_distinct_proofs": 0,
+          "geometry_blocked_merge_requests": 0,
+          "other_debugger_occupied_calls": 0
+        }
+      }
+    }
+  ],
+  "interrupted_first_clock": {
+    "status": "quarantined_attempt_pre_outage_diagnostic",
+    "first_missing_decision_reply_step": 117,
+    "valid_gpt_report_requests_replaced_by_turn_left": {
+      "first_step": 80,
+      "last_step": 116,
+      "count": 37,
+      "different_appearance": 28,
+      "need_metric_near_view": 9
+    },
+    "target_report_radius_m": 0.25,
+    "clear_pixels_threshold_at_320x320": 103,
+    "samples": [
+      {
+        "step": 80,
+        "exact_rgb_match": true,
+        "saved_images": 1,
+        "targets_in_scoring_range": 1,
+        "minimum_distance_m": 0.223,
+        "clear_target_ids_count": 1,
+        "clear_and_in_range": 1
+      },
+      {
+        "step": 116,
+        "exact_rgb_match": true,
+        "saved_images": 1,
+        "targets_in_scoring_range": 1,
+        "minimum_distance_m": 0.223,
+        "clear_target_ids_count": 1,
+        "clear_and_in_range": 1
+      }
+    ]
+  },
+  "hssd_functional_checks": {
+    "split": "test",
+    "device": "cpu",
+    "paid_requests": 0,
+    "preselection": "first qualified pair of each label in sorted house/sequence/view/box order; model scores excluded",
+    "checkpoint_sha256": "b13d22da04887b1bb58e55e8188032200a1ef03d3fe026f011c03b09caaaf88e",
+    "examples": [
+      {
+        "label": "same",
+        "fixture_sha256": "c35e498790af2af44d67b5af18a15e11f91016f4c902004b3b17f8300acc253f",
+        "category": "chair",
+        "baseline_m": 0.24,
+        "optical_angle_deg": 10.07,
+        "point_separation_m": 0.098,
+        "metric_source": "HSSD RGB-D + known camera pose",
+        "gate": "hint_emitted",
+        "score": 0.9937887787818909,
+        "threshold": 0.9412854313850403,
+        "hint_in_native_response": true,
+        "remained_pending": true
+      },
+      {
+        "label": "distinct_same_class",
+        "fixture_sha256": "320007ec5b3f0dce88db668e03e6b9e015588d0919345af9f041923ef2cc784e",
+        "category": "sofa",
+        "baseline_m": 0.24,
+        "optical_angle_deg": 10.55,
+        "point_separation_m": 0.426,
+        "metric_source": "HSSD RGB-D + known camera pose",
+        "gate": "below_threshold",
+        "score": 0.7495191097259521,
+        "threshold": 0.9412854313850403,
+        "hint_in_native_response": false,
+        "remained_pending": true
+      }
+    ]
+  },
+  "painting_report_checks": {
+    "status": "accepted_300_actions",
+    "quota": 3,
+    "distinct_new_instances": 0,
+    "report_radius_m": 0.25,
+    "semantic_check_resolution": [
+      320,
+      320
+    ],
+    "observed_reports": [
+      {
+        "step": 78,
+        "saved_observations": 1,
+        "local_observations": 1,
+        "min_distance_to_report_view_m": 0.641,
+        "max_target_pixels": 0,
+        "exact_same_step_decision_rgb": true
+      },
+      {
+        "step": 211,
+        "saved_observations": 1,
+        "local_observations": 0,
+        "min_distance_to_report_view_m": 1.029,
+        "max_target_pixels": 0,
+        "exact_same_step_decision_rgb": null
+      }
+    ]
+  },
+  "runtime_attempts": [
+    {
+      "task": "clock",
+      "attempt": 1,
+      "status": "quarantined_excluded",
+      "executed_actions": 124,
+      "actual_report_actions": 0,
+      "actual_linked_current_box_requests_with_valid_reply": 72,
+      "valid_decision_replies": 76,
+      "live_steps_reaching_valid_request": 49,
+      "local_registration_proposals": 1,
+      "accepted_local_candidates": 1,
+      "pending_duplicate_review_rows": 2,
+      "native_duplicate_resolutions": 2,
+      "pose_scores_observed": 0,
+      "pose_gates": {
+        "observation_or_scale_unavailable_or_already_assigned": 2
+      },
+      "local_pose_hint_seen_in_current_tool_prompt": 0,
+      "geometric_separation_veto": {},
+      "changed_parent_route": 0,
+      "ranked_parent_routes": 0,
+      "route_command_prefix_end": {},
+      "trustworthy_pre_outage_left_turns": {
+        "first_missing_decision_reply_step": 117,
+        "steps_with_any_missing_decision_reply": [
+          117
+        ],
+        "valid_turns": 37,
+        "exact_streaks": [
+          [
+            80,
+            116
+          ]
+        ],
+        "gate_reasons": {
+          "different_appearance": 28,
+          "need_metric_near_view": 9
+        },
+        "audited_origins": [
+          [
+            [
+              "vlm",
+              "ok",
+              true
+            ],
+            37
+          ]
+        ],
+        "all_deferments_before_cutoff": 37
+      }
+    },
+    {
+      "task": "clock",
+      "attempt": 2,
+      "status": "quarantined_excluded",
+      "executed_actions": 130,
+      "actual_report_actions": 0,
+      "actual_linked_current_box_requests_with_valid_reply": 63,
+      "valid_decision_replies": 69,
+      "live_steps_reaching_valid_request": 52,
+      "local_registration_proposals": 1,
+      "accepted_local_candidates": 1,
+      "pending_duplicate_review_rows": 0,
+      "native_duplicate_resolutions": 0,
+      "pose_scores_observed": 0,
+      "pose_gates": {},
+      "local_pose_hint_seen_in_current_tool_prompt": 0,
+      "geometric_separation_veto": {},
+      "changed_parent_route": 0,
+      "ranked_parent_routes": 0,
+      "route_command_prefix_end": {},
+      "trustworthy_pre_outage_left_turns": {
+        "first_missing_decision_reply_step": 130,
+        "steps_with_any_missing_decision_reply": [
+          130
+        ],
+        "valid_turns": 51,
+        "exact_streaks": [
+          [
+            75,
+            90
+          ],
+          [
+            95,
+            129
+          ]
+        ],
+        "gate_reasons": {
+          "different_appearance": 35,
+          "need_metric_near_view": 16
+        },
+        "audited_origins": [
+          [
+            [
+              "vlm",
+              "ok",
+              true
+            ],
+            51
+          ]
+        ],
+        "all_deferments_before_cutoff": 51
+      }
+    },
+    {
+      "task": "painting",
+      "attempt": 1,
+      "status": "accepted",
+      "executed_actions": 300,
+      "actual_report_actions": 2,
+      "actual_linked_current_box_requests_with_valid_reply": 43,
+      "valid_decision_replies": 43,
+      "live_steps_reaching_valid_request": 15,
+      "local_registration_proposals": 1,
+      "accepted_local_candidates": 1,
+      "pending_duplicate_review_rows": 0,
+      "native_duplicate_resolutions": 0,
+      "pose_scores_observed": 0,
+      "pose_gates": {},
+      "local_pose_hint_seen_in_current_tool_prompt": 0,
+      "geometric_separation_veto": {},
+      "changed_parent_route": 5,
+      "ranked_parent_routes": 5,
+      "route_command_prefix_end": {
+        "observed_command_prefix_complete": 1,
+        "different_executed_command": 3,
+        "native_decision_GOTO_FRONTIER": 1
+      },
+      "trustworthy_pre_outage_left_turns": null
+    }
+  ],
+  "decision_gateway_accounting": {
+    "attempts": [
+      {
+        "ordinal": 1,
+        "status": "quarantined",
+        "decision_client_log": {
+          "ok": 77,
+          "failed": 1
+        },
+        "client_records_by_kind": {
+          "healthcheck": {
+            "ok": 1
+          },
+          "decision": {
+            "ok": 76,
+            "failed": 1
+          }
+        },
+        "unique_gateway_requests": 78,
+        "successful_gateway_requests": 77,
+        "terminal_gateway_errors": 1,
+        "unresolved_gateway_requests": 0,
+        "requests_with_any_timeout_event": 5,
+        "transport_events": {
+          "outcome_unknown": 1,
+          "provider_unreachable": 4,
+          "success": 77,
+          "terminal_error": 1
+        },
+        "timeout_events_by_stage": {
+          "outcome_unknown": 1,
+          "provider_unreachable": 4
+        },
+        "attempts_with_possible_charge": 1,
+        "successful_requests_with_prior_possible_charge": 0,
+        "provider_reported_tokens_for_success": {
+          "prompt_tokens": 989070,
+          "completion_tokens": 3216,
+          "total_tokens": 992286
+        }
+      },
+      {
+        "ordinal": 14,
+        "status": "accepted",
+        "decision_client_log": {
+          "ok": 44,
+          "failed": 0
+        },
+        "client_records_by_kind": {
+          "healthcheck": {
+            "ok": 1
+          },
+          "decision": {
+            "ok": 43
+          }
+        },
+        "unique_gateway_requests": 45,
+        "successful_gateway_requests": 45,
+        "terminal_gateway_errors": 0,
+        "unresolved_gateway_requests": 0,
+        "requests_with_any_timeout_event": 0,
+        "transport_events": {
+          "success": 45
+        },
+        "timeout_events_by_stage": {},
+        "attempts_with_possible_charge": 0,
+        "successful_requests_with_prior_possible_charge": 0,
+        "provider_reported_tokens_for_success": {
+          "prompt_tokens": 606668,
+          "completion_tokens": 1859,
+          "total_tokens": 608527
+        }
+      },
+      {
+        "ordinal": 1,
+        "status": "quarantined",
+        "decision_client_log": {
+          "ok": 70,
+          "failed": 1
+        },
+        "client_records_by_kind": {
+          "healthcheck": {
+            "ok": 1
+          },
+          "decision": {
+            "ok": 69,
+            "failed": 1
+          }
+        },
+        "unique_gateway_requests": 71,
+        "successful_gateway_requests": 70,
+        "terminal_gateway_errors": 1,
+        "unresolved_gateway_requests": 0,
+        "requests_with_any_timeout_event": 2,
+        "transport_events": {
+          "outcome_unknown": 1,
+          "provider_unreachable": 2,
+          "success": 70,
+          "terminal_error": 1
+        },
+        "timeout_events_by_stage": {
+          "outcome_unknown": 1,
+          "provider_unreachable": 2
+        },
+        "attempts_with_possible_charge": 1,
+        "successful_requests_with_prior_possible_charge": 0,
+        "provider_reported_tokens_for_success": {
+          "prompt_tokens": 853020,
+          "completion_tokens": 3039,
+          "total_tokens": 856059
+        }
+      }
+    ],
+    "total": {
+      "unique_gateway_requests": 194,
+      "successful_gateway_requests": 192,
+      "terminal_gateway_errors": 2,
+      "unresolved_gateway_requests": 0,
+      "requests_with_any_timeout_event": 7,
+      "transport_events": {
+        "outcome_unknown": 2,
+        "provider_unreachable": 6,
+        "success": 192,
+        "terminal_error": 2
+      },
+      "timeout_events_by_stage": {
+        "outcome_unknown": 2,
+        "provider_unreachable": 6
+      },
+      "attempts_with_possible_charge": 2,
+      "successful_requests_with_prior_possible_charge": 0,
+      "provider_reported_tokens_for_success": {
+        "prompt_tokens": 2448758,
+        "completion_tokens": 8114,
+        "total_tokens": 2456872
+      }
+    },
+    "unassigned_requests": 0,
+    "caption_service_usage_included": false,
+    "actual_provider_charge": null
+  }
+}
