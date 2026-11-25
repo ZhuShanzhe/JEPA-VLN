@@ -1,0 +1,275 @@
+{
+  "protocol": "Matched geometry, correct simulator camera pose, observable RGB-D and object boxes; 0.60 m gate. Missing location abstains. Gaussian stress is illustrative.",
+  "coverage": {
+    "val": {
+      "available": 1327,
+      "total": 1327
+    },
+    "test": {
+      "available": 3647,
+      "total": 3647
+    }
+  },
+  "conditions": {
+    "0": {
+      "methods": {
+        "geometry": {
+          "threshold": -0.3473028063834284,
+          "val": {
+            "first_encounters": 254,
+            "revisits": 1073,
+            "correct_revisit_matches": 680,
+            "first_encounters_wrongly_merged": 5,
+            "wrong_merges": 24,
+            "extra_records": 373,
+            "instances_represented_at_end": 250,
+            "records_at_end": 623
+          },
+          "test": {
+            "first_encounters": 734,
+            "revisits": 2913,
+            "correct_revisit_matches": 1808,
+            "first_encounters_wrongly_merged": 14,
+            "wrong_merges": 65,
+            "extra_records": 1050,
+            "instances_represented_at_end": 724,
+            "records_at_end": 1774
+          }
+        },
+        "frozen": {
+          "threshold": 0.7095453806221486,
+          "val": {
+            "first_encounters": 254,
+            "revisits": 1073,
+            "correct_revisit_matches": 589,
+            "first_encounters_wrongly_merged": 5,
+            "wrong_merges": 29,
+            "extra_records": 455,
+            "instances_represented_at_end": 254,
+            "records_at_end": 709
+          },
+          "test": {
+            "first_encounters": 734,
+            "revisits": 2913,
+            "correct_revisit_matches": 1496,
+            "first_encounters_wrongly_merged": 11,
+            "wrong_merges": 71,
+            "extra_records": 1350,
+            "instances_represented_at_end": 730,
+            "records_at_end": 2080
+          }
+        },
+        "direct": {
+          "threshold": 0.8684374406933786,
+          "val": {
+            "first_encounters": 254,
+            "revisits": 1073,
+            "correct_revisit_matches": 589,
+            "first_encounters_wrongly_merged": 5,
+            "wrong_merges": 29,
+            "extra_records": 455,
+            "instances_represented_at_end": 254,
+            "records_at_end": 709
+          },
+          "test": {
+            "first_encounters": 734,
+            "revisits": 2913,
+            "correct_revisit_matches": 1539,
+            "first_encounters_wrongly_merged": 11,
+            "wrong_merges": 71,
+            "extra_records": 1306,
+            "instances_represented_at_end": 731,
+            "records_at_end": 2037
+          }
+        },
+        "jepa": {
+          "threshold": 0.656655614078045,
+          "val": {
+            "first_encounters": 254,
+            "revisits": 1073,
+            "correct_revisit_matches": 611,
+            "first_encounters_wrongly_merged": 5,
+            "wrong_merges": 26,
+            "extra_records": 436,
+            "instances_represented_at_end": 254,
+            "records_at_end": 690
+          },
+          "test": {
+            "first_encounters": 734,
+            "revisits": 2913,
+            "correct_revisit_matches": 1637,
+            "first_encounters_wrongly_merged": 13,
+            "wrong_merges": 72,
+            "extra_records": 1208,
+            "instances_represented_at_end": 730,
+            "records_at_end": 1938
+          }
+        }
+      },
+      "paired_jepa_minus_comparator": {
+        "geometry": {
+          "correct_revisit_matches": {
+            "difference_pp": -5.8702368692070035,
+            "house_bootstrap_95_pp": [
+              -10.581040587750774,
+              -1.353627941807454
+            ]
+          },
+          "first_encounters_wrongly_merged": {
+            "difference_pp": -0.1362397820163488,
+            "house_bootstrap_95_pp": [
+              -1.2820970042796005,
+              0.8875927372120264
+            ]
+          }
+        },
+        "direct": {
+          "correct_revisit_matches": {
+            "difference_pp": 3.3642293168554755,
+            "house_bootstrap_95_pp": [
+              1.4836376429494333,
+              5.381495511420212
+            ]
+          },
+          "first_encounters_wrongly_merged": {
+            "difference_pp": 0.2724795640326976,
+            "house_bootstrap_95_pp": [
+              -0.3115999529771351,
+              0.9308717126998807
+            ]
+          }
+        }
+      }
+    },
+    "0.25": {
+      "methods": {
+        "geometry": {
+          "threshold": -0.38907067766391573,
+          "val": {
+            "first_encounters": 254,
+            "revisits": 1073,
+            "correct_revisit_matches": 425,
+            "first_encounters_wrongly_merged": 5,
+            "wrong_merges": 37,
+            "extra_records": 612,
+            "instances_represented_at_end": 253,
+            "records_at_end": 865
+          },
+          "test": {
+            "first_encounters": 734,
+            "revisits": 2913,
+            "correct_revisit_matches": 1109,
+            "first_encounters_wrongly_merged": 14,
+            "wrong_merges": 91,
+            "extra_records": 1715,
+            "instances_represented_at_end": 732,
+            "records_at_end": 2447
+          }
+        },
+        "frozen": {
+          "threshold": 0.7106996238231659,
+          "val": {
+            "first_encounters": 254,
+            "revisits": 1073,
+            "correct_revisit_matches": 470,
+            "first_encounters_wrongly_merged": 5,
+            "wrong_merges": 30,
+            "extra_records": 573,
+            "instances_represented_at_end": 254,
+            "records_at_end": 827
+          },
+          "test": {
+            "first_encounters": 734,
+            "revisits": 2913,
+            "correct_revisit_matches": 1136,
+            "first_encounters_wrongly_merged": 10,
+            "wrong_merges": 87,
+            "extra_records": 1694,
+            "instances_represented_at_end": 730,
+            "records_at_end": 2424
+          }
+        },
+        "direct": {
+          "threshold": 0.7065774902701378,
+          "val": {
+            "first_encounters": 254,
+            "revisits": 1073,
+            "correct_revisit_matches": 554,
+            "first_encounters_wrongly_merged": 5,
+            "wrong_merges": 38,
+            "extra_records": 481,
+            "instances_represented_at_end": 254,
+            "records_at_end": 735
+          },
+          "test": {
+            "first_encounters": 734,
+            "revisits": 2913,
+            "correct_revisit_matches": 1442,
+            "first_encounters_wrongly_merged": 14,
+            "wrong_merges": 112,
+            "extra_records": 1363,
+            "instances_represented_at_end": 730,
+            "records_at_end": 2093
+          }
+        },
+        "jepa": {
+          "threshold": 0.5693126887083054,
+          "val": {
+            "first_encounters": 254,
+            "revisits": 1073,
+            "correct_revisit_matches": 534,
+            "first_encounters_wrongly_merged": 5,
+            "wrong_merges": 30,
+            "extra_records": 509,
+            "instances_represented_at_end": 254,
+            "records_at_end": 763
+          },
+          "test": {
+            "first_encounters": 734,
+            "revisits": 2913,
+            "correct_revisit_matches": 1377,
+            "first_encounters_wrongly_merged": 14,
+            "wrong_merges": 103,
+            "extra_records": 1435,
+            "instances_represented_at_end": 732,
+            "records_at_end": 2167
+          }
+        }
+      },
+      "paired_jepa_minus_comparator": {
+        "geometry": {
+          "correct_revisit_matches": {
+            "difference_pp": 9.200137315482321,
+            "house_bootstrap_95_pp": [
+              6.443705144607365,
+              12.002915580170821
+            ]
+          },
+          "first_encounters_wrongly_merged": {
+            "difference_pp": 0.0,
+            "house_bootstrap_95_pp": [
+              -0.8511243606428376,
+              0.8305762877205253
+            ]
+          }
+        },
+        "direct": {
+          "correct_revisit_matches": {
+            "difference_pp": -2.2313765877102645,
+            "house_bootstrap_95_pp": [
+              -3.369385397188339,
+              -1.021869869155994
+            ]
+          },
+          "first_encounters_wrongly_merged": {
+            "difference_pp": 0.0,
+            "house_bootstrap_95_pp": [
+              -0.7528941970677193,
+              0.7622728969636624
+            ]
+          }
+        }
+      }
+    }
+  }
+}

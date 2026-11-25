@@ -1,0 +1,124 @@
+{
+  "clock_observations": 53,
+  "clock_instances": 13,
+  "houses": 5,
+  "subtype_images": {
+    "alarm_clock": 7,
+    "wall_clock": 40,
+    "mantel_clock": 6
+  },
+  "manifest_sha256": "6fd81f62798ed9c386e06e0955deeea267c5c1f60cb38b8ded317e0e9110d5cb",
+  "main_metrics_sha256": "1c859d9c46e70c4fb5d18196d813715d1eba1ee6a8db55dfb7895f164a33f259",
+  "models": {
+    "frozen": {
+      "all": {
+        "positive": 168,
+        "negative": 168,
+        "tp": 36,
+        "fn": 132,
+        "fp": 0,
+        "tn": 168
+      },
+      "same_template_negative": {
+        "positive": 0,
+        "negative": 23,
+        "tp": 0,
+        "fn": 0,
+        "fp": 0,
+        "tn": 23
+      },
+      "same_subtype_different_template_negative": {
+        "positive": 0,
+        "negative": 67,
+        "tp": 0,
+        "fn": 0,
+        "fp": 0,
+        "tn": 67
+      },
+      "different_subtype_negative": {
+        "positive": 0,
+        "negative": 78,
+        "tp": 0,
+        "fn": 0,
+        "fp": 0,
+        "tn": 78
+      },
+      "threshold": 0.8176488876342773
+    },
+    "direct": {
+      "all": {
+        "positive": 168,
+        "negative": 168,
+        "tp": 116,
+        "fn": 52,
+        "fp": 1,
+        "tn": 167
+      },
+      "same_template_negative": {
+        "positive": 0,
+        "negative": 23,
+        "tp": 0,
+        "fn": 0,
+        "fp": 1,
+        "tn": 22
+      },
+      "same_subtype_different_template_negative": {
+        "positive": 0,
+        "negative": 67,
+        "tp": 0,
+        "fn": 0,
+        "fp": 0,
+        "tn": 67
+      },
+      "different_subtype_negative": {
+        "positive": 0,
+        "negative": 78,
+        "tp": 0,
+        "fn": 0,
+        "fp": 0,
+        "tn": 78
+      },
+      "threshold": 0.9348657131195068
+    },
+    "jepa": {
+      "all": {
+        "positive": 168,
+        "negative": 168,
+        "tp": 58,
+        "fn": 110,
+        "fp": 0,
+        "tn": 168
+      },
+      "same_template_negative": {
+        "positive": 0,
+        "negative": 23,
+        "tp": 0,
+        "fn": 0,
+        "fp": 0,
+        "tn": 23
+      },
+      "same_subtype_different_template_negative": {
+        "positive": 0,
+        "negative": 67,
+        "tp": 0,
+        "fn": 0,
+        "fp": 0,
+        "tn": 67
+      },
+      "different_subtype_negative": {
+        "positive": 0,
+        "negative": 78,
+        "tp": 0,
+        "fn": 0,
+        "fp": 0,
+        "tn": 78
+      },
+      "threshold": 0.8305856585502625
+    }
+  },
+  "distinct_physical_instance_pairs_by_negative_kind": {
+    "same_asset_template": 2,
+    "same_subtype_different_template": 3,
+    "different_subtype": 5
+  }
+}

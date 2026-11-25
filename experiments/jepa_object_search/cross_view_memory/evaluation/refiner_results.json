@@ -1,0 +1,32 @@
+{
+  "training_pair_counts": {
+    "same_instance": 27604,
+    "distinct_same_asset": 6377,
+    "distinct_different_asset": 21227
+  },
+  "pair_threshold": 0.7997002601623535,
+  "val": {
+    "positive": 5750,
+    "negative": 5750,
+    "tp": 2024,
+    "fp": 287,
+    "tpr": 0.352,
+    "fpr": 0.04991304347826087,
+    "auroc": 0.8156112211720227,
+    "average_precision": 0.8130845563024579,
+    "same_template_different": 1249,
+    "same_template_wrongly_merged": 143
+  },
+  "test": {
+    "positive": 15121,
+    "negative": 15121,
+    "tp": 5853,
+    "fp": 1125,
+    "tpr": 0.3870775742345083,
+    "fpr": 0.07439984128033861,
+    "auroc": 0.811146437497304,
+    "average_precision": 0.7938883649921256,
+    "same_template_different": 4270,
+    "same_template_wrongly_merged": 858
+  }
+}

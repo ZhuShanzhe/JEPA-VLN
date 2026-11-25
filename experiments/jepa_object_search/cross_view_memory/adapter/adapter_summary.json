@@ -1,0 +1,52 @@
+{
+  "adapter": "reid_agent:ReIDFrontier",
+  "native_interface_checks_passed": 10,
+  "original_interpreter_to_real_policy_worker_passed": true,
+  "model_sha256": "ecb9698afbc4dc79d590cfb80bfeb5bc522c0103e21f90a4fd97f9249557eb21",
+  "paid_requests": 0,
+  "checked_archived_reports": 3,
+  "reports_with_independent_native_current_box": 0,
+  "supplementary_detector": "GroundingDINO Swin-T OGC, official pretrained local weights",
+  "detector_box_threshold": 0.35,
+  "detector_text_threshold": 0.25,
+  "heading_source": "Accumulated observed actions, standard 30-degree turn; source and target poses cancel the initial azimuth.",
+  "outcome_definition": "No independently labeled identities or counterfactual navigation outcomes in these diagnostic frames.",
+  "archived_pairs": [
+    {
+      "object": "clock",
+      "step": 102,
+      "heading_change_deg": 30.0,
+      "candidates": 1,
+      "scores": [
+        0.0015332
+      ],
+      "threshold": 0.8305856585502625,
+      "above_threshold": 0
+    },
+    {
+      "object": "painting",
+      "step": 238,
+      "heading_change_deg": 60.0,
+      "candidates": 2,
+      "scores": [
+        0.0176657,
+        0.0084901
+      ],
+      "threshold": 0.8305856585502625,
+      "above_threshold": 0
+    },
+    {
+      "object": "painting",
+      "step": 252,
+      "heading_change_deg": -180.0,
+      "candidates": 3,
+      "scores": [
+        0.0005026,
+        0.0010833,
+        0.0002415
+      ],
+      "threshold": 0.8305856585502625,
+      "above_threshold": 0
+    }
+  ]
+}

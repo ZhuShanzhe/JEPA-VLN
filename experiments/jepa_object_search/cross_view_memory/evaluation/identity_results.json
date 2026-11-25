@@ -1,0 +1,180 @@
+{
+  "distinct_test_assets": 503,
+  "test_assets_present_in_training": 89,
+  "paired_subgroups": {
+    "same_asset_physical_impostor": {
+      "frozen": {
+        "repeats": 0,
+        "recognized": 0,
+        "different": 4270,
+        "wrongly_merged": 601
+      },
+      "direct": {
+        "repeats": 0,
+        "recognized": 0,
+        "different": 4270,
+        "wrongly_merged": 911
+      },
+      "jepa": {
+        "repeats": 0,
+        "recognized": 0,
+        "different": 4270,
+        "wrongly_merged": 882
+      }
+    },
+    "different_asset_physical_impostor": {
+      "frozen": {
+        "repeats": 0,
+        "recognized": 0,
+        "different": 10851,
+        "wrongly_merged": 89
+      },
+      "direct": {
+        "repeats": 0,
+        "recognized": 0,
+        "different": 10851,
+        "wrongly_merged": 237
+      },
+      "jepa": {
+        "repeats": 0,
+        "recognized": 0,
+        "different": 10851,
+        "wrongly_merged": 265
+      }
+    },
+    "both_assets_absent_from_train": {
+      "frozen": {
+        "repeats": 12607,
+        "recognized": 2500,
+        "different": 11489,
+        "wrongly_merged": 570
+      },
+      "direct": {
+        "repeats": 12607,
+        "recognized": 5339,
+        "different": 11489,
+        "wrongly_merged": 939
+      },
+      "jepa": {
+        "repeats": 12607,
+        "recognized": 4807,
+        "different": 11489,
+        "wrongly_merged": 939
+      }
+    },
+    "category_clock": {
+      "frozen": {
+        "repeats": 0,
+        "recognized": 0,
+        "different": 0,
+        "wrongly_merged": 0
+      },
+      "direct": {
+        "repeats": 0,
+        "recognized": 0,
+        "different": 0,
+        "wrongly_merged": 0
+      },
+      "jepa": {
+        "repeats": 0,
+        "recognized": 0,
+        "different": 0,
+        "wrongly_merged": 0
+      }
+    },
+    "category_wall_art": {
+      "frozen": {
+        "repeats": 1258,
+        "recognized": 258,
+        "different": 1258,
+        "wrongly_merged": 40
+      },
+      "direct": {
+        "repeats": 1258,
+        "recognized": 682,
+        "different": 1258,
+        "wrongly_merged": 63
+      },
+      "jepa": {
+        "repeats": 1258,
+        "recognized": 508,
+        "different": 1258,
+        "wrongly_merged": 76
+      }
+    },
+    "category_picture_frame": {
+      "frozen": {
+        "repeats": 156,
+        "recognized": 4,
+        "different": 156,
+        "wrongly_merged": 0
+      },
+      "direct": {
+        "repeats": 156,
+        "recognized": 28,
+        "different": 156,
+        "wrongly_merged": 4
+      },
+      "jepa": {
+        "repeats": 156,
+        "recognized": 4,
+        "different": 156,
+        "wrongly_merged": 0
+      }
+    },
+    "category_mirror": {
+      "frozen": {
+        "repeats": 802,
+        "recognized": 110,
+        "different": 802,
+        "wrongly_merged": 13
+      },
+      "direct": {
+        "repeats": 802,
+        "recognized": 324,
+        "different": 802,
+        "wrongly_merged": 46
+      },
+      "jepa": {
+        "repeats": 802,
+        "recognized": 237,
+        "different": 802,
+        "wrongly_merged": 27
+      }
+    },
+    "category_chair": {
+      "frozen": {
+        "repeats": 1756,
+        "recognized": 314,
+        "different": 1756,
+        "wrongly_merged": 94
+      },
+      "direct": {
+        "repeats": 1756,
+        "recognized": 572,
+        "different": 1756,
+        "wrongly_merged": 63
+      },
+      "jepa": {
+        "repeats": 1756,
+        "recognized": 690,
+        "different": 1756,
+        "wrongly_merged": 169
+      }
+    }
+  },
+  "counterfactual_background": {
+    "real_observations": {
+      "repeats": 15121,
+      "recognized": 5663,
+      "different": 15121,
+      "wrongly_merged": 1147
+    },
+    "background_replaced": {
+      "repeats": 15121,
+      "recognized": 4495,
+      "different": 15121,
+      "wrongly_merged": 2347
+    }
+  }
+}

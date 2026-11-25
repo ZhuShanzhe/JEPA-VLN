@@ -1,0 +1,1478 @@
+{
+  "protocol": "5000 paired draws of held-out houses; evaluation pair thresholds fixed by validation. Columns are recall and false-merge rate. Rows per interval are [low, high].",
+  "number_test_houses": 16,
+  "summaries": {
+    "frozen": {
+      "all_pairs": {
+        "positives": 15121,
+        "negatives": 15121,
+        "correct_matches": 2907,
+        "false_matches": 690,
+        "recall": 0.19224918986839495,
+        "false_merge": 0.04563190265194101
+      },
+      "per_category": {
+        "basket": {
+          "positives": 132,
+          "negatives": 132,
+          "correct_matches": 12,
+          "false_matches": 0,
+          "recall": 0.09090909090909091,
+          "false_merge": 0.0
+        },
+        "bathtub": {
+          "positives": 158,
+          "negatives": 158,
+          "correct_matches": 57,
+          "false_matches": 2,
+          "recall": 0.36075949367088606,
+          "false_merge": 0.012658227848101266
+        },
+        "bed": {
+          "positives": 728,
+          "negatives": 728,
+          "correct_matches": 130,
+          "false_matches": 56,
+          "recall": 0.17857142857142858,
+          "false_merge": 0.07692307692307693
+        },
+        "bench": {
+          "positives": 456,
+          "negatives": 456,
+          "correct_matches": 98,
+          "false_matches": 8,
+          "recall": 0.2149122807017544,
+          "false_merge": 0.017543859649122806
+        },
+        "book": {
+          "positives": 504,
+          "negatives": 504,
+          "correct_matches": 2,
+          "false_matches": 0,
+          "recall": 0.003968253968253968,
+          "false_merge": 0.0
+        },
+        "bookcase": {
+          "positives": 679,
+          "negatives": 679,
+          "correct_matches": 109,
+          "false_matches": 36,
+          "recall": 0.16053019145802652,
+          "false_merge": 0.053019145802650956
+        },
+        "cabinet": {
+          "positives": 823,
+          "negatives": 823,
+          "correct_matches": 124,
+          "false_matches": 9,
+          "recall": 0.15066828675577157,
+          "false_merge": 0.010935601458080195
+        },
+        "ceiling_lamp": {
+          "positives": 1148,
+          "negatives": 1148,
+          "correct_matches": 326,
+          "false_matches": 55,
+          "recall": 0.28397212543554007,
+          "false_merge": 0.04790940766550523
+        },
+        "chair": {
+          "positives": 1756,
+          "negatives": 1756,
+          "correct_matches": 314,
+          "false_matches": 94,
+          "recall": 0.1788154897494305,
+          "false_merge": 0.05353075170842825
+        },
+        "floor_lamp": {
+          "positives": 228,
+          "negatives": 228,
+          "correct_matches": 12,
+          "false_matches": 1,
+          "recall": 0.05263157894736842,
+          "false_merge": 0.0043859649122807015
+        },
+        "mirror": {
+          "positives": 802,
+          "negatives": 802,
+          "correct_matches": 110,
+          "false_matches": 13,
+          "recall": 0.1371571072319202,
+          "false_merge": 0.016209476309226933
+        },
+        "picture_frame": {
+          "positives": 156,
+          "negatives": 156,
+          "correct_matches": 4,
+          "false_matches": 0,
+          "recall": 0.02564102564102564,
+          "false_merge": 0.0
+        },
+        "plant": {
+          "positives": 414,
+          "negatives": 414,
+          "correct_matches": 86,
+          "false_matches": 55,
+          "recall": 0.20772946859903382,
+          "false_merge": 0.13285024154589373
+        },
+        "potted_plant": {
+          "positives": 1164,
+          "negatives": 1164,
+          "correct_matches": 172,
+          "false_matches": 10,
+          "recall": 0.14776632302405499,
+          "false_merge": 0.00859106529209622
+        },
+        "refrigerator": {
+          "positives": 110,
+          "negatives": 110,
+          "correct_matches": 8,
+          "false_matches": 4,
+          "recall": 0.07272727272727272,
+          "false_merge": 0.03636363636363636
+        },
+        "shelf": {
+          "positives": 172,
+          "negatives": 172,
+          "correct_matches": 6,
+          "false_matches": 0,
+          "recall": 0.03488372093023256,
+          "false_merge": 0.0
+        },
+        "sofa": {
+          "positives": 968,
+          "negatives": 968,
+          "correct_matches": 223,
+          "false_matches": 60,
+          "recall": 0.2303719008264463,
+          "false_merge": 0.06198347107438017
+        },
+        "stool": {
+          "positives": 1002,
+          "negatives": 1002,
+          "correct_matches": 184,
+          "false_matches": 146,
+          "recall": 0.18363273453093812,
+          "false_merge": 0.14570858283433133
+        },
+        "table": {
+          "positives": 1672,
+          "negatives": 1672,
+          "correct_matches": 460,
+          "false_matches": 16,
+          "recall": 0.2751196172248804,
+          "false_merge": 0.009569377990430622
+        },
+        "television_receiver": {
+          "positives": 542,
+          "negatives": 542,
+          "correct_matches": 156,
+          "false_matches": 61,
+          "recall": 0.2878228782287823,
+          "false_merge": 0.11254612546125461
+        },
+        "toilet": {
+          "positives": 111,
+          "negatives": 111,
+          "correct_matches": 44,
+          "false_matches": 24,
+          "recall": 0.3963963963963964,
+          "false_merge": 0.21621621621621623
+        },
+        "vase": {
+          "positives": 138,
+          "negatives": 138,
+          "correct_matches": 12,
+          "false_matches": 0,
+          "recall": 0.08695652173913043,
+          "false_merge": 0.0
+        },
+        "wall_art": {
+          "positives": 1258,
+          "negatives": 1258,
+          "correct_matches": 258,
+          "false_matches": 40,
+          "recall": 0.20508744038155802,
+          "false_merge": 0.03179650238473768
+        }
+      },
+      "recall_and_false_merge_CI95": [
+        [
+          0.16623921865083097,
+          0.22110253948436026
+        ],
+        [
+          0.030609163178685908,
+          0.059951661310277356
+        ]
+      ],
+      "by_asset": {
+        "impostor_same_asset": {
+          "positives": 0,
+          "negatives": 4270,
+          "correct_matches": 0,
+          "false_matches": 601,
+          "recall": null,
+          "false_merge": 0.14074941451990633
+        },
+        "impostor_different_asset": {
+          "positives": 0,
+          "negatives": 10851,
+          "correct_matches": 0,
+          "false_matches": 89,
+          "recall": null,
+          "false_merge": 0.008202009031425674
+        },
+        "both_assets_unseen_in_training": {
+          "positives": 12607,
+          "negatives": 11489,
+          "correct_matches": 2500,
+          "false_matches": 570,
+          "recall": 0.19830253034028714,
+          "false_merge": 0.04961267299155714
+        },
+        "same_instance_unseen_asset": {
+          "positives": 12607,
+          "negatives": 0,
+          "correct_matches": 2500,
+          "false_matches": 0,
+          "recall": 0.19830253034028714,
+          "false_merge": null
+        }
+      }
+    },
+    "object": {
+      "all_pairs": {
+        "positives": 15121,
+        "negatives": 15121,
+        "correct_matches": 2504,
+        "false_matches": 624,
+        "recall": 0.16559751339197143,
+        "false_merge": 0.04126711196349448
+      },
+      "per_category": {
+        "basket": {
+          "positives": 132,
+          "negatives": 132,
+          "correct_matches": 4,
+          "false_matches": 0,
+          "recall": 0.030303030303030304,
+          "false_merge": 0.0
+        },
+        "bathtub": {
+          "positives": 158,
+          "negatives": 158,
+          "correct_matches": 59,
+          "false_matches": 3,
+          "recall": 0.37341772151898733,
+          "false_merge": 0.0189873417721519
+        },
+        "bed": {
+          "positives": 728,
+          "negatives": 728,
+          "correct_matches": 128,
+          "false_matches": 73,
+          "recall": 0.17582417582417584,
+          "false_merge": 0.10027472527472528
+        },
+        "bench": {
+          "positives": 456,
+          "negatives": 456,
+          "correct_matches": 80,
+          "false_matches": 7,
+          "recall": 0.17543859649122806,
+          "false_merge": 0.015350877192982455
+        },
+        "book": {
+          "positives": 504,
+          "negatives": 504,
+          "correct_matches": 2,
+          "false_matches": 0,
+          "recall": 0.003968253968253968,
+          "false_merge": 0.0
+        },
+        "bookcase": {
+          "positives": 679,
+          "negatives": 679,
+          "correct_matches": 103,
+          "false_matches": 31,
+          "recall": 0.15169366715758467,
+          "false_merge": 0.045655375552282766
+        },
+        "cabinet": {
+          "positives": 823,
+          "negatives": 823,
+          "correct_matches": 110,
+          "false_matches": 9,
+          "recall": 0.1336573511543135,
+          "false_merge": 0.010935601458080195
+        },
+        "ceiling_lamp": {
+          "positives": 1148,
+          "negatives": 1148,
+          "correct_matches": 324,
+          "false_matches": 69,
+          "recall": 0.28222996515679444,
+          "false_merge": 0.06010452961672474
+        },
+        "chair": {
+          "positives": 1756,
+          "negatives": 1756,
+          "correct_matches": 234,
+          "false_matches": 70,
+          "recall": 0.13325740318906606,
+          "false_merge": 0.03986332574031891
+        },
+        "floor_lamp": {
+          "positives": 228,
+          "negatives": 228,
+          "correct_matches": 8,
+          "false_matches": 1,
+          "recall": 0.03508771929824561,
+          "false_merge": 0.0043859649122807015
+        },
+        "mirror": {
+          "positives": 802,
+          "negatives": 802,
+          "correct_matches": 84,
+          "false_matches": 10,
+          "recall": 0.10473815461346633,
+          "false_merge": 0.012468827930174564
+        },
+        "picture_frame": {
+          "positives": 156,
+          "negatives": 156,
+          "correct_matches": 2,
+          "false_matches": 0,
+          "recall": 0.01282051282051282,
+          "false_merge": 0.0
+        },
+        "plant": {
+          "positives": 414,
+          "negatives": 414,
+          "correct_matches": 76,
+          "false_matches": 40,
+          "recall": 0.18357487922705315,
+          "false_merge": 0.0966183574879227
+        },
+        "potted_plant": {
+          "positives": 1164,
+          "negatives": 1164,
+          "correct_matches": 128,
+          "false_matches": 0,
+          "recall": 0.10996563573883161,
+          "false_merge": 0.0
+        },
+        "refrigerator": {
+          "positives": 110,
+          "negatives": 110,
+          "correct_matches": 2,
+          "false_matches": 4,
+          "recall": 0.01818181818181818,
+          "false_merge": 0.03636363636363636
+        },
+        "shelf": {
+          "positives": 172,
+          "negatives": 172,
+          "correct_matches": 4,
+          "false_matches": 0,
+          "recall": 0.023255813953488372,
+          "false_merge": 0.0
+        },
+        "sofa": {
+          "positives": 968,
+          "negatives": 968,
+          "correct_matches": 185,
+          "false_matches": 47,
+          "recall": 0.19111570247933884,
+          "false_merge": 0.04855371900826446
+        },
+        "stool": {
+          "positives": 1002,
+          "negatives": 1002,
+          "correct_matches": 147,
+          "false_matches": 122,
+          "recall": 0.1467065868263473,
+          "false_merge": 0.1217564870259481
+        },
+        "table": {
+          "positives": 1672,
+          "negatives": 1672,
+          "correct_matches": 412,
+          "false_matches": 10,
+          "recall": 0.24641148325358853,
+          "false_merge": 0.005980861244019139
+        },
+        "television_receiver": {
+          "positives": 542,
+          "negatives": 542,
+          "correct_matches": 152,
+          "false_matches": 73,
+          "recall": 0.28044280442804426,
+          "false_merge": 0.13468634686346864
+        },
+        "toilet": {
+          "positives": 111,
+          "negatives": 111,
+          "correct_matches": 34,
+          "false_matches": 28,
+          "recall": 0.3063063063063063,
+          "false_merge": 0.25225225225225223
+        },
+        "vase": {
+          "positives": 138,
+          "negatives": 138,
+          "correct_matches": 12,
+          "false_matches": 0,
+          "recall": 0.08695652173913043,
+          "false_merge": 0.0
+        },
+        "wall_art": {
+          "positives": 1258,
+          "negatives": 1258,
+          "correct_matches": 214,
+          "false_matches": 27,
+          "recall": 0.17011128775834658,
+          "false_merge": 0.021462639109697933
+        }
+      },
+      "recall_and_false_merge_CI95": [
+        [
+          0.14145504098783063,
+          0.1912980981945367
+        ],
+        [
+          0.02704663506035217,
+          0.05516328935710647
+        ]
+      ],
+      "by_asset": {
+        "impostor_same_asset": {
+          "positives": 0,
+          "negatives": 4270,
+          "correct_matches": 0,
+          "false_matches": 528,
+          "recall": null,
+          "false_merge": 0.12365339578454333
+        },
+        "impostor_different_asset": {
+          "positives": 0,
+          "negatives": 10851,
+          "correct_matches": 0,
+          "false_matches": 96,
+          "recall": null,
+          "false_merge": 0.008847110865358032
+        },
+        "both_assets_unseen_in_training": {
+          "positives": 12607,
+          "negatives": 11489,
+          "correct_matches": 2108,
+          "false_matches": 484,
+          "recall": 0.1672086935829301,
+          "false_merge": 0.04212725215423448
+        },
+        "same_instance_unseen_asset": {
+          "positives": 12607,
+          "negatives": 0,
+          "correct_matches": 2108,
+          "false_matches": 0,
+          "recall": 0.1672086935829301,
+          "false_merge": null
+        }
+      }
+    },
+    "context": {
+      "all_pairs": {
+        "positives": 15121,
+        "negatives": 15121,
+        "correct_matches": 3154,
+        "false_matches": 780,
+        "recall": 0.20858408835394485,
+        "false_merge": 0.0515838899543681
+      },
+      "per_category": {
+        "basket": {
+          "positives": 132,
+          "negatives": 132,
+          "correct_matches": 30,
+          "false_matches": 2,
+          "recall": 0.22727272727272727,
+          "false_merge": 0.015151515151515152
+        },
+        "bathtub": {
+          "positives": 158,
+          "negatives": 158,
+          "correct_matches": 39,
+          "false_matches": 2,
+          "recall": 0.2468354430379747,
+          "false_merge": 0.012658227848101266
+        },
+        "bed": {
+          "positives": 728,
+          "negatives": 728,
+          "correct_matches": 94,
+          "false_matches": 31,
+          "recall": 0.12912087912087913,
+          "false_merge": 0.042582417582417584
+        },
+        "bench": {
+          "positives": 456,
+          "negatives": 456,
+          "correct_matches": 108,
+          "false_matches": 21,
+          "recall": 0.23684210526315788,
+          "false_merge": 0.046052631578947366
+        },
+        "book": {
+          "positives": 504,
+          "negatives": 504,
+          "correct_matches": 64,
+          "false_matches": 8,
+          "recall": 0.12698412698412698,
+          "false_merge": 0.015873015873015872
+        },
+        "bookcase": {
+          "positives": 679,
+          "negatives": 679,
+          "correct_matches": 135,
+          "false_matches": 50,
+          "recall": 0.19882179675994108,
+          "false_merge": 0.07363770250368189
+        },
+        "cabinet": {
+          "positives": 823,
+          "negatives": 823,
+          "correct_matches": 165,
+          "false_matches": 10,
+          "recall": 0.20048602673147023,
+          "false_merge": 0.012150668286755772
+        },
+        "ceiling_lamp": {
+          "positives": 1148,
+          "negatives": 1148,
+          "correct_matches": 162,
+          "false_matches": 52,
+          "recall": 0.14111498257839722,
+          "false_merge": 0.04529616724738676
+        },
+        "chair": {
+          "positives": 1756,
+          "negatives": 1756,
+          "correct_matches": 362,
+          "false_matches": 116,
+          "recall": 0.2061503416856492,
+          "false_merge": 0.06605922551252848
+        },
+        "floor_lamp": {
+          "positives": 228,
+          "negatives": 228,
+          "correct_matches": 42,
+          "false_matches": 9,
+          "recall": 0.18421052631578946,
+          "false_merge": 0.039473684210526314
+        },
+        "mirror": {
+          "positives": 802,
+          "negatives": 802,
+          "correct_matches": 169,
+          "false_matches": 23,
+          "recall": 0.21072319201995013,
+          "false_merge": 0.028678304239401497
+        },
+        "picture_frame": {
+          "positives": 156,
+          "negatives": 156,
+          "correct_matches": 28,
+          "false_matches": 0,
+          "recall": 0.1794871794871795,
+          "false_merge": 0.0
+        },
+        "plant": {
+          "positives": 414,
+          "negatives": 414,
+          "correct_matches": 114,
+          "false_matches": 84,
+          "recall": 0.2753623188405797,
+          "false_merge": 0.2028985507246377
+        },
+        "potted_plant": {
+          "positives": 1164,
+          "negatives": 1164,
+          "correct_matches": 282,
+          "false_matches": 39,
+          "recall": 0.2422680412371134,
+          "false_merge": 0.03350515463917526
+        },
+        "refrigerator": {
+          "positives": 110,
+          "negatives": 110,
+          "correct_matches": 18,
+          "false_matches": 3,
+          "recall": 0.16363636363636364,
+          "false_merge": 0.02727272727272727
+        },
+        "shelf": {
+          "positives": 172,
+          "negatives": 172,
+          "correct_matches": 32,
+          "false_matches": 10,
+          "recall": 0.18604651162790697,
+          "false_merge": 0.05813953488372093
+        },
+        "sofa": {
+          "positives": 968,
+          "negatives": 968,
+          "correct_matches": 230,
+          "false_matches": 60,
+          "recall": 0.23760330578512398,
+          "false_merge": 0.06198347107438017
+        },
+        "stool": {
+          "positives": 1002,
+          "negatives": 1002,
+          "correct_matches": 193,
+          "false_matches": 150,
+          "recall": 0.19261477045908185,
+          "false_merge": 0.1497005988023952
+        },
+        "table": {
+          "positives": 1672,
+          "negatives": 1672,
+          "correct_matches": 412,
+          "false_matches": 31,
+          "recall": 0.24641148325358853,
+          "false_merge": 0.01854066985645933
+        },
+        "television_receiver": {
+          "positives": 542,
+          "negatives": 542,
+          "correct_matches": 98,
+          "false_matches": 4,
+          "recall": 0.18081180811808117,
+          "false_merge": 0.007380073800738007
+        },
+        "toilet": {
+          "positives": 111,
+          "negatives": 111,
+          "correct_matches": 39,
+          "false_matches": 17,
+          "recall": 0.35135135135135137,
+          "false_merge": 0.15315315315315314
+        },
+        "vase": {
+          "positives": 138,
+          "negatives": 138,
+          "correct_matches": 30,
+          "false_matches": 0,
+          "recall": 0.21739130434782608,
+          "false_merge": 0.0
+        },
+        "wall_art": {
+          "positives": 1258,
+          "negatives": 1258,
+          "correct_matches": 308,
+          "false_matches": 58,
+          "recall": 0.24483306836248012,
+          "false_merge": 0.046104928457869634
+        }
+      },
+      "recall_and_false_merge_CI95": [
+        [
+          0.18060430838450392,
+          0.2364719288397752
+        ],
+        [
+          0.03611622260542644,
+          0.06714832506930635
+        ]
+      ],
+      "by_asset": {
+        "impostor_same_asset": {
+          "positives": 0,
+          "negatives": 4270,
+          "correct_matches": 0,
+          "false_matches": 605,
+          "recall": null,
+          "false_merge": 0.14168618266978922
+        },
+        "impostor_different_asset": {
+          "positives": 0,
+          "negatives": 10851,
+          "correct_matches": 0,
+          "false_matches": 175,
+          "recall": null,
+          "false_merge": 0.016127545848308913
+        },
+        "both_assets_unseen_in_training": {
+          "positives": 12607,
+          "negatives": 11489,
+          "correct_matches": 2681,
+          "false_matches": 684,
+          "recall": 0.21265963353692394,
+          "false_merge": 0.05953520758986857
+        },
+        "same_instance_unseen_asset": {
+          "positives": 12607,
+          "negatives": 0,
+          "correct_matches": 2681,
+          "false_matches": 0,
+          "recall": 0.21265963353692394,
+          "false_merge": null
+        }
+      }
+    },
+    "direct": {
+      "all_pairs": {
+        "positives": 15121,
+        "negatives": 15121,
+        "correct_matches": 6401,
+        "false_matches": 1148,
+        "recall": 0.4233185635870643,
+        "false_merge": 0.07592090470206997
+      },
+      "per_category": {
+        "basket": {
+          "positives": 132,
+          "negatives": 132,
+          "correct_matches": 64,
+          "false_matches": 4,
+          "recall": 0.48484848484848486,
+          "false_merge": 0.030303030303030304
+        },
+        "bathtub": {
+          "positives": 158,
+          "negatives": 158,
+          "correct_matches": 112,
+          "false_matches": 2,
+          "recall": 0.7088607594936709,
+          "false_merge": 0.012658227848101266
+        },
+        "bed": {
+          "positives": 728,
+          "negatives": 728,
+          "correct_matches": 160,
+          "false_matches": 43,
+          "recall": 0.21978021978021978,
+          "false_merge": 0.059065934065934064
+        },
+        "bench": {
+          "positives": 456,
+          "negatives": 456,
+          "correct_matches": 180,
+          "false_matches": 9,
+          "recall": 0.39473684210526316,
+          "false_merge": 0.019736842105263157
+        },
+        "book": {
+          "positives": 504,
+          "negatives": 504,
+          "correct_matches": 82,
+          "false_matches": 7,
+          "recall": 0.1626984126984127,
+          "false_merge": 0.013888888888888888
+        },
+        "bookcase": {
+          "positives": 679,
+          "negatives": 679,
+          "correct_matches": 289,
+          "false_matches": 100,
+          "recall": 0.4256259204712813,
+          "false_merge": 0.14727540500736377
+        },
+        "cabinet": {
+          "positives": 823,
+          "negatives": 823,
+          "correct_matches": 422,
+          "false_matches": 73,
+          "recall": 0.5127582017010935,
+          "false_merge": 0.08869987849331713
+        },
+        "ceiling_lamp": {
+          "positives": 1148,
+          "negatives": 1148,
+          "correct_matches": 552,
+          "false_matches": 123,
+          "recall": 0.4808362369337979,
+          "false_merge": 0.10714285714285714
+        },
+        "chair": {
+          "positives": 1756,
+          "negatives": 1756,
+          "correct_matches": 572,
+          "false_matches": 63,
+          "recall": 0.32574031890660593,
+          "false_merge": 0.035876993166287015
+        },
+        "floor_lamp": {
+          "positives": 228,
+          "negatives": 228,
+          "correct_matches": 91,
+          "false_matches": 49,
+          "recall": 0.3991228070175439,
+          "false_merge": 0.2149122807017544
+        },
+        "mirror": {
+          "positives": 802,
+          "negatives": 802,
+          "correct_matches": 324,
+          "false_matches": 46,
+          "recall": 0.40399002493765584,
+          "false_merge": 0.057356608478802994
+        },
+        "picture_frame": {
+          "positives": 156,
+          "negatives": 156,
+          "correct_matches": 28,
+          "false_matches": 4,
+          "recall": 0.1794871794871795,
+          "false_merge": 0.02564102564102564
+        },
+        "plant": {
+          "positives": 414,
+          "negatives": 414,
+          "correct_matches": 196,
+          "false_matches": 128,
+          "recall": 0.47342995169082125,
+          "false_merge": 0.30917874396135264
+        },
+        "potted_plant": {
+          "positives": 1164,
+          "negatives": 1164,
+          "correct_matches": 514,
+          "false_matches": 30,
+          "recall": 0.4415807560137457,
+          "false_merge": 0.02577319587628866
+        },
+        "refrigerator": {
+          "positives": 110,
+          "negatives": 110,
+          "correct_matches": 32,
+          "false_matches": 11,
+          "recall": 0.2909090909090909,
+          "false_merge": 0.1
+        },
+        "shelf": {
+          "positives": 172,
+          "negatives": 172,
+          "correct_matches": 42,
+          "false_matches": 12,
+          "recall": 0.2441860465116279,
+          "false_merge": 0.06976744186046512
+        },
+        "sofa": {
+          "positives": 968,
+          "negatives": 968,
+          "correct_matches": 516,
+          "false_matches": 164,
+          "recall": 0.5330578512396694,
+          "false_merge": 0.16942148760330578
+        },
+        "stool": {
+          "positives": 1002,
+          "negatives": 1002,
+          "correct_matches": 161,
+          "false_matches": 50,
+          "recall": 0.16067864271457086,
+          "false_merge": 0.0499001996007984
+        },
+        "table": {
+          "positives": 1672,
+          "negatives": 1672,
+          "correct_matches": 1084,
+          "false_matches": 86,
+          "recall": 0.6483253588516746,
+          "false_merge": 0.05143540669856459
+        },
+        "television_receiver": {
+          "positives": 542,
+          "negatives": 542,
+          "correct_matches": 228,
+          "false_matches": 76,
+          "recall": 0.42066420664206644,
+          "false_merge": 0.14022140221402213
+        },
+        "toilet": {
+          "positives": 111,
+          "negatives": 111,
+          "correct_matches": 18,
+          "false_matches": 4,
+          "recall": 0.16216216216216217,
+          "false_merge": 0.036036036036036036
+        },
+        "vase": {
+          "positives": 138,
+          "negatives": 138,
+          "correct_matches": 52,
+          "false_matches": 1,
+          "recall": 0.37681159420289856,
+          "false_merge": 0.007246376811594203
+        },
+        "wall_art": {
+          "positives": 1258,
+          "negatives": 1258,
+          "correct_matches": 682,
+          "false_matches": 63,
+          "recall": 0.5421303656597775,
+          "false_merge": 0.050079491255961846
+        }
+      },
+      "recall_and_false_merge_CI95": [
+        [
+          0.3908461371311668,
+          0.45788460459384944
+        ],
+        [
+          0.051984734722572284,
+          0.10078635361947748
+        ]
+      ],
+      "by_asset": {
+        "impostor_same_asset": {
+          "positives": 0,
+          "negatives": 4270,
+          "correct_matches": 0,
+          "false_matches": 911,
+          "recall": null,
+          "false_merge": 0.21334894613583139
+        },
+        "impostor_different_asset": {
+          "positives": 0,
+          "negatives": 10851,
+          "correct_matches": 0,
+          "false_matches": 237,
+          "recall": null,
+          "false_merge": 0.02184130494885264
+        },
+        "both_assets_unseen_in_training": {
+          "positives": 12607,
+          "negatives": 11489,
+          "correct_matches": 5339,
+          "false_matches": 939,
+          "recall": 0.4234948837947172,
+          "false_merge": 0.08173035077030202
+        },
+        "same_instance_unseen_asset": {
+          "positives": 12607,
+          "negatives": 0,
+          "correct_matches": 5339,
+          "false_matches": 0,
+          "recall": 0.4234948837947172,
+          "false_merge": null
+        }
+      }
+    },
+    "jepa": {
+      "all_pairs": {
+        "positives": 15121,
+        "negatives": 15121,
+        "correct_matches": 5663,
+        "false_matches": 1147,
+        "recall": 0.3745122677071622,
+        "false_merge": 0.07585477150982078
+      },
+      "per_category": {
+        "basket": {
+          "positives": 132,
+          "negatives": 132,
+          "correct_matches": 30,
+          "false_matches": 0,
+          "recall": 0.22727272727272727,
+          "false_merge": 0.0
+        },
+        "bathtub": {
+          "positives": 158,
+          "negatives": 158,
+          "correct_matches": 88,
+          "false_matches": 4,
+          "recall": 0.5569620253164557,
+          "false_merge": 0.02531645569620253
+        },
+        "bed": {
+          "positives": 728,
+          "negatives": 728,
+          "correct_matches": 332,
+          "false_matches": 117,
+          "recall": 0.45604395604395603,
+          "false_merge": 0.16071428571428573
+        },
+        "bench": {
+          "positives": 456,
+          "negatives": 456,
+          "correct_matches": 202,
+          "false_matches": 12,
+          "recall": 0.44298245614035087,
+          "false_merge": 0.02631578947368421
+        },
+        "book": {
+          "positives": 504,
+          "negatives": 504,
+          "correct_matches": 22,
+          "false_matches": 1,
+          "recall": 0.04365079365079365,
+          "false_merge": 0.001984126984126984
+        },
+        "bookcase": {
+          "positives": 679,
+          "negatives": 679,
+          "correct_matches": 182,
+          "false_matches": 68,
+          "recall": 0.26804123711340205,
+          "false_merge": 0.10014727540500737
+        },
+        "cabinet": {
+          "positives": 823,
+          "negatives": 823,
+          "correct_matches": 323,
+          "false_matches": 49,
+          "recall": 0.39246658566221143,
+          "false_merge": 0.05953827460510328
+        },
+        "ceiling_lamp": {
+          "positives": 1148,
+          "negatives": 1148,
+          "correct_matches": 534,
+          "false_matches": 114,
+          "recall": 0.4651567944250871,
+          "false_merge": 0.09930313588850175
+        },
+        "chair": {
+          "positives": 1756,
+          "negatives": 1756,
+          "correct_matches": 690,
+          "false_matches": 169,
+          "recall": 0.3929384965831435,
+          "false_merge": 0.09624145785876993
+        },
+        "floor_lamp": {
+          "positives": 228,
+          "negatives": 228,
+          "correct_matches": 35,
+          "false_matches": 9,
+          "recall": 0.15350877192982457,
+          "false_merge": 0.039473684210526314
+        },
+        "mirror": {
+          "positives": 802,
+          "negatives": 802,
+          "correct_matches": 237,
+          "false_matches": 27,
+          "recall": 0.2955112219451372,
+          "false_merge": 0.03366583541147132
+        },
+        "picture_frame": {
+          "positives": 156,
+          "negatives": 156,
+          "correct_matches": 4,
+          "false_matches": 0,
+          "recall": 0.02564102564102564,
+          "false_merge": 0.0
+        },
+        "plant": {
+          "positives": 414,
+          "negatives": 414,
+          "correct_matches": 98,
+          "false_matches": 57,
+          "recall": 0.23671497584541062,
+          "false_merge": 0.13768115942028986
+        },
+        "potted_plant": {
+          "positives": 1164,
+          "negatives": 1164,
+          "correct_matches": 350,
+          "false_matches": 8,
+          "recall": 0.3006872852233677,
+          "false_merge": 0.006872852233676976
+        },
+        "refrigerator": {
+          "positives": 110,
+          "negatives": 110,
+          "correct_matches": 24,
+          "false_matches": 9,
+          "recall": 0.21818181818181817,
+          "false_merge": 0.08181818181818182
+        },
+        "shelf": {
+          "positives": 172,
+          "negatives": 172,
+          "correct_matches": 30,
+          "false_matches": 8,
+          "recall": 0.1744186046511628,
+          "false_merge": 0.046511627906976744
+        },
+        "sofa": {
+          "positives": 968,
+          "negatives": 968,
+          "correct_matches": 526,
+          "false_matches": 182,
+          "recall": 0.5433884297520661,
+          "false_merge": 0.18801652892561985
+        },
+        "stool": {
+          "positives": 1002,
+          "negatives": 1002,
+          "correct_matches": 135,
+          "false_matches": 67,
+          "recall": 0.1347305389221557,
+          "false_merge": 0.06686626746506986
+        },
+        "table": {
+          "positives": 1672,
+          "negatives": 1672,
+          "correct_matches": 1010,
+          "false_matches": 69,
+          "recall": 0.604066985645933,
+          "false_merge": 0.04126794258373206
+        },
+        "television_receiver": {
+          "positives": 542,
+          "negatives": 542,
+          "correct_matches": 240,
+          "false_matches": 93,
+          "recall": 0.44280442804428044,
+          "false_merge": 0.17158671586715868
+        },
+        "toilet": {
+          "positives": 111,
+          "negatives": 111,
+          "correct_matches": 33,
+          "false_matches": 7,
+          "recall": 0.2972972972972973,
+          "false_merge": 0.06306306306306306
+        },
+        "vase": {
+          "positives": 138,
+          "negatives": 138,
+          "correct_matches": 30,
+          "false_matches": 1,
+          "recall": 0.21739130434782608,
+          "false_merge": 0.007246376811594203
+        },
+        "wall_art": {
+          "positives": 1258,
+          "negatives": 1258,
+          "correct_matches": 508,
+          "false_matches": 76,
+          "recall": 0.40381558028616854,
+          "false_merge": 0.06041335453100159
+        }
+      },
+      "recall_and_false_merge_CI95": [
+        [
+          0.33581604706872675,
+          0.4182579803643939
+        ],
+        [
+          0.05375393723620191,
+          0.10155559597906574
+        ]
+      ],
+      "by_asset": {
+        "impostor_same_asset": {
+          "positives": 0,
+          "negatives": 4270,
+          "correct_matches": 0,
+          "false_matches": 882,
+          "recall": null,
+          "false_merge": 0.20655737704918034
+        },
+        "impostor_different_asset": {
+          "positives": 0,
+          "negatives": 10851,
+          "correct_matches": 0,
+          "false_matches": 265,
+          "recall": null,
+          "false_merge": 0.024421712284582064
+        },
+        "both_assets_unseen_in_training": {
+          "positives": 12607,
+          "negatives": 11489,
+          "correct_matches": 4807,
+          "false_matches": 939,
+          "recall": 0.3812961053383041,
+          "false_merge": 0.08173035077030202
+        },
+        "same_instance_unseen_asset": {
+          "positives": 12607,
+          "negatives": 0,
+          "correct_matches": 4807,
+          "false_matches": 0,
+          "recall": 0.3812961053383041,
+          "false_merge": null
+        }
+      }
+    },
+    "jepa_object": {
+      "all_pairs": {
+        "positives": 15121,
+        "negatives": 15121,
+        "correct_matches": 5211,
+        "false_matches": 1061,
+        "recall": 0.3446200648105284,
+        "false_merge": 0.07016731697639045
+      },
+      "per_category": {
+        "basket": {
+          "positives": 132,
+          "negatives": 132,
+          "correct_matches": 30,
+          "false_matches": 0,
+          "recall": 0.22727272727272727,
+          "false_merge": 0.0
+        },
+        "bathtub": {
+          "positives": 158,
+          "negatives": 158,
+          "correct_matches": 94,
+          "false_matches": 4,
+          "recall": 0.5949367088607594,
+          "false_merge": 0.02531645569620253
+        },
+        "bed": {
+          "positives": 728,
+          "negatives": 728,
+          "correct_matches": 266,
+          "false_matches": 111,
+          "recall": 0.36538461538461536,
+          "false_merge": 0.15247252747252749
+        },
+        "bench": {
+          "positives": 456,
+          "negatives": 456,
+          "correct_matches": 190,
+          "false_matches": 10,
+          "recall": 0.4166666666666667,
+          "false_merge": 0.021929824561403508
+        },
+        "book": {
+          "positives": 504,
+          "negatives": 504,
+          "correct_matches": 10,
+          "false_matches": 1,
+          "recall": 0.01984126984126984,
+          "false_merge": 0.001984126984126984
+        },
+        "bookcase": {
+          "positives": 679,
+          "negatives": 679,
+          "correct_matches": 178,
+          "false_matches": 65,
+          "recall": 0.2621502209131075,
+          "false_merge": 0.09572901325478646
+        },
+        "cabinet": {
+          "positives": 823,
+          "negatives": 823,
+          "correct_matches": 295,
+          "false_matches": 43,
+          "recall": 0.35844471445929527,
+          "false_merge": 0.05224787363304982
+        },
+        "ceiling_lamp": {
+          "positives": 1148,
+          "negatives": 1148,
+          "correct_matches": 494,
+          "false_matches": 105,
+          "recall": 0.43031358885017423,
+          "false_merge": 0.09146341463414634
+        },
+        "chair": {
+          "positives": 1756,
+          "negatives": 1756,
+          "correct_matches": 652,
+          "false_matches": 165,
+          "recall": 0.3712984054669704,
+          "false_merge": 0.09396355353075171
+        },
+        "floor_lamp": {
+          "positives": 228,
+          "negatives": 228,
+          "correct_matches": 22,
+          "false_matches": 6,
+          "recall": 0.09649122807017543,
+          "false_merge": 0.02631578947368421
+        },
+        "mirror": {
+          "positives": 802,
+          "negatives": 802,
+          "correct_matches": 217,
+          "false_matches": 32,
+          "recall": 0.27057356608478805,
+          "false_merge": 0.0399002493765586
+        },
+        "picture_frame": {
+          "positives": 156,
+          "negatives": 156,
+          "correct_matches": 4,
+          "false_matches": 0,
+          "recall": 0.02564102564102564,
+          "false_merge": 0.0
+        },
+        "plant": {
+          "positives": 414,
+          "negatives": 414,
+          "correct_matches": 116,
+          "false_matches": 65,
+          "recall": 0.28019323671497587,
+          "false_merge": 0.1570048309178744
+        },
+        "potted_plant": {
+          "positives": 1164,
+          "negatives": 1164,
+          "correct_matches": 340,
+          "false_matches": 11,
+          "recall": 0.2920962199312715,
+          "false_merge": 0.009450171821305841
+        },
+        "refrigerator": {
+          "positives": 110,
+          "negatives": 110,
+          "correct_matches": 22,
+          "false_matches": 9,
+          "recall": 0.2,
+          "false_merge": 0.08181818181818182
+        },
+        "shelf": {
+          "positives": 172,
+          "negatives": 172,
+          "correct_matches": 17,
+          "false_matches": 4,
+          "recall": 0.09883720930232558,
+          "false_merge": 0.023255813953488372
+        },
+        "sofa": {
+          "positives": 968,
+          "negatives": 968,
+          "correct_matches": 474,
+          "false_matches": 156,
+          "recall": 0.4896694214876033,
+          "false_merge": 0.16115702479338842
+        },
+        "stool": {
+          "positives": 1002,
+          "negatives": 1002,
+          "correct_matches": 112,
+          "false_matches": 56,
+          "recall": 0.11177644710578842,
+          "false_merge": 0.05588822355289421
+        },
+        "table": {
+          "positives": 1672,
+          "negatives": 1672,
+          "correct_matches": 940,
+          "false_matches": 54,
+          "recall": 0.562200956937799,
+          "false_merge": 0.03229665071770335
+        },
+        "television_receiver": {
+          "positives": 542,
+          "negatives": 542,
+          "correct_matches": 206,
+          "false_matches": 78,
+          "recall": 0.3800738007380074,
+          "false_merge": 0.14391143911439114
+        },
+        "toilet": {
+          "positives": 111,
+          "negatives": 111,
+          "correct_matches": 30,
+          "false_matches": 8,
+          "recall": 0.2702702702702703,
+          "false_merge": 0.07207207207207207
+        },
+        "vase": {
+          "positives": 138,
+          "negatives": 138,
+          "correct_matches": 30,
+          "false_matches": 1,
+          "recall": 0.21739130434782608,
+          "false_merge": 0.007246376811594203
+        },
+        "wall_art": {
+          "positives": 1258,
+          "negatives": 1258,
+          "correct_matches": 472,
+          "false_matches": 77,
+          "recall": 0.3751987281399046,
+          "false_merge": 0.06120826709062003
+        }
+      },
+      "recall_and_false_merge_CI95": [
+        [
+          0.3097643306857453,
+          0.38471309144696164
+        ],
+        [
+          0.050899069351217206,
+          0.09214790451806504
+        ]
+      ],
+      "by_asset": {
+        "impostor_same_asset": {
+          "positives": 0,
+          "negatives": 4270,
+          "correct_matches": 0,
+          "false_matches": 834,
+          "recall": null,
+          "false_merge": 0.19531615925058549
+        },
+        "impostor_different_asset": {
+          "positives": 0,
+          "negatives": 10851,
+          "correct_matches": 0,
+          "false_matches": 227,
+          "recall": null,
+          "false_merge": 0.020919730900377846
+        },
+        "both_assets_unseen_in_training": {
+          "positives": 12607,
+          "negatives": 11489,
+          "correct_matches": 4457,
+          "false_matches": 871,
+          "recall": 0.35353375109066393,
+          "false_merge": 0.07581164592218644
+        },
+        "same_instance_unseen_asset": {
+          "positives": 12607,
+          "negatives": 0,
+          "correct_matches": 4457,
+          "false_matches": 0,
+          "recall": 0.35353375109066393,
+          "false_merge": null
+        }
+      }
+    }
+  },
+  "jepa_minus_comparator_CI95": {
+    "direct": [
+      [
+        -0.08231993496274446,
+        -0.009943706307513017
+      ],
+      [
+        -0.019738678578451834,
+        0.02108936144998791
+      ]
+    ],
+    "frozen": [
+      [
+        0.1566392447321583,
+        0.20896262725938805
+      ],
+      [
+        0.014876115432103076,
+        0.04723706376341558
+      ]
+    ],
+    "jepa_object": [
+      [
+        0.023766556713149076,
+        0.03644669923121226
+      ],
+      [
+        0.00047265505786984904,
+        0.011027656033249855
+      ]
+    ]
+  }
+}

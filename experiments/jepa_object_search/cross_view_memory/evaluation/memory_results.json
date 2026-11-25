@@ -1,0 +1,152 @@
+{
+  "protocol": "first-memory-v1",
+  "calibration_first_sighting_merge_limit": 0.02,
+  "predictive_variant_selected_on_validation": "jepa",
+  "validation_houses": 6,
+  "test_houses": 16,
+  "test_house_category_streams": 190,
+  "methods": {
+    "frozen": {
+      "threshold": 0.9024263098835945,
+      "val": {
+        "first_encounters": 254,
+        "revisits": 1073,
+        "correct_revisit_matches": 43,
+        "first_encounters_wrongly_merged": 5,
+        "wrong_merges": 37,
+        "extra_records": 994,
+        "instances_represented_at_end": 253,
+        "records_at_end": 1247
+      },
+      "test": {
+        "first_encounters": 734,
+        "revisits": 2913,
+        "correct_revisit_matches": 127,
+        "first_encounters_wrongly_merged": 9,
+        "wrong_merges": 89,
+        "extra_records": 2698,
+        "instances_represented_at_end": 733,
+        "records_at_end": 3431
+      }
+    },
+    "jepa": {
+      "threshold": 0.9193373806774616,
+      "val": {
+        "first_encounters": 254,
+        "revisits": 1073,
+        "correct_revisit_matches": 232,
+        "first_encounters_wrongly_merged": 5,
+        "wrong_merges": 42,
+        "extra_records": 799,
+        "instances_represented_at_end": 254,
+        "records_at_end": 1053
+      },
+      "test": {
+        "first_encounters": 734,
+        "revisits": 2913,
+        "correct_revisit_matches": 667,
+        "first_encounters_wrongly_merged": 28,
+        "wrong_merges": 193,
+        "extra_records": 2059,
+        "instances_represented_at_end": 728,
+        "records_at_end": 2787
+      }
+    },
+    "direct": {
+      "threshold": 0.9932068362832069,
+      "val": {
+        "first_encounters": 254,
+        "revisits": 1073,
+        "correct_revisit_matches": 172,
+        "first_encounters_wrongly_merged": 4,
+        "wrong_merges": 27,
+        "extra_records": 874,
+        "instances_represented_at_end": 254,
+        "records_at_end": 1128
+      },
+      "test": {
+        "first_encounters": 734,
+        "revisits": 2913,
+        "correct_revisit_matches": 514,
+        "first_encounters_wrongly_merged": 22,
+        "wrong_merges": 137,
+        "extra_records": 2264,
+        "instances_represented_at_end": 732,
+        "records_at_end": 2996
+      }
+    },
+    "jepa_context_verifier": {
+      "threshold": 0.9396636709570885,
+      "val": {
+        "first_encounters": 254,
+        "revisits": 1073,
+        "correct_revisit_matches": 179,
+        "first_encounters_wrongly_merged": 3,
+        "wrong_merges": 25,
+        "extra_records": 869,
+        "instances_represented_at_end": 254,
+        "records_at_end": 1123
+      },
+      "test": {
+        "first_encounters": 734,
+        "revisits": 2913,
+        "correct_revisit_matches": 509,
+        "first_encounters_wrongly_merged": 19,
+        "wrong_merges": 103,
+        "extra_records": 2302,
+        "instances_represented_at_end": 733,
+        "records_at_end": 3035
+      }
+    }
+  },
+  "paired_selected_minus_reference": {
+    "direct": {
+      "correct_revisit_matches": {
+        "difference_pp": 5.25231719876416,
+        "house_bootstrap_95_pp": [
+          3.1526137289480776,
+          7.300091754770673
+        ]
+      },
+      "first_encounters_wrongly_merged": {
+        "difference_pp": 0.8174386920980926,
+        "house_bootstrap_95_pp": [
+          -1.1406979708509841,
+          3.41248635427491
+        ]
+      }
+    },
+    "frozen": {
+      "correct_revisit_matches": {
+        "difference_pp": 18.537590113285273,
+        "house_bootstrap_95_pp": [
+          15.876548248272732,
+          21.363542224122895
+        ]
+      },
+      "first_encounters_wrongly_merged": {
+        "difference_pp": 2.5885558583106265,
+        "house_bootstrap_95_pp": [
+          1.1734028683181226,
+          4.252400548696845
+        ]
+      }
+    },
+    "jepa": {
+      "correct_revisit_matches": {
+        "difference_pp": 0.0,
+        "house_bootstrap_95_pp": [
+          0.0,
+          0.0
+        ]
+      },
+      "first_encounters_wrongly_merged": {
+        "difference_pp": 0.0,
+        "house_bootstrap_95_pp": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  }
+}

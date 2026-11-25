@@ -74,3 +74,5 @@ HSSD 的代理目标是新增可见性。开发集 48 个起点中只有 2 个�
 [隐藏目标的 JEPA 与直接监督选路](hidden_route_v11/README.md)
 
 [多实例寻物的报告记忆与探索避重](report_memory/README.md)
+
+[首次观察记忆与跨视角实例去重](cross_view_memory/README.md)

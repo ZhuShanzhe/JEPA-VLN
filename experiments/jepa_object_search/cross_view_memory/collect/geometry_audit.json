@@ -1,0 +1,334 @@
+{
+  "train": {
+    "houses": 28,
+    "instances": 1271,
+    "views": 6508,
+    "asset_templates": 882,
+    "distinct_templates_absent_from_train": 0,
+    "views_with_template_absent_from_train": 0,
+    "same_house_category_instance_pairs_same_asset": 442,
+    "same_house_category_instance_pairs_different_asset": 1597,
+    "view_geometry": {
+      "pairs": 14343,
+      "object_angle_at_least_45": 9585,
+      "camera_heading_at_least_45": 9534
+    },
+    "category_counts": {
+      "wall_art": {
+        "house_count": 26,
+        "instance_count": 126
+      },
+      "picture_frame": {
+        "house_count": 4,
+        "instance_count": 10
+      },
+      "mirror": {
+        "house_count": 19,
+        "instance_count": 71
+      },
+      "chair": {
+        "house_count": 27,
+        "instance_count": 118
+      },
+      "vase": {
+        "house_count": 7,
+        "instance_count": 22
+      },
+      "bed": {
+        "house_count": 21,
+        "instance_count": 67
+      },
+      "book": {
+        "house_count": 10,
+        "instance_count": 35
+      },
+      "cabinet": {
+        "house_count": 25,
+        "instance_count": 102
+      },
+      "ceiling_lamp": {
+        "house_count": 21,
+        "instance_count": 86
+      },
+      "plant": {
+        "house_count": 2,
+        "instance_count": 7
+      },
+      "potted_plant": {
+        "house_count": 24,
+        "instance_count": 112
+      },
+      "sofa": {
+        "house_count": 16,
+        "instance_count": 54
+      },
+      "stool": {
+        "house_count": 18,
+        "instance_count": 63
+      },
+      "table": {
+        "house_count": 27,
+        "instance_count": 117
+      },
+      "television_receiver": {
+        "house_count": 15,
+        "instance_count": 46
+      },
+      "toilet": {
+        "house_count": 12,
+        "instance_count": 38
+      },
+      "floor_lamp": {
+        "house_count": 9,
+        "instance_count": 30
+      },
+      "oven": {
+        "house_count": 1,
+        "instance_count": 2
+      },
+      "bathtub": {
+        "house_count": 7,
+        "instance_count": 20
+      },
+      "bench": {
+        "house_count": 9,
+        "instance_count": 29
+      },
+      "bookcase": {
+        "house_count": 17,
+        "instance_count": 61
+      },
+      "refrigerator": {
+        "house_count": 3,
+        "instance_count": 8
+      },
+      "shelf": {
+        "house_count": 7,
+        "instance_count": 25
+      },
+      "basket": {
+        "house_count": 4,
+        "instance_count": 15
+      },
+      "sink": {
+        "house_count": 2,
+        "instance_count": 7
+      }
+    }
+  },
+  "val": {
+    "houses": 6,
+    "instances": 254,
+    "views": 1327,
+    "asset_templates": 203,
+    "distinct_templates_absent_from_train": 157,
+    "views_with_template_absent_from_train": 996,
+    "same_house_category_instance_pairs_same_asset": 70,
+    "same_house_category_instance_pairs_different_asset": 333,
+    "view_geometry": {
+      "pairs": 2974,
+      "object_angle_at_least_45": 2081,
+      "camera_heading_at_least_45": 2056
+    },
+    "category_counts": {
+      "wall_art": {
+        "house_count": 6,
+        "instance_count": 28
+      },
+      "chair": {
+        "house_count": 6,
+        "instance_count": 29
+      },
+      "bed": {
+        "house_count": 5,
+        "instance_count": 19
+      },
+      "bench": {
+        "house_count": 1,
+        "instance_count": 4
+      },
+      "bookcase": {
+        "house_count": 2,
+        "instance_count": 5
+      },
+      "cabinet": {
+        "house_count": 5,
+        "instance_count": 22
+      },
+      "ceiling_lamp": {
+        "house_count": 6,
+        "instance_count": 24
+      },
+      "floor_lamp": {
+        "house_count": 1,
+        "instance_count": 2
+      },
+      "plant": {
+        "house_count": 3,
+        "instance_count": 12
+      },
+      "potted_plant": {
+        "house_count": 5,
+        "instance_count": 23
+      },
+      "sofa": {
+        "house_count": 5,
+        "instance_count": 12
+      },
+      "stool": {
+        "house_count": 4,
+        "instance_count": 12
+      },
+      "table": {
+        "house_count": 5,
+        "instance_count": 17
+      },
+      "mirror": {
+        "house_count": 4,
+        "instance_count": 16
+      },
+      "vase": {
+        "house_count": 1,
+        "instance_count": 2
+      },
+      "book": {
+        "house_count": 1,
+        "instance_count": 2
+      },
+      "refrigerator": {
+        "house_count": 1,
+        "instance_count": 3
+      },
+      "basket": {
+        "house_count": 1,
+        "instance_count": 2
+      },
+      "bathtub": {
+        "house_count": 1,
+        "instance_count": 2
+      },
+      "television_receiver": {
+        "house_count": 2,
+        "instance_count": 7
+      },
+      "toilet": {
+        "house_count": 3,
+        "instance_count": 6
+      },
+      "picture_frame": {
+        "house_count": 1,
+        "instance_count": 5
+      }
+    }
+  },
+  "test": {
+    "houses": 16,
+    "instances": 734,
+    "views": 3647,
+    "asset_templates": 503,
+    "distinct_templates_absent_from_train": 414,
+    "views_with_template_absent_from_train": 2995,
+    "same_house_category_instance_pairs_same_asset": 322,
+    "same_house_category_instance_pairs_different_asset": 873,
+    "view_geometry": {
+      "pairs": 7869,
+      "object_angle_at_least_45": 5407,
+      "camera_heading_at_least_45": 5367
+    },
+    "category_counts": {
+      "wall_art": {
+        "house_count": 13,
+        "instance_count": 62
+      },
+      "chair": {
+        "house_count": 15,
+        "instance_count": 70
+      },
+      "bench": {
+        "house_count": 5,
+        "instance_count": 17
+      },
+      "bookcase": {
+        "house_count": 13,
+        "instance_count": 47
+      },
+      "cabinet": {
+        "house_count": 14,
+        "instance_count": 59
+      },
+      "sofa": {
+        "house_count": 10,
+        "instance_count": 37
+      },
+      "stool": {
+        "house_count": 12,
+        "instance_count": 41
+      },
+      "table": {
+        "house_count": 15,
+        "instance_count": 66
+      },
+      "mirror": {
+        "house_count": 11,
+        "instance_count": 46
+      },
+      "bathtub": {
+        "house_count": 5,
+        "instance_count": 14
+      },
+      "ceiling_lamp": {
+        "house_count": 12,
+        "instance_count": 53
+      },
+      "floor_lamp": {
+        "house_count": 4,
+        "instance_count": 12
+      },
+      "potted_plant": {
+        "house_count": 14,
+        "instance_count": 63
+      },
+      "toilet": {
+        "house_count": 6,
+        "instance_count": 12
+      },
+      "book": {
+        "house_count": 8,
+        "instance_count": 27
+      },
+      "bed": {
+        "house_count": 8,
+        "instance_count": 26
+      },
+      "picture_frame": {
+        "house_count": 2,
+        "instance_count": 8
+      },
+      "basket": {
+        "house_count": 4,
+        "instance_count": 10
+      },
+      "plant": {
+        "house_count": 4,
+        "instance_count": 15
+      },
+      "refrigerator": {
+        "house_count": 2,
+        "instance_count": 4
+      },
+      "shelf": {
+        "house_count": 4,
+        "instance_count": 14
+      },
+      "television_receiver": {
+        "house_count": 7,
+        "instance_count": 21
+      },
+      "vase": {
+        "house_count": 2,
+        "instance_count": 10
+      }
+    }
+  },
+  "manifest_sha256": "4c21362967ee15885ee8b7f243c6e527d47dcc9bf3c51283af5226be372b0270"
+}
