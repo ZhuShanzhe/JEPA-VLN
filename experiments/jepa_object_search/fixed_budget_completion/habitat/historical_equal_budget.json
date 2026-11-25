@@ -1,0 +1,295 @@
+{
+  "protocol": "HSSD V13 four consecutive choices from real Habitat rollouts, seven RGB exposures per segment, 4 physical scans and 24 route actions per segment. Presence uses instance IDs (32px within 2m). No report action.",
+  "source_sha256": "74004cd10f2f0803a7134e2fc7340accb968cafb805c9b6e31efb295efea2ff5",
+  "multi_instance_queries": 171,
+  "houses": 12,
+  "seeds": [
+    11,
+    29,
+    47
+  ],
+  "results": {
+    "v11_baseline": {
+      "per_seed": {
+        "11": {
+          "28": {
+            "distinct": 2,
+            "found_two": 0,
+            "found_any": 2
+          },
+          "56": {
+            "distinct": 15,
+            "found_two": 2,
+            "found_any": 12
+          },
+          "84": {
+            "distinct": 20,
+            "found_two": 3,
+            "found_any": 15
+          },
+          "112": {
+            "distinct": 33,
+            "found_two": 6,
+            "found_any": 23
+          }
+        },
+        "29": {
+          "28": {
+            "distinct": 2,
+            "found_two": 0,
+            "found_any": 2
+          },
+          "56": {
+            "distinct": 22,
+            "found_two": 3,
+            "found_any": 9
+          },
+          "84": {
+            "distinct": 46,
+            "found_two": 8,
+            "found_any": 17
+          },
+          "112": {
+            "distinct": 54,
+            "found_two": 8,
+            "found_any": 22
+          }
+        },
+        "47": {
+          "28": {
+            "distinct": 3,
+            "found_two": 0,
+            "found_any": 3
+          },
+          "56": {
+            "distinct": 13,
+            "found_two": 3,
+            "found_any": 8
+          },
+          "84": {
+            "distinct": 25,
+            "found_two": 6,
+            "found_any": 14
+          },
+          "112": {
+            "distinct": 36,
+            "found_two": 10,
+            "found_any": 21
+          }
+        }
+      },
+      "seed_mean": {
+        "28": {
+          "distinct": 2.3333333333333335,
+          "found_two": 0.0,
+          "found_any": 2.3333333333333335
+        },
+        "56": {
+          "distinct": 16.666666666666668,
+          "found_two": 2.6666666666666665,
+          "found_any": 9.666666666666666
+        },
+        "84": {
+          "distinct": 30.333333333333332,
+          "found_two": 5.666666666666667,
+          "found_any": 15.333333333333334
+        },
+        "112": {
+          "distinct": 41.0,
+          "found_two": 8.0,
+          "found_any": 22.0
+        }
+      }
+    },
+    "direct_horizon": {
+      "per_seed": {
+        "11": {
+          "28": {
+            "distinct": 7,
+            "found_two": 0,
+            "found_any": 7
+          },
+          "56": {
+            "distinct": 23,
+            "found_two": 6,
+            "found_any": 12
+          },
+          "84": {
+            "distinct": 47,
+            "found_two": 8,
+            "found_any": 20
+          },
+          "112": {
+            "distinct": 59,
+            "found_two": 10,
+            "found_any": 25
+          }
+        },
+        "29": {
+          "28": {
+            "distinct": 7,
+            "found_two": 0,
+            "found_any": 7
+          },
+          "56": {
+            "distinct": 20,
+            "found_two": 4,
+            "found_any": 12
+          },
+          "84": {
+            "distinct": 26,
+            "found_two": 4,
+            "found_any": 15
+          },
+          "112": {
+            "distinct": 44,
+            "found_two": 8,
+            "found_any": 22
+          }
+        },
+        "47": {
+          "28": {
+            "distinct": 5,
+            "found_two": 0,
+            "found_any": 5
+          },
+          "56": {
+            "distinct": 19,
+            "found_two": 5,
+            "found_any": 10
+          },
+          "84": {
+            "distinct": 29,
+            "found_two": 7,
+            "found_any": 13
+          },
+          "112": {
+            "distinct": 40,
+            "found_two": 9,
+            "found_any": 21
+          }
+        }
+      },
+      "seed_mean": {
+        "28": {
+          "distinct": 6.333333333333333,
+          "found_two": 0.0,
+          "found_any": 6.333333333333333
+        },
+        "56": {
+          "distinct": 20.666666666666668,
+          "found_two": 5.0,
+          "found_any": 11.333333333333334
+        },
+        "84": {
+          "distinct": 34.0,
+          "found_two": 6.333333333333333,
+          "found_any": 16.0
+        },
+        "112": {
+          "distinct": 47.666666666666664,
+          "found_two": 9.0,
+          "found_any": 22.666666666666668
+        }
+      }
+    },
+    "jepa_horizon": {
+      "per_seed": {
+        "11": {
+          "28": {
+            "distinct": 8,
+            "found_two": 0,
+            "found_any": 8
+          },
+          "56": {
+            "distinct": 24,
+            "found_two": 6,
+            "found_any": 13
+          },
+          "84": {
+            "distinct": 32,
+            "found_two": 7,
+            "found_any": 17
+          },
+          "112": {
+            "distinct": 43,
+            "found_two": 8,
+            "found_any": 24
+          }
+        },
+        "29": {
+          "28": {
+            "distinct": 7,
+            "found_two": 0,
+            "found_any": 7
+          },
+          "56": {
+            "distinct": 23,
+            "found_two": 6,
+            "found_any": 12
+          },
+          "84": {
+            "distinct": 29,
+            "found_two": 6,
+            "found_any": 15
+          },
+          "112": {
+            "distinct": 44,
+            "found_two": 9,
+            "found_any": 23
+          }
+        },
+        "47": {
+          "28": {
+            "distinct": 5,
+            "found_two": 0,
+            "found_any": 5
+          },
+          "56": {
+            "distinct": 18,
+            "found_two": 2,
+            "found_any": 13
+          },
+          "84": {
+            "distinct": 40,
+            "found_two": 4,
+            "found_any": 21
+          },
+          "112": {
+            "distinct": 69,
+            "found_two": 8,
+            "found_any": 26
+          }
+        }
+      },
+      "seed_mean": {
+        "28": {
+          "distinct": 6.666666666666667,
+          "found_two": 0.0,
+          "found_any": 6.666666666666667
+        },
+        "56": {
+          "distinct": 21.666666666666668,
+          "found_two": 4.666666666666667,
+          "found_any": 12.666666666666666
+        },
+        "84": {
+          "distinct": 33.666666666666664,
+          "found_two": 5.666666666666667,
+          "found_any": 17.666666666666668
+        },
+        "112": {
+          "distinct": 52.0,
+          "found_two": 8.333333333333334,
+          "found_any": 24.333333333333332
+        }
+      }
+    }
+  },
+  "independent_replay": {
+    "seed": 11,
+    "houses": 12,
+    "actions": 1344,
+    "compared_frames": 336
+  }
+}

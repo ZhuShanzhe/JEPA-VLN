@@ -1,0 +1,35 @@
+{
+  "junctions": 9,
+  "offered_routes": 28,
+  "arms": {
+    "native": {
+      "new_in_range": 0,
+      "new_in_view": 1,
+      "in_range": 1,
+      "in_view": 1,
+      "collision": 7
+    },
+    "v16": {
+      "new_in_range": 0,
+      "new_in_view": 1,
+      "in_range": 1,
+      "in_view": 1,
+      "collision": 5
+    },
+    "any_offered_with_scan": {
+      "new_in_range": 0,
+      "new_in_view": 1,
+      "in_range": 1,
+      "in_view": 1,
+      "collision": 7
+    }
+  },
+  "paired": {
+    "new_in_range_v16_only": 0,
+    "new_in_range_native_only": 0,
+    "new_in_view_v16_only": 0,
+    "new_in_view_native_only": 0
+  },
+  "unit": "Number of archived junctions with a previously uncredited target meeting each condition; junctions share episodes.",
+  "protocol": "Max 24 total actions or remaining official budget. V16 pays four scan actions. Test nominal chosen route until budget, route end, or first simulated collision. new_in_range and new_in_view exclude targets already in range/in view at the decision start. Sight threshold 103 semantic pixels in one 320px frame. Reach uses official .25m viewpoint geodesic rule. No VLM replanning, official report or extra trajectory after a branch ends; offline local opportunity only."
+}
