@@ -1,0 +1,10 @@
+{
+  "tasks": [{"ordinal":1,"name":"clock","quota":2},{"ordinal":14,"name":"wall art","quota":3}],
+  "pairing": "Same archived native MOST-Nav episodes, task text, initial pose, official evaluator, simulator configuration and per-episode allocation.",
+  "budget_actions_per_episode": 300,
+  "primary": ["distinct instances credited by official reports", "episode success on reaching the requested quota"],
+  "report_both": ["per-episode counts raw and capped at quota","total and task-level outcomes","completed actions and termination"],
+  "secondary": ["approached but not reported", "clear exposure but not reported", "out-of-range and duplicate reports", "memory saves, returns, verification and reporting", "reachable-viewpoint admission, ranking and executed changes"],
+  "interpretation": "Known development cases; two paired episodes provide descriptive evidence. An outcome difference cannot by itself establish which module caused it. Engineering or service interruptions are recorded separately.",
+  "formal_runs": "Two new episodes; no learning or retuning on their observed results; independent Habitat replay before acceptance."
+}

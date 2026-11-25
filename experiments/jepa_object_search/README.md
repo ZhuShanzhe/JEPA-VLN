@@ -1,5 +1,7 @@
 # 多实例寻物中的前沿选择
 
+[记住实例观察位置与探索新视角：两例完整评测](instance_view_confirmation/README.md)
+
 [相同预算下的实例发现与任务完成](fixed_budget_completion/README.md)
 
 [可变数量的路线选择与执行验收](jepa_variable_v16/README.md)

@@ -1,0 +1,342 @@
+[
+  {
+    "ordinal": 1,
+    "native": {
+      "official_reports": [
+        {
+          "step": 65,
+          "credited_new_instances": 1,
+          "in_official_range": 1,
+          "source": "native_baseline"
+        },
+        {
+          "step": 88,
+          "credited_new_instances": 0,
+          "in_official_range": 1,
+          "source": "native_baseline"
+        }
+      ],
+      "tools": {
+        "propose_candidates": 4,
+        "pick_segment": 4,
+        "commit_candidates": 2
+      },
+      "commit_totals": {
+        "accepted_observations": 2,
+        "rejected": 2,
+        "uncertain": 0,
+        "geometry_rejections": 0
+      },
+      "resolved_duplicate_tool_decisions": {},
+      "eligible_decision_kinds_after_first_save_before_first_emitted_report": [],
+      "accepted_distinct_canonical_ids": 2,
+      "commit_steps": [
+        {
+          "step": 12,
+          "accepted": 1
+        },
+        {
+          "step": 58,
+          "accepted": 1
+        }
+      ],
+      "noted_relevant_frames_in_decision_history": 8,
+      "accepted_observation_frames": 2,
+      "registration_decision_current_object_distances_m": [
+        3.87,
+        1.46
+      ],
+      "registered_crop_checks": [],
+      "accepted_without_saved_templates": null,
+      "events": {},
+      "unique_saved_instances": 0,
+      "unique_saved_frames": 0,
+      "first_save_steps": [],
+      "return_attempts": [],
+      "deferred_reports": []
+    },
+    "treatment": {
+      "official_reports": [
+        {
+          "step": 102,
+          "credited_new_instances": 0,
+          "in_official_range": 0,
+          "source": "current_rgb_and_native_vlm",
+          "first_saved_step": 12,
+          "current_to_saved_camera_m": 2.52,
+          "patch_score": 0.876,
+          "peak_margin": 0.181,
+          "scheduled_return_active": false,
+          "recorded_arrival_before_report": false,
+          "decision_snapshot_object_distance_m": 0.82
+        }
+      ],
+      "tools": {
+        "propose_candidates": 16,
+        "pick_segment": 16,
+        "commit_candidates": 4,
+        "capture_frame": 8,
+        "resolve_duplicate": 3
+      },
+      "commit_totals": {
+        "accepted_observations": 1,
+        "rejected": 2,
+        "uncertain": 0,
+        "geometry_rejections": 0
+      },
+      "resolved_duplicate_tool_decisions": {
+        "DUPLICATE": 3
+      },
+      "eligible_decision_kinds_after_first_save_before_first_emitted_report": [
+        {
+          "step": 12,
+          "action": "GOTO_INSTANCE",
+          "scale_available": false
+        },
+        {
+          "step": 37,
+          "action": "GOTO_FRONTIER",
+          "scale_available": false
+        },
+        {
+          "step": 38,
+          "action": "GOTO_INSTANCE",
+          "scale_available": true
+        },
+        {
+          "step": 55,
+          "action": "GOTO_FRONTIER",
+          "scale_available": true
+        },
+        {
+          "step": 56,
+          "action": "GOTO_INSTANCE",
+          "scale_available": true
+        },
+        {
+          "step": 83,
+          "action": "GOTO_INSTANCE",
+          "scale_available": true
+        }
+      ],
+      "accepted_distinct_canonical_ids": 1,
+      "commit_steps": [
+        {
+          "step": 12,
+          "accepted": 1
+        },
+        {
+          "step": 126,
+          "accepted": 0
+        },
+        {
+          "step": 209,
+          "accepted": 0
+        },
+        {
+          "step": 221,
+          "accepted": 0
+        }
+      ],
+      "noted_relevant_frames_in_decision_history": 18,
+      "accepted_observation_frames": 1,
+      "registration_decision_current_object_distances_m": [
+        3.89
+      ],
+      "registered_crop_checks": [
+        {
+          "observation_creation_step": 12,
+          "unique_keyframe_action_count": 1,
+          "valid_recorded_center": true,
+          "texture_std_required": 9.0,
+          "archival_image_checks": [
+            {
+              "source": "same_step_current_rgb",
+              "copies": 4,
+              "min_std": 27.401,
+              "max_std": 27.401,
+              "all_passed": true,
+              "all_failed": false
+            }
+          ]
+        }
+      ],
+      "accepted_without_saved_templates": 0,
+      "events": {
+        "view_saved": 1,
+        "report_deferred": 1,
+        "reidentified": 1,
+        "report_issued": 1
+      },
+      "unique_saved_instances": 1,
+      "unique_saved_frames": 1,
+      "first_save_steps": [
+        12
+      ],
+      "return_attempts": [],
+      "deferred_reports": [
+        {
+          "step": 79,
+          "best_current_patch_score": 0.752
+        }
+      ]
+    }
+  },
+  {
+    "ordinal": 14,
+    "native": {
+      "official_reports": [
+        {
+          "step": 217,
+          "credited_new_instances": 0,
+          "in_official_range": 0,
+          "source": "native_baseline"
+        },
+        {
+          "step": 256,
+          "credited_new_instances": 0,
+          "in_official_range": 0,
+          "source": "native_baseline"
+        }
+      ],
+      "tools": {
+        "propose_candidates": 5,
+        "pick_segment": 5,
+        "commit_candidates": 3,
+        "capture_frame": 10,
+        "resolve_duplicate": 1
+      },
+      "commit_totals": {
+        "accepted_observations": 2,
+        "rejected": 0,
+        "uncertain": 0,
+        "geometry_rejections": 0
+      },
+      "resolved_duplicate_tool_decisions": {
+        "DUPLICATE": 1
+      },
+      "eligible_decision_kinds_after_first_save_before_first_emitted_report": [],
+      "accepted_distinct_canonical_ids": 2,
+      "commit_steps": [
+        {
+          "step": 133,
+          "accepted": 1
+        },
+        {
+          "step": 244,
+          "accepted": 1
+        },
+        {
+          "step": 293,
+          "accepted": 0
+        }
+      ],
+      "noted_relevant_frames_in_decision_history": 5,
+      "accepted_observation_frames": 2,
+      "registration_decision_current_object_distances_m": [
+        1.46,
+        2.61
+      ],
+      "registered_crop_checks": [],
+      "accepted_without_saved_templates": null,
+      "events": {},
+      "unique_saved_instances": 0,
+      "unique_saved_frames": 0,
+      "first_save_steps": [],
+      "return_attempts": [],
+      "deferred_reports": []
+    },
+    "treatment": {
+      "official_reports": [
+        {
+          "step": 238,
+          "credited_new_instances": 1,
+          "in_official_range": 1,
+          "source": "native_without_template"
+        },
+        {
+          "step": 252,
+          "credited_new_instances": 0,
+          "in_official_range": 1,
+          "source": "native_without_template"
+        }
+      ],
+      "tools": {
+        "SCAN": 1,
+        "propose_candidates": 8,
+        "pick_segment": 8,
+        "commit_candidates": 2,
+        "view_frame": 1,
+        "capture_frame": 1
+      },
+      "commit_totals": {
+        "accepted_observations": 2,
+        "rejected": 0,
+        "uncertain": 0,
+        "geometry_rejections": 0
+      },
+      "resolved_duplicate_tool_decisions": {},
+      "eligible_decision_kinds_after_first_save_before_first_emitted_report": [],
+      "accepted_distinct_canonical_ids": 2,
+      "commit_steps": [
+        {
+          "step": 218,
+          "accepted": 1
+        },
+        {
+          "step": 239,
+          "accepted": 1
+        }
+      ],
+      "noted_relevant_frames_in_decision_history": 5,
+      "accepted_observation_frames": 2,
+      "registration_decision_current_object_distances_m": [
+        4.35,
+        2.5
+      ],
+      "registered_crop_checks": [
+        {
+          "observation_creation_step": 218,
+          "unique_keyframe_action_count": 1,
+          "valid_recorded_center": true,
+          "texture_std_required": 9.0,
+          "archival_image_checks": [
+            {
+              "source": "same_step_current_rgb",
+              "copies": 3,
+              "min_std": 1.372,
+              "max_std": 1.372,
+              "all_passed": false,
+              "all_failed": true
+            }
+          ]
+        },
+        {
+          "observation_creation_step": 239,
+          "unique_keyframe_action_count": 1,
+          "valid_recorded_center": true,
+          "texture_std_required": 9.0,
+          "archival_image_checks": [
+            {
+              "source": "retrieved_keyframe_rgb",
+              "copies": 2,
+              "min_std": 1.658,
+              "max_std": 1.658,
+              "all_passed": false,
+              "all_failed": true
+            }
+          ]
+        }
+      ],
+      "accepted_without_saved_templates": 2,
+      "events": {
+        "native_report_without_template": 2
+      },
+      "unique_saved_instances": 0,
+      "unique_saved_frames": 0,
+      "first_save_steps": [],
+      "return_attempts": [],
+      "deferred_reports": []
+    }
+  }
+]

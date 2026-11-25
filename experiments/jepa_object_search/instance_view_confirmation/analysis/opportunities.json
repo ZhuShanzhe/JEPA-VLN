@@ -1,0 +1,168 @@
+[
+  {
+    "ordinal": 1,
+    "native": {
+      "distinct_previously_uncredited_ever_in_range": 1,
+      "distinct_previously_uncredited_in_range_and_clear_same_frame": 1,
+      "steps_with_uncredited_target_in_range": 35,
+      "steps_with_uncredited_target_clear_and_in_range": 3,
+      "first_step_clear_and_in_range": 56,
+      "last_step_clear_and_in_range": 58,
+      "unique_instances_ever_clear_in_one_frame": 1,
+      "observations_after_acknowledged_selected_commands": null,
+      "first_clear_exposures_during_acknowledged_commands": null,
+      "report_checks": [
+        {
+          "step": 65,
+          "nearest_valid_m": 0.096,
+          "previously_uncredited_in_range": 1,
+          "newly_credited": 1,
+          "clear_target_in_current_view": false,
+          "uncredited_target_both_clear_and_in_range": false,
+          "steps_since_last_chance": 0
+        },
+        {
+          "step": 88,
+          "nearest_valid_m": 0.115,
+          "previously_uncredited_in_range": 0,
+          "newly_credited": 0,
+          "clear_target_in_current_view": true,
+          "uncredited_target_both_clear_and_in_range": false,
+          "steps_since_last_chance": null
+        }
+      ],
+      "saved_view_checks": {},
+      "confirmation_event_file_present": false,
+      "summary_events": {},
+      "reason_counts": {}
+    },
+    "treatment": {
+      "distinct_previously_uncredited_ever_in_range": 1,
+      "distinct_previously_uncredited_in_range_and_clear_same_frame": 1,
+      "steps_with_uncredited_target_in_range": 120,
+      "steps_with_uncredited_target_clear_and_in_range": 62,
+      "first_step_clear_and_in_range": 134,
+      "last_step_clear_and_in_range": 291,
+      "unique_instances_ever_clear_in_one_frame": 1,
+      "observations_after_acknowledged_selected_commands": 56,
+      "first_clear_exposures_during_acknowledged_commands": 0,
+      "report_checks": [
+        {
+          "step": 102,
+          "nearest_valid_m": 1.084,
+          "previously_uncredited_in_range": 0,
+          "newly_credited": 0,
+          "clear_target_in_current_view": true,
+          "uncredited_target_both_clear_and_in_range": false,
+          "steps_since_last_chance": 58
+        }
+      ],
+      "saved_view_checks": {
+        "saved_events": 1,
+        "source_frames_target_visible_consistently": 1,
+        "source_frames_no_visible_target": 0,
+        "source_frames_any_valid_target_near_consistently": 0,
+        "center_on_task_target_in_all_mapped_frames": 0,
+        "center_outside_task_targets_in_all_mapped_frames": 1,
+        "min_target_pixel_fraction_in_replayed_template": 0.0476,
+        "max_target_pixel_fraction_in_replayed_template": 0.0476
+      },
+      "confirmation_event_file_present": true,
+      "summary_events": {
+        "view_saved": 1,
+        "report_deferred": 1,
+        "reidentified": 1,
+        "report_issued": 1
+      },
+      "reason_counts": {
+        "no_close_current_view_match": 1
+      }
+    },
+    "view_execution": {
+      "selected_views": 6,
+      "interrupted_native_decision_GOTO_FRONTIER": 1,
+      "interrupted_different_executed_command": 4,
+      "matched_action_prefix": 1,
+      "physically_confirmed_view": 1
+    }
+  },
+  {
+    "ordinal": 14,
+    "native": {
+      "distinct_previously_uncredited_ever_in_range": 1,
+      "distinct_previously_uncredited_in_range_and_clear_same_frame": 1,
+      "steps_with_uncredited_target_in_range": 27,
+      "steps_with_uncredited_target_clear_and_in_range": 16,
+      "first_step_clear_and_in_range": 95,
+      "last_step_clear_and_in_range": 136,
+      "unique_instances_ever_clear_in_one_frame": 1,
+      "observations_after_acknowledged_selected_commands": null,
+      "first_clear_exposures_during_acknowledged_commands": null,
+      "report_checks": [
+        {
+          "step": 217,
+          "nearest_valid_m": 1.92,
+          "previously_uncredited_in_range": 0,
+          "newly_credited": 0,
+          "clear_target_in_current_view": true,
+          "uncredited_target_both_clear_and_in_range": false,
+          "steps_since_last_chance": 75
+        },
+        {
+          "step": 256,
+          "nearest_valid_m": 1.939,
+          "previously_uncredited_in_range": 0,
+          "newly_credited": 0,
+          "clear_target_in_current_view": true,
+          "uncredited_target_both_clear_and_in_range": false,
+          "steps_since_last_chance": 114
+        }
+      ],
+      "saved_view_checks": {},
+      "confirmation_event_file_present": false,
+      "summary_events": {},
+      "reason_counts": {}
+    },
+    "treatment": {
+      "distinct_previously_uncredited_ever_in_range": 1,
+      "distinct_previously_uncredited_in_range_and_clear_same_frame": 0,
+      "steps_with_uncredited_target_in_range": 133,
+      "steps_with_uncredited_target_clear_and_in_range": 0,
+      "first_step_clear_and_in_range": null,
+      "last_step_clear_and_in_range": null,
+      "unique_instances_ever_clear_in_one_frame": 0,
+      "observations_after_acknowledged_selected_commands": 26,
+      "first_clear_exposures_during_acknowledged_commands": 0,
+      "report_checks": [
+        {
+          "step": 238,
+          "nearest_valid_m": 0.056,
+          "previously_uncredited_in_range": 1,
+          "newly_credited": 1,
+          "clear_target_in_current_view": false,
+          "uncredited_target_both_clear_and_in_range": false,
+          "steps_since_last_chance": 0
+        },
+        {
+          "step": 252,
+          "nearest_valid_m": 0.05,
+          "previously_uncredited_in_range": 0,
+          "newly_credited": 0,
+          "clear_target_in_current_view": false,
+          "uncredited_target_both_clear_and_in_range": false,
+          "steps_since_last_chance": null
+        }
+      ],
+      "saved_view_checks": {},
+      "confirmation_event_file_present": true,
+      "summary_events": {
+        "native_report_without_template": 2
+      },
+      "reason_counts": {}
+    },
+    "view_execution": {
+      "selected_views": 3,
+      "interrupted_different_executed_command": 3
+    }
+  }
+]

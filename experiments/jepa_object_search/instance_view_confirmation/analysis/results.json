@@ -1,0 +1,329 @@
+{
+  "cases": [
+    {
+      "ordinal": 1,
+      "quota": 2,
+      "native": {
+        "quota": 2,
+        "found": 1,
+        "capped_found": 1,
+        "success": false,
+        "official_recall": 0.5,
+        "official_precision": 0.5,
+        "official_spl_multi": 0.0,
+        "approached": 1,
+        "clear_exposure": 1,
+        "clear_and_approached": 1,
+        "clear_never_approached": 0,
+        "clear_unreported": 0,
+        "approached_unreported": 0,
+        "approached_and_clear_unreported": 0,
+        "required_missing_never_approached": 1,
+        "required_missing_approached_unreported": 0,
+        "reports": 2,
+        "reports_yielding_new_instances": 1,
+        "repeat_only_reports": 1,
+        "no_target_in_range_reports": 0,
+        "credited_with_no_clear_exposure": 0,
+        "termination": "agent_finished_under_quota",
+        "steps": 90,
+        "motion": {
+          "forward_commands": 37,
+          "turns": 50,
+          "near_stationary_forward": 1,
+          "longest_consecutive_near_stationary_forward": 1,
+          "all_commands_under_1cm": 54,
+          "path_metres": 6.87674
+        },
+        "first_clear_view_steps": [
+          1
+        ],
+        "report_timing": [
+          {
+            "step": 65,
+            "new_count": 1,
+            "near_count": 1
+          },
+          {
+            "step": 88,
+            "new_count": 0,
+            "near_count": 1
+          }
+        ],
+        "validated_decisions": {
+          "SCAN": 1,
+          "GOTO_INSTANCE": 3,
+          "GOTO_FRONTIER": 2,
+          "REPORT_FOUND": 2
+        }
+      },
+      "treatment": {
+        "quota": 2,
+        "found": 0,
+        "capped_found": 0,
+        "success": false,
+        "official_recall": 0.0,
+        "official_precision": 0.0,
+        "official_spl_multi": 0.0,
+        "approached": 1,
+        "clear_exposure": 1,
+        "clear_and_approached": 1,
+        "clear_never_approached": 0,
+        "clear_unreported": 1,
+        "approached_unreported": 1,
+        "approached_and_clear_unreported": 1,
+        "required_missing_never_approached": 1,
+        "required_missing_approached_unreported": 1,
+        "reports": 1,
+        "reports_yielding_new_instances": 0,
+        "repeat_only_reports": 0,
+        "no_target_in_range_reports": 1,
+        "credited_with_no_clear_exposure": 0,
+        "termination": "step_budget",
+        "steps": 300,
+        "motion": {
+          "forward_commands": 147,
+          "turns": 152,
+          "near_stationary_forward": 7,
+          "longest_consecutive_near_stationary_forward": 2,
+          "all_commands_under_1cm": 160,
+          "path_metres": 26.70783
+        },
+        "first_clear_view_steps": [
+          1
+        ],
+        "report_timing": [
+          {
+            "step": 102,
+            "new_count": 0,
+            "near_count": 0
+          }
+        ],
+        "validated_decisions": {
+          "SCAN": 2,
+          "GOTO_INSTANCE": 4,
+          "GOTO_FRONTIER": 13,
+          "REPORT_FOUND": 2
+        }
+      },
+      "route": {
+        "eligibility": {
+          "no_distinct_spatial_branch_in_horizon": 4,
+          "eligible": 9
+        },
+        "event_counts": {
+          "episode": 1,
+          "eligibility": 13,
+          "view_filter": 9,
+          "scan_start": 9,
+          "scan_end": 9,
+          "rank": 6,
+          "commit_start": 4,
+          "view_track_start": 6,
+          "commit_dispatch": 4,
+          "view_track_end": 6,
+          "commit_end": 4
+        },
+        "rank_steps": [
+          108,
+          113,
+          130,
+          158,
+          226,
+          257
+        ],
+        "ranked_group_sizes": [
+          5,
+          4,
+          5,
+          2,
+          4,
+          4
+        ],
+        "non_native_selections": 4,
+        "ack_first_different_primitive": 1,
+        "commit_end_reasons": {
+          "native_decision_GOTO_FRONTIER": 1,
+          "first_difference_observed": 1,
+          "map_pose_corrected": 2
+        },
+        "observation_scan_actions_acknowledged": 31
+      },
+      "excluded_engineering_attempts": 0
+    },
+    {
+      "ordinal": 14,
+      "quota": 3,
+      "native": {
+        "quota": 3,
+        "found": 0,
+        "capped_found": 0,
+        "success": false,
+        "official_recall": 0.0,
+        "official_precision": 0.0,
+        "official_spl_multi": 0.0,
+        "approached": 1,
+        "clear_exposure": 1,
+        "clear_and_approached": 1,
+        "clear_never_approached": 0,
+        "clear_unreported": 1,
+        "approached_unreported": 1,
+        "approached_and_clear_unreported": 1,
+        "required_missing_never_approached": 2,
+        "required_missing_approached_unreported": 1,
+        "reports": 2,
+        "reports_yielding_new_instances": 0,
+        "repeat_only_reports": 0,
+        "no_target_in_range_reports": 2,
+        "credited_with_no_clear_exposure": 0,
+        "termination": "step_budget",
+        "steps": 300,
+        "motion": {
+          "forward_commands": 160,
+          "turns": 138,
+          "near_stationary_forward": 7,
+          "longest_consecutive_near_stationary_forward": 2,
+          "all_commands_under_1cm": 147,
+          "path_metres": 32.96677
+        },
+        "first_clear_view_steps": [
+          94
+        ],
+        "report_timing": [
+          {
+            "step": 217,
+            "new_count": 0,
+            "near_count": 0
+          },
+          {
+            "step": 256,
+            "new_count": 0,
+            "near_count": 0
+          }
+        ],
+        "validated_decisions": {
+          "SCAN": 1,
+          "GOTO_FRONTIER": 10,
+          "GOTO_INSTANCE": 4,
+          "REPORT_FOUND": 2
+        }
+      },
+      "treatment": {
+        "quota": 3,
+        "found": 1,
+        "capped_found": 1,
+        "success": false,
+        "official_recall": 0.3333333333333333,
+        "official_precision": 0.5,
+        "official_spl_multi": 0.0,
+        "approached": 1,
+        "clear_exposure": 0,
+        "clear_and_approached": 0,
+        "clear_never_approached": 0,
+        "clear_unreported": 0,
+        "approached_unreported": 0,
+        "approached_and_clear_unreported": 0,
+        "required_missing_never_approached": 2,
+        "required_missing_approached_unreported": 0,
+        "reports": 2,
+        "reports_yielding_new_instances": 1,
+        "repeat_only_reports": 1,
+        "no_target_in_range_reports": 0,
+        "credited_with_no_clear_exposure": 1,
+        "termination": "step_budget",
+        "steps": 300,
+        "motion": {
+          "forward_commands": 164,
+          "turns": 134,
+          "near_stationary_forward": 0,
+          "longest_consecutive_near_stationary_forward": 0,
+          "all_commands_under_1cm": 136,
+          "path_metres": 36.35199
+        },
+        "first_clear_view_steps": [],
+        "report_timing": [
+          {
+            "step": 238,
+            "new_count": 1,
+            "near_count": 1
+          },
+          {
+            "step": 252,
+            "new_count": 0,
+            "near_count": 1
+          }
+        ],
+        "validated_decisions": {
+          "GOTO_FRONTIER": 8,
+          "GOTO_INSTANCE": 2,
+          "REPORT_FOUND": 2
+        }
+      },
+      "route": {
+        "eligibility": {
+          "no_distinct_spatial_branch_in_horizon": 2,
+          "eligible": 5,
+          "native_has_no_translating_plan_in_horizon": 1
+        },
+        "event_counts": {
+          "episode": 1,
+          "eligibility": 8,
+          "view_filter": 5,
+          "scan_start": 4,
+          "scan_end": 4,
+          "rank": 3,
+          "view_track_start": 3,
+          "view_track_end": 3,
+          "deferred_start": 1,
+          "deferred_end": 1,
+          "commit_start": 2,
+          "commit_dispatch": 12,
+          "commit_end": 2
+        },
+        "rank_steps": [
+          66,
+          179,
+          258
+        ],
+        "ranked_group_sizes": [
+          3,
+          5,
+          7
+        ],
+        "non_native_selections": 2,
+        "ack_first_different_primitive": 0,
+        "commit_end_reasons": {
+          "map_pose_corrected": 2
+        },
+        "observation_scan_actions_acknowledged": 13
+      },
+      "excluded_engineering_attempts": 0
+    }
+  ],
+  "totals": {
+    "native": {
+      "found": 1,
+      "capped_found": 1,
+      "success": 0,
+      "steps": 390
+    },
+    "treatment": {
+      "found": 1,
+      "capped_found": 1,
+      "success": 0,
+      "steps": 600
+    }
+  },
+  "accounting": {
+    "events": {
+      "success": 104
+    },
+    "reported_tokens": {
+      "completion_tokens": 4221,
+      "prompt_tokens": 1423310,
+      "total_tokens": 1427531
+    },
+    "known_currency_amount": null,
+    "shared_caption_ledger_excluded_from_decision_usage": true
+  }
+}

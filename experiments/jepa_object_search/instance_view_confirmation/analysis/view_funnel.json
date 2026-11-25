@@ -1,0 +1,315 @@
+[
+  {
+    "ordinal": 1,
+    "status": "accepted",
+    "steps": 300,
+    "checks": 13,
+    "gate_reasons": {
+      "no_distinct_spatial_branch_in_horizon": 4,
+      "geometrically_distinct": 9
+    },
+    "map_gate": [
+      {
+        "step": 104,
+        "offered": 5,
+        "checked": 5,
+        "any_viable_alternative": true,
+        "passing_alternatives": 4,
+        "truncation_sources": {
+          "route_endpoint": 3,
+          "movement_leaves_traversable_map": 2
+        }
+      },
+      {
+        "step": 109,
+        "offered": 4,
+        "checked": 4,
+        "any_viable_alternative": true,
+        "passing_alternatives": 3,
+        "truncation_sources": {
+          "movement_leaves_traversable_map": 1,
+          "route_endpoint": 3
+        }
+      },
+      {
+        "step": 126,
+        "offered": 5,
+        "checked": 5,
+        "any_viable_alternative": true,
+        "passing_alternatives": 4,
+        "truncation_sources": {
+          "route_endpoint": 4,
+          "movement_leaves_traversable_map": 1
+        }
+      },
+      {
+        "step": 150,
+        "offered": 3,
+        "checked": 3,
+        "any_viable_alternative": true,
+        "passing_alternatives": 2,
+        "truncation_sources": {
+          "movement_leaves_traversable_map": 1,
+          "route_endpoint": 2
+        }
+      },
+      {
+        "step": 154,
+        "offered": 2,
+        "checked": 2,
+        "any_viable_alternative": true,
+        "passing_alternatives": 1,
+        "truncation_sources": {
+          "route_endpoint": 2
+        }
+      },
+      {
+        "step": 187,
+        "offered": 2,
+        "checked": 2,
+        "any_viable_alternative": true,
+        "passing_alternatives": 1,
+        "truncation_sources": {
+          "route_endpoint": 2
+        }
+      },
+      {
+        "step": 221,
+        "offered": 2,
+        "checked": 2,
+        "any_viable_alternative": true,
+        "passing_alternatives": 1,
+        "truncation_sources": {
+          "route_endpoint": 1,
+          "movement_leaves_traversable_map": 1
+        }
+      },
+      {
+        "step": 222,
+        "offered": 4,
+        "checked": 4,
+        "any_viable_alternative": true,
+        "passing_alternatives": 2,
+        "truncation_sources": {
+          "route_endpoint": 2,
+          "movement_leaves_traversable_map": 2
+        }
+      },
+      {
+        "step": 253,
+        "offered": 4,
+        "checked": 4,
+        "any_viable_alternative": true,
+        "passing_alternatives": 3,
+        "truncation_sources": {
+          "route_endpoint": 4
+        }
+      }
+    ],
+    "geometry_counts": {
+      "offered_prefixes_with_map": 31,
+      "nominal_prefix_truncated_by_map": 8,
+      "fully_admissible_for_ranking": 30,
+      "eligible_prefix_exposes_new_angles": 28
+    },
+    "selections": [
+      {
+        "step": 108,
+        "candidates": 5,
+        "selected_native": false,
+        "map_changed_choice": false,
+        "predicted_new_angle_share": 1.0,
+        "available_view_steps": 16,
+        "effective_evidence_rate": 0.0451,
+        "map_reason": "view_ranked"
+      },
+      {
+        "step": 113,
+        "candidates": 4,
+        "selected_native": true,
+        "map_changed_choice": false,
+        "predicted_new_angle_share": 1.0,
+        "available_view_steps": 15,
+        "effective_evidence_rate": 0.036,
+        "map_reason": "view_ranked"
+      },
+      {
+        "step": 130,
+        "candidates": 5,
+        "selected_native": false,
+        "map_changed_choice": false,
+        "predicted_new_angle_share": 0.5384615384615384,
+        "available_view_steps": 12,
+        "effective_evidence_rate": 0.0725,
+        "map_reason": "view_ranked"
+      },
+      {
+        "step": 158,
+        "candidates": 2,
+        "selected_native": false,
+        "map_changed_choice": false,
+        "predicted_new_angle_share": 1.0,
+        "available_view_steps": 23,
+        "effective_evidence_rate": 0.0647,
+        "map_reason": "view_ranked"
+      },
+      {
+        "step": 226,
+        "candidates": 4,
+        "selected_native": true,
+        "map_changed_choice": false,
+        "predicted_new_angle_share": 0.8461538461538461,
+        "available_view_steps": 19,
+        "effective_evidence_rate": 0.1012,
+        "map_reason": "view_ranked"
+      },
+      {
+        "step": 257,
+        "candidates": 4,
+        "selected_native": false,
+        "map_changed_choice": true,
+        "predicted_new_angle_share": 0.0,
+        "available_view_steps": 24,
+        "effective_evidence_rate": 0.058,
+        "map_reason": "view_ranked"
+      }
+    ],
+    "view_track_starts": 6,
+    "view_track_ends": {
+      "native_decision_GOTO_FRONTIER": 1,
+      "different_executed_command": 4,
+      "observed_command_prefix_complete": 1
+    },
+    "first_different_prefix_ends": {
+      "native_decision_GOTO_FRONTIER": 1,
+      "first_difference_observed": 1,
+      "map_pose_corrected": 2
+    },
+    "changed_from_native": 4,
+    "changed_by_map_scoring": 1,
+    "physical_view_checks": {
+      "selected_views": 6,
+      "interrupted_native_decision_GOTO_FRONTIER": 1,
+      "interrupted_different_executed_command": 4,
+      "matched_action_prefix": 1,
+      "physically_confirmed_view": 1
+    }
+  },
+  {
+    "ordinal": 14,
+    "status": "accepted",
+    "steps": 300,
+    "checks": 8,
+    "gate_reasons": {
+      "no_distinct_spatial_branch_in_horizon": 2,
+      "geometrically_distinct": 5,
+      "native_has_no_translating_plan_in_horizon": 1
+    },
+    "map_gate": [
+      {
+        "step": 62,
+        "offered": 3,
+        "checked": 3,
+        "any_viable_alternative": true,
+        "passing_alternatives": 2,
+        "truncation_sources": {
+          "movement_leaves_traversable_map": 2,
+          "route_endpoint": 1
+        }
+      },
+      {
+        "step": 93,
+        "offered": 5,
+        "checked": 5,
+        "any_viable_alternative": false,
+        "passing_alternatives": 0,
+        "truncation_sources": {
+          "movement_leaves_traversable_map": 5
+        }
+      },
+      {
+        "step": 175,
+        "offered": 5,
+        "checked": 5,
+        "any_viable_alternative": true,
+        "passing_alternatives": 4,
+        "truncation_sources": {
+          "route_endpoint": 5
+        }
+      },
+      {
+        "step": 253,
+        "offered": 8,
+        "checked": 8,
+        "any_viable_alternative": true,
+        "passing_alternatives": 7,
+        "truncation_sources": {
+          "route_endpoint": 6,
+          "movement_leaves_traversable_map": 2
+        }
+      },
+      {
+        "step": 254,
+        "offered": 7,
+        "checked": 7,
+        "any_viable_alternative": true,
+        "passing_alternatives": 6,
+        "truncation_sources": {
+          "route_endpoint": 5,
+          "movement_leaves_traversable_map": 2
+        }
+      }
+    ],
+    "geometry_counts": {
+      "offered_prefixes_with_map": 28,
+      "nominal_prefix_truncated_by_map": 11,
+      "fully_admissible_for_ranking": 23,
+      "eligible_prefix_exposes_new_angles": 14
+    },
+    "selections": [
+      {
+        "step": 66,
+        "candidates": 3,
+        "selected_native": true,
+        "map_changed_choice": false,
+        "predicted_new_angle_share": 0.23076923076923078,
+        "available_view_steps": 21,
+        "effective_evidence_rate": 0.0956,
+        "map_reason": "view_ranked"
+      },
+      {
+        "step": 179,
+        "candidates": 5,
+        "selected_native": false,
+        "map_changed_choice": false,
+        "predicted_new_angle_share": 0.3076923076923077,
+        "available_view_steps": 24,
+        "effective_evidence_rate": 0.0462,
+        "map_reason": "view_ranked"
+      },
+      {
+        "step": 258,
+        "candidates": 7,
+        "selected_native": false,
+        "map_changed_choice": false,
+        "predicted_new_angle_share": 0.23076923076923078,
+        "available_view_steps": 24,
+        "effective_evidence_rate": 0.0915,
+        "map_reason": "view_ranked"
+      }
+    ],
+    "view_track_starts": 3,
+    "view_track_ends": {
+      "different_executed_command": 3
+    },
+    "first_different_prefix_ends": {
+      "map_pose_corrected": 2
+    },
+    "changed_from_native": 2,
+    "changed_by_map_scoring": 0,
+    "physical_view_checks": {
+      "selected_views": 3,
+      "interrupted_different_executed_command": 3
+    }
+  }
+]
