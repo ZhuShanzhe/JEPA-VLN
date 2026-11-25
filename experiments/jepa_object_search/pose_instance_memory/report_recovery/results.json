@@ -1,0 +1,236 @@
+{
+  "cases": [
+    {
+      "ordinal": 1,
+      "attempts": [
+        {
+          "quarantined": false,
+          "physical_actions": 300,
+          "physical_reports": 0,
+          "external_decisions": {
+            "True": 36
+          },
+          "pose": {
+            "pose_review": 1
+          },
+          "pose_forward_calls": 0,
+          "pose_match_hints": 0,
+          "deferred_reasons": {
+            "need_metric_near_view": 9,
+            "no_current_instance_match": 2
+          },
+          "recovery_modes": {
+            "choose_fresh_frontier": 11
+          },
+          "executed_recovery_actions": {
+            "TURN_LEFT": 1,
+            "MOVE_FORWARD": 2,
+            "TURN_RIGHT": 8
+          }
+        }
+      ],
+      "native": {
+        "steps": 90,
+        "found": 1,
+        "quota": 2,
+        "reached": 1,
+        "success": false,
+        "reports": 2,
+        "new": 1,
+        "duplicates": 1,
+        "out_of_range": 0
+      },
+      "score": {
+        "steps": 300,
+        "found": 0,
+        "quota": 2,
+        "reached": 1,
+        "success": false,
+        "reports": 0,
+        "new": 0,
+        "duplicates": 0,
+        "out_of_range": 0
+      }
+    },
+    {
+      "ordinal": 14,
+      "attempts": [
+        {
+          "quarantined": false,
+          "physical_actions": 300,
+          "physical_reports": 0,
+          "external_decisions": {
+            "True": 29
+          },
+          "pose": {},
+          "pose_forward_calls": 0,
+          "pose_match_hints": 0,
+          "deferred_reasons": {},
+          "recovery_modes": {},
+          "executed_recovery_actions": {}
+        }
+      ],
+      "native": {
+        "steps": 300,
+        "found": 0,
+        "quota": 3,
+        "reached": 1,
+        "success": false,
+        "reports": 2,
+        "new": 0,
+        "duplicates": 0,
+        "out_of_range": 2
+      },
+      "score": {
+        "steps": 300,
+        "found": 0,
+        "quota": 3,
+        "reached": 1,
+        "success": false,
+        "reports": 0,
+        "new": 0,
+        "duplicates": 0,
+        "out_of_range": 0
+      }
+    }
+  ],
+  "unique_decision_gateway_requests": 67,
+  "decision_gateway_events": {
+    "success": 67
+  },
+  "verified_terminal": [
+    {
+      "task": "clock",
+      "executed_actions": 300,
+      "report_requests_converted_to_recovery": 11,
+      "nonempty_live_box_steps": 28,
+      "grounded_region_saves": 2,
+      "recovery_actions": {
+        "TURN_LEFT": 1,
+        "MOVE_FORWARD": 2,
+        "TURN_RIGHT": 8
+      },
+      "max_consecutive_recovery_left_turns": 1,
+      "decisions_steps_exposing_recovery_feedback": 10,
+      "candidate_tools": {
+        "propose_candidates": 4,
+        "pick_segment": 3,
+        "commit_candidates": 2
+      },
+      "pose_was_considered": 1,
+      "pose_actual_forward_calls": 0,
+      "pose_eligibility": {
+        "observation_or_scale_unavailable_or_already_assigned": 1
+      },
+      "status": "accepted",
+      "observations_registered": 2,
+      "instance_entries_at_end": 2,
+      "report_details": [],
+      "distinct_correct": 0,
+      "success": false,
+      "distinct_targets_approached": 1
+    },
+    {
+      "task": "wall_art",
+      "executed_actions": 300,
+      "report_requests_converted_to_recovery": 0,
+      "nonempty_live_box_steps": 11,
+      "grounded_region_saves": 0,
+      "recovery_actions": {},
+      "max_consecutive_recovery_left_turns": 0,
+      "decisions_steps_exposing_recovery_feedback": 0,
+      "candidate_tools": {
+        "propose_candidates": 9,
+        "pick_segment": 7,
+        "commit_candidates": 0
+      },
+      "pose_was_considered": 0,
+      "pose_actual_forward_calls": 0,
+      "pose_eligibility": {},
+      "status": "accepted",
+      "observations_registered": 0,
+      "instance_entries_at_end": 0,
+      "report_details": [],
+      "distinct_correct": 0,
+      "success": false,
+      "distinct_targets_approached": 1
+    }
+  ],
+  "rejected_report_checks": [
+    {
+      "task": "clock",
+      "step": 74,
+      "reason": "need_metric_near_view",
+      "recovery": "choose_fresh_frontier",
+      "physical_action": 2,
+      "nearest_valid_view_m": 0.167,
+      "eligible_new_targets": 1,
+      "visible_eligible_new_targets": 1
+    },
+    {
+      "task": "clock",
+      "step": 91,
+      "reason": "no_current_instance_match",
+      "recovery": "choose_fresh_frontier",
+      "physical_action": 3,
+      "nearest_valid_view_m": 0.082,
+      "eligible_new_targets": 1,
+      "visible_eligible_new_targets": 1
+    },
+    {
+      "task": "clock",
+      "step": 285,
+      "reason": "no_current_instance_match",
+      "recovery": "choose_fresh_frontier",
+      "physical_action": 3,
+      "nearest_valid_view_m": 9.658,
+      "eligible_new_targets": 0,
+      "visible_eligible_new_targets": 0
+    }
+  ],
+  "registered_reference_checks": [
+    {
+      "ordinal": 1,
+      "accepted": true,
+      "registered_observations_total": 2,
+      "selected": [
+        {
+          "registration_step": 12,
+          "unique_bound_frame": true,
+          "source_step": 12,
+          "exact_decision_jpeg": true,
+          "mapper_rgb_mean_abs_error": 1.91,
+          "point_on_requested_instance": true,
+          "whole_view_requested_pixels": 265,
+          "target_in_3x3_patch": true
+        },
+        {
+          "registration_step": 12,
+          "unique_bound_frame": true,
+          "source_step": 12,
+          "exact_decision_jpeg": true,
+          "mapper_rgb_mean_abs_error": 1.91,
+          "point_on_requested_instance": false,
+          "whole_view_requested_pixels": 265,
+          "target_in_3x3_patch": false
+        }
+      ]
+    },
+    {
+      "ordinal": 14,
+      "accepted": true,
+      "registered_observations_total": 0,
+      "selected": []
+    }
+  ],
+  "deployed_source_sha256": {
+    "repair_agent.py": "dfb1197120de6f6dc2b242cfd6638941363098023078dcc2d12e3c61c87452f2",
+    "report/report_evidence.py": "af2129e27886b88584d8ccf0862451e2ee8dcb3da839ed72cbb408416c10f997",
+    "report/report_recovery.py": "7915e9028ca17ebef472120aca2868f13e5409d3ff087d24fe2e252ac17a8ef9",
+    "pose/delayed_pose.py": "bb839eb184129e43ffa2ac2e45ceeb3122e159815866a3a8da3750979968644a"
+  },
+  "case_matching": "Paired frozen development episodes. Native score and action checked; offline probes are secondary.",
+  "health_checks": 2,
+  "shared_caption_calls_in_gateway_count": false,
+  "actual_provider_charge": null
+}

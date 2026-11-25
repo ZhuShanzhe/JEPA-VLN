@@ -1,0 +1,43 @@
+{
+  "paid_calls": 0,
+  "samples": [
+    {
+      "task": "clock",
+      "step": 80,
+      "decision_rgb_verified": true,
+      "detections": 2,
+      "eligible_box_count": 2,
+      "box_source": "archived_live_detections",
+      "current_instance_support": null
+    },
+    {
+      "task": "clock",
+      "step": 116,
+      "decision_rgb_verified": true,
+      "detections": 2,
+      "eligible_box_count": 2,
+      "box_source": "archived_live_detections",
+      "current_instance_support": null
+    },
+    {
+      "task": "wall_art",
+      "step": 78,
+      "decision_rgb_verified": true,
+      "detections": 1,
+      "eligible_box_count": 0,
+      "box_source": "archived_live_detections",
+      "current_instance_support": false,
+      "evidence_reason": "no_local_target_box"
+    },
+    {
+      "task": "wall_art",
+      "step": 211,
+      "decision_rgb_verified": false,
+      "detections": 4,
+      "eligible_box_count": 4,
+      "box_source": "frozen_detector_on_replayed_live_rgb",
+      "current_instance_support": false,
+      "evidence_reason": "reference_spans_opposite_borders"
+    }
+  ]
+}

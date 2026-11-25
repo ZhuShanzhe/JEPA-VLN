@@ -45,3 +45,5 @@
 针对近距离去重，可指定 `hard_cases/pose_jepa_near_review.pt` 作为可选复核权重。它沿用基础位姿头的参数，采用专门在近邻数据上校准过的高阈值。全片段对照对 0.60 米以内的学习提示使用该阈值，优先保留双视角独立核验的几何对应。[近邻档与常规档对照](model/near_panel_summary.json)
 
 [时钟与画作的完整导航回合](closed_loop_pilot/README.md)
+
+[报告执行恢复与延迟判重测试](report_recovery/README.md)

@@ -1,0 +1,17 @@
+{
+  "task": "MOST-Nav multi-instance object search",
+  "environment": "Habitat, HM3D",
+  "panel": [
+    {"target": "clock", "required_distinct_instances": 2},
+    {"target": "wall art", "required_distinct_instances": 3}
+  ],
+  "pairing": "Same original episode, starting pose, target set, sensors, action space and native scoring.",
+  "action_budget_per_episode": 300,
+  "success_radius_to_valid_report_view_m": 0.25,
+  "decision_model": "gpt-4o-2024-11-20",
+  "provider": "APIyi",
+  "primary_metrics": ["different instances credited by native judge", "requested quota completed"],
+  "diagnostics": ["repeated and out-of-range reports", "actual action after rejected report", "delayed identity evidence delivered"],
+  "scope": "Two development tasks. Use only completed, accepted attempts in navigation metrics; retain engineering interruptions separately.",
+  "training_during_evaluation": false
+}

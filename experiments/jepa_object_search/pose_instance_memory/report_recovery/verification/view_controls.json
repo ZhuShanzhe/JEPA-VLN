@@ -1,0 +1,25 @@
+{
+  "heldout_houses": 16,
+  "pairs": 32,
+  "selection_sha256": "d43218ee2d40eabd4c35e85de2c9d4ca7fe05b3fb230f90f7553f2ef6ba384bf",
+  "selected_before_matching": true,
+  "paid_calls": 0,
+  "counts": {
+    "reference_annotated_in_live": {
+      "pairs": 16,
+      "old_withheld": 13,
+      "new_correct_instance": 5,
+      "new_withheld": 9,
+      "old_other_instance": 1,
+      "new_other_instance": 2,
+      "old_correct_instance": 1,
+      "old_unverified_box": 1
+    },
+    "other_same_category_annotated_only": {
+      "pairs": 16,
+      "old_withheld": 15,
+      "new_withheld": 16,
+      "old_unverified_box": 1
+    }
+  }
+}

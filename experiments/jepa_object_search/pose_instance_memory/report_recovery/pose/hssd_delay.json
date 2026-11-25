@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "paid_requests": 0,
+  "split": "test",
+  "scale_delay_steps": 1,
+  "weights_sha256": "b13d22da04887b1bb58e55e8188032200a1ef03d3fe026f011c03b09caaaf88e",
+  "examples": [
+    {
+      "label": "same",
+      "category": "chair",
+      "score": 0.9937887787818909,
+      "threshold": 0.9412854313850403,
+      "early_merge_held": true,
+      "hint_after_scale": true,
+      "unique_scoring_calls": 1,
+      "still_pending": true,
+      "reported_instances": 0
+    },
+    {
+      "label": "distinct_same_class",
+      "category": "sofa",
+      "score": 0.7495191097259521,
+      "threshold": 0.9412854313850403,
+      "early_merge_held": true,
+      "hint_after_scale": false,
+      "unique_scoring_calls": 1,
+      "still_pending": true,
+      "reported_instances": 0
+    }
+  ]
+}
