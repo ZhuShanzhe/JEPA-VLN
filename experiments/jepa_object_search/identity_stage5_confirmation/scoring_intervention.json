@@ -1,0 +1,11 @@
+{
+  "scope": "Scoring intervention at first stationary check; the report is prescribed, not predicted.",
+  "paid_calls": 0,
+  "prefix_actions": 137,
+  "max_position_error_m": 0.0,
+  "quota": 2,
+  "report_step": 137,
+  "credited_distinct": 1,
+  "incorrect": false,
+  "source_result_sha256": "139a8f4ab28de82f7cfc4269a08a692752ef8c849449fe19bfde912897dc000f"
+}

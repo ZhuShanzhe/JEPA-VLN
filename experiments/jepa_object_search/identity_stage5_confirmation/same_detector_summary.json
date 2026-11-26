@@ -1,0 +1,178 @@
+{
+  "native_report_target_is_same_one_approached_in_augmented": true,
+  "source_result_sha256": {
+    "MOST": "c3bf372ddad7d280df7ad82eac7fed7c253d5c85f160540cd3bc2c4353f15e3e",
+    "JEPA": "139a8f4ab28de82f7cfc4269a08a692752ef8c849449fe19bfde912897dc000f"
+  },
+  "definition": "DINO boxes scored against Habitat semantic instance ID; full mask may include tabletop or clock support.",
+  "rows": [
+    {
+      "target_pixels": 0,
+      "eligible_box_count": 1,
+      "boxes": [
+        {
+          "semantic_pixels": 0,
+          "semantic_fraction": 0.0,
+          "box_fill": 0.0
+        }
+      ],
+      "components": [],
+      "arm": "MOST",
+      "step": 65,
+      "in_scoring_range": true,
+      "new_credit": true
+    },
+    {
+      "target_pixels": 8445,
+      "eligible_box_count": 3,
+      "boxes": [
+        {
+          "semantic_pixels": 0,
+          "semantic_fraction": 0.0,
+          "box_fill": 0.0
+        },
+        {
+          "semantic_pixels": 2465,
+          "semantic_fraction": 0.29188869153345176,
+          "box_fill": 0.19086333720480061
+        },
+        {
+          "semantic_pixels": 0,
+          "semantic_fraction": 0.0,
+          "box_fill": 0.0
+        }
+      ],
+      "components": [
+        {
+          "pixels": 5977,
+          "best_box_component_coverage": 0.0
+        },
+        {
+          "pixels": 2443,
+          "best_box_component_coverage": 0.9987720016373312
+        },
+        {
+          "pixels": 9,
+          "best_box_component_coverage": 1.0
+        },
+        {
+          "pixels": 9,
+          "best_box_component_coverage": 1.0
+        }
+      ],
+      "arm": "MOST",
+      "step": 88,
+      "in_scoring_range": true,
+      "new_credit": false
+    },
+    {
+      "target_pixels": 4129,
+      "eligible_box_count": 2,
+      "boxes": [
+        {
+          "semantic_pixels": 308,
+          "semantic_fraction": 0.07459433276822475,
+          "box_fill": 0.43874643874643876
+        },
+        {
+          "semantic_pixels": 0,
+          "semantic_fraction": 0.0,
+          "box_fill": 0.0
+        }
+      ],
+      "components": [
+        {
+          "pixels": 3820,
+          "best_box_component_coverage": 0.0
+        },
+        {
+          "pixels": 309,
+          "best_box_component_coverage": 0.9967637540453075
+        }
+      ],
+      "arm": "JEPA",
+      "step": 137,
+      "in_scoring_range": true
+    },
+    {
+      "target_pixels": 10194,
+      "eligible_box_count": 1,
+      "boxes": [
+        {
+          "semantic_pixels": 1179,
+          "semantic_fraction": 0.11565626839317246,
+          "box_fill": 0.20963726884779516
+        }
+      ],
+      "components": [
+        {
+          "pixels": 9015,
+          "best_box_component_coverage": 0.0
+        },
+        {
+          "pixels": 1179,
+          "best_box_component_coverage": 1.0
+        }
+      ],
+      "arm": "JEPA",
+      "step": 138,
+      "in_scoring_range": true
+    },
+    {
+      "target_pixels": 12333,
+      "eligible_box_count": 1,
+      "boxes": [
+        {
+          "semantic_pixels": 575,
+          "semantic_fraction": 0.04662288169950539,
+          "box_fill": 0.22321428571428573
+        }
+      ],
+      "components": [
+        {
+          "pixels": 11758,
+          "best_box_component_coverage": 0.0
+        },
+        {
+          "pixels": 549,
+          "best_box_component_coverage": 1.0
+        },
+        {
+          "pixels": 9,
+          "best_box_component_coverage": 1.0
+        }
+      ],
+      "arm": "JEPA",
+      "step": 139,
+      "in_scoring_range": true
+    },
+    {
+      "target_pixels": 7171,
+      "eligible_box_count": 1,
+      "boxes": [
+        {
+          "semantic_pixels": 753,
+          "semantic_fraction": 0.10500627527541487,
+          "box_fill": 0.21343537414965985
+        }
+      ],
+      "components": [
+        {
+          "pixels": 6418,
+          "best_box_component_coverage": 0.0
+        },
+        {
+          "pixels": 640,
+          "best_box_component_coverage": 1.0
+        },
+        {
+          "pixels": 90,
+          "best_box_component_coverage": 1.0
+        }
+      ],
+      "arm": "JEPA",
+      "step": 140,
+      "in_scoring_range": true
+    }
+  ]
+}
