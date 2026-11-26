@@ -1,0 +1,151 @@
+{
+  "clock": {
+    "registered/visual_reference/registered/dino": {
+      "evidence_passed": true,
+      "reason": "registered_patch_and_current_box",
+      "matches_visible_dial": true
+    },
+    "registered/visual_reference/registered/visual_reference": {
+      "evidence_passed": true,
+      "reason": "registered_patch_and_current_box",
+      "matches_visible_dial": true
+    },
+    "registered/visual_reference/after_approach/dino": {
+      "evidence_passed": false,
+      "reason": "no_current_instance_match",
+      "matches_visible_dial": false
+    },
+    "registered/visual_reference/after_approach/visual_reference": {
+      "evidence_passed": false,
+      "reason": "no_current_instance_match",
+      "matches_visible_dial": false
+    },
+    "registered/recorded/registered/dino": {
+      "evidence_passed": true,
+      "reason": "registered_patch_and_current_box",
+      "matches_visible_dial": true
+    },
+    "registered/recorded/registered/visual_reference": {
+      "evidence_passed": true,
+      "reason": "registered_patch_and_current_box",
+      "matches_visible_dial": true
+    },
+    "registered/recorded/after_approach/dino": {
+      "evidence_passed": false,
+      "reason": "no_current_instance_match",
+      "matches_visible_dial": false
+    },
+    "registered/recorded/after_approach/visual_reference": {
+      "evidence_passed": false,
+      "reason": "no_current_instance_match",
+      "matches_visible_dial": false
+    },
+    "before_approach/visual_reference/before_approach/dino": {
+      "evidence_passed": true,
+      "reason": "registered_patch_and_current_box",
+      "matches_visible_dial": true
+    },
+    "before_approach/visual_reference/before_approach/visual_reference": {
+      "evidence_passed": true,
+      "reason": "registered_patch_and_current_box",
+      "matches_visible_dial": true
+    },
+    "before_approach/visual_reference/after_approach/dino": {
+      "evidence_passed": false,
+      "reason": "no_current_instance_match",
+      "matches_visible_dial": false
+    },
+    "before_approach/visual_reference/after_approach/visual_reference": {
+      "evidence_passed": false,
+      "reason": "no_current_instance_match",
+      "matches_visible_dial": false
+    },
+    "before_approach/dino_top1/before_approach/dino": {
+      "evidence_passed": true,
+      "reason": "registered_patch_and_current_box",
+      "matches_visible_dial": true
+    },
+    "before_approach/dino_top1/before_approach/visual_reference": {
+      "evidence_passed": true,
+      "reason": "registered_patch_and_current_box",
+      "matches_visible_dial": true
+    },
+    "before_approach/dino_top1/after_approach/dino": {
+      "evidence_passed": false,
+      "reason": "no_current_instance_match",
+      "matches_visible_dial": false
+    },
+    "before_approach/dino_top1/after_approach/visual_reference": {
+      "evidence_passed": false,
+      "reason": "no_current_instance_match",
+      "matches_visible_dial": false
+    }
+  },
+  "painting_target_facing": {
+    "distinct_views": 18,
+    "views_meeting_minimum": 10,
+    "eligible_directed_pairs": {
+      "target_visible": 32,
+      "other_target_only": 58
+    },
+    "conditions": {
+      "target_visible/dino_top1/dino": {
+        "trials": 32,
+        "accepted": 7,
+        "localized_target": 7,
+        "accepted_off_target": 0,
+        "deferred": 25
+      },
+      "target_visible/dino_top1/scene_reference": {
+        "trials": 32,
+        "accepted": 6,
+        "localized_target": 6,
+        "accepted_off_target": 0,
+        "deferred": 26
+      },
+      "target_visible/instance_reference/dino": {
+        "trials": 32,
+        "accepted": 7,
+        "localized_target": 7,
+        "accepted_off_target": 0,
+        "deferred": 25
+      },
+      "target_visible/instance_reference/scene_reference": {
+        "trials": 32,
+        "accepted": 8,
+        "localized_target": 8,
+        "accepted_off_target": 0,
+        "deferred": 24
+      },
+      "other_target_only/dino_top1/dino": {
+        "trials": 58,
+        "accepted": 0,
+        "localized_target": 0,
+        "accepted_off_target": 0,
+        "deferred": 58
+      },
+      "other_target_only/dino_top1/scene_reference": {
+        "trials": 58,
+        "accepted": 0,
+        "localized_target": 0,
+        "accepted_off_target": 0,
+        "deferred": 58
+      },
+      "other_target_only/instance_reference/dino": {
+        "trials": 58,
+        "accepted": 0,
+        "localized_target": 0,
+        "accepted_off_target": 0,
+        "deferred": 58
+      },
+      "other_target_only/instance_reference/scene_reference": {
+        "trials": 58,
+        "accepted": 0,
+        "localized_target": 0,
+        "accepted_off_target": 0,
+        "deferred": 58
+      }
+    }
+  },
+  "paid_requests": 0
+}

@@ -1,0 +1,814 @@
+{
+  "protocol": "Reference appears in V21 annotated HSSD test group; all two alternative endpoints and motions fixed. gt reference is privileged. det reference is one-to-one class detector box matched to annotated instance at IoU >= 0.5. gt endpoint is presence of qualifying annotation; det endpoint is detection assigned to that same instance. Ties averaged as in frozen V25.",
+  "paid_calls": 0,
+  "frames": 288,
+  "sequences": 96,
+  "checkpoints_sha256": {
+    "jepa": "54976ccedcb27fb37f75d5d4c80e400c6c9194a9e384e395ab9365ba11016116",
+    "direct": "de6a9b6779aa1fc6d623f516b53a39ebdbb879c04f112fcdeea723864d51da63"
+  },
+  "matched_source": {
+    "cases": 338,
+    "houses": 16,
+    "metrics": {
+      "det_jepa_det": {
+        "hits": 285.0,
+        "rate": 0.8431952662721893
+      },
+      "det_jepa_gt": {
+        "hits": 317.0,
+        "rate": 0.9378698224852071
+      },
+      "det_direct_det": {
+        "hits": 283.0,
+        "rate": 0.8372781065088757
+      },
+      "det_direct_gt": {
+        "hits": 316.0,
+        "rate": 0.9349112426035503
+      },
+      "gt_jepa_det": {
+        "hits": 281.0,
+        "rate": 0.8313609467455622
+      },
+      "gt_jepa_gt": {
+        "hits": 316.0,
+        "rate": 0.9349112426035503
+      },
+      "gt_direct_det": {
+        "hits": 284.0,
+        "rate": 0.8402366863905325
+      },
+      "gt_direct_gt": {
+        "hits": 316.0,
+        "rate": 0.9349112426035503
+      }
+    },
+    "contrasts": {
+      "det_jepa_endpoint_gt_minus_detected": {
+        "houses": 16,
+        "pooled_pp": 9.4675,
+        "house_macro_pp": 10.888,
+        "house_macro_95pct_pp": [
+          6.4849,
+          15.6201
+        ]
+      },
+      "det_direct_endpoint_gt_minus_detected": {
+        "houses": 16,
+        "pooled_pp": 9.7633,
+        "house_macro_pp": 11.0586,
+        "house_macro_95pct_pp": [
+          6.5338,
+          15.9804
+        ]
+      },
+      "det_det_jepa_minus_direct": {
+        "houses": 16,
+        "pooled_pp": 0.5917,
+        "house_macro_pp": 0.6219,
+        "house_macro_95pct_pp": [
+          -1.4839,
+          2.402
+        ]
+      },
+      "det_gt_jepa_minus_direct": {
+        "houses": 16,
+        "pooled_pp": 0.2959,
+        "house_macro_pp": 0.4514,
+        "house_macro_95pct_pp": [
+          -0.4167,
+          1.4931
+        ]
+      },
+      "gt_jepa_endpoint_gt_minus_detected": {
+        "houses": 16,
+        "pooled_pp": 10.355,
+        "house_macro_pp": 11.6346,
+        "house_macro_95pct_pp": [
+          6.9717,
+          16.6651
+        ]
+      },
+      "gt_direct_endpoint_gt_minus_detected": {
+        "houses": 16,
+        "pooled_pp": 9.4675,
+        "house_macro_pp": 10.694,
+        "house_macro_95pct_pp": [
+          6.1687,
+          15.5601
+        ]
+      },
+      "gt_det_jepa_minus_direct": {
+        "houses": 16,
+        "pooled_pp": -0.8876,
+        "house_macro_pp": -0.8364,
+        "house_macro_95pct_pp": [
+          -2.2426,
+          0.3646
+        ]
+      },
+      "gt_gt_jepa_minus_direct": {
+        "houses": 16,
+        "pooled_pp": 0.0,
+        "house_macro_pp": 0.1042,
+        "house_macro_95pct_pp": [
+          -0.9375,
+          1.25
+        ]
+      },
+      "jepa_gt_gt_source_minus_det_source": {
+        "houses": 16,
+        "pooled_pp": -0.2959,
+        "house_macro_pp": -0.4514,
+        "house_macro_95pct_pp": [
+          -1.4931,
+          0.4167
+        ]
+      },
+      "jepa_det_gt_source_minus_det_source": {
+        "houses": 16,
+        "pooled_pp": -1.1834,
+        "house_macro_pp": -1.1979,
+        "house_macro_95pct_pp": [
+          -2.6685,
+          0.3186
+        ]
+      },
+      "direct_gt_gt_source_minus_det_source": {
+        "houses": 16,
+        "pooled_pp": 0.0,
+        "house_macro_pp": -0.1042,
+        "house_macro_95pct_pp": [
+          -1.25,
+          0.9375
+        ]
+      },
+      "direct_det_gt_source_minus_det_source": {
+        "houses": 16,
+        "pooled_pp": 0.2959,
+        "house_macro_pp": 0.2604,
+        "house_macro_95pct_pp": [
+          -0.5729,
+          1.1458
+        ]
+      },
+      "det_method_delta_change_when_replacing_source": {
+        "houses": 16,
+        "pooled_pp": -1.4793,
+        "house_macro_pp": -1.4583,
+        "house_macro_95pct_pp": [
+          -3.4436,
+          0.3186
+        ]
+      },
+      "gt_method_delta_change_when_replacing_source": {
+        "houses": 16,
+        "pooled_pp": -0.2959,
+        "house_macro_pp": -0.3472,
+        "house_macro_95pct_pp": [
+          -2.1528,
+          1.25
+        ]
+      }
+    },
+    "different_endpoint_det": 60,
+    "different_endpoint_gt": 27,
+    "decision_changed_jepa": 22,
+    "decision_changed_direct": 15
+  },
+  "matched_small_gt": {
+    "cases": 67,
+    "houses": 12,
+    "metrics": {
+      "det_jepa_det": {
+        "hits": 49.0,
+        "rate": 0.7313432835820896
+      },
+      "det_jepa_gt": {
+        "hits": 59.0,
+        "rate": 0.8805970149253731
+      },
+      "det_direct_det": {
+        "hits": 48.0,
+        "rate": 0.7164179104477612
+      },
+      "det_direct_gt": {
+        "hits": 59.0,
+        "rate": 0.8805970149253731
+      },
+      "gt_jepa_det": {
+        "hits": 48.0,
+        "rate": 0.7164179104477612
+      },
+      "gt_jepa_gt": {
+        "hits": 59.0,
+        "rate": 0.8805970149253731
+      },
+      "gt_direct_det": {
+        "hits": 49.0,
+        "rate": 0.7313432835820896
+      },
+      "gt_direct_gt": {
+        "hits": 59.0,
+        "rate": 0.8805970149253731
+      }
+    },
+    "contrasts": {
+      "det_jepa_endpoint_gt_minus_detected": {
+        "houses": 12,
+        "pooled_pp": 14.9254,
+        "house_macro_pp": 9.329,
+        "house_macro_95pct_pp": [
+          0.0,
+          21.4719
+        ]
+      },
+      "det_direct_endpoint_gt_minus_detected": {
+        "houses": 12,
+        "pooled_pp": 16.4179,
+        "house_macro_pp": 10.9957,
+        "house_macro_95pct_pp": [
+          0.0,
+          26.6667
+        ]
+      },
+      "det_det_jepa_minus_direct": {
+        "houses": 12,
+        "pooled_pp": 1.4925,
+        "house_macro_pp": 1.6667,
+        "house_macro_95pct_pp": [
+          0.0,
+          5.0
+        ]
+      },
+      "det_gt_jepa_minus_direct": {
+        "houses": 12,
+        "pooled_pp": 0.0,
+        "house_macro_pp": 0.0,
+        "house_macro_95pct_pp": [
+          0.0,
+          0.0
+        ]
+      },
+      "gt_jepa_endpoint_gt_minus_detected": {
+        "houses": 12,
+        "pooled_pp": 16.4179,
+        "house_macro_pp": 10.9957,
+        "house_macro_95pct_pp": [
+          0.0,
+          26.6667
+        ]
+      },
+      "gt_direct_endpoint_gt_minus_detected": {
+        "houses": 12,
+        "pooled_pp": 14.9254,
+        "house_macro_pp": 9.329,
+        "house_macro_95pct_pp": [
+          0.0,
+          21.4719
+        ]
+      },
+      "gt_det_jepa_minus_direct": {
+        "houses": 12,
+        "pooled_pp": -1.4925,
+        "house_macro_pp": -1.6667,
+        "house_macro_95pct_pp": [
+          -5.0,
+          0.0
+        ]
+      },
+      "gt_gt_jepa_minus_direct": {
+        "houses": 12,
+        "pooled_pp": 0.0,
+        "house_macro_pp": 0.0,
+        "house_macro_95pct_pp": [
+          0.0,
+          0.0
+        ]
+      },
+      "jepa_gt_gt_source_minus_det_source": {
+        "houses": 12,
+        "pooled_pp": 0.0,
+        "house_macro_pp": 0.0,
+        "house_macro_95pct_pp": [
+          0.0,
+          0.0
+        ]
+      },
+      "jepa_det_gt_source_minus_det_source": {
+        "houses": 12,
+        "pooled_pp": -1.4925,
+        "house_macro_pp": -1.6667,
+        "house_macro_95pct_pp": [
+          -5.0,
+          0.0
+        ]
+      },
+      "direct_gt_gt_source_minus_det_source": {
+        "houses": 12,
+        "pooled_pp": 0.0,
+        "house_macro_pp": 0.0,
+        "house_macro_95pct_pp": [
+          0.0,
+          0.0
+        ]
+      },
+      "direct_det_gt_source_minus_det_source": {
+        "houses": 12,
+        "pooled_pp": 1.4925,
+        "house_macro_pp": 1.6667,
+        "house_macro_95pct_pp": [
+          0.0,
+          5.0
+        ]
+      },
+      "det_method_delta_change_when_replacing_source": {
+        "houses": 12,
+        "pooled_pp": -2.9851,
+        "house_macro_pp": -3.3333,
+        "house_macro_95pct_pp": [
+          -10.0,
+          0.0
+        ]
+      },
+      "gt_method_delta_change_when_replacing_source": {
+        "houses": 12,
+        "pooled_pp": 0.0,
+        "house_macro_pp": 0.0,
+        "house_macro_95pct_pp": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "different_endpoint_det": 10,
+    "different_endpoint_gt": 6,
+    "decision_changed_jepa": 6,
+    "decision_changed_direct": 5
+  },
+  "matched_one_endpoint_annotated": {
+    "cases": 27,
+    "houses": 14,
+    "metrics": {
+      "det_jepa_det": {
+        "hits": 11.0,
+        "rate": 0.4074074074074074
+      },
+      "det_jepa_gt": {
+        "hits": 20.0,
+        "rate": 0.7407407407407407
+      },
+      "det_direct_det": {
+        "hits": 11.0,
+        "rate": 0.4074074074074074
+      },
+      "det_direct_gt": {
+        "hits": 19.0,
+        "rate": 0.7037037037037037
+      },
+      "gt_jepa_det": {
+        "hits": 11.0,
+        "rate": 0.4074074074074074
+      },
+      "gt_jepa_gt": {
+        "hits": 19.0,
+        "rate": 0.7037037037037037
+      },
+      "gt_direct_det": {
+        "hits": 11.0,
+        "rate": 0.4074074074074074
+      },
+      "gt_direct_gt": {
+        "hits": 19.0,
+        "rate": 0.7037037037037037
+      }
+    },
+    "contrasts": {
+      "det_jepa_endpoint_gt_minus_detected": {
+        "houses": 14,
+        "pooled_pp": 33.3333,
+        "house_macro_pp": 49.0476,
+        "house_macro_95pct_pp": [
+          26.1905,
+          72.8571
+        ]
+      },
+      "det_direct_endpoint_gt_minus_detected": {
+        "houses": 14,
+        "pooled_pp": 29.6296,
+        "house_macro_pp": 41.9048,
+        "house_macro_95pct_pp": [
+          19.5238,
+          66.6667
+        ]
+      },
+      "det_det_jepa_minus_direct": {
+        "houses": 14,
+        "pooled_pp": 0.0,
+        "house_macro_pp": -1.1905,
+        "house_macro_95pct_pp": [
+          -10.7143,
+          7.1429
+        ]
+      },
+      "det_gt_jepa_minus_direct": {
+        "houses": 14,
+        "pooled_pp": 3.7037,
+        "house_macro_pp": 5.9524,
+        "house_macro_95pct_pp": [
+          -8.3333,
+          23.8095
+        ]
+      },
+      "gt_jepa_endpoint_gt_minus_detected": {
+        "houses": 14,
+        "pooled_pp": 29.6296,
+        "house_macro_pp": 41.9048,
+        "house_macro_95pct_pp": [
+          19.5238,
+          66.6667
+        ]
+      },
+      "gt_direct_endpoint_gt_minus_detected": {
+        "houses": 14,
+        "pooled_pp": 29.6296,
+        "house_macro_pp": 41.9048,
+        "house_macro_95pct_pp": [
+          19.5238,
+          66.6667
+        ]
+      },
+      "gt_det_jepa_minus_direct": {
+        "houses": 14,
+        "pooled_pp": 0.0,
+        "house_macro_pp": 1.1905,
+        "house_macro_95pct_pp": [
+          -7.1429,
+          10.7143
+        ]
+      },
+      "gt_gt_jepa_minus_direct": {
+        "houses": 14,
+        "pooled_pp": 0.0,
+        "house_macro_pp": 1.1905,
+        "house_macro_95pct_pp": [
+          -7.1429,
+          10.7143
+        ]
+      },
+      "jepa_gt_gt_source_minus_det_source": {
+        "houses": 14,
+        "pooled_pp": -3.7037,
+        "house_macro_pp": -5.9524,
+        "house_macro_95pct_pp": [
+          -23.8095,
+          8.3333
+        ]
+      },
+      "jepa_det_gt_source_minus_det_source": {
+        "houses": 14,
+        "pooled_pp": 0.0,
+        "house_macro_pp": 1.1905,
+        "house_macro_95pct_pp": [
+          -7.1429,
+          10.7143
+        ]
+      },
+      "direct_gt_gt_source_minus_det_source": {
+        "houses": 14,
+        "pooled_pp": 0.0,
+        "house_macro_pp": -1.1905,
+        "house_macro_95pct_pp": [
+          -10.7143,
+          7.1429
+        ]
+      },
+      "direct_det_gt_source_minus_det_source": {
+        "houses": 14,
+        "pooled_pp": 0.0,
+        "house_macro_pp": -1.1905,
+        "house_macro_95pct_pp": [
+          -10.7143,
+          7.1429
+        ]
+      },
+      "det_method_delta_change_when_replacing_source": {
+        "houses": 14,
+        "pooled_pp": 0.0,
+        "house_macro_pp": 2.381,
+        "house_macro_95pct_pp": [
+          -10.7143,
+          14.2857
+        ]
+      },
+      "gt_method_delta_change_when_replacing_source": {
+        "houses": 14,
+        "pooled_pp": -3.7037,
+        "house_macro_pp": -4.7619,
+        "house_macro_95pct_pp": [
+          -26.1905,
+          14.2857
+        ]
+      }
+    },
+    "different_endpoint_det": 18,
+    "different_endpoint_gt": 27,
+    "decision_changed_jepa": 3,
+    "decision_changed_direct": 2
+  },
+  "matched_one_endpoint_detected": {
+    "cases": 60,
+    "houses": 14,
+    "metrics": {
+      "det_jepa_det": {
+        "hits": 42.0,
+        "rate": 0.7
+      },
+      "det_jepa_gt": {
+        "hits": 53.0,
+        "rate": 0.8833333333333333
+      },
+      "det_direct_det": {
+        "hits": 40.0,
+        "rate": 0.6666666666666666
+      },
+      "det_direct_gt": {
+        "hits": 53.0,
+        "rate": 0.8833333333333333
+      },
+      "gt_jepa_det": {
+        "hits": 38.0,
+        "rate": 0.6333333333333333
+      },
+      "gt_jepa_gt": {
+        "hits": 53.0,
+        "rate": 0.8833333333333333
+      },
+      "gt_direct_det": {
+        "hits": 41.0,
+        "rate": 0.6833333333333333
+      },
+      "gt_direct_gt": {
+        "hits": 53.0,
+        "rate": 0.8833333333333333
+      }
+    },
+    "contrasts": {
+      "det_jepa_endpoint_gt_minus_detected": {
+        "houses": 14,
+        "pooled_pp": 18.3333,
+        "house_macro_pp": 17.7976,
+        "house_macro_95pct_pp": [
+          8.869,
+          27.619
+        ]
+      },
+      "det_direct_endpoint_gt_minus_detected": {
+        "houses": 14,
+        "pooled_pp": 21.6667,
+        "house_macro_pp": 20.8929,
+        "house_macro_95pct_pp": [
+          11.0714,
+          30.9524
+        ]
+      },
+      "det_det_jepa_minus_direct": {
+        "houses": 14,
+        "pooled_pp": 3.3333,
+        "house_macro_pp": 5.4762,
+        "house_macro_95pct_pp": [
+          -2.381,
+          14.6429
+        ]
+      },
+      "det_gt_jepa_minus_direct": {
+        "houses": 14,
+        "pooled_pp": 0.0,
+        "house_macro_pp": 2.381,
+        "house_macro_95pct_pp": [
+          -3.5714,
+          10.7143
+        ]
+      },
+      "gt_jepa_endpoint_gt_minus_detected": {
+        "houses": 14,
+        "pooled_pp": 25.0,
+        "house_macro_pp": 22.9762,
+        "house_macro_95pct_pp": [
+          13.0952,
+          32.8571
+        ]
+      },
+      "gt_direct_endpoint_gt_minus_detected": {
+        "houses": 14,
+        "pooled_pp": 20.0,
+        "house_macro_pp": 19.2262,
+        "house_macro_95pct_pp": [
+          9.1071,
+          30.0
+        ]
+      },
+      "gt_det_jepa_minus_direct": {
+        "houses": 14,
+        "pooled_pp": -5.0,
+        "house_macro_pp": -6.131,
+        "house_macro_95pct_pp": [
+          -15.1801,
+          0.7143
+        ]
+      },
+      "gt_gt_jepa_minus_direct": {
+        "houses": 14,
+        "pooled_pp": 0.0,
+        "house_macro_pp": -2.381,
+        "house_macro_95pct_pp": [
+          -10.7143,
+          3.5714
+        ]
+      },
+      "jepa_gt_gt_source_minus_det_source": {
+        "houses": 14,
+        "pooled_pp": 0.0,
+        "house_macro_pp": -2.381,
+        "house_macro_95pct_pp": [
+          -10.7143,
+          3.5714
+        ]
+      },
+      "jepa_det_gt_source_minus_det_source": {
+        "houses": 14,
+        "pooled_pp": -6.6667,
+        "house_macro_pp": -7.5595,
+        "house_macro_95pct_pp": [
+          -16.0714,
+          -0.5357
+        ]
+      },
+      "direct_gt_gt_source_minus_det_source": {
+        "houses": 14,
+        "pooled_pp": 0.0,
+        "house_macro_pp": 2.381,
+        "house_macro_95pct_pp": [
+          -3.5714,
+          10.7143
+        ]
+      },
+      "direct_det_gt_source_minus_det_source": {
+        "houses": 14,
+        "pooled_pp": 1.6667,
+        "house_macro_pp": 4.0476,
+        "house_macro_95pct_pp": [
+          -1.4286,
+          12.381
+        ]
+      },
+      "det_method_delta_change_when_replacing_source": {
+        "houses": 14,
+        "pooled_pp": -8.3333,
+        "house_macro_pp": -11.6071,
+        "house_macro_95pct_pp": [
+          -27.9762,
+          -0.2976
+        ]
+      },
+      "gt_method_delta_change_when_replacing_source": {
+        "houses": 14,
+        "pooled_pp": 0.0,
+        "house_macro_pp": -4.7619,
+        "house_macro_95pct_pp": [
+          -20.2381,
+          4.7619
+        ]
+      }
+    },
+    "different_endpoint_det": 60,
+    "different_endpoint_gt": 18,
+    "decision_changed_jepa": 8,
+    "decision_changed_direct": 5
+  },
+  "gt_only_source": {
+    "cases": 323,
+    "houses": 16,
+    "metrics": {
+      "gt_jepa_det": {
+        "hits": 38.0,
+        "rate": 0.11764705882352941
+      },
+      "gt_jepa_gt": {
+        "hits": 268.0,
+        "rate": 0.8297213622291022
+      },
+      "gt_direct_det": {
+        "hits": 38.0,
+        "rate": 0.11764705882352941
+      },
+      "gt_direct_gt": {
+        "hits": 268.0,
+        "rate": 0.8297213622291022
+      }
+    },
+    "contrasts": {
+      "gt_jepa_endpoint_gt_minus_detected": {
+        "houses": 16,
+        "pooled_pp": 71.2074,
+        "house_macro_pp": 56.5267,
+        "house_macro_95pct_pp": [
+          41.9651,
+          70.117
+        ]
+      },
+      "gt_direct_endpoint_gt_minus_detected": {
+        "houses": 16,
+        "pooled_pp": 71.2074,
+        "house_macro_pp": 56.9912,
+        "house_macro_95pct_pp": [
+          42.1105,
+          70.6056
+        ]
+      },
+      "gt_det_jepa_minus_direct": {
+        "houses": 16,
+        "pooled_pp": 0.0,
+        "house_macro_pp": 0.5272,
+        "house_macro_95pct_pp": [
+          -1.7646,
+          3.2865
+        ]
+      },
+      "gt_gt_jepa_minus_direct": {
+        "houses": 16,
+        "pooled_pp": 0.0,
+        "house_macro_pp": 0.0628,
+        "house_macro_95pct_pp": [
+          -1.5257,
+          1.3352
+        ]
+      }
+    },
+    "different_endpoint_det": 33,
+    "different_endpoint_gt": 75
+  },
+  "all_gt_sources": {
+    "cases": 661,
+    "houses": 16,
+    "metrics": {
+      "gt_jepa_det": {
+        "hits": 319.0,
+        "rate": 0.4826021180030257
+      },
+      "gt_jepa_gt": {
+        "hits": 584.0,
+        "rate": 0.8835098335854765
+      },
+      "gt_direct_det": {
+        "hits": 322.0,
+        "rate": 0.48714069591527986
+      },
+      "gt_direct_gt": {
+        "hits": 584.0,
+        "rate": 0.8835098335854765
+      }
+    },
+    "contrasts": {
+      "gt_jepa_endpoint_gt_minus_detected": {
+        "houses": 16,
+        "pooled_pp": 40.0908,
+        "house_macro_pp": 30.7239,
+        "house_macro_95pct_pp": [
+          20.9543,
+          41.6143
+        ]
+      },
+      "gt_direct_endpoint_gt_minus_detected": {
+        "houses": 16,
+        "pooled_pp": 39.6369,
+        "house_macro_pp": 30.2499,
+        "house_macro_95pct_pp": [
+          20.131,
+          41.2611
+        ]
+      },
+      "gt_det_jepa_minus_direct": {
+        "houses": 16,
+        "pooled_pp": -0.4539,
+        "house_macro_pp": -0.5921,
+        "house_macro_95pct_pp": [
+          -1.8571,
+          0.5661
+        ]
+      },
+      "gt_gt_jepa_minus_direct": {
+        "houses": 16,
+        "pooled_pp": 0.0,
+        "house_macro_pp": -0.1181,
+        "house_macro_95pct_pp": [
+          -1.4921,
+          0.9671
+        ]
+      }
+    },
+    "different_endpoint_det": 93,
+    "different_endpoint_gt": 102
+  }
+}

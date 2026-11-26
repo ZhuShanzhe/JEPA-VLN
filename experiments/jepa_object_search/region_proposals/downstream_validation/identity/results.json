@@ -1,0 +1,436 @@
+{
+  "arms": "source boxes / all current category boxes; assessment uses frozen appearance verification and current support only",
+  "heldout_houses": 16,
+  "maximum_per_house_and_condition_expanded": 12,
+  "paid_calls": 0,
+  "results": {
+    "existing_32": {
+      "other_only": {
+        "arms": {
+          "det_det": {
+            "house_bootstrap_95": [
+              0.0,
+              0.0
+            ],
+            "house_macro_correct_rate_delta": 0.0,
+            "outcomes": {
+              "withheld": 16
+            },
+            "paired_transitions_from_det_det": {
+              "withheld_to_withheld": 16
+            },
+            "reasons": {
+              "no_current_instance_match": 16
+            }
+          },
+          "det_gt": {
+            "house_bootstrap_95": [
+              0.0,
+              0.0
+            ],
+            "house_macro_correct_rate_delta": 0.0,
+            "outcomes": {
+              "withheld": 16
+            },
+            "paired_transitions_from_det_det": {
+              "withheld_to_withheld": 16
+            },
+            "reasons": {
+              "no_current_instance_match": 16
+            }
+          },
+          "gt_det": {
+            "house_bootstrap_95": [
+              0.0,
+              0.0
+            ],
+            "house_macro_correct_rate_delta": 0.0,
+            "outcomes": {
+              "withheld": 16
+            },
+            "paired_transitions_from_det_det": {
+              "withheld_to_withheld": 16
+            },
+            "reasons": {
+              "no_current_instance_match": 16
+            }
+          },
+          "gt_gt": {
+            "house_bootstrap_95": [
+              0.0,
+              0.0
+            ],
+            "house_macro_correct_rate_delta": 0.0,
+            "outcomes": {
+              "withheld": 16
+            },
+            "paired_transitions_from_det_det": {
+              "withheld_to_withheld": 16
+            },
+            "reasons": {
+              "no_current_instance_match": 16
+            }
+          }
+        },
+        "houses": 16,
+        "pairs": 16,
+        "uniquely_matched_source_detection": 16
+      },
+      "same_visible": {
+        "arms": {
+          "det_det": {
+            "house_bootstrap_95": [
+              0.0,
+              0.0
+            ],
+            "house_macro_correct_rate_delta": 0.0,
+            "outcomes": {
+              "correct": 5,
+              "withheld": 9,
+              "wrong_instance": 2
+            },
+            "paired_transitions_from_det_det": {
+              "correct_to_correct": 5,
+              "withheld_to_withheld": 9,
+              "wrong_instance_to_wrong_instance": 2
+            },
+            "reasons": {
+              "no_current_instance_match": 9,
+              "registered_local_features_and_current_box": 5,
+              "registered_patch_and_current_box": 2
+            }
+          },
+          "det_gt": {
+            "house_bootstrap_95": [
+              0.0,
+              0.0
+            ],
+            "house_macro_correct_rate_delta": 0.0,
+            "outcomes": {
+              "correct": 5,
+              "withheld": 9,
+              "wrong_instance": 2
+            },
+            "paired_transitions_from_det_det": {
+              "correct_to_correct": 5,
+              "withheld_to_withheld": 9,
+              "wrong_instance_to_wrong_instance": 2
+            },
+            "reasons": {
+              "no_current_instance_match": 9,
+              "registered_local_features_and_current_box": 5,
+              "registered_patch_and_current_box": 2
+            }
+          },
+          "gt_det": {
+            "house_bootstrap_95": [
+              0.0,
+              0.0
+            ],
+            "house_macro_correct_rate_delta": 0.0,
+            "outcomes": {
+              "correct": 5,
+              "withheld": 9,
+              "wrong_instance": 2
+            },
+            "paired_transitions_from_det_det": {
+              "correct_to_correct": 5,
+              "withheld_to_withheld": 9,
+              "wrong_instance_to_wrong_instance": 2
+            },
+            "reasons": {
+              "no_current_instance_match": 9,
+              "registered_local_features_and_current_box": 5,
+              "registered_patch_and_current_box": 2
+            }
+          },
+          "gt_gt": {
+            "house_bootstrap_95": [
+              -0.1875,
+              0.0
+            ],
+            "house_macro_correct_rate_delta": -0.0625,
+            "outcomes": {
+              "correct": 4,
+              "withheld": 10,
+              "wrong_instance": 2
+            },
+            "paired_transitions_from_det_det": {
+              "correct_to_correct": 4,
+              "correct_to_withheld": 1,
+              "withheld_to_withheld": 9,
+              "wrong_instance_to_wrong_instance": 2
+            },
+            "reasons": {
+              "no_current_instance_match": 10,
+              "registered_local_features_and_current_box": 4,
+              "registered_patch_and_current_box": 2
+            }
+          }
+        },
+        "houses": 16,
+        "pairs": 16,
+        "uniquely_matched_source_detection": 16
+      }
+    },
+    "house_stratified": {
+      "other_only": {
+        "arms": {
+          "det_det": {
+            "house_bootstrap_95": [
+              0.0,
+              0.0
+            ],
+            "house_macro_correct_rate_delta": 0.0,
+            "outcomes": {
+              "withheld": 179
+            },
+            "paired_transitions_from_det_det": {
+              "withheld_to_withheld": 179
+            },
+            "reasons": {
+              "no_current_instance_match": 110,
+              "no_local_target_box": 5,
+              "source_missing": 64
+            }
+          },
+          "det_gt": {
+            "house_bootstrap_95": [
+              0.0,
+              0.0
+            ],
+            "house_macro_correct_rate_delta": 0.0,
+            "outcomes": {
+              "withheld": 179
+            },
+            "paired_transitions_from_det_det": {
+              "withheld_to_withheld": 179
+            },
+            "reasons": {
+              "no_current_instance_match": 115,
+              "source_missing": 64
+            }
+          },
+          "gt_det": {
+            "house_bootstrap_95": [
+              0.0,
+              0.0
+            ],
+            "house_macro_correct_rate_delta": 0.0,
+            "outcomes": {
+              "withheld": 179
+            },
+            "paired_transitions_from_det_det": {
+              "withheld_to_withheld": 179
+            },
+            "reasons": {
+              "no_current_instance_match": 170,
+              "no_local_target_box": 9
+            }
+          },
+          "gt_gt": {
+            "house_bootstrap_95": [
+              0.0,
+              0.0
+            ],
+            "house_macro_correct_rate_delta": 0.0,
+            "outcomes": {
+              "withheld": 178,
+              "wrong_instance": 1
+            },
+            "paired_transitions_from_det_det": {
+              "withheld_to_withheld": 178,
+              "withheld_to_wrong_instance": 1
+            },
+            "reasons": {
+              "no_current_instance_match": 178,
+              "registered_patch_and_current_box": 1
+            }
+          }
+        },
+        "houses": 16,
+        "pairs": 179,
+        "uniquely_matched_source_detection": 115
+      },
+      "positive_by_target_box_at_both_views": {
+        "reference_0_live_0": {
+          "correct_by_arm": {
+            "det_det": 0,
+            "det_gt": 0,
+            "gt_det": 0,
+            "gt_gt": 10
+          },
+          "house_macro_gt_minus_det_ci95": [
+            0.03076923076923077,
+            0.33855769230769095
+          ],
+          "houses": 13,
+          "pairs": 58
+        },
+        "reference_0_live_1": {
+          "correct_by_arm": {
+            "det_det": 0,
+            "det_gt": 0,
+            "gt_det": 2,
+            "gt_gt": 2
+          },
+          "house_macro_gt_minus_det_ci95": [
+            0.0,
+            0.21875
+          ],
+          "houses": 8,
+          "pairs": 15
+        },
+        "reference_1_live_0": {
+          "correct_by_arm": {
+            "det_det": 0,
+            "det_gt": 4,
+            "gt_det": 0,
+            "gt_gt": 5
+          },
+          "house_macro_gt_minus_det_ci95": [
+            0.05,
+            0.45
+          ],
+          "houses": 10,
+          "pairs": 21
+        },
+        "reference_1_live_1": {
+          "correct_by_arm": {
+            "det_det": 29,
+            "det_gt": 30,
+            "gt_det": 33,
+            "gt_gt": 32
+          },
+          "house_macro_gt_minus_det_ci95": [
+            -0.01726190476190476,
+            0.08958333333333333
+          ],
+          "houses": 16,
+          "pairs": 98
+        }
+      },
+      "same_visible": {
+        "arms": {
+          "det_det": {
+            "house_bootstrap_95": [
+              0.0,
+              0.0
+            ],
+            "house_macro_correct_rate_delta": 0.0,
+            "outcomes": {
+              "correct": 29,
+              "unverified": 1,
+              "withheld": 162
+            },
+            "paired_transitions_from_det_det": {
+              "correct_to_correct": 29,
+              "unverified_to_unverified": 1,
+              "withheld_to_withheld": 162
+            },
+            "reasons": {
+              "ambiguous_live_boxes": 5,
+              "no_current_instance_match": 78,
+              "no_local_target_box": 2,
+              "reference_spans_opposite_borders": 2,
+              "registered_local_features_and_current_box": 17,
+              "registered_patch_and_current_box": 13,
+              "source_missing": 73,
+              "source_not_storable": 2
+            }
+          },
+          "det_gt": {
+            "house_bootstrap_95": [
+              -0.005208333333333333,
+              0.057291666666666664
+            ],
+            "house_macro_correct_rate_delta": 0.026041666666666664,
+            "outcomes": {
+              "correct": 34,
+              "withheld": 156,
+              "wrong_instance": 2
+            },
+            "paired_transitions_from_det_det": {
+              "correct_to_correct": 26,
+              "correct_to_withheld": 3,
+              "unverified_to_withheld": 1,
+              "withheld_to_correct": 8,
+              "withheld_to_withheld": 152,
+              "withheld_to_wrong_instance": 2
+            },
+            "reasons": {
+              "ambiguous_live_boxes": 2,
+              "no_current_instance_match": 77,
+              "reference_spans_opposite_borders": 2,
+              "registered_local_features_and_current_box": 20,
+              "registered_patch_and_current_box": 16,
+              "source_missing": 73,
+              "source_not_storable": 2
+            }
+          },
+          "gt_det": {
+            "house_bootstrap_95": [
+              0.0,
+              0.06249999999999999
+            ],
+            "house_macro_correct_rate_delta": 0.03125,
+            "outcomes": {
+              "correct": 35,
+              "unverified": 3,
+              "withheld": 153,
+              "wrong_instance": 1
+            },
+            "paired_transitions_from_det_det": {
+              "correct_to_correct": 26,
+              "correct_to_withheld": 3,
+              "unverified_to_unverified": 1,
+              "withheld_to_correct": 9,
+              "withheld_to_unverified": 2,
+              "withheld_to_withheld": 150,
+              "withheld_to_wrong_instance": 1
+            },
+            "reasons": {
+              "ambiguous_live_boxes": 4,
+              "no_current_instance_match": 136,
+              "no_local_target_box": 11,
+              "reference_spans_opposite_borders": 2,
+              "registered_local_features_and_current_box": 21,
+              "registered_patch_and_current_box": 18
+            }
+          },
+          "gt_gt": {
+            "house_bootstrap_95": [
+              0.05208333333333333,
+              0.16145833333333331
+            ],
+            "house_macro_correct_rate_delta": 0.10416666666666666,
+            "outcomes": {
+              "correct": 49,
+              "withheld": 142,
+              "wrong_instance": 1
+            },
+            "paired_transitions_from_det_det": {
+              "correct_to_correct": 27,
+              "correct_to_withheld": 2,
+              "unverified_to_withheld": 1,
+              "withheld_to_correct": 22,
+              "withheld_to_withheld": 139,
+              "withheld_to_wrong_instance": 1
+            },
+            "reasons": {
+              "ambiguous_live_boxes": 5,
+              "no_current_instance_match": 132,
+              "reference_spans_opposite_borders": 5,
+              "registered_local_features_and_current_box": 22,
+              "registered_patch_and_current_box": 28
+            }
+          }
+        },
+        "houses": 16,
+        "pairs": 192,
+        "uniquely_matched_source_detection": 119
+      }
+    }
+  },
+  "selection_sha256_existing_32": "d43218ee2d40eabd4c35e85de2c9d4ca7fe05b3fb230f90f7553f2ef6ba384bf"
+}
