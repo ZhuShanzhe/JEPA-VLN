@@ -1,0 +1,317 @@
+{
+  "paid_calls": 0,
+  "paired_house_macro_delta": {
+    "clean/direct": {
+      "ci95": [
+        0.07777777777777777,
+        0.19444444444444442
+      ],
+      "mean": 0.13564814814814816,
+      "n_houses": 12
+    },
+    "clean/position": {
+      "ci95": [
+        -0.09074074074074073,
+        0.038888888888888876
+      ],
+      "mean": -0.032870370370370376,
+      "n_houses": 12
+    },
+    "pose_stress/direct": {
+      "ci95": [
+        0.0861111111111111,
+        0.26851851851851855
+      ],
+      "mean": 0.17500000000000002,
+      "n_houses": 12
+    },
+    "pose_stress/position": {
+      "ci95": [
+        0.14351851851851852,
+        0.3879629629629629
+      ],
+      "mean": 0.26296296296296295,
+      "n_houses": 12
+    }
+  },
+  "seeds": {
+    "126111": {
+      "checkpoints": {
+        "direct": "d03c035c6a3d4a6f2a8f6c82f9dd6d9dbb0cab9e3510b50d74934bd5752d5b5a",
+        "jepa": "5420b26d02915a2b2b4c4a28378a78cba2a2b15c000255d13a51f1d9136e3745"
+      },
+      "methods": {
+        "direct": {
+          "absent_with_same_class": {
+            "clean": {
+              "different": 81,
+              "source_missing": 8,
+              "uncertain": 5
+            },
+            "pose_stress": {
+              "different": 81,
+              "source_missing": 8,
+              "uncertain": 5
+            }
+          },
+          "same": {
+            "clean": {
+              "correct": 65,
+              "different": 5,
+              "source_missing": 5,
+              "uncertain": 17
+            },
+            "pose_stress": {
+              "correct": 57,
+              "different": 5,
+              "source_missing": 5,
+              "uncertain": 25
+            }
+          }
+        },
+        "jepa": {
+          "absent_with_same_class": {
+            "clean": {
+              "different": 80,
+              "source_missing": 8,
+              "uncertain": 6
+            },
+            "pose_stress": {
+              "different": 80,
+              "source_missing": 8,
+              "uncertain": 6
+            }
+          },
+          "same": {
+            "clean": {
+              "correct": 68,
+              "different": 4,
+              "source_missing": 5,
+              "uncertain": 14,
+              "wrong": 1
+            },
+            "pose_stress": {
+              "correct": 63,
+              "different": 6,
+              "source_missing": 5,
+              "uncertain": 17,
+              "wrong": 1
+            }
+          }
+        },
+        "position": {
+          "absent_with_same_class": {
+            "clean": {
+              "source_missing": 8,
+              "uncertain": 86
+            },
+            "pose_stress": {
+              "source_missing": 8,
+              "uncertain": 86
+            }
+          },
+          "same": {
+            "clean": {
+              "correct": 73,
+              "source_missing": 5,
+              "uncertain": 14
+            },
+            "pose_stress": {
+              "correct": 45,
+              "source_missing": 5,
+              "uncertain": 39,
+              "unverified": 2,
+              "wrong": 1
+            }
+          }
+        }
+      }
+    },
+    "126112": {
+      "checkpoints": {
+        "direct": "9ceed0620e2885db266e91e7ed396088d81165464c07a37f73e9a540ca916614",
+        "jepa": "5ed3e15aebf7146bf718fbae9678267c5e041a19ada6629c84467681a7ea91fe"
+      },
+      "methods": {
+        "direct": {
+          "absent_with_same_class": {
+            "clean": {
+              "different": 81,
+              "source_missing": 8,
+              "uncertain": 5
+            },
+            "pose_stress": {
+              "different": 81,
+              "source_missing": 8,
+              "uncertain": 5
+            }
+          },
+          "same": {
+            "clean": {
+              "correct": 56,
+              "different": 5,
+              "source_missing": 5,
+              "uncertain": 26
+            },
+            "pose_stress": {
+              "correct": 49,
+              "different": 7,
+              "source_missing": 5,
+              "uncertain": 31
+            }
+          }
+        },
+        "jepa": {
+          "absent_with_same_class": {
+            "clean": {
+              "different": 80,
+              "source_missing": 8,
+              "uncertain": 6
+            },
+            "pose_stress": {
+              "different": 80,
+              "source_missing": 8,
+              "uncertain": 6
+            }
+          },
+          "same": {
+            "clean": {
+              "correct": 70,
+              "different": 6,
+              "source_missing": 5,
+              "uncertain": 10,
+              "wrong": 1
+            },
+            "pose_stress": {
+              "correct": 68,
+              "different": 6,
+              "source_missing": 5,
+              "uncertain": 12,
+              "wrong": 1
+            }
+          }
+        },
+        "position": {
+          "absent_with_same_class": {
+            "clean": {
+              "source_missing": 8,
+              "uncertain": 86
+            },
+            "pose_stress": {
+              "source_missing": 8,
+              "uncertain": 86
+            }
+          },
+          "same": {
+            "clean": {
+              "correct": 73,
+              "source_missing": 5,
+              "uncertain": 14
+            },
+            "pose_stress": {
+              "correct": 45,
+              "source_missing": 5,
+              "uncertain": 39,
+              "unverified": 2,
+              "wrong": 1
+            }
+          }
+        }
+      }
+    },
+    "126113": {
+      "checkpoints": {
+        "direct": "43f401dd112e5d18c67576690be166e9d3fbf406d224754f192035bba1f6de7a",
+        "jepa": "7bff0e7d54e10940c19a118c3fec3a7a40fc3c61987e896dcbf345d03abd461b"
+      },
+      "methods": {
+        "direct": {
+          "absent_with_same_class": {
+            "clean": {
+              "different": 79,
+              "source_missing": 8,
+              "uncertain": 7
+            },
+            "pose_stress": {
+              "different": 78,
+              "source_missing": 8,
+              "uncertain": 8
+            }
+          },
+          "same": {
+            "clean": {
+              "correct": 47,
+              "different": 4,
+              "source_missing": 5,
+              "uncertain": 35,
+              "wrong": 1
+            },
+            "pose_stress": {
+              "correct": 44,
+              "different": 4,
+              "source_missing": 5,
+              "uncertain": 38,
+              "wrong": 1
+            }
+          }
+        },
+        "jepa": {
+          "absent_with_same_class": {
+            "clean": {
+              "different": 80,
+              "source_missing": 8,
+              "uncertain": 6
+            },
+            "pose_stress": {
+              "different": 80,
+              "source_missing": 8,
+              "uncertain": 6
+            }
+          },
+          "same": {
+            "clean": {
+              "correct": 69,
+              "different": 5,
+              "source_missing": 5,
+              "uncertain": 12,
+              "wrong": 1
+            },
+            "pose_stress": {
+              "correct": 67,
+              "different": 5,
+              "source_missing": 5,
+              "uncertain": 14,
+              "wrong": 1
+            }
+          }
+        },
+        "position": {
+          "absent_with_same_class": {
+            "clean": {
+              "source_missing": 8,
+              "uncertain": 86
+            },
+            "pose_stress": {
+              "source_missing": 8,
+              "uncertain": 86
+            }
+          },
+          "same": {
+            "clean": {
+              "correct": 73,
+              "source_missing": 5,
+              "uncertain": 14
+            },
+            "pose_stress": {
+              "correct": 45,
+              "source_missing": 5,
+              "uncertain": 39,
+              "unverified": 2,
+              "wrong": 1
+            }
+          }
+        }
+      }
+    }
+  }
+}

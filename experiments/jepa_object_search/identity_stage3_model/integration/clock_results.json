@@ -1,0 +1,46 @@
+{
+  "actual_relook_is_keyframe": false,
+  "archive_contains_dense_frame_clouds": false,
+  "live_has_confirmed_category_box": true,
+  "live_same_instance_in_range": true,
+  "models": {
+    "direct": {
+      "original_interface": {
+        "accepted": false,
+        "reason": "identity_missing_geometry"
+      },
+      "reconstructed_geometry": {
+        "accepted": true,
+        "matches_reviewed_dial": true,
+        "reason": "learned_same_instance"
+      }
+    },
+    "jepa": {
+      "original_interface": {
+        "accepted": false,
+        "reason": "identity_missing_geometry"
+      },
+      "reconstructed_geometry": {
+        "accepted": true,
+        "matches_reviewed_dial": true,
+        "reason": "learned_same_instance"
+      }
+    },
+    "original": {
+      "original_interface": {
+        "accepted": false,
+        "reason": "no_current_instance_match"
+      },
+      "reconstructed_geometry": {
+        "accepted": false,
+        "matches_reviewed_dial": false,
+        "reason": "no_current_instance_match"
+      }
+    }
+  },
+  "paid_calls": 0,
+  "reconstructed_camera_count": 3,
+  "reconstructed_input_sha256": "4fab6dbdb1f65642c21a72aae7bfbf195d465df7e273275581c1c2547b53e884",
+  "reconstruction_scale": "nominal metric commands with successful motion receipts",
+  "registered_source_true": true
+}

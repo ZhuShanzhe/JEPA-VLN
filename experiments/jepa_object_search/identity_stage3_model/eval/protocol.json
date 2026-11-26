@@ -1,0 +1,25 @@
+{
+  "counts": {
+    "revisit": 97,
+    "twins": 82
+  },
+  "files_sha256": [
+    "4d553921cf1a1901db899e3b35832467dcd8203a55351d100ce68b79031f3f21",
+    "fd7842fc408f2730a912c412f760ea0fd8714e3d3dbe826b6903add0617d8b1c",
+    "bb94f582ff6605286cd3bfdbdf2fd37d20bc07fb45d30e391b528a4148578351",
+    "57e8b7ec301b11ce9dc3fcd789a403c0599b2d1eec9f2d86f8cd09bedcfd854e"
+  ],
+  "cases_sha256": "9dc457e489d97fe9925054589a6961ac2605bcba3983279e3bc24e71f71e9200",
+  "detection_input": "Identical unfiltered frozen DINO proposals in all three arms",
+  "registration": "First source proposal uniquely matched to designated instance at IoU>=0.50, or abstain",
+  "inputs": "Learned arms: identical RGB/boxes, depth and calibrated simulation camera poses. Legacy: RGB/boxes.",
+  "primary_metrics": [
+    "revisit correct original / target-visible queries",
+    "twins original accepted / copy withheld (including uncertain)",
+    "twins original accepted / copy explicitly different",
+    "twins copy falsely accepted as present original"
+  ],
+  "units": "Repeated observations of physical objects; paired bootstrap with equal house weights",
+  "no_scores_used_for_selection": true,
+  "paid_calls": 0
+}

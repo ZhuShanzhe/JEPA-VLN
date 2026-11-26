@@ -1,0 +1,900 @@
+{
+  "default_reproduced_exactly": true,
+  "deltas_per_seed": {
+    "default": {
+      "twins_copy_false_accept": {
+        "ci95": [
+          -0.2638888888888889,
+          -0.019230769230769232
+        ],
+        "house_macro_delta": -0.11645299145299146,
+        "houses": 8
+      },
+      "twins_joint": {
+        "ci95": [
+          -0.08333333333333333,
+          0.172008547008547
+        ],
+        "house_macro_delta": 0.04700854700854701,
+        "houses": 8
+      },
+      "visible_correct": {
+        "ci95": [
+          -0.10769230769230768,
+          0.07558420745920744
+        ],
+        "house_macro_delta": -0.010431235431235437,
+        "houses": 13
+      }
+    },
+    "seed126112": {
+      "twins_copy_false_accept": {
+        "ci95": [
+          -0.16666666666666666,
+          0.041666666666666664
+        ],
+        "house_macro_delta": -0.041666666666666664,
+        "houses": 8
+      },
+      "twins_joint": {
+        "ci95": [
+          -0.1111111111111111,
+          0.09294871794871795
+        ],
+        "house_macro_delta": 0.0026709401709401684,
+        "houses": 8
+      },
+      "visible_correct": {
+        "ci95": [
+          -0.026923076923076925,
+          0.15365190365190365
+        ],
+        "house_macro_delta": 0.05435120435120436,
+        "houses": 13
+      }
+    },
+    "seed126113": {
+      "twins_copy_false_accept": {
+        "ci95": [
+          -0.125,
+          0.020833333333333332
+        ],
+        "house_macro_delta": -0.034722222222222224,
+        "houses": 8
+      },
+      "twins_joint": {
+        "ci95": [
+          0.020833333333333332,
+          0.15117521367521367
+        ],
+        "house_macro_delta": 0.08867521367521367,
+        "houses": 8
+      },
+      "visible_correct": {
+        "ci95": [
+          0.03076923076923077,
+          0.12243832556332555
+        ],
+        "house_macro_delta": 0.07573815073815073,
+        "houses": 13
+      }
+    }
+  },
+  "paid_calls": 0,
+  "per_seed": {
+    "default": {
+      "direct": {
+        "not_annotated": {
+          "houses": 5,
+          "n": 8,
+          "original": {
+            "different": 4,
+            "uncertain": 4
+          },
+          "units": 8
+        },
+        "twins": {
+          "copy": {
+            "different": 19,
+            "original": 11,
+            "uncertain": 52
+          },
+          "houses": 8,
+          "joint_explicit_different": 16,
+          "joint_withheld": 40,
+          "n": 82,
+          "original": {
+            "different": 2,
+            "original": 49,
+            "uncertain": 31
+          },
+          "units": 10
+        },
+        "twins_changed": {
+          "copy": {
+            "different": 12,
+            "original": 7,
+            "uncertain": 35
+          },
+          "houses": 8,
+          "joint_explicit_different": 10,
+          "joint_withheld": 25,
+          "n": 54,
+          "original": {
+            "different": 2,
+            "original": 31,
+            "uncertain": 21
+          },
+          "units": 10
+        },
+        "twins_fully_boxed": {
+          "copy": {
+            "different": 16,
+            "original": 9,
+            "uncertain": 21
+          },
+          "houses": 6,
+          "joint_explicit_different": 16,
+          "joint_withheld": 37,
+          "n": 46,
+          "original": {
+            "original": 46
+          },
+          "units": 8
+        },
+        "visible": {
+          "houses": 13,
+          "n": 89,
+          "original": {
+            "different": 2,
+            "original": 60,
+            "uncertain": 27
+          },
+          "units": 36
+        },
+        "visible_clock": {
+          "houses": 5,
+          "n": 24,
+          "original": {
+            "different": 1,
+            "original": 18,
+            "uncertain": 5
+          },
+          "units": 10
+        },
+        "visible_closer": {
+          "houses": 13,
+          "n": 33,
+          "original": {
+            "original": 23,
+            "uncertain": 10
+          },
+          "units": 33
+        },
+        "visible_opposite_side": {
+          "houses": 13,
+          "n": 29,
+          "original": {
+            "different": 1,
+            "original": 19,
+            "uncertain": 9
+          },
+          "units": 29
+        },
+        "visible_same_side": {
+          "houses": 13,
+          "n": 27,
+          "original": {
+            "different": 1,
+            "original": 18,
+            "uncertain": 8
+          },
+          "units": 27
+        },
+        "visible_wall_art": {
+          "houses": 13,
+          "n": 65,
+          "original": {
+            "different": 1,
+            "original": 42,
+            "uncertain": 22
+          },
+          "units": 26
+        },
+        "visible_with_both_boxes": {
+          "houses": 12,
+          "n": 73,
+          "original": {
+            "original": 60,
+            "uncertain": 13
+          },
+          "units": 31
+        }
+      },
+      "jepa": {
+        "not_annotated": {
+          "houses": 5,
+          "n": 8,
+          "original": {
+            "different": 4,
+            "uncertain": 4
+          },
+          "units": 8
+        },
+        "twins": {
+          "copy": {
+            "different": 24,
+            "original": 2,
+            "uncertain": 56
+          },
+          "houses": 8,
+          "joint_explicit_different": 18,
+          "joint_withheld": 45,
+          "n": 82,
+          "original": {
+            "different": 2,
+            "original": 47,
+            "uncertain": 33
+          },
+          "units": 10
+        },
+        "twins_changed": {
+          "copy": {
+            "different": 15,
+            "original": 2,
+            "uncertain": 37
+          },
+          "houses": 8,
+          "joint_explicit_different": 11,
+          "joint_withheld": 28,
+          "n": 54,
+          "original": {
+            "different": 2,
+            "original": 30,
+            "uncertain": 22
+          },
+          "units": 10
+        },
+        "twins_fully_boxed": {
+          "copy": {
+            "different": 20,
+            "original": 2,
+            "uncertain": 24
+          },
+          "houses": 6,
+          "joint_explicit_different": 18,
+          "joint_withheld": 42,
+          "n": 46,
+          "original": {
+            "original": 44,
+            "uncertain": 2
+          },
+          "units": 8
+        },
+        "visible": {
+          "houses": 13,
+          "n": 89,
+          "original": {
+            "different": 2,
+            "original": 62,
+            "uncertain": 25
+          },
+          "units": 36
+        },
+        "visible_clock": {
+          "houses": 5,
+          "n": 24,
+          "original": {
+            "different": 1,
+            "original": 20,
+            "uncertain": 3
+          },
+          "units": 10
+        },
+        "visible_closer": {
+          "houses": 13,
+          "n": 33,
+          "original": {
+            "original": 24,
+            "uncertain": 9
+          },
+          "units": 33
+        },
+        "visible_opposite_side": {
+          "houses": 13,
+          "n": 29,
+          "original": {
+            "different": 1,
+            "original": 20,
+            "uncertain": 8
+          },
+          "units": 29
+        },
+        "visible_same_side": {
+          "houses": 13,
+          "n": 27,
+          "original": {
+            "different": 1,
+            "original": 18,
+            "uncertain": 8
+          },
+          "units": 27
+        },
+        "visible_wall_art": {
+          "houses": 13,
+          "n": 65,
+          "original": {
+            "different": 1,
+            "original": 42,
+            "uncertain": 22
+          },
+          "units": 26
+        },
+        "visible_with_both_boxes": {
+          "houses": 12,
+          "n": 73,
+          "original": {
+            "original": 62,
+            "uncertain": 11
+          },
+          "units": 31
+        }
+      }
+    },
+    "seed126112": {
+      "direct": {
+        "not_annotated": {
+          "houses": 5,
+          "n": 8,
+          "original": {
+            "different": 4,
+            "uncertain": 4
+          },
+          "units": 8
+        },
+        "twins": {
+          "copy": {
+            "different": 17,
+            "original": 4,
+            "uncertain": 61
+          },
+          "houses": 8,
+          "joint_explicit_different": 10,
+          "joint_withheld": 43,
+          "n": 82,
+          "original": {
+            "different": 2,
+            "original": 45,
+            "uncertain": 35
+          },
+          "units": 10
+        },
+        "twins_changed": {
+          "copy": {
+            "different": 11,
+            "original": 3,
+            "uncertain": 40
+          },
+          "houses": 8,
+          "joint_explicit_different": 5,
+          "joint_withheld": 25,
+          "n": 54,
+          "original": {
+            "different": 2,
+            "original": 27,
+            "uncertain": 25
+          },
+          "units": 10
+        },
+        "twins_fully_boxed": {
+          "copy": {
+            "different": 14,
+            "original": 2,
+            "uncertain": 30
+          },
+          "houses": 6,
+          "joint_explicit_different": 10,
+          "joint_withheld": 40,
+          "n": 46,
+          "original": {
+            "original": 42,
+            "uncertain": 4
+          },
+          "units": 8
+        },
+        "visible": {
+          "houses": 13,
+          "n": 89,
+          "original": {
+            "different": 2,
+            "original": 52,
+            "uncertain": 35
+          },
+          "units": 36
+        },
+        "visible_clock": {
+          "houses": 5,
+          "n": 24,
+          "original": {
+            "different": 1,
+            "original": 18,
+            "uncertain": 5
+          },
+          "units": 10
+        },
+        "visible_closer": {
+          "houses": 13,
+          "n": 33,
+          "original": {
+            "original": 20,
+            "uncertain": 13
+          },
+          "units": 33
+        },
+        "visible_opposite_side": {
+          "houses": 13,
+          "n": 29,
+          "original": {
+            "different": 1,
+            "original": 18,
+            "uncertain": 10
+          },
+          "units": 29
+        },
+        "visible_same_side": {
+          "houses": 13,
+          "n": 27,
+          "original": {
+            "different": 1,
+            "original": 14,
+            "uncertain": 12
+          },
+          "units": 27
+        },
+        "visible_wall_art": {
+          "houses": 13,
+          "n": 65,
+          "original": {
+            "different": 1,
+            "original": 34,
+            "uncertain": 30
+          },
+          "units": 26
+        },
+        "visible_with_both_boxes": {
+          "houses": 12,
+          "n": 73,
+          "original": {
+            "original": 52,
+            "uncertain": 21
+          },
+          "units": 31
+        }
+      },
+      "jepa": {
+        "not_annotated": {
+          "houses": 5,
+          "n": 8,
+          "original": {
+            "different": 4,
+            "uncertain": 4
+          },
+          "units": 8
+        },
+        "twins": {
+          "copy": {
+            "different": 27,
+            "original": 2,
+            "uncertain": 53
+          },
+          "houses": 8,
+          "joint_explicit_different": 21,
+          "joint_withheld": 45,
+          "n": 82,
+          "original": {
+            "different": 2,
+            "original": 47,
+            "uncertain": 33
+          },
+          "units": 10
+        },
+        "twins_changed": {
+          "copy": {
+            "different": 17,
+            "original": 2,
+            "uncertain": 35
+          },
+          "houses": 8,
+          "joint_explicit_different": 13,
+          "joint_withheld": 28,
+          "n": 54,
+          "original": {
+            "different": 2,
+            "original": 30,
+            "uncertain": 22
+          },
+          "units": 10
+        },
+        "twins_fully_boxed": {
+          "copy": {
+            "different": 23,
+            "original": 2,
+            "uncertain": 21
+          },
+          "houses": 6,
+          "joint_explicit_different": 21,
+          "joint_withheld": 42,
+          "n": 46,
+          "original": {
+            "original": 44,
+            "uncertain": 2
+          },
+          "units": 8
+        },
+        "visible": {
+          "houses": 13,
+          "n": 89,
+          "original": {
+            "different": 2,
+            "original": 60,
+            "uncertain": 27
+          },
+          "units": 36
+        },
+        "visible_clock": {
+          "houses": 5,
+          "n": 24,
+          "original": {
+            "different": 1,
+            "original": 20,
+            "uncertain": 3
+          },
+          "units": 10
+        },
+        "visible_closer": {
+          "houses": 13,
+          "n": 33,
+          "original": {
+            "original": 24,
+            "uncertain": 9
+          },
+          "units": 33
+        },
+        "visible_opposite_side": {
+          "houses": 13,
+          "n": 29,
+          "original": {
+            "different": 1,
+            "original": 19,
+            "uncertain": 9
+          },
+          "units": 29
+        },
+        "visible_same_side": {
+          "houses": 13,
+          "n": 27,
+          "original": {
+            "different": 1,
+            "original": 17,
+            "uncertain": 9
+          },
+          "units": 27
+        },
+        "visible_wall_art": {
+          "houses": 13,
+          "n": 65,
+          "original": {
+            "different": 1,
+            "original": 40,
+            "uncertain": 24
+          },
+          "units": 26
+        },
+        "visible_with_both_boxes": {
+          "houses": 12,
+          "n": 73,
+          "original": {
+            "original": 60,
+            "uncertain": 13
+          },
+          "units": 31
+        }
+      }
+    },
+    "seed126113": {
+      "direct": {
+        "not_annotated": {
+          "houses": 5,
+          "n": 8,
+          "original": {
+            "different": 4,
+            "uncertain": 4
+          },
+          "units": 8
+        },
+        "twins": {
+          "copy": {
+            "different": 12,
+            "original": 4,
+            "uncertain": 66
+          },
+          "houses": 8,
+          "joint_explicit_different": 6,
+          "joint_withheld": 38,
+          "n": 82,
+          "original": {
+            "different": 2,
+            "original": 41,
+            "uncertain": 39
+          },
+          "units": 10
+        },
+        "twins_changed": {
+          "copy": {
+            "different": 7,
+            "original": 3,
+            "uncertain": 44
+          },
+          "houses": 8,
+          "joint_explicit_different": 2,
+          "joint_withheld": 20,
+          "n": 54,
+          "original": {
+            "different": 2,
+            "original": 23,
+            "uncertain": 29
+          },
+          "units": 10
+        },
+        "twins_fully_boxed": {
+          "copy": {
+            "different": 9,
+            "original": 3,
+            "uncertain": 34
+          },
+          "houses": 6,
+          "joint_explicit_different": 6,
+          "joint_withheld": 35,
+          "n": 46,
+          "original": {
+            "original": 38,
+            "uncertain": 8
+          },
+          "units": 8
+        },
+        "visible": {
+          "houses": 13,
+          "n": 89,
+          "original": {
+            "different": 2,
+            "original": 56,
+            "uncertain": 31
+          },
+          "units": 36
+        },
+        "visible_clock": {
+          "houses": 5,
+          "n": 24,
+          "original": {
+            "different": 1,
+            "original": 19,
+            "uncertain": 4
+          },
+          "units": 10
+        },
+        "visible_closer": {
+          "houses": 13,
+          "n": 33,
+          "original": {
+            "original": 22,
+            "uncertain": 11
+          },
+          "units": 33
+        },
+        "visible_opposite_side": {
+          "houses": 13,
+          "n": 29,
+          "original": {
+            "different": 1,
+            "original": 18,
+            "uncertain": 10
+          },
+          "units": 29
+        },
+        "visible_same_side": {
+          "houses": 13,
+          "n": 27,
+          "original": {
+            "different": 1,
+            "original": 16,
+            "uncertain": 10
+          },
+          "units": 27
+        },
+        "visible_wall_art": {
+          "houses": 13,
+          "n": 65,
+          "original": {
+            "different": 1,
+            "original": 37,
+            "uncertain": 27
+          },
+          "units": 26
+        },
+        "visible_with_both_boxes": {
+          "houses": 12,
+          "n": 73,
+          "original": {
+            "original": 56,
+            "uncertain": 17
+          },
+          "units": 31
+        }
+      },
+      "jepa": {
+        "not_annotated": {
+          "houses": 5,
+          "n": 8,
+          "original": {
+            "different": 4,
+            "uncertain": 4
+          },
+          "units": 8
+        },
+        "twins": {
+          "copy": {
+            "different": 25,
+            "original": 2,
+            "uncertain": 55
+          },
+          "houses": 8,
+          "joint_explicit_different": 20,
+          "joint_withheld": 46,
+          "n": 82,
+          "original": {
+            "different": 2,
+            "original": 48,
+            "uncertain": 32
+          },
+          "units": 10
+        },
+        "twins_changed": {
+          "copy": {
+            "different": 14,
+            "original": 2,
+            "uncertain": 38
+          },
+          "houses": 8,
+          "joint_explicit_different": 10,
+          "joint_withheld": 28,
+          "n": 54,
+          "original": {
+            "different": 2,
+            "original": 30,
+            "uncertain": 22
+          },
+          "units": 10
+        },
+        "twins_fully_boxed": {
+          "copy": {
+            "different": 21,
+            "original": 2,
+            "uncertain": 23
+          },
+          "houses": 6,
+          "joint_explicit_different": 20,
+          "joint_withheld": 43,
+          "n": 46,
+          "original": {
+            "original": 45,
+            "uncertain": 1
+          },
+          "units": 8
+        },
+        "visible": {
+          "houses": 13,
+          "n": 89,
+          "original": {
+            "different": 2,
+            "original": 63,
+            "uncertain": 24
+          },
+          "units": 36
+        },
+        "visible_clock": {
+          "houses": 5,
+          "n": 24,
+          "original": {
+            "different": 1,
+            "original": 20,
+            "uncertain": 3
+          },
+          "units": 10
+        },
+        "visible_closer": {
+          "houses": 13,
+          "n": 33,
+          "original": {
+            "original": 24,
+            "uncertain": 9
+          },
+          "units": 33
+        },
+        "visible_opposite_side": {
+          "houses": 13,
+          "n": 29,
+          "original": {
+            "different": 1,
+            "original": 20,
+            "uncertain": 8
+          },
+          "units": 29
+        },
+        "visible_same_side": {
+          "houses": 13,
+          "n": 27,
+          "original": {
+            "different": 1,
+            "original": 19,
+            "uncertain": 7
+          },
+          "units": 27
+        },
+        "visible_wall_art": {
+          "houses": 13,
+          "n": 65,
+          "original": {
+            "different": 1,
+            "original": 43,
+            "uncertain": 21
+          },
+          "units": 26
+        },
+        "visible_with_both_boxes": {
+          "houses": 12,
+          "n": 73,
+          "original": {
+            "original": 63,
+            "uncertain": 10
+          },
+          "units": 31
+        }
+      }
+    }
+  },
+  "protocol_sha256": "452ba899a0f7c02cb158b023eed57f29c8c2d381ff5d300f50464c235f51f912",
+  "seed_averaged_paired_house_deltas": {
+    "twins_copy_false_accept": {
+      "ci95": [
+        -0.18233618233618232,
+        0.011574074074074073
+      ],
+      "delta": -0.06428062678062678,
+      "houses": 8
+    },
+    "twins_joint": {
+      "ci95": [
+        -0.032407407407407406,
+        0.12713675213675213
+      ],
+      "delta": 0.046118233618233626,
+      "houses": 8
+    },
+    "visible_correct": {
+      "ci95": [
+        -0.014814814814814815,
+        0.10370370370370369
+      ],
+      "delta": 0.039886039886039885,
+      "houses": 13
+    }
+  },
+  "sources_sha256": {
+    "default_direct": "d03c035c6a3d4a6f2a8f6c82f9dd6d9dbb0cab9e3510b50d74934bd5752d5b5a",
+    "default_jepa": "5420b26d02915a2b2b4c4a28378a78cba2a2b15c000255d13a51f1d9136e3745",
+    "seed126112_direct": "9ceed0620e2885db266e91e7ed396088d81165464c07a37f73e9a540ca916614",
+    "seed126112_jepa": "5ed3e15aebf7146bf718fbae9678267c5e041a19ada6629c84467681a7ea91fe",
+    "seed126113_direct": "43f401dd112e5d18c67576690be166e9d3fbf406d224754f192035bba1f6de7a",
+    "seed126113_jepa": "7bff0e7d54e10940c19a118c3fec3a7a40fc3c61987e896dcbf345d03abd461b"
+  }
+}

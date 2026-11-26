@@ -1,0 +1,128 @@
+{
+  "cases_sha256": "9dc457e489d97fe9925054589a6961ac2605bcba3983279e3bc24e71f71e9200",
+  "frozen_code_sha256": "2a94facc6a5d54085245446064d9e42719cccea3569db6d9cf42111c3fde6d64",
+  "method": "Closest RGB-D box surface point, within a fixed radius; all other cases uncertain",
+  "metrics": {
+    "not_annotated": {
+      "houses": 5,
+      "n": 8,
+      "original": {
+        "uncertain": 8
+      },
+      "units": 8
+    },
+    "twins": {
+      "copy": {
+        "uncertain": 78,
+        "unverified": 4
+      },
+      "houses": 8,
+      "joint_explicit_different": 0,
+      "joint_withheld": 46,
+      "n": 82,
+      "original": {
+        "original": 49,
+        "uncertain": 33
+      },
+      "units": 10
+    },
+    "twins_changed": {
+      "copy": {
+        "uncertain": 51,
+        "unverified": 3
+      },
+      "houses": 8,
+      "joint_explicit_different": 0,
+      "joint_withheld": 29,
+      "n": 54,
+      "original": {
+        "original": 31,
+        "uncertain": 23
+      },
+      "units": 10
+    },
+    "twins_fully_boxed": {
+      "copy": {
+        "uncertain": 43,
+        "unverified": 3
+      },
+      "houses": 6,
+      "joint_explicit_different": 0,
+      "joint_withheld": 43,
+      "n": 46,
+      "original": {
+        "original": 46
+      },
+      "units": 8
+    },
+    "visible": {
+      "houses": 13,
+      "n": 89,
+      "original": {
+        "original": 69,
+        "uncertain": 19,
+        "unverified": 1
+      },
+      "units": 36
+    },
+    "visible_clock": {
+      "houses": 5,
+      "n": 24,
+      "original": {
+        "original": 22,
+        "uncertain": 2
+      },
+      "units": 10
+    },
+    "visible_closer": {
+      "houses": 13,
+      "n": 33,
+      "original": {
+        "original": 27,
+        "uncertain": 6
+      },
+      "units": 33
+    },
+    "visible_opposite_side": {
+      "houses": 13,
+      "n": 29,
+      "original": {
+        "original": 22,
+        "uncertain": 7
+      },
+      "units": 29
+    },
+    "visible_same_side": {
+      "houses": 13,
+      "n": 27,
+      "original": {
+        "original": 20,
+        "uncertain": 6,
+        "unverified": 1
+      },
+      "units": 27
+    },
+    "visible_wall_art": {
+      "houses": 13,
+      "n": 65,
+      "original": {
+        "original": 47,
+        "uncertain": 17,
+        "unverified": 1
+      },
+      "units": 26
+    },
+    "visible_with_both_boxes": {
+      "houses": 12,
+      "n": 73,
+      "original": {
+        "original": 69,
+        "uncertain": 4
+      },
+      "units": 31
+    }
+  },
+  "paid_calls": 0,
+  "point_implementation": "jepa_reid_v21.model.encode_proposals.support",
+  "threshold_m": 0.347302806383428
+}

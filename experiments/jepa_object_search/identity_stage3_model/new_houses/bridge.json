@@ -1,0 +1,80 @@
+{
+  "inputs_sha256": "4d553921cf1a1901db899e3b35832467dcd8203a55351d100ce68b79031f3f21",
+  "paid_calls": 0,
+  "results": {
+    "direct": {
+      "outcomes": {
+        "not_annotated": {
+          "anchor_only": {
+            "withheld": 8
+          },
+          "causal_second_reference": {
+            "withheld": 8
+          }
+        },
+        "visible": {
+          "anchor_only": {
+            "correct": 60,
+            "withheld": 29
+          },
+          "causal_second_reference": {
+            "correct": 62,
+            "withheld": 27
+          }
+        }
+      },
+      "query_transitions": {
+        "not_annotated": {
+          "withheld_to_withheld": 8
+        },
+        "visible": {
+          "correct_to_correct": 60,
+          "withheld_to_correct": 2,
+          "withheld_to_withheld": 27
+        }
+      },
+      "writes": {
+        "correct": 24,
+        "not_written": 11,
+        "unverified": 1
+      }
+    },
+    "jepa": {
+      "outcomes": {
+        "not_annotated": {
+          "anchor_only": {
+            "withheld": 8
+          },
+          "causal_second_reference": {
+            "withheld": 8
+          }
+        },
+        "visible": {
+          "anchor_only": {
+            "correct": 62,
+            "withheld": 27
+          },
+          "causal_second_reference": {
+            "correct": 64,
+            "withheld": 25
+          }
+        }
+      },
+      "query_transitions": {
+        "not_annotated": {
+          "withheld_to_withheld": 8
+        },
+        "visible": {
+          "correct_to_correct": 62,
+          "withheld_to_correct": 2,
+          "withheld_to_withheld": 25
+        }
+      },
+      "writes": {
+        "correct": 28,
+        "not_written": 7,
+        "unverified": 1
+      }
+    }
+  }
+}

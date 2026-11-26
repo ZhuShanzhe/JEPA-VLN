@@ -1,0 +1,18 @@
+{
+  "paid_calls": 0,
+  "synthetic_decision_contracts": {
+    "different_retains_pending_instance": true,
+    "estimated_map_depth_grid": true,
+    "exactly_one_acknowledged_write": true,
+    "fresh_report_retry": true,
+    "missing_geometry_deferred": true,
+    "reported_instance_stays_closed": true,
+    "same_stages_action_only": true,
+    "separate_nearby_instance_stays_open": true,
+    "stale_supplied_pose_does_not_certify_image": true,
+    "two_references_supporting_one_live_box_defer": true,
+    "uncertain_retains_pending_instance": true,
+    "unrelated_rgb_rejected": true,
+    "wrong_receipt_leaves_owner_open": true
+  }
+}

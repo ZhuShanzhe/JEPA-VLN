@@ -1,0 +1,23 @@
+{
+  "assigned_houses": 12,
+  "cases": {
+    "absent_with_same_class": 94,
+    "same": 92
+  },
+  "frames": 141,
+  "houses_with_frames": 12,
+  "instances_attempted": 49,
+  "overlapping_training_development_house_families": 0,
+  "physical_instances": 49,
+  "sample_sha256": "49ab81ef569c707f01b30d715bc6fe46e7b8798679ba42176c409724751169b3",
+  "source_families_excluded": 50,
+  "views_by_goal": {
+    "clock": 39,
+    "wall_art": 102
+  },
+  "views_per_attempt": {
+    "1": 2,
+    "2": 2,
+    "3": 45
+  }
+}

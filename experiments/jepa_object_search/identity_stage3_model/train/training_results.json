@@ -1,0 +1,116 @@
+{
+  "train_houses": 28,
+  "validation_houses": 6,
+  "seed": 126111,
+  "training": {
+    "epochs": 12,
+    "updates_per_epoch": 48,
+    "batch_counts": {
+      "orbit_positive": 32,
+      "orbit_negative": 32,
+      "natural_positive": 32,
+      "natural_negative": 32,
+      "twins_positive": 32,
+      "twins_negative": 32
+    },
+    "rules": "same architecture/labels/order/perturbations; JEPA adds positive pair frozen-feature prediction loss"
+  },
+  "pairs": {
+    "train": {
+      "orbit_positive": 27604,
+      "orbit_negative": 27604,
+      "natural_negative": 1213,
+      "natural_positive": 238,
+      "twins_negative": 94,
+      "twins_positive": 92
+    },
+    "val": {
+      "orbit_positive": 5750,
+      "orbit_negative": 5750,
+      "natural_negative": 540,
+      "natural_positive": 160,
+      "twins_positive": 124,
+      "twins_negative": 106
+    }
+  },
+  "hashes": {
+    "jepa_reid_v20/data/manifest.jsonl": "4c21362967ee15885ee8b7f243c6e527d47dcc9bf3c51283af5226be372b0270",
+    "jepa_reid_v20/model/features.pt": "84511f5f5bb3a046c3cb989a8709824959aaeedb7905bf792f7105f8626ed708",
+    "jepa_reid_v21/model/geometry_all.npz": "d02158beb2d339f639f071250498314175b1a1b53113d5d8861cb77796a5e7c2",
+    "jepa_reid_v21/model/proposals.pt": "c2b1665c1d1f5575b899f22cb9ea1544a74e5def5aa5a5aae9f0375c6c326cd9",
+    "identity_stage3_model/train/private/train.pt": "b7d04eaf200086d252dff283b9c1dc850563759341e73239ce6c609c9e2df923",
+    "identity_stage3_model/train/private/train_clocks.pt": "ab55607df339a6845a34e0d33704b4ea51ac2865fb74740a2404a0ccee37142c",
+    "identity_stage3_model/train/private/val.pt": "d74afb0866f90d5007d1d95203dd5740e686ba0b6bb0a6291a012fe0ce181ac7",
+    "identity_stage3_model/train/private/val_clocks.pt": "45417f855f18194c59eee92197b9a95cb5d305fa609d7a01173a558945d9ec02",
+    "identity.py": "964a94b205ce21b0b745579079508dbfddadd8e978d023f173e2fd150c675141",
+    "fit_identity.py": "654ecd5081efd406d5d06c840233a06f54a87133916bb78d516e62d9ed291eff",
+    "training_twins.py": "d7137b592b162d378fff69cccb39292523d0c0f2d4b6eec321abecd960885a11",
+    "clock_seeds.py": "ee5f0dfe3404db28bb9a2114d7f87477093fb7a77ba9132a6037ddf846e12cfd",
+    "jepa_reid_v21/model/train_pose.py": "0664724c1f737b3cd9c48d7f033b80162af3f196ff5564360a239c9ac07f6bc3",
+    "jepa_reid_v21/model/pose_head.py": "1298b4a3131dd84dc92e5305c3db0ac894dff0908cd5f5854fd711cba5ad5af4",
+    "jepa_reid_v20/model/reid_model.py": "b2824ebc32508d51a72c229e7afacd4792319ae354f35b510ff1299e0cb7386f",
+    "jepa_reid_v20/model/train.py": "c700a5a79a3da27a58d4f2841f1ee0484671f73e36a1fd337370c576401eb76a",
+    "jepa_reid_v21/model/encode_proposals.py": "2a94facc6a5d54085245446064d9e42719cccea3569db6d9cf42111c3fde6d64",
+    "mapping_runtime/weights/torch/hub/checkpoints/dinov2_vitb14_pretrain.pth": "0b8b82f85de91b424aded121c7e1dcc2b7bc6d0adeea651bf73a13307fad8c73"
+  },
+  "methods": {
+    "direct": {
+      "selected_epoch": 12,
+      "high": 0.9597295522689819,
+      "low": 0.41473203897476196,
+      "margin": 0.05,
+      "parameter_count": 611041,
+      "validation_macro_pAUC_5pct": 0.8660257698047219,
+      "weights_sha256": "d03c035c6a3d4a6f2a8f6c82f9dd6d9dbb0cab9e3510b50d74934bd5752d5b5a",
+      "validation": {
+        "orbit": {
+          "pairs": 11500,
+          "same_recall": 0.5845217391304348,
+          "impostor_accept": 0.010782608695652174,
+          "reject_true_same": 0.04991304347826087
+        },
+        "natural": {
+          "pairs": 700,
+          "same_recall": 0.7,
+          "impostor_accept": 0.018518518518518517,
+          "reject_true_same": 0.01875
+        },
+        "twins": {
+          "pairs": 230,
+          "same_recall": 0.9274193548387096,
+          "impostor_accept": 0.04716981132075472,
+          "reject_true_same": 0.0
+        }
+      }
+    },
+    "jepa": {
+      "selected_epoch": 12,
+      "high": 0.8406528234481812,
+      "low": 0.18361781537532806,
+      "margin": 0.05,
+      "parameter_count": 611041,
+      "validation_macro_pAUC_5pct": 0.8976680897068264,
+      "weights_sha256": "5420b26d02915a2b2b4c4a28378a78cba2a2b15c000255d13a51f1d9136e3745",
+      "validation": {
+        "orbit": {
+          "pairs": 11500,
+          "same_recall": 0.7297391304347826,
+          "impostor_accept": 0.03739130434782609,
+          "reject_true_same": 0.04973913043478261
+        },
+        "natural": {
+          "pairs": 700,
+          "same_recall": 0.8375,
+          "impostor_accept": 0.005555555555555556,
+          "reject_true_same": 0.025
+        },
+        "twins": {
+          "pairs": 230,
+          "same_recall": 0.9435483870967742,
+          "impostor_accept": 0.04716981132075472,
+          "reject_true_same": 0.0
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,417 @@
+{
+  "cases": 73,
+  "frames": 54,
+  "layouts": 9,
+  "learned": {
+    "126111": {
+      "direct": {
+        "twins": {
+          "copy": {
+            "different": 20,
+            "original": 17,
+            "uncertain": 36
+          },
+          "houses": 7,
+          "joint_explicit_different": 9,
+          "joint_withheld": 36,
+          "n": 73,
+          "original": {
+            "original": 53,
+            "uncertain": 20
+          },
+          "units": 9
+        },
+        "twins_changed": {
+          "copy": {
+            "different": 13,
+            "original": 12,
+            "uncertain": 23
+          },
+          "houses": 7,
+          "joint_explicit_different": 5,
+          "joint_withheld": 22,
+          "n": 48,
+          "original": {
+            "original": 34,
+            "uncertain": 14
+          },
+          "units": 9
+        },
+        "twins_fully_boxed": {
+          "copy": {
+            "different": 14,
+            "original": 17,
+            "uncertain": 24
+          },
+          "houses": 7,
+          "joint_explicit_different": 9,
+          "joint_withheld": 33,
+          "n": 55,
+          "original": {
+            "original": 50,
+            "uncertain": 5
+          },
+          "units": 8
+        }
+      },
+      "jepa": {
+        "twins": {
+          "copy": {
+            "different": 21,
+            "original": 1,
+            "uncertain": 51
+          },
+          "houses": 7,
+          "joint_explicit_different": 12,
+          "joint_withheld": 54,
+          "n": 73,
+          "original": {
+            "original": 55,
+            "uncertain": 18
+          },
+          "units": 9
+        },
+        "twins_changed": {
+          "copy": {
+            "different": 12,
+            "original": 1,
+            "uncertain": 35
+          },
+          "houses": 7,
+          "joint_explicit_different": 5,
+          "joint_withheld": 34,
+          "n": 48,
+          "original": {
+            "original": 35,
+            "uncertain": 13
+          },
+          "units": 9
+        },
+        "twins_fully_boxed": {
+          "copy": {
+            "different": 15,
+            "original": 1,
+            "uncertain": 39
+          },
+          "houses": 7,
+          "joint_explicit_different": 12,
+          "joint_withheld": 51,
+          "n": 55,
+          "original": {
+            "original": 52,
+            "uncertain": 3
+          },
+          "units": 8
+        }
+      }
+    },
+    "126112": {
+      "direct": {
+        "twins": {
+          "copy": {
+            "different": 22,
+            "original": 9,
+            "uncertain": 42
+          },
+          "houses": 7,
+          "joint_explicit_different": 11,
+          "joint_withheld": 44,
+          "n": 73,
+          "original": {
+            "original": 53,
+            "uncertain": 20
+          },
+          "units": 9
+        },
+        "twins_changed": {
+          "copy": {
+            "different": 13,
+            "original": 8,
+            "uncertain": 27
+          },
+          "houses": 7,
+          "joint_explicit_different": 4,
+          "joint_withheld": 25,
+          "n": 48,
+          "original": {
+            "original": 33,
+            "uncertain": 15
+          },
+          "units": 9
+        },
+        "twins_fully_boxed": {
+          "copy": {
+            "different": 16,
+            "original": 9,
+            "uncertain": 30
+          },
+          "houses": 7,
+          "joint_explicit_different": 11,
+          "joint_withheld": 41,
+          "n": 55,
+          "original": {
+            "original": 50,
+            "uncertain": 5
+          },
+          "units": 8
+        }
+      },
+      "jepa": {
+        "twins": {
+          "copy": {
+            "different": 28,
+            "uncertain": 45
+          },
+          "houses": 7,
+          "joint_explicit_different": 18,
+          "joint_withheld": 55,
+          "n": 73,
+          "original": {
+            "original": 55,
+            "uncertain": 18
+          },
+          "units": 9
+        },
+        "twins_changed": {
+          "copy": {
+            "different": 16,
+            "uncertain": 32
+          },
+          "houses": 7,
+          "joint_explicit_different": 9,
+          "joint_withheld": 35,
+          "n": 48,
+          "original": {
+            "original": 35,
+            "uncertain": 13
+          },
+          "units": 9
+        },
+        "twins_fully_boxed": {
+          "copy": {
+            "different": 21,
+            "uncertain": 34
+          },
+          "houses": 7,
+          "joint_explicit_different": 18,
+          "joint_withheld": 52,
+          "n": 55,
+          "original": {
+            "original": 52,
+            "uncertain": 3
+          },
+          "units": 8
+        }
+      }
+    },
+    "126113": {
+      "direct": {
+        "twins": {
+          "copy": {
+            "different": 10,
+            "original": 7,
+            "uncertain": 56
+          },
+          "houses": 7,
+          "joint_explicit_different": 2,
+          "joint_withheld": 44,
+          "n": 73,
+          "original": {
+            "original": 51,
+            "uncertain": 22
+          },
+          "units": 9
+        },
+        "twins_changed": {
+          "copy": {
+            "different": 7,
+            "original": 6,
+            "uncertain": 35
+          },
+          "houses": 7,
+          "joint_explicit_different": 1,
+          "joint_withheld": 26,
+          "n": 48,
+          "original": {
+            "original": 32,
+            "uncertain": 16
+          },
+          "units": 9
+        },
+        "twins_fully_boxed": {
+          "copy": {
+            "different": 7,
+            "original": 7,
+            "uncertain": 41
+          },
+          "houses": 7,
+          "joint_explicit_different": 2,
+          "joint_withheld": 41,
+          "n": 55,
+          "original": {
+            "original": 48,
+            "uncertain": 7
+          },
+          "units": 8
+        }
+      },
+      "jepa": {
+        "twins": {
+          "copy": {
+            "different": 25,
+            "uncertain": 48
+          },
+          "houses": 7,
+          "joint_explicit_different": 18,
+          "joint_withheld": 57,
+          "n": 73,
+          "original": {
+            "original": 57,
+            "uncertain": 16
+          },
+          "units": 9
+        },
+        "twins_changed": {
+          "copy": {
+            "different": 14,
+            "uncertain": 34
+          },
+          "houses": 7,
+          "joint_explicit_different": 9,
+          "joint_withheld": 37,
+          "n": 48,
+          "original": {
+            "original": 37,
+            "uncertain": 11
+          },
+          "units": 9
+        },
+        "twins_fully_boxed": {
+          "copy": {
+            "different": 19,
+            "uncertain": 36
+          },
+          "houses": 7,
+          "joint_explicit_different": 18,
+          "joint_withheld": 54,
+          "n": 55,
+          "original": {
+            "original": 54,
+            "uncertain": 1
+          },
+          "units": 8
+        }
+      }
+    }
+  },
+  "legacy": {
+    "twins": {
+      "copy": {
+        "original": 10,
+        "uncertain": 63
+      },
+      "houses": 7,
+      "joint_explicit_different": 0,
+      "joint_withheld": 25,
+      "n": 73,
+      "original": {
+        "original": 33,
+        "uncertain": 40
+      },
+      "units": 9
+    },
+    "twins_changed": {
+      "copy": {
+        "original": 6,
+        "uncertain": 42
+      },
+      "houses": 7,
+      "joint_explicit_different": 0,
+      "joint_withheld": 9,
+      "n": 48,
+      "original": {
+        "original": 13,
+        "uncertain": 35
+      },
+      "units": 9
+    },
+    "twins_fully_boxed": {
+      "copy": {
+        "original": 10,
+        "uncertain": 45
+      },
+      "houses": 7,
+      "joint_explicit_different": 0,
+      "joint_withheld": 24,
+      "n": 55,
+      "original": {
+        "original": 32,
+        "uncertain": 23
+      },
+      "units": 8
+    }
+  },
+  "paid_calls": 0,
+  "panel_sha256": "41d0eca557f0d4b7cc620e01bd6952426cefcc6a882fd2d58e3526aa704058bf",
+  "position": {
+    "twins": {
+      "copy": {
+        "uncertain": 73
+      },
+      "houses": 7,
+      "joint_explicit_different": 0,
+      "joint_withheld": 58,
+      "n": 73,
+      "original": {
+        "original": 58,
+        "uncertain": 15
+      },
+      "units": 9
+    },
+    "twins_changed": {
+      "copy": {
+        "uncertain": 48
+      },
+      "houses": 7,
+      "joint_explicit_different": 0,
+      "joint_withheld": 38,
+      "n": 48,
+      "original": {
+        "original": 38,
+        "uncertain": 10
+      },
+      "units": 9
+    },
+    "twins_fully_boxed": {
+      "copy": {
+        "uncertain": 55
+      },
+      "houses": 7,
+      "joint_explicit_different": 0,
+      "joint_withheld": 55,
+      "n": 55,
+      "original": {
+        "original": 55
+      },
+      "units": 8
+    }
+  },
+  "seed_averaged_paired_house_delta_vs_direct": {
+    "false_accept_copy": {
+      "ci95": [
+        -0.3095238095238095,
+        -0.0026455026455026454
+      ],
+      "houses": 7,
+      "mean": -0.1296296296296296
+    },
+    "joint": {
+      "ci95": [
+        0.047619047619047616,
+        0.3624338624338624
+      ],
+      "houses": 7,
+      "mean": 0.18783068783068782
+    }
+  }
+}

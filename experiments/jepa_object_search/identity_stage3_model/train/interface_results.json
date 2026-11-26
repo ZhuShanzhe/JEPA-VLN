@@ -1,0 +1,11 @@
+{
+  "real_calibration_images": 3,
+  "max_abs_region_encoding_difference": 3.366731107234955e-07,
+  "max_metric_support_difference_m": 0.0,
+  "max_abs_cached_vs_online_pair_score_difference": {
+    "jepa": 2.384185791015625e-07,
+    "direct": 0.0
+  },
+  "checks_per_method": 7,
+  "paid_calls": 0
+}

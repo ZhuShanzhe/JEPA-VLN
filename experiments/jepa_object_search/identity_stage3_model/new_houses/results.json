@@ -1,0 +1,233 @@
+{
+  "checkpoints": {
+    "direct": "d03c035c6a3d4a6f2a8f6c82f9dd6d9dbb0cab9e3510b50d74934bd5752d5b5a",
+    "jepa": "5420b26d02915a2b2b4c4a28378a78cba2a2b15c000255d13a51f1d9136e3745"
+  },
+  "detection_sha256": "0b78bfcd532e808b1edb34d5c8b3d96eb03b76afe57d01fa5b622339c497dc4f",
+  "metrics": {
+    "absent_with_same_class/all": {
+      "direct": {
+        "clean": {
+          "different": 81,
+          "source_missing": 8,
+          "uncertain": 5
+        },
+        "pose_stress": {
+          "different": 81,
+          "source_missing": 8,
+          "uncertain": 5
+        }
+      },
+      "jepa": {
+        "clean": {
+          "different": 80,
+          "source_missing": 8,
+          "uncertain": 6
+        },
+        "pose_stress": {
+          "different": 80,
+          "source_missing": 8,
+          "uncertain": 6
+        }
+      },
+      "legacy": {
+        "clean": {
+          "source_missing": 8,
+          "uncertain": 85,
+          "wrong": 1
+        }
+      },
+      "position": {
+        "clean": {
+          "source_missing": 8,
+          "uncertain": 86
+        },
+        "pose_stress": {
+          "source_missing": 8,
+          "uncertain": 86
+        }
+      }
+    },
+    "absent_with_same_class/source_and_live_boxes": {
+      "direct": {
+        "clean": {
+          "different": 73,
+          "uncertain": 1
+        },
+        "pose_stress": {
+          "different": 73,
+          "uncertain": 1
+        }
+      },
+      "jepa": {
+        "clean": {
+          "different": 72,
+          "uncertain": 2
+        },
+        "pose_stress": {
+          "different": 72,
+          "uncertain": 2
+        }
+      },
+      "legacy": {
+        "clean": {
+          "uncertain": 73,
+          "wrong": 1
+        }
+      },
+      "position": {
+        "clean": {
+          "uncertain": 74
+        },
+        "pose_stress": {
+          "uncertain": 74
+        }
+      }
+    },
+    "same/all": {
+      "direct": {
+        "clean": {
+          "correct": 65,
+          "different": 5,
+          "source_missing": 5,
+          "uncertain": 17
+        },
+        "pose_stress": {
+          "correct": 57,
+          "different": 5,
+          "source_missing": 5,
+          "uncertain": 25
+        }
+      },
+      "jepa": {
+        "clean": {
+          "correct": 68,
+          "different": 4,
+          "source_missing": 5,
+          "uncertain": 14,
+          "wrong": 1
+        },
+        "pose_stress": {
+          "correct": 63,
+          "different": 6,
+          "source_missing": 5,
+          "uncertain": 17,
+          "wrong": 1
+        }
+      },
+      "legacy": {
+        "clean": {
+          "correct": 4,
+          "source_missing": 5,
+          "uncertain": 83
+        }
+      },
+      "position": {
+        "clean": {
+          "correct": 73,
+          "source_missing": 5,
+          "uncertain": 14
+        },
+        "pose_stress": {
+          "correct": 45,
+          "source_missing": 5,
+          "uncertain": 39,
+          "unverified": 2,
+          "wrong": 1
+        }
+      }
+    },
+    "same/source_and_live_boxes": {
+      "direct": {
+        "clean": {
+          "correct": 65,
+          "uncertain": 12
+        },
+        "pose_stress": {
+          "correct": 57,
+          "uncertain": 20
+        }
+      },
+      "jepa": {
+        "clean": {
+          "correct": 68,
+          "uncertain": 9
+        },
+        "pose_stress": {
+          "correct": 63,
+          "uncertain": 14
+        }
+      },
+      "legacy": {
+        "clean": {
+          "correct": 4,
+          "uncertain": 73
+        }
+      },
+      "position": {
+        "clean": {
+          "correct": 73,
+          "uncertain": 4
+        },
+        "pose_stress": {
+          "correct": 45,
+          "uncertain": 29,
+          "unverified": 2,
+          "wrong": 1
+        }
+      }
+    }
+  },
+  "paid_calls": 0,
+  "paired_house_macro_delta": {
+    "absent_with_same_class/direct": {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "houses": 12,
+      "mean": 0.0
+    },
+    "absent_with_same_class/legacy": {
+      "ci95": [
+        -0.041666666666666664,
+        0.0
+      ],
+      "houses": 12,
+      "mean": -0.013888888888888888
+    },
+    "absent_with_same_class/position": {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "houses": 12,
+      "mean": 0.0
+    },
+    "same/direct": {
+      "ci95": [
+        -0.027777777777777776,
+        0.08333333333333333
+      ],
+      "houses": 12,
+      "mean": 0.027777777777777776
+    },
+    "same/legacy": {
+      "ci95": [
+        0.6361111111111112,
+        0.7916666666666666
+      ],
+      "houses": 12,
+      "mean": 0.7111111111111111
+    },
+    "same/position": {
+      "ci95": [
+        -0.09444444444444444,
+        0.011111111111111108
+      ],
+      "houses": 12,
+      "mean": -0.044444444444444446
+    }
+  },
+  "panel_sha256": "49ab81ef569c707f01b30d715bc6fe46e7b8798679ba42176c409724751169b3"
+}
