@@ -1,0 +1,140 @@
+{
+  "input": "renderer",
+  "settings": {
+    "original_replay": [
+      40,
+      3
+    ],
+    "half_flow": [
+      20,
+      3
+    ],
+    "shorter_interval": [
+      40,
+      2
+    ]
+  },
+  "scope": "fixed trajectories, selection/geometry availability are distinct",
+  "selector_sha256": "76a278f1060c710eee6d567477462ab2dc486781e4b7fec196e0c7dbe9992e21",
+  "tracker_sha256": "bbb78f549a34b58eaf27556e6dda703468cc0518de4b936f7f886882d151afb8",
+  "opencv_version": "4.11.0",
+  "episodes": {
+    "clock": {
+      "steps": 300,
+      "historical_rechecks": [
+        146,
+        187,
+        205
+      ],
+      "selected": {
+        "logged": 251,
+        "original_replay": 251,
+        "half_flow": 273,
+        "shorter_interval": 259,
+        "all": 300,
+        "event_only_extra": 253
+      },
+      "recheck_selected": {
+        "logged": [
+          187
+        ],
+        "original_replay": [
+          187
+        ],
+        "half_flow": [
+          187
+        ],
+        "shorter_interval": [
+          146,
+          205
+        ],
+        "all": [
+          146,
+          187,
+          205
+        ],
+        "event_only_extra": [
+          146,
+          187,
+          205
+        ]
+      },
+      "agreement_with_logged": {
+        "original_replay": 300,
+        "half_flow": 268,
+        "shorter_interval": 282
+      },
+      "archive_jpeg_bytes": 110989290,
+      "reason_counts": {
+        "logged": {
+          "flow": 247,
+          "max_interval": 4
+        },
+        "original_replay": {
+          "flow": 247,
+          "max_interval": 4
+        },
+        "half_flow": {
+          "flow": 271,
+          "max_interval": 2
+        },
+        "shorter_interval": {
+          "flow": 246,
+          "max_interval": 13
+        },
+        "all": {
+          "fixed": 300
+        },
+        "event_only_extra": {
+          "logged_or_recheck": 253
+        }
+      }
+    },
+    "painting": {
+      "steps": 300,
+      "historical_rechecks": [],
+      "selected": {
+        "logged": 274,
+        "original_replay": 274,
+        "half_flow": 296,
+        "shorter_interval": 274,
+        "all": 300,
+        "event_only_extra": 274
+      },
+      "recheck_selected": {
+        "logged": [],
+        "original_replay": [],
+        "half_flow": [],
+        "shorter_interval": [],
+        "all": [],
+        "event_only_extra": []
+      },
+      "agreement_with_logged": {
+        "original_replay": 300,
+        "half_flow": 278,
+        "shorter_interval": 300
+      },
+      "archive_jpeg_bytes": 80285043,
+      "reason_counts": {
+        "logged": {
+          "flow": 274
+        },
+        "original_replay": {
+          "flow": 274
+        },
+        "half_flow": {
+          "flow": 296
+        },
+        "shorter_interval": {
+          "flow": 274
+        },
+        "all": {
+          "fixed": 300
+        },
+        "event_only_extra": {
+          "logged_or_recheck": 274
+        }
+      }
+    }
+  }
+}

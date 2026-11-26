@@ -1,0 +1,75 @@
+{
+  "clock": {
+    "action_frames": 300,
+    "map_keyframes": 251,
+    "map_nonkeyframes": 49,
+    "archived_geometry_field_names": [],
+    "final_memory_nodes": 3,
+    "recheck_reasons": {
+      "no_current_instance_match": 3
+    },
+    "completed_rechecks": [
+      {
+        "arrival_step": 146,
+        "source_keyframe": true,
+        "current_keyframe": false,
+        "previous_keyframe_age": 2,
+        "movement_actions": 3,
+        "source_click_on_task_instance": true,
+        "source_box_task_pixels": 76,
+        "source_box_area": 315,
+        "source_task_objects_in_box": 1,
+        "source_instance_pixels_visible": 17968,
+        "source_instance_in_official_range": true,
+        "total_visible_task_pixels": 17968,
+        "task_instances_in_official_range": 1,
+        "box_overlap_instance_in_range": true,
+        "box_overlap_instance_pixels_visible": 17968
+      },
+      {
+        "arrival_step": 187,
+        "source_keyframe": true,
+        "current_keyframe": true,
+        "previous_keyframe_age": 0,
+        "movement_actions": 5,
+        "source_click_on_task_instance": false,
+        "source_box_task_pixels": 993,
+        "source_box_area": 43945,
+        "source_task_objects_in_box": 1,
+        "source_instance_pixels_visible": null,
+        "source_instance_in_official_range": null,
+        "total_visible_task_pixels": 15877,
+        "task_instances_in_official_range": 1,
+        "box_overlap_instance_in_range": true,
+        "box_overlap_instance_pixels_visible": 15877
+      },
+      {
+        "arrival_step": 205,
+        "source_keyframe": true,
+        "current_keyframe": false,
+        "previous_keyframe_age": 2,
+        "movement_actions": 6,
+        "source_click_on_task_instance": false,
+        "source_box_task_pixels": 993,
+        "source_box_area": 43945,
+        "source_task_objects_in_box": 1,
+        "source_instance_pixels_visible": null,
+        "source_instance_in_official_range": null,
+        "total_visible_task_pixels": 14198,
+        "task_instances_in_official_range": 1,
+        "box_overlap_instance_in_range": true,
+        "box_overlap_instance_pixels_visible": 14198
+      }
+    ],
+    "distinct_official_in_range_targets_across_arrivals": 1
+  },
+  "painting": {
+    "action_frames": 300,
+    "map_keyframes": 274,
+    "map_nonkeyframes": 26,
+    "archived_geometry_field_names": [],
+    "final_memory_nodes": 0,
+    "recheck_reasons": {},
+    "completed_rechecks": []
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "anchor": "controlled preceding view",
+  "oracle_input": "depth + metric pose of past anchor only",
+  "query_input": "RGB only",
+  "scope": "sparse pose and detector-region availability; excludes picking the right instance and whole navigation",
+  "cases_sha256": "49ab81ef569c707f01b30d715bc6fe46e7b8798679ba42176c409724751169b3",
+  "tracker_sha256": "ac798799804b1efc5d3177b9108b627afdea4cf1b0b668d1dbb19796efe7d7a4",
+  "results": {
+    "all": {
+      "queries": 92,
+      "houses": 12,
+      "pose_available": 70,
+      "localized_over_25cm_or_10deg": 0,
+      "median_translation_error_m": 0.006,
+      "median_rotation_error_deg": 0.1248,
+      "with_detector_candidates": 88,
+      "all_boxes_with_9_points": 36,
+      "median_cpu_ms": 34.7,
+      "reasons": {
+        "localized": 70,
+        "holdout_or_coverage_rejected": 21,
+        "pnp_ransac_rejected": 1
+      }
+    },
+    "within_1m_30deg": {
+      "queries": 92,
+      "houses": 12,
+      "pose_available": 70,
+      "localized_over_25cm_or_10deg": 0,
+      "median_translation_error_m": 0.006,
+      "median_rotation_error_deg": 0.1248,
+      "with_detector_candidates": 88,
+      "all_boxes_with_9_points": 36,
+      "median_cpu_ms": 34.7,
+      "reasons": {
+        "localized": 70,
+        "holdout_or_coverage_rejected": 21,
+        "pnp_ransac_rejected": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "anchored_pnp": {
+    "actual_submaps_verified": 17,
+    "basis": "sequential recorded keyframes, completed server window sizes, original overlap=1; normal size=17; explicit short-window flush respected",
+    "caveat": "Waiting alone cannot supply frames from later actions under the original schedule. A forced short-window flush is a separate intervention. No observation-to-mapper wall time inferred.",
+    "joint_window_and_busy_status": {
+      "first_containing_window_needs_no_future_frame_wait_may_suffice_mapper_busy": 2,
+      "first_containing_window_uses_verified_later_action_frames_mapper_idle": 29
+    },
+    "queue_sizes_at_feed_source_step_counts": {
+      "1": 2,
+      "2": 1,
+      "3": 3,
+      "4": 2,
+      "5": 3,
+      "6": 2,
+      "7": 2,
+      "8": 1,
+      "10": 1,
+      "11": 1,
+      "12": 2,
+      "13": 4,
+      "14": 2,
+      "15": 2,
+      "16": 3
+    },
+    "unique_current_frames": {
+      "first_containing_window_needs_no_future_frame_wait_may_suffice": 2,
+      "first_containing_window_uses_verified_later_action_frames": 20
+    },
+    "unique_source_step_status": {
+      "first_containing_window_needs_no_future_frame_wait_may_suffice": 2,
+      "first_containing_window_uses_verified_later_action_frames": 29,
+      "mapper_busy_at_feed": 2,
+      "mapper_idle_at_feed": 29
+    }
+  },
+  "keyframes_only": {
+    "actual_submaps_verified": 17,
+    "basis": "sequential recorded keyframes, completed server window sizes, original overlap=1; normal size=17; explicit short-window flush respected",
+    "caveat": "Waiting alone cannot supply frames from later actions under the original schedule. A forced short-window flush is a separate intervention. No observation-to-mapper wall time inferred.",
+    "joint_window_and_busy_status": {
+      "first_containing_window_uses_verified_later_action_frames_mapper_idle": 19
+    },
+    "queue_sizes_at_feed_source_step_counts": {
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 2,
+      "10": 3,
+      "11": 2,
+      "12": 3,
+      "13": 3,
+      "14": 1,
+      "15": 2
+    },
+    "unique_current_frames": {
+      "first_containing_window_uses_verified_later_action_frames": 16
+    },
+    "unique_source_step_status": {
+      "first_containing_window_uses_verified_later_action_frames": 19,
+      "mapper_busy_at_feed": 0,
+      "mapper_idle_at_feed": 19
+    }
+  }
+}

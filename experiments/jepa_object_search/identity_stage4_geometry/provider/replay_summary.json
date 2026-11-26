@@ -1,0 +1,71 @@
+{
+  "paired_fusion_all": {
+    "sha256": "ba49868087f9739f0b10fc5ef575745fac845fc8f27137ebf7a5f66f5f245e4d",
+    "arms": {
+      "keyframes_only": {
+        "pairs": 22,
+        "distinct_steps": 18,
+        "decisions": {
+          "same": 1,
+          "withheld": 21
+        },
+        "reasons": {
+          "frozen_verifier_scored": 1,
+          "fewer_than_two_shared_timestamped_anchors": 2,
+          "missing_two_in_window": 19
+        }
+      },
+      "anchored_pnp": {
+        "pairs": 33,
+        "distinct_steps": 24,
+        "decisions": {
+          "withheld": 33
+        },
+        "reasons": {
+          "missing_two_in_window": 18,
+          "fewer_than_two_shared_timestamped_anchors": 12,
+          "cross_anchor_metric_disagreement": 3
+        }
+      }
+    }
+  },
+  "paired_fusion_explicit_all": {
+    "sha256": "4db970bbf58c78e17f61a7012e35aaf1bdae9acae472f417a7bb1ac2d625dd49",
+    "arms": {
+      "keyframes_only": {
+        "pairs": 22,
+        "distinct_steps": 18,
+        "decisions": {
+          "same": 1,
+          "withheld": 21
+        },
+        "reasons": {
+          "frozen_verifier_scored": 1,
+          "fewer_than_two_shared_timestamped_anchors": 11,
+          "scale_disagreement_with_floor": 1,
+          "missing_two_in_window": 9
+        }
+      },
+      "anchored_pnp": {
+        "pairs": 33,
+        "distinct_steps": 24,
+        "decisions": {
+          "withheld": 33
+        },
+        "reasons": {
+          "fewer_than_two_shared_timestamped_anchors": 30,
+          "cross_anchor_metric_disagreement": 3
+        }
+      }
+    }
+  },
+  "scope": "Paired causal replays of captured online requests from one HM3D clock task, frozen point maps, two different 300-step runs.",
+  "other_recorded_requests_excluding_development_example": {
+    "remaining_pairs": 54,
+    "localized_and_scored": 0
+  },
+  "aggregate_input_code_sha256": {
+    "shared_anchor_pair.py": "f47cd910add9ca907c8216532dbdd8878fa7c137c6fd91d7ce7fccdad1d893e3",
+    "optics.py": "a4dda4fb740145c23e38999f4e957a004f48f54e5269a529c582ad26a7dda3de"
+  }
+}

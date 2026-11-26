@@ -1,0 +1,111 @@
+{
+  "scope": "Scorer-only true depth and pose at every requested source/current camera, original RGBs, boxes, ordering and frozen JEPA.",
+  "arms": {
+    "keyframes_only": {
+      "counts": {
+        "queries": 22,
+        "exact_unique_registered_click": 22,
+        "registered_click_on_a_task_instance": 12,
+        "queries_any_task_in_report_range": 11,
+        "queries_with_offered_center_on_task": 0,
+        "queries_with_any_task_pixels_in_offered_boxes": 3,
+        "queries_with_box_containing_source_task_pixels_and_in_range": 1,
+        "queries_with_box_containing_source_task_pixels_at_any_range": 2,
+        "queries_source_task_in_official_range_regardless_of_box": 8,
+        "queries_offering_source_instance_center": 0,
+        "queries_offering_source_instance_center_in_range": 0,
+        "frozen_same": 1,
+        "frozen_different": 20,
+        "source_target_in_range_under_candidate_center_without_acceptance": 0,
+        "frozen_uncertain": 1
+      },
+      "unique_steps_offering_clear_source_goal_in_range": 0,
+      "distinct_task_instances_in_official_range": 1,
+      "distinct_in_range_registered_goals_under_selected_box_center": 0,
+      "distinct_in_range_registered_goals_with_pixels_in_selected_box": 1,
+      "positive_verdict_checks": {
+        "source_click_verified_target": 1,
+        "selected_center_confirmed_same_task_instance": 0,
+        "confirmed_same_in_official_range": 0,
+        "selected_center_on_different_task_instance": 0,
+        "selected_box_contains_registered_goal_pixels_and_in_range": 1,
+        "selected_box_with_zero_task_pixels": 0,
+        "ambiguous_reference_or_partial_box": 1
+      },
+      "accepted_queries": [
+        {
+          "step": 143,
+          "current_boxes": 2,
+          "selection": 1,
+          "verified_source_click_on_task": true,
+          "selected_center_same_goal": false,
+          "selected_contains_same_goal_pixels": true,
+          "selected_box_task_fraction": 0.213,
+          "source_goal_in_official_range": true,
+          "any_task_in_official_range": true
+        }
+      ],
+      "legal_visible_opportunities": [
+        {
+          "step": 143,
+          "n_boxes": 2,
+          "boxes_with_same_goal": [
+            1
+          ],
+          "best_task_fraction_of_box": 0.2126,
+          "frozen_result": "same",
+          "frozen_reason": null
+        }
+      ],
+      "finite_frozen_scores": 22,
+      "selected_region_overlap": [
+        {
+          "step": 143,
+          "selected_box": 1,
+          "reference_click_is_task": true,
+          "selected_box_same_instance_fraction": 0.2126,
+          "fraction_of_visible_source_instance_in_selected": 0.8177,
+          "registered_task_in_range": true
+        }
+      ]
+    },
+    "anchored_pnp": {
+      "counts": {
+        "queries": 33,
+        "exact_unique_registered_click": 33,
+        "registered_click_on_a_task_instance": 16,
+        "queries_any_task_in_report_range": 8,
+        "queries_with_offered_center_on_task": 0,
+        "queries_with_any_task_pixels_in_offered_boxes": 6,
+        "queries_with_box_containing_source_task_pixels_and_in_range": 1,
+        "queries_with_box_containing_source_task_pixels_at_any_range": 3,
+        "queries_source_task_in_official_range_regardless_of_box": 3,
+        "queries_offering_source_instance_center": 0,
+        "queries_offering_source_instance_center_in_range": 0,
+        "frozen_different": 32,
+        "source_target_in_range_under_candidate_center_without_acceptance": 0,
+        "frozen_uncertain": 1
+      },
+      "unique_steps_offering_clear_source_goal_in_range": 0,
+      "distinct_task_instances_in_official_range": 1,
+      "distinct_in_range_registered_goals_under_selected_box_center": 0,
+      "distinct_in_range_registered_goals_with_pixels_in_selected_box": 0,
+      "positive_verdict_checks": {},
+      "accepted_queries": [],
+      "legal_visible_opportunities": [
+        {
+          "step": 276,
+          "n_boxes": 2,
+          "boxes_with_same_goal": [
+            0
+          ],
+          "best_task_fraction_of_box": 0.1926,
+          "frozen_result": "uncertain",
+          "frozen_reason": null
+        }
+      ],
+      "finite_frozen_scores": 33,
+      "selected_region_overlap": []
+    }
+  }
+}

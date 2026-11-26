@@ -1,0 +1,140 @@
+[
+  {
+    "arrival_step": 146,
+    "model": "direct",
+    "original": "same",
+    "scale_source": "current_full_frame_median_depth_oracle",
+    "multiplier": 0.1759,
+    "corrected": "same"
+  },
+  {
+    "arrival_step": 146,
+    "model": "direct",
+    "original": "same",
+    "scale_source": "actual_translation_oracle",
+    "multiplier": 0.1376,
+    "corrected": "same"
+  },
+  {
+    "arrival_step": 146,
+    "model": "direct",
+    "original": "same",
+    "scale_source": "actual_depth_intrinsics_and_pose_oracle",
+    "corrected": "same"
+  },
+  {
+    "arrival_step": 187,
+    "model": "direct",
+    "original": "different",
+    "scale_source": "current_full_frame_median_depth_oracle",
+    "multiplier": 0.022,
+    "corrected": "different"
+  },
+  {
+    "arrival_step": 187,
+    "model": "direct",
+    "original": "different",
+    "scale_source": "actual_translation_oracle",
+    "multiplier": 0.0095,
+    "corrected": "different"
+  },
+  {
+    "arrival_step": 187,
+    "model": "direct",
+    "original": "different",
+    "scale_source": "actual_depth_intrinsics_and_pose_oracle",
+    "corrected": "different"
+  },
+  {
+    "arrival_step": 205,
+    "model": "direct",
+    "original": "different",
+    "scale_source": "current_full_frame_median_depth_oracle",
+    "multiplier": 0.4944,
+    "corrected": "different"
+  },
+  {
+    "arrival_step": 205,
+    "model": "direct",
+    "original": "different",
+    "scale_source": "actual_translation_oracle",
+    "multiplier": 0.514,
+    "corrected": "different"
+  },
+  {
+    "arrival_step": 205,
+    "model": "direct",
+    "original": "different",
+    "scale_source": "actual_depth_intrinsics_and_pose_oracle",
+    "corrected": "different"
+  },
+  {
+    "arrival_step": 146,
+    "model": "jepa",
+    "original": "same",
+    "scale_source": "current_full_frame_median_depth_oracle",
+    "multiplier": 0.1759,
+    "corrected": "same"
+  },
+  {
+    "arrival_step": 146,
+    "model": "jepa",
+    "original": "same",
+    "scale_source": "actual_translation_oracle",
+    "multiplier": 0.1376,
+    "corrected": "same"
+  },
+  {
+    "arrival_step": 146,
+    "model": "jepa",
+    "original": "same",
+    "scale_source": "actual_depth_intrinsics_and_pose_oracle",
+    "corrected": "same"
+  },
+  {
+    "arrival_step": 187,
+    "model": "jepa",
+    "original": "different",
+    "scale_source": "current_full_frame_median_depth_oracle",
+    "multiplier": 0.022,
+    "corrected": "different"
+  },
+  {
+    "arrival_step": 187,
+    "model": "jepa",
+    "original": "different",
+    "scale_source": "actual_translation_oracle",
+    "multiplier": 0.0095,
+    "corrected": "different"
+  },
+  {
+    "arrival_step": 187,
+    "model": "jepa",
+    "original": "different",
+    "scale_source": "actual_depth_intrinsics_and_pose_oracle",
+    "corrected": "different"
+  },
+  {
+    "arrival_step": 205,
+    "model": "jepa",
+    "original": "different",
+    "scale_source": "current_full_frame_median_depth_oracle",
+    "multiplier": 0.4944,
+    "corrected": "different"
+  },
+  {
+    "arrival_step": 205,
+    "model": "jepa",
+    "original": "different",
+    "scale_source": "actual_translation_oracle",
+    "multiplier": 0.514,
+    "corrected": "different"
+  },
+  {
+    "arrival_step": 205,
+    "model": "jepa",
+    "original": "different",
+    "scale_source": "actual_depth_intrinsics_and_pose_oracle",
+    "corrected": "different"
+  }
+]

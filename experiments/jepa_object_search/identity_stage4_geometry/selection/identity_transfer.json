@@ -1,0 +1,152 @@
+{
+  "checkpoint_sha256": "5420b26d02915a2b2b4c4a28378a78cba2a2b15c000255d13a51f1d9136e3745",
+  "dino_sha256": "0b78bfcd532e808b1edb34d5c8b3d96eb03b76afe57d01fa5b622339c497dc4f",
+  "note": "Tracking counts here are for all eligible (size-gated and rounded) navigation rectangles. The tracking-only transfer.py table used all raw DINO rectangles.",
+  "paid_calls": 0,
+  "panel_sha256": "49ab81ef569c707f01b30d715bc6fe46e7b8798679ba42176c409724751169b3",
+  "results": {
+    "absent_with_same_class": {
+      "all_dense_oracle_outcomes": {
+        "different": 79,
+        "missing_source_registration": 8,
+        "no_eligible_candidates": 6,
+        "uncertain": 1
+      },
+      "both_registered_and_tracking_gate_passed": {
+        "cases": 21,
+        "dense_head": {
+          "different": 20,
+          "uncertain": 1
+        },
+        "dense_to_tracked": {
+          "different -> different": 20,
+          "uncertain -> uncertain": 1
+        },
+        "houses": 9,
+        "registered_source": 21,
+        "tracked_head": {
+          "different": 20,
+          "uncertain": 1
+        },
+        "tracker": {
+          "geometry_pair_ready": 21
+        }
+      },
+      "paired": {
+        "cases": 64,
+        "dense_head": {
+          "different": 53,
+          "missing_source_registration": 5,
+          "no_eligible_candidates": 5,
+          "uncertain": 1
+        },
+        "dense_to_tracked": {
+          "different -> different": 20,
+          "different -> insufficient_candidate_depth": 20,
+          "different -> tracking_deferred": 13,
+          "missing_source_registration -> missing_source_registration": 5,
+          "no_eligible_candidates -> no_eligible_candidates": 5,
+          "uncertain -> uncertain": 1
+        },
+        "houses": 12,
+        "registered_source": 59,
+        "tracked_head": {
+          "different": 20,
+          "insufficient_candidate_depth": 20,
+          "missing_source_registration": 5,
+          "no_eligible_candidates": 5,
+          "tracking_deferred": 13,
+          "uncertain": 1
+        },
+        "tracker": {
+          "geometry_pair_ready": 22,
+          "insufficient_candidate_depth": 21,
+          "no_eligible_candidates": 5,
+          "tracking_deferred": 16
+        }
+      },
+      "total_cases": 94,
+      "without_near_anchor": 30
+    },
+    "same": {
+      "all_dense_oracle_outcomes": {
+        "correct": 66,
+        "different": 4,
+        "missing_source_registration": 5,
+        "no_eligible_candidates": 3,
+        "uncertain": 13,
+        "wrong": 1
+      },
+      "both_registered_and_tracking_gate_passed": {
+        "cases": 33,
+        "dense_head": {
+          "correct": 29,
+          "different": 1,
+          "uncertain": 3
+        },
+        "dense_to_tracked": {
+          "correct -> correct": 28,
+          "correct -> uncertain": 1,
+          "different -> uncertain": 1,
+          "uncertain -> correct": 1,
+          "uncertain -> uncertain": 2
+        },
+        "houses": 10,
+        "registered_source": 33,
+        "tracked_head": {
+          "correct": 29,
+          "uncertain": 4
+        },
+        "tracker": {
+          "geometry_pair_ready": 33
+        }
+      },
+      "paired": {
+        "cases": 92,
+        "dense_head": {
+          "correct": 66,
+          "different": 4,
+          "missing_source_registration": 5,
+          "no_eligible_candidates": 3,
+          "uncertain": 13,
+          "wrong": 1
+        },
+        "dense_to_tracked": {
+          "correct -> correct": 28,
+          "correct -> insufficient_candidate_depth": 24,
+          "correct -> tracking_deferred": 13,
+          "correct -> uncertain": 1,
+          "different -> insufficient_candidate_depth": 2,
+          "different -> tracking_deferred": 1,
+          "different -> uncertain": 1,
+          "missing_source_registration -> missing_source_registration": 5,
+          "no_eligible_candidates -> no_eligible_candidates": 3,
+          "uncertain -> correct": 1,
+          "uncertain -> insufficient_candidate_depth": 4,
+          "uncertain -> tracking_deferred": 6,
+          "uncertain -> uncertain": 2,
+          "wrong -> tracking_deferred": 1
+        },
+        "houses": 12,
+        "registered_source": 87,
+        "tracked_head": {
+          "correct": 29,
+          "insufficient_candidate_depth": 30,
+          "missing_source_registration": 5,
+          "no_eligible_candidates": 3,
+          "tracking_deferred": 21,
+          "uncertain": 4
+        },
+        "tracker": {
+          "geometry_pair_ready": 34,
+          "insufficient_candidate_depth": 31,
+          "no_eligible_candidates": 5,
+          "tracking_deferred": 22
+        }
+      },
+      "total_cases": 92,
+      "without_near_anchor": 0
+    }
+  },
+  "scope": "12 held-out HSSD houses; pre-registered DINO reference selected by source-only annotation; same detector, original eligible_boxes and frozen JEPA API in both arms. Every eligible live box needs 9 finite transferred pixels in the tracked arm. Controlled nearby historical camera with exact past map depth and pose. Current image and fixed calibration only for tracking. Dense upper bound uses simulator query geometry. Missing near anchors excluded from paired denominators. Same threshold and rivals; correct/wrong/unverified are selected boxes, different/uncertain abstain. No navigation or reporting score."
+}

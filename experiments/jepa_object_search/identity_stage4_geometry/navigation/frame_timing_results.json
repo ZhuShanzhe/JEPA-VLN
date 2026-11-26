@@ -1,0 +1,57 @@
+{
+  "anchored_pnp": {
+    "counter": {
+      "capture_keyframe": 31,
+      "current_rgb_found_in_final_archive": 31,
+      "source_present": 31,
+      "submission_newer_than_all_captured_anchors": 31
+    },
+    "on_demand_scale_and_gate_reasons": {
+      "invalid_source_or_metric_scale; ruler=locked_camera_height; usable_scale=True": 2
+    },
+    "portion": "unique source-step confirmations; not unique submitted frame IDs",
+    "submitted_minus_latest_captured_frame_id_counts": {
+      "1": 1,
+      "2": 3,
+      "3": 2,
+      "4": 1,
+      "5": 3,
+      "6": 3,
+      "7": 1,
+      "9": 1,
+      "10": 1,
+      "11": 2,
+      "12": 1,
+      "13": 1,
+      "14": 5,
+      "15": 2,
+      "17": 2,
+      "18": 2
+    }
+  },
+  "keyframes_only": {
+    "counter": {
+      "capture_keyframe": 19,
+      "current_rgb_found_in_final_archive": 19,
+      "source_present": 19,
+      "submission_newer_than_all_captured_anchors": 19
+    },
+    "on_demand_scale_and_gate_reasons": {
+      "no_native_pair; ruler=not_recorded; usable_scale=False": 3
+    },
+    "portion": "unique source-step confirmations; not unique submitted frame IDs",
+    "submitted_minus_latest_captured_frame_id_counts": {
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 3,
+      "10": 1,
+      "11": 2,
+      "12": 3,
+      "13": 3,
+      "14": 2,
+      "16": 1
+    }
+  }
+}

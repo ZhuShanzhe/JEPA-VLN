@@ -1,0 +1,115 @@
+{
+  "arms": {
+    "anchored_pnp": {
+      "accepted": true,
+      "caption_call_records": 68,
+      "confirm_recheck_reasons": {
+        "identity_missing_geometry": 1,
+        "need_metric_near_view": 4
+      },
+      "credited_reports": 0,
+      "distinct_steps_accepted_by_identity": 0,
+      "distinct_steps_presented_boxes": 24,
+      "duplicate_reports": 0,
+      "first_anchored_pair_step": null,
+      "first_geometry_request_step": 157,
+      "first_nonkey_geometry_request_step": 165,
+      "found": 0,
+      "geometry_calls": 33,
+      "geometry_reasons": {
+        "invalid_source_or_metric_scale": 2,
+        "no_native_pair": 31
+      },
+      "geometry_steps": 24,
+      "model_caption_empties": 0,
+      "nonkey_geometry_calls": 2,
+      "nonkey_geometry_pairs": 2,
+      "nonkey_geometry_pairs_supported": 0,
+      "out_of_range_reports": 0,
+      "quarantined": 0,
+      "quota": 2,
+      "reached_instances": 1,
+      "reported": 0,
+      "reported_action_count": 0,
+      "stage_counts": {
+        "capture_diagnostics": {
+          "keyframe_complete_capture": 31,
+          "keyframe_current_geometry_or_corresponding_rgb_not_captured": 31,
+          "nonkeyframe_complete_capture": 2
+        },
+        "unique_source_step_counts": {
+          "keyframe_geometry_available": 0,
+          "keyframe_requested": 31,
+          "nonkeyframe_geometry_available": 0,
+          "nonkeyframe_requested": 2
+        }
+      },
+      "steps": 300,
+      "success": false,
+      "successful_navigation_decisions": 41,
+      "support_call_reasons": {
+        "identity_missing_geometry": 36
+      },
+      "verified_model_trace_records": 42,
+      "verified_result_sha256": "a766f296bff890cd83feaa0b02bf5f280c77b36f025eaf278e0337668fe156a9"
+    },
+    "keyframes_only": {
+      "accepted": true,
+      "caption_call_records": 98,
+      "confirm_recheck_reasons": {
+        "identity_missing_geometry": 1,
+        "need_metric_near_view": 3
+      },
+      "credited_reports": 0,
+      "distinct_steps_accepted_by_identity": 0,
+      "distinct_steps_presented_boxes": 18,
+      "duplicate_reports": 0,
+      "first_anchored_pair_step": null,
+      "first_geometry_request_step": 143,
+      "first_nonkey_geometry_request_step": 153,
+      "found": 0,
+      "geometry_calls": 22,
+      "geometry_reasons": {
+        "no_native_pair": 22
+      },
+      "geometry_steps": 18,
+      "model_caption_empties": 0,
+      "nonkey_geometry_calls": 3,
+      "nonkey_geometry_pairs": 3,
+      "nonkey_geometry_pairs_supported": 0,
+      "out_of_range_reports": 0,
+      "quarantined": 0,
+      "quota": 2,
+      "reached_instances": 1,
+      "reported": 0,
+      "reported_action_count": 0,
+      "stage_counts": {
+        "capture_diagnostics": {
+          "keyframe_complete_capture": 19,
+          "keyframe_current_geometry_or_corresponding_rgb_not_captured": 19,
+          "nonkeyframe_complete_capture": 3
+        },
+        "unique_source_step_counts": {
+          "keyframe_geometry_available": 0,
+          "keyframe_requested": 19,
+          "nonkeyframe_geometry_available": 0,
+          "nonkeyframe_requested": 3
+        }
+      },
+      "steps": 300,
+      "success": false,
+      "successful_navigation_decisions": 31,
+      "support_call_reasons": {
+        "identity_missing_geometry": 23
+      },
+      "verified_model_trace_records": 32,
+      "verified_result_sha256": "5e964b48ad0548d34406bc5a3404e40b15e4f15b49d99eda830b728e11df5a2b"
+    }
+  },
+  "same_configuration_verified": true,
+  "scope": "fixed HM3D development clock, one preselected task, independently sampled live decisions",
+  "trajectory_comparison": {
+    "first_different_action_index_zero_based": 115,
+    "identical_prefix_actions": 115
+  }
+}

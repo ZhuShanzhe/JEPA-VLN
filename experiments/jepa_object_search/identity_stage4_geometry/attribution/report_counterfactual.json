@@ -1,0 +1,14 @@
+{
+  "scope": "Fixed archived prefix plus one report. No autonomous continuation or closed-loop performance claim.",
+  "matched_previous_actions": 146,
+  "max_prefix_position_error_m": 0.0,
+  "report_step": 146,
+  "new_instances": 1,
+  "incorrect": false,
+  "distinct_reports": 1,
+  "quota": 2,
+  "finish_action_step": 147,
+  "official_success": false,
+  "terminal_reason": "incomplete_finish",
+  "paid_calls": 0
+}

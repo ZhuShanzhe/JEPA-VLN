@@ -1,0 +1,41 @@
+[
+  {
+    "arrival_step": 146,
+    "start_to_end_command_translation_m": 0.5,
+    "start_to_end_evaluator_translation_m": 0.069,
+    "box_depth": [
+      {
+        "measured_pixels": 11550,
+        "true_median_m": 1.164,
+        "predicted_median_m": 6.583,
+        "median_pixelwise_pred_over_true": 5.651
+      }
+    ]
+  },
+  {
+    "arrival_step": 187,
+    "start_to_end_command_translation_m": 0.975,
+    "start_to_end_evaluator_translation_m": 0.009,
+    "box_depth": [
+      {
+        "measured_pixels": 12430,
+        "true_median_m": 1.136,
+        "predicted_median_m": 51.559,
+        "median_pixelwise_pred_over_true": 45.364
+      }
+    ]
+  },
+  {
+    "arrival_step": 205,
+    "start_to_end_command_translation_m": 1.0,
+    "start_to_end_evaluator_translation_m": 0.514,
+    "box_depth": [
+      {
+        "measured_pixels": 13110,
+        "true_median_m": 1.12,
+        "predicted_median_m": 2.273,
+        "median_pixelwise_pred_over_true": 2.028
+      }
+    ]
+  }
+]

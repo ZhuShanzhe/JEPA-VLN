@@ -1,0 +1,22 @@
+[
+  {
+    "arrival_step": 146,
+    "ruler": "withheld",
+    "tracking_state": "not_run"
+  },
+  {
+    "arrival_step": 187,
+    "ruler": "accepted",
+    "tracking_state": "localized",
+    "relative_translation_error_m": 0.149,
+    "relative_rotation_error_deg": 0.011,
+    "observed_depth_pixels_inside_box": 189,
+    "median_pred_over_true": 2.296,
+    "median_absolute_error_m": 1.472
+  },
+  {
+    "arrival_step": 205,
+    "ruler": "withheld",
+    "tracking_state": "not_run"
+  }
+]

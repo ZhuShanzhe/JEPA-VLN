@@ -1,0 +1,58 @@
+[
+  {
+    "model": "direct",
+    "reference": "earliest_available",
+    "arrival_step": 187,
+    "state": "same",
+    "index": 0
+  },
+  {
+    "model": "direct",
+    "reference": "selected_at_time",
+    "arrival_step": 187,
+    "state": "different",
+    "index": null
+  },
+  {
+    "model": "direct",
+    "reference": "earliest_available",
+    "arrival_step": 205,
+    "state": "same",
+    "index": 0
+  },
+  {
+    "model": "direct",
+    "reference": "selected_at_time",
+    "arrival_step": 205,
+    "state": "different",
+    "index": null
+  },
+  {
+    "model": "jepa",
+    "reference": "earliest_available",
+    "arrival_step": 187,
+    "state": "same",
+    "index": 0
+  },
+  {
+    "model": "jepa",
+    "reference": "selected_at_time",
+    "arrival_step": 187,
+    "state": "different",
+    "index": null
+  },
+  {
+    "model": "jepa",
+    "reference": "earliest_available",
+    "arrival_step": 205,
+    "state": "same",
+    "index": 0
+  },
+  {
+    "model": "jepa",
+    "reference": "selected_at_time",
+    "arrival_step": 205,
+    "state": "different",
+    "index": null
+  }
+]

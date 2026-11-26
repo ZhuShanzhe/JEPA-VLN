@@ -1,0 +1,13 @@
+{
+  "counts": {
+    "pairs": 22,
+    "source_view_valid": 22
+  },
+  "distinct_steps": 18,
+  "scored_steps": 0,
+  "terminal_reasons": {
+    "few_tracked_map_points": 13,
+    "no_recent_committed_anchor": 9
+  },
+  "identity_verdicts": {}
+}

@@ -1,0 +1,27 @@
+{
+  "step": 143,
+  "selected_zero_based": 1,
+  "n_current_options": 2,
+  "source_observations_on_frame": 2,
+  "source_distinct_clicks": 1,
+  "source_box_to_recorded_box_max_frac": 0.0,
+  "source_click_on_goal": true,
+  "source_region_task_fraction": 0.2413,
+  "all_candidate_centers_on_task": [
+    false,
+    false
+  ],
+  "all_candidate_task_fractions": [
+    0.0,
+    0.2126
+  ],
+  "selected_center_on_task": false,
+  "selected_center_matches_source_click": false,
+  "selected_center_in_official_range": false,
+  "selected_contains_registered_goal_pixels": true,
+  "selected_target_pixel_count": 2665,
+  "selected_target_only_registered_goal": true,
+  "selected_fraction_of_visible_registered_goal": 0.8177,
+  "registered_goal_in_official_range": true,
+  "any_official_target_in_range": true
+}

@@ -1,0 +1,69 @@
+{
+  "scope": "Local RGB+nominal motion reconstruction at every completed V24 recheck, frozen proposals and identity heads. No simulator geometry or semantics given to heads.",
+  "paid_calls": 0,
+  "results": [
+    {
+      "arrival_step": 146,
+      "eligible_current_boxes": 1,
+      "heads": {
+        "direct": {
+          "state": "same",
+          "box_center_on_task_instance": true,
+          "box_target_pixel_fraction": 0.204,
+          "instance_pixel_coverage": 0.05
+        },
+        "jepa": {
+          "state": "same",
+          "box_center_on_task_instance": true,
+          "box_target_pixel_fraction": 0.204,
+          "instance_pixel_coverage": 0.05
+        }
+      },
+      "all_offered_box_audits": [
+        {
+          "box_center_on_task_instance": true,
+          "box_target_pixel_fraction": 0.204,
+          "instance_pixel_coverage": 0.05
+        }
+      ]
+    },
+    {
+      "arrival_step": 187,
+      "eligible_current_boxes": 1,
+      "heads": {
+        "direct": {
+          "state": "different"
+        },
+        "jepa": {
+          "state": "different"
+        }
+      },
+      "all_offered_box_audits": [
+        {
+          "box_center_on_task_instance": true,
+          "box_target_pixel_fraction": 0.209,
+          "instance_pixel_coverage": 0.063
+        }
+      ]
+    },
+    {
+      "arrival_step": 205,
+      "eligible_current_boxes": 1,
+      "heads": {
+        "direct": {
+          "state": "different"
+        },
+        "jepa": {
+          "state": "different"
+        }
+      },
+      "all_offered_box_audits": [
+        {
+          "box_center_on_task_instance": true,
+          "box_target_pixel_fraction": 0.209,
+          "instance_pixel_coverage": 0.073
+        }
+      ]
+    }
+  ]
+}
