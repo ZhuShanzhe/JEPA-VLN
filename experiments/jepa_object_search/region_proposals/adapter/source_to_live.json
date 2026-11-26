@@ -1,0 +1,86 @@
+{
+  "dino": {
+    "archived": {
+      "reference_built": true,
+      "same_image_control": {
+        "supported": true,
+        "reason": "registered_patch_and_current_box",
+        "live_boxes": 2
+      },
+      "fresh_near_image": {
+        "supported": false,
+        "reason": "no_current_instance_match",
+        "live_boxes": 1
+      }
+    },
+    "free_first_region": {
+      "reference_built": true,
+      "same_image_control": {
+        "supported": true,
+        "reason": "registered_patch_and_current_box",
+        "live_boxes": 2
+      },
+      "fresh_near_image": {
+        "supported": false,
+        "reason": "no_current_instance_match",
+        "live_boxes": 1
+      }
+    }
+  },
+  "sam": {
+    "archived": {
+      "reference_built": true,
+      "same_image_control": {
+        "supported": true,
+        "reason": "registered_local_features_and_current_box",
+        "live_boxes": 1
+      },
+      "fresh_near_image": {
+        "supported": false,
+        "reason": "no_current_instance_match",
+        "live_boxes": 2
+      }
+    },
+    "free_first_region": {
+      "reference_built": true,
+      "same_image_control": {
+        "supported": true,
+        "reason": "registered_patch_and_current_box",
+        "live_boxes": 1
+      },
+      "fresh_near_image": {
+        "supported": false,
+        "reason": "no_current_instance_match",
+        "live_boxes": 2
+      }
+    }
+  },
+  "refined": {
+    "archived": {
+      "reference_built": true,
+      "same_image_control": {
+        "supported": true,
+        "reason": "registered_patch_and_current_box",
+        "live_boxes": 2
+      },
+      "fresh_near_image": {
+        "supported": false,
+        "reason": "no_current_instance_match",
+        "live_boxes": 1
+      }
+    },
+    "free_first_region": {
+      "reference_built": true,
+      "same_image_control": {
+        "supported": true,
+        "reason": "registered_patch_and_current_box",
+        "live_boxes": 2
+      },
+      "fresh_near_image": {
+        "supported": false,
+        "reason": "no_current_instance_match",
+        "live_boxes": 1
+      }
+    }
+  }
+}

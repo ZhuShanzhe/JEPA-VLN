@@ -1,0 +1,27 @@
+{
+  "paid_requests": 0,
+  "arms": {
+    "native": {
+      "frames_checked": 3,
+      "source_registration_unchanged": true,
+      "near_live_proposals": 2,
+      "near_match": false,
+      "near_reason": "no_current_instance_match",
+      "original_menu_passthrough": true
+    },
+    "dino": {
+      "frames_checked": 3,
+      "source_registration_unchanged": true,
+      "near_live_proposals": 1,
+      "near_match": false,
+      "near_reason": "no_current_instance_match"
+    },
+    "refined": {
+      "frames_checked": 3,
+      "source_registration_unchanged": true,
+      "near_live_proposals": 1,
+      "near_match": false,
+      "near_reason": "no_current_instance_match"
+    }
+  }
+}

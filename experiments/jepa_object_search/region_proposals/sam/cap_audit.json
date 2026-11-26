@@ -1,0 +1,14 @@
+{
+  "protocol": "Lexicographically first frozen HSSD test frame from each test house, regardless of whether a target is visible. Re-run the unmodified generator and validate the resulting final boxes against the original native API output before counting boxes lost. Detection thresholds inside the generator remain active at all stages. One-to-one category-instance box IoU >= 0.5.",
+  "counts": {
+    "frames": 16,
+    "truth": 37,
+    "raw_boxes": 910,
+    "area_kept_boxes": 594,
+    "final_boxes": 365,
+    "at_limit": 11,
+    "matches_raw": 33,
+    "matches_area": 33,
+    "matches_filtered_capped": 27
+  }
+}

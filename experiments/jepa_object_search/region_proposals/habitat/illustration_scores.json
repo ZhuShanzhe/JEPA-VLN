@@ -1,0 +1,36 @@
+{
+  "clock": {
+    "Current Grounding DINO": {
+      "has_proposal": true,
+      "top_iou": 0.0554,
+      "coverage": 0.0501
+    },
+    "Original SAM proposals": {
+      "has_proposal": true,
+      "top_iou": 0.0534,
+      "coverage": 0.0494
+    },
+    "Trained DINO box refiner": {
+      "has_proposal": true,
+      "top_iou": 0.0554,
+      "coverage": 0.0501
+    }
+  },
+  "painting": {
+    "Current Grounding DINO": {
+      "has_proposal": true,
+      "top_iou": 0.9212,
+      "coverage": 0.9639
+    },
+    "Original SAM proposals": {
+      "has_proposal": true,
+      "top_iou": 0.8736,
+      "coverage": 0.9297
+    },
+    "Trained DINO box refiner": {
+      "has_proposal": true,
+      "top_iou": 0.9212,
+      "coverage": 0.9639
+    }
+  }
+}

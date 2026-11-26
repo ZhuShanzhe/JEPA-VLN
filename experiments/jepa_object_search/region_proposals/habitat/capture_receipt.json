@@ -1,0 +1,52 @@
+{
+  "total": 43,
+  "groups": {
+    "clock_archived": {
+      "frames": 3,
+      "positive_frames": 3,
+      "target_instances": 3,
+      "any_pixels": 3
+    },
+    "clock_target_facing": {
+      "frames": 18,
+      "positive_frames": 7,
+      "target_instances": 7,
+      "any_pixels": 12
+    },
+    "wall_art_archived": {
+      "frames": 4,
+      "positive_frames": 0,
+      "target_instances": 0,
+      "any_pixels": 0
+    },
+    "wall_art_target_facing": {
+      "frames": 18,
+      "positive_frames": 10,
+      "target_instances": 10,
+      "any_pixels": 11
+    }
+  },
+  "raw_rgb_size": [
+    1280,
+    1280
+  ],
+  "detector_rgb_size": [
+    518,
+    518
+  ],
+  "semantic_size": [
+    320,
+    320
+  ],
+  "interpolation": "Pillow BICUBIC, lossless PNG",
+  "min_pixels": 103,
+  "historical_clock_target_pixels": [
+    265,
+    11693,
+    17968
+  ],
+  "paid_calls": 0,
+  "scene_count": 2,
+  "rendered_manifest_sha256": "3266e61a70e838c940e2275613d796ae0247a7582ec08ef7179900b7d17c1626",
+  "scoring_manifest_sha256": "97a32f7dea6bda708b9fb2e78c01d94558dc26cb834387e7730d17336a1598d4"
+}

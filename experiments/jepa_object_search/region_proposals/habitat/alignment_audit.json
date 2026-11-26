@@ -1,0 +1,76 @@
+{
+  "registered": {
+    "num_components": 18,
+    "total_target_pixels": 265,
+    "pixels_in_top_box": 76,
+    "pixels_in_all_components_touching_top_box": 76,
+    "pixels_in_components_disconnected_from_box": 189,
+    "largest_component_pixels": [
+      189,
+      20,
+      16,
+      11,
+      4
+    ]
+  },
+  "before_approach": {
+    "num_components": 5,
+    "total_target_pixels": 11693,
+    "pixels_in_top_box": 953,
+    "pixels_in_all_components_touching_top_box": 956,
+    "pixels_in_components_disconnected_from_box": 10737,
+    "largest_component_pixels": [
+      10737,
+      949,
+      3,
+      2,
+      2
+    ]
+  },
+  "after_approach": {
+    "num_components": 3,
+    "total_target_pixels": 17968,
+    "pixels_in_top_box": 901,
+    "pixels_in_all_components_touching_top_box": 905,
+    "pixels_in_components_disconnected_from_box": 17063,
+    "largest_component_pixels": [
+      17063,
+      768,
+      137
+    ]
+  },
+  "camera_geometry": {
+    "rgb_hfov": 120.0,
+    "semantic_hfov": 120.0,
+    "rgb_size": [
+      1280,
+      1280
+    ],
+    "semantic_size": [
+      320,
+      320
+    ],
+    "orientation_config_equal": true,
+    "sensor_position_difference_m": 0.0,
+    "quaternion_difference": 0.0
+  },
+  "semantic_identity": {
+    "ids_positive": true,
+    "episode_instances": 3,
+    "matched_semantic_scene_records": [
+      {
+        "is_closeup_instance": false,
+        "category": "clock"
+      },
+      {
+        "is_closeup_instance": true,
+        "category": "wall clock"
+      },
+      {
+        "is_closeup_instance": false,
+        "category": "alarm clock"
+      }
+    ],
+    "mask_equal_to_selected_raw_id": true
+  }
+}

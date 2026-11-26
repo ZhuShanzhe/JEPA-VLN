@@ -1,0 +1,136 @@
+{
+  "registered": {
+    "visible_pixels": 265,
+    "previous_registered_source": {
+      "has_proposal": true,
+      "top_iou": 0.1103,
+      "coverage": 0.2868
+    },
+    "dino": {
+      "pool_size": 2,
+      "oracle_by_iou": {
+        "has_proposal": true,
+        "top_iou": 0.1122,
+        "coverage": 0.2868
+      },
+      "free_top1": {
+        "has_proposal": true,
+        "top_iou": 0.1122,
+        "coverage": 0.2868
+      },
+      "top1_to_recorded_reference_iou": 0.9488
+    },
+    "sam": {
+      "pool_size": 24,
+      "oracle_by_iou": {
+        "has_proposal": true,
+        "top_iou": 0.4755,
+        "coverage": 0.3132
+      },
+      "free_top1": {
+        "has_proposal": true,
+        "top_iou": 0.2376,
+        "coverage": 0.5245
+      },
+      "top1_to_recorded_reference_iou": 0.1066
+    },
+    "refined": {
+      "pool_size": 2,
+      "oracle_by_iou": {
+        "has_proposal": true,
+        "top_iou": 0.1122,
+        "coverage": 0.2868
+      },
+      "free_top1": {
+        "has_proposal": true,
+        "top_iou": 0.1122,
+        "coverage": 0.2868
+      },
+      "top1_to_recorded_reference_iou": 0.9488
+    }
+  },
+  "before_approach": {
+    "visible_pixels": 11693,
+    "dino": {
+      "pool_size": 1,
+      "oracle_by_iou": {
+        "has_proposal": true,
+        "top_iou": 0.0657,
+        "coverage": 0.0815
+      },
+      "free_top1": {
+        "has_proposal": true,
+        "top_iou": 0.0657,
+        "coverage": 0.0815
+      }
+    },
+    "sam": {
+      "pool_size": 24,
+      "oracle_by_iou": {
+        "has_proposal": true,
+        "top_iou": 0.5858,
+        "coverage": 0.9182
+      },
+      "free_top1": {
+        "has_proposal": true,
+        "top_iou": 0.0641,
+        "coverage": 0.081
+      }
+    },
+    "refined": {
+      "pool_size": 1,
+      "oracle_by_iou": {
+        "has_proposal": true,
+        "top_iou": 0.0657,
+        "coverage": 0.0815
+      },
+      "free_top1": {
+        "has_proposal": true,
+        "top_iou": 0.0657,
+        "coverage": 0.0815
+      }
+    }
+  },
+  "after_approach": {
+    "visible_pixels": 17968,
+    "dino": {
+      "pool_size": 1,
+      "oracle_by_iou": {
+        "has_proposal": true,
+        "top_iou": 0.0554,
+        "coverage": 0.0501
+      },
+      "free_top1": {
+        "has_proposal": true,
+        "top_iou": 0.0554,
+        "coverage": 0.0501
+      }
+    },
+    "sam": {
+      "pool_size": 24,
+      "oracle_by_iou": {
+        "has_proposal": true,
+        "top_iou": 0.424,
+        "coverage": 0.1019
+      },
+      "free_top1": {
+        "has_proposal": true,
+        "top_iou": 0.0534,
+        "coverage": 0.0494
+      }
+    },
+    "refined": {
+      "pool_size": 1,
+      "oracle_by_iou": {
+        "has_proposal": true,
+        "top_iou": 0.0554,
+        "coverage": 0.0501
+      },
+      "free_top1": {
+        "has_proposal": true,
+        "top_iou": 0.0554,
+        "coverage": 0.0501
+      }
+    }
+  }
+}

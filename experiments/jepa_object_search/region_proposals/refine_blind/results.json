@@ -1,0 +1,213 @@
+{
+  "protocol": "Single AI visual inspection, 21 anonymized randomized 518x518 RGB images only. Visible extent of dials/numerals/hands; uncertain frames excluded rather than treated as background. Diagnostic for the visibly identifiable clock class, not official instance identity.",
+  "sealed_sha256": "60ef2d9e27a7227f1a61d68c3e2ae8bbe00288fc2f7f1af1b8be81ddbb90fe6e",
+  "top1_iou_thresholds": [
+    0.3,
+    0.5,
+    0.75
+  ],
+  "paid_calls": 0,
+  "arms": {
+    "sam": {
+      "groups": {
+        "uncertain": {
+          "frames": 11,
+          "top_box_offered": 11,
+          "top_passes_gate": 5
+        },
+        "recognizable": {
+          "frames": 7,
+          "top1_by_threshold": [
+            3,
+            3,
+            3
+          ],
+          "top3_at_half": 3,
+          "all_at_half": 3,
+          "top1_gate_and_half": 3,
+          "mean_top1_iou": 0.4714
+        },
+        "all_identifiable": {
+          "frames": 8,
+          "top1_by_threshold": [
+            3,
+            3,
+            3
+          ],
+          "top3_at_half": 3,
+          "all_at_half": 4,
+          "top1_gate_and_half": 3,
+          "mean_top1_iou": 0.4125
+        },
+        "partial_identifiable": {
+          "frames": 1,
+          "top1_by_threshold": [
+            0,
+            0,
+            0
+          ],
+          "top3_at_half": 0,
+          "all_at_half": 1,
+          "top1_gate_and_half": 0,
+          "mean_top1_iou": 0.0
+        },
+        "no_apparent_face": {
+          "frames": 2,
+          "top_box_offered": 2,
+          "top_passes_gate": 2
+        }
+      },
+      "archived": {
+        "registered": {
+          "rating": "recognizable",
+          "top_iou": 0.1185,
+          "best": 0.1185
+        },
+        "before_approach": {
+          "rating": "recognizable",
+          "top_iou": 0.9546,
+          "best": 0.9546
+        },
+        "after_approach": {
+          "rating": "recognizable",
+          "top_iou": 0.9363,
+          "best": 0.9363
+        }
+      }
+    },
+    "dino": {
+      "groups": {
+        "uncertain": {
+          "frames": 11,
+          "top_box_offered": 6,
+          "top_passes_gate": 0
+        },
+        "recognizable": {
+          "frames": 7,
+          "top1_by_threshold": [
+            7,
+            7,
+            7
+          ],
+          "top3_at_half": 7,
+          "all_at_half": 7,
+          "top1_gate_and_half": 7,
+          "mean_top1_iou": 0.9466
+        },
+        "all_identifiable": {
+          "frames": 8,
+          "top1_by_threshold": [
+            7,
+            7,
+            7
+          ],
+          "top3_at_half": 7,
+          "all_at_half": 7,
+          "top1_gate_and_half": 7,
+          "mean_top1_iou": 0.8282
+        },
+        "partial_identifiable": {
+          "frames": 1,
+          "top1_by_threshold": [
+            0,
+            0,
+            0
+          ],
+          "top3_at_half": 0,
+          "all_at_half": 0,
+          "top1_gate_and_half": 0,
+          "mean_top1_iou": 0.0
+        },
+        "no_apparent_face": {
+          "frames": 2,
+          "top_box_offered": 2,
+          "top_passes_gate": 0
+        }
+      },
+      "archived": {
+        "registered": {
+          "rating": "recognizable",
+          "top_iou": 0.945,
+          "best": 0.945
+        },
+        "before_approach": {
+          "rating": "recognizable",
+          "top_iou": 0.986,
+          "best": 0.986
+        },
+        "after_approach": {
+          "rating": "recognizable",
+          "top_iou": 0.9758,
+          "best": 0.9758
+        }
+      }
+    },
+    "refined": {
+      "groups": {
+        "uncertain": {
+          "frames": 11,
+          "top_box_offered": 6,
+          "top_passes_gate": 0
+        },
+        "recognizable": {
+          "frames": 7,
+          "top1_by_threshold": [
+            7,
+            7,
+            7
+          ],
+          "top3_at_half": 7,
+          "all_at_half": 7,
+          "top1_gate_and_half": 7,
+          "mean_top1_iou": 0.9466
+        },
+        "all_identifiable": {
+          "frames": 8,
+          "top1_by_threshold": [
+            7,
+            7,
+            7
+          ],
+          "top3_at_half": 7,
+          "all_at_half": 7,
+          "top1_gate_and_half": 7,
+          "mean_top1_iou": 0.8282
+        },
+        "partial_identifiable": {
+          "frames": 1,
+          "top1_by_threshold": [
+            0,
+            0,
+            0
+          ],
+          "top3_at_half": 0,
+          "all_at_half": 0,
+          "top1_gate_and_half": 0,
+          "mean_top1_iou": 0.0
+        },
+        "no_apparent_face": {
+          "frames": 2,
+          "top_box_offered": 2,
+          "top_passes_gate": 0
+        }
+      },
+      "archived": {
+        "registered": {
+          "rating": "recognizable",
+          "top_iou": 0.945,
+          "best": 0.945
+        },
+        "before_approach": {
+          "rating": "recognizable",
+          "top_iou": 0.986,
+          "best": 0.986
+        },
+        "after_approach": {
+          "rating": "recognizable",
+          "top_iou": 0.9758,
+          "best": 0.9758
+        }
+      }
+    }
+  }
+}
