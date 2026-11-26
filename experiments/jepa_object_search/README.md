@@ -92,3 +92,5 @@ HSSD 的代理目标是新增可见性。开发集 48 个起点中只有 2 个�
 [复看时的关键帧、几何就绪与实例核验](identity_stage4_geometry/README.md)
 
 [静止核验、可信参考与上报回执](identity_stage5_confirmation/README.md)
+
+[从发现实例到靠近、复看与上报](identity_stage6_approach/README.md)

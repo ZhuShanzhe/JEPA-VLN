@@ -1,0 +1,32 @@
+{
+  "dataset": "HSSD, 12 previously collected houses, clocks and wall art",
+  "unit": "One source registration and two distinct query views, presented consecutively; underlying target geometry unavailable to the verifier.",
+  "development": "Designed using synthetic examples and the HM3D clock development episode. The HM3D example is not an independent test.",
+  "validation": "Rules were frozen before applying them to the HSSD pairs. Input views are from the existing held-out house collection. These are component-level decisions, not autonomous navigation outcomes.",
+  "input": "Use stored class detections, selecting the source box nearest the image centre. Use the first two distinct query views of each group in the frozen manifest order. Each source is treated as an already enrolled reference.",
+  "grading": "After the two predictions, exclude a source if the centre of its detector box does not carry the intended simulator instance ID. Check any accepted query against the instance ID at its predicted box centre. An empty query detection remains a withheld trial.",
+  "sha256": {
+    "visual_witness.py": "b4549443ee32893722b6a79323f2477d54f0f1482e4123381b1f3365f6036b87",
+    "frozen_pairs": "49ab81ef569c707f01b30d715bc6fe46e7b8798679ba42176c409724751169b3",
+    "cached_class_detections": "0b78bfcd532e808b1edb34d5c8b3d96eb03b76afe57d01fa5b622339c497dc4f"
+  },
+  "same_instance": {
+    "candidate_groups": 47,
+    "excluded_insufficient_query_views": 2,
+    "excluded_source_centre_wrong": 3,
+    "scored": 42,
+    "including_empty_query_detection": 2,
+    "accepted_correct": 2,
+    "accepted_wrong": 0,
+    "withheld": 40
+  },
+  "target_absent_same_category_present": {
+    "candidate_groups": 47,
+    "excluded_insufficient_query_views": 0,
+    "excluded_source_centre_wrong": 5,
+    "scored": 42,
+    "including_empty_query_detection": 4,
+    "accepted_wrong": 0,
+    "withheld": 42
+  }
+}

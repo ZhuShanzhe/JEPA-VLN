@@ -1,0 +1,68 @@
+{
+  "scope": "Fixed historical approach, real rerendered RGB, both map instances, real DINO, trusted-reference selection, report gate, competing instance checks and action receipt. Frozen original mapper abstention supplied; its map point cloud is unavailable. Historical active instance and approach motion were supplied. No autonomous search.",
+  "original_result_sha256": "139a8f4ab28de82f7cfc4269a08a692752ef8c849449fe19bfde912897dc000f",
+  "paid_requests": 0,
+  "source_replay_mean_pixel_difference_vs_prior_pose": 0.0,
+  "sensor_size": [
+    1280,
+    1280
+  ],
+  "max_prefix_position_error_m": 0.0,
+  "rows": [
+    {
+      "step": 137,
+      "reported": false,
+      "reason": "identity_fewer_than_two_shared_timestamped_anchors",
+      "estimated_object_distance_m": 0.597,
+      "local_detector_count": 2,
+      "visual_descriptor_evidence": [
+        null,
+        null
+      ],
+      "rivals": 1,
+      "trusted_source_count": 1
+    },
+    {
+      "step": 138,
+      "reported": false,
+      "reason": "identity_fewer_than_two_shared_timestamped_anchors",
+      "estimated_object_distance_m": 0.597,
+      "local_detector_count": 1,
+      "visual_descriptor_evidence": [
+        [
+          14.0,
+          0.31197919910890604,
+          0.0,
+          0.0,
+          0.8573327660560608
+        ]
+      ],
+      "rivals": 1,
+      "trusted_source_count": 1
+    },
+    {
+      "step": 139,
+      "reported": true,
+      "reason": "multiview_visual_witness",
+      "estimated_object_distance_m": 0.597,
+      "local_detector_count": 1,
+      "visual_descriptor_evidence": [
+        [
+          12.0,
+          0.2773044852743851,
+          3.0,
+          240.65069580078125,
+          0.851729154586792
+        ]
+      ],
+      "rivals": 1,
+      "trusted_source_count": 1
+    }
+  ],
+  "credited_distinct": 1,
+  "false_reports": 0,
+  "repeats": 0,
+  "quota": 2,
+  "acknowledged": true,
+  "report_step": 139
+}

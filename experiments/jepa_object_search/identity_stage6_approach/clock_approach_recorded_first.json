@@ -1,0 +1,43 @@
+{
+  "scope": "Real Habitat actions from a fixed historical prefix; the new approach controller, real RGB detections, historical instance positions, reference, current-view identity and official scorer. Controlled map uses the simulated navigation mesh and calibrated relative odometry; the native depth-pair branch is set unavailable on this counterfactual path. No supplied future observations or official goal positions, no full search continuation.",
+  "start_step": 132,
+  "original_prefix_error_m": 0.0,
+  "paid_requests": 0,
+  "action_count": 30,
+  "action_histogram": {
+    "TURN_LEFT": 10,
+    "MOVE_FORWARD": 10,
+    "TURN_RIGHT": 10
+  },
+  "stop_reason": "branch_yielded_to_exploration",
+  "estimated_start_distance_m": 1.15,
+  "estimated_min_distance_m": 0.258,
+  "estimated_end_distance_m": 0.338,
+  "gate_verdict_histogram": {
+    "need_metric_near_view": 14,
+    "identity_fewer_than_two_shared_timestamped_anchors": 17
+  },
+  "frames_with_local_box": 17,
+  "frames_with_aligned_region": 5,
+  "frames_with_strong_object": 0,
+  "frames_with_strong_object_and_surroundings": 0,
+  "estimated_source_camera_eligible": false,
+  "estimated_source_object_distance_m": 4.041,
+  "inspection_route_source": "recorded_first",
+  "ranker_calls": [
+    {
+      "step": 132,
+      "available": true,
+      "source": "original_ranker_output_saved_before_first_action",
+      "options": 7,
+      "plan_length": 7
+    }
+  ],
+  "report_step": null,
+  "pin_acknowledged": false,
+  "credited_distinct": 0,
+  "quota": 2,
+  "incorrect": 0,
+  "repeated": 0,
+  "first_strong_step": null
+}
