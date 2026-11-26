@@ -1,0 +1,203 @@
+{
+  "eligible_trials_sha256": "a0dab9551ad17dd4474d4c1fa46795438cd8d95efccf43ad507e8f874fad7551",
+  "excluded": {
+    "missing_unique_pair": 8
+  },
+  "frozen_inputs": {
+    "frames.jsonl": "bb94f582ff6605286cd3bfdbdf2fd37d20bc07fb45d30e391b528a4148578351",
+    "paired_lookalikes.py": "7ac92099bd2e2037aeda054df2a805f9d326df121c54b0e8b19fadb534aed05b",
+    "predictions.jsonl": "57e8b7ec301b11ce9dc3fcd789a403c0599b2d1eec9f2d86f8cd09bedcfd854e"
+  },
+  "groups": {
+    "diagnostic_gt": {
+      "all": {
+        "houses": 8,
+        "joint": {
+          "original_box/original_box": 19,
+          "original_box/withheld": 35,
+          "withheld/original_box": 2,
+          "withheld/withheld": 26
+        },
+        "layouts": 10,
+        "original": {
+          "original_box": 54,
+          "withheld": 28
+        },
+        "trials": 82,
+        "twin": {
+          "original_box": 21,
+          "withheld": 61
+        }
+      },
+      "changed_camera": {
+        "houses": 8,
+        "joint": {
+          "original_box/original_box": 11,
+          "original_box/withheld": 15,
+          "withheld/original_box": 2,
+          "withheld/withheld": 26
+        },
+        "layouts": 10,
+        "original": {
+          "original_box": 26,
+          "withheld": 28
+        },
+        "trials": 54,
+        "twin": {
+          "original_box": 13,
+          "withheld": 41
+        }
+      },
+      "clock": {
+        "houses": 5,
+        "joint": {
+          "original_box/original_box": 11,
+          "original_box/withheld": 19,
+          "withheld/original_box": 2,
+          "withheld/withheld": 13
+        },
+        "layouts": 5,
+        "original": {
+          "original_box": 30,
+          "withheld": 15
+        },
+        "trials": 45,
+        "twin": {
+          "original_box": 13,
+          "withheld": 32
+        }
+      },
+      "same_camera": {
+        "houses": 8,
+        "joint": {
+          "original_box/original_box": 8,
+          "original_box/withheld": 20
+        },
+        "layouts": 10,
+        "original": {
+          "original_box": 28
+        },
+        "trials": 28,
+        "twin": {
+          "original_box": 8,
+          "withheld": 20
+        }
+      },
+      "wall_art": {
+        "houses": 5,
+        "joint": {
+          "original_box/original_box": 8,
+          "original_box/withheld": 16,
+          "withheld/withheld": 13
+        },
+        "layouts": 5,
+        "original": {
+          "original_box": 24,
+          "withheld": 13
+        },
+        "trials": 37,
+        "twin": {
+          "original_box": 8,
+          "withheld": 29
+        }
+      }
+    },
+    "measured": {
+      "all": {
+        "houses": 8,
+        "joint": {
+          "original_box/original_box": 17,
+          "original_box/withheld": 21,
+          "withheld/original_box": 2,
+          "withheld/withheld": 42
+        },
+        "layouts": 10,
+        "original": {
+          "original_box": 38,
+          "withheld": 44
+        },
+        "trials": 82,
+        "twin": {
+          "original_box": 19,
+          "withheld": 63
+        }
+      },
+      "changed_camera": {
+        "houses": 8,
+        "joint": {
+          "original_box/original_box": 11,
+          "original_box/withheld": 9,
+          "withheld/original_box": 1,
+          "withheld/withheld": 33
+        },
+        "layouts": 10,
+        "original": {
+          "original_box": 20,
+          "withheld": 34
+        },
+        "trials": 54,
+        "twin": {
+          "original_box": 12,
+          "withheld": 42
+        }
+      },
+      "clock": {
+        "houses": 5,
+        "joint": {
+          "original_box/original_box": 10,
+          "original_box/withheld": 9,
+          "withheld/original_box": 2,
+          "withheld/withheld": 24
+        },
+        "layouts": 5,
+        "original": {
+          "original_box": 19,
+          "withheld": 26
+        },
+        "trials": 45,
+        "twin": {
+          "original_box": 12,
+          "withheld": 33
+        }
+      },
+      "same_camera": {
+        "houses": 8,
+        "joint": {
+          "original_box/original_box": 6,
+          "original_box/withheld": 12,
+          "withheld/original_box": 1,
+          "withheld/withheld": 9
+        },
+        "layouts": 10,
+        "original": {
+          "original_box": 18,
+          "withheld": 10
+        },
+        "trials": 28,
+        "twin": {
+          "original_box": 7,
+          "withheld": 21
+        }
+      },
+      "wall_art": {
+        "houses": 5,
+        "joint": {
+          "original_box/original_box": 7,
+          "original_box/withheld": 12,
+          "withheld/withheld": 18
+        },
+        "layouts": 5,
+        "original": {
+          "original_box": 19,
+          "withheld": 18
+        },
+        "trials": 37,
+        "twin": {
+          "original_box": 7,
+          "withheld": 30
+        }
+      }
+    }
+  },
+  "paid_calls": 0
+}

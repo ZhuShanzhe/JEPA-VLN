@@ -1,0 +1,247 @@
+{
+  "frozen_sources": {
+    "appearance.py": "a69af2fb084dce22bb442a9c888815e8be3012986ea6d6ec4fa20bfe15c0277b",
+    "frames.jsonl": "c8e193238d820b4d4153cc0c54c1d52052894c06f1bed183a38fdb9ae444e227",
+    "report_evidence.py": "af2129e27886b88584d8ccf0862451e2ee8dcb3da839ed72cbb408416c10f997"
+  },
+  "gates": {
+    "ambiguous_live_boxes": 5,
+    "no_current_instance_match": 132,
+    "reference_spans_opposite_borders": 5,
+    "registered_local_features_and_current_box": 22,
+    "registered_patch_and_current_box": 28
+  },
+  "gt_roles": "Independent Habitat instance labels for case selection and scoring. Oracle source box and complete eligible GT current menu as input ablation. No instance IDs or truth geometry given to either matcher.",
+  "houses": 16,
+  "instances": 124,
+  "no_match": {
+    "localization": {
+      "localized_elsewhere": 2,
+      "not_localized": 130
+    },
+    "template": {
+      "different_appearance": 119,
+      "localized_appearance": 2,
+      "multiple_plausible_locations": 11
+    },
+    "true_crop_sift_first_failed_check": {
+      "few_geometrically_consistent": 30,
+      "few_keypoints": 10,
+      "few_mutual_correspondences": 83,
+      "few_unique_coordinates": 1,
+      "matches_spatially_concentrated": 1,
+      "small_crop": 6,
+      "target_box_ineligible": 1
+    }
+  },
+  "outcome": {
+    "correct": 49,
+    "withheld": 142,
+    "wrong": 1
+  },
+  "paid_calls": 0,
+  "paired_self_to_revisit": {
+    "correct->correct": 45,
+    "correct->withheld": 110,
+    "correct->wrong": 1,
+    "withheld->correct": 4,
+    "withheld->withheld": 32
+  },
+  "panel_sha256": "8ccb5e4c0d75275745a6af3b1a69e1a3c396d21c4477fe769c95311032d20ec3",
+  "registered_image_control": {
+    "correct": 156,
+    "withheld": 36
+  },
+  "registered_image_withheld_gates": {
+    "ambiguous_live_boxes": 30,
+    "no_current_instance_match": 1,
+    "reference_spans_opposite_borders": 5
+  },
+  "registration_control": "Feed source image back as live to the exact same cross-view verifier with the complete source box menu. Same row weighting as cross-view. This is a benign same-capture control, not the separate production same-capture fast path.",
+  "strata": {
+    "cat": {
+      "bookcase": {
+        "houses": 3,
+        "n": 24,
+        "outcomes": {
+          "correct": 7,
+          "withheld": 17
+        }
+      },
+      "cabinet": {
+        "houses": 1,
+        "n": 4,
+        "outcomes": {
+          "withheld": 4
+        }
+      },
+      "ceiling_lamp": {
+        "houses": 1,
+        "n": 1,
+        "outcomes": {
+          "withheld": 1
+        }
+      },
+      "chair": {
+        "houses": 13,
+        "n": 61,
+        "outcomes": {
+          "correct": 14,
+          "withheld": 47
+        }
+      },
+      "clock": {
+        "houses": 2,
+        "n": 3,
+        "outcomes": {
+          "correct": 3
+        }
+      },
+      "mirror": {
+        "houses": 5,
+        "n": 12,
+        "outcomes": {
+          "correct": 4,
+          "withheld": 8
+        }
+      },
+      "picture_frame": {
+        "houses": 2,
+        "n": 7,
+        "outcomes": {
+          "correct": 4,
+          "withheld": 3
+        }
+      },
+      "sofa": {
+        "houses": 2,
+        "n": 10,
+        "outcomes": {
+          "withheld": 10
+        }
+      },
+      "stool": {
+        "houses": 6,
+        "n": 20,
+        "outcomes": {
+          "correct": 4,
+          "withheld": 16
+        }
+      },
+      "vase": {
+        "houses": 2,
+        "n": 6,
+        "outcomes": {
+          "withheld": 6
+        }
+      },
+      "wall_art": {
+        "houses": 12,
+        "n": 44,
+        "outcomes": {
+          "correct": 13,
+          "withheld": 30,
+          "wrong": 1
+        }
+      }
+    },
+    "object_view_deg": {
+      "0to15": {
+        "houses": 16,
+        "n": 169,
+        "outcomes": {
+          "correct": 49,
+          "withheld": 120
+        }
+      },
+      "15to45": {
+        "houses": 8,
+        "n": 21,
+        "outcomes": {
+          "withheld": 20,
+          "wrong": 1
+        }
+      },
+      "90plus": {
+        "houses": 1,
+        "n": 2,
+        "outcomes": {
+          "withheld": 2
+        }
+      }
+    },
+    "scale": {
+      "1p5to2": {
+        "houses": 6,
+        "n": 13,
+        "outcomes": {
+          "withheld": 13
+        }
+      },
+      "2plus": {
+        "houses": 6,
+        "n": 7,
+        "outcomes": {
+          "withheld": 7
+        }
+      },
+      "under1p5": {
+        "houses": 16,
+        "n": 172,
+        "outcomes": {
+          "correct": 49,
+          "withheld": 122,
+          "wrong": 1
+        }
+      }
+    },
+    "sequence": {
+      "different_sequence": {
+        "houses": 4,
+        "n": 12,
+        "outcomes": {
+          "withheld": 12
+        }
+      },
+      "same_sequence": {
+        "houses": 16,
+        "n": 180,
+        "outcomes": {
+          "correct": 49,
+          "withheld": 130,
+          "wrong": 1
+        }
+      }
+    },
+    "small_visible": {
+      "10pct_plus": {
+        "houses": 10,
+        "n": 21,
+        "outcomes": {
+          "correct": 8,
+          "withheld": 13
+        }
+      },
+      "2to10pct": {
+        "houses": 14,
+        "n": 53,
+        "outcomes": {
+          "correct": 11,
+          "withheld": 41,
+          "wrong": 1
+        }
+      },
+      "under2pct": {
+        "houses": 16,
+        "n": 118,
+        "outcomes": {
+          "correct": 30,
+          "withheld": 88
+        }
+      }
+    }
+  },
+  "unique_frames": 182,
+  "units": 192,
+  "view_definition": "Object-centered 3D camera-ray angular difference. Visible size uses the smaller of the two semantic mask pixel fractions. Scale is square root of max/min GT visible box area."
+}

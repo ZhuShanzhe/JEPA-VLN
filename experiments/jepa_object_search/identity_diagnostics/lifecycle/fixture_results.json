@@ -1,0 +1,28 @@
+{
+  "current_adapter": {
+    "first_issued": true,
+    "marked_before_ack": false,
+    "marked_after_substituted_action": false,
+    "retried": true,
+    "marked_after_ack": true,
+    "claims_after_duplicate_ack": 1,
+    "duplicate_issued": false,
+    "separate_registered_sibling_available": true
+  },
+  "isolated_production_contracts_passed": [
+    "test_canonical_memory_changes_after_observed_report_only",
+    "test_replaced_action_does_not_poison_later_attempt",
+    "test_reported_alias_cannot_spend_another_report",
+    "test_neighbor_same_appearance_remains_reportable",
+    "test_disjoint_boxes_in_same_view_protect_new_instance",
+    "test_identical_nearby_instances_require_unambiguous_live_regions",
+    "test_unrelated_observed_report_creates_no_claim",
+    "test_skipped_step_cannot_confirm_an_old_intent",
+    "test_fresh_detection_executes_only_on_ack",
+    "test_uninformative_detection_blocks_both_report_routes",
+    "test_multiple_boxes_one_location_and_ambiguity"
+  ],
+  "images": "generated synthetic RGB",
+  "paid_calls": 0,
+  "scoring": "no official credits inferred from synthetic acknowledgments"
+}

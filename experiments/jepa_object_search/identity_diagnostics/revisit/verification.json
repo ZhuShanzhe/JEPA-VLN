@@ -1,0 +1,32 @@
+{
+  "module_sha256": {
+    "jepa_reid_v20/model/replay_depth.py": "caedfc36a0face00a16c019212e9ba6f7424eb6e9e57c2aa3dfd310908168d2a",
+    "jepa_reid_v21/association/evaluate.py": "85de820c5db907ba281cf79315050a47651932d1ca2cad038b3760fcca8a0434",
+    "jepa_reid_v21/association/geometry_links.py": "6b83270f1129263600e12457f8c7e03c6ee3d2bbec2340666819a718a5ed87b4",
+    "jepa_reid_v21/data/build_frames.py": "c22cb47b00b47bbb08793d14ca4a3004207feb7da1308b362354c44bf6d38c76",
+    "jepa_reid_v21/detector/proposals.py": "537274228564a53ded9d05142960238577d4efccaddf89200b8025b1ed340e84",
+    "jepa_reid_v21/detector/protocol.json": "6715d5707bd7ca5e3788b9325999aa4893c63901be82e93d299d16caf0384c46",
+    "jepa_reid_v23/report/report_evidence.py": "af2129e27886b88584d8ccf0862451e2ee8dcb3da839ed72cbb408416c10f997",
+    "jepa_report_v19/appearance.py": "a69af2fb084dce22bb442a9c888815e8be3012986ea6d6ec4fa20bfe15c0277b"
+  },
+  "paid_calls": 0,
+  "paired_single_reference_dino_closer_vs_side": {
+    "opposite_side": {
+      "both_correct": 5,
+      "closer_only": 9,
+      "n": 26,
+      "neither": 12
+    },
+    "same_side": {
+      "both_correct": 4,
+      "closer_only": 11,
+      "n": 27,
+      "neither": 12
+    }
+  },
+  "physical_instances": 36,
+  "verified_box_annotations": 260,
+  "verified_depth_and_instance_maps": 168,
+  "verified_heldout_project_houses": 13,
+  "verified_images": 168
+}

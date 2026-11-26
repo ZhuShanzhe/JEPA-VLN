@@ -1,0 +1,59 @@
+{
+  "complete_development_episodes": {
+    "clock": {
+      "proposed": 6,
+      "distinct_registered": 1,
+      "physical_confirm_actions": 17,
+      "confirm_action_mismatches": 0,
+      "confirm_termination": {
+        "no_current_instance_match": 3,
+        "pose_or_target_changed": 1
+      },
+      "actual_report_actions": 0,
+      "credited_new": 0,
+      "pose_jepa_scoring_calls": 0,
+      "first_rechecked_source_target": {
+        "correct_source_click": true,
+        "same_simulator_object_visible_on_arrival": true,
+        "registered_object_in_range_on_arrival": true,
+        "reason": "no_current_instance_match"
+      }
+    },
+    "painting": {
+      "proposed": 5,
+      "distinct_registered": 0,
+      "physical_confirm_actions": 0,
+      "confirm_action_mismatches": 0,
+      "confirm_termination": {},
+      "actual_report_actions": 0,
+      "credited_new": 0,
+      "pose_jepa_scoring_calls": 0,
+      "source_frame_audit": {
+        "distinct_source_frames": 2,
+        "candidates_with_target_in_source": 0,
+        "rejected": 2,
+        "lacking_valid_review": 3
+      }
+    }
+  },
+  "scripted_simulation_controls": {
+    "positive": {
+      "correct_registered_source": true,
+      "report_dispatched": true,
+      "official_new": 1,
+      "source_matches_credit": true
+    },
+    "missing_detection": {
+      "correct_registered_source": true,
+      "report_dispatched": false,
+      "official_new": 0,
+      "source_matches_credit": null
+    },
+    "original_false_candidate": {
+      "correct_registered_source": false,
+      "report_dispatched": true,
+      "official_new": 1,
+      "source_matches_credit": false
+    }
+  }
+}

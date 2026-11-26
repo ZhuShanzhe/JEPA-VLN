@@ -1,0 +1,720 @@
+{
+  "groups": {
+    "controlled": {
+      "diagnostic_gt": {
+        "old_plus_rival": {
+          "all": {
+            "appearance": {
+              "old_correct": 16,
+              "selected_rival": 3,
+              "withheld": 38
+            },
+            "categories": {
+              "clock": 30,
+              "wall_art": 27
+            },
+            "exposed_appearance": {
+              "old_correct": 16,
+              "selected_rival": 3,
+              "withheld": 38
+            },
+            "geometry_distinct_proof": 46,
+            "geometry_wrong_same_link": 0,
+            "houses": 8,
+            "reasons": {
+              "ambiguous_live_boxes": 2,
+              "no_current_instance_match": 36,
+              "registered_local_features_and_current_box": 7,
+              "registered_patch_and_current_box": 12
+            },
+            "selected_rival_with_geometry_veto": 1,
+            "source_and_rival_box": 57,
+            "trials": 57
+          },
+          "close_same_asset": {
+            "appearance": {
+              "old_correct": 16,
+              "selected_rival": 3,
+              "withheld": 38
+            },
+            "categories": {
+              "clock": 30,
+              "wall_art": 27
+            },
+            "exposed_appearance": {
+              "old_correct": 16,
+              "selected_rival": 3,
+              "withheld": 38
+            },
+            "geometry_distinct_proof": 46,
+            "geometry_wrong_same_link": 0,
+            "houses": 8,
+            "reasons": {
+              "ambiguous_live_boxes": 2,
+              "no_current_instance_match": 36,
+              "registered_local_features_and_current_box": 7,
+              "registered_patch_and_current_box": 12
+            },
+            "selected_rival_with_geometry_veto": 1,
+            "source_and_rival_box": 57,
+            "trials": 57
+          },
+          "same_local_sequence": {
+            "appearance": {
+              "old_correct": 16,
+              "selected_rival": 3,
+              "withheld": 38
+            },
+            "categories": {
+              "clock": 30,
+              "wall_art": 27
+            },
+            "exposed_appearance": {
+              "old_correct": 16,
+              "selected_rival": 3,
+              "withheld": 38
+            },
+            "geometry_distinct_proof": 46,
+            "geometry_wrong_same_link": 0,
+            "houses": 8,
+            "reasons": {
+              "ambiguous_live_boxes": 2,
+              "no_current_instance_match": 36,
+              "registered_local_features_and_current_box": 7,
+              "registered_patch_and_current_box": 12
+            },
+            "selected_rival_with_geometry_veto": 1,
+            "source_and_rival_box": 57,
+            "trials": 57
+          }
+        },
+        "rival_only_annotated": {
+          "all": {
+            "appearance": {
+              "selected_rival": 1
+            },
+            "categories": {
+              "wall_art": 1
+            },
+            "exposed_appearance": {
+              "selected_rival": 1
+            },
+            "geometry_distinct_proof": 0,
+            "geometry_wrong_same_link": 0,
+            "houses": 1,
+            "reasons": {
+              "registered_patch_and_current_box": 1
+            },
+            "selected_rival_with_geometry_veto": 0,
+            "source_and_rival_box": 1,
+            "trials": 1
+          },
+          "close_same_asset": {
+            "appearance": {
+              "selected_rival": 1
+            },
+            "categories": {
+              "wall_art": 1
+            },
+            "exposed_appearance": {
+              "selected_rival": 1
+            },
+            "geometry_distinct_proof": 0,
+            "geometry_wrong_same_link": 0,
+            "houses": 1,
+            "reasons": {
+              "registered_patch_and_current_box": 1
+            },
+            "selected_rival_with_geometry_veto": 0,
+            "source_and_rival_box": 1,
+            "trials": 1
+          },
+          "same_local_sequence": {
+            "appearance": {
+              "selected_rival": 1
+            },
+            "categories": {
+              "wall_art": 1
+            },
+            "exposed_appearance": {
+              "selected_rival": 1
+            },
+            "geometry_distinct_proof": 0,
+            "geometry_wrong_same_link": 0,
+            "houses": 1,
+            "reasons": {
+              "registered_patch_and_current_box": 1
+            },
+            "selected_rival_with_geometry_veto": 0,
+            "source_and_rival_box": 1,
+            "trials": 1
+          }
+        }
+      },
+      "measured": {
+        "old_plus_rival": {
+          "all": {
+            "appearance": {
+              "old_correct": 12,
+              "selected_rival": 3,
+              "withheld": 42
+            },
+            "categories": {
+              "clock": 30,
+              "wall_art": 27
+            },
+            "exposed_appearance": {
+              "old_correct": 10,
+              "selected_rival": 3,
+              "withheld": 20
+            },
+            "geometry_distinct_proof": 22,
+            "geometry_wrong_same_link": 0,
+            "houses": 8,
+            "reasons": {
+              "ambiguous_live_boxes": 2,
+              "no_current_instance_match": 19,
+              "no_local_target_box": 1,
+              "registered_local_features_and_current_box": 6,
+              "registered_patch_and_current_box": 9,
+              "source_missing": 20
+            },
+            "selected_rival_with_geometry_veto": 1,
+            "source_and_rival_box": 33,
+            "trials": 57
+          },
+          "close_same_asset": {
+            "appearance": {
+              "old_correct": 12,
+              "selected_rival": 3,
+              "withheld": 42
+            },
+            "categories": {
+              "clock": 30,
+              "wall_art": 27
+            },
+            "exposed_appearance": {
+              "old_correct": 10,
+              "selected_rival": 3,
+              "withheld": 20
+            },
+            "geometry_distinct_proof": 22,
+            "geometry_wrong_same_link": 0,
+            "houses": 8,
+            "reasons": {
+              "ambiguous_live_boxes": 2,
+              "no_current_instance_match": 19,
+              "no_local_target_box": 1,
+              "registered_local_features_and_current_box": 6,
+              "registered_patch_and_current_box": 9,
+              "source_missing": 20
+            },
+            "selected_rival_with_geometry_veto": 1,
+            "source_and_rival_box": 33,
+            "trials": 57
+          },
+          "same_local_sequence": {
+            "appearance": {
+              "old_correct": 12,
+              "selected_rival": 3,
+              "withheld": 42
+            },
+            "categories": {
+              "clock": 30,
+              "wall_art": 27
+            },
+            "exposed_appearance": {
+              "old_correct": 10,
+              "selected_rival": 3,
+              "withheld": 20
+            },
+            "geometry_distinct_proof": 22,
+            "geometry_wrong_same_link": 0,
+            "houses": 8,
+            "reasons": {
+              "ambiguous_live_boxes": 2,
+              "no_current_instance_match": 19,
+              "no_local_target_box": 1,
+              "registered_local_features_and_current_box": 6,
+              "registered_patch_and_current_box": 9,
+              "source_missing": 20
+            },
+            "selected_rival_with_geometry_veto": 1,
+            "source_and_rival_box": 33,
+            "trials": 57
+          }
+        },
+        "rival_only_annotated": {
+          "all": {
+            "appearance": {
+              "unverified_box": 1
+            },
+            "categories": {
+              "wall_art": 1
+            },
+            "exposed_appearance": {},
+            "geometry_distinct_proof": 0,
+            "geometry_wrong_same_link": 0,
+            "houses": 1,
+            "reasons": {
+              "registered_patch_and_current_box": 1
+            },
+            "selected_rival_with_geometry_veto": 0,
+            "source_and_rival_box": 0,
+            "trials": 1
+          },
+          "close_same_asset": {
+            "appearance": {
+              "unverified_box": 1
+            },
+            "categories": {
+              "wall_art": 1
+            },
+            "exposed_appearance": {},
+            "geometry_distinct_proof": 0,
+            "geometry_wrong_same_link": 0,
+            "houses": 1,
+            "reasons": {
+              "registered_patch_and_current_box": 1
+            },
+            "selected_rival_with_geometry_veto": 0,
+            "source_and_rival_box": 0,
+            "trials": 1
+          },
+          "same_local_sequence": {
+            "appearance": {
+              "unverified_box": 1
+            },
+            "categories": {
+              "wall_art": 1
+            },
+            "exposed_appearance": {},
+            "geometry_distinct_proof": 0,
+            "geometry_wrong_same_link": 0,
+            "houses": 1,
+            "reasons": {
+              "registered_patch_and_current_box": 1
+            },
+            "selected_rival_with_geometry_veto": 0,
+            "source_and_rival_box": 0,
+            "trials": 1
+          }
+        }
+      }
+    },
+    "natural": {
+      "diagnostic_gt": {
+        "old_plus_rival": {
+          "all": {
+            "appearance": {
+              "old_correct": 43,
+              "other_wrong_instance": 1,
+              "unverified_box": 1,
+              "withheld": 167
+            },
+            "categories": {
+              "bookcase": 21,
+              "cabinet": 12,
+              "chair": 70,
+              "mirror": 12,
+              "picture_frame": 9,
+              "sofa": 9,
+              "stool": 27,
+              "vase": 6,
+              "wall_art": 46
+            },
+            "exposed_appearance": {
+              "old_correct": 43,
+              "other_wrong_instance": 1,
+              "unverified_box": 1,
+              "withheld": 167
+            },
+            "geometry_distinct_proof": 65,
+            "geometry_wrong_same_link": 0,
+            "houses": 16,
+            "reasons": {
+              "ambiguous_live_boxes": 4,
+              "no_current_instance_match": 158,
+              "reference_spans_opposite_borders": 5,
+              "registered_local_features_and_current_box": 19,
+              "registered_patch_and_current_box": 26
+            },
+            "selected_rival_with_geometry_veto": 0,
+            "source_and_rival_box": 212,
+            "trials": 212
+          },
+          "close_same_asset": {
+            "appearance": {
+              "old_correct": 22,
+              "unverified_box": 1,
+              "withheld": 102
+            },
+            "categories": {
+              "bookcase": 21,
+              "cabinet": 5,
+              "chair": 51,
+              "sofa": 7,
+              "stool": 24,
+              "wall_art": 17
+            },
+            "exposed_appearance": {
+              "old_correct": 22,
+              "unverified_box": 1,
+              "withheld": 102
+            },
+            "geometry_distinct_proof": 35,
+            "geometry_wrong_same_link": 0,
+            "houses": 16,
+            "reasons": {
+              "ambiguous_live_boxes": 2,
+              "no_current_instance_match": 95,
+              "reference_spans_opposite_borders": 5,
+              "registered_local_features_and_current_box": 12,
+              "registered_patch_and_current_box": 11
+            },
+            "selected_rival_with_geometry_veto": 0,
+            "source_and_rival_box": 125,
+            "trials": 125
+          },
+          "same_local_sequence": {
+            "appearance": {
+              "old_correct": 43,
+              "other_wrong_instance": 1,
+              "unverified_box": 1,
+              "withheld": 154
+            },
+            "categories": {
+              "bookcase": 21,
+              "cabinet": 12,
+              "chair": 63,
+              "mirror": 12,
+              "picture_frame": 9,
+              "sofa": 9,
+              "stool": 27,
+              "vase": 6,
+              "wall_art": 40
+            },
+            "exposed_appearance": {
+              "old_correct": 43,
+              "other_wrong_instance": 1,
+              "unverified_box": 1,
+              "withheld": 154
+            },
+            "geometry_distinct_proof": 63,
+            "geometry_wrong_same_link": 0,
+            "houses": 16,
+            "reasons": {
+              "ambiguous_live_boxes": 4,
+              "no_current_instance_match": 145,
+              "reference_spans_opposite_borders": 5,
+              "registered_local_features_and_current_box": 19,
+              "registered_patch_and_current_box": 26
+            },
+            "selected_rival_with_geometry_veto": 0,
+            "source_and_rival_box": 199,
+            "trials": 199
+          }
+        },
+        "rival_only_annotated": {
+          "all": {
+            "appearance": {
+              "other_wrong_instance": 1,
+              "withheld": 152
+            },
+            "categories": {
+              "bookcase": 16,
+              "cabinet": 2,
+              "chair": 48,
+              "mirror": 6,
+              "sofa": 1,
+              "stool": 3,
+              "vase": 2,
+              "wall_art": 75
+            },
+            "exposed_appearance": {
+              "other_wrong_instance": 1,
+              "withheld": 152
+            },
+            "geometry_distinct_proof": 0,
+            "geometry_wrong_same_link": 0,
+            "houses": 16,
+            "reasons": {
+              "ambiguous_live_boxes": 1,
+              "no_current_instance_match": 150,
+              "reference_spans_opposite_borders": 1,
+              "registered_patch_and_current_box": 1
+            },
+            "selected_rival_with_geometry_veto": 0,
+            "source_and_rival_box": 153,
+            "trials": 153
+          },
+          "close_same_asset": {
+            "appearance": {
+              "withheld": 40
+            },
+            "categories": {
+              "bookcase": 16,
+              "cabinet": 2,
+              "chair": 9,
+              "stool": 3,
+              "vase": 2,
+              "wall_art": 8
+            },
+            "exposed_appearance": {
+              "withheld": 40
+            },
+            "geometry_distinct_proof": 0,
+            "geometry_wrong_same_link": 0,
+            "houses": 12,
+            "reasons": {
+              "ambiguous_live_boxes": 1,
+              "no_current_instance_match": 39
+            },
+            "selected_rival_with_geometry_veto": 0,
+            "source_and_rival_box": 40,
+            "trials": 40
+          },
+          "same_local_sequence": {
+            "appearance": {
+              "withheld": 40
+            },
+            "categories": {
+              "bookcase": 16,
+              "cabinet": 2,
+              "chair": 13,
+              "sofa": 1,
+              "stool": 3,
+              "vase": 2,
+              "wall_art": 3
+            },
+            "exposed_appearance": {
+              "withheld": 40
+            },
+            "geometry_distinct_proof": 0,
+            "geometry_wrong_same_link": 0,
+            "houses": 15,
+            "reasons": {
+              "ambiguous_live_boxes": 1,
+              "no_current_instance_match": 39
+            },
+            "selected_rival_with_geometry_veto": 0,
+            "source_and_rival_box": 40,
+            "trials": 40
+          }
+        }
+      },
+      "measured": {
+        "old_plus_rival": {
+          "all": {
+            "appearance": {
+              "old_correct": 25,
+              "withheld": 187
+            },
+            "categories": {
+              "bookcase": 21,
+              "cabinet": 12,
+              "chair": 70,
+              "mirror": 12,
+              "picture_frame": 9,
+              "sofa": 9,
+              "stool": 27,
+              "vase": 6,
+              "wall_art": 46
+            },
+            "exposed_appearance": {
+              "old_correct": 19,
+              "withheld": 68
+            },
+            "geometry_distinct_proof": 32,
+            "geometry_wrong_same_link": 0,
+            "houses": 16,
+            "reasons": {
+              "ambiguous_live_boxes": 7,
+              "no_current_instance_match": 91,
+              "registered_local_features_and_current_box": 16,
+              "registered_patch_and_current_box": 9,
+              "source_missing": 88,
+              "source_not_storable": 1
+            },
+            "selected_rival_with_geometry_veto": 0,
+            "source_and_rival_box": 87,
+            "trials": 212
+          },
+          "close_same_asset": {
+            "appearance": {
+              "old_correct": 12,
+              "withheld": 113
+            },
+            "categories": {
+              "bookcase": 21,
+              "cabinet": 5,
+              "chair": 51,
+              "sofa": 7,
+              "stool": 24,
+              "wall_art": 17
+            },
+            "exposed_appearance": {
+              "old_correct": 8,
+              "withheld": 45
+            },
+            "geometry_distinct_proof": 19,
+            "geometry_wrong_same_link": 0,
+            "houses": 16,
+            "reasons": {
+              "ambiguous_live_boxes": 7,
+              "no_current_instance_match": 50,
+              "registered_local_features_and_current_box": 9,
+              "registered_patch_and_current_box": 3,
+              "source_missing": 55,
+              "source_not_storable": 1
+            },
+            "selected_rival_with_geometry_veto": 0,
+            "source_and_rival_box": 53,
+            "trials": 125
+          },
+          "same_local_sequence": {
+            "appearance": {
+              "old_correct": 25,
+              "withheld": 174
+            },
+            "categories": {
+              "bookcase": 21,
+              "cabinet": 12,
+              "chair": 63,
+              "mirror": 12,
+              "picture_frame": 9,
+              "sofa": 9,
+              "stool": 27,
+              "vase": 6,
+              "wall_art": 40
+            },
+            "exposed_appearance": {
+              "old_correct": 19,
+              "withheld": 62
+            },
+            "geometry_distinct_proof": 32,
+            "geometry_wrong_same_link": 0,
+            "houses": 16,
+            "reasons": {
+              "ambiguous_live_boxes": 7,
+              "no_current_instance_match": 80,
+              "registered_local_features_and_current_box": 16,
+              "registered_patch_and_current_box": 9,
+              "source_missing": 86,
+              "source_not_storable": 1
+            },
+            "selected_rival_with_geometry_veto": 0,
+            "source_and_rival_box": 81,
+            "trials": 199
+          }
+        },
+        "rival_only_annotated": {
+          "all": {
+            "appearance": {
+              "withheld": 153
+            },
+            "categories": {
+              "bookcase": 16,
+              "cabinet": 2,
+              "chair": 48,
+              "mirror": 6,
+              "sofa": 1,
+              "stool": 3,
+              "vase": 2,
+              "wall_art": 75
+            },
+            "exposed_appearance": {
+              "withheld": 75
+            },
+            "geometry_distinct_proof": 0,
+            "geometry_wrong_same_link": 0,
+            "houses": 16,
+            "reasons": {
+              "no_current_instance_match": 90,
+              "no_local_target_box": 5,
+              "source_missing": 58
+            },
+            "selected_rival_with_geometry_veto": 0,
+            "source_and_rival_box": 75,
+            "trials": 153
+          },
+          "close_same_asset": {
+            "appearance": {
+              "withheld": 40
+            },
+            "categories": {
+              "bookcase": 16,
+              "cabinet": 2,
+              "chair": 9,
+              "stool": 3,
+              "vase": 2,
+              "wall_art": 8
+            },
+            "exposed_appearance": {
+              "withheld": 10
+            },
+            "geometry_distinct_proof": 0,
+            "geometry_wrong_same_link": 0,
+            "houses": 12,
+            "reasons": {
+              "no_current_instance_match": 13,
+              "source_missing": 27
+            },
+            "selected_rival_with_geometry_veto": 0,
+            "source_and_rival_box": 10,
+            "trials": 40
+          },
+          "same_local_sequence": {
+            "appearance": {
+              "withheld": 40
+            },
+            "categories": {
+              "bookcase": 16,
+              "cabinet": 2,
+              "chair": 13,
+              "sofa": 1,
+              "stool": 3,
+              "vase": 2,
+              "wall_art": 3
+            },
+            "exposed_appearance": {
+              "withheld": 5
+            },
+            "geometry_distinct_proof": 0,
+            "geometry_wrong_same_link": 0,
+            "houses": 15,
+            "reasons": {
+              "no_current_instance_match": 8,
+              "source_missing": 32
+            },
+            "selected_rival_with_geometry_veto": 0,
+            "source_and_rival_box": 5,
+            "trials": 40
+          }
+        }
+      }
+    }
+  },
+  "inputs_sha256": {
+    "controlled": {
+      "detections": "57e8b7ec301b11ce9dc3fcd789a403c0599b2d1eec9f2d86f8cd09bedcfd854e",
+      "frames": "bb94f582ff6605286cd3bfdbdf2fd37d20bc07fb45d30e391b528a4148578351"
+    },
+    "natural": {
+      "detections": "73c323afa010e08ca5aab1d234646dace027e9a5bb903f0f563fdae4d3155bb9",
+      "frames": "c8e193238d820b4d4153cc0c54c1d52052894c06f1bed183a38fdb9ae444e227"
+    }
+  },
+  "paid_calls": 0,
+  "selected_manifest_sha256": {
+    "controlled": "0d341c47622a96ce61f738f897515f7cc2f1757b4e661520831530443afed954",
+    "natural": "278965ca04c54b318d4cd1a158308484350cbbb9896c0eabfa6020d54abd9d57"
+  },
+  "source_sha256": {
+    "appearance.py": "a69af2fb084dce22bb442a9c888815e8be3012986ea6d6ec4fa20bfe15c0277b",
+    "audit_competitors.py": "b0865d9158d626fa43e6dbc0648ae37d69d21dd645c0d115fadee3fff1ffb191",
+    "evaluate.py": "85de820c5db907ba281cf79315050a47651932d1ca2cad038b3760fcca8a0434",
+    "geometry_links.py": "6b83270f1129263600e12457f8c7e03c6ee3d2bbec2340666819a718a5ed87b4",
+    "report_evidence.py": "af2129e27886b88584d8ccf0862451e2ee8dcb3da839ed72cbb408416c10f997"
+  }
+}

@@ -1,0 +1,361 @@
+{
+  "houses": 13,
+  "images": 168,
+  "instances_by_category": {
+    "clock": 10,
+    "wall_art": 26
+  },
+  "paid_calls": 0,
+  "physical_instances": 36,
+  "pose_protocol_sha256": "a69073e5f2e27ba6a3629b3afb68bf77842d055e10063f2f95d0abd05b14cd1e",
+  "private_manifest_sha256": "4d553921cf1a1901db899e3b35832467dcd8203a55351d100ce68b79031f3f21",
+  "results": {
+    "dino": {
+      "bridge_outcomes": {
+        "correct": 15,
+        "no_anchor_reference": 5,
+        "no_bridge_pose": 1,
+        "other_instance": 1,
+        "withheld": 14
+      },
+      "by_goal_visible": {
+        "clock": {
+          "n": 24,
+          "outcomes": {
+            "causal": {
+              "correct": 7,
+              "withheld": 17
+            },
+            "first": {
+              "correct": 7,
+              "withheld": 17
+            },
+            "known_bridge": {
+              "correct": 7,
+              "withheld": 17
+            }
+          }
+        },
+        "wall_art": {
+          "n": 65,
+          "outcomes": {
+            "causal": {
+              "correct": 22,
+              "other_instance": 1,
+              "withheld": 42
+            },
+            "first": {
+              "correct": 20,
+              "withheld": 45
+            },
+            "known_bridge": {
+              "correct": 25,
+              "withheld": 40
+            }
+          }
+        }
+      },
+      "by_view_visible": {
+        "closer": {
+          "n": 33,
+          "outcomes": {
+            "causal": {
+              "correct": 18,
+              "withheld": 15
+            },
+            "first": {
+              "correct": 17,
+              "withheld": 16
+            },
+            "known_bridge": {
+              "correct": 19,
+              "withheld": 14
+            }
+          }
+        },
+        "opposite_side": {
+          "n": 29,
+          "outcomes": {
+            "causal": {
+              "correct": 5,
+              "withheld": 24
+            },
+            "first": {
+              "correct": 6,
+              "withheld": 23
+            },
+            "known_bridge": {
+              "correct": 6,
+              "withheld": 23
+            }
+          }
+        },
+        "same_side": {
+          "n": 27,
+          "outcomes": {
+            "causal": {
+              "correct": 6,
+              "other_instance": 1,
+              "withheld": 20
+            },
+            "first": {
+              "correct": 4,
+              "withheld": 23
+            },
+            "known_bridge": {
+              "correct": 7,
+              "withheld": 20
+            }
+          }
+        }
+      },
+      "causal_transition_visible": {
+        "correct_to_correct": 26,
+        "correct_to_withheld": 1,
+        "withheld_to_correct": 3,
+        "withheld_to_other_instance": 1,
+        "withheld_to_withheld": 58
+      },
+      "paired_house_macro_delta": {
+        "ci95": [
+          -0.015384615384615385,
+          0.08974358974358974
+        ],
+        "mean": 0.030769230769230767,
+        "n_houses": 13
+      },
+      "registered_and_visible": {
+        "n": 78,
+        "outcomes": {
+          "causal": {
+            "correct": 29,
+            "other_instance": 1,
+            "withheld": 48
+          },
+          "first": {
+            "correct": 27,
+            "withheld": 51
+          },
+          "known_bridge": {
+            "correct": 32,
+            "withheld": 46
+          }
+        }
+      },
+      "target_annotated": {
+        "n": 89,
+        "outcomes": {
+          "causal": {
+            "correct": 29,
+            "other_instance": 1,
+            "withheld": 59
+          },
+          "first": {
+            "correct": 27,
+            "withheld": 62
+          },
+          "known_bridge": {
+            "correct": 32,
+            "withheld": 57
+          }
+        }
+      },
+      "target_below_visibility_rule_or_absent": {
+        "n": 8,
+        "outcomes": {
+          "causal": {
+            "withheld": 8
+          },
+          "first": {
+            "withheld": 8
+          },
+          "known_bridge": {
+            "withheld": 8
+          }
+        }
+      }
+    },
+    "label_box": {
+      "bridge_outcomes": {
+        "correct": 14,
+        "no_bridge_pose": 1,
+        "other_instance": 1,
+        "withheld": 20
+      },
+      "by_goal_visible": {
+        "clock": {
+          "n": 24,
+          "outcomes": {
+            "causal": {
+              "correct": 9,
+              "withheld": 15
+            },
+            "first": {
+              "correct": 8,
+              "withheld": 16
+            },
+            "known_bridge": {
+              "correct": 9,
+              "withheld": 15
+            }
+          }
+        },
+        "wall_art": {
+          "n": 65,
+          "outcomes": {
+            "causal": {
+              "correct": 26,
+              "other_instance": 2,
+              "withheld": 37
+            },
+            "first": {
+              "correct": 23,
+              "other_instance": 2,
+              "withheld": 40
+            },
+            "known_bridge": {
+              "correct": 29,
+              "other_instance": 2,
+              "withheld": 34
+            }
+          }
+        }
+      },
+      "by_view_visible": {
+        "closer": {
+          "n": 33,
+          "outcomes": {
+            "causal": {
+              "correct": 23,
+              "withheld": 10
+            },
+            "first": {
+              "correct": 23,
+              "withheld": 10
+            },
+            "known_bridge": {
+              "correct": 25,
+              "withheld": 8
+            }
+          }
+        },
+        "opposite_side": {
+          "n": 29,
+          "outcomes": {
+            "causal": {
+              "correct": 5,
+              "other_instance": 1,
+              "withheld": 23
+            },
+            "first": {
+              "correct": 5,
+              "other_instance": 1,
+              "withheld": 23
+            },
+            "known_bridge": {
+              "correct": 5,
+              "other_instance": 1,
+              "withheld": 23
+            }
+          }
+        },
+        "same_side": {
+          "n": 27,
+          "outcomes": {
+            "causal": {
+              "correct": 7,
+              "other_instance": 1,
+              "withheld": 19
+            },
+            "first": {
+              "correct": 3,
+              "other_instance": 1,
+              "withheld": 23
+            },
+            "known_bridge": {
+              "correct": 8,
+              "other_instance": 1,
+              "withheld": 18
+            }
+          }
+        }
+      },
+      "causal_transition_visible": {
+        "correct_to_correct": 31,
+        "other_instance_to_other_instance": 2,
+        "withheld_to_correct": 4,
+        "withheld_to_withheld": 52
+      },
+      "paired_house_macro_delta": {
+        "ci95": [
+          0.0,
+          0.10683760683760683
+        ],
+        "mean": 0.047008547008547,
+        "n_houses": 13
+      },
+      "registered_and_visible": {
+        "n": 89,
+        "outcomes": {
+          "causal": {
+            "correct": 35,
+            "other_instance": 2,
+            "withheld": 52
+          },
+          "first": {
+            "correct": 31,
+            "other_instance": 2,
+            "withheld": 56
+          },
+          "known_bridge": {
+            "correct": 38,
+            "other_instance": 2,
+            "withheld": 49
+          }
+        }
+      },
+      "target_annotated": {
+        "n": 89,
+        "outcomes": {
+          "causal": {
+            "correct": 35,
+            "other_instance": 2,
+            "withheld": 52
+          },
+          "first": {
+            "correct": 31,
+            "other_instance": 2,
+            "withheld": 56
+          },
+          "known_bridge": {
+            "correct": 38,
+            "other_instance": 2,
+            "withheld": 49
+          }
+        }
+      },
+      "target_below_visibility_rule_or_absent": {
+        "n": 8,
+        "outcomes": {
+          "causal": {
+            "withheld": 8
+          },
+          "first": {
+            "withheld": 8
+          },
+          "known_bridge": {
+            "withheld": 8
+          }
+        }
+      }
+    }
+  },
+  "stage_counts": {
+    "anchor": 36,
+    "bridge": 35,
+    "closer": 33,
+    "opposite_side": 34,
+    "same_side": 30
+  },
+  "unavailable_views": 12
+}
