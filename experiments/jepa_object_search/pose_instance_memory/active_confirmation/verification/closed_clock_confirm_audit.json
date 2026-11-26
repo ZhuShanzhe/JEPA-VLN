@@ -1,0 +1,62 @@
+{
+  "offline_frozen_detector": {
+    "eligible_boxes": 1,
+    "max_instance_pixel_coverage": 0.0501,
+    "max_box_target_pixel_fraction": 0.2038,
+    "max_iou_with_semantic_bounds": 0.0555,
+    "original_template_match": false,
+    "original_template_reason": "different_appearance",
+    "replayed_report_support": false,
+    "replayed_support_reason": "no_current_instance_match"
+  },
+  "same_most_visible_instance_start_and_finish": true,
+  "same_near_instance_start_and_finish": true,
+  "mapper_evidence_grid": [
+    518,
+    518
+  ],
+  "scope": "First accepted clock recheck ending no_current_instance_match",
+  "paid_requests": 0,
+  "actions": 3,
+  "forward_actions": 2,
+  "view_strategy": "map_standoff",
+  "geometry_receipt": {
+    "any_task_target_pixels_in_box": 76,
+    "most_task_instance_pixels_in_box": 76,
+    "box_area": 315,
+    "click_on_task_instance": true,
+    "max_instance_pixels_in_inset": 51,
+    "all_task_pixels_in_expanded_box": 76,
+    "box_dominant_target_same_as_click": true,
+    "scene_target_instances_overlapping": 1,
+    "max_task_pixels_in_source": 265,
+    "unique_image_and_registration": true,
+    "source_age_when_rechecked": 134
+  },
+  "states": {
+    "registered": {
+      "task_instances_visible_1pix": 1,
+      "task_instances_visible_103px": 1,
+      "max_task_target_pixels": 265,
+      "task_instances_in_report_range": 0,
+      "source_instance_pixels": 265,
+      "source_instance_in_report_range": false
+    },
+    "start": {
+      "task_instances_visible_1pix": 1,
+      "task_instances_visible_103px": 1,
+      "max_task_target_pixels": 11693,
+      "task_instances_in_report_range": 1,
+      "source_instance_pixels": 11693,
+      "source_instance_in_report_range": true
+    },
+    "finish": {
+      "task_instances_visible_1pix": 1,
+      "task_instances_visible_103px": 1,
+      "max_task_target_pixels": 17968,
+      "task_instances_in_report_range": 1,
+      "source_instance_pixels": 17968,
+      "source_instance_in_report_range": true
+    }
+  }
+}

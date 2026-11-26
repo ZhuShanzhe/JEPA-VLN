@@ -1,0 +1,409 @@
+{
+  "cases": [
+    {
+      "attempts": [
+        {
+          "confirmation_accepted": 0,
+          "confirmation_action_mismatches": 0,
+          "confirmation_actual_actions": {
+            "MOVE_FORWARD": 10,
+            "TURN_LEFT": 4,
+            "TURN_RIGHT": 3
+          },
+          "confirmation_end_reasons": {
+            "no_current_instance_match": 3,
+            "pose_or_target_changed": 1
+          },
+          "confirmation_events": {
+            "confirm_view_action": 17,
+            "confirm_view_end": 4,
+            "confirm_view_recheck": 3,
+            "confirm_view_start": 4,
+            "confirm_view_unavailable": 1
+          },
+          "confirmation_recheck_reasons": {
+            "no_current_instance_match": 3
+          },
+          "deferred_reasons": {
+            "need_metric_near_view": 7,
+            "no_current_instance_match": 2
+          },
+          "executed_recovery_actions": {
+            "MOVE_FORWARD": 2,
+            "TURN_LEFT": 3,
+            "TURN_RIGHT": 4
+          },
+          "external_decisions": {
+            "True": 33
+          },
+          "physical_actions": 300,
+          "physical_reports": 0,
+          "pose": {
+            "pose_review": 2
+          },
+          "pose_forward_calls": 0,
+          "pose_match_hints": 0,
+          "quarantined": false,
+          "recovery_modes": {
+            "choose_fresh_frontier": 6,
+            "confirm_view_motion": 2,
+            "return_to_registered_view": 1
+          },
+          "region_evidence": {
+            "client_panels_missing_event": 0,
+            "distinct_candidates": {
+              "direct_registration_returned": 1,
+              "has_native_review_receipt": 3,
+              "mapped_candidates": 6,
+              "offered_via_queued_or_reoffered_state": 4,
+              "panel_on_successful_model_request": 6
+            },
+            "events": {
+              "identity_receipt": 3,
+              "identity_review": 2,
+              "mapping_receipt": 3,
+              "pending_review_in_input": 4,
+              "pick_receipt": 3,
+              "pick_requested": 3,
+              "proposal": 6,
+              "queued_review_in_input": 4,
+              "regions": 4,
+              "review_receipt": 3,
+              "review_requested": 3,
+              "successful_client_panel": 10
+            },
+            "last_stage": {
+              "native_review_returned": 3,
+              "panel_delivered_without_review": 3
+            },
+            "review_statuses": {
+              "active": 1,
+              "duplicate_review": 2
+            },
+            "semantic_verdicts": {
+              "ACCEPT": 3
+            }
+          },
+          "report_dispatch_and_ack": {}
+        }
+      ],
+      "closed_candidate_flow": {
+        "commit_calls": 2,
+        "ever_queued_frames": 3,
+        "native_async_completed_batches": 3,
+        "native_async_proposal_rows": 4,
+        "native_mapping_not_ready_delivered_frames": 0,
+        "pick_calls": 3,
+        "queued_state_distinct_candidates": 3,
+        "region_propose_calls": 4,
+        "selected_frames": 3,
+        "submitted_distinct_candidates": 3,
+        "successful_client_distinct_panels": 6,
+        "v24_distinct_proposals": 6,
+        "v24_distinct_registered": 1,
+        "v24_distinct_reoffered": 2,
+        "v24_event_counts": {
+          "identity_receipt": 3,
+          "identity_review": 2,
+          "mapping_receipt": 3,
+          "pending_review_in_input": 4,
+          "pick_receipt": 3,
+          "pick_requested": 3,
+          "proposal": 6,
+          "queued_review_in_input": 4,
+          "regions": 4,
+          "review_receipt": 3,
+          "review_requested": 3,
+          "successful_client_panel": 10
+        },
+        "v24_unreviewed_at_last_record": {
+          "original_panel_unavailable": 0,
+          "panel_available_without_successful_client_attachment": 0,
+          "successful_client_attachment_without_review": 3
+        }
+      },
+      "native": {
+        "duplicates": 1,
+        "found": 1,
+        "new": 1,
+        "out_of_range": 0,
+        "quota": 2,
+        "reached": 1,
+        "reports": 2,
+        "steps": 90,
+        "success": false
+      },
+      "ordinal": 1,
+      "previous": {
+        "duplicates": 0,
+        "found": 0,
+        "new": 0,
+        "out_of_range": 0,
+        "quota": 2,
+        "reached": 1,
+        "reports": 0,
+        "steps": 300,
+        "success": false
+      },
+      "previous_candidate_flow": {
+        "commit_calls": 2,
+        "ever_queued_frames": 3,
+        "native_async_completed_batches": 3,
+        "native_async_proposal_rows": 5,
+        "native_mapping_not_ready_delivered_frames": 0,
+        "pick_calls": 3,
+        "queued_state_distinct_candidates": 5,
+        "region_propose_calls": 4,
+        "selected_frames": 3,
+        "submitted_distinct_candidates": 4,
+        "successful_client_distinct_panels": 7,
+        "v24_distinct_proposals": null,
+        "v24_distinct_registered": null,
+        "v24_distinct_reoffered": null,
+        "v24_event_counts": null,
+        "v24_unreviewed_at_last_record": null
+      },
+      "score": {
+        "duplicates": 0,
+        "found": 0,
+        "new": 0,
+        "out_of_range": 0,
+        "quota": 2,
+        "reached": 1,
+        "reports": 0,
+        "steps": 300,
+        "success": false
+      }
+    },
+    {
+      "attempts": [
+        {
+          "confirmation_accepted": 0,
+          "confirmation_action_mismatches": 0,
+          "confirmation_actual_actions": {},
+          "confirmation_end_reasons": {},
+          "confirmation_events": {},
+          "confirmation_recheck_reasons": {},
+          "deferred_reasons": {},
+          "executed_recovery_actions": {},
+          "external_decisions": {
+            "True": 25
+          },
+          "physical_actions": 300,
+          "physical_reports": 0,
+          "pose": {},
+          "pose_forward_calls": 0,
+          "pose_match_hints": 0,
+          "quarantined": false,
+          "recovery_modes": {},
+          "region_evidence": {
+            "client_panels_missing_event": 0,
+            "distinct_candidates": {
+              "has_native_review_receipt": 2,
+              "mapped_candidates": 5,
+              "offered_via_queued_or_reoffered_state": 5,
+              "panel_on_successful_model_request": 5
+            },
+            "events": {
+              "mapping_receipt": 4,
+              "pending_review_in_input": 6,
+              "pick_receipt": 3,
+              "pick_requested": 3,
+              "proposal": 5,
+              "queued_review_in_input": 5,
+              "region_version_changed": 1,
+              "regions": 6,
+              "review_receipt": 4,
+              "review_requested": 4,
+              "same_selection_retry_scheduled": 2,
+              "successful_client_panel": 12
+            },
+            "last_stage": {
+              "native_review_returned": 2,
+              "panel_delivered_without_review": 3
+            },
+            "review_statuses": {
+              "None": 2,
+              "reject": 2
+            },
+            "semantic_verdicts": {
+              "REJECT": 4
+            }
+          },
+          "report_dispatch_and_ack": {}
+        }
+      ],
+      "closed_candidate_flow": {
+        "commit_calls": 2,
+        "ever_queued_frames": 3,
+        "native_async_completed_batches": 2,
+        "native_async_proposal_rows": 5,
+        "native_mapping_not_ready_delivered_frames": 0,
+        "pick_calls": 3,
+        "queued_state_distinct_candidates": 3,
+        "region_propose_calls": 6,
+        "selected_frames": 3,
+        "submitted_distinct_candidates": 4,
+        "successful_client_distinct_panels": 5,
+        "v24_distinct_proposals": 5,
+        "v24_distinct_registered": 0,
+        "v24_distinct_reoffered": 3,
+        "v24_event_counts": {
+          "mapping_receipt": 4,
+          "pending_review_in_input": 6,
+          "pick_receipt": 3,
+          "pick_requested": 3,
+          "proposal": 5,
+          "queued_review_in_input": 5,
+          "region_version_changed": 1,
+          "regions": 6,
+          "review_receipt": 4,
+          "review_requested": 4,
+          "same_selection_retry_scheduled": 2,
+          "successful_client_panel": 12
+        },
+        "v24_unreviewed_at_last_record": {
+          "original_panel_unavailable": 0,
+          "panel_available_without_successful_client_attachment": 0,
+          "successful_client_attachment_without_review": 3
+        }
+      },
+      "native": {
+        "duplicates": 0,
+        "found": 0,
+        "new": 0,
+        "out_of_range": 2,
+        "quota": 3,
+        "reached": 1,
+        "reports": 2,
+        "steps": 300,
+        "success": false
+      },
+      "ordinal": 14,
+      "previous": {
+        "duplicates": 0,
+        "found": 0,
+        "new": 0,
+        "out_of_range": 0,
+        "quota": 3,
+        "reached": 1,
+        "reports": 0,
+        "steps": 300,
+        "success": false
+      },
+      "previous_candidate_flow": {
+        "commit_calls": 0,
+        "ever_queued_frames": 7,
+        "native_async_completed_batches": 6,
+        "native_async_proposal_rows": 16,
+        "native_mapping_not_ready_delivered_frames": 1,
+        "pick_calls": 7,
+        "queued_state_distinct_candidates": 13,
+        "region_propose_calls": 9,
+        "selected_frames": 7,
+        "submitted_distinct_candidates": 0,
+        "successful_client_distinct_panels": 9,
+        "v24_distinct_proposals": null,
+        "v24_distinct_registered": null,
+        "v24_distinct_reoffered": null,
+        "v24_event_counts": null,
+        "v24_unreviewed_at_last_record": null
+      },
+      "score": {
+        "duplicates": 0,
+        "found": 0,
+        "new": 0,
+        "out_of_range": 0,
+        "quota": 3,
+        "reached": 1,
+        "reports": 0,
+        "steps": 300,
+        "success": false
+      }
+    }
+  ],
+  "decision_gateway_events": {
+    "success": 60
+  },
+  "independent_physical_audit": {
+    "clock": {
+      "all_targets_have_official_viewpoints": true,
+      "confirm_action_substitutions": {},
+      "confirm_actions_equal_next_observed_previous_action": 17,
+      "confirm_actions_equal_physical_action": 17,
+      "confirm_actions_requested": 17,
+      "confirm_closure_reasons": {
+        "no_current_instance_match": 3,
+        "pose_or_target_changed": 1
+      },
+      "confirm_forward_last_step_without_next_pose": 0,
+      "confirm_forward_with_translation": 10,
+      "confirm_forward_without_translation": 0,
+      "confirm_physical_action_types": {
+        "MOVE_FORWARD": 10,
+        "TURN_LEFT": 4,
+        "TURN_RIGHT": 3
+      },
+      "decision_outputs_requesting_report": 9,
+      "different_instances_ever_in_range": 1,
+      "distinct_correct": 0,
+      "distinct_in_range_without_credit": 1,
+      "distinct_never_in_range": 2,
+      "ground_truth_instances": 3,
+      "nearest_distance_to_each_uncredited_instance_m": [
+        0.0,
+        2.7189,
+        3.0429
+      ],
+      "outcomes": {},
+      "recovery_reasons": {
+        "need_metric_near_view": 7,
+        "no_current_instance_match": 2
+      },
+      "registered_observations": 3,
+      "reports": [],
+      "required_distinct": 2,
+      "steps": 300,
+      "steps_with_multiple_confirm_requests": 0,
+      "succeeded": false,
+      "threshold_m": 0.25,
+      "uncredited_instances_without_distance": 0,
+      "verified_physical_reports": 0
+    },
+    "wall_art": {
+      "all_targets_have_official_viewpoints": true,
+      "confirm_action_substitutions": {},
+      "confirm_actions_equal_next_observed_previous_action": 0,
+      "confirm_actions_equal_physical_action": 0,
+      "confirm_actions_requested": 0,
+      "confirm_closure_reasons": {},
+      "confirm_forward_last_step_without_next_pose": 0,
+      "confirm_forward_with_translation": 0,
+      "confirm_forward_without_translation": 0,
+      "confirm_physical_action_types": {},
+      "decision_outputs_requesting_report": 0,
+      "different_instances_ever_in_range": 1,
+      "distinct_correct": 0,
+      "distinct_in_range_without_credit": 1,
+      "distinct_never_in_range": 2,
+      "ground_truth_instances": 3,
+      "nearest_distance_to_each_uncredited_instance_m": [
+        0.0007,
+        0.3306,
+        11.0907
+      ],
+      "outcomes": {},
+      "recovery_reasons": {},
+      "registered_observations": 0,
+      "reports": [],
+      "required_distinct": 3,
+      "steps": 300,
+      "steps_with_multiple_confirm_requests": 0,
+      "succeeded": false,
+      "threshold_m": 0.25,
+      "uncredited_instances_without_distance": 0,
+      "verified_physical_reports": 0
+    }
+  },
+  "unique_decision_gateway_requests": 60
+}

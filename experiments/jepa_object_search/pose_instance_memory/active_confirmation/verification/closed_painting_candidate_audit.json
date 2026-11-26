@@ -1,0 +1,131 @@
+{
+  "complete": true,
+  "paid_requests": 0,
+  "distinct_source_frames": 2,
+  "verified_candidates": 5,
+  "task_category_names": [
+    "painting"
+  ],
+  "scope": "Only proposals generated in the closed painting episode",
+  "by_review": {
+    "reject": {
+      "total": 2,
+      "task_under_click": 0,
+      "any_task_in_box": 0,
+      "any_task_in_selection": 0,
+      "any_picture_in_selection": 1,
+      "records": [
+        {
+          "review": "reject",
+          "source_match_median_rgb_mae": 1.4,
+          "source_match_p75_rgb_mae": 2.67,
+          "bbox_area": 41600,
+          "identified_mask_interior_pixels": 32879,
+          "entire_frame_task_pixels": 0,
+          "entire_frame_picture_pixels": 12351,
+          "task_pixels_in_box": 0,
+          "task_pixels_in_expanded_box": 0,
+          "task_pixels_in_selection": 0,
+          "any_picture_pixels_in_box": 0,
+          "any_picture_pixels_in_selection": 0,
+          "click_on_task": false,
+          "click_category": "wall",
+          "mask_interior_categories": {
+            "wall": 32873,
+            "unknown": 6
+          }
+        },
+        {
+          "review": "reject",
+          "source_match_median_rgb_mae": 1.5,
+          "source_match_p75_rgb_mae": 2.97,
+          "bbox_area": 64120,
+          "identified_mask_interior_pixels": 31128,
+          "entire_frame_task_pixels": 0,
+          "entire_frame_picture_pixels": 12351,
+          "task_pixels_in_box": 0,
+          "task_pixels_in_expanded_box": 0,
+          "task_pixels_in_selection": 0,
+          "any_picture_pixels_in_box": 12351,
+          "any_picture_pixels_in_selection": 1,
+          "click_on_task": false,
+          "click_category": "wall",
+          "mask_interior_categories": {
+            "ceiling": 16857,
+            "wall": 14233,
+            "unknown": 28,
+            "door frame": 9
+          }
+        }
+      ]
+    },
+    "unreviewed": {
+      "total": 3,
+      "task_under_click": 0,
+      "any_task_in_box": 0,
+      "any_task_in_selection": 0,
+      "any_picture_in_selection": 0,
+      "records": [
+        {
+          "review": "unreviewed",
+          "source_match_median_rgb_mae": 0.67,
+          "source_match_p75_rgb_mae": 1.43,
+          "bbox_area": 42602,
+          "identified_mask_interior_pixels": 9265,
+          "entire_frame_task_pixels": 0,
+          "entire_frame_picture_pixels": 0,
+          "task_pixels_in_box": 0,
+          "task_pixels_in_expanded_box": 0,
+          "task_pixels_in_selection": 0,
+          "any_picture_pixels_in_box": 0,
+          "any_picture_pixels_in_selection": 0,
+          "click_on_task": false,
+          "click_category": "door",
+          "mask_interior_categories": {
+            "door": 9265
+          }
+        },
+        {
+          "review": "unreviewed",
+          "source_match_median_rgb_mae": 0.67,
+          "source_match_p75_rgb_mae": 1.4,
+          "bbox_area": 25375,
+          "identified_mask_interior_pixels": 7800,
+          "entire_frame_task_pixels": 0,
+          "entire_frame_picture_pixels": 0,
+          "task_pixels_in_box": 0,
+          "task_pixels_in_expanded_box": 0,
+          "task_pixels_in_selection": 0,
+          "any_picture_pixels_in_box": 0,
+          "any_picture_pixels_in_selection": 0,
+          "click_on_task": false,
+          "click_category": "door",
+          "mask_interior_categories": {
+            "door": 7800
+          }
+        },
+        {
+          "review": "unreviewed",
+          "source_match_median_rgb_mae": 0.67,
+          "source_match_p75_rgb_mae": 1.33,
+          "bbox_area": 17680,
+          "identified_mask_interior_pixels": 2980,
+          "entire_frame_task_pixels": 0,
+          "entire_frame_picture_pixels": 0,
+          "task_pixels_in_box": 0,
+          "task_pixels_in_expanded_box": 0,
+          "task_pixels_in_selection": 0,
+          "any_picture_pixels_in_box": 0,
+          "any_picture_pixels_in_selection": 0,
+          "click_on_task": false,
+          "click_category": "wall",
+          "mask_interior_categories": {
+            "wall": 2963,
+            "door": 13,
+            "unknown": 4
+          }
+        }
+      ]
+    }
+  }
+}

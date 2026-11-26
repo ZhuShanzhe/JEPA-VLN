@@ -47,3 +47,5 @@
 [时钟与画作的完整导航回合](closed_loop_pilot/README.md)
 
 [报告执行恢复与延迟判重测试](report_recovery/README.md)
+
+[近距视点复核与区域候选登记](active_confirmation/README.md)

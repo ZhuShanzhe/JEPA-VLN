@@ -1,0 +1,70 @@
+{
+  "passed": true,
+  "paid_requests": 0,
+  "native_checks": 49,
+  "positive": {
+    "reference_has_task_target": true,
+    "source_box_contains_target_pixels": 2950,
+    "source_box_area_pixels": 13965,
+    "distance_walked_m": 0.813,
+    "no_frame_teleport": true,
+    "live_boxes": [
+      2
+    ],
+    "report_dispatched": true,
+    "native_viewpoint_audit": {
+      "targets_in_range": 1,
+      "reference_in_range": true,
+      "credited_new_instances": 1,
+      "source_region_matches_credited_instance": true,
+      "duplicate_or_over_quota": false
+    },
+    "live_reason": "registered_patch_and_current_box",
+    "view_source": "registered_camera",
+    "action_count": 11,
+    "visible_target_pixels_before_return": 0,
+    "visible_target_pixels_after_return": 3710
+  },
+  "missing_detection": {
+    "reference_has_task_target": true,
+    "source_box_contains_target_pixels": 2950,
+    "source_box_area_pixels": 13965,
+    "distance_walked_m": 0.813,
+    "no_frame_teleport": true,
+    "live_boxes": [
+      0
+    ],
+    "report_dispatched": false,
+    "native_viewpoint_audit": {
+      "targets_in_range": 1,
+      "reference_in_range": true,
+      "credited_new_instances": 0
+    },
+    "live_reason": "no_local_target_box",
+    "view_source": "registered_camera",
+    "action_count": 11,
+    "visible_target_pixels_before_return": 0,
+    "visible_target_pixels_after_return": 3710
+  },
+  "original_false_candidate": {
+    "reference_has_task_target": false,
+    "source_box_contains_target_pixels": 0,
+    "source_box_area_pixels": null,
+    "distance_walked_m": 0.813,
+    "no_frame_teleport": true,
+    "live_boxes": [
+      2
+    ],
+    "report_dispatched": true,
+    "native_viewpoint_audit": {
+      "targets_in_range": 1,
+      "reference_in_range": null,
+      "credited_new_instances": 1,
+      "source_region_matches_credited_instance": false,
+      "duplicate_or_over_quota": false
+    },
+    "live_reason": "registered_patch_and_current_box",
+    "view_source": "registered_camera",
+    "action_count": 11
+  }
+}

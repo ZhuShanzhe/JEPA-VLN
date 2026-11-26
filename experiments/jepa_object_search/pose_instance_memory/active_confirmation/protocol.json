@@ -1,0 +1,45 @@
+{
+  "task": "MOST-Nav multi-instance object search",
+  "environment": "Habitat, HM3D",
+  "panel": [
+    {
+      "target": "clock",
+      "required_distinct_instances": 2
+    },
+    {
+      "target": "wall art",
+      "required_distinct_instances": 3
+    }
+  ],
+  "pairing": "Same original episode, starting pose, target set, sensors, action space and native scoring.",
+  "action_budget_per_episode": 300,
+  "success_radius_to_valid_report_view_m": 0.25,
+  "decision_model": "gpt-4o-2024-11-20",
+  "provider": "APIyi",
+  "primary_metrics": [
+    "different instances credited by native judge",
+    "requested quota completed"
+  ],
+  "diagnostics": [
+    "physical confirmation motions and fresh-view verdicts",
+    "candidate selection, map return, review delivery, native registration and actual report",
+    "duplicates and out-of-range reports"
+  ],
+  "scope": "Two development tasks. Use only completed, accepted attempts in navigation metrics; retain engineering interruptions separately.",
+  "training_during_evaluation": false,
+  "paid_recipe": "Scored ActiveFrontier combines ConfirmViewMixin and CandidateEvidenceMixin with the prior RepairFrontier; review-reference feedback was verified separately after closure.",
+  "scored_source_sha256": {
+    "active_agent.py": {
+      "evaluated_bytes": "e932a2c5d63fb79fa7ce2e84e16e79648eff33473f71dfe1ba709f4c2411aebd",
+      "published_lf": "e932a2c5d63fb79fa7ce2e84e16e79648eff33473f71dfe1ba709f4c2411aebd"
+    },
+    "view/confirm_view.py": {
+      "evaluated_bytes": "be932b4c17c05a7e78bbc50eeefa89a8bfad88d0f8f172c0e082a1b622fef94e",
+      "published_lf": "be932b4c17c05a7e78bbc50eeefa89a8bfad88d0f8f172c0e082a1b622fef94e"
+    },
+    "evidence/candidate_evidence.py": {
+      "evaluated_bytes": "80ea86963553b1dd906008d2170ccf3251e356a30897d0a5ee4afff04394f27b",
+      "published_lf": "80ea86963553b1dd906008d2170ccf3251e356a30897d0a5ee4afff04394f27b"
+    }
+  }
+}
