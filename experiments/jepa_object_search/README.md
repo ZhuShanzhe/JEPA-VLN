@@ -90,3 +90,5 @@ HSSD 的代理目标是新增可见性。开发集 48 个起点中只有 2 个�
 [位姿条件 JEPA 实例身份核验与独立房屋评测](identity_stage3_model/README.md)
 
 [复看时的关键帧、几何就绪与实例核验](identity_stage4_geometry/README.md)
+
+[静止核验、可信参考与上报回执](identity_stage5_confirmation/README.md)

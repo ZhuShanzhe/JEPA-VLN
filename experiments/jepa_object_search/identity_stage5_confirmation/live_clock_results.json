@@ -1,0 +1,46 @@
+{
+  "committed_reference_events": 0,
+  "graded_references": 4,
+  "original_most_nav": {
+    "found": 1,
+    "quota": 2,
+    "repeats": 1,
+    "reports": 2,
+    "steps": 90,
+    "success": false
+  },
+  "prior_keyframe_interface": {
+    "actions": 300,
+    "correct_distinct": 0,
+    "in_range": 1,
+    "out_of_range": 0,
+    "quota": 2,
+    "repeated_reports": 0,
+    "reports": 0,
+    "task_completed": false
+  },
+  "protocol": "one fixed HM3D development episode, independent GPT-4o calls, 300-action budget",
+  "query_reasons": {
+    "fewer_than_two_shared_timestamped_anchors": 4
+  },
+  "query_states": {
+    "withheld": 4
+  },
+  "reference_reasons": {
+    "no_class_box_at_click": 3,
+    "supported": 1
+  },
+  "result_sha256": "139a8f4ab28de82f7cfc4269a08a692752ef8c849449fe19bfde912897dc000f",
+  "stationary_queries": 4,
+  "trusted_confirmation": {
+    "actions": 300,
+    "correct_distinct": 0,
+    "in_range": 1,
+    "out_of_range": 0,
+    "quota": 2,
+    "repeated_reports": 0,
+    "reports": 0,
+    "task_completed": false
+  },
+  "trusted_references": 1
+}

@@ -1,0 +1,29 @@
+{
+  "unit": "Unique (run, source frame, ROI, click) that actually reached a geometry request; same clock scene, repetitions share objects",
+  "label": "clicked task object fills >=20% of the registered ROI, simulator labels only after predictions",
+  "unique_RGB_inferred": 3,
+  "by_arm": {
+    "keyframes_only": {
+      "unique": {
+        "admitted_usable": 1,
+        "withheld_insufficient": 1
+      },
+      "requests": {
+        "admitted_usable": 12,
+        "withheld_insufficient": 10
+      },
+      "admitted_errors": {}
+    },
+    "anchored_pnp": {
+      "unique": {
+        "admitted_usable": 1,
+        "withheld_insufficient": 2
+      },
+      "requests": {
+        "admitted_usable": 16,
+        "withheld_insufficient": 17
+      },
+      "admitted_errors": {}
+    }
+  }
+}

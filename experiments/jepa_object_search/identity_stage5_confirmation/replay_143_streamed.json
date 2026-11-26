@@ -1,0 +1,20 @@
+{
+  "arm": "keyframes_only",
+  "step": 143,
+  "source": 13,
+  "boxes": 2,
+  "selected_index": 1,
+  "reason": "learned_same_instance",
+  "seconds": 27.7,
+  "gpu": [
+    {
+      "peak_allocated_mib": 6975,
+      "peak_reserved_mib": 7568
+    }
+  ],
+  "max_abs_to_archived_full": {
+    "depth": 0.0,
+    "K": 0.0,
+    "poses": 0.0
+  }
+}

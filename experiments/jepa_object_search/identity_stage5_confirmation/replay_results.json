@@ -1,0 +1,82 @@
+{
+  "scope": "Three separate fixed prefixes with all registered rivals, prequalified range gate, archived local RGB-derived geometry and masks estimated from RGB. Official evaluator, real DINO and frozen JEPA. Conditional report/receipt replay, no policy continuation.",
+  "new_paid_calls": 0,
+  "episode_quota": 2,
+  "versions": {
+    "integration_agent.py": "78886db8b47bbba4936620dcd2c4cb79fd071aa40686e186d5c9018c8cdb49ef",
+    "barrier_agent.py": "46ea72288878562b2d464d2ea7574b9bda9cdcc6caade358704677351360c659",
+    "trusted_reference.py": "9872fef2e06598a32698c0d004cad522f0a92e7cb5e627999d50f7b4bf0ba512",
+    "replay_habitat.py": "8ebea2595454f7d764e898e0befc4e172b1f59dfb9913da85a0a24fcaa158548"
+  },
+  "fixed_encounters": [
+    {
+      "historical_step": 146,
+      "official_correct": 1,
+      "official_false": 0,
+      "report_before_ack": false,
+      "returned_report": true,
+      "acknowledged_report": true,
+      "pinned_reference_frames": 1,
+      "exact_frozen_prefix_position": true
+    },
+    {
+      "historical_step": 187,
+      "official_correct": 0,
+      "official_false": 0,
+      "report_before_ack": false,
+      "returned_report": false,
+      "acknowledged_report": false,
+      "pinned_reference_frames": 0,
+      "exact_frozen_prefix_position": true
+    },
+    {
+      "historical_step": 205,
+      "official_correct": 0,
+      "official_false": 0,
+      "report_before_ack": false,
+      "returned_report": false,
+      "acknowledged_report": false,
+      "pinned_reference_frames": 0,
+      "exact_frozen_prefix_position": true
+    }
+  ],
+  "continuous": {
+    "added_report_actions": 1,
+    "credited_instances": 1,
+    "false_reports": 0,
+    "pinned_memory_checks": 3,
+    "verified_pinned_image_unchanged": true,
+    "max_prefix_position_error_m": 0.0,
+    "success": false
+  },
+  "reviewed_sources": [
+    {
+      "registration": "step12_node1",
+      "reason": "supported",
+      "estimated_fill": 0.7847058823529411,
+      "class_score": 0.7876059412956238,
+      "trusted": true
+    },
+    {
+      "registration": "step147_node3",
+      "reason": "click_outside_foreground",
+      "estimated_fill": 0.0,
+      "class_score": 0.0,
+      "trusted": false
+    },
+    {
+      "registration": "paid_frame13_registration_1",
+      "reason": "supported",
+      "estimated_fill": 0.7835294117647059,
+      "class_score": 0.7285778522491455,
+      "trusted": true
+    },
+    {
+      "registration": "paid_frame13_registration_2",
+      "reason": "no_class_box_at_click",
+      "estimated_fill": 0.0,
+      "class_score": 0.0,
+      "trusted": false
+    }
+  ]
+}

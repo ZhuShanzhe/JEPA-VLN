@@ -1,0 +1,44 @@
+{
+  "houses": 12,
+  "views": 36,
+  "cpu_only": true,
+  "sampling": "First two views by predetermined SHA-256 order per house/category; archived detector boxes and their centres as simulated registration.",
+  "ground_truth": "Habitat instance ID at stored proposal centre belongs to the queried category, and its pixels occupy >=20% of original proposal.",
+  "detector_floor": 0.7,
+  "estimated_fill_floor": 0.3,
+  "counts": {
+    "frames": 36,
+    "candidates": 68,
+    "usable": 50,
+    "accepted": 18,
+    "accepted_usable": 17,
+    "precision": 0.9444444444444444,
+    "recall": 0.34
+  },
+  "by_category": {
+    "wall_art": {
+      "frames": 24,
+      "candidates": 58,
+      "usable": 41,
+      "accepted": 12,
+      "accepted_usable": 11,
+      "precision": 0.9166666666666666,
+      "recall": 0.2682926829268293
+    },
+    "clock": {
+      "frames": 12,
+      "candidates": 10,
+      "usable": 9,
+      "accepted": 6,
+      "accepted_usable": 6,
+      "precision": 1.0,
+      "recall": 0.6666666666666666
+    }
+  },
+  "decisions": {
+    "no_class_box_at_click": 49,
+    "accepted": 18,
+    "below_fill": 1
+  },
+  "cohort_sha256": "77d4d1fb6d945793394dd2b9b3448867d9d951187ff693421b48caa0053f3eaa"
+}

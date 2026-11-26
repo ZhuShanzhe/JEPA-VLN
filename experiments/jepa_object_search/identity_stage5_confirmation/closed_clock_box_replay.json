@@ -1,0 +1,55 @@
+{
+  "official_query": "distinct clock objects",
+  "device": "cuda",
+  "detections": [
+    {
+      "step": 137,
+      "online_box_counts": [
+        2
+      ],
+      "reconstructed_boxes": 2,
+      "count_matches": true,
+      "reference_instance_visible_pixels": 4129,
+      "largest_intersection_pixels": 308,
+      "max_visible_target_fraction": 0.07459433276822475,
+      "max_box_fraction": 0.43874643874643876
+    },
+    {
+      "step": 138,
+      "online_box_counts": [
+        1
+      ],
+      "reconstructed_boxes": 1,
+      "count_matches": true,
+      "reference_instance_visible_pixels": 10194,
+      "largest_intersection_pixels": 1179,
+      "max_visible_target_fraction": 0.11565626839317246,
+      "max_box_fraction": 0.20963726884779516
+    },
+    {
+      "step": 139,
+      "online_box_counts": [
+        1
+      ],
+      "reconstructed_boxes": 1,
+      "count_matches": true,
+      "reference_instance_visible_pixels": 12333,
+      "largest_intersection_pixels": 575,
+      "max_visible_target_fraction": 0.04662288169950539,
+      "max_box_fraction": 0.22321428571428573
+    },
+    {
+      "step": 140,
+      "online_box_counts": [
+        1
+      ],
+      "reconstructed_boxes": 1,
+      "count_matches": true,
+      "reference_instance_visible_pixels": 7171,
+      "largest_intersection_pixels": 753,
+      "max_visible_target_fraction": 0.10500627527541487,
+      "max_box_fraction": 0.21343537414965985
+    }
+  ],
+  "limitation": "Reconstructed from original policy, rendered poses, class text and filter; online logs retain box counts only, not xyxy coordinates."
+}

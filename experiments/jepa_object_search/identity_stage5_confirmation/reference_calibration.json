@@ -1,0 +1,581 @@
+{
+  "unit": "native SAM region or DINO proposal; pre-commit candidates may be correlated",
+  "train_and_holdout": "even/odd target-facing viewpoints in the same two clock/art development rooms; archived views separate",
+  "truth": "after inference only: click on target instance and same instance covers >=20% of registered ROI",
+  "objective": "best F0.5 on even views, stricter occupancy then detector break ties",
+  "thresholds": {
+    "0.4": {
+      "0.1": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 44,
+        "usable_accepted": 12,
+        "precision": 0.2727272727272727,
+        "recall": 0.8571428571428571,
+        "f05": 0.3157894736842105
+      },
+      "0.2": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 40,
+        "usable_accepted": 12,
+        "precision": 0.3,
+        "recall": 0.8571428571428571,
+        "f05": 0.3448275862068966
+      },
+      "0.3": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 40,
+        "usable_accepted": 12,
+        "precision": 0.3,
+        "recall": 0.8571428571428571,
+        "f05": 0.3448275862068966
+      },
+      "0.35": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 39,
+        "usable_accepted": 11,
+        "precision": 0.28205128205128205,
+        "recall": 0.7857142857142857,
+        "f05": 0.3235294117647059
+      },
+      "0.4": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 39,
+        "usable_accepted": 11,
+        "precision": 0.28205128205128205,
+        "recall": 0.7857142857142857,
+        "f05": 0.3235294117647059
+      },
+      "0.5": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 39,
+        "usable_accepted": 11,
+        "precision": 0.28205128205128205,
+        "recall": 0.7857142857142857,
+        "f05": 0.3235294117647059
+      },
+      "0.6": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 35,
+        "usable_accepted": 11,
+        "precision": 0.3142857142857143,
+        "recall": 0.7857142857142857,
+        "f05": 0.35714285714285715
+      }
+    },
+    "0.55": {
+      "0.1": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 26,
+        "usable_accepted": 12,
+        "precision": 0.46153846153846156,
+        "recall": 0.8571428571428571,
+        "f05": 0.5084745762711864
+      },
+      "0.2": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 22,
+        "usable_accepted": 12,
+        "precision": 0.5454545454545454,
+        "recall": 0.8571428571428571,
+        "f05": 0.5882352941176471
+      },
+      "0.3": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 22,
+        "usable_accepted": 12,
+        "precision": 0.5454545454545454,
+        "recall": 0.8571428571428571,
+        "f05": 0.5882352941176471
+      },
+      "0.35": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 21,
+        "usable_accepted": 11,
+        "precision": 0.5238095238095238,
+        "recall": 0.7857142857142857,
+        "f05": 0.5612244897959183
+      },
+      "0.4": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 21,
+        "usable_accepted": 11,
+        "precision": 0.5238095238095238,
+        "recall": 0.7857142857142857,
+        "f05": 0.5612244897959183
+      },
+      "0.5": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 21,
+        "usable_accepted": 11,
+        "precision": 0.5238095238095238,
+        "recall": 0.7857142857142857,
+        "f05": 0.5612244897959183
+      },
+      "0.6": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 21,
+        "usable_accepted": 11,
+        "precision": 0.5238095238095238,
+        "recall": 0.7857142857142857,
+        "f05": 0.5612244897959183
+      }
+    },
+    "0.65": {
+      "0.1": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 19,
+        "usable_accepted": 10,
+        "precision": 0.5263157894736842,
+        "recall": 0.7142857142857143,
+        "f05": 0.5555555555555556
+      },
+      "0.2": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 16,
+        "usable_accepted": 10,
+        "precision": 0.625,
+        "recall": 0.7142857142857143,
+        "f05": 0.6410256410256411
+      },
+      "0.3": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 16,
+        "usable_accepted": 10,
+        "precision": 0.625,
+        "recall": 0.7142857142857143,
+        "f05": 0.6410256410256411
+      },
+      "0.35": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 15,
+        "usable_accepted": 9,
+        "precision": 0.6,
+        "recall": 0.6428571428571429,
+        "f05": 0.6081081081081081
+      },
+      "0.4": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 15,
+        "usable_accepted": 9,
+        "precision": 0.6,
+        "recall": 0.6428571428571429,
+        "f05": 0.6081081081081081
+      },
+      "0.5": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 15,
+        "usable_accepted": 9,
+        "precision": 0.6,
+        "recall": 0.6428571428571429,
+        "f05": 0.6081081081081081
+      },
+      "0.6": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 15,
+        "usable_accepted": 9,
+        "precision": 0.6,
+        "recall": 0.6428571428571429,
+        "f05": 0.6081081081081081
+      }
+    },
+    "0.7": {
+      "0.1": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 16,
+        "usable_accepted": 10,
+        "precision": 0.625,
+        "recall": 0.7142857142857143,
+        "f05": 0.6410256410256411
+      },
+      "0.2": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 13,
+        "usable_accepted": 10,
+        "precision": 0.7692307692307693,
+        "recall": 0.7142857142857143,
+        "f05": 0.7575757575757576
+      },
+      "0.3": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 13,
+        "usable_accepted": 10,
+        "precision": 0.7692307692307693,
+        "recall": 0.7142857142857143,
+        "f05": 0.7575757575757576
+      },
+      "0.35": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 12,
+        "usable_accepted": 9,
+        "precision": 0.75,
+        "recall": 0.6428571428571429,
+        "f05": 0.7258064516129032
+      },
+      "0.4": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 12,
+        "usable_accepted": 9,
+        "precision": 0.75,
+        "recall": 0.6428571428571429,
+        "f05": 0.7258064516129032
+      },
+      "0.5": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 12,
+        "usable_accepted": 9,
+        "precision": 0.75,
+        "recall": 0.6428571428571429,
+        "f05": 0.7258064516129032
+      },
+      "0.6": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 12,
+        "usable_accepted": 9,
+        "precision": 0.75,
+        "recall": 0.6428571428571429,
+        "f05": 0.7258064516129032
+      }
+    },
+    "0.75": {
+      "0.1": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 9,
+        "usable_accepted": 6,
+        "precision": 0.6666666666666666,
+        "recall": 0.42857142857142855,
+        "f05": 0.6
+      },
+      "0.2": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 7,
+        "usable_accepted": 6,
+        "precision": 0.8571428571428571,
+        "recall": 0.42857142857142855,
+        "f05": 0.7142857142857143
+      },
+      "0.3": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 7,
+        "usable_accepted": 6,
+        "precision": 0.8571428571428571,
+        "recall": 0.42857142857142855,
+        "f05": 0.7142857142857143
+      },
+      "0.35": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 7,
+        "usable_accepted": 6,
+        "precision": 0.8571428571428571,
+        "recall": 0.42857142857142855,
+        "f05": 0.7142857142857143
+      },
+      "0.4": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 7,
+        "usable_accepted": 6,
+        "precision": 0.8571428571428571,
+        "recall": 0.42857142857142855,
+        "f05": 0.7142857142857143
+      },
+      "0.5": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 7,
+        "usable_accepted": 6,
+        "precision": 0.8571428571428571,
+        "recall": 0.42857142857142855,
+        "f05": 0.7142857142857143
+      },
+      "0.6": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 7,
+        "usable_accepted": 6,
+        "precision": 0.8571428571428571,
+        "recall": 0.42857142857142855,
+        "f05": 0.7142857142857143
+      }
+    },
+    "0.8": {
+      "0.1": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 0,
+        "usable_accepted": 0,
+        "precision": null,
+        "recall": 0.0,
+        "f05": 0.0
+      },
+      "0.2": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 0,
+        "usable_accepted": 0,
+        "precision": null,
+        "recall": 0.0,
+        "f05": 0.0
+      },
+      "0.3": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 0,
+        "usable_accepted": 0,
+        "precision": null,
+        "recall": 0.0,
+        "f05": 0.0
+      },
+      "0.35": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 0,
+        "usable_accepted": 0,
+        "precision": null,
+        "recall": 0.0,
+        "f05": 0.0
+      },
+      "0.4": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 0,
+        "usable_accepted": 0,
+        "precision": null,
+        "recall": 0.0,
+        "f05": 0.0
+      },
+      "0.5": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 0,
+        "usable_accepted": 0,
+        "precision": null,
+        "recall": 0.0,
+        "f05": 0.0
+      },
+      "0.6": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 0,
+        "usable_accepted": 0,
+        "precision": null,
+        "recall": 0.0,
+        "f05": 0.0
+      }
+    },
+    "0.85": {
+      "0.1": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 0,
+        "usable_accepted": 0,
+        "precision": null,
+        "recall": 0.0,
+        "f05": 0.0
+      },
+      "0.2": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 0,
+        "usable_accepted": 0,
+        "precision": null,
+        "recall": 0.0,
+        "f05": 0.0
+      },
+      "0.3": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 0,
+        "usable_accepted": 0,
+        "precision": null,
+        "recall": 0.0,
+        "f05": 0.0
+      },
+      "0.35": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 0,
+        "usable_accepted": 0,
+        "precision": null,
+        "recall": 0.0,
+        "f05": 0.0
+      },
+      "0.4": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 0,
+        "usable_accepted": 0,
+        "precision": null,
+        "recall": 0.0,
+        "f05": 0.0
+      },
+      "0.5": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 0,
+        "usable_accepted": 0,
+        "precision": null,
+        "recall": 0.0,
+        "f05": 0.0
+      },
+      "0.6": {
+        "candidates": 423,
+        "usable": 14,
+        "accepted": 0,
+        "usable_accepted": 0,
+        "precision": null,
+        "recall": 0.0,
+        "f05": 0.0
+      }
+    }
+  },
+  "selected_occupancy": 0.3,
+  "selected_detector": 0.7,
+  "runtime_occupancy": 0.3,
+  "runtime_detector": 0.7,
+  "at_selected": {
+    "calibration": {
+      "candidates": 423,
+      "usable": 14,
+      "accepted": 13,
+      "usable_accepted": 10,
+      "precision": 0.7692307692307693,
+      "recall": 0.7142857142857143,
+      "f05": 0.7575757575757576
+    },
+    "heldout_views": {
+      "candidates": 418,
+      "usable": 16,
+      "accepted": 17,
+      "usable_accepted": 15,
+      "precision": 0.8823529411764706,
+      "recall": 0.9375,
+      "f05": 0.8928571428571429
+    },
+    "archived": {
+      "candidates": 176,
+      "usable": 6,
+      "accepted": 13,
+      "usable_accepted": 2,
+      "precision": 0.15384615384615385,
+      "recall": 0.3333333333333333,
+      "f05": 0.1724137931034483
+    }
+  },
+  "by_category": {
+    "calibration": {
+      "clock": {
+        "candidates": 188,
+        "usable": 3,
+        "accepted": 2,
+        "usable_accepted": 1,
+        "precision": 0.5,
+        "recall": 0.3333333333333333,
+        "f05": 0.45454545454545453
+      },
+      "wall_art": {
+        "candidates": 235,
+        "usable": 11,
+        "accepted": 11,
+        "usable_accepted": 9,
+        "precision": 0.8181818181818182,
+        "recall": 0.8181818181818182,
+        "f05": 0.8181818181818182
+      }
+    },
+    "heldout_views": {
+      "clock": {
+        "candidates": 179,
+        "usable": 2,
+        "accepted": 3,
+        "usable_accepted": 1,
+        "precision": 0.3333333333333333,
+        "recall": 0.5,
+        "f05": 0.35714285714285715
+      },
+      "wall_art": {
+        "candidates": 239,
+        "usable": 14,
+        "accepted": 14,
+        "usable_accepted": 14,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f05": 1.0
+      }
+    },
+    "archived": {
+      "clock": {
+        "candidates": 76,
+        "usable": 6,
+        "accepted": 5,
+        "usable_accepted": 2,
+        "precision": 0.4,
+        "recall": 0.3333333333333333,
+        "f05": 0.38461538461538464
+      },
+      "wall_art": {
+        "candidates": 100,
+        "usable": 0,
+        "accepted": 8,
+        "usable_accepted": 0,
+        "precision": 0.0,
+        "recall": null,
+        "f05": 0.0
+      }
+    }
+  },
+  "offered_groups": {
+    "calibration": {
+      "usable": 10,
+      "task_at_click_under_20pct": 1,
+      "no_task_pixels_in_box": 2
+    },
+    "heldout_views": {
+      "task_at_click_under_20pct": 1,
+      "click_misses_task": 1,
+      "usable": 15
+    },
+    "archived": {
+      "usable": 2,
+      "click_misses_task": 2,
+      "task_at_click_under_20pct": 1,
+      "no_task_pixels_in_box": 8
+    }
+  },
+  "views": {
+    "calibration": 18,
+    "heldout_views": 18,
+    "archived": 7
+  }
+}
