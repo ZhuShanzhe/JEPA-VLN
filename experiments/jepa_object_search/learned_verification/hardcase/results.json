@@ -1,0 +1,69 @@
+{
+  "actions_allowed": 12,
+  "eligible_routes": 2,
+  "source_box_fraction": 0.003167812048120926,
+  "controls": "Fixed one historical start. Ideal prefix odometry and the already-planned old path supply a traversability proxy. Target estimate and reference pose from the old online agent. Every eligible path includes forward motion.",
+  "paid_calls": 0,
+  "initial": {
+    "target_pixels": 11693,
+    "in_legal_range": true,
+    "live_boxes": 1,
+    "best_box_iou": 0.06579873328641801,
+    "best_target_coverage": 0.08150175318566664,
+    "appearance_support": false,
+    "appearance_reason": "no_current_instance_match"
+  },
+  "branches": {
+    "geometric": {
+      "steps": 3,
+      "collisions": 2,
+      "path_m": 0.069,
+      "same_route_as_geometric": true,
+      "selected_route_index": 0,
+      "route_type": "archived_geometric",
+      "endpoint": {
+        "target_pixels": 17968,
+        "in_legal_range": true,
+        "live_boxes": 1,
+        "best_box_iou": 0.055502453323137704,
+        "best_target_coverage": 0.050144701691896706,
+        "appearance_support": false,
+        "appearance_reason": "no_current_instance_match"
+      }
+    },
+    "direct": {
+      "steps": 3,
+      "collisions": 2,
+      "path_m": 0.069,
+      "same_route_as_geometric": true,
+      "selected_route_index": 0,
+      "route_type": "archived_geometric",
+      "endpoint": {
+        "target_pixels": 17968,
+        "in_legal_range": true,
+        "live_boxes": 1,
+        "best_box_iou": 0.055502453323137704,
+        "best_target_coverage": 0.050144701691896706,
+        "appearance_support": false,
+        "appearance_reason": "no_current_instance_match"
+      }
+    },
+    "jepa": {
+      "steps": 1,
+      "collisions": 1,
+      "path_m": 0.0,
+      "same_route_as_geometric": false,
+      "selected_route_index": 1,
+      "route_type": "map_probe",
+      "endpoint": {
+        "target_pixels": 11693,
+        "in_legal_range": true,
+        "live_boxes": 1,
+        "best_box_iou": 0.06579873328641801,
+        "best_target_coverage": 0.08150175318566664,
+        "appearance_support": false,
+        "appearance_reason": "no_current_instance_match"
+      }
+    }
+  }
+}

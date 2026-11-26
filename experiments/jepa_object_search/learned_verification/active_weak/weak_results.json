@@ -1,0 +1,440 @@
+{
+  "protocol": "independent matched/fragment/cropped/off-target RGB sources; target is subsequent one-to-one same-instance detector IoU >=0.5; cases overlap across corruption conditions; small is <=2% of image.",
+  "training_future_embedding_valid": 1266,
+  "splits": {
+    "test": {
+      "houses": 16,
+      "two_option_cases": 1444,
+      "groups_by_source": {
+        "detector_matched": 338,
+        "synthetic_partial": 661,
+        "synthetic_offset": 404,
+        "detector_fragment": 41
+      }
+    },
+    "val": {
+      "houses": 6,
+      "two_option_cases": 481,
+      "groups_by_source": {
+        "detector_matched": 159,
+        "synthetic_partial": 194,
+        "synthetic_offset": 115,
+        "detector_fragment": 13
+      }
+    },
+    "train": {
+      "houses": 10,
+      "two_option_cases": 1014,
+      "groups_by_source": {
+        "detector_matched": 259,
+        "synthetic_partial": 445,
+        "synthetic_offset": 282,
+        "detector_fragment": 28
+      }
+    }
+  },
+  "calibration": {
+    "direct": {
+      "epoch": 21,
+      "source_macro_redetection": 0.8336894936264456
+    },
+    "jepa": {
+      "epoch": 25,
+      "source_macro_redetection": 0.83497815342026
+    }
+  },
+  "test": {
+    "detector_fragment_all": {
+      "direct": {
+        "groups": 41,
+        "houses": 16,
+        "redetection": 0.7073170731707317
+      },
+      "jepa": {
+        "groups": 41,
+        "houses": 16,
+        "redetection": 0.7317073170731707
+      },
+      "old_direct": {
+        "groups": 41,
+        "houses": 16,
+        "redetection": 0.6097560975609756
+      },
+      "old_jepa": {
+        "groups": 41,
+        "houses": 16,
+        "redetection": 0.6341463414634146
+      },
+      "forward": {
+        "groups": 41,
+        "houses": 16,
+        "redetection": 0.6707317073170732
+      },
+      "minimum_turn": {
+        "groups": 41,
+        "houses": 16,
+        "redetection": 0.6341463414634146
+      },
+      "random": {
+        "groups": 41,
+        "houses": 16,
+        "redetection": 0.5853658536585366
+      },
+      "oracle": {
+        "groups": 41,
+        "houses": 16,
+        "redetection": 0.7804878048780488
+      },
+      "house_jepa_minus_direct": {
+        "mean": -0.017361111111111112,
+        "ci95": [
+          -0.09375,
+          0.041666666666666664
+        ]
+      }
+    },
+    "detector_fragment_small": {
+      "direct": {
+        "groups": 12,
+        "houses": 8,
+        "redetection": 0.5833333333333334
+      },
+      "jepa": {
+        "groups": 12,
+        "houses": 8,
+        "redetection": 0.5833333333333334
+      },
+      "old_direct": {
+        "groups": 12,
+        "houses": 8,
+        "redetection": 0.5833333333333334
+      },
+      "old_jepa": {
+        "groups": 12,
+        "houses": 8,
+        "redetection": 0.5
+      },
+      "forward": {
+        "groups": 12,
+        "houses": 8,
+        "redetection": 0.625
+      },
+      "minimum_turn": {
+        "groups": 12,
+        "houses": 8,
+        "redetection": 0.5416666666666666
+      },
+      "random": {
+        "groups": 12,
+        "houses": 8,
+        "redetection": 0.5416666666666666
+      },
+      "oracle": {
+        "groups": 12,
+        "houses": 8,
+        "redetection": 0.6666666666666666
+      },
+      "house_jepa_minus_direct": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "detector_matched_all": {
+      "direct": {
+        "groups": 338,
+        "houses": 16,
+        "redetection": 0.863905325443787
+      },
+      "jepa": {
+        "groups": 338,
+        "houses": 16,
+        "redetection": 0.8609467455621301
+      },
+      "old_direct": {
+        "groups": 338,
+        "houses": 16,
+        "redetection": 0.8372781065088757
+      },
+      "old_jepa": {
+        "groups": 338,
+        "houses": 16,
+        "redetection": 0.8431952662721893
+      },
+      "forward": {
+        "groups": 338,
+        "houses": 16,
+        "redetection": 0.849112426035503
+      },
+      "minimum_turn": {
+        "groups": 338,
+        "houses": 16,
+        "redetection": 0.8431952662721893
+      },
+      "random": {
+        "groups": 338,
+        "houses": 16,
+        "redetection": 0.8076923076923077
+      },
+      "oracle": {
+        "groups": 338,
+        "houses": 16,
+        "redetection": 0.8964497041420119
+      },
+      "house_jepa_minus_direct": {
+        "mean": -0.0010466988727858293,
+        "ci95": [
+          -0.012962962962962963,
+          0.010869565217391304
+        ]
+      }
+    },
+    "detector_matched_small": {
+      "direct": {
+        "groups": 69,
+        "houses": 13,
+        "redetection": 0.7246376811594203
+      },
+      "jepa": {
+        "groups": 69,
+        "houses": 13,
+        "redetection": 0.7246376811594203
+      },
+      "old_direct": {
+        "groups": 69,
+        "houses": 13,
+        "redetection": 0.6956521739130435
+      },
+      "old_jepa": {
+        "groups": 69,
+        "houses": 13,
+        "redetection": 0.7391304347826086
+      },
+      "forward": {
+        "groups": 69,
+        "houses": 13,
+        "redetection": 0.7608695652173914
+      },
+      "minimum_turn": {
+        "groups": 69,
+        "houses": 13,
+        "redetection": 0.717391304347826
+      },
+      "random": {
+        "groups": 69,
+        "houses": 13,
+        "redetection": 0.7246376811594203
+      },
+      "oracle": {
+        "groups": 69,
+        "houses": 13,
+        "redetection": 0.8115942028985508
+      },
+      "house_jepa_minus_direct": {
+        "mean": 0.003996003996003995,
+        "ci95": [
+          -0.020979020979020976,
+          0.03296703296703297
+        ]
+      }
+    },
+    "synthetic_offset_all": {
+      "direct": {
+        "groups": 404,
+        "houses": 16,
+        "redetection": 0.5272277227722773
+      },
+      "jepa": {
+        "groups": 404,
+        "houses": 16,
+        "redetection": 0.5297029702970297
+      },
+      "old_direct": {
+        "groups": 404,
+        "houses": 16,
+        "redetection": 0.5074257425742574
+      },
+      "old_jepa": {
+        "groups": 404,
+        "houses": 16,
+        "redetection": 0.5148514851485149
+      },
+      "forward": {
+        "groups": 404,
+        "houses": 16,
+        "redetection": 0.5284653465346535
+      },
+      "minimum_turn": {
+        "groups": 404,
+        "houses": 16,
+        "redetection": 0.5123762376237624
+      },
+      "random": {
+        "groups": 404,
+        "houses": 16,
+        "redetection": 0.504950495049505
+      },
+      "oracle": {
+        "groups": 404,
+        "houses": 16,
+        "redetection": 0.5693069306930693
+      },
+      "house_jepa_minus_direct": {
+        "mean": 0.002331839356295878,
+        "ci95": [
+          -0.008524249188311687,
+          0.013654891304347827
+        ]
+      }
+    },
+    "synthetic_offset_small": {
+      "direct": {
+        "groups": 204,
+        "houses": 16,
+        "redetection": 0.28431372549019607
+      },
+      "jepa": {
+        "groups": 204,
+        "houses": 16,
+        "redetection": 0.28921568627450983
+      },
+      "old_direct": {
+        "groups": 204,
+        "houses": 16,
+        "redetection": 0.2696078431372549
+      },
+      "old_jepa": {
+        "groups": 204,
+        "houses": 16,
+        "redetection": 0.2647058823529412
+      },
+      "forward": {
+        "groups": 204,
+        "houses": 16,
+        "redetection": 0.28921568627450983
+      },
+      "minimum_turn": {
+        "groups": 204,
+        "houses": 16,
+        "redetection": 0.2696078431372549
+      },
+      "random": {
+        "groups": 204,
+        "houses": 16,
+        "redetection": 0.2818627450980392
+      },
+      "oracle": {
+        "groups": 204,
+        "houses": 16,
+        "redetection": 0.3333333333333333
+      },
+      "house_jepa_minus_direct": {
+        "mean": -0.00284090909090909,
+        "ci95": [
+          -0.029356060606060604,
+          0.018939393939393936
+        ]
+      }
+    },
+    "synthetic_partial_all": {
+      "direct": {
+        "groups": 661,
+        "houses": 16,
+        "redetection": 0.5068078668683812
+      },
+      "jepa": {
+        "groups": 661,
+        "houses": 16,
+        "redetection": 0.5068078668683812
+      },
+      "old_direct": {
+        "groups": 661,
+        "houses": 16,
+        "redetection": 0.4856278366111952
+      },
+      "old_jepa": {
+        "groups": 661,
+        "houses": 16,
+        "redetection": 0.4962178517397882
+      },
+      "forward": {
+        "groups": 661,
+        "houses": 16,
+        "redetection": 0.4939485627836611
+      },
+      "minimum_turn": {
+        "groups": 661,
+        "houses": 16,
+        "redetection": 0.4863842662632375
+      },
+      "random": {
+        "groups": 661,
+        "houses": 16,
+        "redetection": 0.4697428139183056
+      },
+      "oracle": {
+        "groups": 661,
+        "houses": 16,
+        "redetection": 0.540090771558245
+      },
+      "house_jepa_minus_direct": {
+        "mean": 0.0,
+        "ci95": [
+          -0.005067567567567568,
+          0.005067567567567568
+        ]
+      }
+    },
+    "synthetic_partial_small": {
+      "direct": {
+        "groups": 606,
+        "houses": 16,
+        "redetection": 0.4735973597359736
+      },
+      "jepa": {
+        "groups": 606,
+        "houses": 16,
+        "redetection": 0.47194719471947194
+      },
+      "old_direct": {
+        "groups": 606,
+        "houses": 16,
+        "redetection": 0.4521452145214521
+      },
+      "old_jepa": {
+        "groups": 606,
+        "houses": 16,
+        "redetection": 0.466996699669967
+      },
+      "forward": {
+        "groups": 606,
+        "houses": 16,
+        "redetection": 0.4645214521452145
+      },
+      "minimum_turn": {
+        "groups": 606,
+        "houses": 16,
+        "redetection": 0.452970297029703
+      },
+      "random": {
+        "groups": 606,
+        "houses": 16,
+        "redetection": 0.4405940594059406
+      },
+      "oracle": {
+        "groups": 606,
+        "houses": 16,
+        "redetection": 0.504950495049505
+      },
+      "house_jepa_minus_direct": {
+        "mean": -0.001736111111111111,
+        "ci95": [
+          -0.005208333333333333,
+          0.0
+        ]
+      }
+    }
+  }
+}

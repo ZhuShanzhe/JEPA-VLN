@@ -1,0 +1,21 @@
+{
+  "budget": 12,
+  "pool": 2,
+  "first_step_stalled": true,
+  "safe_unvisited_routes": 1,
+  "retries": 1,
+  "fallback_planned_steps": 3,
+  "steps_used": 4,
+  "travel_m": 0.069,
+  "fallback_stalled": false,
+  "endpoint": {
+    "target_pixels": 17968,
+    "in_legal_range": true,
+    "live_boxes": 1,
+    "best_box_iou": 0.055502453323137704,
+    "best_target_coverage": 0.050144701691896706,
+    "appearance_support": false,
+    "appearance_reason": "no_current_instance_match"
+  },
+  "paid_calls": 0
+}

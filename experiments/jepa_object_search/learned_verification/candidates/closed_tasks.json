@@ -1,0 +1,106 @@
+{
+  "paid_requests": 0,
+  "eligible_target": ">=103 semantic pixels; tight target bounding box IoU >=0.5",
+  "assumption": "Recorded fixed trajectories. Decision-time mapped and viewable IDs bound a causal pool. Exact per-pose availability is not archived. Original frame picks reuse the same localized-box evaluator.",
+  "tasks": [
+    {
+      "category": "clock",
+      "all_mapped_keyframes": {
+        "frames": 251,
+        "visible": 150,
+        "high_score": 122,
+        "high_score_localized": 4
+      },
+      "original_source_slots": {
+        "slots": 4,
+        "scored": 4,
+        "visible": 4,
+        "localized": 0
+      },
+      "suggested_source_slots": {
+        "slots": 4,
+        "abstained": 2,
+        "scored": 2,
+        "visible": 2,
+        "localized": 0
+      },
+      "distinct_original_sources": 4,
+      "distinct_assisted_sources": 2,
+      "locally_inspected": 72
+    },
+    {
+      "category": "painting",
+      "all_mapped_keyframes": {
+        "frames": 274,
+        "visible": 0,
+        "high_score": 266,
+        "high_score_localized": 0
+      },
+      "original_source_slots": {
+        "slots": 6,
+        "scored": 6,
+        "visible": 0,
+        "localized": 0
+      },
+      "suggested_source_slots": {
+        "slots": 6,
+        "scored": 5,
+        "visible": 0,
+        "localized": 0,
+        "abstained": 1
+      },
+      "distinct_original_sources": 4,
+      "distinct_assisted_sources": 5,
+      "locally_inspected": 45
+    }
+  ],
+  "with_full_goal_filter": [
+    {
+      "category": "clock",
+      "all_mapped_keyframes": {
+        "frames": 251,
+        "visible": 150,
+        "high_score": 122,
+        "high_score_localized": 4
+      },
+      "original_source_slots": {
+        "slots": 4,
+        "scored": 4,
+        "visible": 4,
+        "localized": 0
+      },
+      "suggested_source_slots": {
+        "slots": 4,
+        "abstained": 3,
+        "scored": 1,
+        "visible": 1,
+        "localized": 0
+      },
+      "distinct_original_sources": 4,
+      "distinct_assisted_sources": 1,
+      "locally_inspected": 72
+    },
+    {
+      "category": "painting",
+      "all_mapped_keyframes": {
+        "frames": 274,
+        "visible": 0,
+        "high_score": 266,
+        "high_score_localized": 0
+      },
+      "original_source_slots": {
+        "slots": 6,
+        "scored": 6,
+        "visible": 0,
+        "localized": 0
+      },
+      "suggested_source_slots": {
+        "slots": 6,
+        "abstained": 6
+      },
+      "distinct_original_sources": 4,
+      "distinct_assisted_sources": 0,
+      "locally_inspected": 45
+    }
+  ]
+}

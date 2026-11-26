@@ -1,0 +1,112 @@
+{
+  "protocol": "Controlled HM3D clock replay. Pre-input native UNCERTAIN review, source box, 60 cm range, ideal odometry, traversed-corridor map and keyframe transport. Actual Habitat movements, detector, policy scores and inspection attachment. No second VLM verdict or terminal navigation score.",
+  "paid_calls": 0,
+  "trials": {
+    "local": {
+      "true_source": {
+        "head": "ActiveViewScorer",
+        "ranked_views": 5,
+        "initial_plan_actions": 11,
+        "distance_m": 0.813,
+        "absolute_turn_deg": 240.0,
+        "collisions": 0,
+        "return_reason": "fresh_view",
+        "final_candidate_status": "uncertain",
+        "new_frame_handed_to_reviewer": true,
+        "exact_attachment_verified": true,
+        "registered": 0,
+        "reports": 0,
+        "after_motion_audit": {
+          "reference_overlaps_target": true,
+          "source_instance_pixels_before_after": [
+            0,
+            3710
+          ],
+          "any_requested_instance_pixels_before_after": [
+            0,
+            3710
+          ]
+        },
+        "completed_actions": 11,
+        "detector_checks": 10
+      },
+      "wrong_source": {
+        "head": "ActiveViewScorer",
+        "ranked_views": 5,
+        "initial_plan_actions": 11,
+        "distance_m": 0.813,
+        "absolute_turn_deg": 240.0,
+        "collisions": 0,
+        "return_reason": "fresh_view",
+        "final_candidate_status": "uncertain",
+        "new_frame_handed_to_reviewer": true,
+        "exact_attachment_verified": true,
+        "registered": 0,
+        "reports": 0,
+        "after_motion_audit": {
+          "reference_overlaps_target": false,
+          "source_instance_pixels_before_after": null,
+          "any_requested_instance_pixels_before_after": [
+            0,
+            3710
+          ]
+        },
+        "completed_actions": 11,
+        "detector_checks": 10
+      }
+    },
+    "context": {
+      "true_source": {
+        "head": "WeakViewScorer",
+        "ranked_views": 5,
+        "initial_plan_actions": 6,
+        "distance_m": 0.262,
+        "absolute_turn_deg": 150.0,
+        "collisions": 0,
+        "return_reason": "fresh_view",
+        "final_candidate_status": "uncertain",
+        "new_frame_handed_to_reviewer": true,
+        "exact_attachment_verified": true,
+        "registered": 0,
+        "reports": 0,
+        "after_motion_audit": {
+          "reference_overlaps_target": true,
+          "source_instance_pixels_before_after": [
+            0,
+            3218
+          ],
+          "any_requested_instance_pixels_before_after": [
+            0,
+            3218
+          ]
+        },
+        "completed_actions": 6,
+        "detector_checks": 5
+      },
+      "wrong_source": {
+        "head": "WeakViewScorer",
+        "ranked_views": 5,
+        "initial_plan_actions": 11,
+        "distance_m": 1.096,
+        "absolute_turn_deg": 210.0,
+        "collisions": 0,
+        "return_reason": "fresh_view",
+        "final_candidate_status": "uncertain",
+        "new_frame_handed_to_reviewer": true,
+        "exact_attachment_verified": true,
+        "registered": 0,
+        "reports": 0,
+        "after_motion_audit": {
+          "reference_overlaps_target": false,
+          "source_instance_pixels_before_after": null,
+          "any_requested_instance_pixels_before_after": [
+            0,
+            3844
+          ]
+        },
+        "completed_actions": 11,
+        "detector_checks": 10
+      }
+    }
+  }
+}

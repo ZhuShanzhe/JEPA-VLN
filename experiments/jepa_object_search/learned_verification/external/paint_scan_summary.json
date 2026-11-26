@@ -1,0 +1,21 @@
+{
+  "paid_requests": 0,
+  "source": "First pose in range from a previously accepted HM3D painting trajectory",
+  "start_selected_retrospectively": true,
+  "physics_actions": 12,
+  "look_up_down_enabled": true,
+  "action_counts": {
+    "TURN_RIGHT": 10,
+    "LOOK_UP": 1,
+    "LOOK_DOWN": 1
+  },
+  "full_scored_views": 13,
+  "distinct_rendered_images": 13,
+  "max_base_displacement_m": 0.0,
+  "start_task_pixels": 0,
+  "best_task_pixels_in_scan": 0,
+  "views_after_movement_with_at_least_103_task_pixels": 0,
+  "start_best_detector_iou": 0.0,
+  "peak_best_detector_iou": 0.0,
+  "newly_scanned_views_with_detector_iou_at_least_half": 0
+}

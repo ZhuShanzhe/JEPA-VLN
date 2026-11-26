@@ -1,0 +1,196 @@
+{
+  "arms": {
+    "registered_camera": {
+      "true_reference": {
+        "actions": 11,
+        "forward": 3,
+        "collided": 0,
+        "plan": "registered_camera",
+        "options": null,
+        "verification_reason": "registered_patch_and_current_box",
+        "true_target_pixels_after_return": 3710,
+        "reference_on_target": true,
+        "reported": true,
+        "official_credit": 1
+      },
+      "wrong_reference": {
+        "actions": 11,
+        "forward": 3,
+        "collided": 0,
+        "plan": "registered_camera",
+        "options": null,
+        "verification_reason": "registered_patch_and_current_box",
+        "true_target_pixels_after_return": 0,
+        "reference_on_target": false,
+        "reported": true,
+        "official_credit": 1
+      },
+      "no_live_detection": {
+        "actions": 11,
+        "forward": 3,
+        "collided": 0,
+        "plan": "registered_camera",
+        "options": null,
+        "verification_reason": "no_local_target_box",
+        "true_target_pixels_after_return": 3710,
+        "reference_on_target": true,
+        "reported": false,
+        "official_credit": 0
+      }
+    },
+    "direct": {
+      "true_reference": {
+        "actions": 11,
+        "forward": 3,
+        "collided": 0,
+        "plan": "learned_registered_camera",
+        "options": 5,
+        "verification_reason": "registered_patch_and_current_box",
+        "true_target_pixels_after_return": 3710,
+        "reference_on_target": true,
+        "reported": true,
+        "official_credit": 1
+      },
+      "wrong_reference": {
+        "actions": 11,
+        "forward": 3,
+        "collided": 0,
+        "plan": "learned_registered_camera",
+        "options": 5,
+        "verification_reason": "registered_patch_and_current_box",
+        "true_target_pixels_after_return": 0,
+        "reference_on_target": false,
+        "reported": true,
+        "official_credit": 1
+      },
+      "no_live_detection": {
+        "actions": 11,
+        "forward": 3,
+        "collided": 0,
+        "plan": "learned_registered_camera",
+        "options": 5,
+        "verification_reason": "no_local_target_box",
+        "true_target_pixels_after_return": 3710,
+        "reference_on_target": true,
+        "reported": false,
+        "official_credit": 0
+      }
+    },
+    "jepa": {
+      "true_reference": {
+        "actions": 11,
+        "forward": 3,
+        "collided": 0,
+        "plan": "learned_registered_camera",
+        "options": 5,
+        "verification_reason": "registered_patch_and_current_box",
+        "true_target_pixels_after_return": 3710,
+        "reference_on_target": true,
+        "reported": true,
+        "official_credit": 1
+      },
+      "wrong_reference": {
+        "actions": 11,
+        "forward": 3,
+        "collided": 0,
+        "plan": "learned_registered_camera",
+        "options": 5,
+        "verification_reason": "registered_patch_and_current_box",
+        "true_target_pixels_after_return": 0,
+        "reference_on_target": false,
+        "reported": true,
+        "official_credit": 1
+      },
+      "no_live_detection": {
+        "actions": 11,
+        "forward": 3,
+        "collided": 0,
+        "plan": "learned_registered_camera",
+        "options": 5,
+        "verification_reason": "no_local_target_box",
+        "true_target_pixels_after_return": 3710,
+        "reference_on_target": true,
+        "reported": false,
+        "official_credit": 0
+      }
+    },
+    "context_direct": {
+      "true_reference": {
+        "actions": 11,
+        "forward": 3,
+        "collided": 0,
+        "plan": "learned_registered_camera",
+        "options": 5,
+        "verification_reason": "registered_patch_and_current_box",
+        "true_target_pixels_after_return": 3710,
+        "reference_on_target": true,
+        "reported": true,
+        "official_credit": 1
+      },
+      "wrong_reference": {
+        "actions": 11,
+        "forward": 4,
+        "collided": 0,
+        "plan": "learned_map_probe",
+        "options": 5,
+        "verification_reason": "no_current_instance_match",
+        "true_target_pixels_after_return": 0,
+        "reference_on_target": false,
+        "reported": false,
+        "official_credit": 0
+      },
+      "no_live_detection": {
+        "actions": 11,
+        "forward": 3,
+        "collided": 0,
+        "plan": "learned_registered_camera",
+        "options": 5,
+        "verification_reason": "no_local_target_box",
+        "true_target_pixels_after_return": 3710,
+        "reference_on_target": true,
+        "reported": false,
+        "official_credit": 0
+      }
+    },
+    "context_jepa": {
+      "true_reference": {
+        "actions": 12,
+        "forward": 3,
+        "collided": 0,
+        "plan": "learned_map_probe",
+        "options": 5,
+        "verification_reason": "no_current_instance_match",
+        "true_target_pixels_after_return": 2798,
+        "reference_on_target": true,
+        "reported": false,
+        "official_credit": 0
+      },
+      "wrong_reference": {
+        "actions": 11,
+        "forward": 4,
+        "collided": 0,
+        "plan": "learned_map_probe",
+        "options": 5,
+        "verification_reason": "no_current_instance_match",
+        "true_target_pixels_after_return": 0,
+        "reference_on_target": false,
+        "reported": false,
+        "official_credit": 0
+      },
+      "no_live_detection": {
+        "actions": 12,
+        "forward": 3,
+        "collided": 0,
+        "plan": "learned_map_probe",
+        "options": 5,
+        "verification_reason": "no_local_target_box",
+        "true_target_pixels_after_return": 2798,
+        "reference_on_target": true,
+        "reported": false,
+        "official_credit": 0
+      }
+    }
+  },
+  "paid_calls": 0,
+  "task": "One HM3D clock scene, two source boxes, matched synthetic local geometry and ideal odometry"
+}

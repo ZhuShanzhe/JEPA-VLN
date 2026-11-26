@@ -1,0 +1,771 @@
+{
+  "outcome": "true if the fixed detector has a one-to-one IoU>=0.5 assignment to this instance in the chosen endpoint",
+  "candidates": "the two other recorded nearby orientations of the same physical HSSD camera sequence",
+  "reference_population": "only target instances already grounded by a matched live detector box at the reference",
+  "all": {
+    "groups": 338,
+    "houses": 16,
+    "metrics": {
+      "jepa": {
+        "mean_iou_of_assigned_detection": 0.7863790738112911,
+        "prob_same_instance_detected": 0.8431952662721893,
+        "prob_no_qualified_gt_region": 0.0621301775147929,
+        "prob_visible_region_but_detector_missed": 0.09467455621301775
+      },
+      "direct": {
+        "mean_iou_of_assigned_detection": 0.781878616353982,
+        "prob_same_instance_detected": 0.8372781065088757,
+        "prob_no_qualified_gt_region": 0.0650887573964497,
+        "prob_visible_region_but_detector_missed": 0.09763313609467456
+      },
+      "forward_displacement": {
+        "mean_iou_of_assigned_detection": 0.7939575153129664,
+        "prob_same_instance_detected": 0.849112426035503,
+        "prob_no_qualified_gt_region": 0.06360946745562131,
+        "prob_visible_region_but_detector_missed": 0.08727810650887574
+      },
+      "smallest_turn": {
+        "mean_iou_of_assigned_detection": 0.786888121560124,
+        "prob_same_instance_detected": 0.8431952662721893,
+        "prob_no_qualified_gt_region": 0.060650887573964495,
+        "prob_visible_region_but_detector_missed": 0.09615384615384616
+      },
+      "random": {
+        "mean_iou_of_assigned_detection": 0.756255204969118,
+        "prob_same_instance_detected": 0.8076923076923077,
+        "prob_no_qualified_gt_region": 0.08136094674556213,
+        "prob_visible_region_but_detector_missed": 0.11094674556213018
+      },
+      "oracle": {
+        "mean_iou_of_assigned_detection": 0.8460706729550748,
+        "prob_same_instance_detected": 0.8964497041420119,
+        "prob_no_qualified_gt_region": 0.05473372781065089,
+        "prob_visible_region_but_detector_missed": 0.04881656804733728
+      }
+    }
+  },
+  "different_detection_outcomes": {
+    "groups": 60,
+    "houses": 14,
+    "metrics": {
+      "jepa": {
+        "mean_iou_of_assigned_detection": 0.6101496698016784,
+        "prob_same_instance_detected": 0.7,
+        "prob_no_qualified_gt_region": 0.11666666666666667,
+        "prob_visible_region_but_detector_missed": 0.18333333333333332
+      },
+      "direct": {
+        "mean_iou_of_assigned_detection": 0.5857836372751976,
+        "prob_same_instance_detected": 0.6666666666666666,
+        "prob_no_qualified_gt_region": 0.11666666666666667,
+        "prob_visible_region_but_detector_missed": 0.21666666666666667
+      },
+      "forward_displacement": {
+        "mean_iou_of_assigned_detection": 0.6437571848846987,
+        "prob_same_instance_detected": 0.7333333333333333,
+        "prob_no_qualified_gt_region": 0.10833333333333334,
+        "prob_visible_region_but_detector_missed": 0.15833333333333333
+      },
+      "smallest_turn": {
+        "mean_iou_of_assigned_detection": 0.6148552448300981,
+        "prob_same_instance_detected": 0.7,
+        "prob_no_qualified_gt_region": 0.1,
+        "prob_visible_region_but_detector_missed": 0.2
+      },
+      "random": {
+        "mean_iou_of_assigned_detection": 0.44028701757440486,
+        "prob_same_instance_detected": 0.5,
+        "prob_no_qualified_gt_region": 0.15,
+        "prob_visible_region_but_detector_missed": 0.35
+      },
+      "oracle": {
+        "mean_iou_of_assigned_detection": 0.8805740351488097,
+        "prob_same_instance_detected": 1.0,
+        "prob_no_qualified_gt_region": 0.0,
+        "prob_visible_region_but_detector_missed": 0.0
+      }
+    }
+  },
+  "reference_area_protocol": "Area of the matched detector box at the reference divided by full RGB frame area; fixed 0.02 cutoff",
+  "reference_area_at_most_2pct": {
+    "groups": 69,
+    "houses": 13,
+    "metrics": {
+      "jepa": {
+        "mean_iou_of_assigned_detection": 0.6733492954173781,
+        "prob_same_instance_detected": 0.7391304347826086,
+        "prob_no_qualified_gt_region": 0.10144927536231885,
+        "prob_visible_region_but_detector_missed": 0.15942028985507245
+      },
+      "direct": {
+        "mean_iou_of_assigned_detection": 0.6377220227828054,
+        "prob_same_instance_detected": 0.6956521739130435,
+        "prob_no_qualified_gt_region": 0.11594202898550725,
+        "prob_visible_region_but_detector_missed": 0.18840579710144928
+      },
+      "forward_displacement": {
+        "mean_iou_of_assigned_detection": 0.6997869379462317,
+        "prob_same_instance_detected": 0.7608695652173914,
+        "prob_no_qualified_gt_region": 0.09420289855072464,
+        "prob_visible_region_but_detector_missed": 0.14492753623188406
+      },
+      "smallest_turn": {
+        "mean_iou_of_assigned_detection": 0.6548089965329844,
+        "prob_same_instance_detected": 0.717391304347826,
+        "prob_no_qualified_gt_region": 0.10144927536231885,
+        "prob_visible_region_but_detector_missed": 0.18115942028985507
+      },
+      "random": {
+        "mean_iou_of_assigned_detection": 0.6643153019493045,
+        "prob_same_instance_detected": 0.7246376811594203,
+        "prob_no_qualified_gt_region": 0.10144927536231885,
+        "prob_visible_region_but_detector_missed": 0.17391304347826086
+      },
+      "oracle": {
+        "mean_iou_of_assigned_detection": 0.7496147864842202,
+        "prob_same_instance_detected": 0.8115942028985508,
+        "prob_no_qualified_gt_region": 0.07246376811594203,
+        "prob_visible_region_but_detector_missed": 0.11594202898550725
+      }
+    }
+  },
+  "reference_area_over_2pct": {
+    "groups": 269,
+    "houses": 16,
+    "metrics": {
+      "jepa": {
+        "mean_iou_of_assigned_detection": 0.8153718422469041,
+        "prob_same_instance_detected": 0.8698884758364313,
+        "prob_no_qualified_gt_region": 0.05204460966542751,
+        "prob_visible_region_but_detector_missed": 0.07806691449814127
+      },
+      "direct": {
+        "mean_iou_of_assigned_detection": 0.8188555864521645,
+        "prob_same_instance_detected": 0.8736059479553904,
+        "prob_no_qualified_gt_region": 0.05204460966542751,
+        "prob_visible_region_but_detector_missed": 0.07434944237918216
+      },
+      "forward_displacement": {
+        "mean_iou_of_assigned_detection": 0.8181127935222777,
+        "prob_same_instance_detected": 0.8717472118959108,
+        "prob_no_qualified_gt_region": 0.055762081784386616,
+        "prob_visible_region_but_detector_missed": 0.0724907063197026
+      },
+      "smallest_turn": {
+        "mean_iou_of_assigned_detection": 0.820767153630282,
+        "prob_same_instance_detected": 0.8754646840148699,
+        "prob_no_qualified_gt_region": 0.05018587360594796,
+        "prob_visible_region_but_detector_missed": 0.07434944237918216
+      },
+      "random": {
+        "mean_iou_of_assigned_detection": 0.7798383027697392,
+        "prob_same_instance_detected": 0.828996282527881,
+        "prob_no_qualified_gt_region": 0.0762081784386617,
+        "prob_visible_region_but_detector_missed": 0.09479553903345725
+      },
+      "oracle": {
+        "mean_iou_of_assigned_detection": 0.8708121456929522,
+        "prob_same_instance_detected": 0.9182156133828996,
+        "prob_no_qualified_gt_region": 0.05018587360594796,
+        "prob_visible_region_but_detector_missed": 0.031598513011152414
+      }
+    }
+  },
+  "small_with_different_detection_outcomes": {
+    "groups": 12,
+    "houses": 6,
+    "metrics": {
+      "jepa": {
+        "mean_iou_of_assigned_detection": 0.47990761933633425,
+        "prob_same_instance_detected": 0.5833333333333334,
+        "prob_no_qualified_gt_region": 0.25,
+        "prob_visible_region_but_detector_missed": 0.16666666666666666
+      },
+      "direct": {
+        "mean_iou_of_assigned_detection": 0.2852349152185822,
+        "prob_same_instance_detected": 0.3333333333333333,
+        "prob_no_qualified_gt_region": 0.3333333333333333,
+        "prob_visible_region_but_detector_missed": 0.3333333333333333
+      },
+      "forward_displacement": {
+        "mean_iou_of_assigned_detection": 0.6118570704209241,
+        "prob_same_instance_detected": 0.7083333333333334,
+        "prob_no_qualified_gt_region": 0.20833333333333334,
+        "prob_visible_region_but_detector_missed": 0.08333333333333333
+      },
+      "smallest_turn": {
+        "mean_iou_of_assigned_detection": 0.3811637791280846,
+        "prob_same_instance_detected": 0.4583333333333333,
+        "prob_no_qualified_gt_region": 0.25,
+        "prob_visible_region_but_detector_missed": 0.2916666666666667
+      },
+      "random": {
+        "mean_iou_of_assigned_detection": 0.4316176771840459,
+        "prob_same_instance_detected": 0.5,
+        "prob_no_qualified_gt_region": 0.16666666666666666,
+        "prob_visible_region_but_detector_missed": 0.3333333333333333
+      },
+      "oracle": {
+        "mean_iou_of_assigned_detection": 0.8632353543680918,
+        "prob_same_instance_detected": 1.0,
+        "prob_no_qualified_gt_region": 0.0,
+        "prob_visible_region_but_detector_missed": 0.0
+      }
+    }
+  },
+  "by_category": {
+    "bed": {
+      "groups": 3,
+      "houses": 1,
+      "metrics": {
+        "jepa": {
+          "mean_iou_of_assigned_detection": 0.9768517012706083,
+          "prob_same_instance_detected": 1.0,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.0
+        },
+        "direct": {
+          "mean_iou_of_assigned_detection": 0.9768517012706083,
+          "prob_same_instance_detected": 1.0,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.0
+        },
+        "forward_displacement": {
+          "mean_iou_of_assigned_detection": 0.965154090547301,
+          "prob_same_instance_detected": 1.0,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.0
+        },
+        "smallest_turn": {
+          "mean_iou_of_assigned_detection": 0.9731744653580915,
+          "prob_same_instance_detected": 1.0,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.0
+        },
+        "random": {
+          "mean_iou_of_assigned_detection": 0.9725085623723344,
+          "prob_same_instance_detected": 1.0,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.0
+        },
+        "oracle": {
+          "mean_iou_of_assigned_detection": 0.9798630341973679,
+          "prob_same_instance_detected": 1.0,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.0
+        }
+      }
+    },
+    "bookcase": {
+      "groups": 9,
+      "houses": 3,
+      "metrics": {
+        "jepa": {
+          "mean_iou_of_assigned_detection": 0.7427356732600522,
+          "prob_same_instance_detected": 0.7777777777777778,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.2222222222222222
+        },
+        "direct": {
+          "mean_iou_of_assigned_detection": 0.8250291138769941,
+          "prob_same_instance_detected": 0.8888888888888888,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.1111111111111111
+        },
+        "forward_displacement": {
+          "mean_iou_of_assigned_detection": 0.7633506183342251,
+          "prob_same_instance_detected": 0.8333333333333334,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.16666666666666666
+        },
+        "smallest_turn": {
+          "mean_iou_of_assigned_detection": 0.7748031344842187,
+          "prob_same_instance_detected": 0.8333333333333334,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.16666666666666666
+        },
+        "random": {
+          "mean_iou_of_assigned_detection": 0.7261259582476897,
+          "prob_same_instance_detected": 0.7777777777777778,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.2222222222222222
+        },
+        "oracle": {
+          "mean_iou_of_assigned_detection": 0.8255793206885067,
+          "prob_same_instance_detected": 0.8888888888888888,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.1111111111111111
+        }
+      }
+    },
+    "cabinet": {
+      "groups": 2,
+      "houses": 1,
+      "metrics": {
+        "jepa": {
+          "mean_iou_of_assigned_detection": 0.0,
+          "prob_same_instance_detected": 0.0,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 1.0
+        },
+        "direct": {
+          "mean_iou_of_assigned_detection": 0.0,
+          "prob_same_instance_detected": 0.0,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 1.0
+        },
+        "forward_displacement": {
+          "mean_iou_of_assigned_detection": 0.0,
+          "prob_same_instance_detected": 0.0,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 1.0
+        },
+        "smallest_turn": {
+          "mean_iou_of_assigned_detection": 0.0,
+          "prob_same_instance_detected": 0.0,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 1.0
+        },
+        "random": {
+          "mean_iou_of_assigned_detection": 0.0,
+          "prob_same_instance_detected": 0.0,
+          "prob_no_qualified_gt_region": 0.25,
+          "prob_visible_region_but_detector_missed": 0.75
+        },
+        "oracle": {
+          "mean_iou_of_assigned_detection": 0.0,
+          "prob_same_instance_detected": 0.0,
+          "prob_no_qualified_gt_region": 0.25,
+          "prob_visible_region_but_detector_missed": 0.75
+        }
+      }
+    },
+    "ceiling_lamp": {
+      "groups": 9,
+      "houses": 2,
+      "metrics": {
+        "jepa": {
+          "mean_iou_of_assigned_detection": 0.930077766650569,
+          "prob_same_instance_detected": 1.0,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.0
+        },
+        "direct": {
+          "mean_iou_of_assigned_detection": 0.930077766650569,
+          "prob_same_instance_detected": 1.0,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.0
+        },
+        "forward_displacement": {
+          "mean_iou_of_assigned_detection": 0.9475775687357841,
+          "prob_same_instance_detected": 1.0,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.0
+        },
+        "smallest_turn": {
+          "mean_iou_of_assigned_detection": 0.9200469555157932,
+          "prob_same_instance_detected": 1.0,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.0
+        },
+        "random": {
+          "mean_iou_of_assigned_detection": 0.9280580819564513,
+          "prob_same_instance_detected": 1.0,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.0
+        },
+        "oracle": {
+          "mean_iou_of_assigned_detection": 0.9558985494655441,
+          "prob_same_instance_detected": 1.0,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.0
+        }
+      }
+    },
+    "chair": {
+      "groups": 116,
+      "houses": 15,
+      "metrics": {
+        "jepa": {
+          "mean_iou_of_assigned_detection": 0.7822653489853965,
+          "prob_same_instance_detected": 0.8448275862068966,
+          "prob_no_qualified_gt_region": 0.06896551724137931,
+          "prob_visible_region_but_detector_missed": 0.08620689655172414
+        },
+        "direct": {
+          "mean_iou_of_assigned_detection": 0.7708234214204215,
+          "prob_same_instance_detected": 0.8275862068965517,
+          "prob_no_qualified_gt_region": 0.06896551724137931,
+          "prob_visible_region_but_detector_missed": 0.10344827586206896
+        },
+        "forward_displacement": {
+          "mean_iou_of_assigned_detection": 0.7698184304737942,
+          "prob_same_instance_detected": 0.8232758620689655,
+          "prob_no_qualified_gt_region": 0.08189655172413793,
+          "prob_visible_region_but_detector_missed": 0.09482758620689655
+        },
+        "smallest_turn": {
+          "mean_iou_of_assigned_detection": 0.7702975459186113,
+          "prob_same_instance_detected": 0.8275862068965517,
+          "prob_no_qualified_gt_region": 0.07327586206896551,
+          "prob_visible_region_but_detector_missed": 0.09913793103448276
+        },
+        "random": {
+          "mean_iou_of_assigned_detection": 0.7293136071203234,
+          "prob_same_instance_detected": 0.7758620689655172,
+          "prob_no_qualified_gt_region": 0.09913793103448276,
+          "prob_visible_region_but_detector_missed": 0.125
+        },
+        "oracle": {
+          "mean_iou_of_assigned_detection": 0.8288787239885411,
+          "prob_same_instance_detected": 0.8793103448275862,
+          "prob_no_qualified_gt_region": 0.07327586206896551,
+          "prob_visible_region_but_detector_missed": 0.04741379310344827
+        }
+      }
+    },
+    "clock": {
+      "groups": 12,
+      "houses": 4,
+      "metrics": {
+        "jepa": {
+          "mean_iou_of_assigned_detection": 0.9353997337695703,
+          "prob_same_instance_detected": 1.0,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.0
+        },
+        "direct": {
+          "mean_iou_of_assigned_detection": 0.9347545898636332,
+          "prob_same_instance_detected": 1.0,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.0
+        },
+        "forward_displacement": {
+          "mean_iou_of_assigned_detection": 0.9371613074903187,
+          "prob_same_instance_detected": 1.0,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.0
+        },
+        "smallest_turn": {
+          "mean_iou_of_assigned_detection": 0.9317644715621974,
+          "prob_same_instance_detected": 1.0,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.0
+        },
+        "random": {
+          "mean_iou_of_assigned_detection": 0.9324079807652231,
+          "prob_same_instance_detected": 1.0,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.0
+        },
+        "oracle": {
+          "mean_iou_of_assigned_detection": 0.9409619684894501,
+          "prob_same_instance_detected": 1.0,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.0
+        }
+      }
+    },
+    "mirror": {
+      "groups": 26,
+      "houses": 5,
+      "metrics": {
+        "jepa": {
+          "mean_iou_of_assigned_detection": 0.8292583694155338,
+          "prob_same_instance_detected": 0.9230769230769231,
+          "prob_no_qualified_gt_region": 0.038461538461538464,
+          "prob_visible_region_but_detector_missed": 0.038461538461538464
+        },
+        "direct": {
+          "mean_iou_of_assigned_detection": 0.8254552700885553,
+          "prob_same_instance_detected": 0.9230769230769231,
+          "prob_no_qualified_gt_region": 0.038461538461538464,
+          "prob_visible_region_but_detector_missed": 0.038461538461538464
+        },
+        "forward_displacement": {
+          "mean_iou_of_assigned_detection": 0.8674764910924393,
+          "prob_same_instance_detected": 0.9615384615384616,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.038461538461538464
+        },
+        "smallest_turn": {
+          "mean_iou_of_assigned_detection": 0.8306591929733871,
+          "prob_same_instance_detected": 0.9230769230769231,
+          "prob_no_qualified_gt_region": 0.019230769230769232,
+          "prob_visible_region_but_detector_missed": 0.057692307692307696
+        },
+        "random": {
+          "mean_iou_of_assigned_detection": 0.7842366674212233,
+          "prob_same_instance_detected": 0.8846153846153846,
+          "prob_no_qualified_gt_region": 0.057692307692307696,
+          "prob_visible_region_but_detector_missed": 0.057692307692307696
+        },
+        "oracle": {
+          "mean_iou_of_assigned_detection": 0.8787746805195398,
+          "prob_same_instance_detected": 0.9615384615384616,
+          "prob_no_qualified_gt_region": 0.019230769230769232,
+          "prob_visible_region_but_detector_missed": 0.019230769230769232
+        }
+      }
+    },
+    "picture_frame": {
+      "groups": 6,
+      "houses": 1,
+      "metrics": {
+        "jepa": {
+          "mean_iou_of_assigned_detection": 0.9128631612102,
+          "prob_same_instance_detected": 1.0,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.0
+        },
+        "direct": {
+          "mean_iou_of_assigned_detection": 0.9128631612102,
+          "prob_same_instance_detected": 1.0,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.0
+        },
+        "forward_displacement": {
+          "mean_iou_of_assigned_detection": 0.9251692265801493,
+          "prob_same_instance_detected": 1.0,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.0
+        },
+        "smallest_turn": {
+          "mean_iou_of_assigned_detection": 0.9106680869348557,
+          "prob_same_instance_detected": 1.0,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.0
+        },
+        "random": {
+          "mean_iou_of_assigned_detection": 0.9210109900174386,
+          "prob_same_instance_detected": 1.0,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.0
+        },
+        "oracle": {
+          "mean_iou_of_assigned_detection": 0.9342919143951204,
+          "prob_same_instance_detected": 1.0,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.0
+        }
+      }
+    },
+    "sofa": {
+      "groups": 10,
+      "houses": 2,
+      "metrics": {
+        "jepa": {
+          "mean_iou_of_assigned_detection": 0.7329826457412996,
+          "prob_same_instance_detected": 0.9,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.1
+        },
+        "direct": {
+          "mean_iou_of_assigned_detection": 0.7329826457412996,
+          "prob_same_instance_detected": 0.9,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.1
+        },
+        "forward_displacement": {
+          "mean_iou_of_assigned_detection": 0.7489011310875896,
+          "prob_same_instance_detected": 0.9,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.1
+        },
+        "smallest_turn": {
+          "mean_iou_of_assigned_detection": 0.7560449583724853,
+          "prob_same_instance_detected": 0.9,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.1
+        },
+        "random": {
+          "mean_iou_of_assigned_detection": 0.6767913575949864,
+          "prob_same_instance_detected": 0.8,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.2
+        },
+        "oracle": {
+          "mean_iou_of_assigned_detection": 0.8909150975093029,
+          "prob_same_instance_detected": 1.0,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.0
+        }
+      }
+    },
+    "stool": {
+      "groups": 37,
+      "houses": 6,
+      "metrics": {
+        "jepa": {
+          "mean_iou_of_assigned_detection": 0.8323984564035444,
+          "prob_same_instance_detected": 0.8918918918918919,
+          "prob_no_qualified_gt_region": 0.02702702702702703,
+          "prob_visible_region_but_detector_missed": 0.08108108108108109
+        },
+        "direct": {
+          "mean_iou_of_assigned_detection": 0.8088288763316058,
+          "prob_same_instance_detected": 0.8648648648648649,
+          "prob_no_qualified_gt_region": 0.02702702702702703,
+          "prob_visible_region_but_detector_missed": 0.10810810810810811
+        },
+        "forward_displacement": {
+          "mean_iou_of_assigned_detection": 0.7853731555987918,
+          "prob_same_instance_detected": 0.8513513513513513,
+          "prob_no_qualified_gt_region": 0.05405405405405406,
+          "prob_visible_region_but_detector_missed": 0.0945945945945946
+        },
+        "smallest_turn": {
+          "mean_iou_of_assigned_detection": 0.8249444813601713,
+          "prob_same_instance_detected": 0.8918918918918919,
+          "prob_no_qualified_gt_region": 0.013513513513513514,
+          "prob_visible_region_but_detector_missed": 0.0945945945945946
+        },
+        "random": {
+          "mean_iou_of_assigned_detection": 0.7740269150331026,
+          "prob_same_instance_detected": 0.8378378378378378,
+          "prob_no_qualified_gt_region": 0.04054054054054054,
+          "prob_visible_region_but_detector_missed": 0.12162162162162163
+        },
+        "oracle": {
+          "mean_iou_of_assigned_detection": 0.8801712976070722,
+          "prob_same_instance_detected": 0.9459459459459459,
+          "prob_no_qualified_gt_region": 0.013513513513513514,
+          "prob_visible_region_but_detector_missed": 0.04054054054054054
+        }
+      }
+    },
+    "table": {
+      "groups": 3,
+      "houses": 1,
+      "metrics": {
+        "jepa": {
+          "mean_iou_of_assigned_detection": 0.9934205676480139,
+          "prob_same_instance_detected": 1.0,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.0
+        },
+        "direct": {
+          "mean_iou_of_assigned_detection": 0.9934205676480139,
+          "prob_same_instance_detected": 1.0,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.0
+        },
+        "forward_displacement": {
+          "mean_iou_of_assigned_detection": 0.9934205676480139,
+          "prob_same_instance_detected": 1.0,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.0
+        },
+        "smallest_turn": {
+          "mean_iou_of_assigned_detection": 0.9941181273956979,
+          "prob_same_instance_detected": 1.0,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.0
+        },
+        "random": {
+          "mean_iou_of_assigned_detection": 0.993714373113375,
+          "prob_same_instance_detected": 1.0,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.0
+        },
+        "oracle": {
+          "mean_iou_of_assigned_detection": 0.9951094926087429,
+          "prob_same_instance_detected": 1.0,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.0
+        }
+      }
+    },
+    "vase": {
+      "groups": 3,
+      "houses": 1,
+      "metrics": {
+        "jepa": {
+          "mean_iou_of_assigned_detection": 0.6375494960687643,
+          "prob_same_instance_detected": 0.6666666666666666,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.3333333333333333
+        },
+        "direct": {
+          "mean_iou_of_assigned_detection": 0.3184752885595369,
+          "prob_same_instance_detected": 0.3333333333333333,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.6666666666666666
+        },
+        "forward_displacement": {
+          "mean_iou_of_assigned_detection": 0.6375494960687643,
+          "prob_same_instance_detected": 0.6666666666666666,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.3333333333333333
+        },
+        "smallest_turn": {
+          "mean_iou_of_assigned_detection": 0.4780123923141506,
+          "prob_same_instance_detected": 0.5,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.5
+        },
+        "random": {
+          "mean_iou_of_assigned_detection": 0.31877474803438216,
+          "prob_same_instance_detected": 0.3333333333333333,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.6666666666666666
+        },
+        "oracle": {
+          "mean_iou_of_assigned_detection": 0.6375494960687643,
+          "prob_same_instance_detected": 0.6666666666666666,
+          "prob_no_qualified_gt_region": 0.0,
+          "prob_visible_region_but_detector_missed": 0.3333333333333333
+        }
+      }
+    },
+    "wall_art": {
+      "groups": 102,
+      "houses": 13,
+      "metrics": {
+        "jepa": {
+          "mean_iou_of_assigned_detection": 0.7429735048049858,
+          "prob_same_instance_detected": 0.7745098039215687,
+          "prob_no_qualified_gt_region": 0.10784313725490197,
+          "prob_visible_region_but_detector_missed": 0.11764705882352941
+        },
+        "direct": {
+          "mean_iou_of_assigned_detection": 0.7527910283929878,
+          "prob_same_instance_detected": 0.7843137254901961,
+          "prob_no_qualified_gt_region": 0.11764705882352941,
+          "prob_visible_region_but_detector_missed": 0.09803921568627451
+        },
+        "forward_displacement": {
+          "mean_iou_of_assigned_detection": 0.7840472373392245,
+          "prob_same_instance_detected": 0.8186274509803921,
+          "prob_no_qualified_gt_region": 0.09803921568627451,
+          "prob_visible_region_but_detector_missed": 0.08333333333333333
+        },
+        "smallest_turn": {
+          "mean_iou_of_assigned_detection": 0.7617488961161183,
+          "prob_same_instance_detected": 0.7941176470588235,
+          "prob_no_qualified_gt_region": 0.10784313725490197,
+          "prob_visible_region_but_detector_missed": 0.09803921568627451
+        },
+        "random": {
+          "mean_iou_of_assigned_detection": 0.7525412445764017,
+          "prob_same_instance_detected": 0.7843137254901961,
+          "prob_no_qualified_gt_region": 0.12254901960784313,
+          "prob_visible_region_but_detector_missed": 0.09313725490196079
+        },
+        "oracle": {
+          "mean_iou_of_assigned_detection": 0.8306878704688894,
+          "prob_same_instance_detected": 0.8627450980392157,
+          "prob_no_qualified_gt_region": 0.08333333333333333,
+          "prob_visible_region_but_detector_missed": 0.05392156862745098
+        }
+      }
+    }
+  },
+  "paired_house_macro_jepa_minus_direct_detection": {
+    "mean": 0.00621936274509804,
+    "ci95": [
+      -0.015257352941176468,
+      0.023988970588235296
+    ]
+  }
+}

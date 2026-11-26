@@ -1,0 +1,96 @@
+{
+  "splits": {
+    "train": {
+      "transitions": 19908,
+      "houses": 28,
+      "anchor_observations": 6447,
+      "categories": 25
+    },
+    "val": {
+      "transitions": 3832,
+      "houses": 6,
+      "anchor_observations": 1315,
+      "categories": 22
+    },
+    "test": {
+      "transitions": 10598,
+      "houses": 16,
+      "anchor_observations": 3604,
+      "categories": 23
+    }
+  },
+  "results": {
+    "direct": {
+      "epoch": 23,
+      "val": {
+        "groups": 1165,
+        "houses": 6,
+        "mean_selected": 0.35700962227140154,
+        "mean_random": 0.30790410098375437,
+        "mean_oracle": 0.41089108804445174,
+        "oracle_hit": 0.5201716738197425,
+        "mean_selected_identity": 0.5743540165733508
+      },
+      "test": {
+        "groups": 3210,
+        "houses": 16,
+        "mean_selected": 0.34319367820495367,
+        "mean_random": 0.30047080567679907,
+        "mean_oracle": 0.3972061913693369,
+        "oracle_hit": 0.518380062305296,
+        "mean_selected_identity": 0.5744361157573842
+      }
+    },
+    "jepa": {
+      "epoch": 23,
+      "val": {
+        "groups": 1165,
+        "houses": 6,
+        "mean_selected": 0.357122767506624,
+        "mean_random": 0.30790410098375437,
+        "mean_oracle": 0.41089108804445174,
+        "oracle_hit": 0.5167381974248927,
+        "mean_selected_identity": 0.5778598197153666
+      },
+      "test": {
+        "groups": 3210,
+        "houses": 16,
+        "mean_selected": 0.34369287137120647,
+        "mean_random": 0.30047080567679907,
+        "mean_oracle": 0.3972061913693369,
+        "oracle_hit": 0.5320872274143302,
+        "mean_selected_identity": 0.5787133683411564
+      }
+    },
+    "smallest_turn": {
+      "test": {
+        "groups": 3210,
+        "houses": 16,
+        "mean_selected": 0.335033257064848,
+        "mean_random": 0.30047080567679907,
+        "mean_oracle": 0.3972061913693369,
+        "oracle_hit": 0.48286604361370716,
+        "mean_selected_identity": 0.5956740315942566
+      }
+    },
+    "forward_displacement": {
+      "test": {
+        "groups": 3210,
+        "houses": 16,
+        "mean_selected": 0.2823756739278838,
+        "mean_random": 0.30047080567679907,
+        "mean_oracle": 0.3972061913693369,
+        "oracle_hit": 0.2937694704049844,
+        "mean_selected_identity": 0.4884335709241205
+      }
+    }
+  },
+  "weights_selected_by": "highest mean selected calibration utility",
+  "paired_house_macro_jepa_minus_direct": {
+    "mean": 0.0006396633107215166,
+    "ci95": [
+      -0.0016478504083352163,
+      0.003310585959115996
+    ]
+  }
+}

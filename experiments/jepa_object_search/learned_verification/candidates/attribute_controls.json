@@ -1,0 +1,42 @@
+{
+  "clock": {
+    "frozen_trajectory": {
+      "frames": 251,
+      "some_instance_pixels": 157,
+      "visible": 150,
+      "category_accepted": 122,
+      "full_goal_accepted": 9,
+      "category_localized": 4,
+      "full_goal_localized": 1
+    },
+    "oracle_viewpoint_stress_control": {
+      "frames": 18,
+      "some_instance_pixels": 12,
+      "visible": 7,
+      "category_accepted": 8,
+      "full_goal_accepted": 0,
+      "category_localized": 0,
+      "full_goal_localized": 0
+    }
+  },
+  "painting": {
+    "frozen_trajectory": {
+      "frames": 274,
+      "some_instance_pixels": 0,
+      "visible": 0,
+      "category_accepted": 266,
+      "full_goal_accepted": 0,
+      "category_localized": 0,
+      "full_goal_localized": 0
+    },
+    "oracle_viewpoint_stress_control": {
+      "frames": 18,
+      "some_instance_pixels": 11,
+      "visible": 10,
+      "category_accepted": 18,
+      "full_goal_accepted": 7,
+      "category_localized": 10,
+      "full_goal_localized": 7
+    }
+  }
+}

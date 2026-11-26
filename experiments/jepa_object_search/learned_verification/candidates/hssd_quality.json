@@ -1,0 +1,122 @@
+{
+  "split_houses": {
+    "train": 10,
+    "val": 6,
+    "test": 16
+  },
+  "train_boxes": 381,
+  "methods": {
+    "detector": {
+      "validation": {
+        "frames": 108,
+        "positive_frames": 93,
+        "empty_frames": 15,
+        "offered": 85,
+        "localized": 68,
+        "false_offer": 17,
+        "empty_frames_offered": 6,
+        "precision": 0.8,
+        "recall_per_positive": 0.7311827956989247
+      },
+      "test": {
+        "frames": 288,
+        "positive_frames": 244,
+        "empty_frames": 44,
+        "offered": 203,
+        "localized": 163,
+        "false_offer": 40,
+        "empty_frames_offered": 13,
+        "precision": 0.8029556650246306,
+        "recall_per_positive": 0.6680327868852459
+      },
+      "equal_one_slot_per_window": {
+        "paired_windows": 31,
+        "latest_hits": 16,
+        "score_hits": 27,
+        "positive_windows": 31,
+        "detector_available_windows": 31
+      },
+      "target_categories": {
+        "wall_art": {
+          "frames": 81,
+          "positive_frames": 77,
+          "empty_frames": 4,
+          "offered": 69,
+          "localized": 51,
+          "false_offer": 18,
+          "empty_frames_offered": 3,
+          "precision": 0.7391304347826086,
+          "recall_per_positive": 0.6623376623376623
+        },
+        "clock": {
+          "frames": 15,
+          "positive_frames": 15,
+          "empty_frames": 0,
+          "offered": 11,
+          "localized": 11,
+          "false_offer": 0,
+          "empty_frames_offered": 0,
+          "precision": 1.0,
+          "recall_per_positive": 0.7333333333333333
+        }
+      }
+    },
+    "trained": {
+      "validation": {
+        "frames": 108,
+        "positive_frames": 93,
+        "empty_frames": 15,
+        "offered": 99,
+        "localized": 84,
+        "false_offer": 15,
+        "empty_frames_offered": 7,
+        "precision": 0.8484848484848485,
+        "recall_per_positive": 0.9032258064516129
+      },
+      "test": {
+        "frames": 288,
+        "positive_frames": 244,
+        "empty_frames": 44,
+        "offered": 235,
+        "localized": 180,
+        "false_offer": 55,
+        "empty_frames_offered": 16,
+        "precision": 0.7659574468085106,
+        "recall_per_positive": 0.7377049180327869
+      },
+      "equal_one_slot_per_window": {
+        "paired_windows": 31,
+        "latest_hits": 17,
+        "score_hits": 30,
+        "positive_windows": 31,
+        "detector_available_windows": 31
+      },
+      "target_categories": {
+        "wall_art": {
+          "frames": 81,
+          "positive_frames": 77,
+          "empty_frames": 4,
+          "offered": 80,
+          "localized": 54,
+          "false_offer": 26,
+          "empty_frames_offered": 4,
+          "precision": 0.675,
+          "recall_per_positive": 0.7012987012987013
+        },
+        "clock": {
+          "frames": 15,
+          "positive_frames": 15,
+          "empty_frames": 0,
+          "offered": 12,
+          "localized": 12,
+          "false_offer": 0,
+          "empty_frames_offered": 0,
+          "precision": 1.0,
+          "recall_per_positive": 0.8
+        }
+      }
+    }
+  },
+  "selected": "trained",
+  "control": "same frozen proposals; source-slot evaluation is an offline grouping by house/category, not robot trajectories"
+}
