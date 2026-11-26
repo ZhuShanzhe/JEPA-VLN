@@ -82,3 +82,5 @@ HSSD 的代理目标是新增可见性。开发集 48 个起点中只有 2 个�
 [地图引导的主动验证与弱候选复看](learned_verification/README.md)
 
 [候选框同图对比与时钟跨视角核对](region_proposals/README.md)
+
+[MOST-Nav 与 JEPA 的代码链路和失败案例](system_comparison/README.md)

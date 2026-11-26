@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1150" viewBox="0 0 1440 1150" role="img" aria-labelledby="title desc">
+<title id="title">多实例寻物的代码链路</title><desc id="desc">原版 MOST-Nav 与当前 JEPA 扩展逐环节对照，标出画作与时钟的故障位置。</desc>
+<rect width="1440" height="1150" fill="white"/>
+<text x="49" y="86.50" fill="#142D3B" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="700" font-size="44">多实例寻物的代码链路</text>
+<text x="50" y="132.00" fill="#395461" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="400" font-size="24">原版 MOST-Nav 与当前 JEPA 扩展逐环节对照</text>
+<rect x="49" y="162" width="1342" height="78" rx="11" fill="#EDF3F5"/>
+<text x="74" y="198.50" fill="#142D3B" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="700" font-size="21">共同的上层决策循环</text>
+<text x="74" y="227.00" fill="#395461" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="400" font-size="18">GPT-4o 读取任务、当前观测和记忆，按需调用探索、查看候选、接近、报告或结束。移动或复看取得新图后，回到这个循环。</text>
+<text x="50" y="293.00" fill="#395461" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="700" font-size="18">环节</text>
+<text x="231" y="297.00" fill="#142D3B" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="700" font-size="28">原版 MOST-Nav</text>
+<text x="760" y="297.00" fill="#00665F" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="700" font-size="28">我们的开发链路</text>
+<path d="M212 310 L723 310" stroke="#A4B6BD" stroke-width="2.1" fill="none"/>
+<path d="M741 310 L1391 310" stroke="#00665F" stroke-width="2.1" fill="none"/>
+<rect x="212" y="328" width="511" height="128" rx="11" fill="#F1F4F5"/>
+<rect x="741" y="328" width="650" height="128" rx="11" fill="#F2F7F6"/>
+<circle cx="58" cy="387" r="5" fill="#00665F"/>
+<text x="73" y="399.00" fill="#142D3B" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="700" font-size="22">感知与地图</text>
+<path d="M58 398 L58 464" stroke="#D5DFE3" stroke-width="1.1" fill="none"/>
+<path d="M467.5 458 L467.5 466" stroke="#7B979B" stroke-width="1.2" fill="none"/>
+<path d="M463.5 465 h8 l-4 5 z" fill="#7B979B"/>
+<path d="M1066.0 458 L1066.0 466" stroke="#7B979B" stroke-width="1.2" fill="none"/>
+<path d="M1062.0 465 h8 l-4 5 z" fill="#7B979B"/>
+<text x="231" y="371.00" fill="#142D3B" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="700" font-size="22">从相机观测建图</text>
+<text x="231" y="411.50" fill="#395461" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="400" font-size="19">Habitat 提供 RGB，VGGT-SLAM 估计位姿、</text>
+<text x="231" y="440.50" fill="#395461" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="400" font-size="19">构建三维地图并保留关键帧。</text>
+<text x="760" y="371.00" fill="#00665F" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="700" font-size="22">复用基线的地图与动作回执</text>
+<text x="760" y="411.50" fill="#395461" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="400" font-size="19">读同一地图、关键帧和可达区域，</text>
+<text x="760" y="440.50" fill="#395461" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="400" font-size="19">为探索与复看保存已观测的线索。</text>
+<rect x="212" y="475" width="511" height="128" rx="11" fill="#F1F4F5"/>
+<rect x="741" y="475" width="650" height="128" rx="11" fill="#EBF5F2"/>
+<circle cx="58" cy="534" r="5" fill="#00665F"/>
+<text x="73" y="546.00" fill="#142D3B" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="700" font-size="22">探索与移动</text>
+<path d="M58 545 L58 611" stroke="#D5DFE3" stroke-width="1.1" fill="none"/>
+<path d="M467.5 605 L467.5 613" stroke="#7B979B" stroke-width="1.2" fill="none"/>
+<path d="M463.5 612 h8 l-4 5 z" fill="#7B979B"/>
+<path d="M1066.0 605 L1066.0 613" stroke="#7B979B" stroke-width="1.2" fill="none"/>
+<path d="M1062.0 612 h8 l-4 5 z" fill="#7B979B"/>
+<text x="231" y="518.00" fill="#142D3B" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="700" font-size="22">上层选择可达前沿</text>
+<text x="231" y="558.50" fill="#395461" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="400" font-size="19">地图产生待探索方向，VLM 选其中之一；</text>
+<text x="231" y="587.50" fill="#395461" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="400" font-size="19">原路径跟随器执行移动。</text>
+<text x="760" y="518.00" fill="#00665F" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="700" font-size="22">JEPA 给候选路线排序</text>
+<text x="760" y="558.50" fill="#395461" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="400" font-size="19">缺少线索时，预测各路线可能带来的新证据；</text>
+<text x="760" y="587.50" fill="#395461" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="400" font-size="19">选中的合法方向交给原跟随器执行。</text>
+<rect x="1225" y="490" width="146" height="31" rx="8" fill="#F9E7DA"/>
+<text x="1298" y="513.50" fill="#943A17" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="700" font-size="16">画作 · 视角覆盖</text>
+<rect x="212" y="622" width="511" height="128" rx="11" fill="#F1F4F5"/>
+<rect x="741" y="622" width="650" height="128" rx="11" fill="#F2F7F6"/>
+<circle cx="58" cy="681" r="5" fill="#00665F"/>
+<text x="73" y="693.00" fill="#142D3B" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="700" font-size="22">候选与审核</text>
+<path d="M58 692 L58 758" stroke="#D5DFE3" stroke-width="1.1" fill="none"/>
+<path d="M467.5 752 L467.5 760" stroke="#7B979B" stroke-width="1.2" fill="none"/>
+<path d="M463.5 759 h8 l-4 5 z" fill="#7B979B"/>
+<path d="M1066.0 752 L1066.0 760" stroke="#7B979B" stroke-width="1.2" fill="none"/>
+<path d="M1062.0 759 h8 l-4 5 z" fill="#7B979B"/>
+<text x="231" y="665.00" fill="#142D3B" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="700" font-size="22">选择帧内区域</text>
+<text x="231" y="705.50" fill="#395461" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="400" font-size="19">上层查看关键帧和 SAM 掩码菜单，</text>
+<text x="231" y="734.50" fill="#395461" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="400" font-size="19">选择区域，结合任务描述审核候选。</text>
+<text x="760" y="665.00" fill="#00665F" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="700" font-size="22">保留原生 SAM，可加自动候选</text>
+<text x="760" y="705.50" fill="#395461" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="400" font-size="19">开启自动提框时默认使用 Grounding DINO；</text>
+<text x="760" y="734.50" fill="#395461" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="400" font-size="19">将帧号、区域和证据图绑定，再交回上层审核。</text>
+<rect x="212" y="769" width="511" height="128" rx="11" fill="#F1F4F5"/>
+<rect x="741" y="769" width="650" height="128" rx="11" fill="#EBF5F2"/>
+<circle cx="58" cy="828" r="5" fill="#00665F"/>
+<text x="73" y="840.00" fill="#142D3B" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="700" font-size="22">实例与复看</text>
+<path d="M58 839 L58 905" stroke="#D5DFE3" stroke-width="1.1" fill="none"/>
+<path d="M467.5 899 L467.5 907" stroke="#7B979B" stroke-width="1.2" fill="none"/>
+<path d="M463.5 906 h8 l-4 5 z" fill="#7B979B"/>
+<path d="M1066.0 899 L1066.0 907" stroke="#7B979B" stroke-width="1.2" fill="none"/>
+<path d="M1062.0 906 h8 l-4 5 z" fill="#7B979B"/>
+<text x="231" y="812.00" fill="#142D3B" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="700" font-size="22">记住、访问已知实例</text>
+<text x="231" y="852.50" fill="#395461" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="400" font-size="19">VLM 审核新实例或重复实例，维护实例记忆，</text>
+<text x="231" y="881.50" fill="#395461" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="400" font-size="19">也可指令机器人接近已知目标。</text>
+<text x="760" y="812.00" fill="#00665F" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="700" font-size="22">多视角实例记忆与主动复看</text>
+<text x="760" y="852.50" fill="#395461" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="400" font-size="19">按外观和位置区分实例；可用 JEPA 选复看机位。</text>
+<text x="760" y="881.50" fill="#395461" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="400" font-size="19">未登记的存疑候选，携新图交回上层审核。</text>
+<rect x="1225" y="784" width="146" height="31" rx="8" fill="#F9E7DA"/>
+<text x="1298" y="807.50" fill="#943A17" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="700" font-size="16">时钟 · 身份确认</text>
+<rect x="212" y="916" width="511" height="128" rx="11" fill="#F1F4F5"/>
+<rect x="741" y="916" width="650" height="128" rx="11" fill="#F2F7F6"/>
+<circle cx="58" cy="975" r="5" fill="#00665F"/>
+<text x="73" y="987.00" fill="#142D3B" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="700" font-size="22">上报与计分</text>
+<text x="231" y="959.00" fill="#142D3B" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="700" font-size="22">按上层决策报告或结束</text>
+<text x="231" y="999.50" fill="#395461" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="400" font-size="19">原生报告动作交给 MOST-Bench，</text>
+<text x="231" y="1028.50" fill="#395461" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="400" font-size="19">裁判核对距离和实例，识别重复报告。</text>
+<text x="760" y="959.00" fill="#00665F" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="700" font-size="22">现场确认通过后交给原生报告入口</text>
+<text x="760" y="999.50" fill="#395461" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="400" font-size="19">已登记实例用当前框、外观和几何复核；证据不足则暂缓。</text>
+<text x="760" y="1028.50" fill="#395461" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="400" font-size="19">报告仍由 MOST-Bench 判定正确、重复或越距。</text>
+<path d="M50 1070 L1390 1070" stroke="#D5DFE3" stroke-width="1" fill="none"/>
+<text x="50" y="1112.00" fill="#395461" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="400" font-size="18">橙色标记为两个开发回合中有日志与场景回放支持的卡点。最新接口已做离线核验，整回合成绩来自此前冻结的开发版本。</text>
+</svg>
