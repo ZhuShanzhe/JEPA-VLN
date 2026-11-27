@@ -1,0 +1,110 @@
+{
+  "source_result_sha256": "82e1d066fab55d839889fe555a0997a6378b9d22353319d5bc7e16ace6f0164f",
+  "selection": "All weak_relook_capture events in the accepted run",
+  "target_labels": "Stable anonymized labels relative to the clock credited in the original MOST-Nav episode",
+  "box_source": "All live boxes above the original detector confidence gate from a rerun on the reproduced lossless RGB, and a second detection on its stored JPEG. The online trace archived counts, not the live coordinates at every step. No image or box coordinates exported.",
+  "semantic_resolution": [
+    320,
+    320
+  ],
+  "online_detector_query": "distinct clock objects",
+  "detector_minimum_confidence": 0.7,
+  "official_reporting_distance_m": 0.25,
+  "max_replay_position_error_m": 0.0,
+  "capture_count": 2,
+  "paid_calls": 0,
+  "results": [
+    {
+      "step": 149,
+      "capture_equals_live_frame": true,
+      "rgb_mae_at_64": 0.2241,
+      "rgb_matches_capture": true,
+      "capture_jpg_sha256": "64ef02c18f81ab62fe0b0d1009b70d00dc53b41dd8ee224ba7404dd0abff5d9f",
+      "stored_total_proposal_count": 1,
+      "rerun_total_proposal_count": 1,
+      "visible_pixels": {
+        "original_baseline_credited_clock": 5476,
+        "other_eligible_clock_1": 0,
+        "other_eligible_clock_2": 0
+      },
+      "in_official_range": [
+        "original_baseline_credited_clock"
+      ],
+      "live_rgb_high_confidence": [
+        {
+          "score": 0.8301,
+          "box_pixels_at_320": 5625,
+          "center_on_target": "original_baseline_credited_clock",
+          "intersections": {
+            "original_baseline_credited_clock": {
+              "overlapping_pixels": 1206,
+              "fraction_of_box": 0.2144,
+              "fraction_of_visible_object": 0.2202
+            }
+          }
+        }
+      ],
+      "recorded_jpeg_high_confidence": [
+        {
+          "score": 0.8404,
+          "box_pixels_at_320": 5625,
+          "center_on_target": "original_baseline_credited_clock",
+          "intersections": {
+            "original_baseline_credited_clock": {
+              "overlapping_pixels": 1206,
+              "fraction_of_box": 0.2144,
+              "fraction_of_visible_object": 0.2202
+            }
+          }
+        }
+      ],
+      "geometry_result_available": false
+    },
+    {
+      "step": 169,
+      "capture_equals_live_frame": true,
+      "rgb_mae_at_64": 0.2234,
+      "rgb_matches_capture": true,
+      "capture_jpg_sha256": "e085d46c28544cff35adcd858622fa6b6e66d73b1939410d55bcfd443a2cf472",
+      "stored_total_proposal_count": 2,
+      "rerun_total_proposal_count": 2,
+      "visible_pixels": {
+        "original_baseline_credited_clock": 1080,
+        "other_eligible_clock_1": 0,
+        "other_eligible_clock_2": 0
+      },
+      "in_official_range": [
+        "original_baseline_credited_clock"
+      ],
+      "live_rgb_high_confidence": [
+        {
+          "score": 0.7196,
+          "box_pixels_at_320": 1116,
+          "center_on_target": "original_baseline_credited_clock",
+          "intersections": {
+            "original_baseline_credited_clock": {
+              "overlapping_pixels": 304,
+              "fraction_of_box": 0.2724,
+              "fraction_of_visible_object": 0.2815
+            }
+          }
+        }
+      ],
+      "recorded_jpeg_high_confidence": [
+        {
+          "score": 0.7331,
+          "box_pixels_at_320": 1116,
+          "center_on_target": "original_baseline_credited_clock",
+          "intersections": {
+            "original_baseline_credited_clock": {
+              "overlapping_pixels": 304,
+              "fraction_of_box": 0.2724,
+              "fraction_of_visible_object": 0.2815
+            }
+          }
+        }
+      ],
+      "geometry_result_available": false
+    }
+  ]
+}

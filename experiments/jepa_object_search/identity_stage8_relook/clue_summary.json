@@ -1,0 +1,26 @@
+{
+  "scope": "Counts logged decision snapshots only. A weak registration has all its observations explicitly rejected on previous steps. Absence of logged evidence is unknown. Map-provided dist_m is rounded. These are opportunities, not labels or guaranteed planner triggers.",
+  "decision_counts": {
+    "decisions_with_snapshot": 24,
+    "with_any_registration": 23,
+    "with_unreported_registration": 23,
+    "with_any_local_class_proposal": 22,
+    "with_unreported_graded_weak_registration": 22,
+    "with_graded_weak_registration_in_displayed_range": 11,
+    "with_reported_registration": 13
+  },
+  "total_distinct_internal_registrations": 3,
+  "distinct_internal_registrations_with_explicitly_rejected_references": 2,
+  "source_result_sha256": "82e1d066fab55d839889fe555a0997a6378b9d22353319d5bc7e16ace6f0164f",
+  "same_credited_targets_as_original": true,
+  "original_credited_clock_already_reported_at_capture": [
+    {
+      "step": 149,
+      "previously_credited": true
+    },
+    {
+      "step": 169,
+      "previously_credited": true
+    }
+  ]
+}

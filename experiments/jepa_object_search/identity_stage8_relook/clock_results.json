@@ -1,0 +1,122 @@
+{
+  "original_most_nav": {
+    "kind": "accepted_autonomous",
+    "result_sha256": "c3bf372ddad7d280df7ad82eac7fed7c253d5c85f160540cd3bc2c4353f15e3e",
+    "actions": 90,
+    "budget": 300,
+    "quota": 2,
+    "correct_distinct": 1,
+    "complete": false,
+    "report_actions": 2,
+    "repeats": 1,
+    "out_of_range": 0,
+    "official_false_positive_count": 1,
+    "distinct_in_range": 1,
+    "sorted_minimum_report_distances_m": [
+      0.002,
+      4.196,
+      4.52
+    ],
+    "stopped_by_agent": true,
+    "credit_events": [
+      {
+        "step": 65,
+        "new": 1,
+        "in_range": true
+      },
+      {
+        "step": 88,
+        "new": 0,
+        "in_range": true
+      }
+    ]
+  },
+  "previous_stage7": {
+    "kind": "fixed_motion_replay",
+    "correct_distinct": 1,
+    "quota": 2,
+    "reports": 1,
+    "repeats": 0,
+    "out_of_range": 0,
+    "original_result_sha256": "139a8f4ab28de82f7cfc4269a08a692752ef8c849449fe19bfde912897dc000f",
+    "actual_gpt_requests": 12
+  },
+  "evaluated_policy": {
+    "kind": "accepted_autonomous",
+    "entry": "weak_route_agent:WeakRouteAgent",
+    "actions": 300,
+    "budget": 300,
+    "quota": 2,
+    "correct_distinct": 1,
+    "complete": false,
+    "report_actions": 1,
+    "repeats": 0,
+    "out_of_range": 0,
+    "official_false_positive_count": 0,
+    "distinct_in_range": 1,
+    "sorted_minimum_report_distances_m": [
+      0.002,
+      3.83,
+      4.043
+    ],
+    "stopped_by_agent": false,
+    "credit_events": [
+      {
+        "step": 139,
+        "new": 1,
+        "in_range": true
+      }
+    ]
+  },
+  "paired_protocol": {
+    "seed": 0,
+    "report_radius_m": 0.25,
+    "actions": "goat",
+    "budget": 300,
+    "model": "gpt-4o-2024-11-20"
+  },
+  "source_hashes": {
+    "result.json": "82e1d066fab55d839889fe555a0997a6378b9d22353319d5bc7e16ace6f0164f",
+    "decision_trace.jsonl": "34b6b5ef89ff24d20b42ca14aa440656ee5444a55e62dbd87116293946ce6592",
+    "confirm_events.jsonl": "900ac6724aa1bfd47cbeeb7667c26ce2957f7eb119b8ef375df4d077f94cc4b1",
+    "action_trace.jsonl": "37b7485d218a37ef0eb61038bcad58e93441be99e17163dd2f1180013b45ec17"
+  },
+  "evidence": {
+    "weak_cue_route": {
+      "events": {
+        "weak_relook_start": 4,
+        "weak_relook_action": 28,
+        "weak_relook_capture": 2,
+        "weak_relook_end": 4
+      },
+      "reasons": {
+        "weak_relook_end": {
+          "no_mapped_identifiable_view": 4
+        }
+      },
+      "distinct_action_proposal_steps": 28,
+      "proposals_matching_executed_action": 28,
+      "forward_actions_with_following_pose": 8,
+      "forwards_over_5cm": 8,
+      "departure_followups": []
+    },
+    "receipt_events": {
+      "report_dispatched": 1,
+      "report_action_acknowledged": 1,
+      "confirmed_reference_pinned": 1
+    },
+    "executed_report_steps_with_dispatch": 1,
+    "executed_report_steps_with_memory_receipt": 1,
+    "trusted_reference_checks": 1,
+    "all_reference_checks": 3,
+    "reference_outcomes": {
+      "supported": 1,
+      "no_class_box_at_click": 2
+    },
+    "report_deferrals": {
+      "arrival_no_unique_correspondence": 4,
+      "need_grounded_object_region": 6
+    },
+    "new_vlm_report_requests": 13
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "scope": "Counterfactual visual subgate only, using the officially credited report's pinned source, the frozen mapper's recorded keyframe files, all subsequent weak captures and every high-confidence proposal. No geometry eligibility, reports or actions simulated; no semantic labels filter any proposal.",
+  "result_sha256": "82e1d066fab55d839889fe555a0997a6378b9d22353319d5bc7e16ace6f0164f",
+  "matcher_sha256": "3ee817f5d513eb09728d2b1bac7333abdcef4a0b7a1d27360616834637e80ec3",
+  "report_step": 139,
+  "pinned_at_step": 140,
+  "reference_source_step": 12,
+  "source_keyframe_sha256": "80ee687ef8f156a4e9f3c8f110c3a87e8ecd3a4ef3cf886a4b3436f6e17bc181",
+  "online_source_foreground_fraction": 0.7835294117647059,
+  "reconstructed_source_foreground_fraction": 0.7835294117647059,
+  "online_source_detector_score": 0.7278192043304443,
+  "reconstructed_source_detector_score": 0.7278192043304443,
+  "detector_query": "distinct clock objects",
+  "threshold": 0.7,
+  "paid_calls": 0,
+  "results": [
+    {
+      "step": 149,
+      "live_lossless_rgb": {
+        "high_confidence_candidates": 1,
+        "individually_match_pinned_reference": 0,
+        "unique_correspondence": false
+      },
+      "frozen_mapper_rgb": {
+        "high_confidence_candidates": 1,
+        "individually_match_pinned_reference": 0,
+        "unique_correspondence": false
+      }
+    },
+    {
+      "step": 169,
+      "live_lossless_rgb": {
+        "high_confidence_candidates": 1,
+        "individually_match_pinned_reference": 0,
+        "unique_correspondence": false
+      },
+      "frozen_mapper_rgb": {
+        "high_confidence_candidates": 0,
+        "individually_match_pinned_reference": 0,
+        "unique_correspondence": false
+      }
+    }
+  ]
+}

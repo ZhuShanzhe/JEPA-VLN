@@ -1,0 +1,46 @@
+{
+  "scope": "Retrospective verification of the two observed weak-route captures at steps 149 and 169 using immutable prefixes of the live logs. No live mapper queries.",
+  "captures": [
+    {
+      "capture_step": 149,
+      "frame_id": 150,
+      "episode_source": "native_flow_keyframe",
+      "detector_box_count": 1,
+      "detector_failure": false,
+      "capture_queue_depth": 8,
+      "end_step": 153,
+      "end_queue_depth": 12,
+      "fifo_batch_size": 17,
+      "launch_step": 158,
+      "processed_by_step": 159,
+      "steps_after_relook_closed": 6,
+      "later_successful_submap": 8,
+      "exact_keyframe_in_fifo_window": true,
+      "keyframe_rgb_saved": true,
+      "keyframe_rgb_sha256": "657b974eafad89bb05ae2682014a2bc12fbd8bc325d1d172f64ad6f8f27572dd",
+      "selected_log_records_sha256": "de1cd91584e5c74f3ed591474a13f0b11bd5035958265622a364ea93ba399464"
+    },
+    {
+      "capture_step": 169,
+      "frame_id": 170,
+      "episode_source": "native_flow_keyframe",
+      "detector_box_count": 2,
+      "detector_failure": false,
+      "capture_queue_depth": 11,
+      "end_step": 172,
+      "end_queue_depth": 14,
+      "fifo_batch_size": 17,
+      "launch_step": 175,
+      "processed_by_step": 176,
+      "steps_after_relook_closed": 4,
+      "later_successful_submap": 9,
+      "exact_keyframe_in_fifo_window": true,
+      "keyframe_rgb_saved": true,
+      "keyframe_rgb_sha256": "f719c13c905c38b82f5d9429060a2471553106405174e709f06c712b0a80c74b",
+      "selected_log_records_sha256": "fe3e5703a2baa80e09838e1f4c5e5e5c38723e8a242473eb7103d4cd1a5b8301"
+    }
+  ],
+  "observed": "Both actual detector lookups returned proposals. Both flow-selected RGB keyframes belonged to regular 17-frame FIFO batches that completed after the relook controller discarded its pending frame IDs.",
+  "geometry": "Regular completed submaps supply a per-frame point grid and pose under get_frame_points. No direct per-pixel depth snapshot or cross-view identity verdict was archived for these two crops. Finite depth in the relevant object, correct identity, and the effect of waiting longer remain unverified.",
+  "mechanism": "The snapshot cache is per agent step. The controller requested snapshots across several steps, but the batches had not launched before its local timeout. Neither capture used the optional force-capture path."
+}
