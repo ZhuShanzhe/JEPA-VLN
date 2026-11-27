@@ -1,0 +1,46 @@
+{
+  "scope": "Observed proposals in frozen same-category view pairs in 12 HSSD houses; sensor depth and supplied camera poses. All source and query proposals considered; no labels or target poses used by matcher. Pairwise diagnosis, not a navigation success rate.",
+  "unique_view_pairs": 186,
+  "houses": 12,
+  "false_merge_houses": 0,
+  "counts": {
+    "same": {
+      "pairs": 118,
+      "visual_match": 18,
+      "uncertain": 114,
+      "visual_and_spatial_match": 2,
+      "visual_or_spatial_match": 20,
+      "same": 4
+    },
+    "different": {
+      "pairs": 346,
+      "visual_match": 0,
+      "uncertain": 312,
+      "visual_and_spatial_match": 0,
+      "visual_or_spatial_match": 0,
+      "distinct": 34
+    },
+    "unlabeled": {
+      "pairs": 387,
+      "visual_match": 0,
+      "uncertain": 368,
+      "visual_and_spatial_match": 0,
+      "visual_or_spatial_match": 1,
+      "distinct": 18,
+      "same": 1
+    },
+    "different_copy_of_same_asset": {
+      "pairs": 17,
+      "visual_match": 0,
+      "uncertain": 13,
+      "distinct": 4
+    },
+    "different_copy_nearby_parallel_vertical_support": {
+      "pairs": 6,
+      "visual_match": 0,
+      "distinct": 3,
+      "uncertain": 3
+    }
+  },
+  "matcher_sha256": "59f698895bc109ec2ba6dceb8e0cffcaae61f6ec928f77beddb8e15ec3521830"
+}

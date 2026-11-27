@@ -1,0 +1,125 @@
+{
+  "protocol": "Four preordered held-out registrations with supplied source boxes, measured start depth, navmesh reachable translates, deterministic physical execution and post-choice target labels.",
+  "outcomes": [
+    {
+      "category": "clock",
+      "source_view": 0,
+      "status": "executed",
+      "source": {
+        "visible_pixels": 1219,
+        "short_side_px": 25,
+        "fully_in_frame": true
+      },
+      "n": 12,
+      "same_choice": true,
+      "jepa": {
+        "visible_pixels": 2851,
+        "short_side_px": 35,
+        "fully_in_frame": true,
+        "actions": 3,
+        "moved_m": 0.75,
+        "endpoint_error_m": 0.0
+      },
+      "direct": {
+        "visible_pixels": 2851,
+        "short_side_px": 35,
+        "fully_in_frame": true,
+        "actions": 3,
+        "moved_m": 0.75,
+        "endpoint_error_m": 0.0
+      },
+      "mean_reachable_pixels": 2056.5,
+      "max_reachable_pixels": 3591
+    },
+    {
+      "category": "clock",
+      "source_view": 1,
+      "status": "executed",
+      "source": {
+        "visible_pixels": 2978,
+        "short_side_px": 61,
+        "fully_in_frame": true
+      },
+      "n": 15,
+      "same_choice": true,
+      "jepa": {
+        "visible_pixels": 6425,
+        "short_side_px": 85,
+        "fully_in_frame": true,
+        "actions": 5,
+        "moved_m": 0.75,
+        "endpoint_error_m": 0.0
+      },
+      "direct": {
+        "visible_pixels": 6425,
+        "short_side_px": 85,
+        "fully_in_frame": true,
+        "actions": 5,
+        "moved_m": 0.75,
+        "endpoint_error_m": 0.0
+      },
+      "mean_reachable_pixels": 4611.1,
+      "max_reachable_pixels": 8155
+    },
+    {
+      "category": "wall_art",
+      "source_view": 0,
+      "status": "executed",
+      "source": {
+        "visible_pixels": 14516,
+        "short_side_px": 145,
+        "fully_in_frame": true
+      },
+      "n": 14,
+      "same_choice": false,
+      "jepa": {
+        "visible_pixels": 33253,
+        "short_side_px": 191,
+        "fully_in_frame": true,
+        "actions": 6,
+        "moved_m": 0.75,
+        "endpoint_error_m": 0.0
+      },
+      "direct": {
+        "visible_pixels": 21572,
+        "short_side_px": 154,
+        "fully_in_frame": true,
+        "actions": 7,
+        "moved_m": 0.5,
+        "endpoint_error_m": 0.0
+      },
+      "mean_reachable_pixels": 20663.6,
+      "max_reachable_pixels": 36898
+    },
+    {
+      "category": "wall_art",
+      "source_view": 1,
+      "status": "executed",
+      "source": {
+        "visible_pixels": 32536,
+        "short_side_px": 129,
+        "fully_in_frame": false
+      },
+      "n": 11,
+      "same_choice": true,
+      "jepa": {
+        "visible_pixels": 64054,
+        "short_side_px": 248,
+        "fully_in_frame": false,
+        "actions": 8,
+        "moved_m": 0.75,
+        "endpoint_error_m": 0.0
+      },
+      "direct": {
+        "visible_pixels": 64054,
+        "short_side_px": 248,
+        "fully_in_frame": false,
+        "actions": 8,
+        "moved_m": 0.75,
+        "endpoint_error_m": 0.0
+      },
+      "mean_reachable_pixels": 67288.1,
+      "max_reachable_pixels": 116465
+    }
+  ]
+}

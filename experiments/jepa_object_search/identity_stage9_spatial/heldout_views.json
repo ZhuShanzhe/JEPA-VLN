@@ -1,0 +1,26 @@
+{
+  "all": {
+    "houses": 16,
+    "choices": 3256,
+    "house_macro_direct": 0.8156615495681763,
+    "house_macro_jepa": 0.8175946474075317,
+    "house_macro_random": 0.7868298292160034,
+    "house_macro_difference": 0.0019331425428390503,
+    "paired_house_percentile_95": [
+      -0.0009452014230191707,
+      0.004989113193005323
+    ]
+  },
+  "clock": {
+    "houses": 5,
+    "choices": 46,
+    "house_macro_direct": 0.7870237231254578,
+    "house_macro_jepa": 0.8028332591056824,
+    "house_macro_random": 0.754220187664032,
+    "house_macro_difference": 0.015809476375579834,
+    "paired_house_percentile_95": [
+      0.000707221042830497,
+      0.030911732465028763
+    ]
+  }
+}

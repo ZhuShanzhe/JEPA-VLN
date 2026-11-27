@@ -1,0 +1,106 @@
+{
+  "protocol": "one paired autonomous development episode; same official reporting geometry, upper model, start and 300-action budget",
+  "frozen_source_sha256": "3c02221dc724edf2604d744aa6009fc394e21743e667a7b012ef5dd59f6b922f",
+  "native": {
+    "actions": 90,
+    "budget": 300,
+    "quota": 2,
+    "correct_distinct": 1,
+    "complete": false,
+    "report_actions": 2,
+    "repeats": 1,
+    "out_of_range": 0,
+    "official_false_positive_count": 1,
+    "distinct_in_range": 1,
+    "sorted_minimum_report_distances_m": [
+      0.002,
+      4.196,
+      4.52
+    ],
+    "stopped_by_agent": true,
+    "credit_events": [
+      {
+        "step": 65,
+        "new": 1,
+        "in_range": true
+      },
+      {
+        "step": 88,
+        "new": 0,
+        "in_range": true
+      }
+    ]
+  },
+  "previous": {
+    "actions": 300,
+    "budget": 300,
+    "quota": 2,
+    "correct_distinct": 1,
+    "complete": false,
+    "report_actions": 1,
+    "repeats": 0,
+    "out_of_range": 0,
+    "official_false_positive_count": 0,
+    "distinct_in_range": 1,
+    "sorted_minimum_report_distances_m": [
+      0.002,
+      3.83,
+      4.043
+    ],
+    "stopped_by_agent": false,
+    "credit_events": [
+      {
+        "step": 139,
+        "new": 1,
+        "in_range": true
+      }
+    ]
+  },
+  "spatial": {
+    "actions": 300,
+    "budget": 300,
+    "quota": 2,
+    "correct_distinct": 1,
+    "complete": false,
+    "report_actions": 1,
+    "repeats": 0,
+    "out_of_range": 0,
+    "official_false_positive_count": 0,
+    "distinct_in_range": 1,
+    "sorted_minimum_report_distances_m": [
+      0.0,
+      4.423,
+      4.734
+    ],
+    "stopped_by_agent": false,
+    "credit_events": [
+      {
+        "step": 167,
+        "new": 1,
+        "in_range": true
+      }
+    ]
+  },
+  "shared_targets_native": 1,
+  "additional_vs_native": 0,
+  "shared_targets_previous": 1,
+  "evidence": {
+    "new_view_rankings": 4,
+    "nontrivial_view_comparisons": 4,
+    "capture_count": 4,
+    "relook_actions": 17,
+    "spatial_verdicts": 0,
+    "spatial_status": {},
+    "spatial_reason": {},
+    "delayed": {
+      "no_unique_spatial_box": 3,
+      "unreliable_core_depth": 1
+    },
+    "immediate": {
+      "no_reachable_ranked_view": 1
+    },
+    "departures": 0,
+    "confirmed_at_capture": 0
+  },
+  "closed": true
+}

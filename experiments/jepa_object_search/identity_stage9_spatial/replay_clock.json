@@ -1,0 +1,94 @@
+{
+  "scope": "Fixed trajectory; original RGB keyframes run through frozen VGGT-SLAM, original chronological submap boundaries, loops and pinned original reference. No new navigation. No oracle inputs.",
+  "results": [
+    {
+      "step": 149,
+      "recomputed_at": 159,
+      "native_color_alignment": true,
+      "box_count": 1,
+      "original_registration_binding": false,
+      "bound_residual_m": null,
+      "evidence": [
+        {
+          "separation_m": 0.078,
+          "camera_translation_m": 2.057,
+          "source_uncertainty_m": 0.229,
+          "current_uncertainty_m": 0.215,
+          "combined_uncertainty_m": 0.314,
+          "source_surface": true,
+          "current_surface": true,
+          "surface_normal_disagreement_deg": 4.65,
+          "registered_offsets_m": {
+            "confirmed_owner": 0.124,
+            "other_clue": 2.496,
+            "chased_clue": 0.78
+          },
+          "current_localization": {
+            "finite_core_samples": 144,
+            "near_depth_samples": 106,
+            "sigma_terms_m": {
+              "base": 0.035,
+              "depth_mad": 0.0493,
+              "grid": 0.0237,
+              "center_or_clipping": 0.1071
+            }
+          },
+          "reference_localization": {
+            "finite_core_samples": 6,
+            "near_depth_samples": 6,
+            "sigma_terms_m": {
+              "base": 0.035,
+              "depth_mad": 0.0793,
+              "grid": 0.0776,
+              "center_or_clipping": 0.0372
+            }
+          },
+          "strong_object": true,
+          "visual_only_match": false,
+          "single_owner_subgate": "uncertain",
+          "reason": "needs_another_view",
+          "reference_eligible": true
+        }
+      ]
+    },
+    {
+      "step": 169,
+      "recomputed_at": 176,
+      "native_color_alignment": true,
+      "box_count": 1,
+      "original_registration_binding": false,
+      "bound_residual_m": null,
+      "evidence": [
+        {
+          "current_anchor": false,
+          "reference_anchor": true,
+          "registered_offsets_m": {
+            "confirmed_owner": 0.121,
+            "other_clue": 2.663,
+            "chased_clue": 0.733
+          },
+          "current_localization": {
+            "finite_core_samples": 18,
+            "near_depth_samples": 7
+          },
+          "reference_localization": {
+            "finite_core_samples": 6,
+            "near_depth_samples": 6,
+            "sigma_terms_m": {
+              "base": 0.035,
+              "depth_mad": 0.0793,
+              "grid": 0.0776,
+              "center_or_clipping": 0.0372
+            }
+          },
+          "strong_object": false,
+          "visual_only_match": false,
+          "single_owner_subgate": "uncertain",
+          "reason": "missing_map_evidence",
+          "reference_eligible": true
+        }
+      ]
+    }
+  ],
+  "matcher_sha256": "59f698895bc109ec2ba6dceb8e0cffcaae61f6ec928f77beddb8e15ec3521830"
+}

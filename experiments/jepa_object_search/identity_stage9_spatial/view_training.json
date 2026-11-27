@@ -1,0 +1,85 @@
+{
+  "seed": 290713,
+  "manifest_hashes": [
+    "4c21362967ee15885ee8b7f243c6e527d47dcc9bf3c51283af5226be372b0270",
+    "6fd81f62798ed9c386e06e0955deeea267c5c1f60cb38b8ded317e0e9110d5cb",
+    "34220c9c5edc29d2322541065cdefc05448186c439583b4a1f0d8df13b6a22df",
+    "9ec4e5ef7446569328de0291566d6ac336b8e5c33facfefb7de713aa1738aa28"
+  ],
+  "unique_views": 11600,
+  "future_latent": "32 train-PCA DINOv2 crop, 16 gradient-grid and 3 shape/size dimensions",
+  "utility": "0.35 legibility + 0.20 framing + 0.30 normalized projected surface + 0.15 category distinctiveness",
+  "splits": {
+    "train": {
+      "houses": 28,
+      "transitions": 20028,
+      "clock_transitions": 120,
+      "instances": 1276,
+      "categories": 26
+    },
+    "val": {
+      "houses": 6,
+      "transitions": 3896,
+      "clock_transitions": 64,
+      "instances": 258,
+      "categories": 23
+    },
+    "test": {
+      "houses": 16,
+      "transitions": 10752,
+      "clock_transitions": 154,
+      "instances": 746,
+      "categories": 24
+    }
+  },
+  "scores": {
+    "direct": {
+      "epoch": 25,
+      "validation_selected": 0.8226120471954346,
+      "overall": {
+        "choices": 3256,
+        "selected": 0.8157755136489868,
+        "random": 0.7856665253639221,
+        "oracle": 0.8655858635902405,
+        "best_view_rate": 0.48955773955773957
+      },
+      "clocks": {
+        "choices": 46,
+        "selected": 0.7850902676582336,
+        "random": 0.7623959183692932,
+        "oracle": 0.8595448136329651,
+        "best_view_rate": 0.5869565217391305
+      }
+    },
+    "view_jepa": {
+      "epoch": 25,
+      "validation_selected": 0.8223685026168823,
+      "overall": {
+        "choices": 3256,
+        "selected": 0.8170706033706665,
+        "random": 0.7856665253639221,
+        "oracle": 0.8655858635902405,
+        "best_view_rate": 0.5
+      },
+      "clocks": {
+        "choices": 46,
+        "selected": 0.8007124066352844,
+        "random": 0.7623959183692932,
+        "oracle": 0.8595448136329651,
+        "best_view_rate": 0.5652173913043478
+      },
+      "angle_range_shuffle": {
+        "choices": 3256,
+        "selected": 0.7679071426391602,
+        "random": 0.7856665253639221,
+        "oracle": 0.8655858635902405,
+        "best_view_rate": 0.25644963144963145
+      },
+      "dino_future_mse": 0.8546584248542786,
+      "dino_shuffled_mse": 0.8813260197639465,
+      "gradient_shape_future_mse": 0.7515316009521484,
+      "gradient_shape_shuffled_mse": 0.8167634606361389
+    }
+  },
+  "deployed_sha256": "caeb85d9574d1faf3e154880010b4c8de8f06025e5bd1862fa5b4a7e59f1ed7f"
+}

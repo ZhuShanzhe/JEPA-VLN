@@ -98,3 +98,5 @@ HSSD 的代理目标是新增可见性。开发集 48 个起点中只有 2 个�
 [MOST-Nav 的靠近与实例上报](identity_stage7_transfer/README.md)
 
 [弱实例线索的主动复看与寻钟评测](identity_stage8_relook/README.md)
+
+[用地图位置辨认实例，用 JEPA 选择复核视角](identity_stage9_spatial/README.md)
