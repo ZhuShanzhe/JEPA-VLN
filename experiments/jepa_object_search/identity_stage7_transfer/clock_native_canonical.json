@@ -1,0 +1,27 @@
+{
+  "mode": "native_accepted_action_replay",
+  "source_sha256": "c3bf372ddad7d280df7ad82eac7fed7c253d5c85f160540cd3bc2c4353f15e3e",
+  "requests": [
+    {
+      "step": 65,
+      "explicit_vlm_request": true,
+      "active_match": true,
+      "new_credit": 1,
+      "incorrect": false
+    },
+    {
+      "step": 88,
+      "explicit_vlm_request": true,
+      "active_match": true,
+      "new_credit": 0,
+      "incorrect": true
+    }
+  ],
+  "steps": 90,
+  "physical_prefix_error_m": 0.0,
+  "reports": 2,
+  "credits": 1,
+  "repeats": 1,
+  "quota": 2,
+  "paid_calls": 0
+}

@@ -1,0 +1,34 @@
+{
+  "generated_at_utc": "2026-11-27T04:25:00+00:00",
+  "source": "native_20261115, accepted/native result receipts, per-action report_events and per-step decision_trace",
+  "sample": "Every accepted native-arm episode available at audit time; partial non-random snapshot of 300 scheduled development episodes.",
+  "accepted_episodes": 118,
+  "episodes_without_report": 25,
+  "source_result_and_decision_set_sha256": "f85a400a111fae7cbc5e09b4de6e299a1f00fb4c4829a0ef2fc49acd115f906a",
+  "arrival_decision_counts": {
+    "REPORT_FOUND": 202
+  },
+  "by_report_origin": {
+    "arrival": {
+      "issued_reports": 202,
+      "at_least_one_new": 89,
+      "zero_tools_in_report_turn": 202,
+      "only_previously_claimed": 47,
+      "official_false_positive_flag": 96,
+      "no_target_in_range": 66,
+      "both_new_and_previously_claimed": 12,
+      "new_and_official_false_positive": 0
+    },
+    "other": {
+      "issued_reports": 8,
+      "at_least_one_new": 6,
+      "zero_tools_in_report_turn": 1,
+      "no_target_in_range": 1,
+      "official_false_positive_flag": 2,
+      "only_previously_claimed": 1,
+      "both_new_and_previously_claimed": 0,
+      "new_and_official_false_positive": 0
+    }
+  },
+  "unit": "Each action counted once. At least one new includes mixed actions. Only previously claimed can include tolerated repeat or over-quota claims. False-positive flags can overlap a new claim under the official multi-instance scorer. These are not success rates."
+}

@@ -1,0 +1,138 @@
+{
+  "mode": "direct",
+  "physical_prefix_error_m": 0.0,
+  "original_trajectory_sha256": "139a8f4ab28de82f7cfc4269a08a692752ef8c849449fe19bfde912897dc000f",
+  "paid_calls": 0,
+  "provided_inputs": "actual archived upper-level REPORT_FOUND requests, registrations, current map poses and fixed motion. Live RGB rerendered. Missing map input supplied as withheld. No other decisions regenerated.",
+  "native_autonomous": {
+    "found": 1,
+    "reports": 2,
+    "repeats": 1,
+    "steps": 90,
+    "quota": 2,
+    "success": false
+  },
+  "realized_stage5_autonomous": {
+    "reports": 0,
+    "credited": 0
+  },
+  "requests": [
+    {
+      "request_step": 88,
+      "event": "arrival",
+      "active": true,
+      "actual_vlm_request": true,
+      "reported": true,
+      "reason": null,
+      "request_ordinal": 1,
+      "new_credit": 1,
+      "incorrect": false
+    },
+    {
+      "request_step": 89,
+      "event": "arrival",
+      "active": true,
+      "actual_vlm_request": true,
+      "reported": false,
+      "reason": null,
+      "request_ordinal": 2
+    },
+    {
+      "request_step": 132,
+      "event": "arrival",
+      "active": true,
+      "actual_vlm_request": true,
+      "reported": false,
+      "reason": null,
+      "request_ordinal": 3
+    },
+    {
+      "request_step": 139,
+      "event": "arrival",
+      "active": true,
+      "actual_vlm_request": true,
+      "reported": false,
+      "reason": null,
+      "request_ordinal": 4
+    },
+    {
+      "request_step": 159,
+      "event": "arrival",
+      "active": true,
+      "actual_vlm_request": true,
+      "reported": true,
+      "reason": null,
+      "request_ordinal": 5,
+      "new_credit": 0,
+      "incorrect": true
+    },
+    {
+      "request_step": 162,
+      "event": "arrival",
+      "active": true,
+      "actual_vlm_request": true,
+      "reported": false,
+      "reason": null,
+      "request_ordinal": 6
+    },
+    {
+      "request_step": 164,
+      "event": "world_state_updated",
+      "active": false,
+      "actual_vlm_request": true,
+      "reported": false,
+      "reason": null,
+      "request_ordinal": 7
+    },
+    {
+      "request_step": 216,
+      "event": "arrival",
+      "active": true,
+      "actual_vlm_request": true,
+      "reported": false,
+      "reason": null,
+      "request_ordinal": 8
+    },
+    {
+      "request_step": 217,
+      "event": "world_state_updated",
+      "active": false,
+      "actual_vlm_request": true,
+      "reported": false,
+      "reason": null,
+      "request_ordinal": 9
+    },
+    {
+      "request_step": 266,
+      "event": "arrival",
+      "active": true,
+      "actual_vlm_request": true,
+      "reported": false,
+      "reason": null,
+      "request_ordinal": 10
+    },
+    {
+      "request_step": 272,
+      "event": "arrival",
+      "active": true,
+      "actual_vlm_request": true,
+      "reported": false,
+      "reason": null,
+      "request_ordinal": 11
+    },
+    {
+      "request_step": 273,
+      "event": "arrival",
+      "active": true,
+      "actual_vlm_request": true,
+      "reported": false,
+      "reason": null,
+      "request_ordinal": 12
+    }
+  ],
+  "credited_distinct": 1,
+  "reports": 2,
+  "repeat_reports": 1,
+  "out_of_range_reports": 0,
+  "quota": 2
+}

@@ -1,0 +1,114 @@
+{
+  "scope": "One accepted 300-action clock episode. Archived live proposals and reference checks are from the historical run. Report counterfactuals use the separate controlled replay.",
+  "archived_sha256": {
+    "result.json": "139a8f4ab28de82f7cfc4269a08a692752ef8c849449fe19bfde912897dc000f",
+    "agent/decision_trace.jsonl": "3fe3702cfb276a6427764e6f199262179eecab5f508098aeb51f227e81bb4ff8",
+    "agent/confirm_events.jsonl": "4924ce27f77e8f716045d62940f15d5f2548b8ee07208229efcbb3022c126c75",
+    "agent/multiview_events.jsonl": "c293577bb52bf01a0df6f2a2662dcb7d752164cea8a14ad8ddb54597f4bd7462"
+  },
+  "official_evaluator_sha256": "079ea2e7d02d6aa839f7bdee99d08a85581a4d2c7b169443c88e77537a3832a8",
+  "replay_receipt_sha256": {
+    "direct": "7e9849c9216370bf1141d321d3795e84f8e2651930d04c0cbd0fe93eb07784e5",
+    "adapted": "895128549b21d3ccfbf757ee49f4ff834b7ecbb0cfcec0116f07453f2a1e26b7"
+  },
+  "original_registered_items_with_valid_report_requests": 2,
+  "later_requests_to_already_credited_registration_in_adapted": [
+    139,
+    216,
+    217
+  ],
+  "other_registration_source": {
+    "step": 12,
+    "source_whose_reference_failed": "other internal registration",
+    "observed_step": 12,
+    "quality_result": "no_class_box_at_click",
+    "accepted": false,
+    "minimum_source_proposal_score": 0.7,
+    "minimum_source_occupancy": 0.3,
+    "interpretation": "No qualifying class box enclosed the registered point on the source view. This can occur with a misplaced click or a missing qualifying proposal at that location."
+  },
+  "other_registration_requests": [
+    {
+      "step": 159,
+      "event": "arrival",
+      "live_clock_proposals": 1,
+      "live_query_records": 1,
+      "detector_error_recorded": false,
+      "trusted_reference_observations": 0,
+      "registration_observations": 1,
+      "deferred_reason": "need_grounded_object_region"
+    },
+    {
+      "step": 162,
+      "event": "arrival",
+      "live_clock_proposals": 2,
+      "live_query_records": 1,
+      "detector_error_recorded": false,
+      "trusted_reference_observations": 0,
+      "registration_observations": 1,
+      "deferred_reason": "need_grounded_object_region"
+    },
+    {
+      "step": 164,
+      "event": "world_state_updated",
+      "live_clock_proposals": 1,
+      "live_query_records": 1,
+      "detector_error_recorded": false,
+      "trusted_reference_observations": 0,
+      "registration_observations": 1,
+      "deferred_reason": "need_grounded_object_region"
+    },
+    {
+      "step": 266,
+      "event": "arrival",
+      "live_clock_proposals": 3,
+      "live_query_records": 1,
+      "detector_error_recorded": false,
+      "trusted_reference_observations": 0,
+      "registration_observations": 1,
+      "deferred_reason": "need_grounded_object_region"
+    },
+    {
+      "step": 272,
+      "event": "arrival",
+      "live_clock_proposals": 1,
+      "live_query_records": 1,
+      "detector_error_recorded": false,
+      "trusted_reference_observations": 0,
+      "registration_observations": 1,
+      "deferred_reason": "need_grounded_object_region"
+    },
+    {
+      "step": 273,
+      "event": "arrival",
+      "live_clock_proposals": 1,
+      "live_query_records": 2,
+      "detector_error_recorded": false,
+      "trusted_reference_observations": 0,
+      "registration_observations": 1,
+      "deferred_reason": "need_grounded_object_region"
+    }
+  ],
+  "box_count_definition": "Number of category proposals returned by each live-view detector lookup, including cached results. Repeated lookups at one step had equal counts and count only once. Proposal count does not establish reference quality, physical identity or distinct instances.",
+  "trusted_reference_definition": "Number of recorded source observations accepted by the historical source-quality checker for the requested registration before the decision.",
+  "official_approach": {
+    "steps": 300,
+    "eligible_target_count": 3,
+    "task_quota": 2,
+    "reporting_radius_m": 0.25,
+    "distinct_in_range": 1,
+    "sorted_target_minimum_reporting_distances_m": [
+      0.0,
+      3.897,
+      4.221
+    ],
+    "missing_minimum_distances": 0,
+    "method": "For each official target the evaluator takes the minimum reporting distance over the entire recorded trajectory and the final position, then includes it when the minimum is at or below the configured threshold. Counts are unique true targets."
+  },
+  "direct_replay_at_159": {
+    "official_new_credit": 0,
+    "in_range": true,
+    "repeat": true
+  },
+  "interpretation": "The second internal record had no eligible registered reference despite nonempty live detections. The direct report at step 159 repeated the credited physical target. No physical identity label links the other internal record to a particular ground-truth object."
+}

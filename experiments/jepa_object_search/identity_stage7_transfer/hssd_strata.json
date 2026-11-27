@@ -1,0 +1,63 @@
+{
+  "scope": "Arrival/request injected, source box and the last of two distinct query views. Stage 6 checks both; Stage 7 evaluates only the last current view. No navigation, rival owner or episode score.",
+  "independent_houses": 12,
+  "thresholds": "Locked on synthetic warp, object swap and background swap before this HSSD test; no household selection by outcome.",
+  "module_sha256": "3ee817f5d513eb09728d2b1bac7333abdcef4a0b7a1d27360616834637e80ec3",
+  "fixtures_sha256": "49ab81ef569c707f01b30d715bc6fe46e7b8798679ba42176c409724751169b3",
+  "detections_sha256": "0b78bfcd532e808b1edb34d5c8b3d96eb03b76afe57d01fa5b622339c497dc4f",
+  "groups": {
+    "absent_with_same_class": {
+      "candidate_groups": 47,
+      "scored": 42,
+      "arrival_withheld": 42,
+      "prior_withheld": 42,
+      "combined_withheld": 42,
+      "excluded_incorrect_source": 5
+    },
+    "same": {
+      "candidate_groups": 47,
+      "scored": 42,
+      "arrival_withheld": 37,
+      "prior_withheld": 40,
+      "combined_withheld": 37,
+      "arrival_correct": 5,
+      "combined_correct": 5,
+      "prior_correct": 2,
+      "excluded_incorrect_source": 3,
+      "excluded_incomplete": 2
+    }
+  },
+  "by_category": {
+    "wall_art": {
+      "absent_with_same_class": {
+        "scored": 33,
+        "arrival_withheld": 33,
+        "prior_withheld": 33,
+        "combined_withheld": 33
+      },
+      "same": {
+        "scored": 32,
+        "arrival_withheld": 27,
+        "prior_withheld": 30,
+        "combined_withheld": 27,
+        "arrival_correct": 5,
+        "combined_correct": 5,
+        "prior_correct": 2
+      }
+    },
+    "clock": {
+      "absent_with_same_class": {
+        "scored": 9,
+        "arrival_withheld": 9,
+        "prior_withheld": 9,
+        "combined_withheld": 9
+      },
+      "same": {
+        "scored": 10,
+        "arrival_withheld": 10,
+        "prior_withheld": 10,
+        "combined_withheld": 10
+      }
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "scope": "Two independent resets of one household clock. Physical actions and RGB, frozen detector, actual Stage 7 arrival, identity and receipt logic, official scorer. No new VLM or full episode.",
+  "supplied": "Same prior three trusted photographs as Stage 6; native intent at estimated arrival, map, precise odometry, depth-based remembered point, and missing-geometry verdict supplied. Only one pre-enrolled instance. Ground truth used for initial range stratification and post-hoc scoring.",
+  "estimated_target_source": "three visual boxes plus calibrated depth (controlled localization)",
+  "paid_calls": 0,
+  "quota": 2,
+  "rows": [
+    {
+      "condition": "open_approach",
+      "immediate_control": true,
+      "motion_actions": 0,
+      "forward_steps": 0,
+      "blocked_forwards": 0,
+      "extra_geodesic_distance_m": -1.4039177154145932e-07,
+      "inspection": [],
+      "credited_distinct": 0,
+      "out_of_range": 1,
+      "reports": 1,
+      "repeats": 0,
+      "instance_receipt": false
+    },
+    {
+      "condition": "open_approach",
+      "immediate_control": false,
+      "motion_actions": 11,
+      "forward_steps": 8,
+      "blocked_forwards": 0,
+      "extra_geodesic_distance_m": -1.4039177154145932e-07,
+      "inspection": [
+        {
+          "reason": "explicit_report_with_local_correspondence",
+          "detections": 1,
+          "accepted": true
+        }
+      ],
+      "credited_distinct": 1,
+      "out_of_range": 0,
+      "reports": 1,
+      "repeats": 0,
+      "instance_receipt": true
+    },
+    {
+      "condition": "obstructed_approach",
+      "immediate_control": true,
+      "motion_actions": 0,
+      "forward_steps": 0,
+      "blocked_forwards": 0,
+      "extra_geodesic_distance_m": 0.391434907913208,
+      "inspection": [],
+      "credited_distinct": 0,
+      "out_of_range": 1,
+      "reports": 1,
+      "repeats": 0,
+      "instance_receipt": false
+    },
+    {
+      "condition": "obstructed_approach",
+      "immediate_control": false,
+      "motion_actions": 21,
+      "forward_steps": 16,
+      "blocked_forwards": 0,
+      "extra_geodesic_distance_m": 0.391434907913208,
+      "inspection": [
+        {
+          "reason": "explicit_report_with_local_correspondence",
+          "detections": 1,
+          "accepted": true
+        }
+      ],
+      "credited_distinct": 1,
+      "out_of_range": 0,
+      "reports": 1,
+      "repeats": 0,
+      "instance_receipt": true
+    }
+  ]
+}
