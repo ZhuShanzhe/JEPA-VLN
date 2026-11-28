@@ -1,0 +1,32 @@
+{
+  "method": "Same cue, already chosen action path and endpoint for all three views. The articulating sensor rig is hypothetical. Ties go to earliest offered view. Both raw and confidence-gated selections ignore evaluator truth.",
+  "variants": {
+    "joint_long": {
+      "groups": 840,
+      "native": 90,
+      "best_available": 107,
+      "predicted_highest": 102,
+      "confidence_gate": 90,
+      "rescued_confidence_gate": 0,
+      "spoiled_confidence_gate": 0
+    },
+    "long_cue_joint": {
+      "groups": 840,
+      "native": 90,
+      "best_available": 107,
+      "predicted_highest": 98,
+      "confidence_gate": 90,
+      "rescued_confidence_gate": 0,
+      "spoiled_confidence_gate": 0
+    },
+    "long_cue_direct": {
+      "groups": 840,
+      "native": 90,
+      "best_available": 107,
+      "predicted_highest": 97,
+      "confidence_gate": 92,
+      "rescued_confidence_gate": 2,
+      "spoiled_confidence_gate": 0
+    }
+  }
+}

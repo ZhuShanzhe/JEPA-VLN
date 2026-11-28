@@ -1,0 +1,40 @@
+{
+  "inference_roundtrip_rows": 96,
+  "roundtrip_cpu_gpu_max_abs_diff": 6.0558319091796875e-05,
+  "body_reach_max_delta_across_9_optics": 0.0,
+  "checkpoint_hashes": {
+    "joint_long": "4a9e6765933cb685a7914a06408df44befe1d18e5119c77696d0af09144b3018",
+    "short_only": "34fcb0b642ce364fb0037b1aad6eeca7610b695796929a7dcee9967a405a35d6",
+    "planar_only": "d6a5bec4f35f090c5f6a0a6a5e1990600873b3c1b225030544d31a8b929be017",
+    "direct_outcome": "84d4d2918ac6d2e5168df880ccbcb7778592b452fdfaa094f25d56f7ca46da39"
+  },
+  "paired": {
+    "short_only": {
+      "joint_minus_control_brier": 0.002830262492112596,
+      "houses_better": 5,
+      "houses": 12,
+      "house_bootstrap_95": [
+        -0.006877569003637111,
+        0.011809764978256553
+      ]
+    },
+    "planar_only": {
+      "joint_minus_control_brier": 0.007860343651896903,
+      "houses_better": 3,
+      "houses": 12,
+      "house_bootstrap_95": [
+        -0.006085830681513853,
+        0.02090017560675579
+      ]
+    },
+    "direct_outcome": {
+      "joint_minus_control_brier": 0.031147817262344155,
+      "houses_better": 1,
+      "houses": 12,
+      "house_bootstrap_95": [
+        0.01691526813993106,
+        0.045009800802296315
+      ]
+    }
+  }
+}

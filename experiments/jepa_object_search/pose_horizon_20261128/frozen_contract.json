@@ -1,0 +1,24 @@
+{
+  "compared_release": "d3c51bfd902fa213458628381245617967ff1762",
+  "deployed_sources": {
+    "observation_route_20261128/gateway.py": "d05124a477a36f5714ca756cf65349c3365fdeea5ea62b29770f8bf5c501ff23",
+    "observation_route_20261128/policy.py": "634c06a34bb4bc0355c55a345447e1f028c47bc9cf1b224f0df565ad8066dfec",
+    "observation_route_20261128/routes.py": "ad2f6fb1a6545d02fa76071af8ee8bd394330b342c83ee27737dfc3d35a4d328",
+    "observation_route_20261128/terminal_prefix.py": "dce0b5afd510356df0beba97fc3345f49a131d688a6967163053ab3e4580442d",
+    "observation_route_20261128/host.py": "1b27b58cd9a8b22516e1c76297bdf04dcba5ae2cb4c256d824b0a1cf87580d2a",
+    "observation_route_20261128/host_dispatch.py": "8d3072e4f682c43323fc1722922eb7dee2b8f9b86cc289295dfb4106beb4d1ee",
+    "multiview_nav_20261128/multi_worker.py": "863dfd3978ae4018fa8dd7625da425a9c41fff1c7fc30872347320bd981ea7b2",
+    "multiview_nav_20261128/multi_gate.py": "26434e82b1fb70f22c7b883e1b0f0fda8a61f1212732d514232309eb6031fb09",
+    "multiview_nav_20261128/multi_policy.py": "99316ac1f625ecec627a2e00d99218677c367de1137493ce5ed08f256fe2426b"
+  },
+  "deployed_parameters": {
+    "jepa_evidence_v15/train/frozen.pt": "2a0c1666ca48fb8f3b821f92963e597ec75c1da3639f98323d62742088fc8160",
+    "jepa_variable_v16/model/calibration.json": "dcb78a4e4064b27c7a42e7dae2b203b76bd5adfdb6d5395ec57877d25fb33d2f",
+    "jepa_env_v13/models/selection.json": "7a16f38476ff6ad6553e9aace9f87c36dc5d87718b7b0b8d3945c8883369e26c",
+    "jepa_env_v13/models/prior.json": "5d2e30ad9d47df5fab685aba3fa300604c5e3c2cd190ccaf6c61a7798ec8b6d8",
+    "local_target_20261128/localvision/surface_reader.npz": "3cf9811ca896efe2cf0a4cd6e95adffb68f73513fc0707b8156496b517d944fb",
+    "jepa_env_v13/models/weights/jepa_11_180.pt": "fc5dd3d3845c0a46e80c62032b46385c8bc3469cb2d40c1d281e31b1be3feb70",
+    "jepa_env_v13/models/weights/jepa_11_360.pt": "d4d1e906bae3554bfd01d64a5bcd67fce097e468b4458cbc3876df56046980e8",
+    "jepa_env_v13/models/weights/jepa_11_540.pt": "0505533338dd323737b6478f21ca438663e0cca39f2accad4b9538c321a75e8f"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "mixed_batch_native_checkpoint_max_error": 0.0,
+  "short_samples": 84,
+  "long_samples": 84,
+  "actual_fixed_camera_decision_checked": true
+}

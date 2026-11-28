@@ -1,0 +1,55 @@
+{
+  "checks": {
+    "long_cue_joint": {
+      "checkpoint": "d5e8fdf5d4eedcb4c3c198d1559151947e35e76b9a1750bc5e24842f4d0b57b8",
+      "max_abs_joint_probability_difference": 0.0001182258129119873,
+      "n_cpu_roundtrip": 96
+    },
+    "long_cue_direct": {
+      "checkpoint": "7ba8ffc19e86d75cd82d803f9ed9584a4b0985f71e428f485736e2a3330a2890",
+      "max_abs_joint_probability_difference": 0.00011166930198669434,
+      "n_cpu_roundtrip": 96
+    }
+  },
+  "prior_from_train": 0.12746913731098175,
+  "test_by_horizon": {
+    "all": {
+      "n": 2520,
+      "positive": 277,
+      "positive_rate": 0.10992063581943512,
+      "constant_train_prior": {
+        "n": 2520,
+        "positives": 277,
+        "brier": 0.09814604371786118,
+        "auroc": 0.5,
+        "ap": 0.10992063492063492
+      },
+      "horizon_train_prior": {
+        "n": 2520,
+        "positives": 277,
+        "brier": 0.09763313247401552,
+        "auroc": 0.5640838485074302,
+        "ap": 0.13431727885699005
+      }
+    },
+    "native": {
+      "n": 840,
+      "positive": 90,
+      "positive_rate": 0.1071428582072258,
+      "constant_train_prior": {
+        "n": 840,
+        "positives": 90,
+        "brier": 0.09607643634080887,
+        "auroc": 0.5,
+        "ap": 0.10714285714285714
+      },
+      "horizon_train_prior": {
+        "n": 840,
+        "positives": 90,
+        "brier": 0.09577025769316003,
+        "auroc": 0.5522666666666667,
+        "ap": 0.12857142857142856
+      }
+    }
+  }
+}

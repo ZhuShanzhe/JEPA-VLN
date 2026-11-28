@@ -1,0 +1,84 @@
+{
+  "phase": "Exploratory secondary experiment after first test readout; shared held-out panel.",
+  "seed": 1128,
+  "training_groups": 2006,
+  "val_groups": 2037,
+  "test_groups": 4114,
+  "epochs": 36,
+  "chosen_epoch": 27,
+  "val_long_macro_raw_accuracy": 0.357820607443192,
+  "base_sha256": "4a9e6765933cb685a7914a06408df44befe1d18e5119c77696d0af09144b3018",
+  "pose_path": "camera inference uses untouched joint_long checkpoint, no residual applied",
+  "results": {
+    "12": {
+      "base": {
+        "groups": 1146,
+        "raw": 0.33624200116346714,
+        "centered": 0.39296102385107623,
+        "future_cosine": 0.9195829629898071
+      },
+      "residual": {
+        "groups": 1146,
+        "raw": 0.3542757417102967,
+        "centered": 0.4086678301337987,
+        "future_cosine": 0.9157603979110718
+      }
+    },
+    "24": {
+      "base": {
+        "groups": 1244,
+        "raw": 0.3429796355841372,
+        "centered": 0.40005359056806,
+        "future_cosine": 0.9106345772743225
+      },
+      "residual": {
+        "groups": 1244,
+        "raw": 0.3545016077170418,
+        "centered": 0.38987138263665594,
+        "future_cosine": 0.9070633053779602
+      }
+    },
+    "52": {
+      "base": {
+        "groups": 1245,
+        "raw": 0.33761713520749664,
+        "centered": 0.4147255689424364,
+        "future_cosine": 0.9124224781990051
+      },
+      "residual": {
+        "groups": 1245,
+        "raw": 0.34966532797858096,
+        "centered": 0.3898259705488621,
+        "future_cosine": 0.9086377024650574
+      }
+    },
+    "80": {
+      "base": {
+        "groups": 383,
+        "raw": 0.3411662315056571,
+        "centered": 0.42384682332463014,
+        "future_cosine": 0.9118794202804565
+      },
+      "residual": {
+        "groups": 383,
+        "raw": 0.3437771975630983,
+        "centered": 0.37597911227154046,
+        "future_cosine": 0.9074070453643799
+      }
+    },
+    "108": {
+      "base": {
+        "groups": 96,
+        "raw": 0.3402777777777778,
+        "centered": 0.40625,
+        "future_cosine": 0.9135341644287109
+      },
+      "residual": {
+        "groups": 96,
+        "raw": 0.3298611111111111,
+        "centered": 0.3680555555555556,
+        "future_cosine": 0.9102827906608582
+      }
+    }
+  }
+}

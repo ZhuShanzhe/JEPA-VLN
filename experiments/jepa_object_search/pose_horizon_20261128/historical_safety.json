@@ -1,0 +1,78 @@
+{
+  "cues": 4,
+  "houses": 3,
+  "candidate_plans": 36,
+  "reachability_and_same_instance_threshold": "unchanged, >=1%",
+  "fixed": "Original three side/center RGB-D hashes checked before scoring. All three were acquired within the original four scan actions. Same pose checkpoint, candidate plans and 65% observed-path threshold. A hazard from any observed ray disqualifies that candidate.",
+  "analyses": "three_clearance_only substitutes multi-view safety mask, preserving the exact head inputs. three_matching_features additionally updates the last two input path-coverage fractions, keeping the same head weights.",
+  "model_sha256": "4a9e6765933cb685a7914a06408df44befe1d18e5119c77696d0af09144b3018",
+  "results": {
+    "single": {
+      "successful_cues": 3,
+      "successful_alternative_available": 3,
+      "changed_from_source": 1,
+      "safe_candidates": 13,
+      "safely_admitted_successful_candidates": 5
+    },
+    "three_clearance_only": {
+      "successful_cues": 3,
+      "successful_alternative_available": 3,
+      "changed_from_source": 1,
+      "safe_candidates": 16,
+      "safely_admitted_successful_candidates": 5
+    },
+    "three_matching_features": {
+      "successful_cues": 3,
+      "successful_alternative_available": 3,
+      "changed_from_source": 1,
+      "safe_candidates": 16,
+      "safely_admitted_successful_candidates": 5
+    }
+  },
+  "lamp": {
+    "source_pixels": 232,
+    "four_forward_pixels": 739,
+    "path_samples": 48,
+    "target": "table lamp",
+    "action": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "single_observed": 0.5833333333333334,
+    "three_observed": 0.625,
+    "single_hazard": 0.0,
+    "three_hazard": 0.0,
+    "single": {
+      "candidate_passed": false,
+      "candidate_p_joint": 0.00017311645206063986,
+      "candidate_p_reach": 0.00017420764197595417,
+      "candidate_p_visible_if_reach": 0.9937362670898438,
+      "source_p_joint": 0.001313700689934194,
+      "chosen_candidate": 1,
+      "chose_only_success": 0,
+      "candidate": 3
+    },
+    "three_clearance_only": {
+      "candidate_passed": false,
+      "candidate_p_joint": 0.00017311645206063986,
+      "candidate_p_reach": 0.00017420764197595417,
+      "candidate_p_visible_if_reach": 0.9937362670898438,
+      "source_p_joint": 0.001313700689934194,
+      "chosen_candidate": 1,
+      "chose_only_success": 0,
+      "candidate": 3
+    },
+    "three_matching_features": {
+      "candidate_passed": false,
+      "candidate_p_joint": 0.0002162409364245832,
+      "candidate_p_reach": 0.00021751537860836834,
+      "candidate_p_visible_if_reach": 0.9941409230232239,
+      "source_p_joint": 0.001313700689934194,
+      "chosen_candidate": 1,
+      "chose_only_success": 0,
+      "candidate": 3
+    }
+  }
+}

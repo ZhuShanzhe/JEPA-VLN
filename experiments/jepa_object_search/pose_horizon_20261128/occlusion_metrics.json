@@ -1,0 +1,55 @@
+{
+  "optical_visibility_when_source_surface_blocked": {
+    "n": 259,
+    "houses": 9,
+    "optical_visibility": {
+      "n": 259,
+      "positives": 73,
+      "brier": 0.214943718534417,
+      "auroc": 0.817351598173516,
+      "ap": 0.6902391770002547
+    },
+    "average_predicted_visibility": 0.45805802941322327
+  },
+  "optical_visibility_when_source_surface_clear": {
+    "n": 3343,
+    "houses": 12,
+    "optical_visibility": {
+      "n": 3343,
+      "positives": 2557,
+      "brier": 0.14906166130883491,
+      "auroc": 0.8692684652518009,
+      "ap": 0.9511859179007636
+    },
+    "average_predicted_visibility": 0.7081797122955322
+  },
+  "optical_visibility_when_source_surface_off_frame": {
+    "n": 1455,
+    "houses": 12,
+    "optical_visibility": {
+      "n": 1455,
+      "positives": 70,
+      "brier": 0.1356623023340606,
+      "auroc": 0.8854357916451778,
+      "ap": 0.273109203810749
+    },
+    "average_predicted_visibility": 0.22021174430847168
+  },
+  "source_only": {
+    "train_n": 3962,
+    "test_n": 4057,
+    "mean_fraction": 0.05011602023738075,
+    "brier_fraction": 0.03134974309038244,
+    "mae_fraction": 0.07488202043156719,
+    "auroc_substantial": 0.5403417974508021
+  },
+  "predicted_endpoint": {
+    "train_n": 3962,
+    "test_n": 4057,
+    "mean_fraction": 0.05011602023738075,
+    "brier_fraction": 0.031150667469690727,
+    "mae_fraction": 0.08373644031291255,
+    "auroc_substantial": 0.6241681763008777
+  },
+  "definition": "Optical counterfactuals included. A sampled instance surface point is occluded when a different surface is at least 0.15 m in front on its reprojected ray. Substantial: at least 8 points in field of view and at least 25% intercepted. Labels score the probe only, never the actor."
+}

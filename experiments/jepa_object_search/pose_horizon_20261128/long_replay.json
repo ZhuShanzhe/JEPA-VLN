@@ -1,0 +1,26 @@
+{
+  "train": {
+    "origins": 1,
+    "sibling_trajectories": 3,
+    "actions_after_source": 324,
+    "exact_rgb_images": 84,
+    "mismatched_images": 0,
+    "contact_mismatches": 0
+  },
+  "val": {
+    "origins": 1,
+    "sibling_trajectories": 3,
+    "actions_after_source": 324,
+    "exact_rgb_images": 84,
+    "mismatched_images": 0,
+    "contact_mismatches": 0
+  },
+  "test": {
+    "origins": 1,
+    "sibling_trajectories": 3,
+    "actions_after_source": 324,
+    "exact_rgb_images": 84,
+    "mismatched_images": 0,
+    "contact_mismatches": 0
+  }
+}

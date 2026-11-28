@@ -1,0 +1,149 @@
+{
+  "protocol": "Local pose proposals in held-out cue groups. Current source-depth clearance filter; no ground truth in selection. Camera changes restricted to a 1.5m horizontal, 0.5m vertical, 90deg yaw and 40deg pitch neighborhood. Joint threshold 0.5, minimum predicted improvement 0.05. All available supported source proposals tested, dependent within group.",
+  "fixed_camera": {
+    "counts": {
+      "groups_evaluated": 120,
+      "initial_proposals": 491,
+      "joint_before": 269,
+      "joint_after": 284,
+      "proposed_change": 42,
+      "rescued": 16,
+      "spoiled": 1,
+      "changed_translation": 19,
+      "changed_height": 0,
+      "changed_yaw_or_pitch": 37,
+      "reachable_but_invisible": 133,
+      "invisible_rescued": 7,
+      "confirmed_interception": 1,
+      "confirmed_interception_rescued": 0
+    },
+    "house_deltas": [
+      {
+        "initial_proposals": 40,
+        "joint_after_minus_before": -1
+      },
+      {
+        "initial_proposals": 48,
+        "joint_after_minus_before": 6
+      },
+      {
+        "initial_proposals": 42,
+        "joint_after_minus_before": 0
+      },
+      {
+        "initial_proposals": 43,
+        "joint_after_minus_before": 1
+      },
+      {
+        "initial_proposals": 50,
+        "joint_after_minus_before": 0
+      },
+      {
+        "initial_proposals": 36,
+        "joint_after_minus_before": 0
+      },
+      {
+        "initial_proposals": 37,
+        "joint_after_minus_before": 2
+      },
+      {
+        "initial_proposals": 38,
+        "joint_after_minus_before": 0
+      },
+      {
+        "initial_proposals": 36,
+        "joint_after_minus_before": 2
+      },
+      {
+        "initial_proposals": 34,
+        "joint_after_minus_before": 1
+      },
+      {
+        "initial_proposals": 40,
+        "joint_after_minus_before": 2
+      },
+      {
+        "initial_proposals": 47,
+        "joint_after_minus_before": 2
+      }
+    ],
+    "mean_house_change": 0.02956919831319517,
+    "house_bootstrap_interval95": [
+      0.00977295203490011,
+      0.05212477910992315
+    ]
+  },
+  "offline_camera_variation": {
+    "counts": {
+      "groups_evaluated": 120,
+      "initial_proposals": 4419,
+      "joint_before": 2218,
+      "joint_after": 2430,
+      "proposed_change": 574,
+      "rescued": 232,
+      "spoiled": 20,
+      "reachable_but_invisible": 1400,
+      "invisible_rescued": 150,
+      "changed_translation": 178,
+      "changed_height": 353,
+      "changed_yaw_or_pitch": 559,
+      "confirmed_interception": 77,
+      "confirmed_interception_rescued": 4
+    },
+    "house_deltas": [
+      {
+        "initial_proposals": 360,
+        "joint_after_minus_before": 0
+      },
+      {
+        "initial_proposals": 432,
+        "joint_after_minus_before": 49
+      },
+      {
+        "initial_proposals": 378,
+        "joint_after_minus_before": 23
+      },
+      {
+        "initial_proposals": 387,
+        "joint_after_minus_before": 14
+      },
+      {
+        "initial_proposals": 450,
+        "joint_after_minus_before": 14
+      },
+      {
+        "initial_proposals": 324,
+        "joint_after_minus_before": 3
+      },
+      {
+        "initial_proposals": 333,
+        "joint_after_minus_before": 10
+      },
+      {
+        "initial_proposals": 342,
+        "joint_after_minus_before": 9
+      },
+      {
+        "initial_proposals": 324,
+        "joint_after_minus_before": 30
+      },
+      {
+        "initial_proposals": 306,
+        "joint_after_minus_before": 22
+      },
+      {
+        "initial_proposals": 360,
+        "joint_after_minus_before": 16
+      },
+      {
+        "initial_proposals": 423,
+        "joint_after_minus_before": 22
+      }
+    ],
+    "mean_house_change": 0.04734219211494169,
+    "house_bootstrap_interval95": [
+      0.030438368414568418,
+      0.06566295886763941
+    ]
+  }
+}

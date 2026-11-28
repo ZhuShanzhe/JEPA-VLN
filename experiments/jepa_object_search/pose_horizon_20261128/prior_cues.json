@@ -1,0 +1,46 @@
+{
+  "source": "Historical HSSD-OV side detections, selected before scoring using valid_box && anchored && !site_offered from interface_review.json; all four events across three houses.",
+  "houses": 3,
+  "cues": 4,
+  "candidates": 36,
+  "source_and_scan_rgbd_sha": "All three original observed views of each scan matched RGB and depth hashes; actor consumed only selected side RGB/depth and actual detector box.",
+  "policy": "Same nine predetermined native ground action plans for all cues. First plan turns left and right back to its original view. Height 1.31 m, horizontal, 30 degree turns, 0.25 m forward. Clearance uses only source depth. Same default correction thresholds as the head.",
+  "physical_labels": "Execute on historical navigation simulator, reachable iff every forward action travels >=0.23 m and endpoint within 0.14 m of the request. At the actual endpoint the same instance must cover >=1% of full image (369/36864 pixels). Box association and instance pixels evaluator only.",
+  "model_sha256": "4a9e6765933cb685a7914a06408df44befe1d18e5119c77696d0af09144b3018",
+  "initial_joint": 3,
+  "chosen_joint": 3,
+  "changed": 1,
+  "unavailable": 0,
+  "better": 0,
+  "worse": 0,
+  "oracle": 4,
+  "safe_oracle": 3,
+  "source_already_clear": 3,
+  "reached": 17,
+  "joint": 7,
+  "safe": 13,
+  "safe_joint": 5,
+  "source_sha_exact": 4,
+  "highest_source_reset_rgb_mean_absolute_uint8": 0.0,
+  "highest_source_reset_depth_mean_absolute_m": 0.0,
+  "candidate_joint_brier": 0.2714205009094125,
+  "clearance_rejected_summary": [
+    {
+      "source_visible_pixels": 232,
+      "acceptable_candidates_pre_clearance": [
+        {
+          "action": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "reached_same_instance_pixels": 739,
+          "path_observed_fraction": 0.5833333134651184,
+          "path_observed_and_clear_fraction": 0.5833333134651184
+        }
+      ]
+    }
+  ],
+  "scope": "Frozen local counterfactual with 4 cues, including 2 cues from one house. No full navigation episode or distinct-report metric."
+}

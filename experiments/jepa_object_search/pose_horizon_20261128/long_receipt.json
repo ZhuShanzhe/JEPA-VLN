@@ -1,0 +1,79 @@
+{
+  "splits": {
+    "train": {
+      "houses": 12,
+      "trajectory_roots": 48,
+      "distinct_source_horizon_groups": 2112,
+      "row_count": 6336,
+      "count_by_physical_actions": {
+        "12": 1872,
+        "24": 1872,
+        "52": 1872,
+        "80": 576,
+        "108": 144
+      },
+      "paths_with_reported_contact": 219
+    },
+    "val": {
+      "houses": 6,
+      "trajectory_roots": 48,
+      "distinct_source_horizon_groups": 2112,
+      "row_count": 6336,
+      "count_by_physical_actions": {
+        "12": 1872,
+        "24": 1872,
+        "52": 1872,
+        "80": 576,
+        "108": 144
+      },
+      "paths_with_reported_contact": 139
+    },
+    "test": {
+      "houses": 12,
+      "trajectory_roots": 96,
+      "distinct_source_horizon_groups": 4224,
+      "row_count": 12672,
+      "count_by_physical_actions": {
+        "12": 3744,
+        "24": 3744,
+        "52": 3744,
+        "80": 1152,
+        "108": 288
+      },
+      "paths_with_reported_contact": 340
+    }
+  },
+  "action_encoding": {
+    "padding": 0,
+    "forward": 1,
+    "left": 2,
+    "right": 3
+  },
+  "split_origin": "Disjoint groups within existing HSSD official training houses; calibration and fresh are held out at building-family level.",
+  "sensor": {
+    "hfov_deg": 90,
+    "pitch_deg": 0,
+    "height_m": 1.25,
+    "resolution": [
+      128,
+      128
+    ]
+  },
+  "pose_fields": [
+    "forward_m",
+    "left_m",
+    "sin_yaw",
+    "cos_yaw",
+    "camera_height_m",
+    "sin_pitch",
+    "cos_pitch"
+  ],
+  "image_encoder": "Frozen OpenAI CLIP RN50 whole frame, unit-norm 1024-D.",
+  "horizon_protocol": "Source central RGB from the same three-view scan. Each leg is 24 physically executed moves. Each intermediate scan consumes R,L,L,R. Steps start immediately after the source scan. Context excludes all intermediate images. Actor pose is the requested endpoint under ideal odometry, never simulator truth.",
+  "provenance": {
+    "tree.py": "2a0218b2a8c9dcba607b8e867899224d3c979c48f9623972538ebd6b846fa145",
+    "training_cohort.json": "5443c41c3798b166552c151c6f158cdd43d29f994717f52f8ff1497416152bee",
+    "cohort.json": "67615e416f6b30ca3674110bca26f604af19c42511af6a94a3dbf63899ac128a",
+    "replay_summary.json": "9a9a5874679d421af6e33f3240199271fd9d690d37636924ed02dda7e2e179a5"
+  }
+}
