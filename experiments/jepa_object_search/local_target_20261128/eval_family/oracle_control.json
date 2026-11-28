@@ -1,0 +1,204 @@
+{
+  "panel_sha256": "9d3167d378f2f31fcd7df78d95e222fe150028bcfff739fea0f9334015e69674",
+  "map_privilege": "full navmesh and ground-truth instance viewpoints",
+  "policy_access": false,
+  "max_steps": 300,
+  "quota": 2,
+  "oracle_sha256": "dc5a36cb7872c5018e392a4b4b50be9875fe32fdd944c6c67528de81e7610fd0",
+  "score_sha256": "732b5906d9265965133bee7b01d125014dd27e749ead840869f571c127c5ab3c",
+  "rows": [
+    {
+      "scene": "106878960_174887073",
+      "goal": "picture",
+      "episode": "43",
+      "controls": {
+        "reached": 2,
+        "quota_met": true,
+        "steps": 25
+      },
+      "rescored": {
+        "instances_available": 18,
+        "distinct_approached": 2,
+        "already_at_start": 0,
+        "first_steps": [
+          20,
+          25
+        ],
+        "quota_met": true,
+        "reachable_instances_at_start": 17,
+        "approached_half_m": 2,
+        "approached_one_m": 2
+      },
+      "new_approaches": 2
+    },
+    {
+      "scene": "102816600",
+      "goal": "table lamp",
+      "episode": "42",
+      "controls": {
+        "reached": 2,
+        "quota_met": true,
+        "steps": 65
+      },
+      "rescored": {
+        "instances_available": 12,
+        "distinct_approached": 2,
+        "already_at_start": 0,
+        "first_steps": [
+          25,
+          65
+        ],
+        "quota_met": true,
+        "reachable_instances_at_start": 2,
+        "approached_half_m": 2,
+        "approached_one_m": 2
+      },
+      "new_approaches": 2
+    },
+    {
+      "scene": "107734338_176000244",
+      "goal": "bed",
+      "episode": "37",
+      "controls": {
+        "reached": 2,
+        "quota_met": true,
+        "steps": 145
+      },
+      "rescored": {
+        "instances_available": 2,
+        "distinct_approached": 2,
+        "already_at_start": 0,
+        "first_steps": [
+          76,
+          145
+        ],
+        "quota_met": true,
+        "reachable_instances_at_start": 2,
+        "approached_half_m": 2,
+        "approached_one_m": 2
+      },
+      "new_approaches": 2
+    },
+    {
+      "scene": "107734176_176000019",
+      "goal": "plant",
+      "episode": "31",
+      "controls": {
+        "reached": 2,
+        "quota_met": true,
+        "steps": 100
+      },
+      "rescored": {
+        "instances_available": 5,
+        "distinct_approached": 2,
+        "already_at_start": 0,
+        "first_steps": [
+          56,
+          100
+        ],
+        "quota_met": true,
+        "reachable_instances_at_start": 5,
+        "approached_half_m": 2,
+        "approached_one_m": 2
+      },
+      "new_approaches": 2
+    },
+    {
+      "scene": "106366410_174226806",
+      "goal": "shelf",
+      "episode": "36",
+      "controls": {
+        "reached": 3,
+        "quota_met": true,
+        "steps": 127
+      },
+      "rescored": {
+        "instances_available": 3,
+        "distinct_approached": 3,
+        "already_at_start": 0,
+        "first_steps": [
+          75,
+          127,
+          127
+        ],
+        "quota_met": true,
+        "reachable_instances_at_start": 3,
+        "approached_half_m": 3,
+        "approached_one_m": 3
+      },
+      "new_approaches": 3
+    },
+    {
+      "scene": "104348010_171512832",
+      "goal": "stool",
+      "episode": "39",
+      "controls": {
+        "reached": 2,
+        "quota_met": true,
+        "steps": 136
+      },
+      "rescored": {
+        "instances_available": 6,
+        "distinct_approached": 2,
+        "already_at_start": 0,
+        "first_steps": [
+          41,
+          136
+        ],
+        "quota_met": true,
+        "reachable_instances_at_start": 6,
+        "approached_half_m": 3,
+        "approached_one_m": 4
+      },
+      "new_approaches": 2
+    },
+    {
+      "scene": "104862501_172226556",
+      "goal": "armchair",
+      "episode": "31",
+      "controls": {
+        "reached": 2,
+        "quota_met": true,
+        "steps": 99
+      },
+      "rescored": {
+        "instances_available": 14,
+        "distinct_approached": 2,
+        "already_at_start": 0,
+        "first_steps": [
+          22,
+          99
+        ],
+        "quota_met": true,
+        "reachable_instances_at_start": 12,
+        "approached_half_m": 2,
+        "approached_one_m": 2
+      },
+      "new_approaches": 2
+    },
+    {
+      "scene": "104862384_172226319",
+      "goal": "cabinet",
+      "episode": "46",
+      "controls": {
+        "reached": 2,
+        "quota_met": true,
+        "steps": 35
+      },
+      "rescored": {
+        "instances_available": 14,
+        "distinct_approached": 2,
+        "already_at_start": 0,
+        "first_steps": [
+          22,
+          35
+        ],
+        "quota_met": true,
+        "reachable_instances_at_start": 10,
+        "approached_half_m": 2,
+        "approached_one_m": 2
+      },
+      "new_approaches": 2
+    }
+  ]
+}

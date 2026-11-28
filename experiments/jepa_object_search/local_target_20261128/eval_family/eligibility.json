@@ -1,0 +1,72 @@
+[
+  {
+    "scene": "106878960_174887073",
+    "id": "43",
+    "goal": "picture",
+    "reachable": 17,
+    "initially_close": 0
+  },
+  {
+    "scene": "104862384_172226319",
+    "id": "21",
+    "goal": "table lamp",
+    "reachable": 1,
+    "initially_close": 0
+  },
+  {
+    "scene": "102816600",
+    "id": "42",
+    "goal": "table lamp",
+    "reachable": 2,
+    "initially_close": 0
+  },
+  {
+    "scene": "107734338_176000244",
+    "id": "37",
+    "goal": "bed",
+    "reachable": 2,
+    "initially_close": 0
+  },
+  {
+    "scene": "105515184_173104128",
+    "id": "27",
+    "goal": "table",
+    "reachable": 1,
+    "initially_close": 0
+  },
+  {
+    "scene": "107734176_176000019",
+    "id": "31",
+    "goal": "plant",
+    "reachable": 5,
+    "initially_close": 0
+  },
+  {
+    "scene": "106366410_174226806",
+    "id": "36",
+    "goal": "shelf",
+    "reachable": 3,
+    "initially_close": 0
+  },
+  {
+    "scene": "104348010_171512832",
+    "id": "39",
+    "goal": "stool",
+    "reachable": 6,
+    "initially_close": 0
+  },
+  {
+    "scene": "104862501_172226556",
+    "id": "31",
+    "goal": "armchair",
+    "reachable": 12,
+    "initially_close": 0
+  },
+  {
+    "scene": "104862384_172226319",
+    "id": "46",
+    "goal": "cabinet",
+    "reachable": 10,
+    "initially_close": 0
+  }
+]

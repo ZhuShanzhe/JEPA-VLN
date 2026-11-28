@@ -1,0 +1,125 @@
+{
+  "split": "HSSD training houses",
+  "policy_inputs": "RGB scan + target + proposed actions",
+  "checkpoint": {
+    "jepa_11_180": "fc5dd3d3845c0a46e80c62032b46385c8bc3469cb2d40c1d281e31b1be3feb70",
+    "jepa_29_180": "6f886a622eece688afdb625879c5cb7755f890579408c2ddc51d6fd042d15e5c",
+    "jepa_47_180": "4fc64aff8606dd257786b20909139fc72277cf639f98d40ba8475f1e4ca87274"
+  },
+  "cases": [
+    {
+      "house": "102344469",
+      "source": "102344469/102344469-000/node_r.npz",
+      "goals": [
+        "clock",
+        "cup"
+      ],
+      "surfaces": [
+        "shelf",
+        "sofa",
+        "wall"
+      ],
+      "spatial_range": 0.24731884998504555,
+      "same_patch_across_route_range": 0.02901144462539651,
+      "plan_permutation_error": 0.0,
+      "known_goal_score_difference": 0.14692046922734536,
+      "unknown_goal_specific_contribution": 0.0,
+      "uniform_input_max_score": 0.0
+    },
+    {
+      "house": "104348037_171512898",
+      "source": "104348037_171512898/104348037_171512898-000/node_r.npz",
+      "goals": [
+        "clock",
+        "cup"
+      ],
+      "surfaces": [
+        "cabinet",
+        "other",
+        "wall"
+      ],
+      "spatial_range": 0.21017960393464924,
+      "same_patch_across_route_range": 0.043234258418443805,
+      "plan_permutation_error": 0.0,
+      "known_goal_score_difference": 0.1148898030595667,
+      "unknown_goal_specific_contribution": 0.0,
+      "uniform_input_max_score": 0.0
+    },
+    {
+      "house": "104348082_171512994",
+      "source": "104348082_171512994/104348082_171512994-000/node_r.npz",
+      "goals": [
+        "clock",
+        "cup"
+      ],
+      "surfaces": [
+        "other",
+        "wall"
+      ],
+      "spatial_range": 0.2634614064478785,
+      "same_patch_across_route_range": 0.007076795716665585,
+      "plan_permutation_error": 0.0,
+      "known_goal_score_difference": 0.021386960334329824,
+      "unknown_goal_specific_contribution": 0.0,
+      "uniform_input_max_score": 0.0
+    },
+    {
+      "house": "104348511_171513654",
+      "source": "104348511_171513654/104348511_171513654-001/node_r.npz",
+      "goals": [
+        "clock",
+        "cup"
+      ],
+      "surfaces": [
+        "bed",
+        "other",
+        "wall"
+      ],
+      "spatial_range": 0.34258011943652433,
+      "same_patch_across_route_range": 0.023977131184856226,
+      "plan_permutation_error": 0.0,
+      "known_goal_score_difference": 0.13908623472721127,
+      "unknown_goal_specific_contribution": 0.0,
+      "uniform_input_max_score": 0.0
+    },
+    {
+      "house": "104862513_172226580",
+      "source": "104862513_172226580/104862513_172226580-000/node_r.npz",
+      "goals": [
+        "clock",
+        "cup"
+      ],
+      "surfaces": [
+        "floor",
+        "other",
+        "wall"
+      ],
+      "spatial_range": 0.30248735654842507,
+      "same_patch_across_route_range": 0.012967665266861605,
+      "plan_permutation_error": 0.0,
+      "known_goal_score_difference": 0.05886475856502693,
+      "unknown_goal_specific_contribution": 0.0,
+      "uniform_input_max_score": 0.0
+    },
+    {
+      "house": "104862573_172226682",
+      "source": "104862573_172226682/104862573_172226682-000/node_r.npz",
+      "goals": [
+        "clock",
+        "cup"
+      ],
+      "surfaces": [
+        "cabinet",
+        "floor",
+        "other",
+        "wall"
+      ],
+      "spatial_range": 0.23749445287937923,
+      "same_patch_across_route_range": 0.006326162595367044,
+      "plan_permutation_error": 0.0,
+      "known_goal_score_difference": 0.10355533535598613,
+      "unknown_goal_specific_contribution": 0.0,
+      "uniform_input_max_score": 0.0
+    }
+  ]
+}

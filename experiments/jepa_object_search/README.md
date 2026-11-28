@@ -1,5 +1,7 @@
 # 多实例寻物中的前沿选择
 
+[未见建筑上的持久观察位与 300 步多实例靠近结果](local_target_20261128/README.md)
+
 [记住实例观察位置与探索新视角：两例完整评测](instance_view_confirmation/README.md)
 
 [相同预算下的实例发现与任务完成](fixed_budget_completion/README.md)
