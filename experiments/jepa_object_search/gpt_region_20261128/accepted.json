@@ -1,0 +1,886 @@
+{
+  "panel_sha256": "9d3167d378f2f31fcd7df78d95e222fe150028bcfff739fea0f9334015e69674",
+  "model": "gpt-4o-2024-11-20",
+  "gate_lock_sha256": "6251852af5ca02b7f37e2f2775b995e44126930e4afbfe595d10f772c430961d",
+  "saved_complete_episodes": 8,
+  "action_budget_per_arm": 2400,
+  "provider_receipt_events": {
+    "dispatch": 191,
+    "success": 191
+  },
+  "reported_usage": {
+    "input_tokens": 314668,
+    "output_tokens": 5215,
+    "total_tokens": 319883
+  },
+  "totals": {
+    "previous": {
+      "distinct_approached": 10,
+      "approached_half_m": 11,
+      "approached_one_m": 12,
+      "already_at_start": 0,
+      "quota_met": 3
+    },
+    "local": {
+      "distinct_approached": 6,
+      "approached_half_m": 7,
+      "approached_one_m": 8,
+      "already_at_start": 0,
+      "quota_met": 1
+    },
+    "gpt": {
+      "distinct_approached": 8,
+      "approached_half_m": 12,
+      "approached_one_m": 12,
+      "already_at_start": 0,
+      "quota_met": 2
+    }
+  },
+  "by_house": [
+    {
+      "scene": "106878960_174887073",
+      "episode": "43",
+      "goal": "picture",
+      "gate_diagnostics": {
+        "decisions": 21,
+        "gpt_modes": {
+          "explore": 21
+        },
+        "region_agreement": {
+          "different": 16,
+          "same": 5
+        },
+        "evidence_by_mode": {
+          "explore_none": 21
+        },
+        "execution_status": {
+          "explore": 21
+        },
+        "physical_actions": {
+          "region": 216,
+          "local": 0,
+          "scan": 84,
+          "tail": 0,
+          "empty": 0
+        },
+        "first_approach_phase": {
+          "region": 4
+        },
+        "local_targets_acquired": 0,
+        "local_targets_reached": 0,
+        "gpt_evidence": {
+          "none": 21
+        },
+        "gpt_cue": {
+          "none": 21
+        },
+        "phases_025m": {
+          "regional_motion": 4,
+          "local_motion": 0,
+          "local_arrivals": 0,
+          "selected_local_sites": 0,
+          "proposed_local_sites": 0,
+          "proposed_region_sites": 10,
+          "preferred_region_sites": 4
+        }
+      },
+      "receipts": {
+        "events": {
+          "dispatch": 21,
+          "success": 21
+        },
+        "usage": {
+          "input_tokens": 35431,
+          "output_tokens": 597,
+          "total_tokens": 36028
+        },
+        "known_cost_entries": 0,
+        "reported_cost_subtotal": null,
+        "returned_successfully_outside_final_attempt": 0
+      },
+      "accepted_result_sha256": "a9489c8d5dbd226f4cb19caa0a82f052aba2dc6aee43efc182a4ffb989f1c0ab",
+      "previous": {
+        "distinct_approached": 2,
+        "approached_half_m": 3,
+        "approached_one_m": 3,
+        "already_at_start": 0,
+        "quota_met": true,
+        "first_steps": [
+          79,
+          175
+        ]
+      },
+      "local": {
+        "distinct_approached": 1,
+        "approached_half_m": 2,
+        "approached_one_m": 2,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": [
+          128
+        ]
+      },
+      "gpt": {
+        "distinct_approached": 4,
+        "approached_half_m": 7,
+        "approached_one_m": 7,
+        "already_at_start": 0,
+        "quota_met": true,
+        "first_steps": [
+          58,
+          191,
+          200,
+          249
+        ]
+      }
+    },
+    {
+      "scene": "102816600",
+      "episode": "42",
+      "goal": "table lamp",
+      "gate_diagnostics": {
+        "decisions": 28,
+        "gpt_modes": {
+          "explore": 28
+        },
+        "region_agreement": {
+          "different": 24,
+          "same": 4
+        },
+        "evidence_by_mode": {
+          "explore_none": 28
+        },
+        "execution_status": {
+          "explore": 28
+        },
+        "physical_actions": {
+          "region": 187,
+          "local": 0,
+          "scan": 112,
+          "tail": 1,
+          "empty": 0
+        },
+        "first_approach_phase": {},
+        "local_targets_acquired": 0,
+        "local_targets_reached": 0,
+        "gpt_evidence": {
+          "none": 28
+        },
+        "gpt_cue": {
+          "none": 28
+        },
+        "phases_025m": {
+          "regional_motion": 0,
+          "local_motion": 0,
+          "local_arrivals": 0,
+          "selected_local_sites": 0,
+          "proposed_local_sites": 0,
+          "proposed_region_sites": 1,
+          "preferred_region_sites": 0
+        }
+      },
+      "receipts": {
+        "events": {
+          "dispatch": 28,
+          "success": 28
+        },
+        "usage": {
+          "input_tokens": 44061,
+          "output_tokens": 756,
+          "total_tokens": 44817
+        },
+        "known_cost_entries": 0,
+        "reported_cost_subtotal": null,
+        "returned_successfully_outside_final_attempt": 0
+      },
+      "accepted_result_sha256": "9ec0f8a751821db13fa33fa1810ed7827b9a9af3217c4e4b19628ff4e8b645ac",
+      "previous": {
+        "distinct_approached": 2,
+        "approached_half_m": 2,
+        "approached_one_m": 2,
+        "already_at_start": 0,
+        "quota_met": true,
+        "first_steps": [
+          123,
+          193
+        ]
+      },
+      "local": {
+        "distinct_approached": 1,
+        "approached_half_m": 1,
+        "approached_one_m": 1,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": [
+          110
+        ]
+      },
+      "gpt": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      }
+    },
+    {
+      "scene": "107734338_176000244",
+      "episode": "37",
+      "goal": "bed",
+      "gate_diagnostics": {
+        "decisions": 20,
+        "gpt_modes": {
+          "explore": 20
+        },
+        "region_agreement": {
+          "different": 15,
+          "same": 5
+        },
+        "evidence_by_mode": {
+          "explore_none": 19,
+          "explore_suspected": 1
+        },
+        "execution_status": {
+          "explore": 20
+        },
+        "physical_actions": {
+          "region": 220,
+          "local": 0,
+          "scan": 80,
+          "tail": 0,
+          "empty": 0
+        },
+        "first_approach_phase": {},
+        "local_targets_acquired": 0,
+        "local_targets_reached": 0,
+        "gpt_evidence": {
+          "none": 19,
+          "suspected": 1
+        },
+        "gpt_cue": {
+          "none": 19,
+          "partial_target": 1
+        },
+        "phases_025m": {
+          "regional_motion": 0,
+          "local_motion": 0,
+          "local_arrivals": 0,
+          "selected_local_sites": 0,
+          "proposed_local_sites": 0,
+          "proposed_region_sites": 0,
+          "preferred_region_sites": 0
+        }
+      },
+      "receipts": {
+        "events": {
+          "dispatch": 20,
+          "success": 20
+        },
+        "usage": {
+          "input_tokens": 32185,
+          "output_tokens": 542,
+          "total_tokens": 32727
+        },
+        "known_cost_entries": 0,
+        "reported_cost_subtotal": null,
+        "returned_successfully_outside_final_attempt": 0
+      },
+      "accepted_result_sha256": "1d864aea45bb214007acf4136f5efd36e47937cb0b6c32e4334b065eb8d52646",
+      "previous": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "local": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "gpt": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      }
+    },
+    {
+      "scene": "107734176_176000019",
+      "episode": "31",
+      "goal": "plant",
+      "gate_diagnostics": {
+        "decisions": 26,
+        "gpt_modes": {
+          "explore": 26
+        },
+        "region_agreement": {
+          "different": 17,
+          "same": 9
+        },
+        "evidence_by_mode": {
+          "explore_none": 25,
+          "explore_suspected": 1
+        },
+        "execution_status": {
+          "explore": 26
+        },
+        "physical_actions": {
+          "region": 196,
+          "local": 0,
+          "scan": 104,
+          "tail": 0,
+          "empty": 0
+        },
+        "first_approach_phase": {},
+        "local_targets_acquired": 0,
+        "local_targets_reached": 0,
+        "gpt_evidence": {
+          "none": 25,
+          "suspected": 1
+        },
+        "gpt_cue": {
+          "none": 25,
+          "partial_target": 1
+        },
+        "phases_025m": {
+          "regional_motion": 0,
+          "local_motion": 0,
+          "local_arrivals": 0,
+          "selected_local_sites": 0,
+          "proposed_local_sites": 0,
+          "proposed_region_sites": 0,
+          "preferred_region_sites": 0
+        }
+      },
+      "receipts": {
+        "events": {
+          "dispatch": 26,
+          "success": 26
+        },
+        "usage": {
+          "input_tokens": 39061,
+          "output_tokens": 704,
+          "total_tokens": 39765
+        },
+        "known_cost_entries": 0,
+        "reported_cost_subtotal": null,
+        "returned_successfully_outside_final_attempt": 0
+      },
+      "accepted_result_sha256": "d1462b81153bc5f8edb7a7349ae43af8391737ec1b1005ecd433f72544cacd7d",
+      "previous": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "local": {
+        "distinct_approached": 1,
+        "approached_half_m": 1,
+        "approached_one_m": 1,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": [
+          165
+        ]
+      },
+      "gpt": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      }
+    },
+    {
+      "scene": "106366410_174226806",
+      "episode": "36",
+      "goal": "shelf",
+      "gate_diagnostics": {
+        "decisions": 22,
+        "gpt_modes": {
+          "explore": 22
+        },
+        "region_agreement": {
+          "different": 20,
+          "same": 2
+        },
+        "evidence_by_mode": {
+          "explore_none": 22
+        },
+        "execution_status": {
+          "explore": 22
+        },
+        "physical_actions": {
+          "region": 209,
+          "local": 0,
+          "scan": 88,
+          "tail": 3,
+          "empty": 0
+        },
+        "first_approach_phase": {},
+        "local_targets_acquired": 0,
+        "local_targets_reached": 0,
+        "gpt_evidence": {
+          "none": 22
+        },
+        "gpt_cue": {
+          "none": 22
+        },
+        "phases_025m": {
+          "regional_motion": 0,
+          "local_motion": 0,
+          "local_arrivals": 0,
+          "selected_local_sites": 0,
+          "proposed_local_sites": 0,
+          "proposed_region_sites": 0,
+          "preferred_region_sites": 0
+        }
+      },
+      "receipts": {
+        "events": {
+          "dispatch": 22,
+          "success": 22
+        },
+        "usage": {
+          "input_tokens": 39131,
+          "output_tokens": 609,
+          "total_tokens": 39740
+        },
+        "known_cost_entries": 0,
+        "reported_cost_subtotal": null,
+        "returned_successfully_outside_final_attempt": 0
+      },
+      "accepted_result_sha256": "0e17cafeb4b48192db0471d74f28356c4944a6af737411cc2a27d883310b5cf2",
+      "previous": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "local": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "gpt": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      }
+    },
+    {
+      "scene": "104348010_171512832",
+      "episode": "39",
+      "goal": "stool",
+      "gate_diagnostics": {
+        "decisions": 26,
+        "gpt_modes": {
+          "explore": 26
+        },
+        "region_agreement": {
+          "different": 21,
+          "same": 5
+        },
+        "evidence_by_mode": {
+          "explore_none": 26
+        },
+        "execution_status": {
+          "explore": 26
+        },
+        "physical_actions": {
+          "region": 196,
+          "local": 0,
+          "scan": 104,
+          "tail": 0,
+          "empty": 0
+        },
+        "first_approach_phase": {
+          "region": 1
+        },
+        "local_targets_acquired": 0,
+        "local_targets_reached": 0,
+        "gpt_evidence": {
+          "none": 26
+        },
+        "gpt_cue": {
+          "none": 26
+        },
+        "phases_025m": {
+          "regional_motion": 1,
+          "local_motion": 0,
+          "local_arrivals": 0,
+          "selected_local_sites": 0,
+          "proposed_local_sites": 0,
+          "proposed_region_sites": 1,
+          "preferred_region_sites": 0
+        }
+      },
+      "receipts": {
+        "events": {
+          "dispatch": 26,
+          "success": 26
+        },
+        "usage": {
+          "input_tokens": 44871,
+          "output_tokens": 702,
+          "total_tokens": 45573
+        },
+        "known_cost_entries": 0,
+        "reported_cost_subtotal": null,
+        "returned_successfully_outside_final_attempt": 0
+      },
+      "accepted_result_sha256": "baccbc2b1988d164c6e97a2d4bd628470d8f13b346baf41b6e28d2d0269364b7",
+      "previous": {
+        "distinct_approached": 1,
+        "approached_half_m": 1,
+        "approached_one_m": 1,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": [
+          214
+        ]
+      },
+      "local": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "gpt": {
+        "distinct_approached": 1,
+        "approached_half_m": 1,
+        "approached_one_m": 1,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": [
+          156
+        ]
+      }
+    },
+    {
+      "scene": "104862501_172226556",
+      "episode": "31",
+      "goal": "armchair",
+      "gate_diagnostics": {
+        "decisions": 27,
+        "gpt_modes": {
+          "explore": 23
+        },
+        "region_agreement": {
+          "different": 19,
+          "same": 4
+        },
+        "evidence_by_mode": {
+          "explore_none": 21,
+          "explore_suspected": 2
+        },
+        "execution_status": {
+          "explore": 23,
+          "no_region": 4
+        },
+        "physical_actions": {
+          "region": 188,
+          "local": 0,
+          "scan": 108,
+          "tail": 0,
+          "empty": 4
+        },
+        "first_approach_phase": {},
+        "local_targets_acquired": 0,
+        "local_targets_reached": 0,
+        "gpt_evidence": {
+          "none": 21,
+          "suspected": 2
+        },
+        "gpt_cue": {
+          "none": 21,
+          "partial_target": 2
+        },
+        "phases_025m": {
+          "regional_motion": 0,
+          "local_motion": 0,
+          "local_arrivals": 0,
+          "selected_local_sites": 0,
+          "proposed_local_sites": 0,
+          "proposed_region_sites": 1,
+          "preferred_region_sites": 0
+        }
+      },
+      "receipts": {
+        "events": {
+          "dispatch": 23,
+          "success": 23
+        },
+        "usage": {
+          "input_tokens": 40248,
+          "output_tokens": 625,
+          "total_tokens": 40873
+        },
+        "known_cost_entries": 0,
+        "reported_cost_subtotal": null,
+        "returned_successfully_outside_final_attempt": 0
+      },
+      "accepted_result_sha256": "9cc9326da432256475541812e5e16b598a198633dce3ee49e417dade62c72290",
+      "previous": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "local": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "gpt": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      }
+    },
+    {
+      "scene": "104862384_172226319",
+      "episode": "46",
+      "goal": "cabinet",
+      "gate_diagnostics": {
+        "decisions": 36,
+        "gpt_modes": {
+          "explore": 22,
+          "inspect": 3
+        },
+        "region_agreement": {
+          "same": 6,
+          "different": 19
+        },
+        "evidence_by_mode": {
+          "explore_none": 18,
+          "inspect_suspected": 1,
+          "inspect_clear": 2,
+          "explore_clear": 4
+        },
+        "execution_status": {
+          "explore": 22,
+          "no_camera_site": 1,
+          "inspect_runnable": 2,
+          "no_region": 11
+        },
+        "physical_actions": {
+          "region": 136,
+          "local": 8,
+          "scan": 144,
+          "tail": 1,
+          "empty": 11
+        },
+        "first_approach_phase": {
+          "region": 2,
+          "local": 1
+        },
+        "local_targets_acquired": 2,
+        "local_targets_reached": 0,
+        "gpt_evidence": {
+          "none": 18,
+          "suspected": 1,
+          "clear": 6
+        },
+        "gpt_cue": {
+          "none": 18,
+          "partial_target": 1,
+          "target_visible": 6
+        },
+        "phases_025m": {
+          "regional_motion": 3,
+          "local_motion": 2,
+          "local_arrivals": 0,
+          "selected_local_sites": 2,
+          "proposed_local_sites": 2,
+          "proposed_region_sites": 5,
+          "preferred_region_sites": 3
+        }
+      },
+      "receipts": {
+        "events": {
+          "dispatch": 25,
+          "success": 25
+        },
+        "usage": {
+          "input_tokens": 39680,
+          "output_tokens": 680,
+          "total_tokens": 40360
+        },
+        "known_cost_entries": 0,
+        "reported_cost_subtotal": null,
+        "returned_successfully_outside_final_attempt": 0
+      },
+      "accepted_result_sha256": "ddc4556eb96193ce2aa9c7bab92818e0ba651fe33d1df594ee0283d999ad3ce3",
+      "previous": {
+        "distinct_approached": 5,
+        "approached_half_m": 5,
+        "approached_one_m": 6,
+        "already_at_start": 0,
+        "quota_met": true,
+        "first_steps": [
+          84,
+          104,
+          146,
+          171,
+          237
+        ]
+      },
+      "local": {
+        "distinct_approached": 3,
+        "approached_half_m": 3,
+        "approached_one_m": 4,
+        "already_at_start": 0,
+        "quota_met": true,
+        "first_steps": [
+          90,
+          128,
+          180
+        ]
+      },
+      "gpt": {
+        "distinct_approached": 3,
+        "approached_half_m": 4,
+        "approached_one_m": 4,
+        "already_at_start": 0,
+        "quota_met": true,
+        "first_steps": [
+          93,
+          133,
+          163
+        ]
+      }
+    }
+  ],
+  "paired": {
+    "previous": {
+      "quota_met": {
+        "improved": 0,
+        "tied": 7,
+        "declined": 1,
+        "mean_paired_difference": -0.125,
+        "two_sided_exact_sign_p": 1.0
+      },
+      "distinct_approached": {
+        "improved": 1,
+        "tied": 5,
+        "declined": 2,
+        "mean_paired_difference": -0.25,
+        "two_sided_exact_sign_p": 1.0
+      }
+    },
+    "local": {
+      "quota_met": {
+        "improved": 1,
+        "tied": 7,
+        "declined": 0,
+        "mean_paired_difference": 0.125,
+        "two_sided_exact_sign_p": 1.0
+      },
+      "distinct_approached": {
+        "improved": 2,
+        "tied": 4,
+        "declined": 2,
+        "mean_paired_difference": 0.25,
+        "two_sided_exact_sign_p": 1.0
+      }
+    }
+  },
+  "gpt_diagnostics": {
+    "gpt_modes": {
+      "explore": 188,
+      "inspect": 3
+    },
+    "gpt_evidence": {
+      "none": 180,
+      "suspected": 5,
+      "clear": 6
+    },
+    "gpt_cue": {
+      "none": 180,
+      "partial_target": 5,
+      "target_visible": 6
+    },
+    "region_agreement": {
+      "different": 151,
+      "same": 40
+    },
+    "evidence_by_mode": {
+      "explore_none": 180,
+      "explore_suspected": 4,
+      "inspect_suspected": 1,
+      "inspect_clear": 2,
+      "explore_clear": 4
+    },
+    "execution_status": {
+      "explore": 188,
+      "no_region": 15,
+      "no_camera_site": 1,
+      "inspect_runnable": 2
+    },
+    "physical_actions": {
+      "region": 1548,
+      "local": 8,
+      "scan": 824,
+      "tail": 5,
+      "empty": 15
+    },
+    "first_approach_phase": {
+      "region": 7,
+      "local": 1
+    },
+    "phases_025m": {
+      "regional_motion": 8,
+      "local_motion": 2,
+      "local_arrivals": 0,
+      "selected_local_sites": 2,
+      "proposed_local_sites": 2,
+      "proposed_region_sites": 18,
+      "preferred_region_sites": 7
+    }
+  },
+  "previous_action_budget": {
+    "previous": {
+      "decisions": 164,
+      "scan_actions_inferred_from_locked_loop": 656
+    },
+    "local": {
+      "decisions": 242,
+      "scan_steps": 880,
+      "region_steps": 977,
+      "local_steps": 534,
+      "empty_steps": 1,
+      "tail_steps": 8,
+      "rescan_saved": 22
+    }
+  }
+}
