@@ -1,0 +1,39 @@
+{
+  "fixed_grants": 4,
+  "source": "all granted sites in previous 8-house committed run",
+  "source_pose_match": true,
+  "ordinary_gate": "historical inspect held fixed",
+  "new_paid_calls": 0,
+  "rows": [
+    {
+      "goal": "table lamp",
+      "accepted_cue": true,
+      "candidates": 5,
+      "source_view": "right",
+      "candidate_id": "R1",
+      "projected": true,
+      "reachable_sites": 0,
+      "finite_jepa_scores": 0
+    },
+    {
+      "goal": "bed",
+      "accepted_cue": false,
+      "candidates": 1
+    },
+    {
+      "goal": "cabinet",
+      "accepted_cue": false,
+      "candidates": 2
+    },
+    {
+      "goal": "cabinet",
+      "accepted_cue": true,
+      "candidates": 4,
+      "source_view": "center",
+      "candidate_id": "C1",
+      "projected": false,
+      "reachable_sites": 0,
+      "finite_jepa_scores": 0
+    }
+  ]
+}

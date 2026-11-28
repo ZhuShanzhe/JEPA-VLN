@@ -1,0 +1,36 @@
+{
+  "fresh_dino_views": 12,
+  "prior_cache_hits": 4,
+  "new_paid_calls": 0,
+  "separate_geometry_fixture_640x480": "passed",
+  "cases": [
+    {
+      "event": 1,
+      "choice": "R1",
+      "view_index": 0,
+      "candidates": 5,
+      "byte_exact_request": true
+    },
+    {
+      "event": 2,
+      "choice": null,
+      "view_index": null,
+      "candidates": 1,
+      "byte_exact_request": true
+    },
+    {
+      "event": 3,
+      "choice": null,
+      "view_index": null,
+      "candidates": 2,
+      "byte_exact_request": true
+    },
+    {
+      "event": 4,
+      "choice": "C1",
+      "view_index": 1,
+      "candidates": 4,
+      "byte_exact_request": true
+    }
+  ]
+}

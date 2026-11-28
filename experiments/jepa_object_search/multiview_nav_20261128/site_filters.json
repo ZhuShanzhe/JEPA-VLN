@@ -1,0 +1,127 @@
+{
+  "selected_grants": 9,
+  "empty_grants": 8,
+  "empty_grant_candidate_poses": 56,
+  "first_rejection_on_empty_grants": {
+    "sightline_occupied": 11,
+    "occupied_floor_cell": 7,
+    "closer_than_minimum_translation": 3,
+    "floor_unobserved": 20,
+    "obstacle_clearance_margin": 5,
+    "sightline_unobserved": 1,
+    "no_direct_forward_route": 9
+  },
+  "first_rejection_all_grants": {
+    "sightline_occupied": 11,
+    "occupied_floor_cell": 8,
+    "closer_than_minimum_translation": 3,
+    "floor_unobserved": 20,
+    "obstacle_clearance_margin": 6,
+    "sightline_unobserved": 1,
+    "no_direct_forward_route": 12,
+    "admissible": 2
+  },
+  "empty_grants_recoverable_using_same_geometry_and_detour": 1,
+  "all_source_images_and_depths_identical": true,
+  "all_generated_counts_identical": true,
+  "grants": [
+    {
+      "goal": "table lamp",
+      "view": "right",
+      "accepted_sites": 0,
+      "first_gate_counts": {
+        "sightline_occupied": 4,
+        "occupied_floor_cell": 1,
+        "closer_than_minimum_translation": 1,
+        "floor_unobserved": 1
+      },
+      "additionally_routable_with_native_detour": 0
+    },
+    {
+      "goal": "table lamp",
+      "view": "right",
+      "accepted_sites": 0,
+      "first_gate_counts": {
+        "floor_unobserved": 5,
+        "obstacle_clearance_margin": 1,
+        "sightline_unobserved": 1
+      },
+      "additionally_routable_with_native_detour": 0
+    },
+    {
+      "goal": "table lamp",
+      "view": "left",
+      "accepted_sites": 0,
+      "first_gate_counts": {
+        "sightline_occupied": 2,
+        "occupied_floor_cell": 2,
+        "closer_than_minimum_translation": 1,
+        "floor_unobserved": 1,
+        "obstacle_clearance_margin": 1
+      },
+      "additionally_routable_with_native_detour": 0
+    },
+    {
+      "goal": "table lamp",
+      "view": "right",
+      "accepted_sites": 0,
+      "first_gate_counts": {
+        "occupied_floor_cell": 4,
+        "sightline_occupied": 3
+      },
+      "additionally_routable_with_native_detour": 0
+    },
+    {
+      "goal": "bed",
+      "view": "center",
+      "accepted_sites": 2,
+      "first_gate_counts": {
+        "no_direct_forward_route": 3,
+        "obstacle_clearance_margin": 1,
+        "admissible": 2,
+        "occupied_floor_cell": 1
+      },
+      "additionally_routable_with_native_detour": 3
+    },
+    {
+      "goal": "plant",
+      "view": "left",
+      "accepted_sites": 0,
+      "first_gate_counts": {
+        "floor_unobserved": 7
+      },
+      "additionally_routable_with_native_detour": 0
+    },
+    {
+      "goal": "cabinet",
+      "view": "left",
+      "accepted_sites": 0,
+      "first_gate_counts": {
+        "no_direct_forward_route": 4,
+        "sightline_occupied": 2,
+        "closer_than_minimum_translation": 1
+      },
+      "additionally_routable_with_native_detour": 4
+    },
+    {
+      "goal": "cabinet",
+      "view": "right",
+      "accepted_sites": 0,
+      "first_gate_counts": {
+        "floor_unobserved": 6,
+        "obstacle_clearance_margin": 1
+      },
+      "additionally_routable_with_native_detour": 0
+    },
+    {
+      "goal": "cabinet",
+      "view": "left",
+      "accepted_sites": 0,
+      "first_gate_counts": {
+        "no_direct_forward_route": 5,
+        "obstacle_clearance_margin": 2
+      },
+      "additionally_routable_with_native_detour": 0
+    }
+  ]
+}

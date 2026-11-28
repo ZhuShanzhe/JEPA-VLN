@@ -1,0 +1,16 @@
+{
+  "agent_factory": true,
+  "real_rgb": true,
+  "controlled_map_and_pose": true,
+  "paid_requests": 0,
+  "acquired_distance_m": 2.5258317257022163,
+  "retained_distance_m": 2.0306024242699356,
+  "native_finish_preempted": true,
+  "scale_reset": true,
+  "scripted_gate_and_box": true,
+  "gate_view": "center",
+  "selected_camera": "left",
+  "projection": "source_view_observed_map_column_proxy",
+  "used_metric_depth": false,
+  "checked_real_jepa_and_follower": true
+}

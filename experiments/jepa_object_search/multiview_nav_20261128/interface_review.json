@@ -1,0 +1,296 @@
+{
+  "frames": 2408,
+  "houses": [
+    {
+      "goal": "picture",
+      "counts": {},
+      "selected_cues": [],
+      "visible": {
+        "0.002": 6,
+        "0.01": 4,
+        "0.03": 3
+      },
+      "visible_and_close": {
+        "0.002": 1,
+        "0.01": 1,
+        "0.03": 1
+      },
+      "approached": 2
+    },
+    {
+      "goal": "table lamp",
+      "counts": {
+        "selected_boxes": 4,
+        "selected_side_boxes": 4,
+        "boxes_overlapping_target_pixels": 2,
+        "valid_selected_boxes": 1,
+        "valid_selected_side_boxes": 1,
+        "correct_boxes_with_projected_anchor": 1,
+        "correct_boxes_with_candidate_site": 0,
+        "correct_boxes_with_acquisition": 0
+      },
+      "selected_cues": [
+        {
+          "view": "right",
+          "valid_box": false,
+          "center_on_target": false,
+          "has_target_pixels": false,
+          "iou_same_instance": 0.0,
+          "anchored": true,
+          "site_offered": false,
+          "acquired": false,
+          "status": "no_camera_site"
+        },
+        {
+          "view": "right",
+          "valid_box": true,
+          "center_on_target": true,
+          "has_target_pixels": true,
+          "iou_same_instance": 0.8909,
+          "anchored": true,
+          "site_offered": false,
+          "acquired": false,
+          "status": "no_camera_site"
+        },
+        {
+          "view": "left",
+          "valid_box": false,
+          "center_on_target": false,
+          "has_target_pixels": true,
+          "iou_same_instance": 0.0,
+          "anchored": true,
+          "site_offered": false,
+          "acquired": false,
+          "status": "no_camera_site"
+        },
+        {
+          "view": "right",
+          "valid_box": false,
+          "center_on_target": false,
+          "has_target_pixels": false,
+          "iou_same_instance": 0.0,
+          "anchored": true,
+          "site_offered": false,
+          "acquired": false,
+          "status": "no_camera_site"
+        }
+      ],
+      "visible": {
+        "0.002": 2,
+        "0.01": 2,
+        "0.03": 2
+      },
+      "visible_and_close": {
+        "0.002": 2,
+        "0.01": 2,
+        "0.03": 2
+      },
+      "approached": 2
+    },
+    {
+      "goal": "bed",
+      "counts": {
+        "selected_boxes": 1,
+        "selected_side_boxes": 0,
+        "boxes_overlapping_target_pixels": 0,
+        "valid_selected_boxes": 0,
+        "valid_selected_side_boxes": 0,
+        "correct_boxes_with_projected_anchor": 0,
+        "correct_boxes_with_candidate_site": 0,
+        "correct_boxes_with_acquisition": 0,
+        "valid_acquired_and_arrived": 0
+      },
+      "selected_cues": [
+        {
+          "view": "center",
+          "valid_box": false,
+          "center_on_target": false,
+          "has_target_pixels": false,
+          "iou_same_instance": 0.0,
+          "anchored": true,
+          "site_offered": true,
+          "acquired": true,
+          "status": "inspect_runnable",
+          "release": "arrived",
+          "new_one_percent_instances_during_period": 0
+        }
+      ],
+      "visible": {
+        "0.002": 0,
+        "0.01": 0,
+        "0.03": 0
+      },
+      "visible_and_close": {
+        "0.002": 0,
+        "0.01": 0,
+        "0.03": 0
+      },
+      "approached": 0
+    },
+    {
+      "goal": "plant",
+      "counts": {
+        "selected_boxes": 1,
+        "selected_side_boxes": 1,
+        "boxes_overlapping_target_pixels": 1,
+        "valid_selected_boxes": 1,
+        "valid_selected_side_boxes": 1,
+        "correct_boxes_with_projected_anchor": 1,
+        "correct_boxes_with_candidate_site": 0,
+        "correct_boxes_with_acquisition": 0
+      },
+      "selected_cues": [
+        {
+          "view": "left",
+          "valid_box": true,
+          "center_on_target": true,
+          "has_target_pixels": true,
+          "iou_same_instance": 0.9554,
+          "anchored": true,
+          "site_offered": false,
+          "acquired": false,
+          "status": "no_camera_site"
+        }
+      ],
+      "visible": {
+        "0.002": 1,
+        "0.01": 1,
+        "0.03": 0
+      },
+      "visible_and_close": {
+        "0.002": 0,
+        "0.01": 0,
+        "0.03": 0
+      },
+      "approached": 0
+    },
+    {
+      "goal": "shelf",
+      "counts": {},
+      "selected_cues": [],
+      "visible": {
+        "0.002": 0,
+        "0.01": 0,
+        "0.03": 0
+      },
+      "visible_and_close": {
+        "0.002": 0,
+        "0.01": 0,
+        "0.03": 0
+      },
+      "approached": 0
+    },
+    {
+      "goal": "stool",
+      "counts": {},
+      "selected_cues": [],
+      "visible": {
+        "0.002": 1,
+        "0.01": 1,
+        "0.03": 1
+      },
+      "visible_and_close": {
+        "0.002": 1,
+        "0.01": 1,
+        "0.03": 1
+      },
+      "approached": 1
+    },
+    {
+      "goal": "armchair",
+      "counts": {},
+      "selected_cues": [],
+      "visible": {
+        "0.002": 4,
+        "0.01": 1,
+        "0.03": 0
+      },
+      "visible_and_close": {
+        "0.002": 0,
+        "0.01": 0,
+        "0.03": 0
+      },
+      "approached": 0
+    },
+    {
+      "goal": "cabinet",
+      "counts": {
+        "selected_boxes": 3,
+        "selected_side_boxes": 3,
+        "boxes_overlapping_target_pixels": 2,
+        "valid_selected_boxes": 2,
+        "valid_selected_side_boxes": 2,
+        "correct_boxes_with_projected_anchor": 2,
+        "correct_boxes_with_candidate_site": 0,
+        "correct_boxes_with_acquisition": 0
+      },
+      "selected_cues": [
+        {
+          "view": "left",
+          "valid_box": false,
+          "center_on_target": false,
+          "has_target_pixels": false,
+          "iou_same_instance": 0.0,
+          "anchored": true,
+          "site_offered": false,
+          "acquired": false,
+          "status": "no_camera_site"
+        },
+        {
+          "view": "right",
+          "valid_box": true,
+          "center_on_target": true,
+          "has_target_pixels": true,
+          "iou_same_instance": 0.9843,
+          "anchored": true,
+          "site_offered": false,
+          "acquired": false,
+          "status": "no_camera_site"
+        },
+        {
+          "view": "left",
+          "valid_box": true,
+          "center_on_target": true,
+          "has_target_pixels": true,
+          "iou_same_instance": 0.92,
+          "anchored": true,
+          "site_offered": false,
+          "acquired": false,
+          "status": "no_camera_site"
+        }
+      ],
+      "visible": {
+        "0.002": 9,
+        "0.01": 8,
+        "0.03": 8
+      },
+      "visible_and_close": {
+        "0.002": 5,
+        "0.01": 5,
+        "0.03": 5
+      },
+      "approached": 5
+    }
+  ],
+  "counts": {
+    "selected_boxes": 9,
+    "selected_side_boxes": 8,
+    "boxes_overlapping_target_pixels": 5,
+    "valid_selected_boxes": 4,
+    "valid_selected_side_boxes": 4,
+    "correct_boxes_with_projected_anchor": 4,
+    "correct_boxes_with_candidate_site": 0,
+    "correct_boxes_with_acquisition": 0,
+    "valid_acquired_and_arrived": 0
+  },
+  "visible": {
+    "0.002": 23,
+    "0.01": 17,
+    "0.03": 14
+  },
+  "visible_and_close": {
+    "0.002": 9,
+    "0.01": 9,
+    "0.03": 9
+  }
+}

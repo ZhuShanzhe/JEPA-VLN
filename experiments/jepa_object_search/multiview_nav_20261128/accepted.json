@@ -1,0 +1,1197 @@
+{
+  "model": "gpt-4o-2024-11-20",
+  "panel": "9d3167d378f2f31fcd7df78d95e222fe150028bcfff739fea0f9334015e69674",
+  "gate_lock": "cca6f21745d42b75d838410f5c52553146a91eb7616cca1ac0a917ebc4fff299",
+  "previous_report": "7d3c92d32245a3fdd756a34b7567581162fc8bf355de95016ac612fed460e618",
+  "budget_per_house": 300,
+  "task": "Approach distinct instances' reference viewpoints; correct reporting not evaluated",
+  "totals": {
+    "previous": {
+      "distinct_approached": 10,
+      "approached_half_m": 11,
+      "approached_one_m": 12,
+      "already_at_start": 0,
+      "quota_met": 3
+    },
+    "local": {
+      "distinct_approached": 6,
+      "approached_half_m": 7,
+      "approached_one_m": 8,
+      "already_at_start": 0,
+      "quota_met": 1
+    },
+    "gpt": {
+      "distinct_approached": 8,
+      "approached_half_m": 12,
+      "approached_one_m": 12,
+      "already_at_start": 0,
+      "quota_met": 2
+    },
+    "inspect_only": {
+      "distinct_approached": 10,
+      "approached_half_m": 11,
+      "approached_one_m": 12,
+      "already_at_start": 0,
+      "quota_met": 3
+    },
+    "committed": {
+      "distinct_approached": 8,
+      "approached_half_m": 9,
+      "approached_one_m": 10,
+      "already_at_start": 0,
+      "quota_met": 3
+    },
+    "multiview": {
+      "distinct_approached": 10,
+      "approached_half_m": 11,
+      "approached_one_m": 12,
+      "already_at_start": 0,
+      "quota_met": 3
+    }
+  },
+  "paired": {
+    "previous": {
+      "distinct_approached": {
+        "wins": 0,
+        "ties": 8,
+        "losses": 0,
+        "delta": 0,
+        "exact_two_sided_sign_p": 1.0
+      },
+      "quota_met": {
+        "wins": 0,
+        "ties": 8,
+        "losses": 0,
+        "delta": 0,
+        "exact_two_sided_sign_p": 1.0
+      }
+    },
+    "local": {
+      "distinct_approached": {
+        "wins": 4,
+        "ties": 3,
+        "losses": 1,
+        "delta": 4,
+        "exact_two_sided_sign_p": 0.375
+      },
+      "quota_met": {
+        "wins": 2,
+        "ties": 6,
+        "losses": 0,
+        "delta": 2,
+        "exact_two_sided_sign_p": 0.5
+      }
+    },
+    "gpt": {
+      "distinct_approached": {
+        "wins": 2,
+        "ties": 5,
+        "losses": 1,
+        "delta": 2,
+        "exact_two_sided_sign_p": 1.0
+      },
+      "quota_met": {
+        "wins": 1,
+        "ties": 7,
+        "losses": 0,
+        "delta": 1,
+        "exact_two_sided_sign_p": 1.0
+      }
+    },
+    "inspect_only": {
+      "distinct_approached": {
+        "wins": 1,
+        "ties": 6,
+        "losses": 1,
+        "delta": 0,
+        "exact_two_sided_sign_p": 1.0
+      },
+      "quota_met": {
+        "wins": 0,
+        "ties": 8,
+        "losses": 0,
+        "delta": 0,
+        "exact_two_sided_sign_p": 1.0
+      }
+    },
+    "committed": {
+      "distinct_approached": {
+        "wins": 1,
+        "ties": 7,
+        "losses": 0,
+        "delta": 2,
+        "exact_two_sided_sign_p": 1.0
+      },
+      "quota_met": {
+        "wins": 0,
+        "ties": 8,
+        "losses": 0,
+        "delta": 0,
+        "exact_two_sided_sign_p": 1.0
+      }
+    }
+  },
+  "fee_entries": 0,
+  "reported_fee_subtotal": null,
+  "by_house": [
+    {
+      "scene": "106878960_174887073",
+      "goal": "picture",
+      "episode": "43",
+      "verified_result_sha256": "93034bca3e20dba73ec2427d2459483158f90591ef2b6ab8161eb869c2bc6e80",
+      "mechanisms": {
+        "acquired": 0,
+        "arrived": 0,
+        "open_at_end": 0,
+        "multisegment": 0,
+        "local_actions": 0
+      },
+      "release_reasons": {},
+      "upper_modes": {
+        "explore": 18
+      },
+      "first_approach_phase": {
+        "region": 2
+      },
+      "physical_actions": {
+        "region": 227,
+        "local": 0,
+        "scan": 72,
+        "tail": 1,
+        "empty": 0
+      },
+      "phase_025m": {
+        "regional_motion": 2,
+        "local_motion": 0,
+        "local_arrivals": 0,
+        "selected_local_sites": 0,
+        "proposed_local_sites": 0,
+        "proposed_region_sites": 6,
+        "preferred_region_sites": 1
+      },
+      "cue_funnel": {
+        "verified_physical_triplets": 18
+      },
+      "cue_journal": {},
+      "upper_journal": {
+        "dispatch": 18,
+        "success": 18
+      },
+      "upper_sources": {
+        "fresh_response": 18
+      },
+      "upper_usage": {
+        "input_tokens": 29867,
+        "output_tokens": 501,
+        "total_tokens": 30368
+      },
+      "fee_entries": 0,
+      "reported_fee_subtotal": null,
+      "upper_prefix_comparison": {
+        "equal_segment_prefix": 18,
+        "complete_segment_sequences_identical": true,
+        "first_changed_new_segment_after_step": null
+      },
+      "previous": {
+        "distinct_approached": 2,
+        "approached_half_m": 3,
+        "approached_one_m": 3,
+        "already_at_start": 0,
+        "quota_met": true,
+        "first_steps": [
+          79,
+          175
+        ]
+      },
+      "local": {
+        "distinct_approached": 1,
+        "approached_half_m": 2,
+        "approached_one_m": 2,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": [
+          128
+        ]
+      },
+      "gpt": {
+        "distinct_approached": 4,
+        "approached_half_m": 7,
+        "approached_one_m": 7,
+        "already_at_start": 0,
+        "quota_met": true,
+        "first_steps": [
+          58,
+          191,
+          200,
+          249
+        ]
+      },
+      "inspect_only": {
+        "distinct_approached": 2,
+        "approached_half_m": 3,
+        "approached_one_m": 3,
+        "already_at_start": 0,
+        "quota_met": true,
+        "first_steps": [
+          79,
+          175
+        ]
+      },
+      "committed": {
+        "distinct_approached": 2,
+        "approached_half_m": 3,
+        "approached_one_m": 3,
+        "already_at_start": 0,
+        "quota_met": true,
+        "first_steps": [
+          79,
+          175
+        ]
+      },
+      "multiview": {
+        "distinct_approached": 2,
+        "approached_half_m": 3,
+        "approached_one_m": 3,
+        "already_at_start": 0,
+        "quota_met": true,
+        "first_steps": [
+          79,
+          175
+        ]
+      }
+    },
+    {
+      "scene": "102816600",
+      "goal": "table lamp",
+      "episode": "42",
+      "verified_result_sha256": "8ab1feaf49c3fc51031a45c664cf76d9416dea516bb4e800200a19c4bfa57f9f",
+      "mechanisms": {
+        "inspect_requests": 4,
+        "acquired": 0,
+        "arrived": 0,
+        "open_at_end": 0,
+        "multisegment": 0,
+        "local_actions": 0
+      },
+      "release_reasons": {},
+      "upper_modes": {
+        "explore": 14,
+        "inspect": 4
+      },
+      "first_approach_phase": {
+        "region": 2
+      },
+      "physical_actions": {
+        "region": 228,
+        "local": 0,
+        "scan": 72,
+        "tail": 0,
+        "empty": 0
+      },
+      "phase_025m": {
+        "regional_motion": 2,
+        "local_motion": 0,
+        "local_arrivals": 0,
+        "selected_local_sites": 0,
+        "proposed_local_sites": 0,
+        "proposed_region_sites": 2,
+        "preferred_region_sites": 2
+      },
+      "cue_funnel": {
+        "invoked": 4,
+        "success": 3,
+        "with_candidates": 4,
+        "selected_box": 4,
+        "selected_right": 3,
+        "accepted_differs_from_upper_view_hint": 3,
+        "projected": 4,
+        "with_reachable_view": 0,
+        "prior_cache": 1,
+        "selected_left": 1,
+        "verified_physical_triplets": 18
+      },
+      "cue_journal": {
+        "dispatch": 3,
+        "total_tokens": 3894,
+        "success": 3
+      },
+      "upper_journal": {
+        "dispatch": 18,
+        "success": 18
+      },
+      "upper_sources": {
+        "fresh_response": 18
+      },
+      "upper_usage": {
+        "input_tokens": 26943,
+        "output_tokens": 504,
+        "total_tokens": 27447
+      },
+      "fee_entries": 0,
+      "reported_fee_subtotal": null,
+      "upper_prefix_comparison": {
+        "equal_segment_prefix": 9,
+        "complete_segment_sequences_identical": false,
+        "first_changed_new_segment_after_step": 181
+      },
+      "previous": {
+        "distinct_approached": 2,
+        "approached_half_m": 2,
+        "approached_one_m": 2,
+        "already_at_start": 0,
+        "quota_met": true,
+        "first_steps": [
+          123,
+          193
+        ]
+      },
+      "local": {
+        "distinct_approached": 1,
+        "approached_half_m": 1,
+        "approached_one_m": 1,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": [
+          110
+        ]
+      },
+      "gpt": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "inspect_only": {
+        "distinct_approached": 2,
+        "approached_half_m": 2,
+        "approached_one_m": 2,
+        "already_at_start": 0,
+        "quota_met": true,
+        "first_steps": [
+          123,
+          205
+        ]
+      },
+      "committed": {
+        "distinct_approached": 2,
+        "approached_half_m": 2,
+        "approached_one_m": 2,
+        "already_at_start": 0,
+        "quota_met": true,
+        "first_steps": [
+          123,
+          211
+        ]
+      },
+      "multiview": {
+        "distinct_approached": 2,
+        "approached_half_m": 2,
+        "approached_one_m": 2,
+        "already_at_start": 0,
+        "quota_met": true,
+        "first_steps": [
+          123,
+          193
+        ]
+      }
+    },
+    {
+      "scene": "107734338_176000244",
+      "goal": "bed",
+      "episode": "37",
+      "verified_result_sha256": "89a1c494caaa9969f3e6f03e9573cd13b3e1b5ae1ba5a620137849774a36dce8",
+      "mechanisms": {
+        "inspect_requests": 2,
+        "inspect_requests_with_site": 1,
+        "explore_advice_during_retained_local_segment": 2,
+        "acquired": 1,
+        "arrived": 1,
+        "open_at_end": 0,
+        "multisegment": 1,
+        "local_actions": 13
+      },
+      "release_reasons": {
+        "arrived": 1
+      },
+      "upper_modes": {
+        "explore": 19,
+        "inspect": 2
+      },
+      "first_approach_phase": {},
+      "physical_actions": {
+        "region": 198,
+        "local": 13,
+        "scan": 88,
+        "tail": 0,
+        "empty": 1
+      },
+      "phase_025m": {
+        "regional_motion": 0,
+        "local_motion": 0,
+        "local_arrivals": 0,
+        "selected_local_sites": 0,
+        "proposed_local_sites": 0,
+        "proposed_region_sites": 0,
+        "preferred_region_sites": 0
+      },
+      "cue_funnel": {
+        "invoked": 2,
+        "prior_cache": 1,
+        "with_candidates": 2,
+        "no_local_dispatch_after_refusal": 1,
+        "success": 1,
+        "selected_box": 1,
+        "selected_center": 1,
+        "accepted_differs_from_upper_view_hint": 1,
+        "projected": 1,
+        "with_reachable_view": 1,
+        "verified_physical_triplets": 22
+      },
+      "cue_journal": {
+        "dispatch": 1,
+        "total_tokens": 1288,
+        "success": 1
+      },
+      "upper_journal": {
+        "dispatch": 21,
+        "success": 21
+      },
+      "upper_sources": {
+        "fresh_response": 21
+      },
+      "upper_usage": {
+        "input_tokens": 34724,
+        "output_tokens": 567,
+        "total_tokens": 35291
+      },
+      "fee_entries": 0,
+      "reported_fee_subtotal": null,
+      "upper_prefix_comparison": {
+        "equal_segment_prefix": 2,
+        "complete_segment_sequences_identical": false,
+        "first_changed_new_segment_after_step": 29
+      },
+      "previous": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "local": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "gpt": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "inspect_only": {
+        "distinct_approached": 1,
+        "approached_half_m": 1,
+        "approached_one_m": 1,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": [
+          294
+        ]
+      },
+      "committed": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "multiview": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      }
+    },
+    {
+      "scene": "107734176_176000019",
+      "goal": "plant",
+      "episode": "31",
+      "verified_result_sha256": "7394e23bad901a2daa551d41abc11b2a822d7143777a5294e49ce75d9a5f85df",
+      "mechanisms": {
+        "inspect_requests": 1,
+        "acquired": 0,
+        "arrived": 0,
+        "open_at_end": 0,
+        "multisegment": 0,
+        "local_actions": 0
+      },
+      "release_reasons": {},
+      "upper_modes": {
+        "explore": 19,
+        "inspect": 1
+      },
+      "first_approach_phase": {},
+      "physical_actions": {
+        "region": 199,
+        "local": 0,
+        "scan": 96,
+        "tail": 1,
+        "empty": 4
+      },
+      "phase_025m": {
+        "regional_motion": 0,
+        "local_motion": 0,
+        "local_arrivals": 0,
+        "selected_local_sites": 0,
+        "proposed_local_sites": 0,
+        "proposed_region_sites": 0,
+        "preferred_region_sites": 0
+      },
+      "cue_funnel": {
+        "invoked": 1,
+        "success": 1,
+        "with_candidates": 1,
+        "selected_box": 1,
+        "selected_left": 1,
+        "accepted_differs_from_upper_view_hint": 0,
+        "projected": 1,
+        "with_reachable_view": 0,
+        "verified_physical_triplets": 24
+      },
+      "cue_journal": {
+        "dispatch": 1,
+        "total_tokens": 1285,
+        "success": 1
+      },
+      "upper_journal": {
+        "dispatch": 20,
+        "success": 20
+      },
+      "upper_sources": {
+        "fresh_response": 20
+      },
+      "upper_usage": {
+        "input_tokens": 31419,
+        "output_tokens": 543,
+        "total_tokens": 31962
+      },
+      "fee_entries": 0,
+      "reported_fee_subtotal": null,
+      "upper_prefix_comparison": {
+        "equal_segment_prefix": 24,
+        "complete_segment_sequences_identical": true,
+        "first_changed_new_segment_after_step": null
+      },
+      "previous": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "local": {
+        "distinct_approached": 1,
+        "approached_half_m": 1,
+        "approached_one_m": 1,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": [
+          165
+        ]
+      },
+      "gpt": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "inspect_only": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "committed": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "multiview": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      }
+    },
+    {
+      "scene": "106366410_174226806",
+      "goal": "shelf",
+      "episode": "36",
+      "verified_result_sha256": "1d9e378e1b76d4f75687cdc24e6a973e4c9080c3dd6c030aba3f32c9aa804a7b",
+      "mechanisms": {
+        "acquired": 0,
+        "arrived": 0,
+        "open_at_end": 0,
+        "multisegment": 0,
+        "local_actions": 0
+      },
+      "release_reasons": {},
+      "upper_modes": {
+        "explore": 22
+      },
+      "first_approach_phase": {},
+      "physical_actions": {
+        "region": 209,
+        "local": 0,
+        "scan": 88,
+        "tail": 3,
+        "empty": 0
+      },
+      "phase_025m": {
+        "regional_motion": 0,
+        "local_motion": 0,
+        "local_arrivals": 0,
+        "selected_local_sites": 0,
+        "proposed_local_sites": 0,
+        "proposed_region_sites": 0,
+        "preferred_region_sites": 0
+      },
+      "cue_funnel": {
+        "verified_physical_triplets": 22
+      },
+      "cue_journal": {},
+      "upper_journal": {
+        "dispatch": 22,
+        "success": 22
+      },
+      "upper_sources": {
+        "fresh_response": 22
+      },
+      "upper_usage": {
+        "input_tokens": 32632,
+        "output_tokens": 594,
+        "total_tokens": 33226
+      },
+      "fee_entries": 0,
+      "reported_fee_subtotal": null,
+      "upper_prefix_comparison": {
+        "equal_segment_prefix": 22,
+        "complete_segment_sequences_identical": true,
+        "first_changed_new_segment_after_step": null
+      },
+      "previous": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "local": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "gpt": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "inspect_only": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "committed": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "multiview": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      }
+    },
+    {
+      "scene": "104348010_171512832",
+      "goal": "stool",
+      "episode": "39",
+      "verified_result_sha256": "a830677abb034f087bc52d6ce0c23ae6cf31b442cea3c3f198d5b4439837ea2e",
+      "mechanisms": {
+        "acquired": 0,
+        "arrived": 0,
+        "open_at_end": 0,
+        "multisegment": 0,
+        "local_actions": 0
+      },
+      "release_reasons": {},
+      "upper_modes": {
+        "explore": 17
+      },
+      "first_approach_phase": {
+        "region": 1
+      },
+      "physical_actions": {
+        "region": 231,
+        "local": 0,
+        "scan": 68,
+        "tail": 1,
+        "empty": 0
+      },
+      "phase_025m": {
+        "regional_motion": 1,
+        "local_motion": 0,
+        "local_arrivals": 0,
+        "selected_local_sites": 0,
+        "proposed_local_sites": 0,
+        "proposed_region_sites": 1,
+        "preferred_region_sites": 1
+      },
+      "cue_funnel": {
+        "verified_physical_triplets": 17
+      },
+      "cue_journal": {},
+      "upper_journal": {
+        "dispatch": 17,
+        "success": 17
+      },
+      "upper_sources": {
+        "fresh_response": 17
+      },
+      "upper_usage": {
+        "input_tokens": 32088,
+        "output_tokens": 459,
+        "total_tokens": 32547
+      },
+      "fee_entries": 0,
+      "reported_fee_subtotal": null,
+      "upper_prefix_comparison": {
+        "equal_segment_prefix": 17,
+        "complete_segment_sequences_identical": true,
+        "first_changed_new_segment_after_step": null
+      },
+      "previous": {
+        "distinct_approached": 1,
+        "approached_half_m": 1,
+        "approached_one_m": 1,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": [
+          214
+        ]
+      },
+      "local": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "gpt": {
+        "distinct_approached": 1,
+        "approached_half_m": 1,
+        "approached_one_m": 1,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": [
+          156
+        ]
+      },
+      "inspect_only": {
+        "distinct_approached": 1,
+        "approached_half_m": 1,
+        "approached_one_m": 1,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": [
+          214
+        ]
+      },
+      "committed": {
+        "distinct_approached": 1,
+        "approached_half_m": 1,
+        "approached_one_m": 1,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": [
+          214
+        ]
+      },
+      "multiview": {
+        "distinct_approached": 1,
+        "approached_half_m": 1,
+        "approached_one_m": 1,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": [
+          214
+        ]
+      }
+    },
+    {
+      "scene": "104862501_172226556",
+      "goal": "armchair",
+      "episode": "31",
+      "verified_result_sha256": "eafc901ec3c844129aa97e3acf5f02f99357eafeb3ae2afaf0aa472d89785fc7",
+      "mechanisms": {
+        "acquired": 0,
+        "arrived": 0,
+        "open_at_end": 0,
+        "multisegment": 0,
+        "local_actions": 0
+      },
+      "release_reasons": {},
+      "upper_modes": {
+        "explore": 23
+      },
+      "first_approach_phase": {},
+      "physical_actions": {
+        "region": 206,
+        "local": 0,
+        "scan": 92,
+        "tail": 2,
+        "empty": 0
+      },
+      "phase_025m": {
+        "regional_motion": 0,
+        "local_motion": 0,
+        "local_arrivals": 0,
+        "selected_local_sites": 0,
+        "proposed_local_sites": 0,
+        "proposed_region_sites": 0,
+        "preferred_region_sites": 0
+      },
+      "cue_funnel": {
+        "verified_physical_triplets": 23
+      },
+      "cue_journal": {},
+      "upper_journal": {
+        "dispatch": 23,
+        "success": 23
+      },
+      "upper_sources": {
+        "fresh_response": 23
+      },
+      "upper_usage": {
+        "input_tokens": 37786,
+        "output_tokens": 621,
+        "total_tokens": 38407
+      },
+      "fee_entries": 0,
+      "reported_fee_subtotal": null,
+      "upper_prefix_comparison": {
+        "equal_segment_prefix": 23,
+        "complete_segment_sequences_identical": true,
+        "first_changed_new_segment_after_step": null
+      },
+      "previous": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "local": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "gpt": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "inspect_only": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "committed": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "multiview": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      }
+    },
+    {
+      "scene": "104862384_172226319",
+      "goal": "cabinet",
+      "episode": "46",
+      "verified_result_sha256": "f4272180a8d1a5b7bea9422c170dc41f93ea5bb6900ab75b33605d820a894127",
+      "mechanisms": {
+        "inspect_requests": 4,
+        "acquired": 0,
+        "arrived": 0,
+        "open_at_end": 0,
+        "multisegment": 0,
+        "local_actions": 0
+      },
+      "release_reasons": {},
+      "upper_modes": {
+        "explore": 19,
+        "inspect": 4
+      },
+      "first_approach_phase": {
+        "region": 5
+      },
+      "physical_actions": {
+        "region": 207,
+        "local": 0,
+        "scan": 92,
+        "tail": 1,
+        "empty": 0
+      },
+      "phase_025m": {
+        "regional_motion": 5,
+        "local_motion": 0,
+        "local_arrivals": 0,
+        "selected_local_sites": 0,
+        "proposed_local_sites": 0,
+        "proposed_region_sites": 6,
+        "preferred_region_sites": 5
+      },
+      "cue_funnel": {
+        "invoked": 4,
+        "prior_cache": 1,
+        "with_candidates": 4,
+        "no_local_dispatch_after_refusal": 1,
+        "success": 3,
+        "selected_box": 3,
+        "selected_left": 2,
+        "accepted_differs_from_upper_view_hint": 3,
+        "projected": 3,
+        "with_reachable_view": 0,
+        "selected_right": 1,
+        "verified_physical_triplets": 23
+      },
+      "cue_journal": {
+        "dispatch": 3,
+        "total_tokens": 3876,
+        "success": 3
+      },
+      "upper_journal": {
+        "dispatch": 23,
+        "success": 23
+      },
+      "upper_sources": {
+        "fresh_response": 23
+      },
+      "upper_usage": {
+        "input_tokens": 33612,
+        "output_tokens": 628,
+        "total_tokens": 34240
+      },
+      "fee_entries": 0,
+      "reported_fee_subtotal": null,
+      "upper_prefix_comparison": {
+        "equal_segment_prefix": 6,
+        "complete_segment_sequences_identical": false,
+        "first_changed_new_segment_after_step": 64
+      },
+      "previous": {
+        "distinct_approached": 5,
+        "approached_half_m": 5,
+        "approached_one_m": 6,
+        "already_at_start": 0,
+        "quota_met": true,
+        "first_steps": [
+          84,
+          104,
+          146,
+          171,
+          237
+        ]
+      },
+      "local": {
+        "distinct_approached": 3,
+        "approached_half_m": 3,
+        "approached_one_m": 4,
+        "already_at_start": 0,
+        "quota_met": true,
+        "first_steps": [
+          90,
+          128,
+          180
+        ]
+      },
+      "gpt": {
+        "distinct_approached": 3,
+        "approached_half_m": 4,
+        "approached_one_m": 4,
+        "already_at_start": 0,
+        "quota_met": true,
+        "first_steps": [
+          93,
+          133,
+          163
+        ]
+      },
+      "inspect_only": {
+        "distinct_approached": 4,
+        "approached_half_m": 4,
+        "approached_one_m": 5,
+        "already_at_start": 0,
+        "quota_met": true,
+        "first_steps": [
+          91,
+          155,
+          180,
+          225
+        ]
+      },
+      "committed": {
+        "distinct_approached": 3,
+        "approached_half_m": 3,
+        "approached_one_m": 4,
+        "already_at_start": 0,
+        "quota_met": true,
+        "first_steps": [
+          106,
+          125,
+          223
+        ]
+      },
+      "multiview": {
+        "distinct_approached": 5,
+        "approached_half_m": 5,
+        "approached_one_m": 6,
+        "already_at_start": 0,
+        "quota_met": true,
+        "first_steps": [
+          84,
+          104,
+          146,
+          171,
+          237
+        ]
+      }
+    }
+  ],
+  "mechanisms": {
+    "acquired": 1,
+    "arrived": 1,
+    "open_at_end": 0,
+    "multisegment": 1,
+    "local_actions": 13,
+    "inspect_requests": 11,
+    "inspect_requests_with_site": 1,
+    "explore_advice_during_retained_local_segment": 2
+  },
+  "release_reasons": {
+    "arrived": 1
+  },
+  "first_approach_phase": {
+    "region": 10
+  },
+  "physical_actions": {
+    "region": 1705,
+    "local": 13,
+    "scan": 668,
+    "tail": 9,
+    "empty": 5
+  },
+  "cue_funnel": {
+    "verified_physical_triplets": 167,
+    "invoked": 11,
+    "success": 8,
+    "with_candidates": 11,
+    "selected_box": 9,
+    "selected_right": 4,
+    "accepted_differs_from_upper_view_hint": 7,
+    "projected": 9,
+    "with_reachable_view": 1,
+    "prior_cache": 3,
+    "selected_left": 4,
+    "no_local_dispatch_after_refusal": 2,
+    "selected_center": 1
+  },
+  "cue_journal": {
+    "dispatch": 8,
+    "total_tokens": 10343,
+    "success": 8
+  },
+  "upper_journal": {
+    "dispatch": 162,
+    "success": 162
+  },
+  "upper_sources": {
+    "fresh_response": 162
+  },
+  "upper_usage": {
+    "input_tokens": 259071,
+    "output_tokens": 4417,
+    "total_tokens": 263488
+  },
+  "upper_modes": {
+    "explore": 151,
+    "inspect": 11
+  },
+  "phase_025m": {
+    "regional_motion": 10,
+    "local_motion": 0,
+    "local_arrivals": 0,
+    "selected_local_sites": 0,
+    "proposed_local_sites": 0,
+    "proposed_region_sites": 15,
+    "preferred_region_sites": 9
+  }
+}

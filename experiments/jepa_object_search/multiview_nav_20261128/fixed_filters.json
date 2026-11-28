@@ -1,0 +1,111 @@
+{
+  "source_cases": 4,
+  "selected": 2,
+  "new_paid_calls": 0,
+  "diagnostics": [
+    {
+      "goal": "table lamp",
+      "camera": "right",
+      "depth": {
+        "window_pixels": 25,
+        "min_valid_pixels": 9,
+        "inside_pixels": 25,
+        "finite_depth_pixels": 25,
+        "optical_depth_min_median_max_m": [
+          2.256,
+          2.69,
+          2.765
+        ],
+        "horizontal_range_min_median_max_m": [
+          2.538,
+          3.027,
+          3.06
+        ],
+        "estimated_height_min_median_max_m": [
+          0.576,
+          0.662,
+          0.805
+        ],
+        "range_ok_pixels": 25,
+        "height_ok_pixels": 25,
+        "both_ok_pixels": 25
+      },
+      "projection": true,
+      "viewpoint_generation": {
+        "first_rejections": {
+          "camera_cell_unobserved": 5,
+          "camera_cell_untraversable": 1,
+          "sightline_uncertified": 1
+        },
+        "candidates": [
+          {
+            "stand_off_m": 0.95,
+            "offset_deg": 0.0,
+            "first_rejection": "camera_cell_unobserved"
+          },
+          {
+            "stand_off_m": 0.95,
+            "offset_deg": 32.0,
+            "first_rejection": "camera_cell_unobserved"
+          },
+          {
+            "stand_off_m": 0.95,
+            "offset_deg": -32.0,
+            "first_rejection": "camera_cell_untraversable"
+          },
+          {
+            "stand_off_m": 1.4,
+            "offset_deg": 0.0,
+            "first_rejection": "camera_cell_unobserved"
+          },
+          {
+            "stand_off_m": 0.72,
+            "offset_deg": 0.0,
+            "first_rejection": "camera_cell_unobserved"
+          },
+          {
+            "stand_off_m": 1.2,
+            "offset_deg": 55.0,
+            "first_rejection": "camera_cell_unobserved"
+          },
+          {
+            "stand_off_m": 1.2,
+            "offset_deg": -55.0,
+            "first_rejection": "sightline_uncertified"
+          }
+        ]
+      },
+      "site_count": 0
+    },
+    {
+      "goal": "cabinet",
+      "camera": "center",
+      "depth": {
+        "window_pixels": 25,
+        "min_valid_pixels": 9,
+        "inside_pixels": 25,
+        "finite_depth_pixels": 25,
+        "optical_depth_min_median_max_m": [
+          5.9,
+          5.937,
+          5.99
+        ],
+        "horizontal_range_min_median_max_m": [
+          6.21,
+          6.211,
+          6.231
+        ],
+        "estimated_height_min_median_max_m": [
+          0.283,
+          0.413,
+          0.542
+        ],
+        "range_ok_pixels": 0,
+        "height_ok_pixels": 25,
+        "both_ok_pixels": 0
+      },
+      "projection": false,
+      "site_count": 0
+    }
+  ]
+}

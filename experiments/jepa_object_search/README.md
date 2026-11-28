@@ -1,5 +1,7 @@
 # 多实例寻物中的前沿选择
 
+[三视图线索定位与局部导航](multiview_nav_20261128/README.md)
+
 [复看执行、目标可见性与模块分工](committed_inspect_20261128/README.md)
 
 [固定区域路线、GPT-4o 判断细查的对照](gpt_inspect_only_20261128/README.md)

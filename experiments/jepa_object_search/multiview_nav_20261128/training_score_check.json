@@ -1,0 +1,7 @@
+{
+  "training_split_only": true,
+  "source_camera_changes_similarity": 0.07299435138702393,
+  "moving_box_changes_similarity": 0.005295991897583008,
+  "action_changes_similarity": 0.015162467956542969,
+  "plan_permutation_max_error": 5.960464477539063e-08
+}
