@@ -1,0 +1,124 @@
+{
+  "calibration_houses": 6,
+  "calibration_sweeps": 288,
+  "comparison": "Full original memory with original camera-area head, earliest valid decision on each physically acquired motion sweep.",
+  "old": {
+    "correct": 108,
+    "unreported": 175,
+    "false": 5
+  },
+  "selected": {
+    "correct": 110,
+    "unreported": 173,
+    "false": 5
+  },
+  "gate": {
+    "min_area": 369.0,
+    "min_displacement": 0.6
+  },
+  "calibration_grid": [
+    {
+      "config": {
+        "min_area": 369.0,
+        "min_displacement": 0.2
+      },
+      "transitions": {
+        "unreported to correct": 2
+      }
+    },
+    {
+      "config": {
+        "min_area": 425.0,
+        "min_displacement": 0.2
+      },
+      "transitions": {
+        "unreported to correct": 1
+      }
+    },
+    {
+      "config": {
+        "min_area": 480.0,
+        "min_displacement": 0.2
+      },
+      "transitions": {}
+    },
+    {
+      "config": {
+        "min_area": 550.0,
+        "min_displacement": 0.2
+      },
+      "transitions": {}
+    },
+    {
+      "config": {
+        "min_area": 369.0,
+        "min_displacement": 0.4
+      },
+      "transitions": {
+        "unreported to correct": 2
+      }
+    },
+    {
+      "config": {
+        "min_area": 425.0,
+        "min_displacement": 0.4
+      },
+      "transitions": {
+        "unreported to correct": 1
+      }
+    },
+    {
+      "config": {
+        "min_area": 480.0,
+        "min_displacement": 0.4
+      },
+      "transitions": {}
+    },
+    {
+      "config": {
+        "min_area": 550.0,
+        "min_displacement": 0.4
+      },
+      "transitions": {}
+    },
+    {
+      "config": {
+        "min_area": 369.0,
+        "min_displacement": 0.6
+      },
+      "transitions": {
+        "unreported to correct": 2
+      }
+    },
+    {
+      "config": {
+        "min_area": 425.0,
+        "min_displacement": 0.6
+      },
+      "transitions": {
+        "unreported to correct": 1
+      }
+    },
+    {
+      "config": {
+        "min_area": 480.0,
+        "min_displacement": 0.6
+      },
+      "transitions": {}
+    },
+    {
+      "config": {
+        "min_area": 550.0,
+        "min_displacement": 0.6
+      },
+      "transitions": {}
+    }
+  ],
+  "model_sha256": {
+    "cal.json": "234d7f96b0299125ac7678783fadcb009f9e45337fbf517af5996f57290830fe",
+    "fg.npz": "af46f0d940e56492cb958b98855b3666dec5b655ee2fe53eac4d5445cef86681",
+    "clear.npz": "34227e7a34e03bcfe5eb665fafa6398358271182f9a476591041a8d7f5ecaf87",
+    "footprint.npz": "9c3cc759248de15dcfe712ecc370df9547f67d87b1f10f76c7a12279170a07ad"
+  },
+  "gate_sha256": "981ece18104b2632bd8459bf36150fbeee0d92dafa9d4bbda0abcc78d44dd837"
+}

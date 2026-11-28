@@ -1,0 +1,17 @@
+{
+  "contact": {
+    "actions": 196,
+    "none_in_any_prior_camera": 77,
+    "at_least_half_in_prior_fov": 98,
+    "median_lower_body_samples_in_prior_fov": 0.4722222222222222,
+    "some_occluder_before_sample": 38
+  },
+  "successful_forward": {
+    "actions": 279,
+    "none_in_any_prior_camera": 67,
+    "at_least_half_in_prior_fov": 181,
+    "median_lower_body_samples_in_prior_fov": 0.9444444444444444,
+    "some_occluder_before_sample": 25
+  },
+  "interpretation": "18 sample points at 0.15 m and 0.4 m height, across the swept body. Count a point as within view if an actual previous camera ray covers it and has finite depth. An intervening surface can occlude a point. No inference of causal collision geometry."
+}

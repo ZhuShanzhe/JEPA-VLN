@@ -1,0 +1,17 @@
+{
+  "new_correct": {
+    "groups": 4,
+    "different_executed_prefix": 4,
+    "grid_advanced_on_multiple_headings_after_divergence": 3,
+    "old_route_ever_clear": 3,
+    "grid_route_ever_clear": 4
+  },
+  "lost_correct": {
+    "groups": 1,
+    "different_executed_prefix": 1,
+    "grid_advanced_on_multiple_headings_after_divergence": 1,
+    "old_route_ever_clear": 1,
+    "grid_route_ever_clear": 1
+  },
+  "comparison": "Old refined baseline against grid and strict helper on the new 72. Count directions of actual translations after first different action. A gained report with previous visibility can reflect access to a more informative view."
+}

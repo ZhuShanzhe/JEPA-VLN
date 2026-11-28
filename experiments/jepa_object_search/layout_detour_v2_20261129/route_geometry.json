@@ -1,0 +1,76 @@
+{
+  "legacy_vs_grid": {
+    "n": 94,
+    "before": 58,
+    "after": 58,
+    "gained": 2,
+    "lost": 2
+  },
+  "curve_v1_vs_grid": {
+    "n": 94,
+    "before": 58,
+    "after": 58,
+    "gained": 3,
+    "lost": 3
+  },
+  "known_feasible_legacy_vs_grid": {
+    "n": 41,
+    "before": 40,
+    "after": 39,
+    "gained": 0,
+    "lost": 1
+  },
+  "by_house": [
+    {
+      "n": 26,
+      "before": 15,
+      "after": 16,
+      "gained": 1,
+      "lost": 0
+    },
+    {
+      "n": 37,
+      "before": 22,
+      "after": 23,
+      "gained": 1,
+      "lost": 0
+    },
+    {
+      "n": 31,
+      "before": 21,
+      "after": 19,
+      "gained": 0,
+      "lost": 2
+    }
+  ],
+  "legacy": {
+    "actions": 2340,
+    "recovery_forward_attempts": 508,
+    "recovery_stalls": 197,
+    "recovery_groups_with_stall": 80,
+    "turns_after_initial": 1055,
+    "survey_decisions": 119
+  },
+  "curves_v1": {
+    "actions": 2355,
+    "recovery_forward_attempts": 532,
+    "recovery_stalls": 163,
+    "recovery_groups_with_stall": 67,
+    "turns_after_initial": 1046,
+    "survey_decisions": 109
+  },
+  "observed_grid": {
+    "actions": 2357,
+    "recovery_forward_attempts": 475,
+    "recovery_stalls": 196,
+    "recovery_groups_with_stall": 83,
+    "turns_after_initial": 1105,
+    "survey_decisions": 159,
+    "groups_using_known_grid": 93,
+    "curved_waypoints_selected": 93,
+    "groups_selecting_curved_waypoint": 62,
+    "curved_waypoints_traversed_at_least_two_bearings": 36,
+    "groups_traversing_curved_waypoint": 33
+  },
+  "scope": "Nonstop route only. Reaching sufficient geometric coverage is independent of actual report. All primitive scans charged. Stalls measured from unchanged initial phase onward."
+}

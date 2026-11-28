@@ -1,0 +1,75 @@
+{
+  "paired_requests": 94,
+  "previous": {
+    "unreported": 55,
+    "false": 9,
+    "correct": 30
+  },
+  "area_head": {
+    "unreported": 52,
+    "correct": 30,
+    "false": 12
+  },
+  "paired_transitions": {
+    "unreported": {
+      "unreported": 46,
+      "correct": 7,
+      "false": 2
+    },
+    "false": {
+      "correct": 1,
+      "false": 5,
+      "unreported": 3
+    },
+    "correct": {
+      "correct": 22,
+      "false": 5,
+      "unreported": 3
+    }
+  },
+  "old_29_clear_unreported_transitions": {
+    "unreported": {
+      "unreported": 16,
+      "correct": 6
+    },
+    "false": {
+      "correct": 1
+    },
+    "correct": {
+      "correct": 5,
+      "false": 1
+    }
+  },
+  "newest_subthreshold_previously_not_false": {
+    "correct": 1,
+    "unreported": 2,
+    "false": 2
+  },
+  "previous_score_only_14": {
+    "unreported": 9,
+    "correct": 5
+  },
+  "incorrect_reason": {
+    "box_mismatch": 1,
+    "below_area": 11
+  },
+  "actions": 1624,
+  "per_house": [
+    {
+      "unreported": 16,
+      "correct": 8,
+      "false": 2
+    },
+    {
+      "unreported": 20,
+      "correct": 11,
+      "false": 6
+    },
+    {
+      "unreported": 16,
+      "correct": 11,
+      "false": 4
+    }
+  ],
+  "protocol": "Previous 94 fixed routes, 22/26/30 physical actions. First accepted frame; outcome scored separately using native target mask and original rules."
+}

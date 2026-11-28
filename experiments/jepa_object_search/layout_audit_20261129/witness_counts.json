@@ -1,0 +1,10 @@
+{
+  "groups": 94,
+  "by_witness": {
+    "previous_route": 58,
+    "unverified": 25,
+    "one_heading": 5,
+    "two_headings": 6
+  },
+  "scope": "First check the historical route. Only if it never met the area criterion, try physically executing fixed one-heading and then two-heading paths, initial two scan actions included, within the original 22/26/30-step cap. Replay each positive witness from the original start. Counts indicate witnessed visibility of the target, not successful detection. Search misses have unknown feasibility. Target labels used by this offline evaluator alone."
+}

@@ -1,0 +1,55 @@
+{
+  "groups": 94,
+  "geometrically_clear": {
+    "n": 94,
+    "before": 58,
+    "after": 58,
+    "gained": 2,
+    "lost": 2
+  },
+  "per_house_in_frozen_order": [
+    {
+      "n": 37,
+      "before": 22,
+      "after": 22,
+      "gained": 2,
+      "lost": 2
+    },
+    {
+      "n": 26,
+      "before": 15,
+      "after": 15,
+      "gained": 0,
+      "lost": 0
+    },
+    {
+      "n": 31,
+      "before": 21,
+      "after": 21,
+      "gained": 0,
+      "lost": 0
+    }
+  ],
+  "prior_frozen_library_contains_feasible_view": {
+    "n": 41,
+    "before": 40,
+    "after": 40,
+    "gained": 1,
+    "lost": 1
+  },
+  "no_original_library_witness": {
+    "n": 53,
+    "before": 18,
+    "after": 18,
+    "gained": 1,
+    "lost": 1
+  },
+  "detour_plans": 83,
+  "physically_bent_plans": 32,
+  "plans_contacted": 58,
+  "plans_completed_full_action_sequence": 25,
+  "groups_with_layout_selected": 59,
+  "groups_actually_traversed_bend": 32,
+  "newly_clear_groups_traversed_bend": 2,
+  "scope": "Full same-budget physical path if inspection did not stop; ground truth visible mask at any executed step >=369. Actual first report audited separately. Independent feasible set uses original physically replayed candidate library; absence of such a witness does not prove inaccessibility."
+}

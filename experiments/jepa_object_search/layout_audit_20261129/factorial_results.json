@@ -1,0 +1,391 @@
+{
+  "groups": 94,
+  "coding": "arm = route_verifier; old = prior refined version; new = layout detour or corrected area",
+  "results": {
+    "old_old": {
+      "unreported": 55,
+      "actions": 1783,
+      "ever_clear_on_no_stop_route": 58,
+      "clear_before_stop": 56,
+      "correct": 30,
+      "false": 9
+    },
+    "old_new": {
+      "unreported": 52,
+      "actions": 1624,
+      "ever_clear_on_no_stop_route": 58,
+      "clear_before_stop": 52,
+      "correct": 30,
+      "false": 12
+    },
+    "new_old": {
+      "unreported": 55,
+      "actions": 1778,
+      "ever_clear_on_no_stop_route": 58,
+      "clear_before_stop": 55,
+      "correct": 30,
+      "false": 9
+    },
+    "new_new": {
+      "unreported": 51,
+      "actions": 1630,
+      "ever_clear_on_no_stop_route": 58,
+      "clear_before_stop": 52,
+      "correct": 30,
+      "false": 13
+    }
+  },
+  "subset": {
+    "historical_no_clear": {
+      "old_old": {
+        "unreported": 30,
+        "false": 3
+      },
+      "old_new": {
+        "unreported": 30,
+        "false": 3
+      },
+      "new_old": {
+        "unreported": 29,
+        "correct": 1,
+        "false": 3
+      },
+      "new_new": {
+        "unreported": 29,
+        "correct": 1,
+        "false": 3
+      }
+    },
+    "witness_one_heading": {
+      "old_old": {
+        "unreported": 4,
+        "false": 1
+      },
+      "old_new": {
+        "unreported": 4,
+        "false": 1
+      },
+      "new_old": {
+        "unreported": 4,
+        "false": 1
+      },
+      "new_new": {
+        "unreported": 4,
+        "false": 1
+      }
+    },
+    "witnessed_in_budget_before_test": {
+      "old_old": {
+        "unreported": 33,
+        "correct": 30,
+        "false": 6
+      },
+      "old_new": {
+        "unreported": 29,
+        "correct": 30,
+        "false": 10
+      },
+      "new_old": {
+        "unreported": 33,
+        "correct": 30,
+        "false": 6
+      },
+      "new_new": {
+        "unreported": 28,
+        "correct": 30,
+        "false": 11
+      }
+    },
+    "historical_missed_clear": {
+      "old_old": {
+        "unreported": 22,
+        "correct": 6,
+        "false": 1
+      },
+      "old_new": {
+        "unreported": 16,
+        "correct": 12,
+        "false": 1
+      },
+      "new_old": {
+        "unreported": 22,
+        "correct": 6,
+        "false": 1
+      },
+      "new_new": {
+        "unreported": 16,
+        "correct": 12,
+        "false": 1
+      }
+    },
+    "witness_previous_route": {
+      "old_old": {
+        "unreported": 24,
+        "correct": 30,
+        "false": 4
+      },
+      "old_new": {
+        "unreported": 21,
+        "correct": 30,
+        "false": 7
+      },
+      "new_old": {
+        "unreported": 25,
+        "correct": 29,
+        "false": 4
+      },
+      "new_new": {
+        "unreported": 21,
+        "correct": 29,
+        "false": 8
+      }
+    },
+    "historical_correct": {
+      "old_old": {
+        "correct": 23,
+        "unreported": 2,
+        "false": 1
+      },
+      "old_new": {
+        "correct": 18,
+        "false": 5,
+        "unreported": 3
+      },
+      "new_old": {
+        "correct": 22,
+        "unreported": 3,
+        "false": 1
+      },
+      "new_new": {
+        "correct": 17,
+        "false": 5,
+        "unreported": 4
+      }
+    },
+    "witness_unverified": {
+      "old_old": {
+        "unreported": 22,
+        "false": 3
+      },
+      "old_new": {
+        "unreported": 23,
+        "false": 2
+      },
+      "new_old": {
+        "unreported": 22,
+        "false": 3
+      },
+      "new_new": {
+        "unreported": 23,
+        "false": 2
+      }
+    },
+    "historical_false": {
+      "old_old": {
+        "false": 4,
+        "correct": 1,
+        "unreported": 1
+      },
+      "old_new": {
+        "unreported": 3,
+        "false": 3
+      },
+      "new_old": {
+        "false": 4,
+        "correct": 1,
+        "unreported": 1
+      },
+      "new_new": {
+        "false": 4,
+        "unreported": 2
+      }
+    },
+    "witness_two_headings": {
+      "old_old": {
+        "false": 1,
+        "unreported": 5
+      },
+      "old_new": {
+        "false": 2,
+        "unreported": 4
+      },
+      "new_old": {
+        "false": 1,
+        "correct": 1,
+        "unreported": 4
+      },
+      "new_new": {
+        "false": 2,
+        "correct": 1,
+        "unreported": 3
+      }
+    },
+    "previous_five_new_false": {
+      "old_old": {
+        "false": 5
+      },
+      "old_new": {
+        "unreported": 2,
+        "correct": 1,
+        "false": 2
+      },
+      "new_old": {
+        "false": 4,
+        "unreported": 1
+      },
+      "new_new": {
+        "unreported": 2,
+        "correct": 1,
+        "false": 2
+      }
+    }
+  },
+  "transitions_vs_prior": {
+    "old_old": {
+      "unreported->unreported": 55,
+      "correct->correct": 30,
+      "false->false": 9
+    },
+    "old_new": {
+      "unreported->unreported": 46,
+      "correct->correct": 22,
+      "correct->false": 5,
+      "unreported->correct": 7,
+      "false->unreported": 3,
+      "false->false": 5,
+      "correct->unreported": 3,
+      "unreported->false": 2,
+      "false->correct": 1
+    },
+    "new_old": {
+      "unreported->unreported": 52,
+      "correct->correct": 28,
+      "false->false": 8,
+      "unreported->correct": 2,
+      "correct->unreported": 2,
+      "false->unreported": 1,
+      "unreported->false": 1
+    },
+    "new_new": {
+      "unreported->unreported": 44,
+      "correct->correct": 20,
+      "correct->false": 5,
+      "unreported->correct": 9,
+      "false->false": 6,
+      "correct->unreported": 5,
+      "unreported->false": 2,
+      "false->unreported": 2,
+      "false->correct": 1
+    }
+  },
+  "by_house": [
+    {
+      "old_old": {
+        "unreported": 20,
+        "actions": 670,
+        "ever_clear_on_no_stop_route": 22,
+        "clear_before_stop": 21,
+        "correct": 14,
+        "false": 3
+      },
+      "old_new": {
+        "unreported": 20,
+        "actions": 633,
+        "ever_clear_on_no_stop_route": 22,
+        "clear_before_stop": 18,
+        "correct": 11,
+        "false": 6
+      },
+      "new_old": {
+        "unreported": 20,
+        "actions": 684,
+        "ever_clear_on_no_stop_route": 22,
+        "clear_before_stop": 21,
+        "correct": 14,
+        "false": 3
+      },
+      "new_new": {
+        "unreported": 20,
+        "actions": 638,
+        "ever_clear_on_no_stop_route": 22,
+        "clear_before_stop": 18,
+        "correct": 10,
+        "false": 7
+      }
+    },
+    {
+      "old_old": {
+        "unreported": 18,
+        "actions": 555,
+        "ever_clear_on_no_stop_route": 15,
+        "clear_before_stop": 15,
+        "correct": 6,
+        "false": 2
+      },
+      "old_new": {
+        "unreported": 16,
+        "actions": 491,
+        "ever_clear_on_no_stop_route": 15,
+        "clear_before_stop": 15,
+        "correct": 8,
+        "false": 2
+      },
+      "new_old": {
+        "unreported": 18,
+        "actions": 549,
+        "ever_clear_on_no_stop_route": 15,
+        "clear_before_stop": 14,
+        "correct": 6,
+        "false": 2
+      },
+      "new_new": {
+        "unreported": 15,
+        "actions": 483,
+        "ever_clear_on_no_stop_route": 15,
+        "clear_before_stop": 15,
+        "correct": 9,
+        "false": 2
+      }
+    },
+    {
+      "old_old": {
+        "unreported": 17,
+        "actions": 558,
+        "ever_clear_on_no_stop_route": 21,
+        "clear_before_stop": 20,
+        "correct": 10,
+        "false": 4
+      },
+      "old_new": {
+        "unreported": 16,
+        "actions": 500,
+        "ever_clear_on_no_stop_route": 21,
+        "clear_before_stop": 19,
+        "correct": 11,
+        "false": 4
+      },
+      "new_old": {
+        "unreported": 17,
+        "actions": 545,
+        "ever_clear_on_no_stop_route": 21,
+        "clear_before_stop": 20,
+        "false": 4,
+        "correct": 10
+      },
+      "new_new": {
+        "unreported": 16,
+        "actions": 509,
+        "ever_clear_on_no_stop_route": 21,
+        "clear_before_stop": 19,
+        "correct": 11,
+        "false": 4
+      }
+    }
+  ],
+  "route_opportunity_transition": {
+    "False->True": 2,
+    "True->False": 2,
+    "True->True": 56,
+    "False->False": 34
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "sha256": {
+    "collect_layout.py": "4db230f068d3a93c4047f8d6a5a67b61f31d2add434dfb7a4f85ad2db60377b0",
+    "encode_future.py": "e6e6edbdde3d13b8f9d51a500b491c011ecf0c89adc44aed6f077ac60aaceda6",
+    "layout_paths.py": "b1aa2334cfcf47084ea7001e1da8a09765051ccbf997d35af3d579b643dc8090",
+    "layout_model.py": "60d4384d70f3c7e6f972b42a0d60408455e6b2bc6a3180b0b0948a6cda2671fb",
+    "fit_layout.py": "faa8844f8103471c08b20dba011a03c92480ae7ab5e8436bd12bf8cc00484349",
+    "layout_policy.py": "84b0e610b96420260520b93fa909134f7da52250c52c8600f387576d56c2c3b4",
+    "layout_worker.py": "f944cf4436655dcd2cb37e71aff4c6d5d3331987480b2ddd21903ef4658d5b60",
+    "run_layout.py": "094e5a96dc01881c16d85cec53ea4a3e2524b1e1dab683912e03f38804eb62ad",
+    "private_layout.pt": "83c6f3252b21559ad02a1043e5d00e6431c96cfd8518ff21eb0de7a71f246cfa",
+    "../layout_map_bridge_20261129/layout_memory.py": "02d4a8aca8861c2cd2475a223560b9171b23b68f4ee5dd41c9ab4973d7511b80",
+    "../reactive_view_20261129/rollout.py": "7e392d0b3527910a0318e5be045646b979b45adcefdd9a2eb934e65ba0f54d6e",
+    "../new_view_20261129/view_design.json": "1351bf4dc9901d899ff3ee4216fb441d5c494fcccf38d23010c8e7d40aaad639"
+  },
+  "panel": "All prior 94 groups, 3 evaluation houses, each with seven original plans blocked and initially small target. Original 22/26/30 primitive action budgets; two scans charged. No oracle policy input.",
+  "arms": "Compare previous frozen routes vs learned branch; each evaluated with old and retrained verifier."
+}

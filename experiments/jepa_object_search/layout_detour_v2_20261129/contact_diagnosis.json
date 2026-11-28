@@ -1,0 +1,29 @@
+{
+  "prior": {
+    "under_2cm": 116,
+    "moved_at_least_10cm": 44,
+    "moved_at_least_23cm_but_contact": 5,
+    "previous_contact_same_pose_20cm_heading_15deg": 0,
+    "groups": 94,
+    "contact_or_stall": 197,
+    "median_displacement_m": 0.0
+  },
+  "curve": {
+    "under_2cm": 97,
+    "moved_at_least_10cm": 41,
+    "moved_at_least_23cm_but_contact": 3,
+    "previous_contact_same_pose_20cm_heading_15deg": 0,
+    "groups": 94,
+    "contact_or_stall": 163,
+    "median_displacement_m": 0.0
+  },
+  "grid": {
+    "under_2cm": 117,
+    "moved_at_least_10cm": 57,
+    "moved_at_least_23cm_but_contact": 9,
+    "previous_contact_same_pose_20cm_heading_15deg": 0,
+    "groups": 94,
+    "contact_or_stall": 196,
+    "median_displacement_m": 0.0
+  }
+}

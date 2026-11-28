@@ -1,0 +1,156 @@
+{
+  "groups": 72,
+  "houses": 3,
+  "results": {
+    "baseline_old": {
+      "correct": 28,
+      "actions": 1264,
+      "ever_clear": 48,
+      "full_path_bumps": 160,
+      "unreported": 39,
+      "false": 5
+    },
+    "baseline_strict": {
+      "correct": 28,
+      "actions": 1264,
+      "ever_clear": 48,
+      "full_path_bumps": 160,
+      "unreported": 39,
+      "false": 5
+    },
+    "grid_old": {
+      "correct": 31,
+      "actions": 1270,
+      "ever_clear": 49,
+      "full_path_bumps": 154,
+      "unreported": 37,
+      "false": 4
+    },
+    "grid_strict": {
+      "correct": 31,
+      "actions": 1268,
+      "ever_clear": 49,
+      "full_path_bumps": 154,
+      "unreported": 37,
+      "false": 4
+    }
+  },
+  "per_house": [
+    {
+      "baseline_old": {
+        "correct": 13,
+        "actions": 399,
+        "ever_clear": 17,
+        "full_path_bumps": 57,
+        "unreported": 10,
+        "false": 1
+      },
+      "baseline_strict": {
+        "correct": 13,
+        "actions": 399,
+        "ever_clear": 17,
+        "full_path_bumps": 57,
+        "unreported": 10,
+        "false": 1
+      },
+      "grid_old": {
+        "correct": 13,
+        "actions": 404,
+        "ever_clear": 16,
+        "full_path_bumps": 51,
+        "unreported": 10,
+        "false": 1
+      },
+      "grid_strict": {
+        "correct": 13,
+        "actions": 402,
+        "ever_clear": 16,
+        "full_path_bumps": 51,
+        "unreported": 10,
+        "false": 1
+      }
+    },
+    {
+      "baseline_old": {
+        "unreported": 13,
+        "actions": 405,
+        "ever_clear": 14,
+        "full_path_bumps": 49,
+        "correct": 9,
+        "false": 2
+      },
+      "baseline_strict": {
+        "unreported": 13,
+        "actions": 405,
+        "ever_clear": 14,
+        "full_path_bumps": 49,
+        "correct": 9,
+        "false": 2
+      },
+      "grid_old": {
+        "unreported": 12,
+        "actions": 403,
+        "ever_clear": 16,
+        "full_path_bumps": 50,
+        "correct": 11,
+        "false": 1
+      },
+      "grid_strict": {
+        "unreported": 12,
+        "actions": 403,
+        "ever_clear": 16,
+        "full_path_bumps": 50,
+        "correct": 11,
+        "false": 1
+      }
+    },
+    {
+      "baseline_old": {
+        "correct": 6,
+        "actions": 460,
+        "ever_clear": 17,
+        "full_path_bumps": 54,
+        "unreported": 16,
+        "false": 2
+      },
+      "baseline_strict": {
+        "correct": 6,
+        "actions": 460,
+        "ever_clear": 17,
+        "full_path_bumps": 54,
+        "unreported": 16,
+        "false": 2
+      },
+      "grid_old": {
+        "correct": 7,
+        "actions": 463,
+        "ever_clear": 17,
+        "full_path_bumps": 53,
+        "unreported": 15,
+        "false": 2
+      },
+      "grid_strict": {
+        "correct": 7,
+        "actions": 463,
+        "ever_clear": 17,
+        "full_path_bumps": 53,
+        "unreported": 15,
+        "false": 2
+      }
+    }
+  ],
+  "paired": {
+    "correct->correct": 27,
+    "correct->unreported": 1,
+    "unreported->unreported": 35,
+    "unreported->correct": 4,
+    "false->false": 4,
+    "false->unreported": 1
+  },
+  "route_opportunities": {
+    "True->True": 46,
+    "False->False": 21,
+    "True->False": 2,
+    "False->True": 3
+  }
+}

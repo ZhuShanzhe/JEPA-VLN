@@ -1,0 +1,58 @@
+{
+  "rule": "Visible and reachable endpoints first, then physical traversal, validated on sampled routes with observed centreline clearance throughout. Ties use simpler scores.",
+  "chosen": {
+    "alpha": 2.0,
+    "cost_penalty": 0.0,
+    "groups": 77,
+    "reached": 38,
+    "clear": 25
+  },
+  "calibration_grid": [
+    {
+      "alpha": 0.5,
+      "cost_penalty": 0.0,
+      "groups": 77,
+      "reached": 35,
+      "clear": 22
+    },
+    {
+      "alpha": 0.5,
+      "cost_penalty": 0.25,
+      "groups": 77,
+      "reached": 36,
+      "clear": 24
+    },
+    {
+      "alpha": 1.0,
+      "cost_penalty": 0.0,
+      "groups": 77,
+      "reached": 37,
+      "clear": 25
+    },
+    {
+      "alpha": 1.0,
+      "cost_penalty": 0.25,
+      "groups": 77,
+      "reached": 37,
+      "clear": 25
+    },
+    {
+      "alpha": 2.0,
+      "cost_penalty": 0.0,
+      "groups": 77,
+      "reached": 38,
+      "clear": 25
+    },
+    {
+      "alpha": 2.0,
+      "cost_penalty": 0.25,
+      "groups": 77,
+      "reached": 36,
+      "clear": 22
+    }
+  ],
+  "known_free_candidates": 307,
+  "total": 2688,
+  "reached_fraction_known": 0.4918566644191742,
+  "reached_fraction_all": 0.1912202388048172
+}

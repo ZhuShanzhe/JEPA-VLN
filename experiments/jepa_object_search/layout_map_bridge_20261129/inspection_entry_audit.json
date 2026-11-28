@@ -1,0 +1,24 @@
+{
+  "scope": "Live three-house causal RGB-D grid integration; mapped with measured RGB-D in native OccupancyGrid, not with online VGGT-SLAM. First frozen focus task per house. Single-floor calibrated local observation; no map or target oracle.",
+  "houses": 3,
+  "requests": [
+    {
+      "actions": 21,
+      "snapshots": 22,
+      "budget": 22,
+      "status": "no_supported_view"
+    },
+    {
+      "actions": 25,
+      "snapshots": 26,
+      "budget": 26,
+      "status": "no_supported_view"
+    },
+    {
+      "actions": 22,
+      "snapshots": 23,
+      "budget": 22,
+      "status": "budget_exhausted"
+    }
+  ]
+}

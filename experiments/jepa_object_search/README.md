@@ -1,5 +1,7 @@
 # 多实例寻物中的前沿选择
 
+[按房间布局绕行与清晰度确认](layout_audit_20261129/README.md)
+
 [目标可见面积与清晰度评分的原因诊断](clarity_causes_20261129/README.md)
 
 [清晰度估计与二次观察后建立实例记忆](refined_confirmation_20261129/README.md)

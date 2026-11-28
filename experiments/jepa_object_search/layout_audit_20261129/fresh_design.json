@@ -1,0 +1,28 @@
+{
+  "houses": [
+    "107734176_176000019",
+    "107734158_175999998",
+    "106878915_174887025"
+  ],
+  "previous_history": [
+    [
+      "jepa_hidden_v11",
+      "local_target_20261128",
+      "official_val_used_in_compact430",
+      "results/jepa_vln_paper_bench_20261017"
+    ],
+    [
+      "approach_search_20261128",
+      "jepa_hidden_v11",
+      "official_val_used_in_compact430",
+      "results/jepa_vln_paper_bench_20261017"
+    ],
+    [
+      "jepa_hidden_v11",
+      "official_val_used_in_compact430",
+      "results/jepa_vln_paper_bench_20261017"
+    ]
+  ],
+  "split": "Three frozen installed official validation houses; exclude current train/calibration/94 house family IDs and material overlays. These houses were used in older project experiments, and all local requests were resampled. Full-scene historical labels have been corrected; selected house IDs have not changed.",
+  "task": "New derived local inspection episodes. First 24 initial cues per house with 38-368 pixels on the source image and <369 after a 30 degree scan, ordered by a fixed random seed. Local caps cycle 22/26/30; no future viewpoint or reachability test is used in selection."
+}

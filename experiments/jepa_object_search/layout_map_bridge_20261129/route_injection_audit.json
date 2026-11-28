@@ -1,0 +1,9 @@
+{
+  "frozen_real_sensor_packets": 30,
+  "base_with_translation": 27,
+  "changed_after_fresh_upstream_obstacle": 27,
+  "new_translation_avoiding_blocked_cells": 14,
+  "turn_or_stop": 13,
+  "stale_map_restores_original": 27,
+  "scope": "Interface stress test on stored RGB-D and measured odometry. A synthetic obstacle at the first translation tests causal map use. Not a new performance score."
+}

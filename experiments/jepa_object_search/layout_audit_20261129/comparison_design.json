@@ -1,0 +1,11 @@
+{
+  "panel": "Previously examined three HSSD houses, identical 94 local requests. All sensor poses, actions, camera calibration and initial target cues are held fixed up to policy divergence.",
+  "control": "Previous refined memory and clarity; original reactive JEPA route.",
+  "arms": ["original route / previous verifier", "original route / new verifier", "layout detour enabled / previous verifier", "layout detour enabled / new verifier"],
+  "budget": "Original per-request 22/26/30 primitives including turns, initial scan and collisions.",
+  "endpoint": "First submitted target frame has >=369 visible pixels for the requested instance, covers >=50% of these pixels and reaches box IoU >=0.30. Correct, false, and unreported are counted separately.",
+  "analysis": "Report all 94 and separately those with a previously certified physical route inside budget. Unknown feasibility is not a claim of physical impossibility. Report old-to-new correct/false transitions plus the 29 historically clear-but-unreported tasks and 5 previously introduced false first reports.",
+  "route_diagnostic": "Use true instance masks only after decisions to count opportunities. Distinguish reaching clear views from recognizing them. Publish aggregate results only.",
+  "deployment_rule": "Consider the combined controller an improvement over the prior version only if it increases correct first reports without increasing false first reports. If there is a tradeoff, keep prior behavior available and report the result.",
+  "live_check": "Five equally spaced task IDs from each of the three houses are checked in live Habitat, independently reproducing motions, first stop and evidence."
+}

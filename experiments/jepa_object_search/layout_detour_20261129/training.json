@@ -1,0 +1,18 @@
+{
+  "train_houses": 12,
+  "calibration_houses": 6,
+  "train_requests": 192,
+  "calibration_requests": 96,
+  "train_routes": 5376,
+  "train_curved": 4200,
+  "train_reached": 993,
+  "train_reached_and_clear": 291,
+  "validation_routes": 2688,
+  "validation_reached": 514,
+  "validation_reach_accuracy": 0.8221726417541504,
+  "conditional_clear_accuracy": 0.8171206116676331,
+  "epoch": 3,
+  "seed": 20261129,
+  "checkpoint_sha256": "83c6f3252b21559ad02a1043e5d00e6431c96cfd8518ff21eb0de7a71f246cfa",
+  "target": "Frozen 24-coordinate projected future CLIP full-frame embedding residual when reached; actual reachability on all routes and instance area >=369 on reached endpoints."
+}

@@ -1,0 +1,19 @@
+{
+  "native_map": "single atomic snapshot of a live RGB-only VGGT-SLAM mapper; pose-free metric ruler",
+  "native_keyframe_records": 266,
+  "distinct_keyframes": 253,
+  "checked_world_to_cell": 676,
+  "local_native_free_cells": 1206,
+  "local_native_occupied_cells": 897,
+  "verified": [
+    "native NavAgent map refresh",
+    "pose-free native geometry without raw Habitat depth",
+    "exact occupancy parity on sampled cells",
+    "missing pose, empty map and stale revision",
+    "cross-episode isolation",
+    "floor change rejects 2-D map",
+    "depth-only fallback",
+    "new contact marks the attempted motion blocked"
+  ],
+  "publication": "Counts only; no frame images, map arrays, trajectory or episode IDs."
+}

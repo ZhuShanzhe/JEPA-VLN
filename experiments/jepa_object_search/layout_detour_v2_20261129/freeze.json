@@ -1,0 +1,17 @@
+{
+  "sha256": {
+    "grid_policy.py": "235ef395a6c70e8e73645adddae16716cab62eb8807c8d6c36f8d1ab4bc01356",
+    "layout_worker.py": "ee26ab8e59be6a991f0e11fd296d5629a3d2478e8ae2cd2e1527c8ebbf6875a0",
+    "run_layout.py": "094e5a96dc01881c16d85cec53ea4a3e2524b1e1dab683912e03f38804eb62ad",
+    "calibrate_grid.py": "1945b33fad64a12473d9426408613d0c7835fc1e8ff0ea6d92dec99a77cb0fa6",
+    "calibration.json": "db677a185f99d255297bd9773044d2a100be4e2509711ee846946b023e4808a0",
+    "../layout_detour_20261129/private_layout.pt": "83c6f3252b21559ad02a1043e5d00e6431c96cfd8518ff21eb0de7a71f246cfa",
+    "../layout_detour_20261129/layout_paths.py": "b1aa2334cfcf47084ea7001e1da8a09765051ccbf997d35af3d579b643dc8090",
+    "../layout_detour_20261129/layout_policy.py": "84b0e610b96420260520b93fa909134f7da52250c52c8600f387576d56c2c3b4",
+    "../layout_detour_20261129/layout_model.py": "60d4384d70f3c7e6f972b42a0d60408455e6b2bc6a3180b0b0948a6cda2671fb",
+    "../layout_map_bridge_20261129/layout_memory.py": "02d4a8aca8861c2cd2475a223560b9171b23b68f4ee5dd41c9ab4973d7511b80",
+    "../reactive_view_20261129/rollout.py": "7e392d0b3527910a0318e5be045646b979b45adcefdd9a2eb934e65ba0f54d6e",
+    "../new_view_20261129/view_design.json": "1351bf4dc9901d899ff3ee4216fb441d5c494fcccf38d23010c8e7d40aaad639"
+  },
+  "selection": "Six calibration houses; physical feasible-and-visible endpoints used for ranking. 94 old groups are a regression set. Separate official validation houses to measure transfer."
+}

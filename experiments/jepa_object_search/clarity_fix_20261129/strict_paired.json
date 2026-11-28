@@ -1,0 +1,65 @@
+{
+  "paired_requests": 94,
+  "previous": {
+    "unreported": 55,
+    "false": 9,
+    "correct": 30
+  },
+  "area_head": {
+    "unreported": 55,
+    "false": 9,
+    "correct": 30
+  },
+  "paired_transitions": {
+    "unreported": {
+      "unreported": 55
+    },
+    "false": {
+      "false": 9
+    },
+    "correct": {
+      "correct": 30
+    }
+  },
+  "old_29_clear_unreported_transitions": {
+    "unreported": {
+      "unreported": 22
+    },
+    "false": {
+      "false": 1
+    },
+    "correct": {
+      "correct": 6
+    }
+  },
+  "newest_subthreshold_previously_not_false": {
+    "false": 5
+  },
+  "previous_score_only_14": {
+    "unreported": 14
+  },
+  "incorrect_reason": {
+    "below_area": 8,
+    "box_mismatch": 1
+  },
+  "actions": 1783,
+  "per_house": [
+    {
+      "unreported": 18,
+      "false": 2,
+      "correct": 6
+    },
+    {
+      "unreported": 20,
+      "correct": 14,
+      "false": 3
+    },
+    {
+      "unreported": 17,
+      "correct": 10,
+      "false": 4
+    }
+  ],
+  "protocol": "Previous 94 fixed routes, 22/26/30 physical actions. First accepted frame; outcome scored separately using native target mask and original rules.",
+  "variant": "strict_two_view_auxiliary"
+}
