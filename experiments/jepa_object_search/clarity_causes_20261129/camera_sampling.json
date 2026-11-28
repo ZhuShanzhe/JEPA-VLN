@@ -1,0 +1,13 @@
+{
+  "groups": 14,
+  "protocol": "Diagnostic intervention on current RGB only at the previously selected best frame in each of fourteen requests. Native 384x384 rendered RGB area-averaged to 192x192. Hold native source memory, box, depth, associations, pose, gate and nominally previous projected-surface features fixed. No 384-native classifier or full-policy retest.",
+  "cutoff": 0.8350000000000001,
+  "median_p_clear_baseline": 0.6030467687729617,
+  "median_p_clear_supersampled": 0.6059478605027938,
+  "median_paired_effect": 0.0041495836720925605,
+  "min_paired_effect": -0.07505297413126955,
+  "max_paired_effect": 0.10629361258266129,
+  "median_RGB_absolute_change_8bit": 2.4532335996627808,
+  "admitted_native": 0,
+  "admitted_with_supersampled_current_rgb": 0
+}

@@ -1,5 +1,7 @@
 # 多实例寻物中的前沿选择
 
+[目标可见面积与清晰度评分的原因诊断](clarity_causes_20261129/README.md)
+
 [清晰度估计与二次观察后建立实例记忆](refined_confirmation_20261129/README.md)
 
 [实际受阻后的换位与沿途实例确认](reactive_view_20261129/README.md)

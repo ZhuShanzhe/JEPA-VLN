@@ -1,0 +1,12 @@
+{
+  "counts": {
+    "groups": 33,
+    "pitch_alone_reaches_369_at_original_peak": 2,
+    "pitch_changes_visible_area_by_at_least_50pct_at_peak": 3,
+    "direct_first_step_loses_majority_vertically": 4,
+    "lost_majority_vertically_tilt_increases_area": 4,
+    "lost_majority_vertically_tilt_recovers_initial_area": 2,
+    "lost_majority_vertically_tilt_reaches_369": 0
+  },
+  "protocol": "At the earliest peak frame in each of the 33 previously unreported never-clear groups, rerender simulated camera at -30,-15,0,+15,+30 degrees pitch without changing position, azimuth, FOV or pixel dimensions. Repeat at +0.25m in four matched cases where most tracked target points exit vertically. Oracle maximum over five pitches, outside controller action space; not a policy score."
+}

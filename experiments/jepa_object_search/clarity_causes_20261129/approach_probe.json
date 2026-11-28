@@ -1,0 +1,69 @@
+{
+  "total": {
+    "groups": 33,
+    "direct_possible_closer": 8,
+    "direct_crossed_threshold": 0,
+    "direct_crossed_within_remaining_budget": 0,
+    "direct_rescued_with_heading_matched": 0,
+    "direct_rescued_heading_matched_within_remaining_budget": 0,
+    "side_or_direct_possible_closer": 22,
+    "side_or_direct_crossed_threshold": 1,
+    "side_or_direct_crossed_within_remaining_budget": 0,
+    "side_or_direct_rescued_with_heading_matched": 1,
+    "side_or_direct_rescued_heading_matched_within_remaining_budget": 0,
+    "direct_first_step_blocked": 25,
+    "direct_any_blocked_before_one_m": 29,
+    "turn_only_crossed": 0,
+    "turn_only_crossed_within_remaining_budget": 0
+  },
+  "distance_steps_m_direct": {
+    "0.25": {
+      "reached_and_closer": 8,
+      "median_target_pixels_before_same_heading": 176.0,
+      "median_target_pixels_after": 94.0,
+      "median_paired_pixel_change": -40.5,
+      "median_paired_range_change_m": -0.24684342887953115,
+      "pixel_increases": 2,
+      "crossed_from_below": 0
+    },
+    "0.5": {
+      "reached_and_closer": 5,
+      "median_target_pixels_before_same_heading": 189.0,
+      "median_target_pixels_after": 0.0,
+      "median_paired_pixel_change": -164.0,
+      "median_paired_range_change_m": -0.4960834567184589,
+      "pixel_increases": 1,
+      "crossed_from_below": 0
+    },
+    "0.75": {
+      "reached_and_closer": 5,
+      "median_target_pixels_before_same_heading": 189.0,
+      "median_target_pixels_after": 0.0,
+      "median_paired_pixel_change": -167.0,
+      "median_paired_range_change_m": -0.7415562182814517,
+      "pixel_increases": 1,
+      "crossed_from_below": 0
+    },
+    "1.0": {
+      "reached_and_closer": 4,
+      "median_target_pixels_before_same_heading": 213.5,
+      "median_target_pixels_after": 0.0,
+      "median_paired_pixel_change": -213.5,
+      "median_paired_range_change_m": -0.9594433323863734,
+      "pixel_increases": 0,
+      "crossed_from_below": 0
+    }
+  },
+  "first_step_pixel_loss_diagnosis": {
+    "decreased_after_first_accessible_direct_step": 5,
+    "majority_source_pixels_offscreen": 4,
+    "majority_source_pixels_past_top_or_bottom": 4,
+    "majority_source_pixels_past_left_or_right": 0,
+    "majority_source_pixels_behind_nearer_non_target": 0,
+    "majority_source_pixels_still_project_to_same_instance": 1,
+    "notes": "Reproject actually visible instance depth samples from the turn-only frame into the same heading 0.25m closer. Count other-instance depth at least 0.06m + 2% depth nearer as physical occlusion; mixed and rasterization losses can occur."
+  },
+  "median_planar_distance_to_visible_surface_m_at_peak": 2.2609625707210665,
+  "median_peak_pixels": 163.0,
+  "protocol": "Earliest best target-pixel frame in each of the frozen 33 never-clear, unreported requests. Center bearing estimated offline from the actual instance pixels and depth, rounded to the existing 30-degree action. Compare in-place turn to the same camera heading after actual forward moves of 0.25\u20131m. Test six extra bearings with original camera heading restored at the endpoint. Count only completed collision-free movements that shorten horizontal range to the original visible target surface by >0.05m. Resource counts use the minimum physical turns to the corresponding heading including return, with original request budget minus prefix to peak. Diagnostic uses oracle target region and is not a navigation score; changing distance can change occlusion and target surface angles."
+}

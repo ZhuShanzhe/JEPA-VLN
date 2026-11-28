@@ -1,0 +1,85 @@
+{
+  "protocol": "One pose per old-never-clear request that became clear in isolation. Choose maximum isolated footprint from all real camera poses; identify categories of frontmost rendered surfaces at missing pixels.",
+  "main_blocker_by_request": {
+    "bookcase": 3,
+    "kitchen_island": 1,
+    "cabinet": 1,
+    "unlabelled_object": 1,
+    "floor_lamp": 1,
+    "sofa": 1,
+    "static_or_unlabelled_scene": 1,
+    "table_lamp": 1
+  },
+  "category_and_footprint_examples": [
+    {
+      "target": "bookcase",
+      "dominant_blocker": "bookcase",
+      "fraction_of_missing_pixels": 1.0,
+      "visible": 0,
+      "isolated": 630
+    },
+    {
+      "target": "cabinet",
+      "dominant_blocker": "kitchen_island",
+      "fraction_of_missing_pixels": 0.652,
+      "visible": 47,
+      "isolated": 630
+    },
+    {
+      "target": "cabinet",
+      "dominant_blocker": "cabinet",
+      "fraction_of_missing_pixels": 0.589,
+      "visible": 299,
+      "isolated": 411
+    },
+    {
+      "target": "bookcase",
+      "dominant_blocker": "bookcase",
+      "fraction_of_missing_pixels": 1.0,
+      "visible": 46,
+      "isolated": 400
+    },
+    {
+      "target": "bookcase",
+      "dominant_blocker": "unlabelled_object",
+      "fraction_of_missing_pixels": 0.954,
+      "visible": 0,
+      "isolated": 611
+    },
+    {
+      "target": "bookcase",
+      "dominant_blocker": "bookcase",
+      "fraction_of_missing_pixels": 1.0,
+      "visible": 22,
+      "isolated": 403
+    },
+    {
+      "target": "wall_art",
+      "dominant_blocker": "floor_lamp",
+      "fraction_of_missing_pixels": 0.97,
+      "visible": 306,
+      "isolated": 406
+    },
+    {
+      "target": "table",
+      "dominant_blocker": "sofa",
+      "fraction_of_missing_pixels": 0.772,
+      "visible": 145,
+      "isolated": 574
+    },
+    {
+      "target": "cabinet",
+      "dominant_blocker": "static_or_unlabelled_scene",
+      "fraction_of_missing_pixels": 1.0,
+      "visible": 19,
+      "isolated": 1438
+    },
+    {
+      "target": "book",
+      "dominant_blocker": "table_lamp",
+      "fraction_of_missing_pixels": 1.0,
+      "visible": 0,
+      "isolated": 882
+    }
+  ]
+}

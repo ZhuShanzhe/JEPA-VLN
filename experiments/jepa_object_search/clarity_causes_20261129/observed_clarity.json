@@ -1,0 +1,408 @@
+{
+  "selection": "One frame per request: best joint score among spatially valid and actually clear frames for the 14; first submission for the 5 and 30; highest target-pixel count on the saved uninterrupted route for the 33. The subsets answer different questions.",
+  "sensitivity": "Replace only the count estimated by source-surface reprojection (including derived ratios) OR the candidate rectangle used for current-crop features with its true envelope; keep all weights, native frame, source reference and p_same fixed. Flips are single-frame sensitivity, not navigation successes.",
+  "visible_surface_depth": "Median measured optical-axis depth only on visible target pixels, not centroid distance, true object size or depth behind occluders.",
+  "subsets": {
+    "previous_33_best_frame_on_full_route": {
+      "groups": 33,
+      "measures": {
+        "true_pixels": {
+          "min": 54.0,
+          "q25": 113.0,
+          "median": 163.0,
+          "q75": 238.0,
+          "max": 333.0
+        },
+        "z_m": {
+          "min": 0.867,
+          "q25": 1.344,
+          "median": 1.777,
+          "q75": 2.495,
+          "max": 3.761
+        },
+        "envelope_fill": {
+          "min": 0.2,
+          "q25": 0.39,
+          "median": 0.68,
+          "q75": 0.825,
+          "max": 1.0
+        },
+        "horizontal_span": {
+          "min": 3.0,
+          "q25": 9.0,
+          "median": 14.0,
+          "q75": 22.0,
+          "max": 38.0
+        },
+        "vertical_span": {
+          "min": 8.0,
+          "q25": 18.0,
+          "median": 21.0,
+          "q75": 26.0,
+          "max": 64.0
+        },
+        "mask_touches_image_edge": 19,
+        "start_to_best_gain_in_pixels": {
+          "min": 0.0,
+          "q25": 51.0,
+          "median": 82.0,
+          "q75": 151.0,
+          "max": 252.0
+        }
+      }
+    },
+    "five_new_early_small_target_reports": {
+      "groups": 5,
+      "measures": {
+        "true_pixels": {
+          "min": 179.0,
+          "q25": 211.0,
+          "median": 248.0,
+          "q75": 301.0,
+          "max": 322.0
+        },
+        "z_m": {
+          "min": 1.254,
+          "q25": 1.47,
+          "median": 1.547,
+          "q75": 1.936,
+          "max": 2.201
+        },
+        "envelope_fill": {
+          "min": 0.2,
+          "q25": 0.301,
+          "median": 0.537,
+          "q75": 0.581,
+          "max": 0.716
+        },
+        "horizontal_span": {
+          "min": 10.0,
+          "q25": 11.0,
+          "median": 14.0,
+          "q75": 25.0,
+          "max": 25.0
+        },
+        "vertical_span": {
+          "min": 18.0,
+          "q25": 33.0,
+          "median": 33.0,
+          "q75": 56.0,
+          "max": 64.0
+        },
+        "mask_touches_image_edge": 3,
+        "fraction_linked_to_any_compatible_initial_target_surface": {
+          "min": 0.829,
+          "q25": 0.911,
+          "median": 0.957,
+          "q75": 0.99,
+          "max": 0.992
+        },
+        "fraction_linked_to_compatible_retained_initial_target_surface": {
+          "min": 0.829,
+          "q25": 0.899,
+          "median": 0.943,
+          "q75": 0.99,
+          "max": 0.992
+        },
+        "p_clear": {
+          "min": 0.865,
+          "q25": 0.875,
+          "median": 0.881,
+          "q75": 0.883,
+          "max": 0.935
+        },
+        "p_same": {
+          "min": 0.96,
+          "q25": 0.976,
+          "median": 0.991,
+          "q75": 0.991,
+          "max": 0.991
+        },
+        "coverage": {
+          "min": 0.952,
+          "q25": 0.994,
+          "median": 1.0,
+          "q75": 1.0,
+          "max": 1.0
+        },
+        "iou": {
+          "min": 0.415,
+          "q25": 0.515,
+          "median": 0.788,
+          "q75": 0.92,
+          "max": 1.0
+        },
+        "true_target_fraction_in_box": {
+          "min": 0.188,
+          "q25": 0.241,
+          "median": 0.337,
+          "q75": 0.368,
+          "max": 0.537
+        },
+        "source_projection_px": {
+          "min": 228.014,
+          "q25": 271.504,
+          "median": 319.995,
+          "q75": 445.966,
+          "max": 461.404
+        },
+        "current_crop_estimated_target_px": {
+          "min": 396.555,
+          "q25": 462.869,
+          "median": 462.905,
+          "q75": 475.284,
+          "max": 562.718
+        },
+        "actual_inside_box_px": {
+          "min": 178.0,
+          "q25": 211.0,
+          "median": 236.0,
+          "q75": 301.0,
+          "max": 322.0
+        },
+        "projection_below_actual": 1,
+        "current_crop_estimate_below_actual_inside_box": 0,
+        "projection_on_wrong_side_of_cutoff": 2,
+        "perfect_projected_area_changes_accept": 3,
+        "perfect_rect_changes_accept": 2
+      }
+    },
+    "all_new_correct_first_submissions": {
+      "groups": 30,
+      "measures": {
+        "true_pixels": {
+          "min": 405.0,
+          "q25": 502.25,
+          "median": 645.0,
+          "q75": 822.5,
+          "max": 2090.0
+        },
+        "z_m": {
+          "min": 0.475,
+          "q25": 1.226,
+          "median": 1.972,
+          "q75": 2.377,
+          "max": 3.276
+        },
+        "envelope_fill": {
+          "min": 0.268,
+          "q25": 0.433,
+          "median": 0.677,
+          "q75": 0.851,
+          "max": 0.974
+        },
+        "horizontal_span": {
+          "min": 9.0,
+          "q25": 17.0,
+          "median": 27.5,
+          "q75": 37.0,
+          "max": 65.0
+        },
+        "vertical_span": {
+          "min": 17.0,
+          "q25": 37.0,
+          "median": 47.0,
+          "q75": 57.75,
+          "max": 75.0
+        },
+        "mask_touches_image_edge": 4,
+        "fraction_linked_to_any_compatible_initial_target_surface": {
+          "min": 0.525,
+          "q25": 0.849,
+          "median": 0.996,
+          "q75": 1.0,
+          "max": 1.0
+        },
+        "fraction_linked_to_compatible_retained_initial_target_surface": {
+          "min": 0.525,
+          "q25": 0.828,
+          "median": 0.99,
+          "q75": 1.0,
+          "max": 1.0
+        },
+        "p_clear": {
+          "min": 0.857,
+          "q25": 0.881,
+          "median": 0.92,
+          "q75": 0.948,
+          "max": 0.976
+        },
+        "p_same": {
+          "min": 0.905,
+          "q25": 0.968,
+          "median": 0.973,
+          "q75": 0.981,
+          "max": 0.991
+        },
+        "coverage": {
+          "min": 0.549,
+          "q25": 0.834,
+          "median": 0.916,
+          "q75": 0.982,
+          "max": 1.0
+        },
+        "iou": {
+          "min": 0.3,
+          "q25": 0.651,
+          "median": 0.806,
+          "q75": 0.852,
+          "max": 1.0
+        },
+        "true_target_fraction_in_box": {
+          "min": 0.292,
+          "q25": 0.365,
+          "median": 0.53,
+          "q75": 0.82,
+          "max": 0.988
+        },
+        "source_projection_px": {
+          "min": 292.352,
+          "q25": 398.252,
+          "median": 475.635,
+          "q75": 606.457,
+          "max": 840.707
+        },
+        "current_crop_estimated_target_px": {
+          "min": 203.955,
+          "q25": 427.235,
+          "median": 535.151,
+          "q75": 695.491,
+          "max": 1214.138
+        },
+        "actual_inside_box_px": {
+          "min": 292.0,
+          "q25": 470.75,
+          "median": 573.0,
+          "q75": 687.25,
+          "max": 2034.0
+        },
+        "projection_below_actual": 25,
+        "current_crop_estimate_below_actual_inside_box": 20,
+        "projection_on_wrong_side_of_cutoff": 5,
+        "perfect_projected_area_changes_accept": 2,
+        "perfect_rect_changes_accept": 0
+      }
+    },
+    "fourteen_clarity_only_missed_best_valid_frame": {
+      "groups": 14,
+      "measures": {
+        "true_pixels": {
+          "min": 369.0,
+          "q25": 399.25,
+          "median": 456.0,
+          "q75": 688.5,
+          "max": 1130.0
+        },
+        "z_m": {
+          "min": 0.746,
+          "q25": 1.315,
+          "median": 1.641,
+          "q75": 2.049,
+          "max": 3.208
+        },
+        "envelope_fill": {
+          "min": 0.242,
+          "q25": 0.354,
+          "median": 0.541,
+          "q75": 0.837,
+          "max": 0.949
+        },
+        "horizontal_span": {
+          "min": 12.0,
+          "q25": 20.25,
+          "median": 27.0,
+          "q75": 31.0,
+          "max": 72.0
+        },
+        "vertical_span": {
+          "min": 22.0,
+          "q25": 31.0,
+          "median": 35.0,
+          "q75": 44.25,
+          "max": 94.0
+        },
+        "mask_touches_image_edge": 8,
+        "fraction_linked_to_any_compatible_initial_target_surface": {
+          "min": 0.241,
+          "q25": 0.873,
+          "median": 0.98,
+          "q75": 1.0,
+          "max": 1.0
+        },
+        "fraction_linked_to_compatible_retained_initial_target_surface": {
+          "min": 0.241,
+          "q25": 0.716,
+          "median": 0.868,
+          "q75": 0.997,
+          "max": 1.0
+        },
+        "p_clear": {
+          "min": 0.04,
+          "q25": 0.517,
+          "median": 0.603,
+          "q75": 0.777,
+          "max": 0.803
+        },
+        "p_same": {
+          "min": 0.918,
+          "q25": 0.949,
+          "median": 0.971,
+          "q75": 0.975,
+          "max": 0.991
+        },
+        "coverage": {
+          "min": 0.567,
+          "q25": 0.793,
+          "median": 0.894,
+          "q75": 0.966,
+          "max": 1.0
+        },
+        "iou": {
+          "min": 0.361,
+          "q25": 0.637,
+          "median": 0.714,
+          "q75": 0.789,
+          "max": 0.933
+        },
+        "true_target_fraction_in_box": {
+          "min": 0.13,
+          "q25": 0.331,
+          "median": 0.495,
+          "q75": 0.801,
+          "max": 0.996
+        },
+        "source_projection_px": {
+          "min": 188.89,
+          "q25": 250.736,
+          "median": 326.714,
+          "q75": 415.469,
+          "max": 494.697
+        },
+        "current_crop_estimated_target_px": {
+          "min": 239.528,
+          "q25": 359.302,
+          "median": 449.552,
+          "q75": 486.579,
+          "max": 852.735
+        },
+        "actual_inside_box_px": {
+          "min": 272.0,
+          "q25": 340.75,
+          "median": 435.0,
+          "q75": 524.75,
+          "max": 868.0
+        },
+        "projection_below_actual": 11,
+        "current_crop_estimate_below_actual_inside_box": 9,
+        "projection_on_wrong_side_of_cutoff": 9,
+        "perfect_projected_area_changes_accept": 4,
+        "perfect_rect_changes_accept": 0
+      }
+    }
+  },
+  "perfect_area_first_event_on_remaining_old_misses": {
+    "remaining_old_miss": 22,
+    "still_abstain_if_perfect_area": 5,
+    "correct_if_perfect_area": 17
+  }
+}

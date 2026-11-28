@@ -1,0 +1,74 @@
+{
+  "protocol": "Exact frozen motions replayed at 384x384 with no change to horizontal FOV, pitch, camera height or scene. Native segmentation previously recorded in the same poses; actual frames stop at the new first submission or natural termination. Normalized threshold 1476=4*369. Offline, no policy inference on larger frames.",
+  "sensor": {
+    "sensor_subtype": "SensorSubType.PINHOLE",
+    "noise_model": "None",
+    "hfov": "Deg(90)",
+    "near": "0.009999999776482582",
+    "far": "1000.0"
+  },
+  "native_dimensions": [
+    192,
+    192
+  ],
+  "double_dimensions": [
+    384,
+    384
+  ],
+  "height_m": 1.31,
+  "vertical_pitch_deg": 0.0,
+  "all_94_peak_actual_frame": {
+    "observations": 94,
+    "native_clear": 56,
+    "double_resolution_clear_same_fraction": 54,
+    "double_resolution_clear_one_percent": 54,
+    "double_resolution_clear_using_old_raw_count": 87,
+    "crossed_up": 0,
+    "crossed_down": 2,
+    "median_native_px": 449.0,
+    "median_double_resolution_px": 1742.5,
+    "median_area_ratio_when_visible": 4.0,
+    "median_area_weighted_iou_when_at_least_30px": 0.9120781317102788
+  },
+  "all_deployed_frames": {
+    "observations": 1877,
+    "native_clear": 214,
+    "double_resolution_clear_same_fraction": 213,
+    "double_resolution_clear_one_percent": 213,
+    "double_resolution_clear_using_old_raw_count": 821,
+    "crossed_up": 7,
+    "crossed_down": 8,
+    "median_native_px": 58.0,
+    "median_double_resolution_px": 252.0,
+    "median_area_ratio_when_visible": 4.0,
+    "median_area_weighted_iou_when_at_least_30px": 0.8795811518324608
+  },
+  "previously_never_clear_33_peak_frame_full_original_path": {
+    "observations": 33,
+    "native_clear": 0,
+    "double_resolution_clear_same_fraction": 0,
+    "double_resolution_clear_one_percent": 0,
+    "double_resolution_clear_using_old_raw_count": 26,
+    "crossed_up": 0,
+    "crossed_down": 0,
+    "median_native_px": 163.0,
+    "median_double_resolution_px": 633.0,
+    "median_area_ratio_when_visible": 4.0,
+    "median_area_weighted_iou_when_at_least_30px": 0.9001996007984032
+  },
+  "clarity_score_limited_14_best_valid_frame": {
+    "observations": 14,
+    "native_clear": 14,
+    "double_resolution_clear_same_fraction": 11,
+    "double_resolution_clear_one_percent": 11,
+    "double_resolution_clear_using_old_raw_count": 14,
+    "crossed_up": 0,
+    "crossed_down": 3,
+    "median_native_px": 456.0,
+    "median_double_resolution_px": 1822.5,
+    "median_area_ratio_when_visible": 3.999634682529419,
+    "median_area_weighted_iou_when_at_least_30px": 0.9074766861852093
+  },
+  "previous_33_ever_crossed_equal_fraction": 0,
+  "previous_33_ever_crossed_unchanged_raw_cutoff": 27
+}
