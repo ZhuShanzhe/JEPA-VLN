@@ -1,0 +1,32 @@
+[
+  {
+    "ordinal": 1,
+    "step": 108,
+    "local_budget": 24,
+    "physically_witnessed": true,
+    "steps": 19,
+    "physical_error_m": 0.06242429694646108,
+    "physical_yaw_deg": 7.634281801528979e-06,
+    "expanded": 605
+  },
+  {
+    "ordinal": 1,
+    "step": 113,
+    "local_budget": 23,
+    "physically_witnessed": true,
+    "steps": 18,
+    "physical_error_m": 0.062424349034437415,
+    "physical_yaw_deg": 6.675931453739772e-06,
+    "expanded": 476
+  },
+  {
+    "ordinal": 14,
+    "step": 179,
+    "local_budget": 32,
+    "physically_witnessed": true,
+    "steps": 19,
+    "physical_error_m": 0.037840915277928384,
+    "physical_yaw_deg": 3.6436851210731507e-06,
+    "expanded": 1997
+  }
+]

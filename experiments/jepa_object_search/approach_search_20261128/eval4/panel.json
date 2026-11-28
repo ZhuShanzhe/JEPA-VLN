@@ -1,0 +1,66 @@
+[
+  {
+    "scene": "104862417_172226382",
+    "id": "24",
+    "goal": "picture",
+    "quota": 2,
+    "budget": 300,
+    "shard_sha256": "304974338c1f27a08d5c3d859671e647ffa5be42aec6a7a8c7f3f88a106818e1"
+  },
+  {
+    "scene": "107734056_175999839",
+    "id": "37",
+    "goal": "table lamp",
+    "quota": 2,
+    "budget": 300,
+    "shard_sha256": "af7cdc24118a04b12807595073782e449421f3f2342457fd91cf042bb069d8be"
+  },
+  {
+    "scene": "108736800_177263517",
+    "id": "32",
+    "goal": "bed",
+    "quota": 2,
+    "budget": 300,
+    "shard_sha256": "828f3d7f98b3562e53ed7bdc6b3c15b6ce7dcaece65a33b418dead8a8986fb34"
+  },
+  {
+    "scene": "106366104_174226329",
+    "id": "13",
+    "goal": "table",
+    "quota": 2,
+    "budget": 300,
+    "shard_sha256": "6066524af8985149ece8c3c43e2fc09f690b994fd57119c45a611d6751d7f940"
+  },
+  {
+    "scene": "103997586_171030666",
+    "id": "14",
+    "goal": "plant",
+    "quota": 2,
+    "budget": 300,
+    "shard_sha256": "41180c882e730ed61f4d42edcef8464c4e34f030292ee4322e52323436158aa0"
+  },
+  {
+    "scene": "105515379_173104395",
+    "id": "10",
+    "goal": "shelf",
+    "quota": 2,
+    "budget": 300,
+    "shard_sha256": "858c6d75cc3d844e7edbcc40db33e06dca3a0cccf6b0fe33ac31f2e2d5791627"
+  },
+  {
+    "scene": "102816036",
+    "id": "35",
+    "goal": "stool",
+    "quota": 2,
+    "budget": 300,
+    "shard_sha256": "af9dd0ed94fc3dd5ed08e468c73b1c2b367644936f84832b2b3fd0fd3f63812e"
+  },
+  {
+    "scene": "107734287_176000160",
+    "id": "20",
+    "goal": "armchair",
+    "quota": 2,
+    "budget": 300,
+    "shard_sha256": "d3970eb219a44d97a9435f0c718a208ab947902f1d0b6d58b19797d101ec827a"
+  }
+]

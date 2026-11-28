@@ -1,0 +1,6 @@
+{
+  "collision_replan_on_copy_of_observed_map": "passed",
+  "stale_anchor_returns_to_native_recovery": "passed",
+  "odometry_alone_never_certified_as_map_arrival": "passed",
+  "higher_priority_follower_replacement_preserved": "passed"
+}

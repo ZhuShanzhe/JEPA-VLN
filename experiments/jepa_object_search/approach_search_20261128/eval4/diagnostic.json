@@ -1,0 +1,122 @@
+[
+  {
+    "scene": "104862417_172226382",
+    "goal": "picture",
+    "initial_candidates": 34,
+    "candidates_with_new_instance": 0,
+    "max_new": 0,
+    "oracle": {
+      "reached": 2,
+      "quota_met": true,
+      "steps": 79
+    },
+    "start_in_one_m": 0,
+    "start_in_half_m": 0,
+    "start_nearest_geo_m": 10.043344497680664
+  },
+  {
+    "scene": "107734056_175999839",
+    "goal": "table lamp",
+    "initial_candidates": 11,
+    "candidates_with_new_instance": 0,
+    "max_new": 0,
+    "oracle": {
+      "reached": 2,
+      "quota_met": true,
+      "steps": 89
+    },
+    "start_in_one_m": 0,
+    "start_in_half_m": 0,
+    "start_nearest_geo_m": 5.125661373138428
+  },
+  {
+    "scene": "108736800_177263517",
+    "goal": "bed",
+    "initial_candidates": 20,
+    "candidates_with_new_instance": 0,
+    "max_new": 0,
+    "oracle": {
+      "reached": 2,
+      "quota_met": true,
+      "steps": 166
+    },
+    "start_in_one_m": 0,
+    "start_in_half_m": 0,
+    "start_nearest_geo_m": 9.842529296875
+  },
+  {
+    "scene": "106366104_174226329",
+    "goal": "table",
+    "initial_candidates": 34,
+    "candidates_with_new_instance": 0,
+    "max_new": 0,
+    "oracle": {
+      "reached": 2,
+      "quota_met": true,
+      "steps": 67
+    },
+    "start_in_one_m": 0,
+    "start_in_half_m": 0,
+    "start_nearest_geo_m": 9.19845199584961
+  },
+  {
+    "scene": "103997586_171030666",
+    "goal": "plant",
+    "initial_candidates": 30,
+    "candidates_with_new_instance": 0,
+    "max_new": 0,
+    "oracle": {
+      "reached": 2,
+      "quota_met": true,
+      "steps": 157
+    },
+    "start_in_one_m": 0,
+    "start_in_half_m": 0,
+    "start_nearest_geo_m": 13.703405380249023
+  },
+  {
+    "scene": "105515379_173104395",
+    "goal": "shelf",
+    "initial_candidates": 7,
+    "candidates_with_new_instance": 0,
+    "max_new": 0,
+    "oracle": {
+      "reached": 3,
+      "quota_met": true,
+      "steps": 23
+    },
+    "start_in_one_m": 0,
+    "start_in_half_m": 0,
+    "start_nearest_geo_m": 3.3917808532714844
+  },
+  {
+    "scene": "102816036",
+    "goal": "stool",
+    "initial_candidates": 28,
+    "candidates_with_new_instance": 0,
+    "max_new": 0,
+    "oracle": {
+      "reached": 2,
+      "quota_met": true,
+      "steps": 75
+    },
+    "start_in_one_m": 0,
+    "start_in_half_m": 0,
+    "start_nearest_geo_m": 11.950260162353516
+  },
+  {
+    "scene": "107734287_176000160",
+    "goal": "armchair",
+    "initial_candidates": 15,
+    "candidates_with_new_instance": 0,
+    "max_new": 0,
+    "oracle": {
+      "reached": 2,
+      "quota_met": true,
+      "steps": 59
+    },
+    "start_in_one_m": 0,
+    "start_in_half_m": 0,
+    "start_nearest_geo_m": 9.447842597961426
+  }
+]

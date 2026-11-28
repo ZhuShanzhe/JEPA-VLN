@@ -1,0 +1,56 @@
+[
+  {
+    "scene": "104862417_172226382",
+    "episode": "24",
+    "goal": "picture",
+    "start_connected_instances": 27
+  },
+  {
+    "scene": "107734056_175999839",
+    "episode": "37",
+    "goal": "table lamp",
+    "start_connected_instances": 3
+  },
+  {
+    "scene": "108736800_177263517",
+    "episode": "32",
+    "goal": "bed",
+    "start_connected_instances": 4
+  },
+  {
+    "scene": "105515379_173104395",
+    "episode": "72",
+    "goal": "table",
+    "start_connected_instances": 1
+  },
+  {
+    "scene": "106366104_174226329",
+    "episode": "13",
+    "goal": "table",
+    "start_connected_instances": 2
+  },
+  {
+    "scene": "103997586_171030666",
+    "episode": "14",
+    "goal": "plant",
+    "start_connected_instances": 5
+  },
+  {
+    "scene": "105515379_173104395",
+    "episode": "10",
+    "goal": "shelf",
+    "start_connected_instances": 6
+  },
+  {
+    "scene": "102816036",
+    "episode": "35",
+    "goal": "stool",
+    "start_connected_instances": 15
+  },
+  {
+    "scene": "107734287_176000160",
+    "episode": "20",
+    "goal": "armchair",
+    "start_connected_instances": 7
+  }
+]

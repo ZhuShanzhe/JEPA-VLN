@@ -1,0 +1,41 @@
+[
+  {
+    "ordinal": 1,
+    "step": 108,
+    "actions": 24,
+    "calibration_segments": 13,
+    "physical_position_error_m": 1.1829452055421468,
+    "physical_yaw_error_deg": 119.99999292651819,
+    "view_ok": false,
+    "reason": "local_budget",
+    "scored_collision_actions": 6,
+    "local_map_fixes": 4,
+    "local_map_repairs": 4
+  },
+  {
+    "ordinal": 1,
+    "step": 113,
+    "actions": 23,
+    "calibration_segments": 14,
+    "physical_position_error_m": 2.056007694525189,
+    "physical_yaw_error_deg": 60.00000833380448,
+    "view_ok": false,
+    "reason": "local_budget",
+    "scored_collision_actions": 4,
+    "local_map_fixes": 4,
+    "local_map_repairs": 4
+  },
+  {
+    "ordinal": 14,
+    "step": 179,
+    "actions": 25,
+    "calibration_segments": 42,
+    "physical_position_error_m": 2.5292437057668784,
+    "physical_yaw_error_deg": 30.000026148007716,
+    "view_ok": false,
+    "reason": "local_replan_limit",
+    "scored_collision_actions": 2,
+    "local_map_fixes": 5,
+    "local_map_repairs": 4
+  }
+]

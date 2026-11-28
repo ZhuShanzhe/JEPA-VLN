@@ -1,0 +1,41 @@
+[
+  {
+    "ordinal": 1,
+    "step": 108,
+    "actions": 5,
+    "calibration_segments": 13,
+    "physical_position_error_m": 2.523832825101611,
+    "physical_yaw_error_deg": 29.99999599992331,
+    "view_ok": false,
+    "reason": "no_observed_detour",
+    "scored_collision_actions": 1,
+    "local_map_fixes": 1,
+    "local_map_repairs": 0
+  },
+  {
+    "ordinal": 1,
+    "step": 113,
+    "actions": 5,
+    "calibration_segments": 14,
+    "physical_position_error_m": 2.2739249710368017,
+    "physical_yaw_error_deg": 29.999996958273652,
+    "view_ok": false,
+    "reason": "no_observed_detour",
+    "scored_collision_actions": 1,
+    "local_map_fixes": 1,
+    "local_map_repairs": 0
+  },
+  {
+    "ordinal": 14,
+    "step": 179,
+    "actions": 5,
+    "calibration_segments": 42,
+    "physical_position_error_m": 2.2655622322751103,
+    "physical_yaw_error_deg": 119.99999213243352,
+    "view_ok": false,
+    "reason": "no_observed_detour",
+    "scored_collision_actions": 0,
+    "local_map_fixes": 1,
+    "local_map_repairs": 0
+  }
+]

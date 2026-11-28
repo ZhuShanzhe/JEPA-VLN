@@ -1,0 +1,297 @@
+{
+  "source_sha256": [
+    "3b473580752972b5e018a3c181818c1e66a669db38be5e3a828d8f032b682730",
+    "de5b0dab4b20c0ff9a98ee3a559d6b626ce00d0b9bf0ec4d87a4b5f04d4d7cef"
+  ],
+  "selected_views": 9,
+  "native_reach_m": 0.8,
+  "same_pose_view_budget": true,
+  "target_labels_used_by_controller": false,
+  "protocol": "Habitat full scene; paired archived poses and selected prefix path, equal local budget. Native RGB stall terminates both arms. Odometry during short branch; no live SLAM, upper policy, or paid API. Physical simulator pose only for resetting and scoring.",
+  "totals": {
+    "official_follower": {
+      "position_ok": 0,
+      "view_ok": 0,
+      "actions": 119,
+      "collision_actions": 20
+    },
+    "selected_view": {
+      "position_ok": 4,
+      "view_ok": 4,
+      "actions": 170,
+      "collision_actions": 27
+    }
+  },
+  "results": [
+    {
+      "episode_ordinal": 1,
+      "source_step": 108,
+      "prefix_length": 16,
+      "audit_geometry": {
+        "horizontal_gap_to_snapped_mesh_m": 7.064397847982288e-08,
+        "vertical_gap_to_snapped_mesh_m": 0.0,
+        "geodesic_to_snapped_goal_m": 3.8645904064178467
+      },
+      "arms": {
+        "official_follower": {
+          "actions": 12,
+          "reason": "native_rgb_stall_yield",
+          "collision_actions": 5,
+          "position_error_m": 1.6079,
+          "yaw_error_deg": 30.0,
+          "position_ok": false,
+          "view_ok": false
+        },
+        "selected_view": {
+          "actions": 12,
+          "reason": "native_rgb_stall_yield",
+          "collision_actions": 5,
+          "position_error_m": 1.6079,
+          "yaw_error_deg": 30.0,
+          "position_ok": false,
+          "view_ok": false
+        }
+      }
+    },
+    {
+      "episode_ordinal": 1,
+      "source_step": 113,
+      "prefix_length": 15,
+      "audit_geometry": {
+        "horizontal_gap_to_snapped_mesh_m": 1.9781534192832922e-08,
+        "vertical_gap_to_snapped_mesh_m": 0.0,
+        "geodesic_to_snapped_goal_m": 3.8645904064178467
+      },
+      "arms": {
+        "official_follower": {
+          "actions": 11,
+          "reason": "native_rgb_stall_yield",
+          "collision_actions": 5,
+          "position_error_m": 1.6079,
+          "yaw_error_deg": 30.0,
+          "position_ok": false,
+          "view_ok": false
+        },
+        "selected_view": {
+          "actions": 11,
+          "reason": "native_rgb_stall_yield",
+          "collision_actions": 5,
+          "position_error_m": 1.6079,
+          "yaw_error_deg": 30.0,
+          "position_ok": false,
+          "view_ok": false
+        }
+      }
+    },
+    {
+      "episode_ordinal": 1,
+      "source_step": 130,
+      "prefix_length": 12,
+      "audit_geometry": {
+        "horizontal_gap_to_snapped_mesh_m": 2.1652125562672985e-07,
+        "vertical_gap_to_snapped_mesh_m": 0.0,
+        "geodesic_to_snapped_goal_m": 1.9922093152999878
+      },
+      "arms": {
+        "official_follower": {
+          "actions": 7,
+          "reason": "estimated_arrival",
+          "collision_actions": 1,
+          "position_error_m": 0.7528,
+          "yaw_error_deg": 0.0,
+          "position_ok": false,
+          "view_ok": false
+        },
+        "selected_view": {
+          "actions": 12,
+          "reason": "estimated_arrival",
+          "collision_actions": 2,
+          "position_error_m": 0.0339,
+          "yaw_error_deg": 0.0,
+          "position_ok": true,
+          "view_ok": true
+        }
+      }
+    },
+    {
+      "episode_ordinal": 1,
+      "source_step": 158,
+      "prefix_length": 23,
+      "audit_geometry": {
+        "horizontal_gap_to_snapped_mesh_m": 0.338953182123541,
+        "vertical_gap_to_snapped_mesh_m": 0.0,
+        "geodesic_to_snapped_goal_m": 2.424558639526367
+      },
+      "arms": {
+        "official_follower": {
+          "actions": 20,
+          "reason": "estimated_arrival",
+          "collision_actions": 0,
+          "position_error_m": 0.6648,
+          "yaw_error_deg": 0.0,
+          "position_ok": false,
+          "view_ok": false
+        },
+        "selected_view": {
+          "actions": 23,
+          "reason": "estimated_arrival",
+          "collision_actions": 2,
+          "position_error_m": 0.339,
+          "yaw_error_deg": 0.0,
+          "position_ok": false,
+          "view_ok": false
+        }
+      }
+    },
+    {
+      "episode_ordinal": 1,
+      "source_step": 226,
+      "prefix_length": 19,
+      "audit_geometry": {
+        "horizontal_gap_to_snapped_mesh_m": 0.3958658852532567,
+        "vertical_gap_to_snapped_mesh_m": 0.26885664463043213,
+        "geodesic_to_snapped_goal_m": 3.7540194988250732
+      },
+      "arms": {
+        "official_follower": {
+          "actions": 11,
+          "reason": "estimated_arrival",
+          "collision_actions": 4,
+          "position_error_m": 1.464,
+          "yaw_error_deg": 30.0,
+          "position_ok": false,
+          "view_ok": false
+        },
+        "selected_view": {
+          "actions": 19,
+          "reason": "estimated_arrival",
+          "collision_actions": 7,
+          "position_error_m": 1.4236,
+          "yaw_error_deg": 0.0,
+          "position_ok": false,
+          "view_ok": false
+        }
+      }
+    },
+    {
+      "episode_ordinal": 1,
+      "source_step": 257,
+      "prefix_length": 24,
+      "audit_geometry": {
+        "horizontal_gap_to_snapped_mesh_m": 1.0744997520219177e-07,
+        "vertical_gap_to_snapped_mesh_m": 0.5308007001876831,
+        "geodesic_to_snapped_goal_m": 1.2503116130828857
+      },
+      "arms": {
+        "official_follower": {
+          "actions": 8,
+          "reason": "estimated_arrival",
+          "collision_actions": 0,
+          "position_error_m": 0.7906,
+          "yaw_error_deg": 150.0,
+          "position_ok": false,
+          "view_ok": false
+        },
+        "selected_view": {
+          "actions": 24,
+          "reason": "estimated_arrival",
+          "collision_actions": 1,
+          "position_error_m": 0.0309,
+          "yaw_error_deg": 0.0,
+          "position_ok": true,
+          "view_ok": true
+        }
+      }
+    },
+    {
+      "episode_ordinal": 14,
+      "source_step": 66,
+      "prefix_length": 21,
+      "audit_geometry": {
+        "horizontal_gap_to_snapped_mesh_m": 1.5020910585124818e-07,
+        "vertical_gap_to_snapped_mesh_m": 0.0,
+        "geodesic_to_snapped_goal_m": 2.1742961406707764
+      },
+      "arms": {
+        "official_follower": {
+          "actions": 13,
+          "reason": "estimated_arrival",
+          "collision_actions": 0,
+          "position_error_m": 0.7273,
+          "yaw_error_deg": 30.0,
+          "position_ok": false,
+          "view_ok": false
+        },
+        "selected_view": {
+          "actions": 21,
+          "reason": "estimated_arrival",
+          "collision_actions": 0,
+          "position_error_m": 0.0,
+          "yaw_error_deg": 0.0,
+          "position_ok": true,
+          "view_ok": true
+        }
+      }
+    },
+    {
+      "episode_ordinal": 14,
+      "source_step": 179,
+      "prefix_length": 24,
+      "audit_geometry": {
+        "horizontal_gap_to_snapped_mesh_m": 0.0018021242745896152,
+        "vertical_gap_to_snapped_mesh_m": 0.0,
+        "geodesic_to_snapped_goal_m": 2.408958673477173
+      },
+      "arms": {
+        "official_follower": {
+          "actions": 18,
+          "reason": "estimated_arrival",
+          "collision_actions": 5,
+          "position_error_m": 1.1,
+          "yaw_error_deg": 0.0,
+          "position_ok": false,
+          "view_ok": false
+        },
+        "selected_view": {
+          "actions": 24,
+          "reason": "estimated_arrival",
+          "collision_actions": 5,
+          "position_error_m": 1.1531,
+          "yaw_error_deg": 0.0,
+          "position_ok": false,
+          "view_ok": false
+        }
+      }
+    },
+    {
+      "episode_ordinal": 14,
+      "source_step": 258,
+      "prefix_length": 24,
+      "audit_geometry": {
+        "horizontal_gap_to_snapped_mesh_m": 1.081439238040248e-07,
+        "vertical_gap_to_snapped_mesh_m": 0.0,
+        "geodesic_to_snapped_goal_m": 3.4201393127441406
+      },
+      "arms": {
+        "official_follower": {
+          "actions": 19,
+          "reason": "estimated_arrival",
+          "collision_actions": 0,
+          "position_error_m": 0.7273,
+          "yaw_error_deg": 0.0,
+          "position_ok": false,
+          "view_ok": false
+        },
+        "selected_view": {
+          "actions": 24,
+          "reason": "estimated_arrival",
+          "collision_actions": 0,
+          "position_error_m": 0.0,
+          "yaw_error_deg": 0.0,
+          "position_ok": true,
+          "view_ok": true
+        }
+      }
+    }
+  ]
+}

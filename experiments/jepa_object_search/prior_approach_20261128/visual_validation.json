@@ -1,0 +1,35 @@
+{
+  "queries": 430,
+  "houses": 12,
+  "overlap": 0,
+  "versions": {
+    "jepa": {
+      "with_structure": {
+        "hits": 164,
+        "queries": 430,
+        "house_macro": 0.3851846594718373,
+        "brier": 0.2340947126685287
+      },
+      "without_structure": {
+        "hits": 164,
+        "queries": 430,
+        "house_macro": 0.3851846594718373,
+        "brier": 0.23409462945644297
+      }
+    },
+    "direct": {
+      "with_structure": {
+        "hits": 156,
+        "queries": 430,
+        "house_macro": 0.358011388908684,
+        "brier": 0.23489012783570232
+      },
+      "without_structure": {
+        "hits": 156,
+        "queries": 430,
+        "house_macro": 0.358011388908684,
+        "brier": 0.234890060387339
+      }
+    }
+  }
+}

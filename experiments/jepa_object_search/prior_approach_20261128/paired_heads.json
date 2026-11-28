@@ -1,0 +1,140 @@
+{
+  "totals": {
+    "v11": 185,
+    "jepa": 199,
+    "direct": 201,
+    "semantic_jepa": 159,
+    "semantic_direct": 155,
+    "updated_prior_jepa": 164,
+    "updated_prior_direct": 156,
+    "queries": 430
+  },
+  "jepa_direct_joint": {
+    "(False, False)": 238,
+    "(True, True)": 128,
+    "(False, True)": 28,
+    "(True, False)": 36
+  },
+  "by_house": {
+    "103997799_171031002": {
+      "v11": 14,
+      "jepa": 17,
+      "direct": 13,
+      "semantic_jepa": 9,
+      "semantic_direct": 11,
+      "updated_prior_jepa": 11,
+      "updated_prior_direct": 12,
+      "queries": 49
+    },
+    "105515301_173104305": {
+      "v11": 19,
+      "jepa": 22,
+      "direct": 21,
+      "semantic_jepa": 21,
+      "semantic_direct": 23,
+      "updated_prior_jepa": 20,
+      "updated_prior_direct": 21,
+      "queries": 43
+    },
+    "108294939_176710668": {
+      "v11": 12,
+      "jepa": 15,
+      "direct": 14,
+      "semantic_jepa": 11,
+      "semantic_direct": 8,
+      "updated_prior_jepa": 12,
+      "updated_prior_direct": 9,
+      "queries": 28
+    },
+    "102816786": {
+      "v11": 16,
+      "jepa": 10,
+      "direct": 13,
+      "semantic_jepa": 15,
+      "semantic_direct": 14,
+      "updated_prior_jepa": 15,
+      "updated_prior_direct": 16,
+      "queries": 38
+    },
+    "108294897_176710602": {
+      "v11": 23,
+      "jepa": 22,
+      "direct": 27,
+      "semantic_jepa": 24,
+      "semantic_direct": 22,
+      "updated_prior_jepa": 24,
+      "updated_prior_direct": 22,
+      "queries": 46
+    },
+    "105515448_173104512": {
+      "v11": 13,
+      "jepa": 12,
+      "direct": 13,
+      "semantic_jepa": 12,
+      "semantic_direct": 12,
+      "updated_prior_jepa": 14,
+      "updated_prior_direct": 12,
+      "queries": 35
+    },
+    "102344457": {
+      "v11": 14,
+      "jepa": 19,
+      "direct": 16,
+      "semantic_jepa": 10,
+      "semantic_direct": 11,
+      "updated_prior_jepa": 12,
+      "updated_prior_direct": 10,
+      "queries": 39
+    },
+    "102816216": {
+      "v11": 18,
+      "jepa": 22,
+      "direct": 24,
+      "semantic_jepa": 15,
+      "semantic_direct": 15,
+      "updated_prior_jepa": 15,
+      "updated_prior_direct": 16,
+      "queries": 35
+    },
+    "104862639_172226823": {
+      "v11": 18,
+      "jepa": 20,
+      "direct": 17,
+      "semantic_jepa": 18,
+      "semantic_direct": 12,
+      "updated_prior_jepa": 17,
+      "updated_prior_direct": 12,
+      "queries": 44
+    },
+    "107734110_175999914": {
+      "v11": 21,
+      "jepa": 23,
+      "direct": 25,
+      "semantic_jepa": 17,
+      "semantic_direct": 16,
+      "updated_prior_jepa": 17,
+      "updated_prior_direct": 16,
+      "queries": 33
+    },
+    "104862558_172226664": {
+      "v11": 15,
+      "jepa": 12,
+      "direct": 13,
+      "semantic_jepa": 4,
+      "semantic_direct": 9,
+      "updated_prior_jepa": 4,
+      "updated_prior_direct": 8,
+      "queries": 33
+    },
+    "106366248_174226527": {
+      "v11": 2,
+      "jepa": 5,
+      "direct": 5,
+      "semantic_jepa": 3,
+      "semantic_direct": 2,
+      "updated_prior_jepa": 3,
+      "updated_prior_direct": 2,
+      "queries": 7
+    }
+  }
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "scene": "102816756",
+    "id": "4",
+    "goal": "table lamp",
+    "quota": 2,
+    "budget": 300,
+    "shard_sha256": "32149ffb47832e344d786f6c46510f0cf149bd91b4f7322ab65a5fcd54015336"
+  },
+  {
+    "scene": "106879005_174887124",
+    "id": "14",
+    "goal": "table lamp",
+    "quota": 2,
+    "budget": 300,
+    "shard_sha256": "0a06f762109558dd46e9ffa51dd30e2f8821afb1dc5ffd693a47dbe4ae3ac278"
+  },
+  {
+    "scene": "102344094",
+    "id": "7",
+    "goal": "table lamp",
+    "quota": 2,
+    "budget": 300,
+    "shard_sha256": "33e438bf66aca6e9768cfcf1b264efdeea326f37c99faa4348127d863762fbcf"
+  },
+  {
+    "scene": "106879080_174887211",
+    "id": "36",
+    "goal": "table lamp",
+    "quota": 2,
+    "budget": 300,
+    "shard_sha256": "843ce4b17b720221cca868d8505e75aa532cd89a8f276a3d878c7d1afb4a55c5"
+  },
+  {
+    "scene": "107734254_176000121",
+    "id": "68",
+    "goal": "bed",
+    "quota": 2,
+    "budget": 300,
+    "shard_sha256": "615681259984dfefbafaefadc8b45a660489e06983b8d03b604973a4253eb34e"
+  },
+  {
+    "scene": "104348028_171512877",
+    "id": "71",
+    "goal": "chair",
+    "quota": 2,
+    "budget": 300,
+    "shard_sha256": "796a4e40ef8420992ffc7b14b91e3bfecea9d4dd0106f9995937a4a71b435b69"
+  },
+  {
+    "scene": "107734158_175999998",
+    "id": "62",
+    "goal": "table",
+    "quota": 2,
+    "budget": 300,
+    "shard_sha256": "c6701911a7c8fc2c26f35e9df4653df66fac95665db733d6e63820fa906290fd"
+  },
+  {
+    "scene": "103997895_171031182",
+    "id": "32",
+    "goal": "plant",
+    "quota": 2,
+    "budget": 300,
+    "shard_sha256": "0cdee8021a7f0a9717e29b34358aae5d9631ee8f8633eed3d286493eb91eeb67"
+  }
+]

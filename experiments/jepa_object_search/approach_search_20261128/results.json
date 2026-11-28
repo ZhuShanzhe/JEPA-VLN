@@ -1,0 +1,237 @@
+{
+  "execution_nine_sites": {
+    "official_follower": {
+      "position_ok": 0,
+      "view_ok": 0,
+      "actions": 119,
+      "collision_actions": 20,
+      "within_point_eight_m": 5,
+      "within_quarter_m_and_15_deg": 0
+    },
+    "selected_view": {
+      "position_ok": 4,
+      "view_ok": 4,
+      "actions": 170,
+      "collision_actions": 27,
+      "within_point_eight_m": 5,
+      "within_quarter_m_and_15_deg": 4
+    }
+  },
+  "exploration_groups": {
+    "initial_development": {
+      "houses": 8,
+      "runs": 24,
+      "arms": {
+        "old": {
+          "total_distinct": 0,
+          "after_departure": 0,
+          "enough": 0,
+          "visited_at_least_one": 0,
+          "choices": 242,
+          "destinations_reached": 141,
+          "collisions": 123,
+          "physical_steps": 2400,
+          "stages": {
+            "prior_search": 0,
+            "remaining_search": 0
+          }
+        },
+        "new": {
+          "total_distinct": 1,
+          "after_departure": 1,
+          "enough": 0,
+          "visited_at_least_one": 1,
+          "choices": 250,
+          "destinations_reached": 100,
+          "collisions": 164,
+          "physical_steps": 2400,
+          "stages": {
+            "prior_search": 172,
+            "remaining_search": 78
+          }
+        },
+        "prior_only": {
+          "total_distinct": 0,
+          "after_departure": 0,
+          "enough": 0,
+          "visited_at_least_one": 0,
+          "choices": 188,
+          "destinations_reached": 96,
+          "collisions": 99,
+          "physical_steps": 2400,
+          "stages": {
+            "prior_search": 0,
+            "remaining_search": 0
+          }
+        }
+      },
+      "paired_better_equal_worse": [
+        1,
+        7,
+        0
+      ],
+      "record_sha256": "43907d233ca3f13051a794372bf522324a2c35f8cf8967c7dc26afeed4fbf3f8"
+    },
+    "corrected_development": {
+      "houses": 8,
+      "runs": 24,
+      "arms": {
+        "old": {
+          "total_distinct": 0,
+          "after_departure": 0,
+          "enough": 0,
+          "visited_at_least_one": 0,
+          "choices": 177,
+          "destinations_reached": 168,
+          "collisions": 25,
+          "physical_steps": 2400,
+          "stages": {
+            "prior_search": 0,
+            "remaining_search": 0
+          }
+        },
+        "new": {
+          "total_distinct": 4,
+          "after_departure": 4,
+          "enough": 1,
+          "visited_at_least_one": 2,
+          "choices": 148,
+          "destinations_reached": 135,
+          "collisions": 21,
+          "physical_steps": 2400,
+          "stages": {
+            "prior_search": 106,
+            "remaining_search": 42
+          }
+        },
+        "prior_only": {
+          "total_distinct": 1,
+          "after_departure": 1,
+          "enough": 0,
+          "visited_at_least_one": 1,
+          "choices": 142,
+          "destinations_reached": 130,
+          "collisions": 27,
+          "physical_steps": 2400,
+          "stages": {
+            "prior_search": 0,
+            "remaining_search": 0
+          }
+        }
+      },
+      "paired_better_equal_worse": [
+        2,
+        6,
+        0
+      ],
+      "record_sha256": "0ec4013ccde9d2ecf30d12197c83e896931c5bcc4ba09bcbc5ee5e4b70d44b21",
+      "approach_sensitivity": {
+        "old": {
+          "one_meter": 0,
+          "half_meter": 0
+        },
+        "new": {
+          "one_meter": 6,
+          "half_meter": 5
+        },
+        "prior_only": {
+          "one_meter": 2,
+          "half_meter": 2
+        }
+      }
+    },
+    "independent_reachable": {
+      "houses": 8,
+      "runs": 24,
+      "arms": {
+        "old": {
+          "total_distinct": 0,
+          "after_departure": 0,
+          "enough": 0,
+          "visited_at_least_one": 0,
+          "choices": 175,
+          "destinations_reached": 156,
+          "collisions": 31,
+          "physical_steps": 2400,
+          "stages": {
+            "prior_search": 0,
+            "remaining_search": 0
+          }
+        },
+        "new": {
+          "total_distinct": 0,
+          "after_departure": 0,
+          "enough": 0,
+          "visited_at_least_one": 0,
+          "choices": 144,
+          "destinations_reached": 122,
+          "collisions": 30,
+          "physical_steps": 2400,
+          "stages": {
+            "prior_search": 110,
+            "remaining_search": 34
+          }
+        },
+        "prior_only": {
+          "total_distinct": 0,
+          "after_departure": 0,
+          "enough": 0,
+          "visited_at_least_one": 0,
+          "choices": 136,
+          "destinations_reached": 126,
+          "collisions": 20,
+          "physical_steps": 2400,
+          "stages": {
+            "prior_search": 0,
+            "remaining_search": 0
+          }
+        }
+      },
+      "paired_better_equal_worse": [
+        0,
+        8,
+        0
+      ],
+      "record_sha256": "3c070d1103f32e361848a1fdf5a1028c4cd155a55ad8dfbd7ea298ff57ccece4",
+      "approach_sensitivity": {
+        "old": {
+          "one_meter": 1,
+          "half_meter": 0
+        },
+        "new": {
+          "one_meter": 5,
+          "half_meter": 0
+        },
+        "prior_only": {
+          "one_meter": 0,
+          "half_meter": 0
+        }
+      }
+    }
+  },
+  "independent_known_goal_control": {
+    "reached_quota": 8,
+    "physical_steps": [
+      79,
+      89,
+      166,
+      67,
+      157,
+      23,
+      75,
+      59
+    ],
+    "initial_routes_checked": 179,
+    "initial_routes_entering_new_instance_range": 0
+  },
+  "approach_radius_m": 0.25,
+  "episode_budget": 300,
+  "distinct_instance_quota": 2,
+  "hssd_policy_inputs": [
+    "RGB",
+    "depth",
+    "simulator-provided position and heading",
+    "task category"
+  ],
+  "paid_requests": 0
+}

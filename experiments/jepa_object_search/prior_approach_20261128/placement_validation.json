@@ -1,0 +1,116 @@
+{
+  "train_houses": 40,
+  "train_rooms": 562,
+  "train_anchors": 9289,
+  "retained_classes": 344,
+  "supported_eval_classes": 139,
+  "eval_houses": 12,
+  "eval_rooms": 150,
+  "eval_anchors": 2801,
+  "house_macro": {
+    "room_brier": 0.05146248462536568,
+    "prevalence_brier": 0.06560739942436504,
+    "room_context_local_brier": 0.01574289623615155,
+    "room_only_local_brier": 0.01726212723513113
+  },
+  "split_overlap": 0,
+  "prior_sha256": "5ea99b45682c1d2eaee7d104692b93182835a1ea11797a996d3df01006465140",
+  "per_house": {
+    "102344193": {
+      "rooms": 8,
+      "anchors": 81,
+      "room_brier": 0.04038312586989691,
+      "prevalence_brier": 0.061657068976470504,
+      "room_context_local_brier": 0.014909785793671871,
+      "room_only_local_brier": 0.016266574685735072
+    },
+    "102344250": {
+      "rooms": 21,
+      "anchors": 227,
+      "room_brier": 0.04540068565179845,
+      "prevalence_brier": 0.05802130719766721,
+      "room_context_local_brier": 0.01820439802058301,
+      "room_only_local_brier": 0.018944414128868343
+    },
+    "102816627": {
+      "rooms": 11,
+      "anchors": 219,
+      "room_brier": 0.060705185423124725,
+      "prevalence_brier": 0.08189690810791038,
+      "room_context_local_brier": 0.01574520352094694,
+      "room_only_local_brier": 0.019787908117734232
+    },
+    "103997403_171030405": {
+      "rooms": 8,
+      "anchors": 94,
+      "room_brier": 0.04016298850688618,
+      "prevalence_brier": 0.04611852290391468,
+      "room_context_local_brier": 0.011941326682994542,
+      "room_only_local_brier": 0.01281610483924004
+    },
+    "103997445_171030492": {
+      "rooms": 12,
+      "anchors": 200,
+      "room_brier": 0.055644931463082546,
+      "prevalence_brier": 0.06966700206019891,
+      "room_context_local_brier": 0.012869779199783798,
+      "room_only_local_brier": 0.014022116240644216
+    },
+    "103997718_171030855": {
+      "rooms": 16,
+      "anchors": 309,
+      "room_brier": 0.0846621448241922,
+      "prevalence_brier": 0.08905557645822933,
+      "room_context_local_brier": 0.0278351468823692,
+      "room_only_local_brier": 0.028884340094678294
+    },
+    "104348181_171513120": {
+      "rooms": 19,
+      "anchors": 456,
+      "room_brier": 0.03774449381662276,
+      "prevalence_brier": 0.04733785219882223,
+      "room_context_local_brier": 0.007253461168097257,
+      "room_only_local_brier": 0.009252511764390712
+    },
+    "104862687_172226883": {
+      "rooms": 6,
+      "anchors": 91,
+      "room_brier": 0.06107407114682766,
+      "prevalence_brier": 0.08970567804658564,
+      "room_context_local_brier": 0.025679091648718882,
+      "room_only_local_brier": 0.02744138214079556
+    },
+    "105515541_173104641": {
+      "rooms": 12,
+      "anchors": 221,
+      "room_brier": 0.04011524078594381,
+      "prevalence_brier": 0.052556711606948706,
+      "room_context_local_brier": 0.009800840187545422,
+      "room_only_local_brier": 0.010814800238392699
+    },
+    "106879044_174887172": {
+      "rooms": 10,
+      "anchors": 369,
+      "room_brier": 0.05248342690692747,
+      "prevalence_brier": 0.0702671613643719,
+      "room_context_local_brier": 0.012248994484012506,
+      "room_only_local_brier": 0.014384656009996154
+    },
+    "107733912_175999623": {
+      "rooms": 10,
+      "anchors": 176,
+      "room_brier": 0.06290348967784001,
+      "prevalence_brier": 0.07669725707465981,
+      "room_context_local_brier": 0.019726776845772166,
+      "room_only_local_brier": 0.01999246213274488
+    },
+    "108294846_176710506": {
+      "rooms": 17,
+      "anchors": 358,
+      "room_brier": 0.0362700314312454,
+      "prevalence_brier": 0.04430774709660108,
+      "room_context_local_brier": 0.012699950399322988,
+      "room_only_local_brier": 0.014538256428353349
+    }
+  }
+}

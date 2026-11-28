@@ -1,0 +1,131 @@
+{
+  "verified": [
+    {
+      "house": "102344193",
+      "permutation_delta": 0.0,
+      "full_length_delta": 5.348965714802034e-10,
+      "full_target_head_delta": 2.0795665300887833e-08
+    },
+    {
+      "house": "102344250",
+      "permutation_delta": 0.0,
+      "full_length_delta": 6.655747064598927e-10,
+      "full_target_head_delta": 4.3743012989594376e-08
+    },
+    {
+      "house": "102816627",
+      "permutation_delta": 0.0,
+      "full_length_delta": 8.452837874095565e-10,
+      "full_target_head_delta": 3.982094443077955e-08
+    },
+    {
+      "house": "103997403_171030405",
+      "permutation_delta": 0.0,
+      "full_length_delta": 9.861576000247396e-10,
+      "full_target_head_delta": 5.116760293244482e-09
+    },
+    {
+      "house": "103997445_171030492",
+      "permutation_delta": 0.0,
+      "full_length_delta": 1.1198070248852332e-09,
+      "full_target_head_delta": 5.0728526490573245e-08
+    },
+    {
+      "house": "103997718_171030855",
+      "permutation_delta": 0.0,
+      "full_length_delta": 7.624210984769064e-10,
+      "full_target_head_delta": 1.215647349450677e-08
+    },
+    {
+      "house": "104348181_171513120",
+      "permutation_delta": 0.0,
+      "full_length_delta": 7.977841720574474e-10,
+      "full_target_head_delta": 4.5045761232209713e-08
+    },
+    {
+      "house": "104862687_172226883",
+      "permutation_delta": 0.0,
+      "full_length_delta": 2.4717328184209464e-10,
+      "full_target_head_delta": 1.4526673086656672e-08
+    },
+    {
+      "house": "105515541_173104641",
+      "permutation_delta": 0.0,
+      "full_length_delta": 1.1887557049838904e-09,
+      "full_target_head_delta": 8.308738030926577e-09
+    },
+    {
+      "house": "106879044_174887172",
+      "permutation_delta": 0.0,
+      "full_length_delta": 8.780617899439846e-10,
+      "full_target_head_delta": 1.7903941718078187e-08
+    },
+    {
+      "house": "107733912_175999623",
+      "permutation_delta": 0.0,
+      "full_length_delta": 1.2647490277295503e-09,
+      "full_target_head_delta": 1.916323655315466e-08
+    },
+    {
+      "house": "108294846_176710506",
+      "permutation_delta": 0.0,
+      "full_length_delta": 1.6973586980384425e-09,
+      "full_target_head_delta": 2.7225324383817195e-08
+    }
+  ],
+  "examples": {
+    "cup": {
+      "training_rooms": 2,
+      "top_room": "kitchen",
+      "conditioned_on_living_room": {
+        "room edge": 0.0,
+        "table": 0.0002,
+        "desk": 0.0,
+        "counter": 0.0,
+        "shelf": 0.0,
+        "cabinet": 0.0007,
+        "sofa": 0.0,
+        "bed": 0.0,
+        "sink": 0.0002
+      }
+    },
+    "clock": {
+      "training_rooms": 30,
+      "top_room": "living room",
+      "conditioned_on_living_room": {
+        "room edge": 0.029,
+        "table": 0.0444,
+        "desk": 0.1541,
+        "counter": 0.0926,
+        "shelf": 0.0035,
+        "cabinet": 0.0053,
+        "sofa": 0.0172,
+        "bed": 0.0149,
+        "sink": 0.0156
+      }
+    },
+    "painting": {
+      "training_rooms": 121,
+      "top_room": "bedroom",
+      "conditioned_on_living_room": {
+        "room edge": 0.1162,
+        "table": 0.0618,
+        "desk": 0.0766,
+        "counter": 0.1172,
+        "shelf": 0.0104,
+        "cabinet": 0.0433,
+        "sofa": 0.1299,
+        "bed": 0.0905,
+        "sink": 0.0573
+      }
+    }
+  },
+  "real_prefix_lengths": [
+    1,
+    5,
+    13,
+    24
+  ],
+  "cost": "paid requests zero",
+  "note": "pose, instance inventory, target position or maps not supplied"
+}
