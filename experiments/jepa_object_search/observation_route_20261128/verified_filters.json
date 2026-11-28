@@ -1,0 +1,84 @@
+{
+  "cases": [
+    {
+      "goal": "table lamp",
+      "ordinal": 2,
+      "house": 2,
+      "gate": "continue_only",
+      "source_pixels": 232,
+      "deployed_choices": 1,
+      "prefix_horizon": 4,
+      "over_horizon_unenumerated": 0,
+      "trial_plans": 44,
+      "first_filter_counts": {
+        "observed_obstacle_in_sightline": 18,
+        "outside_camera_45_degree_half_angle": 24,
+        "forward_path_fails_observed_free_clearance": 2
+      },
+      "positive_sector_pruned": 0,
+      "anchor_range_m": 3.03,
+      "regional_control": "outside_camera_45_degree_half_angle",
+      "cue_close_visible_on_any_alternative": false,
+      "model_collision": false
+    },
+    {
+      "goal": "plant",
+      "ordinal": 1,
+      "house": 4,
+      "gate": "blocked_or_no_regional_plan",
+      "source_pixels": 482,
+      "deployed_choices": 1,
+      "preceding_contact": true
+    },
+    {
+      "goal": "cabinet",
+      "ordinal": 2,
+      "house": 8,
+      "gate": "continue_only",
+      "source_pixels": 2301,
+      "deployed_choices": 1,
+      "prefix_horizon": 4,
+      "over_horizon_unenumerated": 0,
+      "trial_plans": 44,
+      "first_filter_counts": {
+        "observed_obstacle_in_sightline": 20,
+        "outside_camera_45_degree_half_angle": 22,
+        "forward_path_fails_observed_free_clearance": 2
+      },
+      "positive_sector_pruned": 0,
+      "anchor_range_m": 3.74,
+      "regional_control": "observed_obstacle_in_sightline",
+      "cue_close_visible_on_any_alternative": false,
+      "model_collision": false
+    },
+    {
+      "goal": "cabinet",
+      "ordinal": 3,
+      "house": 8,
+      "gate": "offered",
+      "source_pixels": 1678,
+      "deployed_choices": 7,
+      "prefix_horizon": 4,
+      "over_horizon_unenumerated": 0,
+      "trial_plans": 44,
+      "first_filter_counts": {
+        "outside_camera_45_degree_half_angle": 22,
+        "positive_view": 16,
+        "observed_obstacle_in_sightline": 2,
+        "forward_path_fails_observed_free_clearance": 4
+      },
+      "positive_sector_pruned": 10,
+      "anchor_range_m": 4.74,
+      "regional_control": "positive_view",
+      "cue_close_visible_on_any_alternative": false,
+      "model_collision": true
+    }
+  ],
+  "source_hashes": {
+    "routes.py": "ad2f6fb1a6545d02fa76071af8ee8bd394330b342c83ee27737dfc3d35a4d328",
+    "probe_branches.py": "5884917e2492202a394a3de26aec34019868b5e76784d6a094191543589b9a8b",
+    "diagnose_verified.py": "75f3fa6d9a93826ff29dca074d966b419fa0d6212774d27dcbd7b67088742e2a",
+    "probe_results.json": "a333402398eb61b329190c07f763e4ba8b82fb318a86c6d5617eb4887c439920"
+  },
+  "procedure": "Rebuild observed maps and capture checks from archived actions. Diagnoses use the deployed proposal geometry and same source-verified anchors. Positive proposals may still collide in Habitat."
+}

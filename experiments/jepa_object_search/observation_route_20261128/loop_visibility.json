@@ -1,0 +1,64 @@
+{
+  "threshold_frame_fraction": 0.01,
+  "reference_view_geodesic_m": 0.25,
+  "results": [
+    {
+      "arm": "regional",
+      "house_index": 0,
+      "goal": "picture",
+      "frames": 301,
+      "visible": 4,
+      "close_and_visible": 1,
+      "first_visible_phase": {
+        "region": 4
+      },
+      "first_close_and_visible_phase": {
+        "region": 1
+      }
+    },
+    {
+      "arm": "combined",
+      "house_index": 0,
+      "goal": "picture",
+      "frames": 301,
+      "visible": 6,
+      "close_and_visible": 4,
+      "first_visible_phase": {
+        "region": 4,
+        "scan_or_tail": 2
+      },
+      "first_close_and_visible_phase": {
+        "region": 2,
+        "local": 2
+      }
+    },
+    {
+      "arm": "regional",
+      "house_index": 1,
+      "goal": "table lamp",
+      "frames": 301,
+      "visible": 2,
+      "close_and_visible": 2,
+      "first_visible_phase": {
+        "region": 2
+      },
+      "first_close_and_visible_phase": {
+        "region": 2
+      }
+    },
+    {
+      "arm": "combined",
+      "house_index": 1,
+      "goal": "table lamp",
+      "frames": 301,
+      "visible": 2,
+      "close_and_visible": 1,
+      "first_visible_phase": {
+        "region": 2
+      },
+      "first_close_and_visible_phase": {
+        "region": 1
+      }
+    }
+  ]
+}

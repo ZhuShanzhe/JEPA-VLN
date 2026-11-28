@@ -1,0 +1,86 @@
+{
+  "fixed_house_indices": [
+    0,
+    1
+  ],
+  "task": "discovery interface with scripted EXPLORE",
+  "budget_per_arm_house": 300,
+  "paid_calls": 0,
+  "results": [
+    {
+      "steps": 300,
+      "local_dispatches": 0,
+      "executed_and_verified": 0,
+      "local_contacts": 0,
+      "route_outcomes": {
+        "explore": 18
+      },
+      "scan_steps": 72,
+      "region_steps": 227,
+      "collisions": 3,
+      "distinct_approached": 2,
+      "goal": "picture",
+      "house_index": 0,
+      "arm": "regional"
+    },
+    {
+      "steps": 300,
+      "local_dispatches": 8,
+      "executed_and_verified": 26,
+      "local_contacts": 1,
+      "route_outcomes": {
+        "reachable_new_surface": 16,
+        "blocked_or_no_regional_plan": 6,
+        "no_distinct_unseen_surface": 2
+      },
+      "scan_steps": 96,
+      "region_steps": 174,
+      "collisions": 6,
+      "distinct_approached": 6,
+      "goal": "picture",
+      "house_index": 0,
+      "arm": "combined"
+    },
+    {
+      "steps": 300,
+      "local_dispatches": 0,
+      "executed_and_verified": 0,
+      "local_contacts": 0,
+      "route_outcomes": {
+        "explore": 18
+      },
+      "scan_steps": 72,
+      "region_steps": 228,
+      "collisions": 3,
+      "distinct_approached": 2,
+      "goal": "table lamp",
+      "house_index": 1,
+      "arm": "regional"
+    },
+    {
+      "steps": 300,
+      "local_dispatches": 15,
+      "executed_and_verified": 54,
+      "local_contacts": 0,
+      "route_outcomes": {
+        "reachable_new_surface": 19,
+        "no_distinct_unseen_surface": 5,
+        "blocked_or_no_regional_plan": 2
+      },
+      "scan_steps": 104,
+      "region_steps": 141,
+      "collisions": 2,
+      "distinct_approached": 1,
+      "goal": "table lamp",
+      "house_index": 1,
+      "arm": "combined"
+    }
+  ],
+  "source_sha256": {
+    "check_loop.py": "25079a367bedf84fa3d9b474a32cb67c6e774a078bfb771f6f238a0b60953277",
+    "policy.py": "f69dcfb792abbd3c3d97d3359204f3bc0411f3dc572a869fcb658a02a2338ce2",
+    "gateway.py": "d05124a477a36f5714ca756cf65349c3365fdeea5ea62b29770f8bf5c501ff23",
+    "routes.py": "ad2f6fb1a6545d02fa76071af8ee8bd394330b342c83ee27737dfc3d35a4d328",
+    "host_dispatch.py": "8d3072e4f682c43323fc1722922eb7dee2b8f9b86cc289295dfb4106beb4d1ee"
+  }
+}

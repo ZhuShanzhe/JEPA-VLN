@@ -1,5 +1,7 @@
 # 多实例寻物中的前沿选择
 
+[观察路线生成与 JEPA 选路](observation_route_20261128/README.md)
+
 [三视图线索定位与局部导航](multiview_nav_20261128/README.md)
 
 [复看执行、目标可见性与模块分工](committed_inspect_20261128/README.md)

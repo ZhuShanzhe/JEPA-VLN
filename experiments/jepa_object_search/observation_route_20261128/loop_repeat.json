@@ -1,0 +1,19 @@
+{
+  "identical_private_pose_and_event_files": 8,
+  "matched_arms": 4,
+  "physical_actions_per_pass": 1200,
+  "same_public_metrics": true,
+  "identical_replay_is_not_an_independent_sample": true,
+  "final_source_sha256": {
+    "check_loop.py": "25079a367bedf84fa3d9b474a32cb67c6e774a078bfb771f6f238a0b60953277",
+    "policy.py": "634c06a34bb4bc0355c55a345447e1f028c47bc9cf1b224f0df565ad8066dfec",
+    "gateway.py": "d05124a477a36f5714ca756cf65349c3365fdeea5ea62b29770f8bf5c501ff23",
+    "routes.py": "ad2f6fb1a6545d02fa76071af8ee8bd394330b342c83ee27737dfc3d35a4d328",
+    "host_dispatch.py": "8d3072e4f682c43323fc1722922eb7dee2b8f9b86cc289295dfb4106beb4d1ee",
+    "terminal_prefix.py": "dce0b5afd510356df0beba97fc3345f49a131d688a6967163053ab3e4580442d",
+    "host.py": "1b27b58cd9a8b22516e1c76297bdf04dcba5ae2cb4c256d824b0a1cf87580d2a",
+    "probe_branches.py": "5884917e2492202a394a3de26aec34019868b5e76784d6a094191543589b9a8b",
+    "probe_score.py": "cb21ec2198778214dfe193cc119ff9f03c29f031484b37a3364e945b425251ab",
+    "review_loop.py": "d78515255eb4b2eec5720c88f169898150d261d2e32781db41081cabc812eb8f"
+  }
+}

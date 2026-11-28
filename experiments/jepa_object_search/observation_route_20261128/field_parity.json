@@ -1,0 +1,10 @@
+{
+  "discover": 24,
+  "verify": 8,
+  "strict_endpoint_count": 0,
+  "compared_options": 99,
+  "ordered_geometry_and_actions_identical": true,
+  "model_inference": false,
+  "paid_calls": 0,
+  "ordered_signature_sha256": "1481c448219e5bdd3e2e108e60e8da50d1d9b45d2198468c80b9713df0911a57"
+}

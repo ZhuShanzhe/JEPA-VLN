@@ -1,0 +1,578 @@
+{
+  "threshold": "First time the same scored instance occupies at least one percent of a 192x192 central frame since episode start.",
+  "source": "Physically recorded original three-view HSSD navigation trajectories; camera turns/scans count towards elapsed actions. No new policy decisions or rollouts.",
+  "protocol": "Same 24 discovery probes, each fixed before semantic scoring; intervals 1-4, 5-12, 13-24, 25-48 relative to the fork. Each complete window counts once per probe, with three probes drawn from each house. Distinct house/instance deduplicates physical IDs across starting points.",
+  "evaluator_sha256": "cb21ec2198778214dfe193cc119ff9f03c29f031484b37a3364e945b425251ab",
+  "summary": {
+    "4": {
+      "eligible": 24,
+      "houses_observed": 8,
+      "states_with_first_in_interval": 0,
+      "first_instances_in_interval": 0,
+      "different_house_instance_pairs_in_interval": 0,
+      "houses_gaining_in_interval": 0,
+      "cumulative_states_with_any_new": 0,
+      "cumulative_instances_per_state_sum": 0
+    },
+    "12": {
+      "eligible": 24,
+      "houses_observed": 8,
+      "states_with_first_in_interval": 0,
+      "first_instances_in_interval": 0,
+      "different_house_instance_pairs_in_interval": 0,
+      "houses_gaining_in_interval": 0,
+      "cumulative_states_with_any_new": 0,
+      "cumulative_instances_per_state_sum": 0
+    },
+    "24": {
+      "eligible": 24,
+      "houses_observed": 8,
+      "states_with_first_in_interval": 2,
+      "first_instances_in_interval": 2,
+      "different_house_instance_pairs_in_interval": 2,
+      "houses_gaining_in_interval": 2,
+      "cumulative_states_with_any_new": 2,
+      "cumulative_instances_per_state_sum": 2
+    },
+    "48": {
+      "eligible": 23,
+      "houses_observed": 8,
+      "states_with_first_in_interval": 3,
+      "first_instances_in_interval": 7,
+      "different_house_instance_pairs_in_interval": 7,
+      "houses_gaining_in_interval": 1,
+      "cumulative_states_with_any_new": 5,
+      "cumulative_instances_per_state_sum": 9
+    }
+  },
+  "rows": [
+    {
+      "house": 1,
+      "sample": 0,
+      "complete": {
+        "4": true,
+        "12": true,
+        "24": true,
+        "48": true
+      },
+      "first_instances_in_interval": {
+        "4": 0,
+        "12": 0,
+        "24": 0,
+        "48": 0
+      },
+      "cumulative_instances": {
+        "4": 0,
+        "12": 0,
+        "24": 0,
+        "48": 0
+      }
+    },
+    {
+      "house": 1,
+      "sample": 1,
+      "complete": {
+        "4": true,
+        "12": true,
+        "24": true,
+        "48": true
+      },
+      "first_instances_in_interval": {
+        "4": 0,
+        "12": 0,
+        "24": 0,
+        "48": 0
+      },
+      "cumulative_instances": {
+        "4": 0,
+        "12": 0,
+        "24": 0,
+        "48": 0
+      }
+    },
+    {
+      "house": 1,
+      "sample": 2,
+      "complete": {
+        "4": true,
+        "12": true,
+        "24": true,
+        "48": true
+      },
+      "first_instances_in_interval": {
+        "4": 0,
+        "12": 0,
+        "24": 1,
+        "48": 0
+      },
+      "cumulative_instances": {
+        "4": 0,
+        "12": 0,
+        "24": 1,
+        "48": 1
+      }
+    },
+    {
+      "house": 2,
+      "sample": 0,
+      "complete": {
+        "4": true,
+        "12": true,
+        "24": true,
+        "48": true
+      },
+      "first_instances_in_interval": {
+        "4": 0,
+        "12": 0,
+        "24": 0,
+        "48": 0
+      },
+      "cumulative_instances": {
+        "4": 0,
+        "12": 0,
+        "24": 0,
+        "48": 0
+      }
+    },
+    {
+      "house": 2,
+      "sample": 1,
+      "complete": {
+        "4": true,
+        "12": true,
+        "24": true,
+        "48": true
+      },
+      "first_instances_in_interval": {
+        "4": 0,
+        "12": 0,
+        "24": 1,
+        "48": 0
+      },
+      "cumulative_instances": {
+        "4": 0,
+        "12": 0,
+        "24": 1,
+        "48": 1
+      }
+    },
+    {
+      "house": 2,
+      "sample": 2,
+      "complete": {
+        "4": true,
+        "12": true,
+        "24": true,
+        "48": true
+      },
+      "first_instances_in_interval": {
+        "4": 0,
+        "12": 0,
+        "24": 0,
+        "48": 0
+      },
+      "cumulative_instances": {
+        "4": 0,
+        "12": 0,
+        "24": 0,
+        "48": 0
+      }
+    },
+    {
+      "house": 3,
+      "sample": 0,
+      "complete": {
+        "4": true,
+        "12": true,
+        "24": true,
+        "48": true
+      },
+      "first_instances_in_interval": {
+        "4": 0,
+        "12": 0,
+        "24": 0,
+        "48": 0
+      },
+      "cumulative_instances": {
+        "4": 0,
+        "12": 0,
+        "24": 0,
+        "48": 0
+      }
+    },
+    {
+      "house": 3,
+      "sample": 1,
+      "complete": {
+        "4": true,
+        "12": true,
+        "24": true,
+        "48": true
+      },
+      "first_instances_in_interval": {
+        "4": 0,
+        "12": 0,
+        "24": 0,
+        "48": 0
+      },
+      "cumulative_instances": {
+        "4": 0,
+        "12": 0,
+        "24": 0,
+        "48": 0
+      }
+    },
+    {
+      "house": 3,
+      "sample": 2,
+      "complete": {
+        "4": true,
+        "12": true,
+        "24": true,
+        "48": true
+      },
+      "first_instances_in_interval": {
+        "4": 0,
+        "12": 0,
+        "24": 0,
+        "48": 0
+      },
+      "cumulative_instances": {
+        "4": 0,
+        "12": 0,
+        "24": 0,
+        "48": 0
+      }
+    },
+    {
+      "house": 4,
+      "sample": 0,
+      "complete": {
+        "4": true,
+        "12": true,
+        "24": true,
+        "48": true
+      },
+      "first_instances_in_interval": {
+        "4": 0,
+        "12": 0,
+        "24": 0,
+        "48": 0
+      },
+      "cumulative_instances": {
+        "4": 0,
+        "12": 0,
+        "24": 0,
+        "48": 0
+      }
+    },
+    {
+      "house": 4,
+      "sample": 1,
+      "complete": {
+        "4": true,
+        "12": true,
+        "24": true,
+        "48": true
+      },
+      "first_instances_in_interval": {
+        "4": 0,
+        "12": 0,
+        "24": 0,
+        "48": 0
+      },
+      "cumulative_instances": {
+        "4": 0,
+        "12": 0,
+        "24": 0,
+        "48": 0
+      }
+    },
+    {
+      "house": 4,
+      "sample": 2,
+      "complete": {
+        "4": true,
+        "12": true,
+        "24": true,
+        "48": false
+      },
+      "first_instances_in_interval": {
+        "4": 0,
+        "12": 0,
+        "24": 0,
+        "48": null
+      },
+      "cumulative_instances": {
+        "4": 0,
+        "12": 0,
+        "24": 0,
+        "48": null
+      }
+    },
+    {
+      "house": 5,
+      "sample": 0,
+      "complete": {
+        "4": true,
+        "12": true,
+        "24": true,
+        "48": true
+      },
+      "first_instances_in_interval": {
+        "4": 0,
+        "12": 0,
+        "24": 0,
+        "48": 0
+      },
+      "cumulative_instances": {
+        "4": 0,
+        "12": 0,
+        "24": 0,
+        "48": 0
+      }
+    },
+    {
+      "house": 5,
+      "sample": 1,
+      "complete": {
+        "4": true,
+        "12": true,
+        "24": true,
+        "48": true
+      },
+      "first_instances_in_interval": {
+        "4": 0,
+        "12": 0,
+        "24": 0,
+        "48": 0
+      },
+      "cumulative_instances": {
+        "4": 0,
+        "12": 0,
+        "24": 0,
+        "48": 0
+      }
+    },
+    {
+      "house": 5,
+      "sample": 2,
+      "complete": {
+        "4": true,
+        "12": true,
+        "24": true,
+        "48": true
+      },
+      "first_instances_in_interval": {
+        "4": 0,
+        "12": 0,
+        "24": 0,
+        "48": 0
+      },
+      "cumulative_instances": {
+        "4": 0,
+        "12": 0,
+        "24": 0,
+        "48": 0
+      }
+    },
+    {
+      "house": 6,
+      "sample": 0,
+      "complete": {
+        "4": true,
+        "12": true,
+        "24": true,
+        "48": true
+      },
+      "first_instances_in_interval": {
+        "4": 0,
+        "12": 0,
+        "24": 0,
+        "48": 0
+      },
+      "cumulative_instances": {
+        "4": 0,
+        "12": 0,
+        "24": 0,
+        "48": 0
+      }
+    },
+    {
+      "house": 6,
+      "sample": 1,
+      "complete": {
+        "4": true,
+        "12": true,
+        "24": true,
+        "48": true
+      },
+      "first_instances_in_interval": {
+        "4": 0,
+        "12": 0,
+        "24": 0,
+        "48": 0
+      },
+      "cumulative_instances": {
+        "4": 0,
+        "12": 0,
+        "24": 0,
+        "48": 0
+      }
+    },
+    {
+      "house": 6,
+      "sample": 2,
+      "complete": {
+        "4": true,
+        "12": true,
+        "24": true,
+        "48": true
+      },
+      "first_instances_in_interval": {
+        "4": 0,
+        "12": 0,
+        "24": 0,
+        "48": 0
+      },
+      "cumulative_instances": {
+        "4": 0,
+        "12": 0,
+        "24": 0,
+        "48": 0
+      }
+    },
+    {
+      "house": 7,
+      "sample": 0,
+      "complete": {
+        "4": true,
+        "12": true,
+        "24": true,
+        "48": true
+      },
+      "first_instances_in_interval": {
+        "4": 0,
+        "12": 0,
+        "24": 0,
+        "48": 0
+      },
+      "cumulative_instances": {
+        "4": 0,
+        "12": 0,
+        "24": 0,
+        "48": 0
+      }
+    },
+    {
+      "house": 7,
+      "sample": 1,
+      "complete": {
+        "4": true,
+        "12": true,
+        "24": true,
+        "48": true
+      },
+      "first_instances_in_interval": {
+        "4": 0,
+        "12": 0,
+        "24": 0,
+        "48": 0
+      },
+      "cumulative_instances": {
+        "4": 0,
+        "12": 0,
+        "24": 0,
+        "48": 0
+      }
+    },
+    {
+      "house": 7,
+      "sample": 2,
+      "complete": {
+        "4": true,
+        "12": true,
+        "24": true,
+        "48": true
+      },
+      "first_instances_in_interval": {
+        "4": 0,
+        "12": 0,
+        "24": 0,
+        "48": 0
+      },
+      "cumulative_instances": {
+        "4": 0,
+        "12": 0,
+        "24": 0,
+        "48": 0
+      }
+    },
+    {
+      "house": 8,
+      "sample": 0,
+      "complete": {
+        "4": true,
+        "12": true,
+        "24": true,
+        "48": true
+      },
+      "first_instances_in_interval": {
+        "4": 0,
+        "12": 0,
+        "24": 0,
+        "48": 3
+      },
+      "cumulative_instances": {
+        "4": 0,
+        "12": 0,
+        "24": 0,
+        "48": 3
+      }
+    },
+    {
+      "house": 8,
+      "sample": 1,
+      "complete": {
+        "4": true,
+        "12": true,
+        "24": true,
+        "48": true
+      },
+      "first_instances_in_interval": {
+        "4": 0,
+        "12": 0,
+        "24": 0,
+        "48": 3
+      },
+      "cumulative_instances": {
+        "4": 0,
+        "12": 0,
+        "24": 0,
+        "48": 3
+      }
+    },
+    {
+      "house": 8,
+      "sample": 2,
+      "complete": {
+        "4": true,
+        "12": true,
+        "24": true,
+        "48": true
+      },
+      "first_instances_in_interval": {
+        "4": 0,
+        "12": 0,
+        "24": 0,
+        "48": 1
+      },
+      "cumulative_instances": {
+        "4": 0,
+        "12": 0,
+        "24": 0,
+        "48": 1
+      }
+    }
+  ]
+}
