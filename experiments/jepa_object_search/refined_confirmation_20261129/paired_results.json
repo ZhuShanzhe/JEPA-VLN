@@ -1,0 +1,232 @@
+{
+  "groups": 94,
+  "results": {
+    "old": {
+      "unreported": 62,
+      "actions": 1855,
+      "correct": 26,
+      "false": 6
+    },
+    "clarity": {
+      "unreported": 55,
+      "actions": 1783,
+      "correct": 30,
+      "false": 9
+    },
+    "memory": {
+      "unreported": 63,
+      "actions": 1875,
+      "correct": 25,
+      "false": 6
+    },
+    "full": {
+      "unreported": 55,
+      "actions": 1783,
+      "correct": 30,
+      "false": 9
+    }
+  },
+  "transition_from_previous": {
+    "old": {
+      "old_never_clear_unreported": {
+        "unreported": 33
+      },
+      "old_clear_unreported": {
+        "unreported": 29
+      },
+      "old_correct": {
+        "correct": 26
+      },
+      "old_false": {
+        "false": 6
+      }
+    },
+    "clarity": {
+      "old_never_clear_unreported": {
+        "unreported": 30,
+        "false": 3
+      },
+      "old_clear_unreported": {
+        "unreported": 22,
+        "correct": 6,
+        "false": 1
+      },
+      "old_correct": {
+        "correct": 23,
+        "unreported": 2,
+        "false": 1
+      },
+      "old_false": {
+        "false": 4,
+        "correct": 1,
+        "unreported": 1
+      }
+    },
+    "memory": {
+      "old_never_clear_unreported": {
+        "unreported": 33
+      },
+      "old_clear_unreported": {
+        "unreported": 29
+      },
+      "old_correct": {
+        "correct": 25,
+        "unreported": 1
+      },
+      "old_false": {
+        "false": 6
+      }
+    },
+    "full": {
+      "old_never_clear_unreported": {
+        "unreported": 30,
+        "false": 3
+      },
+      "old_clear_unreported": {
+        "unreported": 22,
+        "correct": 6,
+        "false": 1
+      },
+      "old_correct": {
+        "correct": 23,
+        "unreported": 2,
+        "false": 1
+      },
+      "old_false": {
+        "false": 4,
+        "correct": 1,
+        "unreported": 1
+      }
+    }
+  },
+  "wrong_submissions": {
+    "old": {
+      "target_too_small": 5,
+      "target_absent_from_box": 1
+    },
+    "clarity": {
+      "target_too_small": 7,
+      "wrong_localization": 1,
+      "target_absent_from_box": 1
+    },
+    "memory": {
+      "target_too_small": 5,
+      "target_absent_from_box": 1
+    },
+    "full": {
+      "target_too_small": 7,
+      "wrong_localization": 1,
+      "target_absent_from_box": 1
+    }
+  },
+  "per_house": [
+    {
+      "old": {
+        "unreported": 23,
+        "correct": 11,
+        "false": 3
+      },
+      "clarity": {
+        "unreported": 20,
+        "correct": 14,
+        "false": 3
+      },
+      "memory": {
+        "unreported": 24,
+        "correct": 10,
+        "false": 3
+      },
+      "full": {
+        "unreported": 20,
+        "correct": 14,
+        "false": 3
+      }
+    },
+    {
+      "old": {
+        "false": 2,
+        "unreported": 19,
+        "correct": 5
+      },
+      "clarity": {
+        "unreported": 18,
+        "false": 2,
+        "correct": 6
+      },
+      "memory": {
+        "false": 2,
+        "unreported": 19,
+        "correct": 5
+      },
+      "full": {
+        "unreported": 18,
+        "false": 2,
+        "correct": 6
+      }
+    },
+    {
+      "old": {
+        "unreported": 20,
+        "correct": 10,
+        "false": 1
+      },
+      "clarity": {
+        "unreported": 17,
+        "correct": 10,
+        "false": 4
+      },
+      "memory": {
+        "unreported": 20,
+        "correct": 10,
+        "false": 1
+      },
+      "full": {
+        "unreported": 17,
+        "correct": 10,
+        "false": 4
+      }
+    }
+  ],
+  "full_memory_state_then_outcome": {
+    "pending to pending": {
+      "old_never_clear_unreported to unreported": 2,
+      "old_correct to unreported": 1,
+      "old_clear_unreported to unreported": 2
+    },
+    "trusted_initial to trusted_initial": {
+      "old_clear_unreported to unreported": 20,
+      "old_correct to correct": 23,
+      "old_never_clear_unreported to unreported": 28,
+      "old_false to false": 4,
+      "old_false to correct": 1,
+      "old_clear_unreported to correct": 6,
+      "old_never_clear_unreported to false": 3,
+      "old_false to unreported": 1,
+      "old_clear_unreported to false": 1,
+      "old_correct to unreported": 1,
+      "old_correct to false": 1
+    }
+  },
+  "full_outcome_by_clarity_only_outcome": {
+    "unreported": {
+      "unreported": 55
+    },
+    "correct": {
+      "correct": 30
+    },
+    "false": {
+      "false": 9
+    }
+  },
+  "old_clear_unreported_success_overlap": {
+    "none": 23,
+    "clarity + full": 6
+  },
+  "remaining_abstentions_among_29": {
+    "low_clarity": 14,
+    "low_identity_and_clarity": 4,
+    "product_below_cutoff": 2,
+    "memory_pending_on_all_clear_frames": 2
+  },
+  "protocol": "Fixed 94 paired requests, 22/26/30-action caps, identical physically replayed motion up to first acceptance. Native RGB-D and relative odometry for decisions. Target masks opened after lock for scoring only. First submission must see at least 369 same-instance pixels, cover >=50% and reach box IoU >=0.30."
+}

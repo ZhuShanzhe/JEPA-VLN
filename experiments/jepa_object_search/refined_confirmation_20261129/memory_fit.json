@@ -1,0 +1,96 @@
+{
+  "train": {
+    "houses": 12,
+    "cues": 288,
+    "sampled_pixels": 330069,
+    "background": 227751,
+    "initial_boxes": 864,
+    "initial_unreliable": 712,
+    "relook_pairs": 2752,
+    "bad_associations": 1687,
+    "small_background_boxes": 307,
+    "severe_contamination_training_labels": 621
+  },
+  "calibration": {
+    "houses": 6,
+    "cues": 144,
+    "initial": {
+      "n": 432,
+      "passed": 20,
+      "valid": 20,
+      "invalid": 0
+    },
+    "initial_native": {
+      "n": 144,
+      "passed": 20,
+      "valid": 20,
+      "invalid": 0
+    },
+    "small_background": {
+      "n": 128,
+      "passed": 0,
+      "valid": 0,
+      "invalid": 0
+    },
+    "first_reanchors": {
+      "n": 1286,
+      "passed": 22,
+      "valid": 21,
+      "invalid": 1
+    },
+    "native_retention": {
+      "original_purity_gate": 0.9050000000000005,
+      "purity_gate_only_counts": {
+        "natural": 144,
+        "severe_initial_contamination": 31,
+        "held": 124,
+        "unsafe_held": 31,
+        "could_translate": 87,
+        "promoted": 20,
+        "promoted_submitted": 11,
+        "promoted_correct": 11,
+        "previous_correct": 53,
+        "preserved_correct": 17,
+        "previous_correct_held": 47,
+        "previous_correct_held_recovered": 11,
+        "previous_incorrect": 2,
+        "new_incorrect": 0
+      },
+      "final_counts": {
+        "natural": 144,
+        "severe_initial_contamination": 31,
+        "previous_correct": 53,
+        "preserved_correct": 49,
+        "previous_correct_held": 4,
+        "previous_correct_held_recovered": 0,
+        "previous_incorrect": 2,
+        "new_incorrect": 2,
+        "held": 5,
+        "unsafe_held": 4,
+        "could_translate": 4,
+        "promoted": 0,
+        "promoted_submitted": 0,
+        "promoted_correct": 0
+      },
+      "native_total": 144,
+      "protocol": "144 natural validation cues in six houses. Every path comprises a single physical run of 22 steps, with a fixed turn-and-retry after contact. In the delayed arm the first independently qualified translated view remains the sole new reference for following observations. Both arms use the same prior clarity function and stop on first formal acceptance. Select a non-degenerate contamination gate, favor retaining 95% of old correct confirmations without extra false submissions."
+    },
+    "initial_metrics_scope": "Initial purity-only calibration statistics apply to original_purity_gate. Final two-score admission and sequential verification on natural cues are in native_retention."
+  },
+  "thresholds": {
+    "initial": 0.15,
+    "relook": 0.8550000000000004,
+    "confirmation": "unchanged",
+    "contamination": 0.9600000000000002
+  },
+  "association": "First view uses independent RGB-D cue-foreground prediction. Pending memory requires real translation of >=0.12 m, geometrically consistent surfaces and freshly predicted destination foreground. Reanchor reference only after passing a trained/calibrated association check.",
+  "samples": "Native, expanded and asymmetrically padded boxes around the same training instance, with source-pixel purity and same-instance second-view labels. 12/6 disjoint training/calibration houses. Inference uses only RGB-D and relative odometry.",
+  "hashes": {
+    "contamination.npz": "510b4d953ae9ab5ed02bad47b7f33b1be29f1ab26517f0cf0b2ff0e7910f820c",
+    "corroboration.npz": "8496574e428f39e9d91109acb997eb90d93d0b1e3b305f0ef44203d50a852b65",
+    "foreground.npz": "7f173720f8ce34fea0a495aab3f29bb956ce46ea936314d6e453e084bf37c6d5",
+    "gates.json": "7bb7b8f4d7845a015574f2750e605f1b2cddcb2ddba6424f9c98f7a98d7a50a9",
+    "initial.npz": "9090d3c44b9fc668ae73bd6aa30b142ea82e4c6ebfbafc99bf4db7af1718ccf4",
+    "relook.npz": "effe29d7266da8974eafbec12dd28d81f28bd6a52fbaabe657e8c6a9803b77da"
+  }
+}

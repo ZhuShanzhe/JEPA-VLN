@@ -1,0 +1,27 @@
+{
+  "confirmation_threshold": 0.8350000000000001,
+  "module_hashes": {
+    "clarity_refit.py": "204423066f84e963463b39363ee77cde71b0ae49cdc39b59aef158ad22f4e025",
+    "memory_refit.py": "2e55bfdcd6c4357dc021addcac1ed3e4c3cb77ed19f1a11846af30c04d256ef2",
+    "private_clarity_model/calibration.json": "ae01862a9be1d1eed25fa886a828c8fe66aa08e6935f70bfa01df05a355204d8",
+    "private_clarity_model/clear_frame.npz": "776889138ad5e2541adef45058e6e299feca20ceb3e1113f1db760376b19e49e",
+    "private_clarity_model/pixel_area.npz": "a5535040577af778e842d1c150c64800b6aef603dd65bc7e3c3a80414200a89f",
+    "private_memory_models/contamination.npz": "510b4d953ae9ab5ed02bad47b7f33b1be29f1ab26517f0cf0b2ff0e7910f820c",
+    "private_memory_models/corroboration.npz": "8496574e428f39e9d91109acb997eb90d93d0b1e3b305f0ef44203d50a852b65",
+    "private_memory_models/foreground.npz": "7f173720f8ce34fea0a495aab3f29bb956ce46ea936314d6e453e084bf37c6d5",
+    "private_memory_models/gates.json": "7bb7b8f4d7845a015574f2750e605f1b2cddcb2ddba6424f9c98f7a98d7a50a9",
+    "private_memory_models/initial.npz": "9090d3c44b9fc668ae73bd6aa30b142ea82e4c6ebfbafc99bf4db7af1718ccf4",
+    "private_memory_models/relook.npz": "effe29d7266da8974eafbec12dd28d81f28bd6a52fbaabe657e8c6a9803b77da",
+    "refined_inspection.py": "f6f932211da255418fb0538f41157a21f291a648c102a0ff79cc86dac2867f4f"
+  },
+  "paired_input_sha256": "2353c64eda56a7b1140fa6fe4b542d2d08c3818c0dadcfeb2531d23686b05a9d",
+  "unchanged_previous_navigation": {
+    "cohort_design": "1351bf4dc9901d899ff3ee4216fb441d5c494fcccf38d23010c8e7d40aaad639",
+    "initial_route": "1c9e64a4761fae57a8a697857d11937cc9a0bac1efaae3d5747b9ffeba973925",
+    "motion_loop": "176e84a0b638815e9a3f17767c1038dec39fc9629f61fcef96f267fcf21ba7c6",
+    "original_route_head": "b70eac9c504495709a6ea5e25a6c89738972ad635dcde496689e0ee0bd418b75",
+    "original_threshold": "b97f839406da6bc6a1083ac95aa3ee43f09c7a10c4bdcb5cc4357f0acc4caea9",
+    "passability_checker": "b20520e5c387584d74fa400b009b64f6cfc2c3ff49fd688c37f9e23536980c41",
+    "recovery_route": "0dadb8b73908b0d225a7992a869f82fbf0559d0d96f90bc71aab7606a17c1fe5"
+  }
+}

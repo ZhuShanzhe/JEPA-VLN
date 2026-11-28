@@ -1,0 +1,11 @@
+{
+  "training_pairs": 2320,
+  "training_good": 1076,
+  "validation_pairs": 1061,
+  "threshold": 0.7550000000000003,
+  "available_first_positive_and_negative": [
+    43,
+    -2
+  ],
+  "second_reference": "Require a displaced view, independent foreground agreement and cross-view geometric association. Retain first reference as secondary only when the two references agree on the current box at IoU >=0.55."
+}

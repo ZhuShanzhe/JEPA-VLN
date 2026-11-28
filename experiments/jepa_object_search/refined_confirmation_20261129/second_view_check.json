@@ -1,0 +1,11 @@
+{
+  "scope": "Functional diagnostic on six calibration houses, not a test-set result. Two padded cue variants per physical source; only initially delayed instances are followed through their continuous 22-action observations.",
+  "counts": {
+    "padded_requests": 288,
+    "initially_delayed": 84,
+    "delayed_with_clear_and_displaced_view_before_stop": 39,
+    "promoted_on_displaced_view": 10,
+    "promoted_anchor_covers_at_least_half_visible_instance": 10,
+    "correct_after_promotion": 2
+  }
+}

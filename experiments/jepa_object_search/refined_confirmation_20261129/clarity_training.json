@@ -1,0 +1,228 @@
+{
+  "train": {
+    "camera_samples": 7034,
+    "motion_sweeps": 576,
+    "source_occupies_under_20pct": 48,
+    "usable_current_crops": 4833,
+    "clear_frames_missed_by_legacy": 889,
+    "below_369_pixels": 2548,
+    "under_369_and_area_overestimated": 248,
+    "wrong_instance_or_bad_box": 387
+  },
+  "calibration": {
+    "camera_samples": 3536,
+    "motion_sweeps": 288,
+    "source_occupies_under_20pct": 20,
+    "usable_current_crops": 2357,
+    "clear_frames_missed_by_legacy": 564,
+    "below_369_pixels": 1150,
+    "under_369_and_area_overestimated": 112,
+    "wrong_instance_or_bad_box": 156
+  },
+  "threshold": 0.8350000000000001,
+  "reference_old": {
+    "accepted_frames": 591,
+    "bad_frames": 18,
+    "first_correct": 96,
+    "first_bad": 6
+  },
+  "refit": {
+    "accepted_frames": 697,
+    "bad_frames": 13,
+    "first_correct": 112,
+    "first_bad": 5
+  },
+  "model": {
+    "area_weight": 0.0,
+    "old_floor": 0.0,
+    "slope": 3.6036436021987948,
+    "intercept": -0.11398384095625963
+  },
+  "house_crossfit_for_area_logit": 3,
+  "calibration_candidates": [
+    {
+      "area_weight": 0.0,
+      "old_floor": 0.0,
+      "accepted_frames": 697,
+      "bad_frames": 13,
+      "first_correct": 112,
+      "first_bad": 5
+    },
+    {
+      "area_weight": 0.0,
+      "old_floor": 0.85,
+      "accepted_frames": 697,
+      "bad_frames": 13,
+      "first_correct": 112,
+      "first_bad": 5
+    },
+    {
+      "area_weight": 0.0,
+      "old_floor": 1.0,
+      "accepted_frames": 746,
+      "bad_frames": 23,
+      "first_correct": 117,
+      "first_bad": 7
+    },
+    {
+      "area_weight": 0.5,
+      "old_floor": 0.0,
+      "accepted_frames": 608,
+      "bad_frames": 12,
+      "first_correct": 94,
+      "first_bad": 5
+    },
+    {
+      "area_weight": 0.5,
+      "old_floor": 0.85,
+      "accepted_frames": 608,
+      "bad_frames": 12,
+      "first_correct": 94,
+      "first_bad": 5
+    },
+    {
+      "area_weight": 0.5,
+      "old_floor": 1.0,
+      "accepted_frames": 674,
+      "bad_frames": 22,
+      "first_correct": 103,
+      "first_bad": 7
+    },
+    {
+      "area_weight": 1.0,
+      "old_floor": 0.0,
+      "accepted_frames": 576,
+      "bad_frames": 12,
+      "first_correct": 93,
+      "first_bad": 5
+    },
+    {
+      "area_weight": 1.0,
+      "old_floor": 0.85,
+      "accepted_frames": 576,
+      "bad_frames": 12,
+      "first_correct": 93,
+      "first_bad": 5
+    },
+    {
+      "area_weight": 1.0,
+      "old_floor": 1.0,
+      "accepted_frames": 658,
+      "bad_frames": 22,
+      "first_correct": 101,
+      "first_bad": 7
+    }
+  ],
+  "meets_validation_error_constraint": true,
+  "calibration_pixel_accuracy": {
+    "spatially_valid": {
+      "frames": 2201,
+      "old_mae_pixels": 377.94579779977204,
+      "new_mae_pixels": 345.4867801629539,
+      "median_true": 386.0,
+      "median_old_estimate": 326.1565856933594,
+      "median_new_estimate": 360.9494534254939
+    },
+    "old_missed_clear_valid": {
+      "frames": 564,
+      "old_mae_pixels": 462.1380137585579,
+      "new_mae_pixels": 352.01329523365905,
+      "median_true": 562.5,
+      "median_old_estimate": 410.1146240234375,
+      "median_new_estimate": 445.0756936728958
+    }
+  },
+  "previously_missed_clear_calibration_frames_recovered": 150,
+  "per_calibration_house": [
+    {
+      "old": {
+        "accepted_frames": 183,
+        "bad_frames": 13,
+        "first_correct": 25,
+        "first_bad": 2
+      },
+      "refit": {
+        "accepted_frames": 189,
+        "bad_frames": 6,
+        "first_correct": 26,
+        "first_bad": 2
+      }
+    },
+    {
+      "old": {
+        "accepted_frames": 32,
+        "bad_frames": 0,
+        "first_correct": 9,
+        "first_bad": 0
+      },
+      "refit": {
+        "accepted_frames": 47,
+        "bad_frames": 0,
+        "first_correct": 11,
+        "first_bad": 0
+      }
+    },
+    {
+      "old": {
+        "accepted_frames": 46,
+        "bad_frames": 0,
+        "first_correct": 13,
+        "first_bad": 0
+      },
+      "refit": {
+        "accepted_frames": 52,
+        "bad_frames": 0,
+        "first_correct": 15,
+        "first_bad": 0
+      }
+    },
+    {
+      "old": {
+        "accepted_frames": 123,
+        "bad_frames": 2,
+        "first_correct": 19,
+        "first_bad": 2
+      },
+      "refit": {
+        "accepted_frames": 149,
+        "bad_frames": 2,
+        "first_correct": 21,
+        "first_bad": 2
+      }
+    },
+    {
+      "old": {
+        "accepted_frames": 144,
+        "bad_frames": 3,
+        "first_correct": 19,
+        "first_bad": 2
+      },
+      "refit": {
+        "accepted_frames": 174,
+        "bad_frames": 5,
+        "first_correct": 22,
+        "first_bad": 1
+      }
+    },
+    {
+      "old": {
+        "accepted_frames": 63,
+        "bad_frames": 0,
+        "first_correct": 11,
+        "first_bad": 0
+      },
+      "refit": {
+        "accepted_frames": 86,
+        "bad_frames": 0,
+        "first_correct": 17,
+        "first_bad": 0
+      }
+    }
+  ],
+  "weights_sha256": {
+    "calibration.json": "ae01862a9be1d1eed25fa886a828c8fe66aa08e6935f70bfa01df05a355204d8",
+    "clear_frame.npz": "776889138ad5e2541adef45058e6e299feca20ceb3e1113f1db760376b19e49e",
+    "pixel_area.npz": "a5535040577af778e842d1c150c64800b6aef603dd65bc7e3c3a80414200a89f"
+  },
+  "sample_unit": "Two motion sweeps per source cue. Alternate physically simulated oblique views and prior route samples. Foreground and pixel labels only in supervision/scoring; no held-out evaluation houses in fitting or selection."
+}

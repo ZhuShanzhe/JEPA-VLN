@@ -1,0 +1,78 @@
+{
+  "new_outcome_by_old_status": {
+    "false_report": {
+      "unreported": 1,
+      "false_report": 4,
+      "correct": 1
+    },
+    "never_clear_unreported": {
+      "unreported": 30,
+      "false_report": 3
+    },
+    "clear_unreported": {
+      "unreported": 22,
+      "false_report": 1,
+      "correct": 6
+    },
+    "correct": {
+      "correct": 23,
+      "unreported": 2,
+      "false_report": 1
+    }
+  },
+  "outcome_by_final_memory": {
+    "trusted_initial": {
+      "unreported": 50,
+      "false_report": 9,
+      "correct": 30
+    },
+    "pending_until_stop": {
+      "unreported": 5
+    }
+  },
+  "final_memory_by_old_status": {
+    "false_report": {
+      "trusted_initial": 6
+    },
+    "never_clear_unreported": {
+      "trusted_initial": 31,
+      "pending_until_stop": 2
+    },
+    "clear_unreported": {
+      "trusted_initial": 27,
+      "pending_until_stop": 2
+    },
+    "correct": {
+      "trusted_initial": 25,
+      "pending_until_stop": 1
+    }
+  },
+  "remaining_prior_29_abstentions": {
+    "usable_box_but_score_below_cutoff": 20,
+    "memory_pending_on_every_clear_frame": 2
+  },
+  "distinct_false_reports": {
+    "clear_unreported": {
+      "below_size": 1
+    },
+    "false_report": {
+      "other_localization": 1,
+      "below_size": 2,
+      "empty_box": 1
+    },
+    "never_clear_unreported": {
+      "below_size": 3
+    },
+    "correct": {
+      "below_size": 1
+    }
+  },
+  "old_empty_box_chair": {
+    "initial_state": "trusted_initial",
+    "terminal_memory_state": "trusted_initial",
+    "old_empty_box_status_after_refit": "empty_box"
+  },
+  "pending_initial_count": 5,
+  "second_view_count": 0,
+  "minimum_measured_displacement_m": null
+}

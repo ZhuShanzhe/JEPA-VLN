@@ -1,0 +1,27 @@
+{
+  "transitions": {
+    "false to false": 6,
+    "unseen to absent": 33,
+    "miss_seen to absent": 29,
+    "correct to correct": 25,
+    "correct to absent": 1
+  },
+  "reason_previously_correct_now_lost": {
+    "box_missing_at_original_confirm_step": 1
+  },
+  "first_incorrect": {
+    "size_under_369": 5,
+    "empty_target_box": 1
+  },
+  "new_false_by_group_and_cause": {},
+  "new_false_ground_truth_pixels_summary": {},
+  "new_false_initial_reference_state": {},
+  "residual_of_old_29_with_no_submission": {
+    "valid_box_both_low": 4,
+    "valid_box_clarity_low": 19,
+    "valid_box_product_low": 4,
+    "no_valid_candidate_at_clear_frame": 2
+  },
+  "residual_best_usable_frame_true_area_median": 491.0,
+  "recovered_position": {}
+}

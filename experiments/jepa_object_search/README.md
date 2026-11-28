@@ -1,5 +1,7 @@
 # 多实例寻物中的前沿选择
 
+[清晰度估计与二次观察后建立实例记忆](refined_confirmation_20261129/README.md)
+
 [实际受阻后的换位与沿途实例确认](reactive_view_20261129/README.md)
 
 [原观察位受阻后的同实例换位复看](new_view_20261129/README.md)

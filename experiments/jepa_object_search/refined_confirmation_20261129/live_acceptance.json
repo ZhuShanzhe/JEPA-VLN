@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "houses": 3,
+  "groups": 94,
+  "matched_executed_actions": 1783,
+  "exact_submission_frame_and_crop_pairs": 39,
+  "checks": "Frozen route head generates actions in live Habitat. All observed contacts and odometry match the prior prefix, and first confirmed step, box, full frame, crop and actual cost match the separate paired verifier run in all 94 tasks."
+}

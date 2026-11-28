@@ -1,0 +1,39 @@
+{
+  "acceptance_product_cutoff": 0.8350000000000001,
+  "actions": "Identical action prefix until first confirmation; real acquisition, turns and collisions consume the existing per-request budget. Pending memory consumes the next distinct view on the existing controller.",
+  "baseline_commit": "9780d69ec494f60961325828008af697c7d0d84a",
+  "budget_counts": {
+    "22": 25,
+    "26": 40,
+    "30": 29
+  },
+  "endpoints": [
+    "correct new first submissions among 29 prior abstentions despite visible opportunity",
+    "losses among 26 correct prior first submissions",
+    "paired new, removed and persistent false first submissions among all 94"
+  ],
+  "input_sha256": {
+    "cohort_design": "1351bf4dc9901d899ff3ee4216fb441d5c494fcccf38d23010c8e7d40aaad639",
+    "initial_route": "1c9e64a4761fae57a8a697857d11937cc9a0bac1efaae3d5747b9ffeba973925",
+    "motion_loop": "176e84a0b638815e9a3f17767c1038dec39fc9629f61fcef96f267fcf21ba7c6",
+    "original_route_head": "b70eac9c504495709a6ea5e25a6c89738972ad635dcde496689e0ee0bd418b75",
+    "original_threshold": "b97f839406da6bc6a1083ac95aa3ee43f09c7a10c4bdcb5cc4357f0acc4caea9",
+    "passability_checker": "b20520e5c387584d74fa400b009b64f6cfc2c3ff49fd688c37f9e23536980c41",
+    "recovery_route": "0dadb8b73908b0d225a7992a869f82fbf0559d0d96f90bc71aab7606a17c1fe5"
+  },
+  "paired_sha256": "2353c64eda56a7b1140fa6fe4b542d2d08c3818c0dadcfeb2531d23686b05a9d",
+  "previous_outcomes": {
+    "clear_unreported": 29,
+    "correct": 26,
+    "false_report": 6,
+    "never_clear_unreported": 33
+  },
+  "primary_criterion": "First submitted frame only. >=369 target pixels; box covers >=50% of them and IoU against target envelope >=0.30.",
+  "selection": "Train and calibrate only in separate houses. Freeze candidate before evaluating this development panel. No threshold sweep over panel outcomes.",
+  "set": "Same 94 previously evaluated local re-observation tasks across three held-out HSSD houses.",
+  "split_houses": {
+    "calibration": 6,
+    "evaluation": 3,
+    "train": 12
+  }
+}

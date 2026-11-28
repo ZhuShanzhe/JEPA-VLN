@@ -1,0 +1,26 @@
+{
+  "provisional": {
+    "entered_pending": 5,
+    "at_least_one_displaced_frame": 5,
+    "displaced_with_nonempty_relook_score": 5,
+    "improved_memory_accepted": 0
+  },
+  "scores_when_available": [
+    0.1484398789064837,
+    0.18597691712801184,
+    0.3311703776515933,
+    0.6092242726526711,
+    0.7464120845104204
+  ],
+  "prior_empty_box": [
+    {
+      "initial_state": "trusted_initial",
+      "prior_step": 14,
+      "new_step": 14,
+      "new_intersection": 0,
+      "new_target_px": 0,
+      "risk": 0.7650999595375624,
+      "trust": 0.21230360803951379
+    }
+  ]
+}

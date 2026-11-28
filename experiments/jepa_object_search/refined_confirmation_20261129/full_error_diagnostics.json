@@ -1,0 +1,49 @@
+{
+  "transitions": {
+    "false to absent": 1,
+    "unseen to absent": 30,
+    "miss_seen to absent": 22,
+    "miss_seen to false": 1,
+    "correct to correct": 23,
+    "false to false": 4,
+    "miss_seen to correct": 6,
+    "false to correct": 1,
+    "correct to absent": 2,
+    "unseen to false": 3,
+    "correct to false": 1
+  },
+  "reason_previously_correct_now_lost": {
+    "box_missing_at_original_confirm_step": 1,
+    "still_good_box_at_original_confirm_step": 1,
+    "earlier_false_stop": 1
+  },
+  "first_incorrect": {
+    "size_under_369": 7,
+    "poor_box": 1,
+    "empty_target_box": 1
+  },
+  "new_false_by_group_and_cause": {
+    "miss_seen to size_under_369": 1,
+    "unseen to size_under_369": 3,
+    "correct to size_under_369": 1
+  },
+  "new_false_ground_truth_pixels_summary": {
+    "minimum": 179,
+    "median": 248.0,
+    "maximum": 322
+  },
+  "new_false_initial_reference_state": {
+    "trusted_initial": 5
+  },
+  "residual_of_old_29_with_no_submission": {
+    "valid_box_both_low": 4,
+    "valid_box_clarity_low": 14,
+    "valid_box_product_low": 2,
+    "no_valid_candidate_at_clear_frame": 2
+  },
+  "residual_best_usable_frame_true_area_median": 479.0,
+  "recovered_position": {
+    "at_source_or_scan": 0,
+    "after_old_actual_endpoint": 5
+  }
+}
