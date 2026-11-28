@@ -1,0 +1,86 @@
+{
+  "model": "gpt-4o-2024-11-20",
+  "temperature": 0,
+  "source_code_sha256": "c46d0dc3b9f7c0ac9075565e073723a07c3c155262d5457eef776095f81e77af",
+  "prompt_sha256": "3566a98cb5b1f71ec57be2398a8a1c3fd07c71b558ac2a0513a6be9389c6ede5",
+  "inputs": "Three contemporaneous RGB views, each with its unmarked original and all coordinate-ordered augment-proposal overlays. No private trajectory, simulator masks, instance labels, house IDs, detector scores, or outcomes sent. One decision per grant.",
+  "ground_truth_metric": "box center on a target instance AND IoU >= 0.25 to visible-pixel envelope of that same instance",
+  "requests": 4,
+  "grants": 4,
+  "houses": 3,
+  "grants_with_target_pixels": 3,
+  "grants_with_candidates": 4,
+  "oracle_candidate_ceiling": 2,
+  "detector_highest_valid": 1,
+  "selected": 2,
+  "abstained": 2,
+  "selected_valid": 2,
+  "selected_invalid": 0,
+  "total_tokens": 5163,
+  "by_grant": [
+    {
+      "event": 1,
+      "goal": "table lamp",
+      "target_pixel_views": [
+        "right"
+      ],
+      "n_candidates": 5,
+      "any_valid": true,
+      "detector_highest_valid": true,
+      "choice": "R1",
+      "choice_center": true,
+      "choice_iou25": true,
+      "choice_valid": true,
+      "total_tokens": 1298,
+      "provider_cost": null
+    },
+    {
+      "event": 2,
+      "goal": "bed",
+      "target_pixel_views": [],
+      "n_candidates": 1,
+      "any_valid": false,
+      "detector_highest_valid": false,
+      "choice": null,
+      "choice_center": null,
+      "choice_iou25": null,
+      "choice_valid": null,
+      "total_tokens": 1284,
+      "provider_cost": null
+    },
+    {
+      "event": 3,
+      "goal": "cabinet",
+      "target_pixel_views": [
+        "left"
+      ],
+      "n_candidates": 2,
+      "any_valid": false,
+      "detector_highest_valid": false,
+      "choice": null,
+      "choice_center": null,
+      "choice_iou25": null,
+      "choice_valid": null,
+      "total_tokens": 1287,
+      "provider_cost": null
+    },
+    {
+      "event": 4,
+      "goal": "cabinet",
+      "target_pixel_views": [
+        "right",
+        "center",
+        "left"
+      ],
+      "n_candidates": 4,
+      "any_valid": true,
+      "detector_highest_valid": false,
+      "choice": "C1",
+      "choice_center": true,
+      "choice_iou25": true,
+      "choice_valid": true,
+      "total_tokens": 1294,
+      "provider_cost": null
+    }
+  ]
+}

@@ -1,0 +1,1030 @@
+{
+  "model": "gpt-4o-2024-11-20",
+  "budget_per_house": 300,
+  "panel": "9d3167d378f2f31fcd7df78d95e222fe150028bcfff739fea0f9334015e69674",
+  "previous_report": "f18a712effe4fa2490419c717edda180de792071d66cbbd86c632f19614fd5f4",
+  "arm_lock": "6fa846e5467ee092cf158741a1d0437b02c83934e2861589d6e94e9564cadb29",
+  "task": "Geodesic approach to a distinct instance reference viewpoint; correct report unmeasured",
+  "cost_entries": 0,
+  "reported_cost_subtotal": null,
+  "totals": {
+    "previous": {
+      "distinct_approached": 10,
+      "approached_half_m": 11,
+      "approached_one_m": 12,
+      "already_at_start": 0,
+      "quota_met": 3
+    },
+    "local": {
+      "distinct_approached": 6,
+      "approached_half_m": 7,
+      "approached_one_m": 8,
+      "already_at_start": 0,
+      "quota_met": 1
+    },
+    "gpt": {
+      "distinct_approached": 8,
+      "approached_half_m": 12,
+      "approached_one_m": 12,
+      "already_at_start": 0,
+      "quota_met": 2
+    },
+    "inspect_only": {
+      "distinct_approached": 10,
+      "approached_half_m": 11,
+      "approached_one_m": 12,
+      "already_at_start": 0,
+      "quota_met": 3
+    },
+    "committed": {
+      "distinct_approached": 8,
+      "approached_half_m": 9,
+      "approached_one_m": 10,
+      "already_at_start": 0,
+      "quota_met": 3
+    }
+  },
+  "paired": {
+    "previous": {
+      "distinct_approached": {
+        "wins": 0,
+        "ties": 7,
+        "losses": 1,
+        "delta": -2,
+        "exact_two_sided_sign_p": 1.0
+      },
+      "quota_met": {
+        "wins": 0,
+        "ties": 8,
+        "losses": 0,
+        "delta": 0,
+        "exact_two_sided_sign_p": 1.0
+      }
+    },
+    "local": {
+      "distinct_approached": {
+        "wins": 3,
+        "ties": 4,
+        "losses": 1,
+        "delta": 2,
+        "exact_two_sided_sign_p": 0.625
+      },
+      "quota_met": {
+        "wins": 2,
+        "ties": 6,
+        "losses": 0,
+        "delta": 2,
+        "exact_two_sided_sign_p": 0.5
+      }
+    },
+    "gpt": {
+      "distinct_approached": {
+        "wins": 1,
+        "ties": 6,
+        "losses": 1,
+        "delta": 0,
+        "exact_two_sided_sign_p": 1.0
+      },
+      "quota_met": {
+        "wins": 1,
+        "ties": 7,
+        "losses": 0,
+        "delta": 1,
+        "exact_two_sided_sign_p": 1.0
+      }
+    },
+    "inspect_only": {
+      "distinct_approached": {
+        "wins": 0,
+        "ties": 6,
+        "losses": 2,
+        "delta": -2,
+        "exact_two_sided_sign_p": 0.5
+      },
+      "quota_met": {
+        "wins": 0,
+        "ties": 8,
+        "losses": 0,
+        "delta": 0,
+        "exact_two_sided_sign_p": 1.0
+      }
+    }
+  },
+  "by_house": [
+    {
+      "scene": "106878960_174887073",
+      "episode": "43",
+      "goal": "picture",
+      "mechanisms": {
+        "acquired": 0,
+        "arrived": 0,
+        "open_at_end": 0,
+        "multisegment": 0,
+        "local_actions": 0
+      },
+      "release_reasons": {},
+      "first_approach_phase": {
+        "region": 2
+      },
+      "physical_actions": {
+        "region": 227,
+        "local": 0,
+        "scan": 72,
+        "tail": 1,
+        "empty": 0
+      },
+      "response_sources": {
+        "identical_input_prior_response": 18
+      },
+      "new_usage": {},
+      "new_journal_events": {
+        "cache": 18
+      },
+      "cost_entries": 0,
+      "reported_cost_subtotal": null,
+      "compared_to_inspect_only": {
+        "equal_segment_prefix": 18,
+        "complete_segment_sequences_identical": true,
+        "first_changed_new_segment_after_step": null
+      },
+      "verified_result_sha256": "ca8af78e660d37c7b04f52f56d167f35f0115f38423831520714e72725a4da73",
+      "phase_025m": {
+        "regional_motion": 2,
+        "local_motion": 0,
+        "local_arrivals": 0,
+        "selected_local_sites": 0,
+        "proposed_local_sites": 0,
+        "proposed_region_sites": 6,
+        "preferred_region_sites": 1
+      },
+      "phase_05m": {
+        "regional_motion": 3,
+        "local_motion": 0,
+        "local_arrivals": 0,
+        "selected_local_sites": 0,
+        "proposed_local_sites": 0,
+        "proposed_region_sites": 9,
+        "preferred_region_sites": 2
+      },
+      "previous": {
+        "distinct_approached": 2,
+        "approached_half_m": 3,
+        "approached_one_m": 3,
+        "already_at_start": 0,
+        "quota_met": true,
+        "first_steps": [
+          79,
+          175
+        ]
+      },
+      "local": {
+        "distinct_approached": 1,
+        "approached_half_m": 2,
+        "approached_one_m": 2,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": [
+          128
+        ]
+      },
+      "gpt": {
+        "distinct_approached": 4,
+        "approached_half_m": 7,
+        "approached_one_m": 7,
+        "already_at_start": 0,
+        "quota_met": true,
+        "first_steps": [
+          58,
+          191,
+          200,
+          249
+        ]
+      },
+      "inspect_only": {
+        "distinct_approached": 2,
+        "approached_half_m": 3,
+        "approached_one_m": 3,
+        "already_at_start": 0,
+        "quota_met": true,
+        "first_steps": [
+          79,
+          175
+        ]
+      },
+      "committed": {
+        "distinct_approached": 2,
+        "approached_half_m": 3,
+        "approached_one_m": 3,
+        "already_at_start": 0,
+        "quota_met": true,
+        "first_steps": [
+          79,
+          175
+        ]
+      }
+    },
+    {
+      "scene": "102816600",
+      "episode": "42",
+      "goal": "table lamp",
+      "mechanisms": {
+        "inspect_requests": 1,
+        "inspect_requests_with_site": 1,
+        "explore_advice_during_retained_local_segment": 1,
+        "acquired": 1,
+        "arrived": 1,
+        "open_at_end": 0,
+        "multisegment": 1,
+        "local_actions": 6
+      },
+      "release_reasons": {
+        "arrived": 1
+      },
+      "first_approach_phase": {
+        "region": 2
+      },
+      "physical_actions": {
+        "region": 193,
+        "local": 6,
+        "scan": 92,
+        "tail": 4,
+        "empty": 5
+      },
+      "response_sources": {
+        "identical_input_prior_response": 11,
+        "fresh_response": 7
+      },
+      "new_usage": {
+        "input_tokens": 10248,
+        "output_tokens": 190,
+        "total_tokens": 10438
+      },
+      "new_journal_events": {
+        "cache": 11,
+        "dispatch": 7,
+        "success": 7
+      },
+      "cost_entries": 0,
+      "reported_cost_subtotal": null,
+      "compared_to_inspect_only": {
+        "equal_segment_prefix": 10,
+        "complete_segment_sequences_identical": false,
+        "first_changed_new_segment_after_step": 189
+      },
+      "verified_result_sha256": "5ed80e48393e6b540380821c90c50bcec29e9408972f7c195d1c171298735ee2",
+      "phase_025m": {
+        "regional_motion": 2,
+        "local_motion": 0,
+        "local_arrivals": 0,
+        "selected_local_sites": 0,
+        "proposed_local_sites": 0,
+        "proposed_region_sites": 2,
+        "preferred_region_sites": 2
+      },
+      "phase_05m": {
+        "regional_motion": 2,
+        "local_motion": 0,
+        "local_arrivals": 0,
+        "selected_local_sites": 0,
+        "proposed_local_sites": 0,
+        "proposed_region_sites": 2,
+        "preferred_region_sites": 2
+      },
+      "previous": {
+        "distinct_approached": 2,
+        "approached_half_m": 2,
+        "approached_one_m": 2,
+        "already_at_start": 0,
+        "quota_met": true,
+        "first_steps": [
+          123,
+          193
+        ]
+      },
+      "local": {
+        "distinct_approached": 1,
+        "approached_half_m": 1,
+        "approached_one_m": 1,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": [
+          110
+        ]
+      },
+      "gpt": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "inspect_only": {
+        "distinct_approached": 2,
+        "approached_half_m": 2,
+        "approached_one_m": 2,
+        "already_at_start": 0,
+        "quota_met": true,
+        "first_steps": [
+          123,
+          205
+        ]
+      },
+      "committed": {
+        "distinct_approached": 2,
+        "approached_half_m": 2,
+        "approached_one_m": 2,
+        "already_at_start": 0,
+        "quota_met": true,
+        "first_steps": [
+          123,
+          211
+        ]
+      }
+    },
+    {
+      "scene": "107734338_176000244",
+      "episode": "37",
+      "goal": "bed",
+      "mechanisms": {
+        "inspect_requests": 1,
+        "inspect_requests_with_site": 1,
+        "explore_advice_during_retained_local_segment": 1,
+        "acquired": 1,
+        "arrived": 1,
+        "open_at_end": 0,
+        "multisegment": 1,
+        "local_actions": 7
+      },
+      "release_reasons": {
+        "arrived": 1
+      },
+      "first_approach_phase": {},
+      "physical_actions": {
+        "region": 132,
+        "local": 7,
+        "scan": 140,
+        "tail": 0,
+        "empty": 21
+      },
+      "response_sources": {
+        "identical_input_prior_response": 4,
+        "fresh_response": 10
+      },
+      "new_usage": {
+        "input_tokens": 16533,
+        "output_tokens": 270,
+        "total_tokens": 16803
+      },
+      "new_journal_events": {
+        "cache": 4,
+        "dispatch": 10,
+        "success": 10
+      },
+      "cost_entries": 0,
+      "reported_cost_subtotal": null,
+      "compared_to_inspect_only": {
+        "equal_segment_prefix": 3,
+        "complete_segment_sequences_identical": false,
+        "first_changed_new_segment_after_step": 37
+      },
+      "verified_result_sha256": "23062688e268ba7a296c0f61dc2beb8bbb98201eb1ef93c0f9b13f353c8906d9",
+      "phase_025m": {
+        "regional_motion": 0,
+        "local_motion": 0,
+        "local_arrivals": 0,
+        "selected_local_sites": 0,
+        "proposed_local_sites": 0,
+        "proposed_region_sites": 0,
+        "preferred_region_sites": 0
+      },
+      "phase_05m": {
+        "regional_motion": 0,
+        "local_motion": 0,
+        "local_arrivals": 0,
+        "selected_local_sites": 0,
+        "proposed_local_sites": 0,
+        "proposed_region_sites": 0,
+        "preferred_region_sites": 0
+      },
+      "previous": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "local": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "gpt": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "inspect_only": {
+        "distinct_approached": 1,
+        "approached_half_m": 1,
+        "approached_one_m": 1,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": [
+          294
+        ]
+      },
+      "committed": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      }
+    },
+    {
+      "scene": "107734176_176000019",
+      "episode": "31",
+      "goal": "plant",
+      "mechanisms": {
+        "acquired": 0,
+        "arrived": 0,
+        "open_at_end": 0,
+        "multisegment": 0,
+        "local_actions": 0
+      },
+      "release_reasons": {},
+      "first_approach_phase": {},
+      "physical_actions": {
+        "region": 199,
+        "local": 0,
+        "scan": 96,
+        "tail": 1,
+        "empty": 4
+      },
+      "response_sources": {
+        "identical_input_prior_response": 20
+      },
+      "new_usage": {},
+      "new_journal_events": {
+        "cache": 20
+      },
+      "cost_entries": 0,
+      "reported_cost_subtotal": null,
+      "compared_to_inspect_only": {
+        "equal_segment_prefix": 24,
+        "complete_segment_sequences_identical": true,
+        "first_changed_new_segment_after_step": null
+      },
+      "verified_result_sha256": "9aa2a06f7471f2f93fd02ff46e7088675f819a41129b28192be21b42908ab1a5",
+      "phase_025m": {
+        "regional_motion": 0,
+        "local_motion": 0,
+        "local_arrivals": 0,
+        "selected_local_sites": 0,
+        "proposed_local_sites": 0,
+        "proposed_region_sites": 0,
+        "preferred_region_sites": 0
+      },
+      "phase_05m": {
+        "regional_motion": 0,
+        "local_motion": 0,
+        "local_arrivals": 0,
+        "selected_local_sites": 0,
+        "proposed_local_sites": 0,
+        "proposed_region_sites": 0,
+        "preferred_region_sites": 0
+      },
+      "previous": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "local": {
+        "distinct_approached": 1,
+        "approached_half_m": 1,
+        "approached_one_m": 1,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": [
+          165
+        ]
+      },
+      "gpt": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "inspect_only": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "committed": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      }
+    },
+    {
+      "scene": "106366410_174226806",
+      "episode": "36",
+      "goal": "shelf",
+      "mechanisms": {
+        "acquired": 0,
+        "arrived": 0,
+        "open_at_end": 0,
+        "multisegment": 0,
+        "local_actions": 0
+      },
+      "release_reasons": {},
+      "first_approach_phase": {},
+      "physical_actions": {
+        "region": 209,
+        "local": 0,
+        "scan": 88,
+        "tail": 3,
+        "empty": 0
+      },
+      "response_sources": {
+        "identical_input_prior_response": 22
+      },
+      "new_usage": {},
+      "new_journal_events": {
+        "cache": 22
+      },
+      "cost_entries": 0,
+      "reported_cost_subtotal": null,
+      "compared_to_inspect_only": {
+        "equal_segment_prefix": 22,
+        "complete_segment_sequences_identical": true,
+        "first_changed_new_segment_after_step": null
+      },
+      "verified_result_sha256": "8a2e1a7e57fd604cd8d3e203093f7ec68b0a3bbd68d7c1bc20b92202f34d71b5",
+      "phase_025m": {
+        "regional_motion": 0,
+        "local_motion": 0,
+        "local_arrivals": 0,
+        "selected_local_sites": 0,
+        "proposed_local_sites": 0,
+        "proposed_region_sites": 0,
+        "preferred_region_sites": 0
+      },
+      "phase_05m": {
+        "regional_motion": 0,
+        "local_motion": 0,
+        "local_arrivals": 0,
+        "selected_local_sites": 0,
+        "proposed_local_sites": 0,
+        "proposed_region_sites": 0,
+        "preferred_region_sites": 0
+      },
+      "previous": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "local": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "gpt": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "inspect_only": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "committed": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      }
+    },
+    {
+      "scene": "104348010_171512832",
+      "episode": "39",
+      "goal": "stool",
+      "mechanisms": {
+        "acquired": 0,
+        "arrived": 0,
+        "open_at_end": 0,
+        "multisegment": 0,
+        "local_actions": 0
+      },
+      "release_reasons": {},
+      "first_approach_phase": {
+        "region": 1
+      },
+      "physical_actions": {
+        "region": 231,
+        "local": 0,
+        "scan": 68,
+        "tail": 1,
+        "empty": 0
+      },
+      "response_sources": {
+        "identical_input_prior_response": 17
+      },
+      "new_usage": {},
+      "new_journal_events": {
+        "cache": 17
+      },
+      "cost_entries": 0,
+      "reported_cost_subtotal": null,
+      "compared_to_inspect_only": {
+        "equal_segment_prefix": 17,
+        "complete_segment_sequences_identical": true,
+        "first_changed_new_segment_after_step": null
+      },
+      "verified_result_sha256": "58cf1f0d5c2a727f17f8c1e0a5517b29b87a47cf294bdfd253d50c65dcb36ae2",
+      "phase_025m": {
+        "regional_motion": 1,
+        "local_motion": 0,
+        "local_arrivals": 0,
+        "selected_local_sites": 0,
+        "proposed_local_sites": 0,
+        "proposed_region_sites": 1,
+        "preferred_region_sites": 1
+      },
+      "phase_05m": {
+        "regional_motion": 1,
+        "local_motion": 0,
+        "local_arrivals": 0,
+        "selected_local_sites": 0,
+        "proposed_local_sites": 0,
+        "proposed_region_sites": 1,
+        "preferred_region_sites": 1
+      },
+      "previous": {
+        "distinct_approached": 1,
+        "approached_half_m": 1,
+        "approached_one_m": 1,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": [
+          214
+        ]
+      },
+      "local": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "gpt": {
+        "distinct_approached": 1,
+        "approached_half_m": 1,
+        "approached_one_m": 1,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": [
+          156
+        ]
+      },
+      "inspect_only": {
+        "distinct_approached": 1,
+        "approached_half_m": 1,
+        "approached_one_m": 1,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": [
+          214
+        ]
+      },
+      "committed": {
+        "distinct_approached": 1,
+        "approached_half_m": 1,
+        "approached_one_m": 1,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": [
+          214
+        ]
+      }
+    },
+    {
+      "scene": "104862501_172226556",
+      "episode": "31",
+      "goal": "armchair",
+      "mechanisms": {
+        "acquired": 0,
+        "arrived": 0,
+        "open_at_end": 0,
+        "multisegment": 0,
+        "local_actions": 0
+      },
+      "release_reasons": {},
+      "first_approach_phase": {},
+      "physical_actions": {
+        "region": 206,
+        "local": 0,
+        "scan": 92,
+        "tail": 2,
+        "empty": 0
+      },
+      "response_sources": {
+        "identical_input_prior_response": 23
+      },
+      "new_usage": {},
+      "new_journal_events": {
+        "cache": 23
+      },
+      "cost_entries": 0,
+      "reported_cost_subtotal": null,
+      "compared_to_inspect_only": {
+        "equal_segment_prefix": 23,
+        "complete_segment_sequences_identical": true,
+        "first_changed_new_segment_after_step": null
+      },
+      "verified_result_sha256": "e018ef42c4b6ce37796c9d1db64ecd6314ca681e237a0b4bf139cd89f8284b01",
+      "phase_025m": {
+        "regional_motion": 0,
+        "local_motion": 0,
+        "local_arrivals": 0,
+        "selected_local_sites": 0,
+        "proposed_local_sites": 0,
+        "proposed_region_sites": 0,
+        "preferred_region_sites": 0
+      },
+      "phase_05m": {
+        "regional_motion": 0,
+        "local_motion": 0,
+        "local_arrivals": 0,
+        "selected_local_sites": 0,
+        "proposed_local_sites": 0,
+        "proposed_region_sites": 0,
+        "preferred_region_sites": 0
+      },
+      "previous": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "local": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "gpt": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "inspect_only": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "committed": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      }
+    },
+    {
+      "scene": "104862384_172226319",
+      "episode": "46",
+      "goal": "cabinet",
+      "mechanisms": {
+        "inspect_requests": 2,
+        "inspect_requests_with_site": 2,
+        "explore_advice_during_retained_local_segment": 3,
+        "acquired": 2,
+        "arrived": 1,
+        "open_at_end": 0,
+        "multisegment": 2,
+        "local_actions": 20
+      },
+      "release_reasons": {
+        "inspection_budget": 1,
+        "arrived": 1
+      },
+      "first_approach_phase": {
+        "region": 3
+      },
+      "physical_actions": {
+        "region": 187,
+        "local": 20,
+        "scan": 92,
+        "tail": 1,
+        "empty": 0
+      },
+      "response_sources": {
+        "identical_input_prior_response": 8,
+        "fresh_response": 15
+      },
+      "new_usage": {
+        "input_tokens": 23769,
+        "output_tokens": 408,
+        "total_tokens": 24177
+      },
+      "new_journal_events": {
+        "cache": 8,
+        "dispatch": 15,
+        "success": 15
+      },
+      "cost_entries": 0,
+      "reported_cost_subtotal": null,
+      "compared_to_inspect_only": {
+        "equal_segment_prefix": 7,
+        "complete_segment_sequences_identical": false,
+        "first_changed_new_segment_after_step": 72
+      },
+      "verified_result_sha256": "8a7ece6b0f9a3f4af4b9fe7ec354176fd3eab1311116c97b59b8e296eaa5dc5f",
+      "phase_025m": {
+        "regional_motion": 3,
+        "local_motion": 2,
+        "local_arrivals": 1,
+        "selected_local_sites": 1,
+        "proposed_local_sites": 2,
+        "proposed_region_sites": 5,
+        "preferred_region_sites": 3
+      },
+      "phase_05m": {
+        "regional_motion": 3,
+        "local_motion": 2,
+        "local_arrivals": 1,
+        "selected_local_sites": 1,
+        "proposed_local_sites": 3,
+        "proposed_region_sites": 5,
+        "preferred_region_sites": 3
+      },
+      "previous": {
+        "distinct_approached": 5,
+        "approached_half_m": 5,
+        "approached_one_m": 6,
+        "already_at_start": 0,
+        "quota_met": true,
+        "first_steps": [
+          84,
+          104,
+          146,
+          171,
+          237
+        ]
+      },
+      "local": {
+        "distinct_approached": 3,
+        "approached_half_m": 3,
+        "approached_one_m": 4,
+        "already_at_start": 0,
+        "quota_met": true,
+        "first_steps": [
+          90,
+          128,
+          180
+        ]
+      },
+      "gpt": {
+        "distinct_approached": 3,
+        "approached_half_m": 4,
+        "approached_one_m": 4,
+        "already_at_start": 0,
+        "quota_met": true,
+        "first_steps": [
+          93,
+          133,
+          163
+        ]
+      },
+      "inspect_only": {
+        "distinct_approached": 4,
+        "approached_half_m": 4,
+        "approached_one_m": 5,
+        "already_at_start": 0,
+        "quota_met": true,
+        "first_steps": [
+          91,
+          155,
+          180,
+          225
+        ]
+      },
+      "committed": {
+        "distinct_approached": 3,
+        "approached_half_m": 3,
+        "approached_one_m": 4,
+        "already_at_start": 0,
+        "quota_met": true,
+        "first_steps": [
+          106,
+          125,
+          223
+        ]
+      }
+    }
+  ],
+  "mechanisms": {
+    "acquired": 4,
+    "arrived": 3,
+    "open_at_end": 0,
+    "multisegment": 4,
+    "local_actions": 33,
+    "inspect_requests": 4,
+    "inspect_requests_with_site": 4,
+    "explore_advice_during_retained_local_segment": 5
+  },
+  "release_reasons": {
+    "arrived": 3,
+    "inspection_budget": 1
+  },
+  "first_approach_phase": {
+    "region": 8
+  },
+  "physical_actions": {
+    "region": 1584,
+    "local": 33,
+    "scan": 740,
+    "tail": 13,
+    "empty": 30
+  },
+  "response_sources": {
+    "identical_input_prior_response": 123,
+    "fresh_response": 32
+  },
+  "new_usage": {
+    "input_tokens": 50550,
+    "output_tokens": 868,
+    "total_tokens": 51418
+  },
+  "new_journal_events": {
+    "cache": 123,
+    "dispatch": 32,
+    "success": 32
+  },
+  "phase_025m": {
+    "regional_motion": 8,
+    "local_motion": 2,
+    "local_arrivals": 1,
+    "selected_local_sites": 1,
+    "proposed_local_sites": 2,
+    "proposed_region_sites": 14,
+    "preferred_region_sites": 7
+  },
+  "phase_05m": {
+    "regional_motion": 9,
+    "local_motion": 2,
+    "local_arrivals": 1,
+    "selected_local_sites": 1,
+    "proposed_local_sites": 3,
+    "proposed_region_sites": 17,
+    "preferred_region_sites": 8
+  }
+}

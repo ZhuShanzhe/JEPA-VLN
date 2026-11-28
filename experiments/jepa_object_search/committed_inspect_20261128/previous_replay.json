@@ -1,0 +1,10 @@
+{
+  "houses": 8,
+  "actions": 2400,
+  "matched_requests": 161,
+  "fresh_requests": 0,
+  "decision_sequences_all_identical": true,
+  "paired_first_hit_steps_all_identical": true,
+  "scene_count": 8,
+  "source_sha256": "39637596c5203e88f2420640605dd45d0db0ecc1f5c91d99506ef112fc60f583"
+}

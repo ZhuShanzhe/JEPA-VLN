@@ -1,0 +1,192 @@
+{
+  "arm": "committed",
+  "frames": 2408,
+  "diagnostic": "same center RGB camera geometry, instance mask offline only",
+  "by_house": [
+    {
+      "goal": "picture",
+      "distinct_at_frame_fraction": {
+        "0.002": 6,
+        "0.01": 4,
+        "0.03": 3
+      },
+      "distinct_close_and_visible_in_same_frame": {
+        "0.002": 1,
+        "0.01": 1,
+        "0.03": 1
+      },
+      "inspections": []
+    },
+    {
+      "goal": "table lamp",
+      "distinct_at_frame_fraction": {
+        "0.002": 2,
+        "0.01": 2,
+        "0.03": 1
+      },
+      "distinct_close_and_visible_in_same_frame": {
+        "0.002": 1,
+        "0.01": 1,
+        "0.03": 1
+      },
+      "inspections": [
+        {
+          "arrived": true,
+          "full_frame_percent_of_patch_target_before": null,
+          "right_center_left_max_target_frame_percent_at_trigger": [
+            0.629,
+            0.0,
+            0.0
+          ],
+          "full_frame_percent_of_same_target_after": null,
+          "patch_target_pixels": 0,
+          "target_previously_visible_at_one_percent": null,
+          "new_one_percent_instances_during_interval": 1,
+          "max_any_target_frame_percent_before": 0.0,
+          "max_any_target_frame_percent_after": 0.0
+        }
+      ]
+    },
+    {
+      "goal": "bed",
+      "distinct_at_frame_fraction": {
+        "0.002": 1,
+        "0.01": 1,
+        "0.03": 1
+      },
+      "distinct_close_and_visible_in_same_frame": {
+        "0.002": 0,
+        "0.01": 0,
+        "0.03": 0
+      },
+      "inspections": [
+        {
+          "arrived": true,
+          "full_frame_percent_of_patch_target_before": null,
+          "right_center_left_max_target_frame_percent_at_trigger": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "full_frame_percent_of_same_target_after": null,
+          "patch_target_pixels": 0,
+          "target_previously_visible_at_one_percent": null,
+          "new_one_percent_instances_during_interval": 0,
+          "max_any_target_frame_percent_before": 0.0,
+          "max_any_target_frame_percent_after": 0.0
+        }
+      ]
+    },
+    {
+      "goal": "plant",
+      "distinct_at_frame_fraction": {
+        "0.002": 1,
+        "0.01": 1,
+        "0.03": 0
+      },
+      "distinct_close_and_visible_in_same_frame": {
+        "0.002": 0,
+        "0.01": 0,
+        "0.03": 0
+      },
+      "inspections": []
+    },
+    {
+      "goal": "shelf",
+      "distinct_at_frame_fraction": {
+        "0.002": 0,
+        "0.01": 0,
+        "0.03": 0
+      },
+      "distinct_close_and_visible_in_same_frame": {
+        "0.002": 0,
+        "0.01": 0,
+        "0.03": 0
+      },
+      "inspections": []
+    },
+    {
+      "goal": "stool",
+      "distinct_at_frame_fraction": {
+        "0.002": 1,
+        "0.01": 1,
+        "0.03": 1
+      },
+      "distinct_close_and_visible_in_same_frame": {
+        "0.002": 1,
+        "0.01": 1,
+        "0.03": 1
+      },
+      "inspections": []
+    },
+    {
+      "goal": "armchair",
+      "distinct_at_frame_fraction": {
+        "0.002": 4,
+        "0.01": 1,
+        "0.03": 0
+      },
+      "distinct_close_and_visible_in_same_frame": {
+        "0.002": 0,
+        "0.01": 0,
+        "0.03": 0
+      },
+      "inspections": []
+    },
+    {
+      "goal": "cabinet",
+      "distinct_at_frame_fraction": {
+        "0.002": 7,
+        "0.01": 6,
+        "0.03": 5
+      },
+      "distinct_close_and_visible_in_same_frame": {
+        "0.002": 3,
+        "0.01": 3,
+        "0.03": 3
+      },
+      "inspections": [
+        {
+          "arrived": false,
+          "full_frame_percent_of_patch_target_before": null,
+          "right_center_left_max_target_frame_percent_at_trigger": [
+            0.0,
+            0.0,
+            1.375
+          ],
+          "full_frame_percent_of_same_target_after": null,
+          "patch_target_pixels": 0,
+          "target_previously_visible_at_one_percent": null,
+          "new_one_percent_instances_during_interval": 1,
+          "max_any_target_frame_percent_before": 0.0,
+          "max_any_target_frame_percent_after": 1.058
+        },
+        {
+          "arrived": true,
+          "full_frame_percent_of_patch_target_before": null,
+          "right_center_left_max_target_frame_percent_at_trigger": [
+            7.096,
+            0.339,
+            0.133
+          ],
+          "full_frame_percent_of_same_target_after": null,
+          "patch_target_pixels": 0,
+          "target_previously_visible_at_one_percent": null,
+          "new_one_percent_instances_during_interval": 0,
+          "max_any_target_frame_percent_before": 0.339,
+          "max_any_target_frame_percent_after": 0.369
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "0.002": 22,
+    "0.01": 16,
+    "0.03": 11
+  },
+  "close_and_visible_totals": {
+    "0.002": 6,
+    "0.01": 6,
+    "0.03": 6
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "frames": 12,
+  "grants": 4,
+  "paid_requests": 0,
+  "model": "GroundingDINO Swin-T OGC",
+  "weights_sha256": "3b3ca2563c77c69f651d7bd133e97139c186df06231157a64c507099c52bc799",
+  "prior_detector_protocol_sha256": "6715d5707bd7ca5e3788b9325999aa4893c63901be82e93d299d16caf0384c46",
+  "thresholds": {
+    "box": 0.35,
+    "text": 0.25,
+    "nms": 0.85
+  },
+  "positive": "at least one pixel of a task-accepted scorable instance",
+  "both": "box center on target mask AND IoU >= 0.25 to visible-pixel envelope of that same instance",
+  "main": "augment",
+  "results": {
+    "base": {
+      "by_image": {
+        "images": 12,
+        "positive_frames": 5,
+        "empty_frames": 7,
+        "empty_frames_with_any_box": 5,
+        "positive_frames_without_box": 1,
+        "frames_with_box": 9,
+        "boxes": 10,
+        "top1_center": 3,
+        "any_center": 3,
+        "top1_wrong_center": 6,
+        "false_boxes_center": 7,
+        "top1_iou25": 3,
+        "any_iou25": 3,
+        "top1_wrong_iou25": 6,
+        "false_boxes_iou25": 7,
+        "top1_both": 3,
+        "any_both": 3,
+        "top1_wrong_both": 6,
+        "false_boxes_both": 7
+      },
+      "by_group": [
+        {
+          "goal": "table lamp",
+          "center_has_target_pixels": false,
+          "views_with_target": [
+            "right"
+          ],
+          "views_with_any_correct_box": [
+            "right"
+          ],
+          "highest_confidence_view": "right",
+          "highest_confidence_box_correct": true
+        },
+        {
+          "goal": "bed",
+          "center_has_target_pixels": false,
+          "views_with_target": [],
+          "views_with_any_correct_box": [],
+          "highest_confidence_view": "right",
+          "highest_confidence_box_correct": false
+        },
+        {
+          "goal": "cabinet",
+          "center_has_target_pixels": false,
+          "views_with_target": [
+            "left"
+          ],
+          "views_with_any_correct_box": [],
+          "highest_confidence_view": "right",
+          "highest_confidence_box_correct": false
+        },
+        {
+          "goal": "cabinet",
+          "center_has_target_pixels": true,
+          "views_with_target": [
+            "right",
+            "center",
+            "left"
+          ],
+          "views_with_any_correct_box": [
+            "right",
+            "center"
+          ],
+          "highest_confidence_view": "left",
+          "highest_confidence_box_correct": false
+        }
+      ],
+      "by_view": {
+        "right": {
+          "images": 4,
+          "positive_frames": 2,
+          "empty_frames": 2,
+          "empty_frames_with_any_box": 2,
+          "positive_frames_without_box": 0,
+          "frames_with_box": 4,
+          "boxes": 5,
+          "top1_center": 2,
+          "any_center": 2,
+          "top1_wrong_center": 2,
+          "false_boxes_center": 3,
+          "top1_iou25": 2,
+          "any_iou25": 2,
+          "top1_wrong_iou25": 2,
+          "false_boxes_iou25": 3,
+          "top1_both": 2,
+          "any_both": 2,
+          "top1_wrong_both": 2,
+          "false_boxes_both": 3
+        },
+        "center": {
+          "images": 4,
+          "positive_frames": 1,
+          "empty_frames": 3,
+          "empty_frames_with_any_box": 2,
+          "positive_frames_without_box": 0,
+          "frames_with_box": 3,
+          "boxes": 3,
+          "top1_center": 1,
+          "any_center": 1,
+          "top1_wrong_center": 2,
+          "false_boxes_center": 2,
+          "top1_iou25": 1,
+          "any_iou25": 1,
+          "top1_wrong_iou25": 2,
+          "false_boxes_iou25": 2,
+          "top1_both": 1,
+          "any_both": 1,
+          "top1_wrong_both": 2,
+          "false_boxes_both": 2
+        },
+        "left": {
+          "images": 4,
+          "positive_frames": 2,
+          "empty_frames": 2,
+          "empty_frames_with_any_box": 1,
+          "positive_frames_without_box": 1,
+          "frames_with_box": 2,
+          "boxes": 2,
+          "top1_center": 0,
+          "any_center": 0,
+          "top1_wrong_center": 2,
+          "false_boxes_center": 2,
+          "top1_iou25": 0,
+          "any_iou25": 0,
+          "top1_wrong_iou25": 2,
+          "false_boxes_iou25": 2,
+          "top1_both": 0,
+          "any_both": 0,
+          "top1_wrong_both": 2,
+          "false_boxes_both": 2
+        }
+      }
+    },
+    "augment": {
+      "by_image": {
+        "images": 12,
+        "positive_frames": 5,
+        "empty_frames": 7,
+        "empty_frames_with_any_box": 5,
+        "positive_frames_without_box": 1,
+        "frames_with_box": 9,
+        "boxes": 12,
+        "top1_center": 3,
+        "any_center": 3,
+        "top1_wrong_center": 6,
+        "false_boxes_center": 9,
+        "top1_iou25": 3,
+        "any_iou25": 3,
+        "top1_wrong_iou25": 6,
+        "false_boxes_iou25": 9,
+        "top1_both": 3,
+        "any_both": 3,
+        "top1_wrong_both": 6,
+        "false_boxes_both": 9
+      },
+      "by_group": [
+        {
+          "goal": "table lamp",
+          "center_has_target_pixels": false,
+          "views_with_target": [
+            "right"
+          ],
+          "views_with_any_correct_box": [
+            "right"
+          ],
+          "highest_confidence_view": "right",
+          "highest_confidence_box_correct": true
+        },
+        {
+          "goal": "bed",
+          "center_has_target_pixels": false,
+          "views_with_target": [],
+          "views_with_any_correct_box": [],
+          "highest_confidence_view": "right",
+          "highest_confidence_box_correct": false
+        },
+        {
+          "goal": "cabinet",
+          "center_has_target_pixels": false,
+          "views_with_target": [
+            "left"
+          ],
+          "views_with_any_correct_box": [],
+          "highest_confidence_view": "right",
+          "highest_confidence_box_correct": false
+        },
+        {
+          "goal": "cabinet",
+          "center_has_target_pixels": true,
+          "views_with_target": [
+            "right",
+            "center",
+            "left"
+          ],
+          "views_with_any_correct_box": [
+            "right",
+            "center"
+          ],
+          "highest_confidence_view": "left",
+          "highest_confidence_box_correct": false
+        }
+      ],
+      "by_view": {
+        "right": {
+          "images": 4,
+          "positive_frames": 2,
+          "empty_frames": 2,
+          "empty_frames_with_any_box": 2,
+          "positive_frames_without_box": 0,
+          "frames_with_box": 4,
+          "boxes": 5,
+          "top1_center": 2,
+          "any_center": 2,
+          "top1_wrong_center": 2,
+          "false_boxes_center": 3,
+          "top1_iou25": 2,
+          "any_iou25": 2,
+          "top1_wrong_iou25": 2,
+          "false_boxes_iou25": 3,
+          "top1_both": 2,
+          "any_both": 2,
+          "top1_wrong_both": 2,
+          "false_boxes_both": 3
+        },
+        "center": {
+          "images": 4,
+          "positive_frames": 1,
+          "empty_frames": 3,
+          "empty_frames_with_any_box": 2,
+          "positive_frames_without_box": 0,
+          "frames_with_box": 3,
+          "boxes": 4,
+          "top1_center": 1,
+          "any_center": 1,
+          "top1_wrong_center": 2,
+          "false_boxes_center": 3,
+          "top1_iou25": 1,
+          "any_iou25": 1,
+          "top1_wrong_iou25": 2,
+          "false_boxes_iou25": 3,
+          "top1_both": 1,
+          "any_both": 1,
+          "top1_wrong_both": 2,
+          "false_boxes_both": 3
+        },
+        "left": {
+          "images": 4,
+          "positive_frames": 2,
+          "empty_frames": 2,
+          "empty_frames_with_any_box": 1,
+          "positive_frames_without_box": 1,
+          "frames_with_box": 2,
+          "boxes": 3,
+          "top1_center": 0,
+          "any_center": 0,
+          "top1_wrong_center": 2,
+          "false_boxes_center": 3,
+          "top1_iou25": 0,
+          "any_iou25": 0,
+          "top1_wrong_iou25": 2,
+          "false_boxes_iou25": 3,
+          "top1_both": 0,
+          "any_both": 0,
+          "top1_wrong_both": 2,
+          "false_boxes_both": 3
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "scene": "HM3D",
+  "agent_factory": true,
+  "real_rgb": true,
+  "controlled_map_and_pose": true,
+  "network_denied": true,
+  "paid_requests": 0,
+  "acquired_distance_m": 1.6150000000000002,
+  "retained_distance_m": 0.6150000000000007,
+  "no_rescan_when_geometry_unchanged": true,
+  "native_finish_preempted": true,
+  "scale_reset": true,
+  "scripted_upper_intents": [
+    "explore",
+    "inspect"
+  ],
+  "trained_local_scorer": true,
+  "synthetic_clock_at_expiry": true,
+  "expired_carrier_emitted_no_action": true
+}
