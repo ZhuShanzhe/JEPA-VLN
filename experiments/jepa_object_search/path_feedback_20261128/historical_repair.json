@@ -1,0 +1,199 @@
+{
+  "scope": "Same 1m forward observation waypoint for all four past cue boxes. Every final route and requested physical scan has separately executed Habitat outcomes. Known diagnostic cases. Original navigation previously allowed three of four cue locations to see the instance by staying.",
+  "counts": {
+    "straight_raw": {
+      "cues": 4,
+      "issued": 4,
+      "reached": 1,
+      "blocked": 3,
+      "reached_and_clear": 1,
+      "sensing_actions": 0,
+      "all_actions": 11
+    },
+    "jepa_raw": {
+      "cues": 4,
+      "issued": 4,
+      "reached": 0,
+      "blocked": 4,
+      "reached_and_clear": 0,
+      "sensing_actions": 0,
+      "all_actions": 31
+    },
+    "straight_checker_only": {
+      "cues": 4,
+      "issued": 0,
+      "reached": 0,
+      "blocked": 0,
+      "reached_and_clear": 0,
+      "sensing_actions": 0,
+      "all_actions": 0
+    },
+    "jepa_checker_only": {
+      "cues": 4,
+      "issued": 0,
+      "reached": 0,
+      "blocked": 0,
+      "reached_and_clear": 0,
+      "sensing_actions": 0,
+      "all_actions": 0
+    },
+    "straight_oneshot_1": {
+      "cues": 4,
+      "issued": 1,
+      "reached": 1,
+      "blocked": 0,
+      "reached_and_clear": 1,
+      "sensing_actions": 0,
+      "all_actions": 20
+    },
+    "jepa_oneshot_1": {
+      "cues": 4,
+      "issued": 1,
+      "reached": 1,
+      "blocked": 0,
+      "reached_and_clear": 1,
+      "sensing_actions": 0,
+      "all_actions": 20
+    },
+    "straight_trained_1": {
+      "cues": 4,
+      "issued": 1,
+      "reached": 1,
+      "blocked": 0,
+      "reached_and_clear": 1,
+      "sensing_actions": 0,
+      "all_actions": 18
+    },
+    "jepa_trained_1": {
+      "cues": 4,
+      "issued": 1,
+      "reached": 1,
+      "blocked": 0,
+      "reached_and_clear": 1,
+      "sensing_actions": 0,
+      "all_actions": 18
+    },
+    "straight_oneshot_3": {
+      "cues": 4,
+      "issued": 1,
+      "reached": 1,
+      "blocked": 0,
+      "reached_and_clear": 1,
+      "sensing_actions": 9,
+      "all_actions": 29
+    },
+    "jepa_oneshot_3": {
+      "cues": 4,
+      "issued": 1,
+      "reached": 1,
+      "blocked": 0,
+      "reached_and_clear": 1,
+      "sensing_actions": 9,
+      "all_actions": 29
+    },
+    "straight_trained_3": {
+      "cues": 4,
+      "issued": 1,
+      "reached": 1,
+      "blocked": 0,
+      "reached_and_clear": 1,
+      "sensing_actions": 9,
+      "all_actions": 27
+    },
+    "jepa_trained_3": {
+      "cues": 4,
+      "issued": 1,
+      "reached": 1,
+      "blocked": 0,
+      "reached_and_clear": 1,
+      "sensing_actions": 9,
+      "all_actions": 27
+    }
+  },
+  "lamp": {
+    "straight_raw": {
+      "reached": true,
+      "target_pixels": 739,
+      "status": "execute",
+      "touched_obstacle": false,
+      "actions": 4
+    },
+    "jepa_raw": {
+      "reached": false,
+      "target_pixels": 276,
+      "status": "execute",
+      "touched_obstacle": true,
+      "actions": 9
+    },
+    "straight_checker_only": {
+      "reached": false,
+      "target_pixels": null,
+      "status": "defer",
+      "touched_obstacle": false,
+      "actions": 0
+    },
+    "jepa_checker_only": {
+      "reached": false,
+      "target_pixels": null,
+      "status": "defer",
+      "touched_obstacle": false,
+      "actions": 0
+    },
+    "straight_oneshot_1": {
+      "reached": true,
+      "target_pixels": 754,
+      "status": "execute",
+      "touched_obstacle": false,
+      "actions": 20
+    },
+    "jepa_oneshot_1": {
+      "reached": true,
+      "target_pixels": 754,
+      "status": "execute",
+      "touched_obstacle": false,
+      "actions": 20
+    },
+    "straight_trained_1": {
+      "reached": true,
+      "target_pixels": 754,
+      "status": "execute",
+      "touched_obstacle": false,
+      "actions": 18
+    },
+    "jepa_trained_1": {
+      "reached": true,
+      "target_pixels": 754,
+      "status": "execute",
+      "touched_obstacle": false,
+      "actions": 18
+    },
+    "straight_oneshot_3": {
+      "reached": true,
+      "target_pixels": 754,
+      "status": "execute",
+      "touched_obstacle": false,
+      "actions": 20
+    },
+    "jepa_oneshot_3": {
+      "reached": true,
+      "target_pixels": 754,
+      "status": "execute",
+      "touched_obstacle": false,
+      "actions": 20
+    },
+    "straight_trained_3": {
+      "reached": true,
+      "target_pixels": 754,
+      "status": "execute",
+      "touched_obstacle": false,
+      "actions": 18
+    },
+    "jepa_trained_3": {
+      "reached": true,
+      "target_pixels": 754,
+      "status": "execute",
+      "touched_obstacle": false,
+      "actions": 18
+    }
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "houses": 6,
+  "counts": {
+    "straight": {
+      "groups": 620,
+      "issued": 620,
+      "reobserve": 0,
+      "reached": 121,
+      "clear": 95,
+      "blocked": 499,
+      "nominal_actions": 5704,
+      "actions_until_stop": 1828
+    },
+    "old_jepa": {
+      "groups": 620,
+      "issued": 620,
+      "reobserve": 0,
+      "reached": 63,
+      "clear": 48,
+      "blocked": 557,
+      "nominal_actions": 13214,
+      "actions_until_stop": 4221
+    },
+    "shortest": {
+      "groups": 620,
+      "issued": 222,
+      "reobserve": 398,
+      "reached": 135,
+      "clear": 103,
+      "blocked": 87,
+      "nominal_actions": 1396,
+      "actions_until_stop": 1018
+    },
+    "highest_reach": {
+      "groups": 620,
+      "issued": 222,
+      "reobserve": 398,
+      "reached": 135,
+      "clear": 103,
+      "blocked": 87,
+      "nominal_actions": 1410,
+      "actions_until_stop": 1028
+    },
+    "reach_times_jepa_visible": {
+      "groups": 620,
+      "issued": 222,
+      "reobserve": 398,
+      "reached": 131,
+      "clear": 102,
+      "blocked": 91,
+      "nominal_actions": 1722,
+      "actions_until_stop": 1210
+    },
+    "first_3_shortest_then_repair": {
+      "groups": 620,
+      "issued": 222,
+      "reobserve": 398,
+      "reached": 135,
+      "clear": 103,
+      "blocked": 87,
+      "nominal_actions": 1396,
+      "actions_until_stop": 1003,
+      "repair_triggered": 402,
+      "repair_issued": 4,
+      "repair_reached": 2,
+      "repair_clear": 1
+    },
+    "first_7_shortest_then_repair": {
+      "groups": 620,
+      "issued": 222,
+      "reobserve": 398,
+      "reached": 135,
+      "clear": 103,
+      "blocked": 87,
+      "nominal_actions": 1396,
+      "actions_until_stop": 1018,
+      "repair_triggered": 398,
+      "repair_issued": 0,
+      "repair_reached": 0,
+      "repair_clear": 0
+    }
+  },
+  "clear_rate_paired_house_bootstrap": {
+    "reach_times_jepa_visible_minus_straight": {
+      "house_mean": 0.012626262626262624,
+      "house_deltas": [
+        -0.00909090909090909,
+        0.03333333333333333,
+        0.03333333333333333,
+        0.0,
+        0.0,
+        0.01818181818181818
+      ],
+      "interval95": [
+        0.0,
+        0.025757575757575757
+      ]
+    },
+    "reach_times_jepa_visible_minus_old_jepa": {
+      "house_mean": 0.0861952861952862,
+      "house_deltas": [
+        0.10909090909090909,
+        0.1,
+        0.044444444444444446,
+        0.09090909090909091,
+        0.05454545454545454,
+        0.11818181818181818
+      ],
+      "interval95": [
+        0.0632996632996633,
+        0.10757575757575756
+      ]
+    },
+    "reach_times_jepa_visible_minus_shortest": {
+      "house_mean": -0.0015151515151515152,
+      "house_deltas": [
+        -0.00909090909090909,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "interval95": [
+        -0.004545454545454545,
+        0.0
+      ]
+    },
+    "reach_times_jepa_visible_minus_highest_reach": {
+      "house_mean": -0.0015151515151515152,
+      "house_deltas": [
+        -0.00909090909090909,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "interval95": [
+        -0.004545454545454545,
+        0.0
+      ]
+    },
+    "reach_times_jepa_visible_minus_first_3_shortest_then_repair": {
+      "house_mean": -0.0015151515151515152,
+      "house_deltas": [
+        -0.00909090909090909,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "interval95": [
+        -0.004545454545454545,
+        0.0
+      ]
+    },
+    "reach_times_jepa_visible_minus_first_7_shortest_then_repair": {
+      "house_mean": -0.0015151515151515152,
+      "house_deltas": [
+        -0.00909090909090909,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "interval95": [
+        -0.004545454545454545,
+        0.0
+      ]
+    },
+    "first_3_shortest_then_repair_minus_first_7_shortest_then_repair": {
+      "house_mean": 0.0,
+      "house_deltas": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "interval95": [
+        0.0,
+        0.0
+      ]
+    },
+    "first_3_shortest_then_repair_minus_straight": {
+      "house_mean": 0.01414141414141414,
+      "house_deltas": [
+        0.0,
+        0.03333333333333333,
+        0.03333333333333333,
+        0.0,
+        0.0,
+        0.01818181818181818
+      ],
+      "interval95": [
+        0.0030303030303030303,
+        0.025757575757575757
+      ]
+    },
+    "first_7_shortest_then_repair_minus_straight": {
+      "house_mean": 0.01414141414141414,
+      "house_deltas": [
+        0.0,
+        0.03333333333333333,
+        0.03333333333333333,
+        0.0,
+        0.0,
+        0.01818181818181818
+      ],
+      "interval95": [
+        0.0030303030303030303,
+        0.025757575757575757
+      ]
+    }
+  },
+  "protocol": "All 620 groups share seven physical equal-endpoint plans with a common within-group upper action limit. Screened policies use the same mixed checker. ID breaks ties. First-3 starts from direct and both narrow offsets; first-7 starts with all templates. Both choose shortest among screened-in initial plans. On complete rejection the frozen feedback head can offer up to two previously unreviewed plans; when all seven have been reviewed, the response requests observation. Straight and old JEPA may issue rejected routes. Actual cost is stop-on-first-contact with rejected fallback to new observation having zero issued actions. Observation requests counted separately; no cost for a subsequent scan or full-episode claim."
+}

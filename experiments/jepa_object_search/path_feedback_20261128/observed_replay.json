@@ -1,0 +1,195 @@
+{
+  "scope": "First five available cue sources per test building, requesting the native observation waypoint 1m or 2m straight ahead. Three-view arms may spend one left turn and then two right turns, and undo their orientation in the returned maneuver. All arms have the same per-group cap of straight steps plus 20. Deferred groups have zero reach and are counted separately from contact. Repeated score arms share identical physical replays.",
+  "houses": 12,
+  "rows": 120,
+  "results": {
+    "straight_raw": {
+      "groups": 120,
+      "issued": 120,
+      "deferred": 0,
+      "arrived": 28,
+      "arrived_and_clear": 17,
+      "physical_contact_or_stall": 92,
+      "actions": 361,
+      "sensing_actions": 0,
+      "extra_views": 0,
+      "checks": 120
+    },
+    "jepa_raw": {
+      "groups": 120,
+      "issued": 120,
+      "deferred": 0,
+      "arrived": 21,
+      "arrived_and_clear": 14,
+      "physical_contact_or_stall": 99,
+      "actions": 992,
+      "sensing_actions": 0,
+      "extra_views": 0,
+      "checks": 120
+    },
+    "straight_checker_only": {
+      "groups": 120,
+      "issued": 49,
+      "deferred": 71,
+      "arrived": 28,
+      "arrived_and_clear": 17,
+      "physical_contact_or_stall": 21,
+      "actions": 179,
+      "sensing_actions": 0,
+      "extra_views": 0,
+      "checks": 120
+    },
+    "jepa_checker_only": {
+      "groups": 120,
+      "issued": 37,
+      "deferred": 83,
+      "arrived": 18,
+      "arrived_and_clear": 12,
+      "physical_contact_or_stall": 19,
+      "actions": 371,
+      "sensing_actions": 0,
+      "extra_views": 0,
+      "checks": 120
+    },
+    "straight_oneshot_1": {
+      "groups": 120,
+      "issued": 59,
+      "deferred": 61,
+      "arrived": 31,
+      "arrived_and_clear": 20,
+      "physical_contact_or_stall": 28,
+      "actions": 404,
+      "sensing_actions": 0,
+      "extra_views": 0,
+      "checks": 59
+    },
+    "jepa_oneshot_1": {
+      "groups": 120,
+      "issued": 59,
+      "deferred": 61,
+      "arrived": 31,
+      "arrived_and_clear": 20,
+      "physical_contact_or_stall": 28,
+      "actions": 404,
+      "sensing_actions": 0,
+      "extra_views": 0,
+      "checks": 59
+    },
+    "straight_trained_1": {
+      "groups": 120,
+      "issued": 59,
+      "deferred": 61,
+      "arrived": 31,
+      "arrived_and_clear": 20,
+      "physical_contact_or_stall": 28,
+      "actions": 310,
+      "sensing_actions": 0,
+      "extra_views": 0,
+      "checks": 252
+    },
+    "jepa_trained_1": {
+      "groups": 120,
+      "issued": 59,
+      "deferred": 61,
+      "arrived": 27,
+      "arrived_and_clear": 18,
+      "physical_contact_or_stall": 32,
+      "actions": 542,
+      "sensing_actions": 0,
+      "extra_views": 0,
+      "checks": 264
+    },
+    "straight_oneshot_3": {
+      "groups": 120,
+      "issued": 67,
+      "deferred": 53,
+      "arrived": 31,
+      "arrived_and_clear": 20,
+      "physical_contact_or_stall": 36,
+      "actions": 613,
+      "sensing_actions": 171,
+      "extra_views": 61,
+      "checks": 67
+    },
+    "jepa_oneshot_3": {
+      "groups": 120,
+      "issued": 67,
+      "deferred": 53,
+      "arrived": 31,
+      "arrived_and_clear": 20,
+      "physical_contact_or_stall": 36,
+      "actions": 613,
+      "sensing_actions": 171,
+      "extra_views": 61,
+      "checks": 67
+    },
+    "straight_trained_3": {
+      "groups": 120,
+      "issued": 67,
+      "deferred": 53,
+      "arrived": 31,
+      "arrived_and_clear": 20,
+      "physical_contact_or_stall": 36,
+      "actions": 519,
+      "sensing_actions": 171,
+      "extra_views": 61,
+      "checks": 586
+    },
+    "jepa_trained_3": {
+      "groups": 120,
+      "issued": 67,
+      "deferred": 53,
+      "arrived": 27,
+      "arrived_and_clear": 18,
+      "physical_contact_or_stall": 40,
+      "actions": 751,
+      "sensing_actions": 171,
+      "extra_views": 61,
+      "checks": 603
+    }
+  },
+  "paired": {
+    "jepa_trained_3_minus_raw": {
+      "mean_house_difference": 0.03333333333333333,
+      "interval95": [
+        -0.01666666666666667,
+        0.09166666666666666
+      ]
+    },
+    "jepa_trained_3_minus_oneshot_3": {
+      "mean_house_difference": -0.01666666666666667,
+      "interval95": [
+        -0.05000000000000001,
+        0.025000000000000005
+      ]
+    },
+    "jepa_trained_3_minus_trained_1": {
+      "mean_house_difference": 0.0,
+      "interval95": [
+        0.0,
+        0.0
+      ]
+    },
+    "straight_trained_3_minus_raw": {
+      "mean_house_difference": 0.025000000000000005,
+      "interval95": [
+        0.0,
+        0.049999999999999996
+      ]
+    },
+    "straight_trained_3_minus_oneshot_3": {
+      "mean_house_difference": 0.0,
+      "interval95": [
+        -0.025000000000000005,
+        0.025000000000000005
+      ]
+    },
+    "straight_trained_3_minus_trained_1": {
+      "mean_house_difference": 0.0,
+      "interval95": [
+        0.0,
+        0.0
+      ]
+    }
+  }
+}

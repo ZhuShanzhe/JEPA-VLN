@@ -1,0 +1,26 @@
+{
+  "train": {
+    "source_rgb_jpeg_sha_matched": 2,
+    "plans": 42,
+    "first_collision_index_mismatches": 0,
+    "same_instance_pixel_mismatches": 0,
+    "issued_actions": 337,
+    "reached": 7
+  },
+  "val": {
+    "source_rgb_jpeg_sha_matched": 2,
+    "plans": 42,
+    "first_collision_index_mismatches": 0,
+    "same_instance_pixel_mismatches": 0,
+    "issued_actions": 180,
+    "reached": 0
+  },
+  "test": {
+    "source_rgb_jpeg_sha_matched": 2,
+    "plans": 42,
+    "first_collision_index_mismatches": 0,
+    "same_instance_pixel_mismatches": 0,
+    "issued_actions": 421,
+    "reached": 7
+  }
+}

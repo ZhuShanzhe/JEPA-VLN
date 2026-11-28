@@ -1,0 +1,375 @@
+{
+  "scope": "Existing natural action trees; native camera; repeated target crops for one physical route deduplicated; previous target-conditioned reach estimates averaged over its cues. Current RGB-D source reconstructed and source JPEG verified. Frozen checker thresholds used without tuning.",
+  "learned_threshold": 0.24156206110037926,
+  "previous_calibrated_on_new_val": 0.9983323216438293,
+  "subsets": {
+    "all": {
+      "checker": {
+        "n": 480,
+        "reachable": 455,
+        "blocked": 25,
+        "accepted": 375,
+        "blocked_allowed": 19,
+        "reachable_rejected": 99,
+        "brier": 0.28081465396263994,
+        "auroc": 0.5050989010989011
+      },
+      "previous": {
+        "n": 480,
+        "reachable": 455,
+        "blocked": 25,
+        "accepted": 477,
+        "blocked_allowed": 25,
+        "reachable_rejected": 3,
+        "brier": 0.058593937941943466,
+        "auroc": 0.4357802197802198
+      },
+      "previous_calibrated": {
+        "n": 480,
+        "reachable": 455,
+        "blocked": 25,
+        "accepted": 77,
+        "blocked_allowed": 5,
+        "reachable_rejected": 383,
+        "brier": 0.058593937941943466,
+        "auroc": 0.4357802197802198
+      },
+      "geometry": {
+        "n": 480,
+        "reachable": 455,
+        "blocked": 25,
+        "accepted": 46,
+        "blocked_allowed": 4,
+        "reachable_rejected": 413,
+        "brier": 0.86875,
+        "auroc": 0.4661538461538462
+      },
+      "mixed": {
+        "n": 480,
+        "reachable": 455,
+        "blocked": 25,
+        "accepted": 249,
+        "blocked_allowed": 6,
+        "reachable_rejected": 212,
+        "brier": 0.33035309310015937,
+        "auroc": 0.7367032967032967
+      },
+      "mixed_selective": {
+        "admitted": 76,
+        "admitted_feasible": 75,
+        "denied": 88,
+        "denied_actually_blocked": 6,
+        "deferred": 316
+      }
+    },
+    "12": {
+      "checker": {
+        "n": 96,
+        "reachable": 95,
+        "blocked": 1,
+        "accepted": 92,
+        "blocked_allowed": 1,
+        "reachable_rejected": 4,
+        "brier": 0.10026781801679974,
+        "auroc": 0.05263157894736842
+      },
+      "previous": {
+        "n": 96,
+        "reachable": 95,
+        "blocked": 1,
+        "accepted": 96,
+        "blocked_allowed": 1,
+        "reachable_rejected": 0,
+        "brier": 0.013743954358406621,
+        "auroc": 0.42105263157894735
+      },
+      "previous_calibrated": {
+        "n": 96,
+        "reachable": 95,
+        "blocked": 1,
+        "accepted": 25,
+        "blocked_allowed": 0,
+        "reachable_rejected": 70,
+        "brier": 0.013743954358406621,
+        "auroc": 0.42105263157894735
+      },
+      "geometry": {
+        "n": 96,
+        "reachable": 95,
+        "blocked": 1,
+        "accepted": 13,
+        "blocked_allowed": 0,
+        "reachable_rejected": 82,
+        "brier": 0.8541666666666666,
+        "auroc": 0.5684210526315789
+      },
+      "mixed": {
+        "n": 96,
+        "reachable": 95,
+        "blocked": 1,
+        "accepted": 91,
+        "blocked_allowed": 1,
+        "reachable_rejected": 5,
+        "brier": 0.12449090149962087,
+        "auroc": 0.7473684210526316
+      },
+      "mixed_selective": {
+        "admitted": 46,
+        "admitted_feasible": 46,
+        "denied": 10,
+        "denied_actually_blocked": 0,
+        "deferred": 40
+      }
+    },
+    "24": {
+      "checker": {
+        "n": 96,
+        "reachable": 94,
+        "blocked": 2,
+        "accepted": 88,
+        "blocked_allowed": 1,
+        "reachable_rejected": 7,
+        "brier": 0.1608194440712216,
+        "auroc": 0.5478723404255319
+      },
+      "previous": {
+        "n": 96,
+        "reachable": 94,
+        "blocked": 2,
+        "accepted": 96,
+        "blocked_allowed": 2,
+        "reachable_rejected": 0,
+        "brier": 0.02766694133101603,
+        "auroc": 0.3191489361702128
+      },
+      "previous_calibrated": {
+        "n": 96,
+        "reachable": 94,
+        "blocked": 2,
+        "accepted": 16,
+        "blocked_allowed": 1,
+        "reachable_rejected": 79,
+        "brier": 0.02766694133101603,
+        "auroc": 0.3191489361702128
+      },
+      "geometry": {
+        "n": 96,
+        "reachable": 94,
+        "blocked": 2,
+        "accepted": 13,
+        "blocked_allowed": 1,
+        "reachable_rejected": 82,
+        "brier": 0.8645833333333334,
+        "auroc": 0.31382978723404253
+      },
+      "mixed": {
+        "n": 96,
+        "reachable": 94,
+        "blocked": 2,
+        "accepted": 79,
+        "blocked_allowed": 2,
+        "reachable_rejected": 17,
+        "brier": 0.2600261456232118,
+        "auroc": 0.324468085106383
+      },
+      "mixed_selective": {
+        "admitted": 17,
+        "admitted_feasible": 16,
+        "denied": 55,
+        "denied_actually_blocked": 1,
+        "deferred": 24
+      }
+    },
+    "52": {
+      "checker": {
+        "n": 96,
+        "reachable": 91,
+        "blocked": 5,
+        "accepted": 72,
+        "blocked_allowed": 4,
+        "reachable_rejected": 23,
+        "brier": 0.3260969526200862,
+        "auroc": 0.3274725274725274
+      },
+      "previous": {
+        "n": 96,
+        "reachable": 91,
+        "blocked": 5,
+        "accepted": 95,
+        "blocked_allowed": 5,
+        "reachable_rejected": 1,
+        "brier": 0.06452033685593635,
+        "auroc": 0.3098901098901099
+      },
+      "previous_calibrated": {
+        "n": 96,
+        "reachable": 91,
+        "blocked": 5,
+        "accepted": 13,
+        "blocked_allowed": 1,
+        "reachable_rejected": 79,
+        "brier": 0.06452033685593635,
+        "auroc": 0.3098901098901099
+      },
+      "geometry": {
+        "n": 96,
+        "reachable": 91,
+        "blocked": 5,
+        "accepted": 9,
+        "blocked_allowed": 1,
+        "reachable_rejected": 83,
+        "brier": 0.875,
+        "auroc": 0.443956043956044
+      },
+      "mixed": {
+        "n": 96,
+        "reachable": 91,
+        "blocked": 5,
+        "accepted": 31,
+        "blocked_allowed": 1,
+        "reachable_rejected": 61,
+        "brier": 0.3679492531331403,
+        "auroc": 0.6285714285714286
+      },
+      "mixed_selective": {
+        "admitted": 6,
+        "admitted_feasible": 6,
+        "denied": 2,
+        "denied_actually_blocked": 0,
+        "deferred": 88
+      }
+    },
+    "80": {
+      "checker": {
+        "n": 96,
+        "reachable": 88,
+        "blocked": 8,
+        "accepted": 66,
+        "blocked_allowed": 6,
+        "reachable_rejected": 28,
+        "brier": 0.38286127954415905,
+        "auroc": 0.3380681818181818
+      },
+      "previous": {
+        "n": 96,
+        "reachable": 88,
+        "blocked": 8,
+        "accepted": 95,
+        "blocked_allowed": 8,
+        "reachable_rejected": 1,
+        "brier": 0.08623278609638015,
+        "auroc": 0.4446022727272727
+      },
+      "previous_calibrated": {
+        "n": 96,
+        "reachable": 88,
+        "blocked": 8,
+        "accepted": 12,
+        "blocked_allowed": 1,
+        "reachable_rejected": 77,
+        "brier": 0.08623278609638015,
+        "auroc": 0.4446022727272727
+      },
+      "geometry": {
+        "n": 96,
+        "reachable": 88,
+        "blocked": 8,
+        "accepted": 5,
+        "blocked_allowed": 1,
+        "reachable_rejected": 84,
+        "brier": 0.8854166666666666,
+        "auroc": 0.46022727272727276
+      },
+      "mixed": {
+        "n": 96,
+        "reachable": 88,
+        "blocked": 8,
+        "accepted": 22,
+        "blocked_allowed": 1,
+        "reachable_rejected": 67,
+        "brier": 0.4439058582398801,
+        "auroc": 0.75
+      },
+      "mixed_selective": {
+        "admitted": 4,
+        "admitted_feasible": 4,
+        "denied": 8,
+        "denied_actually_blocked": 2,
+        "deferred": 84
+      }
+    },
+    "108": {
+      "checker": {
+        "n": 96,
+        "reachable": 87,
+        "blocked": 9,
+        "accepted": 57,
+        "blocked_allowed": 7,
+        "reachable_rejected": 37,
+        "brier": 0.4340277755609332,
+        "auroc": 0.3601532567049809
+      },
+      "previous": {
+        "n": 96,
+        "reachable": 87,
+        "blocked": 9,
+        "accepted": 95,
+        "blocked_allowed": 9,
+        "reachable_rejected": 1,
+        "brier": 0.10080567106797818,
+        "auroc": 0.438058748403576
+      },
+      "previous_calibrated": {
+        "n": 96,
+        "reachable": 87,
+        "blocked": 9,
+        "accepted": 11,
+        "blocked_allowed": 2,
+        "reachable_rejected": 78,
+        "brier": 0.10080567106797818,
+        "auroc": 0.438058748403576
+      },
+      "geometry": {
+        "n": 96,
+        "reachable": 87,
+        "blocked": 9,
+        "accepted": 6,
+        "blocked_allowed": 1,
+        "reachable_rejected": 82,
+        "brier": 0.8645833333333334,
+        "auroc": 0.4731800766283525
+      },
+      "mixed": {
+        "n": 96,
+        "reachable": 87,
+        "blocked": 9,
+        "accepted": 26,
+        "blocked_allowed": 1,
+        "reachable_rejected": 62,
+        "brier": 0.4553933070049437,
+        "auroc": 0.7062579821200511
+      },
+      "mixed_selective": {
+        "admitted": 3,
+        "admitted_feasible": 3,
+        "denied": 13,
+        "denied_actually_blocked": 3,
+        "deferred": 80
+      }
+    }
+  },
+  "mixed_operating_points": {
+    "near": {
+      "advisory": 0.39992424224660794,
+      "admit": 0.7298189184959748,
+      "block": 0.5104067134871064,
+      "validation_n": 5204
+    },
+    "long": {
+      "advisory": 0.482655456908101,
+      "admit": 0.819843110079774,
+      "block": 0.12030617719940867,
+      "validation_n": 1296
+    }
+  }
+}

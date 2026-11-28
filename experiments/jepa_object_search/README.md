@@ -1,5 +1,7 @@
 # 多实例寻物中的前沿选择
 
+[JEPA 局部复看导航：轨迹通行检查与受阻改道](path_feedback_20261128/README.md)
+
 [长轨迹 JEPA 和联合观察位预测](pose_horizon_20261128/README.md)
 
 [观察路线生成与 JEPA 选路](observation_route_20261128/README.md)

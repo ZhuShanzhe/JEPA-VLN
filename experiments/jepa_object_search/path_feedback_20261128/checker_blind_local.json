@@ -1,0 +1,84 @@
+{
+  "weight_sha256": [
+    "048e656fe894ac63155bd88d0b99e6f8611e8eb71f0a24df1aa95fbe57a130e8",
+    "b20520e5c387584d74fa400b009b64f6cfc2c3ff49fd688c37f9e23536980c41"
+  ],
+  "test_houses": 6,
+  "original_jepa_half": {
+    "n": 4340,
+    "feasible": 482,
+    "blocked": 3858,
+    "accepted": 3744,
+    "false_veto": 78,
+    "false_permit": 3340,
+    "false_veto_rate": 0.16182572614107885,
+    "false_permit_rate": 0.8657335406946605,
+    "auroc": 0.5393704196055402,
+    "ap_blocked": 0.8908484167703181,
+    "brier": 0.744041383266449
+  },
+  "original_safety_veto": {
+    "n": 4340,
+    "feasible": 482,
+    "blocked": 3858,
+    "accepted": 422,
+    "false_veto": 422,
+    "false_permit": 362,
+    "false_veto_rate": 0.8755186721991701,
+    "false_permit_rate": 0.09383100051840332,
+    "auroc": 0.5153251636412133,
+    "ap_blocked": 0.8919774741824013,
+    "brier": 0.18064516129032257
+  },
+  "points_only": {
+    "n": 4340,
+    "feasible": 482,
+    "blocked": 3858,
+    "accepted": 1075,
+    "false_veto": 5,
+    "false_permit": 598,
+    "false_veto_rate": 0.01037344398340249,
+    "false_permit_rate": 0.15500259201658892,
+    "auroc": 0.9173119820000043,
+    "ap_blocked": 0.9814914028209041,
+    "brier": 0.13894009216589862
+  },
+  "checker_v1": {
+    "n": 4340,
+    "feasible": 482,
+    "blocked": 3858,
+    "accepted": 908,
+    "false_veto": 63,
+    "false_permit": 489,
+    "false_veto_rate": 0.13070539419087138,
+    "false_permit_rate": 0.12674961119751166,
+    "auroc": 0.9319119725353794,
+    "ap_blocked": 0.9915412890378625,
+    "brier": 0.06482445787144389
+  },
+  "mixed": {
+    "n": 4340,
+    "feasible": 482,
+    "blocked": 3858,
+    "accepted": 671,
+    "false_veto": 146,
+    "false_permit": 335,
+    "false_veto_rate": 0.3029045643153527,
+    "false_permit_rate": 0.08683255572835666,
+    "auroc": 0.9383237181348666,
+    "ap_blocked": 0.99239840884712,
+    "brier": 0.06049887345145716
+  },
+  "selective": {
+    "n": 4340,
+    "admitted": 97,
+    "blocked": 4029,
+    "deferred": 214,
+    "admit_correct": 69,
+    "block_correct": 3722,
+    "admit_precision": 0.711340206185567,
+    "block_precision": 0.9238024323653512,
+    "deferred_feasible": 106,
+    "coverage": 0.9506912442396314
+  }
+}

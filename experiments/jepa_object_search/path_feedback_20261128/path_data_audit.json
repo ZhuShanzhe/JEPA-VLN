@@ -1,0 +1,216 @@
+{
+  "splits": {
+    "train": {
+      "houses": 12,
+      "rows": 7945,
+      "reachable": 920,
+      "joint": 647,
+      "blocked": 7025,
+      "source_cues": 227,
+      "low_coverage_reachable": 852,
+      "low_coverage_unreachable": 3734,
+      "observed_footprint_hit_and_blocked": 5974,
+      "observed_footprint_hit_but_passed": 30,
+      "no_footprint_hit_but_blocked": 1051,
+      "groups": 1135,
+      "all_blocked": 867,
+      "all_reachable": 39,
+      "mixed_reach": 229,
+      "direct_failed_but_detour_passed": 34,
+      "direct_failed_but_detour_clear": 20,
+      "several_reached": 213,
+      "visible_label_disagrees_among_reached": 0
+    },
+    "val": {
+      "houses": 6,
+      "rows": 4340,
+      "reachable": 522,
+      "joint": 381,
+      "blocked": 3818,
+      "source_cues": 124,
+      "low_coverage_reachable": 485,
+      "low_coverage_unreachable": 2022,
+      "observed_footprint_hit_and_blocked": 3144,
+      "observed_footprint_hit_but_passed": 5,
+      "no_footprint_hit_but_blocked": 674,
+      "groups": 620,
+      "all_blocked": 462,
+      "all_reachable": 25,
+      "mixed_reach": 133,
+      "direct_failed_but_detour_passed": 26,
+      "direct_failed_but_detour_clear": 17,
+      "several_reached": 119,
+      "visible_label_disagrees_among_reached": 0
+    },
+    "test": {
+      "houses": 12,
+      "rows": 8890,
+      "reachable": 1183,
+      "joint": 746,
+      "blocked": 7707,
+      "source_cues": 254,
+      "low_coverage_reachable": 1109,
+      "low_coverage_unreachable": 3990,
+      "observed_footprint_hit_and_blocked": 6431,
+      "observed_footprint_hit_but_passed": 6,
+      "no_footprint_hit_but_blocked": 1276,
+      "groups": 1270,
+      "all_blocked": 942,
+      "all_reachable": 55,
+      "mixed_reach": 273,
+      "direct_failed_but_detour_passed": 57,
+      "direct_failed_but_detour_clear": 39,
+      "several_reached": 267,
+      "visible_label_disagrees_among_reached": 0
+    }
+  },
+  "counts_by_forward_distance": {
+    "test_2_forward_steps": {
+      "groups": 254,
+      "direct_reachable": 132,
+      "path_reachable": 146,
+      "direct_joint": 89,
+      "any_joint": 97
+    },
+    "test_4_forward_steps": {
+      "groups": 254,
+      "direct_reachable": 93,
+      "path_reachable": 117,
+      "direct_joint": 65,
+      "any_joint": 83
+    },
+    "test_8_forward_steps": {
+      "groups": 254,
+      "direct_reachable": 35,
+      "path_reachable": 46,
+      "direct_joint": 20,
+      "any_joint": 29
+    },
+    "test_12_forward_steps": {
+      "groups": 254,
+      "direct_reachable": 10,
+      "path_reachable": 17,
+      "direct_joint": 3,
+      "any_joint": 7
+    },
+    "test_20_forward_steps": {
+      "groups": 254,
+      "direct_reachable": 1,
+      "path_reachable": 2,
+      "direct_joint": 0,
+      "any_joint": 0
+    },
+    "train_2_forward_steps": {
+      "groups": 227,
+      "direct_reachable": 123,
+      "path_reachable": 131,
+      "direct_joint": 90,
+      "any_joint": 96
+    },
+    "train_4_forward_steps": {
+      "groups": 227,
+      "direct_reachable": 78,
+      "path_reachable": 90,
+      "direct_joint": 58,
+      "any_joint": 68
+    },
+    "train_8_forward_steps": {
+      "groups": 227,
+      "direct_reachable": 23,
+      "path_reachable": 33,
+      "direct_joint": 15,
+      "any_joint": 19
+    },
+    "train_12_forward_steps": {
+      "groups": 227,
+      "direct_reachable": 9,
+      "path_reachable": 13,
+      "direct_joint": 4,
+      "any_joint": 4
+    },
+    "train_20_forward_steps": {
+      "groups": 227,
+      "direct_reachable": 1,
+      "path_reachable": 1,
+      "direct_joint": 0,
+      "any_joint": 0
+    },
+    "val_2_forward_steps": {
+      "groups": 124,
+      "direct_reachable": 63,
+      "path_reachable": 70,
+      "direct_joint": 44,
+      "any_joint": 50
+    },
+    "val_4_forward_steps": {
+      "groups": 124,
+      "direct_reachable": 48,
+      "path_reachable": 58,
+      "direct_joint": 32,
+      "any_joint": 39
+    },
+    "val_8_forward_steps": {
+      "groups": 124,
+      "direct_reachable": 17,
+      "path_reachable": 21,
+      "direct_joint": 13,
+      "any_joint": 17
+    },
+    "val_12_forward_steps": {
+      "groups": 124,
+      "direct_reachable": 3,
+      "path_reachable": 7,
+      "direct_joint": 3,
+      "any_joint": 3
+    },
+    "val_20_forward_steps": {
+      "groups": 124,
+      "direct_reachable": 1,
+      "path_reachable": 2,
+      "direct_joint": 0,
+      "any_joint": 0
+    }
+  },
+  "source_images": "Native fixed horizontal camera, depth and observed target bbox, same source image for all candidate plans.",
+  "first_blocked_definition": "First 1-based forward primitive causing a simulator contact or actual horizontal displacement <0.23m. Collision ends attempted trajectory. No future pose, semantic ID or true pathway enters any actor feature.",
+  "split": "Disjoint building families across train, validation and test on the original 12/6/12 HSSD experiment cohort. New start and candidate generation. This is a derived test, not an official benchmark.",
+  "geometry": "All 7 nominal end positions and headings match within each target group. Reach also requires horizontal endpoint error <0.14m.",
+  "max_actual_endpoint_difference_m": {
+    "test": 2.384185791015625e-06,
+    "train": 1.3353568997326322e-05,
+    "val": 3.015782985847835e-06
+  },
+  "source_depth_strata": "Low coverage is mean observed footprint samples <65% over proposed forward steps. Visible hit is an actual surface observed in an occupied cell on the nominal footprint. Neither diagnostic is perfect collision evidence.",
+  "sha256": {
+    "test_102344193.npz": "051a257a61511a1e9b9114381b3a784538b2a6f7588dc8b159cf6b0c3d67fbee",
+    "test_102344250.npz": "ee3047edd6552a0b158c549fca6aaabf7931076d951caa66c25374149ec9eec7",
+    "test_102816627.npz": "a674e19ea50c7788b906668c56e0a3e0e6cfbc8769e5ad81635784a948442eb0",
+    "test_103997403_171030405.npz": "ae99a8ee4136537fdc8e3221253d5e52a89a44c521ddbdee021a7322e1be414a",
+    "test_103997445_171030492.npz": "c053687356144b4b1ec6f7e7dbc9540b4855091500f6eabb04d166ce547705a3",
+    "test_103997718_171030855.npz": "45ff9713aa9a4300693828a3f8cf76cd48a405ab19815b18132ca0f691ec2bb3",
+    "test_104348181_171513120.npz": "f1d12538e88da93d7e883fe84e6e7074cdf232534cebf4d4f52237181e968b30",
+    "test_104862687_172226883.npz": "9c0ceefb1f2b1e7ee2ee71b1af6eed7d4a39bbad49fcb83278a73419182faae1",
+    "test_105515541_173104641.npz": "e3fc9a18564905a7dd1c5b5214fee5edda95f4d190cce7ae7adbcdae550d98bd",
+    "test_106879044_174887172.npz": "2991df403ad3322f6c530b86c88401c45a726e2e4fa1f67c5d9f94b5473088f8",
+    "test_107733912_175999623.npz": "6d492a17d4528f041db81415e2a95181b697854dd00b70be7f9d188b41c046da",
+    "test_108294846_176710506.npz": "706ecbdc384f111ea90e552a1f6db1141f8698ef81228281b2f53a6095a972d9",
+    "train_102344469.npz": "b1ad6b0d3bacbc9da9fb78eaec3aec95cb9986bb080a8621e260b48994bc96d0",
+    "train_104348037_171512898.npz": "54d230ed02357880c8597077eeeee3b4842e4d47c7f18a78c64a1f6be53cedfa",
+    "train_104348082_171512994.npz": "01fce06aa4dce637485d5799979ad5dd45fd46f140b7c17c5b93c3c20c672f4f",
+    "train_104348511_171513654.npz": "53ab4aade1d89cd5575de00bb57143839d6e59623c3bd683c6ac7e0a42a4925f",
+    "train_104862513_172226580.npz": "20c203318ad8a2939b9bc6bbf84361e825b12e5eb4d888187046c245bab569aa",
+    "train_104862573_172226682.npz": "8438c38606eed60fd191e297b11a7993ec2971e3b5c5589cc759df6036af0816",
+    "train_105515160_173104077.npz": "bc87345714ee5b8d83a1b2d96587da5a7c042bf36d0704d6e94fc2c9720aa001",
+    "train_105515175_173104107.npz": "b11f8db09ff027d1ba6ad2ac4d8ce6be29e7452c2845a0b99eebb4898221a488",
+    "train_105515490_173104566.npz": "a69058c4099c1e6f2aa008cca44a35428b83047d9a221892bf4e598c56d699ad",
+    "train_108294417_176709879.npz": "83a053322c9473bc0aaf22bf29d95864ab5cd00020d61f9db3062774cbd35208",
+    "train_108294465_176709960.npz": "d0601fc07d5032087fc1b77d3da784b6696fa196022a604c1256976774c5a171",
+    "train_108294558_176710095.npz": "f4c83d5af65cca2eb38a49bb1e28e42afdfa96509134a04d154b838c8915526c",
+    "val_102816009.npz": "c2cf38503e2248235aa9a2e3d5f79f393a97a347f234939aab4e20b9f9b00194",
+    "val_103997919_171031233.npz": "7cc1565801cdae84f99716172ed5de473d45e381573631fa12ac288715f4444b",
+    "val_104348133_171513054.npz": "746b15f7dc686123cedad5e9fed0c5f91a8f56050106a1bbe55baea420812c69",
+    "val_106366134_174226362.npz": "3a2363d1da4e19b511f191b52f2a7f38049eedb213b4ab2fd2218aac3a4b5f12",
+    "val_107734017_175999794.npz": "6366c75b6836f54258600cced14beb35961152e7dc67ce0f95c9f26f8e7576c3",
+    "val_108294816_176710461.npz": "405c2b630f46e45af7deb101540724543e7122f82ed51b1ae99b13ccf3cb49af"
+  }
+}

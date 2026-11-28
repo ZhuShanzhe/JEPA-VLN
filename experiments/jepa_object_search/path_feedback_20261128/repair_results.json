@@ -1,0 +1,454 @@
+{
+  "fit": {
+    "trained": {
+      "training_rejected_requests": 6297,
+      "validation_rejected_requests": 3298,
+      "epoch": 3
+    },
+    "without_hint": {
+      "training_rejected_requests": 6297,
+      "validation_rejected_requests": 3298,
+      "epoch": 3
+    },
+    "geometry_only": {
+      "training_rejected_requests": 6297,
+      "validation_rejected_requests": 3298,
+      "epoch": 4
+    }
+  },
+  "three_check_ceiling": true,
+  "straight": {
+    "arms": {
+      "original": {
+        "groups": 1270,
+        "initial_reach": 271,
+        "oracle_reach": 328,
+        "oracle_joint": 216,
+        "initial_blocked_with_detour": 57,
+        "initial_rejected": 839,
+        "requested_observation": 0,
+        "changed": 0,
+        "issued": 1270,
+        "reached": 271,
+        "joint": 177,
+        "issued_blocked": 999,
+        "saved_blocked": 0,
+        "lost_original_reach": 0,
+        "issued_nominal_actions": 11684,
+        "checks": 1270
+      },
+      "gate_only": {
+        "groups": 1270,
+        "initial_reach": 271,
+        "oracle_reach": 328,
+        "oracle_joint": 216,
+        "initial_blocked_with_detour": 57,
+        "initial_rejected": 839,
+        "requested_observation": 839,
+        "changed": 0,
+        "issued": 431,
+        "reached": 267,
+        "joint": 175,
+        "issued_blocked": 164,
+        "saved_blocked": 0,
+        "lost_original_reach": 4,
+        "issued_nominal_actions": 1746,
+        "checks": 1270
+      },
+      "jepa_order": {
+        "groups": 1270,
+        "initial_reach": 271,
+        "oracle_reach": 328,
+        "oracle_joint": 216,
+        "initial_blocked_with_detour": 57,
+        "initial_rejected": 839,
+        "requested_observation": 822,
+        "changed": 17,
+        "issued": 448,
+        "reached": 274,
+        "joint": 180,
+        "issued_blocked": 174,
+        "saved_blocked": 5,
+        "lost_original_reach": 2,
+        "issued_nominal_actions": 2092,
+        "checks": 2936
+      },
+      "independent": {
+        "groups": 1270,
+        "initial_reach": 271,
+        "oracle_reach": 328,
+        "oracle_joint": 216,
+        "initial_blocked_with_detour": 57,
+        "initial_rejected": 839,
+        "requested_observation": 791,
+        "changed": 48,
+        "issued": 479,
+        "reached": 282,
+        "joint": 186,
+        "issued_blocked": 197,
+        "saved_blocked": 12,
+        "lost_original_reach": 1,
+        "issued_nominal_actions": 2734,
+        "checks": 2900
+      },
+      "one_shot": {
+        "groups": 1270,
+        "initial_reach": 271,
+        "oracle_reach": 328,
+        "oracle_joint": 216,
+        "initial_blocked_with_detour": 57,
+        "initial_rejected": 839,
+        "requested_observation": 791,
+        "changed": 152,
+        "issued": 479,
+        "reached": 269,
+        "joint": 182,
+        "issued_blocked": 210,
+        "saved_blocked": 19,
+        "lost_original_reach": 21,
+        "issued_nominal_actions": 4362,
+        "checks": 479
+      },
+      "geometry_only": {
+        "groups": 1270,
+        "initial_reach": 271,
+        "oracle_reach": 328,
+        "oracle_joint": 216,
+        "initial_blocked_with_detour": 57,
+        "initial_rejected": 839,
+        "requested_observation": 791,
+        "changed": 48,
+        "issued": 479,
+        "reached": 283,
+        "joint": 187,
+        "issued_blocked": 196,
+        "saved_blocked": 13,
+        "lost_original_reach": 1,
+        "issued_nominal_actions": 2710,
+        "checks": 2900
+      },
+      "without_hint": {
+        "groups": 1270,
+        "initial_reach": 271,
+        "oracle_reach": 328,
+        "oracle_joint": 216,
+        "initial_blocked_with_detour": 57,
+        "initial_rejected": 839,
+        "requested_observation": 791,
+        "changed": 48,
+        "issued": 479,
+        "reached": 283,
+        "joint": 187,
+        "issued_blocked": 196,
+        "saved_blocked": 13,
+        "lost_original_reach": 1,
+        "issued_nominal_actions": 2704,
+        "checks": 2900
+      },
+      "mask_at_test": {
+        "groups": 1270,
+        "initial_reach": 271,
+        "oracle_reach": 328,
+        "oracle_joint": 216,
+        "initial_blocked_with_detour": 57,
+        "initial_rejected": 839,
+        "requested_observation": 791,
+        "changed": 48,
+        "issued": 479,
+        "reached": 283,
+        "joint": 187,
+        "issued_blocked": 196,
+        "saved_blocked": 13,
+        "lost_original_reach": 1,
+        "issued_nominal_actions": 2704,
+        "checks": 2901
+      },
+      "trained": {
+        "groups": 1270,
+        "initial_reach": 271,
+        "oracle_reach": 328,
+        "oracle_joint": 216,
+        "initial_blocked_with_detour": 57,
+        "initial_rejected": 839,
+        "requested_observation": 791,
+        "changed": 48,
+        "issued": 479,
+        "reached": 283,
+        "joint": 187,
+        "issued_blocked": 196,
+        "saved_blocked": 13,
+        "lost_original_reach": 1,
+        "issued_nominal_actions": 2708,
+        "checks": 2900
+      }
+    },
+    "reach_house_paired": {
+      "original": {
+        "houses": 12,
+        "macro_difference": 0.009403559403559405,
+        "interval95": [
+          0.003787878787878788,
+          0.016089466089466088
+        ]
+      },
+      "jepa_order": {
+        "houses": 12,
+        "macro_difference": 0.0070947570947570955,
+        "interval95": [
+          0.0024410774410774413,
+          0.012445887445887446
+        ]
+      },
+      "independent": {
+        "houses": 12,
+        "macro_difference": 0.0007936507936507938,
+        "interval95": [
+          0.0,
+          0.002380952380952381
+        ]
+      },
+      "geometry_only": {
+        "houses": 12,
+        "macro_difference": 0.0,
+        "interval95": [
+          0.0,
+          0.0
+        ]
+      },
+      "without_hint": {
+        "houses": 12,
+        "macro_difference": 0.0,
+        "interval95": [
+          0.0,
+          0.0
+        ]
+      },
+      "mask_at_test": {
+        "houses": 12,
+        "macro_difference": 0.0,
+        "interval95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "scene_count": 12
+  },
+  "old_jepa": {
+    "arms": {
+      "original": {
+        "groups": 1270,
+        "initial_reach": 172,
+        "oracle_reach": 328,
+        "oracle_joint": 216,
+        "initial_blocked_with_detour": 156,
+        "initial_rejected": 959,
+        "requested_observation": 0,
+        "changed": 0,
+        "issued": 1270,
+        "reached": 172,
+        "joint": 108,
+        "issued_blocked": 1098,
+        "saved_blocked": 0,
+        "lost_original_reach": 0,
+        "issued_nominal_actions": 26920,
+        "checks": 1270
+      },
+      "gate_only": {
+        "groups": 1270,
+        "initial_reach": 172,
+        "oracle_reach": 328,
+        "oracle_joint": 216,
+        "initial_blocked_with_detour": 156,
+        "initial_rejected": 959,
+        "requested_observation": 959,
+        "changed": 0,
+        "issued": 311,
+        "reached": 161,
+        "joint": 104,
+        "issued_blocked": 150,
+        "saved_blocked": 0,
+        "lost_original_reach": 11,
+        "issued_nominal_actions": 4638,
+        "checks": 1270
+      },
+      "jepa_order": {
+        "groups": 1270,
+        "initial_reach": 172,
+        "oracle_reach": 328,
+        "oracle_joint": 216,
+        "initial_blocked_with_detour": 156,
+        "initial_rejected": 959,
+        "requested_observation": 885,
+        "changed": 74,
+        "issued": 385,
+        "reached": 188,
+        "joint": 118,
+        "issued_blocked": 197,
+        "saved_blocked": 21,
+        "lost_original_reach": 5,
+        "issued_nominal_actions": 6032,
+        "checks": 3141
+      },
+      "independent": {
+        "groups": 1270,
+        "initial_reach": 172,
+        "oracle_reach": 328,
+        "oracle_joint": 216,
+        "initial_blocked_with_detour": 156,
+        "initial_rejected": 959,
+        "requested_observation": 791,
+        "changed": 168,
+        "issued": 479,
+        "reached": 237,
+        "joint": 155,
+        "issued_blocked": 242,
+        "saved_blocked": 67,
+        "lost_original_reach": 2,
+        "issued_nominal_actions": 6534,
+        "checks": 3023
+      },
+      "one_shot": {
+        "groups": 1270,
+        "initial_reach": 172,
+        "oracle_reach": 328,
+        "oracle_joint": 216,
+        "initial_blocked_with_detour": 156,
+        "initial_rejected": 959,
+        "requested_observation": 791,
+        "changed": 361,
+        "issued": 479,
+        "reached": 269,
+        "joint": 182,
+        "issued_blocked": 210,
+        "saved_blocked": 114,
+        "lost_original_reach": 17,
+        "issued_nominal_actions": 4362,
+        "checks": 479
+      },
+      "geometry_only": {
+        "groups": 1270,
+        "initial_reach": 172,
+        "oracle_reach": 328,
+        "oracle_joint": 216,
+        "initial_blocked_with_detour": 156,
+        "initial_rejected": 959,
+        "requested_observation": 791,
+        "changed": 168,
+        "issued": 479,
+        "reached": 243,
+        "joint": 154,
+        "issued_blocked": 236,
+        "saved_blocked": 73,
+        "lost_original_reach": 2,
+        "issued_nominal_actions": 6018,
+        "checks": 3023
+      },
+      "without_hint": {
+        "groups": 1270,
+        "initial_reach": 172,
+        "oracle_reach": 328,
+        "oracle_joint": 216,
+        "initial_blocked_with_detour": 156,
+        "initial_rejected": 959,
+        "requested_observation": 791,
+        "changed": 168,
+        "issued": 479,
+        "reached": 244,
+        "joint": 155,
+        "issued_blocked": 235,
+        "saved_blocked": 74,
+        "lost_original_reach": 2,
+        "issued_nominal_actions": 5998,
+        "checks": 3021
+      },
+      "mask_at_test": {
+        "groups": 1270,
+        "initial_reach": 172,
+        "oracle_reach": 328,
+        "oracle_joint": 216,
+        "initial_blocked_with_detour": 156,
+        "initial_rejected": 959,
+        "requested_observation": 791,
+        "changed": 168,
+        "issued": 479,
+        "reached": 244,
+        "joint": 155,
+        "issued_blocked": 235,
+        "saved_blocked": 74,
+        "lost_original_reach": 2,
+        "issued_nominal_actions": 5984,
+        "checks": 3021
+      },
+      "trained": {
+        "groups": 1270,
+        "initial_reach": 172,
+        "oracle_reach": 328,
+        "oracle_joint": 216,
+        "initial_blocked_with_detour": 156,
+        "initial_rejected": 959,
+        "requested_observation": 791,
+        "changed": 168,
+        "issued": 479,
+        "reached": 244,
+        "joint": 155,
+        "issued_blocked": 235,
+        "saved_blocked": 74,
+        "lost_original_reach": 2,
+        "issued_nominal_actions": 6016,
+        "checks": 3021
+      }
+    },
+    "reach_house_paired": {
+      "original": {
+        "houses": 12,
+        "macro_difference": 0.05586325439266615,
+        "interval95": [
+          0.04044011544011544,
+          0.07135732323232323
+        ]
+      },
+      "jepa_order": {
+        "houses": 12,
+        "macro_difference": 0.044042667572079336,
+        "interval95": [
+          0.03300805675805676,
+          0.05521600812041985
+        ]
+      },
+      "independent": {
+        "houses": 12,
+        "macro_difference": 0.005675805675805675,
+        "interval95": [
+          0.0007575757575757576,
+          0.011688311688311687
+        ]
+      },
+      "geometry_only": {
+        "houses": 12,
+        "macro_difference": 0.0007575757575757576,
+        "interval95": [
+          0.0,
+          0.0022727272727272726
+        ]
+      },
+      "without_hint": {
+        "houses": 12,
+        "macro_difference": 0.0,
+        "interval95": [
+          0.0,
+          0.0
+        ]
+      },
+      "mask_at_test": {
+        "houses": 12,
+        "macro_difference": 0.0,
+        "interval95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "scene_count": 12
+  }
+}
