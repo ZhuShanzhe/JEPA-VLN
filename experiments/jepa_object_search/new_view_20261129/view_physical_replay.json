@@ -1,0 +1,23 @@
+{
+  "train": {
+    "scans": 3,
+    "scanning_actions": 6,
+    "routes": 51,
+    "route_actions": 669,
+    "reached": 27
+  },
+  "val": {
+    "scans": 3,
+    "scanning_actions": 6,
+    "routes": 52,
+    "route_actions": 476,
+    "reached": 20
+  },
+  "blind": {
+    "scans": 18,
+    "scanning_actions": 36,
+    "routes": 310,
+    "route_actions": 2473,
+    "reached": 64
+  }
+}

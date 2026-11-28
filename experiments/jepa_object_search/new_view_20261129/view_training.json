@@ -1,0 +1,44 @@
+{
+  "train": {
+    "houses": 12,
+    "requests": 288,
+    "old_seven_blocked": 221,
+    "requests_with_reached_endpoint": 267,
+    "old_seven_blocked_with_endpoint": 200,
+    "unique_reached_views": 2240,
+    "clear_views": 754,
+    "future_roi_views": 2076,
+    "same_request_positive_negative_pairs": 2284
+  },
+  "val": {
+    "houses": 6,
+    "requests": 144,
+    "old_seven_blocked": 106,
+    "requests_with_reached_endpoint": 136,
+    "old_seven_blocked_with_endpoint": 98,
+    "unique_reached_views": 1172,
+    "clear_views": 402,
+    "future_roi_views": 1043,
+    "same_request_positive_negative_pairs": 1482
+  },
+  "seed": 29117,
+  "target": "Predict projected normalized frozen CLIP future scene and same-instance crop residuals (24 coordinates each); supervise visible on physically reached endpoints only, 369-pixel criterion. Current-input geometric projected area prior shared by matched controls.",
+  "weights": "Hard original requests with all seven physically blocked weighted x2, initially small cues weighted x1.5; reached endpoints deduplicated per request and pairs ranked within request; all weights use training/calibration data only.",
+  "models": {
+    "jepa": {
+      "epoch": 26,
+      "calibration_objective": 0.43023431301116943,
+      "sha256": "b70eac9c504495709a6ea5e25a6c89738972ad635dcde496689e0ee0bd418b75"
+    },
+    "direct": {
+      "epoch": 20,
+      "calibration_objective": 0.45252230763435364,
+      "sha256": "ab2508bbf38352be58900057ec695ac74067e7bb36550a2a4f51c44d86c0aac4"
+    },
+    "no_map": {
+      "epoch": 25,
+      "calibration_objective": 0.4390665888786316,
+      "sha256": "fba9924a61dbc32fab49e5df1b2f7c63f4283c4acb9e306679acbcb9269c57a1"
+    }
+  }
+}

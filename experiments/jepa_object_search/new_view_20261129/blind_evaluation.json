@@ -1,0 +1,2601 @@
+{
+  "houses": 3,
+  "subsets": {
+    "all": {
+      "old": {
+        "groups": 180,
+        "issue": 66,
+        "reach": 38,
+        "clear": 16,
+        "actions": 784,
+        "collision": 28,
+        "reach_not_clear": 22,
+        "additional_actions": 424,
+        "ever_clear": 60,
+        "rescued": 0,
+        "regressed": 0,
+        "defer": 114
+      },
+      "old_all_seven": {
+        "groups": 180,
+        "issue": 66,
+        "reach": 38,
+        "clear": 16,
+        "actions": 784,
+        "collision": 28,
+        "reach_not_clear": 22,
+        "additional_actions": 424,
+        "ever_clear": 60,
+        "rescued": 0,
+        "regressed": 0,
+        "defer": 114
+      },
+      "old_second_look": {
+        "groups": 180,
+        "issue": 76,
+        "reach": 41,
+        "clear": 16,
+        "actions": 880,
+        "collision": 35,
+        "reach_not_clear": 25,
+        "additional_actions": 520,
+        "ever_clear": 60,
+        "rescued": 0,
+        "regressed": 0,
+        "defer": 104
+      },
+      "jepa": {
+        "groups": 180,
+        "issue": 180,
+        "reach": 98,
+        "clear": 59,
+        "actions": 1550,
+        "collision": 82,
+        "reach_not_clear": 39,
+        "additional_actions": 1190,
+        "ever_clear": 79,
+        "rescued": 43,
+        "regressed": 0
+      },
+      "direct": {
+        "groups": 180,
+        "issue": 180,
+        "reach": 96,
+        "clear": 57,
+        "actions": 1552,
+        "collision": 84,
+        "reach_not_clear": 39,
+        "additional_actions": 1192,
+        "ever_clear": 78,
+        "rescued": 41,
+        "regressed": 0
+      },
+      "jepa_no_map": {
+        "groups": 180,
+        "issue": 180,
+        "reach": 98,
+        "clear": 59,
+        "actions": 1562,
+        "collision": 82,
+        "reach_not_clear": 39,
+        "additional_actions": 1202,
+        "ever_clear": 79,
+        "rescued": 43,
+        "regressed": 0
+      },
+      "prior_visible": {
+        "groups": 180,
+        "issue": 180,
+        "reach": 90,
+        "clear": 48,
+        "actions": 1475,
+        "collision": 90,
+        "reach_not_clear": 42,
+        "additional_actions": 1115,
+        "ever_clear": 71,
+        "rescued": 32,
+        "regressed": 0
+      },
+      "projected_area": {
+        "groups": 180,
+        "issue": 180,
+        "reach": 102,
+        "clear": 59,
+        "actions": 1487,
+        "collision": 78,
+        "reach_not_clear": 43,
+        "additional_actions": 1127,
+        "ever_clear": 79,
+        "rescued": 43,
+        "regressed": 0
+      },
+      "nearest": {
+        "groups": 180,
+        "issue": 180,
+        "reach": 102,
+        "clear": 47,
+        "actions": 1062,
+        "collision": 78,
+        "reach_not_clear": 55,
+        "additional_actions": 702,
+        "ever_clear": 68,
+        "rescued": 31,
+        "regressed": 0
+      },
+      "stay_at_source": {
+        "groups": 180,
+        "clear": 24,
+        "actions": 0
+      },
+      "shared_sweep_best": {
+        "groups": 180,
+        "clear": 52,
+        "actions": 360
+      },
+      "candidate_ceiling": {
+        "groups": 180,
+        "old_reach": 47,
+        "old_clear": 20,
+        "alt_reach": 170,
+        "alt_clear": 107,
+        "alt_admitted_clear": 106
+      }
+    },
+    "at_least_one_old_reachable": {
+      "old": {
+        "groups": 47,
+        "issue": 42,
+        "reach": 38,
+        "clear": 16,
+        "actions": 376,
+        "collision": 4,
+        "reach_not_clear": 22,
+        "additional_actions": 282,
+        "ever_clear": 21,
+        "rescued": 0,
+        "regressed": 0,
+        "defer": 5
+      },
+      "old_all_seven": {
+        "groups": 47,
+        "issue": 42,
+        "reach": 38,
+        "clear": 16,
+        "actions": 376,
+        "collision": 4,
+        "reach_not_clear": 22,
+        "additional_actions": 282,
+        "ever_clear": 21,
+        "rescued": 0,
+        "regressed": 0,
+        "defer": 5
+      },
+      "old_second_look": {
+        "groups": 47,
+        "issue": 46,
+        "reach": 41,
+        "clear": 16,
+        "actions": 449,
+        "collision": 5,
+        "reach_not_clear": 25,
+        "additional_actions": 355,
+        "ever_clear": 21,
+        "rescued": 0,
+        "regressed": 0,
+        "defer": 1
+      },
+      "jepa": {
+        "groups": 47,
+        "issue": 47,
+        "reach": 42,
+        "clear": 19,
+        "actions": 416,
+        "collision": 5,
+        "reach_not_clear": 23,
+        "additional_actions": 322,
+        "ever_clear": 22,
+        "rescued": 3,
+        "regressed": 0
+      },
+      "direct": {
+        "groups": 47,
+        "issue": 47,
+        "reach": 42,
+        "clear": 19,
+        "actions": 416,
+        "collision": 5,
+        "reach_not_clear": 23,
+        "additional_actions": 322,
+        "ever_clear": 22,
+        "rescued": 3,
+        "regressed": 0
+      },
+      "jepa_no_map": {
+        "groups": 47,
+        "issue": 47,
+        "reach": 42,
+        "clear": 19,
+        "actions": 416,
+        "collision": 5,
+        "reach_not_clear": 23,
+        "additional_actions": 322,
+        "ever_clear": 22,
+        "rescued": 3,
+        "regressed": 0
+      },
+      "prior_visible": {
+        "groups": 47,
+        "issue": 47,
+        "reach": 42,
+        "clear": 18,
+        "actions": 408,
+        "collision": 5,
+        "reach_not_clear": 24,
+        "additional_actions": 314,
+        "ever_clear": 21,
+        "rescued": 2,
+        "regressed": 0
+      },
+      "projected_area": {
+        "groups": 47,
+        "issue": 47,
+        "reach": 43,
+        "clear": 19,
+        "actions": 417,
+        "collision": 4,
+        "reach_not_clear": 24,
+        "additional_actions": 323,
+        "ever_clear": 22,
+        "rescued": 3,
+        "regressed": 0
+      },
+      "nearest": {
+        "groups": 47,
+        "issue": 47,
+        "reach": 43,
+        "clear": 19,
+        "actions": 395,
+        "collision": 4,
+        "reach_not_clear": 24,
+        "additional_actions": 301,
+        "ever_clear": 22,
+        "rescued": 3,
+        "regressed": 0
+      },
+      "stay_at_source": {
+        "groups": 47,
+        "clear": 1,
+        "actions": 0
+      },
+      "shared_sweep_best": {
+        "groups": 47,
+        "clear": 13,
+        "actions": 94
+      },
+      "candidate_ceiling": {
+        "groups": 47,
+        "old_reach": 47,
+        "old_clear": 20,
+        "alt_reach": 47,
+        "alt_clear": 31,
+        "alt_admitted_clear": 31
+      }
+    },
+    "unchanged": {
+      "old": {
+        "groups": 66,
+        "issue": 66,
+        "reach": 38,
+        "clear": 16,
+        "actions": 556,
+        "collision": 28,
+        "reach_not_clear": 22,
+        "additional_actions": 424,
+        "ever_clear": 20,
+        "rescued": 0,
+        "regressed": 0
+      },
+      "old_all_seven": {
+        "groups": 66,
+        "issue": 66,
+        "reach": 38,
+        "clear": 16,
+        "actions": 556,
+        "collision": 28,
+        "reach_not_clear": 22,
+        "additional_actions": 424,
+        "ever_clear": 20,
+        "rescued": 0,
+        "regressed": 0
+      },
+      "old_second_look": {
+        "groups": 66,
+        "issue": 66,
+        "reach": 38,
+        "clear": 16,
+        "actions": 556,
+        "collision": 28,
+        "reach_not_clear": 22,
+        "additional_actions": 424,
+        "ever_clear": 20,
+        "rescued": 0,
+        "regressed": 0
+      },
+      "jepa": {
+        "groups": 66,
+        "issue": 66,
+        "reach": 38,
+        "clear": 16,
+        "actions": 556,
+        "collision": 28,
+        "reach_not_clear": 22,
+        "additional_actions": 424,
+        "ever_clear": 20,
+        "rescued": 0,
+        "regressed": 0
+      },
+      "direct": {
+        "groups": 66,
+        "issue": 66,
+        "reach": 38,
+        "clear": 16,
+        "actions": 556,
+        "collision": 28,
+        "reach_not_clear": 22,
+        "additional_actions": 424,
+        "ever_clear": 20,
+        "rescued": 0,
+        "regressed": 0
+      },
+      "jepa_no_map": {
+        "groups": 66,
+        "issue": 66,
+        "reach": 38,
+        "clear": 16,
+        "actions": 556,
+        "collision": 28,
+        "reach_not_clear": 22,
+        "additional_actions": 424,
+        "ever_clear": 20,
+        "rescued": 0,
+        "regressed": 0
+      },
+      "prior_visible": {
+        "groups": 66,
+        "issue": 66,
+        "reach": 38,
+        "clear": 16,
+        "actions": 556,
+        "collision": 28,
+        "reach_not_clear": 22,
+        "additional_actions": 424,
+        "ever_clear": 20,
+        "rescued": 0,
+        "regressed": 0
+      },
+      "projected_area": {
+        "groups": 66,
+        "issue": 66,
+        "reach": 38,
+        "clear": 16,
+        "actions": 556,
+        "collision": 28,
+        "reach_not_clear": 22,
+        "additional_actions": 424,
+        "ever_clear": 20,
+        "rescued": 0,
+        "regressed": 0
+      },
+      "nearest": {
+        "groups": 66,
+        "issue": 66,
+        "reach": 38,
+        "clear": 16,
+        "actions": 556,
+        "collision": 28,
+        "reach_not_clear": 22,
+        "additional_actions": 424,
+        "ever_clear": 20,
+        "rescued": 0,
+        "regressed": 0
+      },
+      "stay_at_source": {
+        "groups": 66,
+        "clear": 0,
+        "actions": 0
+      },
+      "shared_sweep_best": {
+        "groups": 66,
+        "clear": 12,
+        "actions": 132
+      },
+      "candidate_ceiling": {
+        "groups": 66,
+        "old_reach": 42,
+        "old_clear": 19,
+        "alt_reach": 60,
+        "alt_clear": 40,
+        "alt_admitted_clear": 40
+      }
+    },
+    "start_unclear": {
+      "old": {
+        "groups": 156,
+        "issue": 66,
+        "reach": 38,
+        "clear": 16,
+        "actions": 736,
+        "collision": 28,
+        "reach_not_clear": 22,
+        "additional_actions": 424,
+        "ever_clear": 36,
+        "rescued": 0,
+        "regressed": 0,
+        "defer": 90
+      },
+      "old_all_seven": {
+        "groups": 156,
+        "issue": 66,
+        "reach": 38,
+        "clear": 16,
+        "actions": 736,
+        "collision": 28,
+        "reach_not_clear": 22,
+        "additional_actions": 424,
+        "ever_clear": 36,
+        "rescued": 0,
+        "regressed": 0,
+        "defer": 90
+      },
+      "old_second_look": {
+        "groups": 156,
+        "issue": 75,
+        "reach": 40,
+        "clear": 16,
+        "actions": 804,
+        "collision": 35,
+        "reach_not_clear": 24,
+        "additional_actions": 492,
+        "ever_clear": 36,
+        "rescued": 0,
+        "regressed": 0,
+        "defer": 81
+      },
+      "jepa": {
+        "groups": 156,
+        "issue": 156,
+        "reach": 81,
+        "clear": 42,
+        "actions": 1330,
+        "collision": 75,
+        "reach_not_clear": 39,
+        "additional_actions": 1018,
+        "ever_clear": 55,
+        "rescued": 26,
+        "regressed": 0
+      },
+      "direct": {
+        "groups": 156,
+        "issue": 156,
+        "reach": 80,
+        "clear": 41,
+        "actions": 1334,
+        "collision": 76,
+        "reach_not_clear": 39,
+        "additional_actions": 1022,
+        "ever_clear": 54,
+        "rescued": 25,
+        "regressed": 0
+      },
+      "jepa_no_map": {
+        "groups": 156,
+        "issue": 156,
+        "reach": 81,
+        "clear": 42,
+        "actions": 1326,
+        "collision": 75,
+        "reach_not_clear": 39,
+        "additional_actions": 1014,
+        "ever_clear": 55,
+        "rescued": 26,
+        "regressed": 0
+      },
+      "prior_visible": {
+        "groups": 156,
+        "issue": 156,
+        "reach": 74,
+        "clear": 32,
+        "actions": 1296,
+        "collision": 82,
+        "reach_not_clear": 42,
+        "additional_actions": 984,
+        "ever_clear": 47,
+        "rescued": 16,
+        "regressed": 0
+      },
+      "projected_area": {
+        "groups": 156,
+        "issue": 156,
+        "reach": 85,
+        "clear": 43,
+        "actions": 1267,
+        "collision": 71,
+        "reach_not_clear": 42,
+        "additional_actions": 955,
+        "ever_clear": 55,
+        "rescued": 27,
+        "regressed": 0
+      },
+      "nearest": {
+        "groups": 156,
+        "issue": 156,
+        "reach": 85,
+        "clear": 30,
+        "actions": 955,
+        "collision": 71,
+        "reach_not_clear": 55,
+        "additional_actions": 643,
+        "ever_clear": 44,
+        "rescued": 14,
+        "regressed": 0
+      },
+      "stay_at_source": {
+        "groups": 156,
+        "clear": 0,
+        "actions": 0
+      },
+      "shared_sweep_best": {
+        "groups": 156,
+        "clear": 28,
+        "actions": 312
+      },
+      "candidate_ceiling": {
+        "groups": 156,
+        "old_reach": 46,
+        "old_clear": 20,
+        "alt_reach": 147,
+        "alt_clear": 84,
+        "alt_admitted_clear": 83
+      }
+    },
+    "start_or_scan_clear": {
+      "old": {
+        "groups": 52,
+        "issue": 12,
+        "reach": 9,
+        "clear": 8,
+        "actions": 189,
+        "collision": 3,
+        "reach_not_clear": 1,
+        "additional_actions": 85,
+        "ever_clear": 52,
+        "rescued": 0,
+        "regressed": 0,
+        "defer": 40
+      },
+      "old_all_seven": {
+        "groups": 52,
+        "issue": 12,
+        "reach": 9,
+        "clear": 8,
+        "actions": 189,
+        "collision": 3,
+        "reach_not_clear": 1,
+        "additional_actions": 85,
+        "ever_clear": 52,
+        "rescued": 0,
+        "regressed": 0,
+        "defer": 40
+      },
+      "old_second_look": {
+        "groups": 52,
+        "issue": 15,
+        "reach": 10,
+        "clear": 8,
+        "actions": 219,
+        "collision": 5,
+        "reach_not_clear": 2,
+        "additional_actions": 115,
+        "ever_clear": 52,
+        "rescued": 0,
+        "regressed": 0,
+        "defer": 37
+      },
+      "jepa": {
+        "groups": 52,
+        "issue": 52,
+        "reach": 33,
+        "clear": 32,
+        "actions": 478,
+        "collision": 19,
+        "reach_not_clear": 1,
+        "additional_actions": 374,
+        "ever_clear": 52,
+        "rescued": 24,
+        "regressed": 0
+      },
+      "direct": {
+        "groups": 52,
+        "issue": 52,
+        "reach": 32,
+        "clear": 31,
+        "actions": 480,
+        "collision": 20,
+        "reach_not_clear": 1,
+        "additional_actions": 376,
+        "ever_clear": 52,
+        "rescued": 23,
+        "regressed": 0
+      },
+      "jepa_no_map": {
+        "groups": 52,
+        "issue": 52,
+        "reach": 33,
+        "clear": 32,
+        "actions": 494,
+        "collision": 19,
+        "reach_not_clear": 1,
+        "additional_actions": 390,
+        "ever_clear": 52,
+        "rescued": 24,
+        "regressed": 0
+      },
+      "prior_visible": {
+        "groups": 52,
+        "issue": 52,
+        "reach": 31,
+        "clear": 29,
+        "actions": 423,
+        "collision": 21,
+        "reach_not_clear": 2,
+        "additional_actions": 319,
+        "ever_clear": 52,
+        "rescued": 21,
+        "regressed": 0
+      },
+      "projected_area": {
+        "groups": 52,
+        "issue": 52,
+        "reach": 36,
+        "clear": 32,
+        "actions": 471,
+        "collision": 16,
+        "reach_not_clear": 4,
+        "additional_actions": 367,
+        "ever_clear": 52,
+        "rescued": 24,
+        "regressed": 0
+      },
+      "nearest": {
+        "groups": 52,
+        "issue": 52,
+        "reach": 37,
+        "clear": 31,
+        "actions": 306,
+        "collision": 15,
+        "reach_not_clear": 6,
+        "additional_actions": 202,
+        "ever_clear": 52,
+        "rescued": 23,
+        "regressed": 0
+      },
+      "stay_at_source": {
+        "groups": 52,
+        "clear": 24,
+        "actions": 0
+      },
+      "shared_sweep_best": {
+        "groups": 52,
+        "clear": 52,
+        "actions": 104
+      },
+      "candidate_ceiling": {
+        "groups": 52,
+        "old_reach": 13,
+        "old_clear": 10,
+        "alt_reach": 50,
+        "alt_clear": 48,
+        "alt_admitted_clear": 47
+      }
+    },
+    "old_already_succeeded": {
+      "old": {
+        "groups": 16,
+        "issue": 16,
+        "reach": 16,
+        "clear": 16,
+        "actions": 132,
+        "collision": 0,
+        "reach_not_clear": 0,
+        "additional_actions": 100,
+        "ever_clear": 16,
+        "rescued": 0,
+        "regressed": 0
+      },
+      "old_all_seven": {
+        "groups": 16,
+        "issue": 16,
+        "reach": 16,
+        "clear": 16,
+        "actions": 132,
+        "collision": 0,
+        "reach_not_clear": 0,
+        "additional_actions": 100,
+        "ever_clear": 16,
+        "rescued": 0,
+        "regressed": 0
+      },
+      "old_second_look": {
+        "groups": 16,
+        "issue": 16,
+        "reach": 16,
+        "clear": 16,
+        "actions": 132,
+        "collision": 0,
+        "reach_not_clear": 0,
+        "additional_actions": 100,
+        "ever_clear": 16,
+        "rescued": 0,
+        "regressed": 0
+      },
+      "jepa": {
+        "groups": 16,
+        "issue": 16,
+        "reach": 16,
+        "clear": 16,
+        "actions": 132,
+        "collision": 0,
+        "reach_not_clear": 0,
+        "additional_actions": 100,
+        "ever_clear": 16,
+        "rescued": 0,
+        "regressed": 0
+      },
+      "direct": {
+        "groups": 16,
+        "issue": 16,
+        "reach": 16,
+        "clear": 16,
+        "actions": 132,
+        "collision": 0,
+        "reach_not_clear": 0,
+        "additional_actions": 100,
+        "ever_clear": 16,
+        "rescued": 0,
+        "regressed": 0
+      },
+      "jepa_no_map": {
+        "groups": 16,
+        "issue": 16,
+        "reach": 16,
+        "clear": 16,
+        "actions": 132,
+        "collision": 0,
+        "reach_not_clear": 0,
+        "additional_actions": 100,
+        "ever_clear": 16,
+        "rescued": 0,
+        "regressed": 0
+      },
+      "prior_visible": {
+        "groups": 16,
+        "issue": 16,
+        "reach": 16,
+        "clear": 16,
+        "actions": 132,
+        "collision": 0,
+        "reach_not_clear": 0,
+        "additional_actions": 100,
+        "ever_clear": 16,
+        "rescued": 0,
+        "regressed": 0
+      },
+      "projected_area": {
+        "groups": 16,
+        "issue": 16,
+        "reach": 16,
+        "clear": 16,
+        "actions": 132,
+        "collision": 0,
+        "reach_not_clear": 0,
+        "additional_actions": 100,
+        "ever_clear": 16,
+        "rescued": 0,
+        "regressed": 0
+      },
+      "nearest": {
+        "groups": 16,
+        "issue": 16,
+        "reach": 16,
+        "clear": 16,
+        "actions": 132,
+        "collision": 0,
+        "reach_not_clear": 0,
+        "additional_actions": 100,
+        "ever_clear": 16,
+        "rescued": 0,
+        "regressed": 0
+      },
+      "stay_at_source": {
+        "groups": 16,
+        "clear": 0,
+        "actions": 0
+      },
+      "shared_sweep_best": {
+        "groups": 16,
+        "clear": 8,
+        "actions": 32
+      },
+      "candidate_ceiling": {
+        "groups": 16,
+        "old_reach": 16,
+        "old_clear": 16,
+        "alt_reach": 16,
+        "alt_clear": 14,
+        "alt_admitted_clear": 14
+      }
+    },
+    "true_all_blocked": {
+      "old": {
+        "groups": 133,
+        "defer": 109,
+        "actions": 408,
+        "additional_actions": 142,
+        "ever_clear": 39,
+        "rescued": 0,
+        "regressed": 0,
+        "issue": 24,
+        "reach": 0,
+        "clear": 0,
+        "collision": 24,
+        "reach_not_clear": 0
+      },
+      "old_all_seven": {
+        "groups": 133,
+        "defer": 109,
+        "actions": 408,
+        "additional_actions": 142,
+        "ever_clear": 39,
+        "rescued": 0,
+        "regressed": 0,
+        "issue": 24,
+        "reach": 0,
+        "clear": 0,
+        "collision": 24,
+        "reach_not_clear": 0
+      },
+      "old_second_look": {
+        "groups": 133,
+        "defer": 103,
+        "actions": 431,
+        "additional_actions": 165,
+        "ever_clear": 39,
+        "rescued": 0,
+        "regressed": 0,
+        "issue": 30,
+        "reach": 0,
+        "clear": 0,
+        "collision": 30,
+        "reach_not_clear": 0
+      },
+      "jepa": {
+        "groups": 133,
+        "issue": 133,
+        "reach": 56,
+        "clear": 40,
+        "actions": 1134,
+        "collision": 77,
+        "reach_not_clear": 16,
+        "additional_actions": 868,
+        "ever_clear": 57,
+        "rescued": 40,
+        "regressed": 0
+      },
+      "direct": {
+        "groups": 133,
+        "issue": 133,
+        "reach": 54,
+        "clear": 38,
+        "actions": 1136,
+        "collision": 79,
+        "reach_not_clear": 16,
+        "additional_actions": 870,
+        "ever_clear": 56,
+        "rescued": 38,
+        "regressed": 0
+      },
+      "jepa_no_map": {
+        "groups": 133,
+        "issue": 133,
+        "reach": 56,
+        "clear": 40,
+        "actions": 1146,
+        "collision": 77,
+        "reach_not_clear": 16,
+        "additional_actions": 880,
+        "ever_clear": 57,
+        "rescued": 40,
+        "regressed": 0
+      },
+      "prior_visible": {
+        "groups": 133,
+        "issue": 133,
+        "reach": 48,
+        "clear": 30,
+        "actions": 1067,
+        "collision": 85,
+        "reach_not_clear": 18,
+        "additional_actions": 801,
+        "ever_clear": 50,
+        "rescued": 30,
+        "regressed": 0
+      },
+      "projected_area": {
+        "groups": 133,
+        "issue": 133,
+        "reach": 59,
+        "clear": 40,
+        "actions": 1070,
+        "collision": 74,
+        "reach_not_clear": 19,
+        "additional_actions": 804,
+        "ever_clear": 57,
+        "rescued": 40,
+        "regressed": 0
+      },
+      "nearest": {
+        "groups": 133,
+        "issue": 133,
+        "reach": 59,
+        "clear": 28,
+        "actions": 667,
+        "collision": 74,
+        "reach_not_clear": 31,
+        "additional_actions": 401,
+        "ever_clear": 46,
+        "rescued": 28,
+        "regressed": 0
+      },
+      "stay_at_source": {
+        "groups": 133,
+        "clear": 23,
+        "actions": 0
+      },
+      "shared_sweep_best": {
+        "groups": 133,
+        "clear": 39,
+        "actions": 266
+      },
+      "candidate_ceiling": {
+        "groups": 133,
+        "old_reach": 0,
+        "old_clear": 0,
+        "alt_reach": 123,
+        "alt_clear": 76,
+        "alt_admitted_clear": 75
+      }
+    },
+    "all_old_predicted_rejected": {
+      "old": {
+        "groups": 114,
+        "defer": 114,
+        "actions": 228,
+        "additional_actions": 0,
+        "ever_clear": 40,
+        "rescued": 0,
+        "regressed": 0
+      },
+      "old_all_seven": {
+        "groups": 114,
+        "defer": 114,
+        "actions": 228,
+        "additional_actions": 0,
+        "ever_clear": 40,
+        "rescued": 0,
+        "regressed": 0
+      },
+      "old_second_look": {
+        "groups": 114,
+        "defer": 104,
+        "actions": 324,
+        "additional_actions": 96,
+        "ever_clear": 40,
+        "rescued": 0,
+        "regressed": 0,
+        "issue": 10,
+        "reach": 3,
+        "clear": 0,
+        "collision": 7,
+        "reach_not_clear": 3
+      },
+      "jepa": {
+        "groups": 114,
+        "issue": 114,
+        "reach": 60,
+        "clear": 43,
+        "actions": 994,
+        "collision": 54,
+        "reach_not_clear": 17,
+        "additional_actions": 766,
+        "ever_clear": 59,
+        "rescued": 43,
+        "regressed": 0
+      },
+      "direct": {
+        "groups": 114,
+        "issue": 114,
+        "reach": 58,
+        "clear": 41,
+        "actions": 996,
+        "collision": 56,
+        "reach_not_clear": 17,
+        "additional_actions": 768,
+        "ever_clear": 58,
+        "rescued": 41,
+        "regressed": 0
+      },
+      "jepa_no_map": {
+        "groups": 114,
+        "issue": 114,
+        "reach": 60,
+        "clear": 43,
+        "actions": 1006,
+        "collision": 54,
+        "reach_not_clear": 17,
+        "additional_actions": 778,
+        "ever_clear": 59,
+        "rescued": 43,
+        "regressed": 0
+      },
+      "prior_visible": {
+        "groups": 114,
+        "issue": 114,
+        "reach": 52,
+        "clear": 32,
+        "actions": 919,
+        "collision": 62,
+        "reach_not_clear": 20,
+        "additional_actions": 691,
+        "ever_clear": 51,
+        "rescued": 32,
+        "regressed": 0
+      },
+      "projected_area": {
+        "groups": 114,
+        "issue": 114,
+        "reach": 64,
+        "clear": 43,
+        "actions": 931,
+        "collision": 50,
+        "reach_not_clear": 21,
+        "additional_actions": 703,
+        "ever_clear": 59,
+        "rescued": 43,
+        "regressed": 0
+      },
+      "nearest": {
+        "groups": 114,
+        "issue": 114,
+        "reach": 64,
+        "clear": 31,
+        "actions": 506,
+        "collision": 50,
+        "reach_not_clear": 33,
+        "additional_actions": 278,
+        "ever_clear": 48,
+        "rescued": 31,
+        "regressed": 0
+      },
+      "stay_at_source": {
+        "groups": 114,
+        "clear": 24,
+        "actions": 0
+      },
+      "shared_sweep_best": {
+        "groups": 114,
+        "clear": 40,
+        "actions": 228
+      },
+      "candidate_ceiling": {
+        "groups": 114,
+        "old_reach": 5,
+        "old_clear": 1,
+        "alt_reach": 110,
+        "alt_clear": 67,
+        "alt_admitted_clear": 66
+      }
+    },
+    "both_start_scan_unclear": {
+      "old": {
+        "groups": 128,
+        "defer": 74,
+        "actions": 595,
+        "additional_actions": 339,
+        "ever_clear": 8,
+        "rescued": 0,
+        "regressed": 0,
+        "issue": 54,
+        "reach": 29,
+        "clear": 8,
+        "collision": 25,
+        "reach_not_clear": 21
+      },
+      "old_all_seven": {
+        "groups": 128,
+        "defer": 74,
+        "actions": 595,
+        "additional_actions": 339,
+        "ever_clear": 8,
+        "rescued": 0,
+        "regressed": 0,
+        "issue": 54,
+        "reach": 29,
+        "clear": 8,
+        "collision": 25,
+        "reach_not_clear": 21
+      },
+      "old_second_look": {
+        "groups": 128,
+        "defer": 67,
+        "actions": 661,
+        "additional_actions": 405,
+        "ever_clear": 8,
+        "rescued": 0,
+        "regressed": 0,
+        "issue": 61,
+        "reach": 31,
+        "clear": 8,
+        "collision": 30,
+        "reach_not_clear": 23
+      },
+      "jepa": {
+        "groups": 128,
+        "issue": 128,
+        "reach": 65,
+        "clear": 27,
+        "actions": 1072,
+        "collision": 63,
+        "reach_not_clear": 38,
+        "additional_actions": 816,
+        "ever_clear": 27,
+        "rescued": 19,
+        "regressed": 0
+      },
+      "direct": {
+        "groups": 128,
+        "issue": 128,
+        "reach": 64,
+        "clear": 26,
+        "actions": 1072,
+        "collision": 64,
+        "reach_not_clear": 38,
+        "additional_actions": 816,
+        "ever_clear": 26,
+        "rescued": 18,
+        "regressed": 0
+      },
+      "jepa_no_map": {
+        "groups": 128,
+        "issue": 128,
+        "reach": 65,
+        "clear": 27,
+        "actions": 1068,
+        "collision": 63,
+        "reach_not_clear": 38,
+        "additional_actions": 812,
+        "ever_clear": 27,
+        "rescued": 19,
+        "regressed": 0
+      },
+      "prior_visible": {
+        "groups": 128,
+        "issue": 128,
+        "reach": 59,
+        "clear": 19,
+        "actions": 1052,
+        "collision": 69,
+        "reach_not_clear": 40,
+        "additional_actions": 796,
+        "ever_clear": 19,
+        "rescued": 11,
+        "regressed": 0
+      },
+      "projected_area": {
+        "groups": 128,
+        "issue": 128,
+        "reach": 66,
+        "clear": 27,
+        "actions": 1016,
+        "collision": 62,
+        "reach_not_clear": 39,
+        "additional_actions": 760,
+        "ever_clear": 27,
+        "rescued": 19,
+        "regressed": 0
+      },
+      "nearest": {
+        "groups": 128,
+        "issue": 128,
+        "reach": 65,
+        "clear": 16,
+        "actions": 756,
+        "collision": 63,
+        "reach_not_clear": 49,
+        "additional_actions": 500,
+        "ever_clear": 16,
+        "rescued": 8,
+        "regressed": 0
+      },
+      "stay_at_source": {
+        "groups": 128,
+        "clear": 0,
+        "actions": 0
+      },
+      "shared_sweep_best": {
+        "groups": 128,
+        "clear": 0,
+        "actions": 256
+      },
+      "candidate_ceiling": {
+        "groups": 128,
+        "old_reach": 34,
+        "old_clear": 10,
+        "alt_reach": 120,
+        "alt_clear": 59,
+        "alt_admitted_clear": 59
+      }
+    },
+    "true_all_blocked_and_start_scan_unclear": {
+      "old": {
+        "groups": 94,
+        "defer": 72,
+        "actions": 314,
+        "additional_actions": 126,
+        "ever_clear": 0,
+        "rescued": 0,
+        "regressed": 0,
+        "issue": 22,
+        "reach": 0,
+        "clear": 0,
+        "collision": 22,
+        "reach_not_clear": 0
+      },
+      "old_all_seven": {
+        "groups": 94,
+        "defer": 72,
+        "actions": 314,
+        "additional_actions": 126,
+        "ever_clear": 0,
+        "rescued": 0,
+        "regressed": 0,
+        "issue": 22,
+        "reach": 0,
+        "clear": 0,
+        "collision": 22,
+        "reach_not_clear": 0
+      },
+      "old_second_look": {
+        "groups": 94,
+        "defer": 67,
+        "actions": 336,
+        "additional_actions": 148,
+        "ever_clear": 0,
+        "rescued": 0,
+        "regressed": 0,
+        "issue": 27,
+        "reach": 0,
+        "clear": 0,
+        "collision": 27,
+        "reach_not_clear": 0
+      },
+      "jepa": {
+        "groups": 94,
+        "issue": 94,
+        "reach": 34,
+        "clear": 18,
+        "actions": 777,
+        "collision": 60,
+        "reach_not_clear": 16,
+        "additional_actions": 589,
+        "ever_clear": 18,
+        "rescued": 18,
+        "regressed": 0
+      },
+      "direct": {
+        "groups": 94,
+        "issue": 94,
+        "reach": 33,
+        "clear": 17,
+        "actions": 777,
+        "collision": 61,
+        "reach_not_clear": 16,
+        "additional_actions": 589,
+        "ever_clear": 17,
+        "rescued": 17,
+        "regressed": 0
+      },
+      "jepa_no_map": {
+        "groups": 94,
+        "issue": 94,
+        "reach": 34,
+        "clear": 18,
+        "actions": 773,
+        "collision": 60,
+        "reach_not_clear": 16,
+        "additional_actions": 585,
+        "ever_clear": 18,
+        "rescued": 18,
+        "regressed": 0
+      },
+      "prior_visible": {
+        "groups": 94,
+        "issue": 94,
+        "reach": 29,
+        "clear": 11,
+        "actions": 758,
+        "collision": 65,
+        "reach_not_clear": 18,
+        "additional_actions": 570,
+        "ever_clear": 11,
+        "rescued": 11,
+        "regressed": 0
+      },
+      "projected_area": {
+        "groups": 94,
+        "issue": 94,
+        "reach": 35,
+        "clear": 18,
+        "actions": 721,
+        "collision": 59,
+        "reach_not_clear": 17,
+        "additional_actions": 533,
+        "ever_clear": 18,
+        "rescued": 18,
+        "regressed": 0
+      },
+      "nearest": {
+        "groups": 94,
+        "issue": 94,
+        "reach": 34,
+        "clear": 7,
+        "actions": 469,
+        "collision": 60,
+        "reach_not_clear": 27,
+        "additional_actions": 281,
+        "ever_clear": 7,
+        "rescued": 7,
+        "regressed": 0
+      },
+      "stay_at_source": {
+        "groups": 94,
+        "clear": 0,
+        "actions": 0
+      },
+      "shared_sweep_best": {
+        "groups": 94,
+        "clear": 0,
+        "actions": 188
+      },
+      "candidate_ceiling": {
+        "groups": 94,
+        "old_reach": 0,
+        "old_clear": 0,
+        "alt_reach": 86,
+        "alt_clear": 41,
+        "alt_admitted_clear": 41
+      }
+    },
+    "correct_rejection": {
+      "old": {
+        "groups": 109,
+        "defer": 109,
+        "actions": 218,
+        "additional_actions": 0,
+        "ever_clear": 37,
+        "rescued": 0,
+        "regressed": 0
+      },
+      "old_all_seven": {
+        "groups": 109,
+        "defer": 109,
+        "actions": 218,
+        "additional_actions": 0,
+        "ever_clear": 37,
+        "rescued": 0,
+        "regressed": 0
+      },
+      "old_second_look": {
+        "groups": 109,
+        "defer": 103,
+        "actions": 241,
+        "additional_actions": 23,
+        "ever_clear": 37,
+        "rescued": 0,
+        "regressed": 0,
+        "issue": 6,
+        "reach": 0,
+        "clear": 0,
+        "collision": 6,
+        "reach_not_clear": 0
+      },
+      "jepa": {
+        "groups": 109,
+        "issue": 109,
+        "reach": 56,
+        "clear": 40,
+        "actions": 944,
+        "collision": 53,
+        "reach_not_clear": 16,
+        "additional_actions": 726,
+        "ever_clear": 55,
+        "rescued": 40,
+        "regressed": 0
+      },
+      "direct": {
+        "groups": 109,
+        "issue": 109,
+        "reach": 54,
+        "clear": 38,
+        "actions": 946,
+        "collision": 55,
+        "reach_not_clear": 16,
+        "additional_actions": 728,
+        "ever_clear": 54,
+        "rescued": 38,
+        "regressed": 0
+      },
+      "jepa_no_map": {
+        "groups": 109,
+        "issue": 109,
+        "reach": 56,
+        "clear": 40,
+        "actions": 956,
+        "collision": 53,
+        "reach_not_clear": 16,
+        "additional_actions": 738,
+        "ever_clear": 55,
+        "rescued": 40,
+        "regressed": 0
+      },
+      "prior_visible": {
+        "groups": 109,
+        "issue": 109,
+        "reach": 48,
+        "clear": 30,
+        "actions": 877,
+        "collision": 61,
+        "reach_not_clear": 18,
+        "additional_actions": 659,
+        "ever_clear": 48,
+        "rescued": 30,
+        "regressed": 0
+      },
+      "projected_area": {
+        "groups": 109,
+        "issue": 109,
+        "reach": 59,
+        "clear": 40,
+        "actions": 880,
+        "collision": 50,
+        "reach_not_clear": 19,
+        "additional_actions": 662,
+        "ever_clear": 55,
+        "rescued": 40,
+        "regressed": 0
+      },
+      "nearest": {
+        "groups": 109,
+        "issue": 109,
+        "reach": 59,
+        "clear": 28,
+        "actions": 477,
+        "collision": 50,
+        "reach_not_clear": 31,
+        "additional_actions": 259,
+        "ever_clear": 44,
+        "rescued": 28,
+        "regressed": 0
+      },
+      "stay_at_source": {
+        "groups": 109,
+        "clear": 23,
+        "actions": 0
+      },
+      "shared_sweep_best": {
+        "groups": 109,
+        "clear": 37,
+        "actions": 218
+      },
+      "candidate_ceiling": {
+        "groups": 109,
+        "old_reach": 0,
+        "old_clear": 0,
+        "alt_reach": 105,
+        "alt_clear": 63,
+        "alt_admitted_clear": 62
+      }
+    },
+    "start_clear": {
+      "old": {
+        "groups": 24,
+        "defer": 24,
+        "actions": 48,
+        "additional_actions": 0,
+        "ever_clear": 24,
+        "rescued": 0,
+        "regressed": 0
+      },
+      "old_all_seven": {
+        "groups": 24,
+        "defer": 24,
+        "actions": 48,
+        "additional_actions": 0,
+        "ever_clear": 24,
+        "rescued": 0,
+        "regressed": 0
+      },
+      "old_second_look": {
+        "groups": 24,
+        "defer": 23,
+        "actions": 76,
+        "additional_actions": 28,
+        "ever_clear": 24,
+        "rescued": 0,
+        "regressed": 0,
+        "issue": 1,
+        "reach": 1,
+        "clear": 0,
+        "collision": 0,
+        "reach_not_clear": 1
+      },
+      "jepa": {
+        "groups": 24,
+        "issue": 24,
+        "reach": 17,
+        "clear": 17,
+        "actions": 220,
+        "collision": 7,
+        "reach_not_clear": 0,
+        "additional_actions": 172,
+        "ever_clear": 24,
+        "rescued": 17,
+        "regressed": 0
+      },
+      "direct": {
+        "groups": 24,
+        "issue": 24,
+        "reach": 16,
+        "clear": 16,
+        "actions": 218,
+        "collision": 8,
+        "reach_not_clear": 0,
+        "additional_actions": 170,
+        "ever_clear": 24,
+        "rescued": 16,
+        "regressed": 0
+      },
+      "jepa_no_map": {
+        "groups": 24,
+        "issue": 24,
+        "reach": 17,
+        "clear": 17,
+        "actions": 236,
+        "collision": 7,
+        "reach_not_clear": 0,
+        "additional_actions": 188,
+        "ever_clear": 24,
+        "rescued": 17,
+        "regressed": 0
+      },
+      "prior_visible": {
+        "groups": 24,
+        "issue": 24,
+        "reach": 16,
+        "clear": 16,
+        "actions": 179,
+        "collision": 8,
+        "reach_not_clear": 0,
+        "additional_actions": 131,
+        "ever_clear": 24,
+        "rescued": 16,
+        "regressed": 0
+      },
+      "projected_area": {
+        "groups": 24,
+        "issue": 24,
+        "reach": 17,
+        "clear": 16,
+        "actions": 220,
+        "collision": 7,
+        "reach_not_clear": 1,
+        "additional_actions": 172,
+        "ever_clear": 24,
+        "rescued": 16,
+        "regressed": 0
+      },
+      "nearest": {
+        "groups": 24,
+        "issue": 24,
+        "reach": 17,
+        "clear": 17,
+        "actions": 107,
+        "collision": 7,
+        "reach_not_clear": 0,
+        "additional_actions": 59,
+        "ever_clear": 24,
+        "rescued": 17,
+        "regressed": 0
+      },
+      "stay_at_source": {
+        "groups": 24,
+        "clear": 24,
+        "actions": 0
+      },
+      "shared_sweep_best": {
+        "groups": 24,
+        "clear": 24,
+        "actions": 48
+      },
+      "candidate_ceiling": {
+        "groups": 24,
+        "old_reach": 1,
+        "old_clear": 0,
+        "alt_reach": 23,
+        "alt_clear": 23,
+        "alt_admitted_clear": 23
+      }
+    },
+    "true_all_blocked_old_false_admission": {
+      "old": {
+        "groups": 24,
+        "issue": 24,
+        "reach": 0,
+        "clear": 0,
+        "actions": 190,
+        "collision": 24,
+        "reach_not_clear": 0,
+        "additional_actions": 142,
+        "ever_clear": 2,
+        "rescued": 0,
+        "regressed": 0
+      },
+      "old_all_seven": {
+        "groups": 24,
+        "issue": 24,
+        "reach": 0,
+        "clear": 0,
+        "actions": 190,
+        "collision": 24,
+        "reach_not_clear": 0,
+        "additional_actions": 142,
+        "ever_clear": 2,
+        "rescued": 0,
+        "regressed": 0
+      },
+      "old_second_look": {
+        "groups": 24,
+        "issue": 24,
+        "reach": 0,
+        "clear": 0,
+        "actions": 190,
+        "collision": 24,
+        "reach_not_clear": 0,
+        "additional_actions": 142,
+        "ever_clear": 2,
+        "rescued": 0,
+        "regressed": 0
+      },
+      "jepa": {
+        "groups": 24,
+        "issue": 24,
+        "reach": 0,
+        "clear": 0,
+        "actions": 190,
+        "collision": 24,
+        "reach_not_clear": 0,
+        "additional_actions": 142,
+        "ever_clear": 2,
+        "rescued": 0,
+        "regressed": 0
+      },
+      "direct": {
+        "groups": 24,
+        "issue": 24,
+        "reach": 0,
+        "clear": 0,
+        "actions": 190,
+        "collision": 24,
+        "reach_not_clear": 0,
+        "additional_actions": 142,
+        "ever_clear": 2,
+        "rescued": 0,
+        "regressed": 0
+      },
+      "jepa_no_map": {
+        "groups": 24,
+        "issue": 24,
+        "reach": 0,
+        "clear": 0,
+        "actions": 190,
+        "collision": 24,
+        "reach_not_clear": 0,
+        "additional_actions": 142,
+        "ever_clear": 2,
+        "rescued": 0,
+        "regressed": 0
+      },
+      "prior_visible": {
+        "groups": 24,
+        "issue": 24,
+        "reach": 0,
+        "clear": 0,
+        "actions": 190,
+        "collision": 24,
+        "reach_not_clear": 0,
+        "additional_actions": 142,
+        "ever_clear": 2,
+        "rescued": 0,
+        "regressed": 0
+      },
+      "projected_area": {
+        "groups": 24,
+        "issue": 24,
+        "reach": 0,
+        "clear": 0,
+        "actions": 190,
+        "collision": 24,
+        "reach_not_clear": 0,
+        "additional_actions": 142,
+        "ever_clear": 2,
+        "rescued": 0,
+        "regressed": 0
+      },
+      "nearest": {
+        "groups": 24,
+        "issue": 24,
+        "reach": 0,
+        "clear": 0,
+        "actions": 190,
+        "collision": 24,
+        "reach_not_clear": 0,
+        "additional_actions": 142,
+        "ever_clear": 2,
+        "rescued": 0,
+        "regressed": 0
+      },
+      "stay_at_source": {
+        "groups": 24,
+        "clear": 0,
+        "actions": 0
+      },
+      "shared_sweep_best": {
+        "groups": 24,
+        "clear": 2,
+        "actions": 48
+      },
+      "candidate_ceiling": {
+        "groups": 24,
+        "old_reach": 0,
+        "old_clear": 0,
+        "alt_reach": 18,
+        "alt_clear": 13,
+        "alt_admitted_clear": 13
+      }
+    },
+    "false_rejection": {
+      "old": {
+        "groups": 5,
+        "defer": 5,
+        "actions": 10,
+        "additional_actions": 0,
+        "ever_clear": 3,
+        "rescued": 0,
+        "regressed": 0
+      },
+      "old_all_seven": {
+        "groups": 5,
+        "defer": 5,
+        "actions": 10,
+        "additional_actions": 0,
+        "ever_clear": 3,
+        "rescued": 0,
+        "regressed": 0
+      },
+      "old_second_look": {
+        "groups": 5,
+        "issue": 4,
+        "reach": 3,
+        "clear": 0,
+        "actions": 83,
+        "collision": 1,
+        "reach_not_clear": 3,
+        "additional_actions": 73,
+        "ever_clear": 3,
+        "rescued": 0,
+        "regressed": 0,
+        "defer": 1
+      },
+      "jepa": {
+        "groups": 5,
+        "issue": 5,
+        "reach": 4,
+        "clear": 3,
+        "actions": 50,
+        "collision": 1,
+        "reach_not_clear": 1,
+        "additional_actions": 40,
+        "ever_clear": 4,
+        "rescued": 3,
+        "regressed": 0
+      },
+      "direct": {
+        "groups": 5,
+        "issue": 5,
+        "reach": 4,
+        "clear": 3,
+        "actions": 50,
+        "collision": 1,
+        "reach_not_clear": 1,
+        "additional_actions": 40,
+        "ever_clear": 4,
+        "rescued": 3,
+        "regressed": 0
+      },
+      "jepa_no_map": {
+        "groups": 5,
+        "issue": 5,
+        "reach": 4,
+        "clear": 3,
+        "actions": 50,
+        "collision": 1,
+        "reach_not_clear": 1,
+        "additional_actions": 40,
+        "ever_clear": 4,
+        "rescued": 3,
+        "regressed": 0
+      },
+      "prior_visible": {
+        "groups": 5,
+        "issue": 5,
+        "reach": 4,
+        "clear": 2,
+        "actions": 42,
+        "collision": 1,
+        "reach_not_clear": 2,
+        "additional_actions": 32,
+        "ever_clear": 3,
+        "rescued": 2,
+        "regressed": 0
+      },
+      "projected_area": {
+        "groups": 5,
+        "issue": 5,
+        "reach": 5,
+        "clear": 3,
+        "actions": 51,
+        "collision": 0,
+        "reach_not_clear": 2,
+        "additional_actions": 41,
+        "ever_clear": 4,
+        "rescued": 3,
+        "regressed": 0
+      },
+      "nearest": {
+        "groups": 5,
+        "issue": 5,
+        "reach": 5,
+        "clear": 3,
+        "actions": 29,
+        "collision": 0,
+        "reach_not_clear": 2,
+        "additional_actions": 19,
+        "ever_clear": 4,
+        "rescued": 3,
+        "regressed": 0
+      },
+      "stay_at_source": {
+        "groups": 5,
+        "clear": 1,
+        "actions": 0
+      },
+      "shared_sweep_best": {
+        "groups": 5,
+        "clear": 3,
+        "actions": 10
+      },
+      "candidate_ceiling": {
+        "groups": 5,
+        "old_reach": 5,
+        "old_clear": 1,
+        "alt_reach": 5,
+        "alt_clear": 4,
+        "alt_admitted_clear": 4
+      }
+    }
+  },
+  "failure_decomposition": {
+    "all": {
+      "reached_clear": 59,
+      "alternatives_reachable_but_none_clear": 43,
+      "unchanged_old_issued_unclear": 22,
+      "unchanged_old_issued_obstructed": 28,
+      "selected_route_blocked_with_viable_alternative": 21,
+      "no_physically_reachable_alternative": 4,
+      "selected_view_unclear_with_viable_alternative": 1,
+      "shortest_admitted_route_blocked_despite_sibling": 1,
+      "all_useful_alternatives_vetoed": 1
+    },
+    "at_least_one_old_reachable": {
+      "reached_clear": 19,
+      "unchanged_old_issued_unclear": 22,
+      "unchanged_old_issued_obstructed": 4,
+      "selected_route_blocked_with_viable_alternative": 1,
+      "alternatives_reachable_but_none_clear": 1
+    },
+    "unchanged": {
+      "reached_clear": 16,
+      "unchanged_old_issued_unclear": 22,
+      "unchanged_old_issued_obstructed": 28
+    },
+    "start_unclear": {
+      "reached_clear": 42,
+      "alternatives_reachable_but_none_clear": 43,
+      "unchanged_old_issued_unclear": 22,
+      "unchanged_old_issued_obstructed": 28,
+      "no_physically_reachable_alternative": 3,
+      "selected_route_blocked_with_viable_alternative": 15,
+      "selected_view_unclear_with_viable_alternative": 1,
+      "shortest_admitted_route_blocked_despite_sibling": 1,
+      "all_useful_alternatives_vetoed": 1
+    },
+    "start_or_scan_clear": {
+      "reached_clear": 32,
+      "selected_route_blocked_with_viable_alternative": 11,
+      "unchanged_old_issued_obstructed": 3,
+      "unchanged_old_issued_unclear": 1,
+      "no_physically_reachable_alternative": 2,
+      "alternatives_reachable_but_none_clear": 2,
+      "all_useful_alternatives_vetoed": 1
+    },
+    "old_already_succeeded": {
+      "reached_clear": 16
+    },
+    "true_all_blocked": {
+      "alternatives_reachable_but_none_clear": 42,
+      "reached_clear": 40,
+      "unchanged_old_issued_obstructed": 24,
+      "selected_route_blocked_with_viable_alternative": 20,
+      "no_physically_reachable_alternative": 4,
+      "selected_view_unclear_with_viable_alternative": 1,
+      "shortest_admitted_route_blocked_despite_sibling": 1,
+      "all_useful_alternatives_vetoed": 1
+    },
+    "all_old_predicted_rejected": {
+      "alternatives_reachable_but_none_clear": 43,
+      "reached_clear": 43,
+      "selected_route_blocked_with_viable_alternative": 21,
+      "no_physically_reachable_alternative": 4,
+      "selected_view_unclear_with_viable_alternative": 1,
+      "shortest_admitted_route_blocked_despite_sibling": 1,
+      "all_useful_alternatives_vetoed": 1
+    },
+    "both_start_scan_unclear": {
+      "alternatives_reachable_but_none_clear": 41,
+      "unchanged_old_issued_unclear": 21,
+      "unchanged_old_issued_obstructed": 25,
+      "reached_clear": 27,
+      "no_physically_reachable_alternative": 2,
+      "selected_route_blocked_with_viable_alternative": 10,
+      "selected_view_unclear_with_viable_alternative": 1,
+      "shortest_admitted_route_blocked_despite_sibling": 1
+    },
+    "true_all_blocked_and_start_scan_unclear": {
+      "alternatives_reachable_but_none_clear": 40,
+      "unchanged_old_issued_obstructed": 22,
+      "reached_clear": 18,
+      "no_physically_reachable_alternative": 2,
+      "selected_route_blocked_with_viable_alternative": 10,
+      "selected_view_unclear_with_viable_alternative": 1,
+      "shortest_admitted_route_blocked_despite_sibling": 1
+    },
+    "correct_rejection": {
+      "alternatives_reachable_but_none_clear": 42,
+      "reached_clear": 40,
+      "selected_route_blocked_with_viable_alternative": 20,
+      "no_physically_reachable_alternative": 4,
+      "selected_view_unclear_with_viable_alternative": 1,
+      "shortest_admitted_route_blocked_despite_sibling": 1,
+      "all_useful_alternatives_vetoed": 1
+    },
+    "start_clear": {
+      "reached_clear": 17,
+      "selected_route_blocked_with_viable_alternative": 6,
+      "no_physically_reachable_alternative": 1
+    },
+    "true_all_blocked_old_false_admission": {
+      "unchanged_old_issued_obstructed": 24
+    },
+    "false_rejection": {
+      "reached_clear": 3,
+      "selected_route_blocked_with_viable_alternative": 1,
+      "alternatives_reachable_but_none_clear": 1
+    }
+  },
+  "paired_changes": {
+    "old": {
+      "win": 43,
+      "loss": 0
+    },
+    "old_all_seven": {
+      "win": 43,
+      "loss": 0
+    },
+    "old_second_look": {
+      "win": 43,
+      "loss": 0
+    },
+    "jepa": {
+      "win": 0,
+      "loss": 0
+    },
+    "direct": {
+      "win": 2,
+      "loss": 0
+    },
+    "jepa_no_map": {
+      "win": 0,
+      "loss": 0
+    },
+    "prior_visible": {
+      "win": 15,
+      "loss": 4
+    },
+    "projected_area": {
+      "win": 3,
+      "loss": 3
+    },
+    "nearest": {
+      "win": 20,
+      "loss": 8
+    }
+  },
+  "paired_clear": {
+    "jepa_minus_old": {
+      "house_mean": 0.2388888888888889,
+      "interval95": [
+        0.20000000000000004,
+        0.3
+      ],
+      "house_values": [
+        0.21666666666666667,
+        0.2,
+        0.3
+      ]
+    },
+    "jepa_minus_old_all_seven": {
+      "house_mean": 0.2388888888888889,
+      "interval95": [
+        0.20000000000000004,
+        0.3
+      ],
+      "house_values": [
+        0.21666666666666667,
+        0.2,
+        0.3
+      ]
+    },
+    "jepa_minus_old_second_look": {
+      "house_mean": 0.2388888888888889,
+      "interval95": [
+        0.20000000000000004,
+        0.3
+      ],
+      "house_values": [
+        0.21666666666666667,
+        0.2,
+        0.3
+      ]
+    },
+    "jepa_minus_jepa": {
+      "house_mean": 0.0,
+      "interval95": [
+        0.0,
+        0.0
+      ],
+      "house_values": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "jepa_minus_direct": {
+      "house_mean": 0.011111111111111112,
+      "interval95": [
+        0.0,
+        0.016666666666666666
+      ],
+      "house_values": [
+        0.016666666666666666,
+        0.016666666666666666,
+        0.0
+      ]
+    },
+    "jepa_minus_jepa_no_map": {
+      "house_mean": 0.0,
+      "interval95": [
+        0.0,
+        0.0
+      ],
+      "house_values": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "jepa_minus_prior_visible": {
+      "house_mean": 0.06111111111111111,
+      "interval95": [
+        0.03333333333333333,
+        0.11666666666666665
+      ],
+      "house_values": [
+        0.03333333333333333,
+        0.11666666666666667,
+        0.03333333333333333
+      ]
+    },
+    "jepa_minus_projected_area": {
+      "house_mean": -1.1564823173178713e-18,
+      "interval95": [
+        -0.05000000000000001,
+        0.03333333333333333
+      ],
+      "house_values": [
+        0.03333333333333333,
+        -0.05,
+        0.016666666666666666
+      ]
+    },
+    "jepa_minus_nearest": {
+      "house_mean": 0.06666666666666667,
+      "interval95": [
+        0.03333333333333333,
+        0.11666666666666665
+      ],
+      "house_values": [
+        0.03333333333333333,
+        0.11666666666666667,
+        0.05
+      ]
+    },
+    "jepa_minus_stay_at_source": {
+      "house_mean": 0.19444444444444442,
+      "interval95": [
+        0.11666666666666665,
+        0.26666666666666666
+      ],
+      "house_values": [
+        0.11666666666666667,
+        0.2,
+        0.26666666666666666
+      ]
+    },
+    "jepa_minus_shared_sweep_best": {
+      "house_mean": 0.03888888888888889,
+      "interval95": [
+        -0.08333333333333333,
+        0.13333333333333333
+      ],
+      "house_values": [
+        -0.08333333333333333,
+        0.06666666666666667,
+        0.13333333333333333
+      ]
+    }
+  },
+  "homes": [
+    {
+      "rows": {
+        "old": {
+          "groups": 60,
+          "issue": 26,
+          "reach": 14,
+          "clear": 6,
+          "actions": 305,
+          "collision": 12,
+          "reach_not_clear": 8,
+          "additional_actions": 185,
+          "ever_clear": 26,
+          "rescued": 0,
+          "regressed": 0,
+          "defer": 34
+        },
+        "old_all_seven": {
+          "groups": 60,
+          "issue": 26,
+          "reach": 14,
+          "clear": 6,
+          "actions": 305,
+          "collision": 12,
+          "reach_not_clear": 8,
+          "additional_actions": 185,
+          "ever_clear": 26,
+          "rescued": 0,
+          "regressed": 0,
+          "defer": 34
+        },
+        "old_second_look": {
+          "groups": 60,
+          "issue": 28,
+          "reach": 15,
+          "clear": 6,
+          "actions": 334,
+          "collision": 13,
+          "reach_not_clear": 9,
+          "additional_actions": 214,
+          "ever_clear": 26,
+          "rescued": 0,
+          "regressed": 0,
+          "defer": 32
+        },
+        "jepa": {
+          "groups": 60,
+          "issue": 60,
+          "reach": 31,
+          "clear": 19,
+          "actions": 537,
+          "collision": 29,
+          "reach_not_clear": 12,
+          "additional_actions": 417,
+          "ever_clear": 29,
+          "rescued": 13,
+          "regressed": 0
+        },
+        "direct": {
+          "groups": 60,
+          "issue": 60,
+          "reach": 30,
+          "clear": 18,
+          "actions": 536,
+          "collision": 30,
+          "reach_not_clear": 12,
+          "additional_actions": 416,
+          "ever_clear": 29,
+          "rescued": 12,
+          "regressed": 0
+        },
+        "jepa_no_map": {
+          "groups": 60,
+          "issue": 60,
+          "reach": 31,
+          "clear": 19,
+          "actions": 553,
+          "collision": 29,
+          "reach_not_clear": 12,
+          "additional_actions": 433,
+          "ever_clear": 29,
+          "rescued": 13,
+          "regressed": 0
+        },
+        "prior_visible": {
+          "groups": 60,
+          "issue": 60,
+          "reach": 31,
+          "clear": 17,
+          "actions": 506,
+          "collision": 29,
+          "reach_not_clear": 14,
+          "additional_actions": 386,
+          "ever_clear": 28,
+          "rescued": 11,
+          "regressed": 0
+        },
+        "projected_area": {
+          "groups": 60,
+          "issue": 60,
+          "reach": 32,
+          "clear": 17,
+          "actions": 524,
+          "collision": 28,
+          "reach_not_clear": 15,
+          "additional_actions": 404,
+          "ever_clear": 28,
+          "rescued": 11,
+          "regressed": 0
+        },
+        "nearest": {
+          "groups": 60,
+          "issue": 60,
+          "reach": 35,
+          "clear": 17,
+          "actions": 391,
+          "collision": 25,
+          "reach_not_clear": 18,
+          "additional_actions": 271,
+          "ever_clear": 28,
+          "rescued": 11,
+          "regressed": 0
+        },
+        "stay_at_source": {
+          "groups": 60,
+          "clear": 12,
+          "actions": 0
+        },
+        "shared_sweep_best": {
+          "groups": 60,
+          "clear": 24,
+          "actions": 120
+        }
+      }
+    },
+    {
+      "rows": {
+        "old": {
+          "groups": 60,
+          "issue": 22,
+          "reach": 13,
+          "clear": 4,
+          "actions": 285,
+          "collision": 9,
+          "reach_not_clear": 9,
+          "additional_actions": 165,
+          "ever_clear": 14,
+          "rescued": 0,
+          "regressed": 0,
+          "defer": 38
+        },
+        "old_all_seven": {
+          "groups": 60,
+          "issue": 22,
+          "reach": 13,
+          "clear": 4,
+          "actions": 285,
+          "collision": 9,
+          "reach_not_clear": 9,
+          "additional_actions": 165,
+          "ever_clear": 14,
+          "rescued": 0,
+          "regressed": 0,
+          "defer": 38
+        },
+        "old_second_look": {
+          "groups": 60,
+          "issue": 26,
+          "reach": 13,
+          "clear": 4,
+          "actions": 299,
+          "collision": 13,
+          "reach_not_clear": 9,
+          "additional_actions": 179,
+          "ever_clear": 14,
+          "rescued": 0,
+          "regressed": 0,
+          "defer": 34
+        },
+        "jepa": {
+          "groups": 60,
+          "issue": 60,
+          "reach": 31,
+          "clear": 16,
+          "actions": 517,
+          "collision": 29,
+          "reach_not_clear": 15,
+          "additional_actions": 397,
+          "ever_clear": 22,
+          "rescued": 12,
+          "regressed": 0
+        },
+        "direct": {
+          "groups": 60,
+          "issue": 60,
+          "reach": 30,
+          "clear": 15,
+          "actions": 520,
+          "collision": 30,
+          "reach_not_clear": 15,
+          "additional_actions": 400,
+          "ever_clear": 21,
+          "rescued": 11,
+          "regressed": 0
+        },
+        "jepa_no_map": {
+          "groups": 60,
+          "issue": 60,
+          "reach": 31,
+          "clear": 16,
+          "actions": 517,
+          "collision": 29,
+          "reach_not_clear": 15,
+          "additional_actions": 397,
+          "ever_clear": 22,
+          "rescued": 12,
+          "regressed": 0
+        },
+        "prior_visible": {
+          "groups": 60,
+          "issue": 60,
+          "reach": 25,
+          "clear": 9,
+          "actions": 525,
+          "collision": 35,
+          "reach_not_clear": 16,
+          "additional_actions": 405,
+          "ever_clear": 17,
+          "rescued": 5,
+          "regressed": 0
+        },
+        "projected_area": {
+          "groups": 60,
+          "issue": 60,
+          "reach": 33,
+          "clear": 19,
+          "actions": 501,
+          "collision": 27,
+          "reach_not_clear": 14,
+          "additional_actions": 381,
+          "ever_clear": 24,
+          "rescued": 15,
+          "regressed": 0
+        },
+        "nearest": {
+          "groups": 60,
+          "issue": 60,
+          "reach": 31,
+          "clear": 9,
+          "actions": 374,
+          "collision": 29,
+          "reach_not_clear": 22,
+          "additional_actions": 254,
+          "ever_clear": 15,
+          "rescued": 5,
+          "regressed": 0
+        },
+        "stay_at_source": {
+          "groups": 60,
+          "clear": 4,
+          "actions": 0
+        },
+        "shared_sweep_best": {
+          "groups": 60,
+          "clear": 12,
+          "actions": 120
+        }
+      }
+    },
+    {
+      "rows": {
+        "old": {
+          "groups": 60,
+          "defer": 42,
+          "actions": 194,
+          "additional_actions": 74,
+          "ever_clear": 20,
+          "rescued": 0,
+          "regressed": 0,
+          "issue": 18,
+          "reach": 11,
+          "clear": 6,
+          "collision": 7,
+          "reach_not_clear": 5
+        },
+        "old_all_seven": {
+          "groups": 60,
+          "defer": 42,
+          "actions": 194,
+          "additional_actions": 74,
+          "ever_clear": 20,
+          "rescued": 0,
+          "regressed": 0,
+          "issue": 18,
+          "reach": 11,
+          "clear": 6,
+          "collision": 7,
+          "reach_not_clear": 5
+        },
+        "old_second_look": {
+          "groups": 60,
+          "defer": 38,
+          "actions": 247,
+          "additional_actions": 127,
+          "ever_clear": 20,
+          "rescued": 0,
+          "regressed": 0,
+          "issue": 22,
+          "reach": 13,
+          "clear": 6,
+          "collision": 9,
+          "reach_not_clear": 7
+        },
+        "jepa": {
+          "groups": 60,
+          "issue": 60,
+          "reach": 36,
+          "clear": 24,
+          "actions": 496,
+          "collision": 24,
+          "reach_not_clear": 12,
+          "additional_actions": 376,
+          "ever_clear": 28,
+          "rescued": 18,
+          "regressed": 0
+        },
+        "direct": {
+          "groups": 60,
+          "issue": 60,
+          "reach": 36,
+          "clear": 24,
+          "actions": 496,
+          "collision": 24,
+          "reach_not_clear": 12,
+          "additional_actions": 376,
+          "ever_clear": 28,
+          "rescued": 18,
+          "regressed": 0
+        },
+        "jepa_no_map": {
+          "groups": 60,
+          "issue": 60,
+          "reach": 36,
+          "clear": 24,
+          "actions": 492,
+          "collision": 24,
+          "reach_not_clear": 12,
+          "additional_actions": 372,
+          "ever_clear": 28,
+          "rescued": 18,
+          "regressed": 0
+        },
+        "prior_visible": {
+          "groups": 60,
+          "issue": 60,
+          "reach": 34,
+          "clear": 22,
+          "actions": 444,
+          "collision": 26,
+          "reach_not_clear": 12,
+          "additional_actions": 324,
+          "ever_clear": 26,
+          "rescued": 16,
+          "regressed": 0
+        },
+        "projected_area": {
+          "groups": 60,
+          "issue": 60,
+          "reach": 37,
+          "clear": 23,
+          "actions": 462,
+          "collision": 23,
+          "reach_not_clear": 14,
+          "additional_actions": 342,
+          "ever_clear": 27,
+          "rescued": 17,
+          "regressed": 0
+        },
+        "nearest": {
+          "groups": 60,
+          "issue": 60,
+          "reach": 36,
+          "clear": 21,
+          "actions": 297,
+          "collision": 24,
+          "reach_not_clear": 15,
+          "additional_actions": 177,
+          "ever_clear": 25,
+          "rescued": 15,
+          "regressed": 0
+        },
+        "stay_at_source": {
+          "groups": 60,
+          "clear": 8,
+          "actions": 0
+        },
+        "shared_sweep_best": {
+          "groups": 60,
+          "clear": 16,
+          "actions": 120
+        }
+      }
+    }
+  ],
+  "protocol": "Frozen original first-3 plus bounded repairs. Fallback only on old abstention and all seven source-depth rejections. Same 2 scan actions and per-group cap. Same-view shortest admitted representative. Success is measured only on execution with at least 369 same-instance pixels. Ever-clear and shared-scan/current controls are separate. First observed contact stops one local attempt."
+}

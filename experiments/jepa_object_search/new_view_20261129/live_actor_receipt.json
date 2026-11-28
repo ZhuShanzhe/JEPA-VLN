@@ -1,0 +1,15 @@
+{
+  "scope": "Benchmark action choices are hidden until after each live RGB-D call. The image/box crop are encoded independently from re-rendered original RGB. Only current detector box, two depth observations and finite remaining budget are provided.",
+  "counts": {
+    "issued": 180,
+    "reached": 98,
+    "clear": 59,
+    "contact_or_stall": 82,
+    "actions": 1550,
+    "action_sequence_agrees": 180,
+    "groups": 180,
+    "rescued": 43,
+    "rescued_both_initially_unclear": 19,
+    "regressed": 0
+  }
+}

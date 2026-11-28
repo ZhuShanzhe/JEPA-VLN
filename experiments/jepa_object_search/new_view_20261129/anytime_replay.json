@@ -1,0 +1,683 @@
+{
+  "all": {
+    "6": {
+      "counts": {
+        "groups": 180,
+        "start_and_sweep_unclear": 128,
+        "old_seen": 63,
+        "old_new_after_sweep": 11,
+        "old_actions_to_cutoff_or_stop": 589,
+        "jepa_seen": 86,
+        "jepa_new_after_sweep": 34,
+        "jepa_actions_to_cutoff_or_stop": 999,
+        "paired_gain": 23,
+        "paired_loss": 0,
+        "paired_gain_initially_unclear": 23,
+        "paired_loss_initially_unclear": 0
+      },
+      "by_house": [
+        {
+          "paired_gain": 4,
+          "paired_loss": 0,
+          "paired_gain_initially_unclear": 4,
+          "paired_loss_initially_unclear": 0
+        },
+        {
+          "paired_gain": 9,
+          "paired_loss": 0,
+          "paired_gain_initially_unclear": 9,
+          "paired_loss_initially_unclear": 0
+        },
+        {
+          "paired_gain": 10,
+          "paired_loss": 0,
+          "paired_gain_initially_unclear": 10,
+          "paired_loss_initially_unclear": 0
+        }
+      ],
+      "old_first_clear_actions_including_shared_views": {
+        "n": 63,
+        "mean": 1.2380952380952381,
+        "median": 1.0
+      },
+      "old_first_clear_actions_initially_unclear": {
+        "n": 11,
+        "mean": 4.545454545454546,
+        "median": 4.0
+      },
+      "jepa_first_clear_actions_including_shared_views": {
+        "n": 86,
+        "mean": 2.116279069767442,
+        "median": 1.0
+      },
+      "jepa_first_clear_actions_initially_unclear": {
+        "n": 34,
+        "mean": 4.529411764705882,
+        "median": 4.0
+      }
+    },
+    "10": {
+      "counts": {
+        "groups": 180,
+        "start_and_sweep_unclear": 128,
+        "old_seen": 70,
+        "old_new_after_sweep": 18,
+        "old_actions_to_cutoff_or_stop": 673,
+        "jepa_seen": 98,
+        "jepa_new_after_sweep": 46,
+        "jepa_actions_to_cutoff_or_stop": 1322,
+        "paired_gain": 28,
+        "paired_loss": 0,
+        "paired_gain_initially_unclear": 28,
+        "paired_loss_initially_unclear": 0
+      },
+      "by_house": [
+        {
+          "paired_gain": 5,
+          "paired_loss": 0,
+          "paired_gain_initially_unclear": 5,
+          "paired_loss_initially_unclear": 0
+        },
+        {
+          "paired_gain": 11,
+          "paired_loss": 0,
+          "paired_gain_initially_unclear": 11,
+          "paired_loss_initially_unclear": 0
+        },
+        {
+          "paired_gain": 12,
+          "paired_loss": 0,
+          "paired_gain_initially_unclear": 12,
+          "paired_loss_initially_unclear": 0
+        }
+      ],
+      "old_first_clear_actions_including_shared_views": {
+        "n": 70,
+        "mean": 1.9285714285714286,
+        "median": 1.0
+      },
+      "old_first_clear_actions_initially_unclear": {
+        "n": 18,
+        "mean": 5.944444444444445,
+        "median": 6.0
+      },
+      "jepa_first_clear_actions_including_shared_views": {
+        "n": 98,
+        "mean": 2.857142857142857,
+        "median": 1.0
+      },
+      "jepa_first_clear_actions_initially_unclear": {
+        "n": 46,
+        "mean": 5.478260869565218,
+        "median": 5.0
+      }
+    },
+    "16": {
+      "counts": {
+        "groups": 180,
+        "start_and_sweep_unclear": 128,
+        "old_seen": 74,
+        "old_new_after_sweep": 22,
+        "old_actions_to_cutoff_or_stop": 743,
+        "jepa_seen": 103,
+        "jepa_new_after_sweep": 51,
+        "jepa_actions_to_cutoff_or_stop": 1471,
+        "paired_gain": 29,
+        "paired_loss": 0,
+        "paired_gain_initially_unclear": 29,
+        "paired_loss_initially_unclear": 0
+      },
+      "by_house": [
+        {
+          "paired_gain": 6,
+          "paired_loss": 0,
+          "paired_gain_initially_unclear": 6,
+          "paired_loss_initially_unclear": 0
+        },
+        {
+          "paired_gain": 11,
+          "paired_loss": 0,
+          "paired_gain_initially_unclear": 11,
+          "paired_loss_initially_unclear": 0
+        },
+        {
+          "paired_gain": 12,
+          "paired_loss": 0,
+          "paired_gain_initially_unclear": 12,
+          "paired_loss_initially_unclear": 0
+        }
+      ],
+      "old_first_clear_actions_including_shared_views": {
+        "n": 74,
+        "mean": 2.5,
+        "median": 1.0
+      },
+      "old_first_clear_actions_initially_unclear": {
+        "n": 22,
+        "mean": 7.136363636363637,
+        "median": 6.5
+      },
+      "jepa_first_clear_actions_including_shared_views": {
+        "n": 103,
+        "mean": 3.320388349514563,
+        "median": 1.0
+      },
+      "jepa_first_clear_actions_initially_unclear": {
+        "n": 51,
+        "mean": 6.1568627450980395,
+        "median": 5.0
+      }
+    },
+    "22": {
+      "counts": {
+        "groups": 180,
+        "start_and_sweep_unclear": 128,
+        "old_seen": 75,
+        "old_new_after_sweep": 23,
+        "old_actions_to_cutoff_or_stop": 774,
+        "jepa_seen": 105,
+        "jepa_new_after_sweep": 53,
+        "jepa_actions_to_cutoff_or_stop": 1534,
+        "paired_gain": 30,
+        "paired_loss": 0,
+        "paired_gain_initially_unclear": 30,
+        "paired_loss_initially_unclear": 0
+      },
+      "by_house": [
+        {
+          "paired_gain": 6,
+          "paired_loss": 0,
+          "paired_gain_initially_unclear": 6,
+          "paired_loss_initially_unclear": 0
+        },
+        {
+          "paired_gain": 11,
+          "paired_loss": 0,
+          "paired_gain_initially_unclear": 11,
+          "paired_loss_initially_unclear": 0
+        },
+        {
+          "paired_gain": 13,
+          "paired_loss": 0,
+          "paired_gain_initially_unclear": 13,
+          "paired_loss_initially_unclear": 0
+        }
+      ],
+      "old_first_clear_actions_including_shared_views": {
+        "n": 75,
+        "mean": 2.7066666666666666,
+        "median": 1.0
+      },
+      "old_first_clear_actions_initially_unclear": {
+        "n": 23,
+        "mean": 7.608695652173913,
+        "median": 7.0
+      },
+      "jepa_first_clear_actions_including_shared_views": {
+        "n": 105,
+        "mean": 3.619047619047619,
+        "median": 3.0
+      },
+      "jepa_first_clear_actions_initially_unclear": {
+        "n": 53,
+        "mean": 6.6415094339622645,
+        "median": 5.0
+      }
+    },
+    "30": {
+      "counts": {
+        "groups": 180,
+        "start_and_sweep_unclear": 128,
+        "old_seen": 75,
+        "old_new_after_sweep": 23,
+        "old_actions_to_cutoff_or_stop": 784,
+        "jepa_seen": 105,
+        "jepa_new_after_sweep": 53,
+        "jepa_actions_to_cutoff_or_stop": 1550,
+        "paired_gain": 30,
+        "paired_loss": 0,
+        "paired_gain_initially_unclear": 30,
+        "paired_loss_initially_unclear": 0
+      },
+      "by_house": [
+        {
+          "paired_gain": 6,
+          "paired_loss": 0,
+          "paired_gain_initially_unclear": 6,
+          "paired_loss_initially_unclear": 0
+        },
+        {
+          "paired_gain": 11,
+          "paired_loss": 0,
+          "paired_gain_initially_unclear": 11,
+          "paired_loss_initially_unclear": 0
+        },
+        {
+          "paired_gain": 13,
+          "paired_loss": 0,
+          "paired_gain_initially_unclear": 13,
+          "paired_loss_initially_unclear": 0
+        }
+      ],
+      "old_first_clear_actions_including_shared_views": {
+        "n": 75,
+        "mean": 2.7066666666666666,
+        "median": 1.0
+      },
+      "old_first_clear_actions_initially_unclear": {
+        "n": 23,
+        "mean": 7.608695652173913,
+        "median": 7.0
+      },
+      "jepa_first_clear_actions_including_shared_views": {
+        "n": 105,
+        "mean": 3.619047619047619,
+        "median": 3.0
+      },
+      "jepa_first_clear_actions_initially_unclear": {
+        "n": 53,
+        "mean": 6.6415094339622645,
+        "median": 5.0
+      }
+    },
+    "full": {
+      "counts": {
+        "groups": 180,
+        "start_and_sweep_unclear": 128,
+        "old_seen": 75,
+        "old_new_after_sweep": 23,
+        "old_actions_to_cutoff_or_stop": 784,
+        "jepa_seen": 105,
+        "jepa_new_after_sweep": 53,
+        "jepa_actions_to_cutoff_or_stop": 1550,
+        "paired_gain": 30,
+        "paired_loss": 0,
+        "paired_gain_initially_unclear": 30,
+        "paired_loss_initially_unclear": 0
+      },
+      "by_house": [
+        {
+          "paired_gain": 6,
+          "paired_loss": 0,
+          "paired_gain_initially_unclear": 6,
+          "paired_loss_initially_unclear": 0
+        },
+        {
+          "paired_gain": 11,
+          "paired_loss": 0,
+          "paired_gain_initially_unclear": 11,
+          "paired_loss_initially_unclear": 0
+        },
+        {
+          "paired_gain": 13,
+          "paired_loss": 0,
+          "paired_gain_initially_unclear": 13,
+          "paired_loss_initially_unclear": 0
+        }
+      ],
+      "old_first_clear_actions_including_shared_views": {
+        "n": 75,
+        "mean": 2.7066666666666666,
+        "median": 1.0
+      },
+      "old_first_clear_actions_initially_unclear": {
+        "n": 23,
+        "mean": 7.608695652173913,
+        "median": 7.0
+      },
+      "jepa_first_clear_actions_including_shared_views": {
+        "n": 105,
+        "mean": 3.619047619047619,
+        "median": 3.0
+      },
+      "jepa_first_clear_actions_initially_unclear": {
+        "n": 53,
+        "mean": 6.6415094339622645,
+        "median": 5.0
+      }
+    }
+  },
+  "true_all_blocked": {
+    "6": {
+      "counts": {
+        "groups": 133,
+        "start_and_sweep_unclear": 94,
+        "old_seen": 45,
+        "old_new_after_sweep": 6,
+        "old_actions_to_cutoff_or_stop": 335,
+        "jepa_seen": 67,
+        "jepa_new_after_sweep": 28,
+        "jepa_actions_to_cutoff_or_stop": 725,
+        "paired_gain": 22,
+        "paired_loss": 0,
+        "paired_gain_initially_unclear": 22,
+        "paired_loss_initially_unclear": 0
+      },
+      "by_house": [
+        {
+          "paired_gain": 4,
+          "paired_loss": 0,
+          "paired_gain_initially_unclear": 4,
+          "paired_loss_initially_unclear": 0
+        },
+        {
+          "paired_gain": 9,
+          "paired_loss": 0,
+          "paired_gain_initially_unclear": 9,
+          "paired_loss_initially_unclear": 0
+        },
+        {
+          "paired_gain": 9,
+          "paired_loss": 0,
+          "paired_gain_initially_unclear": 9,
+          "paired_loss_initially_unclear": 0
+        }
+      ],
+      "old_first_clear_actions_including_shared_views": {
+        "n": 45,
+        "mean": 0.9111111111111111,
+        "median": 0.0
+      },
+      "old_first_clear_actions_initially_unclear": {
+        "n": 6,
+        "mean": 4.166666666666667,
+        "median": 4.0
+      },
+      "jepa_first_clear_actions_including_shared_views": {
+        "n": 67,
+        "mean": 2.08955223880597,
+        "median": 1.0
+      },
+      "jepa_first_clear_actions_initially_unclear": {
+        "n": 28,
+        "mean": 4.428571428571429,
+        "median": 4.0
+      }
+    },
+    "10": {
+      "counts": {
+        "groups": 133,
+        "start_and_sweep_unclear": 94,
+        "old_seen": 47,
+        "old_new_after_sweep": 8,
+        "old_actions_to_cutoff_or_stop": 363,
+        "jepa_seen": 74,
+        "jepa_new_after_sweep": 35,
+        "jepa_actions_to_cutoff_or_stop": 977,
+        "paired_gain": 27,
+        "paired_loss": 0,
+        "paired_gain_initially_unclear": 27,
+        "paired_loss_initially_unclear": 0
+      },
+      "by_house": [
+        {
+          "paired_gain": 5,
+          "paired_loss": 0,
+          "paired_gain_initially_unclear": 5,
+          "paired_loss_initially_unclear": 0
+        },
+        {
+          "paired_gain": 11,
+          "paired_loss": 0,
+          "paired_gain_initially_unclear": 11,
+          "paired_loss_initially_unclear": 0
+        },
+        {
+          "paired_gain": 11,
+          "paired_loss": 0,
+          "paired_gain_initially_unclear": 11,
+          "paired_loss_initially_unclear": 0
+        }
+      ],
+      "old_first_clear_actions_including_shared_views": {
+        "n": 47,
+        "mean": 1.1914893617021276,
+        "median": 1.0
+      },
+      "old_first_clear_actions_initially_unclear": {
+        "n": 8,
+        "mean": 5.0,
+        "median": 4.5
+      },
+      "jepa_first_clear_actions_including_shared_views": {
+        "n": 74,
+        "mean": 2.6486486486486487,
+        "median": 1.0
+      },
+      "jepa_first_clear_actions_initially_unclear": {
+        "n": 35,
+        "mean": 5.142857142857143,
+        "median": 5.0
+      }
+    },
+    "16": {
+      "counts": {
+        "groups": 133,
+        "start_and_sweep_unclear": 94,
+        "old_seen": 49,
+        "old_new_after_sweep": 10,
+        "old_actions_to_cutoff_or_stop": 397,
+        "jepa_seen": 77,
+        "jepa_new_after_sweep": 38,
+        "jepa_actions_to_cutoff_or_stop": 1085,
+        "paired_gain": 28,
+        "paired_loss": 0,
+        "paired_gain_initially_unclear": 28,
+        "paired_loss_initially_unclear": 0
+      },
+      "by_house": [
+        {
+          "paired_gain": 6,
+          "paired_loss": 0,
+          "paired_gain_initially_unclear": 6,
+          "paired_loss_initially_unclear": 0
+        },
+        {
+          "paired_gain": 11,
+          "paired_loss": 0,
+          "paired_gain_initially_unclear": 11,
+          "paired_loss_initially_unclear": 0
+        },
+        {
+          "paired_gain": 11,
+          "paired_loss": 0,
+          "paired_gain_initially_unclear": 11,
+          "paired_loss_initially_unclear": 0
+        }
+      ],
+      "old_first_clear_actions_including_shared_views": {
+        "n": 49,
+        "mean": 1.6326530612244898,
+        "median": 1.0
+      },
+      "old_first_clear_actions_initially_unclear": {
+        "n": 10,
+        "mean": 6.4,
+        "median": 5.5
+      },
+      "jepa_first_clear_actions_including_shared_views": {
+        "n": 77,
+        "mean": 3.012987012987013,
+        "median": 1.0
+      },
+      "jepa_first_clear_actions_initially_unclear": {
+        "n": 38,
+        "mean": 5.684210526315789,
+        "median": 5.0
+      }
+    },
+    "22": {
+      "counts": {
+        "groups": 133,
+        "start_and_sweep_unclear": 94,
+        "old_seen": 50,
+        "old_new_after_sweep": 11,
+        "old_actions_to_cutoff_or_stop": 408,
+        "jepa_seen": 79,
+        "jepa_new_after_sweep": 40,
+        "jepa_actions_to_cutoff_or_stop": 1128,
+        "paired_gain": 29,
+        "paired_loss": 0,
+        "paired_gain_initially_unclear": 29,
+        "paired_loss_initially_unclear": 0
+      },
+      "by_house": [
+        {
+          "paired_gain": 6,
+          "paired_loss": 0,
+          "paired_gain_initially_unclear": 6,
+          "paired_loss_initially_unclear": 0
+        },
+        {
+          "paired_gain": 11,
+          "paired_loss": 0,
+          "paired_gain_initially_unclear": 11,
+          "paired_loss_initially_unclear": 0
+        },
+        {
+          "paired_gain": 12,
+          "paired_loss": 0,
+          "paired_gain_initially_unclear": 12,
+          "paired_loss_initially_unclear": 0
+        }
+      ],
+      "old_first_clear_actions_including_shared_views": {
+        "n": 50,
+        "mean": 1.96,
+        "median": 1.0
+      },
+      "old_first_clear_actions_initially_unclear": {
+        "n": 11,
+        "mean": 7.454545454545454,
+        "median": 6.0
+      },
+      "jepa_first_clear_actions_including_shared_views": {
+        "n": 79,
+        "mean": 3.4177215189873418,
+        "median": 3.0
+      },
+      "jepa_first_clear_actions_initially_unclear": {
+        "n": 40,
+        "mean": 6.35,
+        "median": 5.0
+      }
+    },
+    "30": {
+      "counts": {
+        "groups": 133,
+        "start_and_sweep_unclear": 94,
+        "old_seen": 50,
+        "old_new_after_sweep": 11,
+        "old_actions_to_cutoff_or_stop": 408,
+        "jepa_seen": 79,
+        "jepa_new_after_sweep": 40,
+        "jepa_actions_to_cutoff_or_stop": 1134,
+        "paired_gain": 29,
+        "paired_loss": 0,
+        "paired_gain_initially_unclear": 29,
+        "paired_loss_initially_unclear": 0
+      },
+      "by_house": [
+        {
+          "paired_gain": 6,
+          "paired_loss": 0,
+          "paired_gain_initially_unclear": 6,
+          "paired_loss_initially_unclear": 0
+        },
+        {
+          "paired_gain": 11,
+          "paired_loss": 0,
+          "paired_gain_initially_unclear": 11,
+          "paired_loss_initially_unclear": 0
+        },
+        {
+          "paired_gain": 12,
+          "paired_loss": 0,
+          "paired_gain_initially_unclear": 12,
+          "paired_loss_initially_unclear": 0
+        }
+      ],
+      "old_first_clear_actions_including_shared_views": {
+        "n": 50,
+        "mean": 1.96,
+        "median": 1.0
+      },
+      "old_first_clear_actions_initially_unclear": {
+        "n": 11,
+        "mean": 7.454545454545454,
+        "median": 6.0
+      },
+      "jepa_first_clear_actions_including_shared_views": {
+        "n": 79,
+        "mean": 3.4177215189873418,
+        "median": 3.0
+      },
+      "jepa_first_clear_actions_initially_unclear": {
+        "n": 40,
+        "mean": 6.35,
+        "median": 5.0
+      }
+    },
+    "full": {
+      "counts": {
+        "groups": 133,
+        "start_and_sweep_unclear": 94,
+        "old_seen": 50,
+        "old_new_after_sweep": 11,
+        "old_actions_to_cutoff_or_stop": 408,
+        "jepa_seen": 79,
+        "jepa_new_after_sweep": 40,
+        "jepa_actions_to_cutoff_or_stop": 1134,
+        "paired_gain": 29,
+        "paired_loss": 0,
+        "paired_gain_initially_unclear": 29,
+        "paired_loss_initially_unclear": 0
+      },
+      "by_house": [
+        {
+          "paired_gain": 6,
+          "paired_loss": 0,
+          "paired_gain_initially_unclear": 6,
+          "paired_loss_initially_unclear": 0
+        },
+        {
+          "paired_gain": 11,
+          "paired_loss": 0,
+          "paired_gain_initially_unclear": 11,
+          "paired_loss_initially_unclear": 0
+        },
+        {
+          "paired_gain": 12,
+          "paired_loss": 0,
+          "paired_gain_initially_unclear": 12,
+          "paired_loss_initially_unclear": 0
+        }
+      ],
+      "old_first_clear_actions_including_shared_views": {
+        "n": 50,
+        "mean": 1.96,
+        "median": 1.0
+      },
+      "old_first_clear_actions_initially_unclear": {
+        "n": 11,
+        "mean": 7.454545454545454,
+        "median": 6.0
+      },
+      "jepa_first_clear_actions_including_shared_views": {
+        "n": 79,
+        "mean": 3.4177215189873418,
+        "median": 3.0
+      },
+      "jepa_first_clear_actions_initially_unclear": {
+        "n": 40,
+        "mean": 6.35,
+        "median": 5.0
+      }
+    }
+  },
+  "physical": {
+    "old_executed_actions": 784,
+    "jepa_executed_actions": 1550
+  },
+  "metric": "Same-instance mask >=369px in any actually rendered RGB-aligned image. Step zero = initial state, step one = left scan, step two = restored orientation. Every subsequent primitive through stop or contact contributes a frame. Final success and correct multi-instance reporting are separate outcomes. Cumulative first seen carries forward after early stop; budgets per group = 22/26/30."
+}

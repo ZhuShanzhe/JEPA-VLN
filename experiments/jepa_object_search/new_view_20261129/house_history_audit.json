@@ -1,0 +1,1190 @@
+{
+  "installed_scenes": 168,
+  "unused_in_checked_records": [
+    "102816852",
+    "108294684_176710278",
+    "108736611_177263226"
+  ],
+  "by_scene": {
+    "102343992": [
+      "approach_search_20261128",
+      "jepa_hidden_v11",
+      "official_val_used_in_compact430",
+      "results/jepa_vln_paper_bench_20261017"
+    ],
+    "102344022": [
+      "identity_stage3_model",
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_route_v12",
+      "results/jepa_instance_bench_20261016",
+      "results/jepa_vln_baselines_20261015"
+    ],
+    "102344049": [
+      "a_exploration",
+      "jepa_hidden_v11"
+    ],
+    "102344094": [
+      "approach_search_20261128",
+      "jepa_hidden_v11",
+      "official_val_used_in_compact430",
+      "results/jepa_vln_paper_bench_20261017"
+    ],
+    "102344115": [
+      "jepa_hidden_v11",
+      "jepa_route_v12"
+    ],
+    "102344193": [
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "path_feedback_20261128",
+      "pose_horizon_20261128"
+    ],
+    "102344250": [
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "path_feedback_20261128",
+      "pose_horizon_20261128"
+    ],
+    "102344280": [
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_route_v12",
+      "jepa_separation_v7_20261123",
+      "jepa_separation_v8_20261123"
+    ],
+    "102344307": [
+      "jepa_five_20261123",
+      "jepa_hidden_v11"
+    ],
+    "102344328": [
+      "a_exploration",
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "jepa_memory_v10_20261124",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_route_v12",
+      "jepa_separation_v7_20261123",
+      "jepa_separation_v8_20261123",
+      "jepa_verification_v9_20261123"
+    ],
+    "102344403": [
+      "jepa_hidden_v11",
+      "jepa_route_v12"
+    ],
+    "102344439": [
+      "jepa_hidden_v11",
+      "jepa_route_v12"
+    ],
+    "102344457": [
+      "jepa_hidden_v11",
+      "jepa_route_v12",
+      "jepa_variable_v16"
+    ],
+    "102344469": [
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "jepa_route_v12",
+      "local_target_20261128",
+      "path_feedback_20261128",
+      "pose_horizon_20261128"
+    ],
+    "102344529": [
+      "approach_search_20261128",
+      "jepa_hidden_v11",
+      "official_val_used_in_compact430",
+      "results/jepa_vln_paper_bench_20261017"
+    ],
+    "102815835": [
+      "approach_search_20261128",
+      "identity_stage3_model",
+      "jepa_hidden_v11",
+      "official_val_used_in_compact430",
+      "results/jepa_vln_baselines_20261015",
+      "results/jepa_vln_paper_bench_20261017"
+    ],
+    "102815859": [
+      "jepa_hidden_v11",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_variable_v16"
+    ],
+    "102816009": [
+      "identity_stage3_model",
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_route_v12",
+      "path_feedback_20261128",
+      "pose_horizon_20261128"
+    ],
+    "102816036": [
+      "approach_search_20261128",
+      "jepa_hidden_v11",
+      "official_val_used_in_compact430",
+      "results/jepa_vln_paper_bench_20261017"
+    ],
+    "102816051": [
+      "jepa_hidden_v11",
+      "jepa_route_v12"
+    ],
+    "102816066": [
+      "jepa_env_v13",
+      "jepa_five_20261123",
+      "jepa_hidden_v11",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_route_v12"
+    ],
+    "102816114": [
+      "jepa_hidden_v11",
+      "official_val_used_in_compact430",
+      "results/jepa_vln_paper_bench_20261017"
+    ],
+    "102816216": [
+      "jepa_hidden_v11",
+      "jepa_route_v12",
+      "jepa_variable_v16"
+    ],
+    "102816600": [
+      "jepa_hidden_v11",
+      "local_target_20261128",
+      "official_val_used_in_compact430",
+      "results/jepa_vln_paper_bench_20261017"
+    ],
+    "102816615": [
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "jepa_route_v12"
+    ],
+    "102816627": [
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "path_feedback_20261128",
+      "pose_horizon_20261128"
+    ],
+    "102816729": [
+      "a_exploration",
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "jepa_memory_v10_20261124",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_route_v12",
+      "jepa_separation_v7_20261123",
+      "jepa_separation_v8_20261123",
+      "jepa_verification_v9_20261123",
+      "results/jepa_instance_bench_20261016",
+      "results/jepa_vln_baselines_20261015"
+    ],
+    "102816756": [
+      "approach_search_20261128",
+      "jepa_hidden_v11",
+      "official_val_used_in_compact430",
+      "results/jepa_vln_paper_bench_20261017"
+    ],
+    "102816786": [
+      "jepa_hidden_v11",
+      "jepa_route_v12",
+      "jepa_variable_v16"
+    ],
+    "102816852": [],
+    "102817053": [
+      "a_exploration",
+      "jepa_hidden_v11",
+      "jepa_memory_v10_20261124",
+      "jepa_separation_v7_20261123",
+      "jepa_separation_v8_20261123",
+      "jepa_verification_v9_20261123",
+      "results/jepa_instance_bench_20261016",
+      "results/jepa_vln_baselines_20261015"
+    ],
+    "102817140": [
+      "approach_search_20261128",
+      "identity_stage3_model",
+      "jepa_hidden_v11",
+      "official_val_used_in_compact430",
+      "results/jepa_vln_paper_bench_20261017"
+    ],
+    "102817200": [
+      "identity_stage3_model",
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "jepa_memory_v10_20261124",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_route_v12",
+      "jepa_separation_v7_20261123",
+      "jepa_separation_v8_20261123",
+      "jepa_verification_v9_20261123"
+    ],
+    "103997403_171030405": [
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "path_feedback_20261128",
+      "pose_horizon_20261128"
+    ],
+    "103997424_171030444": [
+      "jepa_hidden_v11",
+      "jepa_route_v12"
+    ],
+    "103997445_171030492": [
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "path_feedback_20261128",
+      "pose_horizon_20261128"
+    ],
+    "103997460_171030507": [
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "jepa_route_v12",
+      "path_feedback_20261128"
+    ],
+    "103997478_171030525": [
+      "a_exploration",
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "jepa_memory_v10_20261124",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_route_v12",
+      "jepa_separation_v7_20261123",
+      "jepa_separation_v8_20261123",
+      "jepa_verification_v9_20261123"
+    ],
+    "103997478_171030528": [
+      "a_exploration",
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "jepa_memory_v10_20261124",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_route_v12",
+      "jepa_separation_v7_20261123",
+      "jepa_separation_v8_20261123",
+      "jepa_verification_v9_20261123"
+    ],
+    "103997541_171030615": [
+      "a_exploration",
+      "jepa_hidden_v11",
+      "jepa_memory_v10_20261124",
+      "jepa_separation_v7_20261123",
+      "jepa_separation_v8_20261123",
+      "jepa_verification_v9_20261123"
+    ],
+    "103997562_171030642": [
+      "identity_stage3_audit",
+      "jepa_hidden_v11",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_variable_v16"
+    ],
+    "103997586_171030666": [
+      "approach_search_20261128",
+      "jepa_hidden_v11",
+      "local_target_20261128",
+      "official_val_used_in_compact430",
+      "results/jepa_vln_paper_bench_20261017"
+    ],
+    "103997586_171030669": [
+      "approach_search_20261128",
+      "jepa_hidden_v11",
+      "local_target_20261128",
+      "official_val_used_in_compact430",
+      "results/jepa_vln_paper_bench_20261017"
+    ],
+    "103997613_171030702": [
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_route_v12",
+      "results/jepa_instance_bench_20261016",
+      "results/jepa_vln_baselines_20261015"
+    ],
+    "103997643_171030747": [
+      "identity_stage3_audit",
+      "jepa_hidden_v11",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_variable_v16"
+    ],
+    "103997718_171030855": [
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "path_feedback_20261128",
+      "pose_horizon_20261128"
+    ],
+    "103997781_171030978": [
+      "identity_stage3_audit",
+      "jepa_hidden_v11",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_variable_v16"
+    ],
+    "103997799_171031002": [
+      "jepa_hidden_v11",
+      "jepa_route_v12",
+      "jepa_variable_v16"
+    ],
+    "103997895_171031182": [
+      "approach_search_20261128",
+      "jepa_hidden_v11",
+      "official_val_used_in_compact430",
+      "results/jepa_vln_paper_bench_20261017"
+    ],
+    "103997919_171031233": [
+      "identity_stage3_model",
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_route_v12",
+      "path_feedback_20261128",
+      "pose_horizon_20261128"
+    ],
+    "103997940_171031257": [
+      "a_exploration",
+      "identity_stage3_model",
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "jepa_memory_v10_20261124",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_route_v12",
+      "jepa_separation_v7_20261123",
+      "jepa_separation_v8_20261123",
+      "jepa_verification_v9_20261123"
+    ],
+    "103997970_171031287": [
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_route_v12",
+      "results/jepa_instance_bench_20261016",
+      "results/jepa_vln_baselines_20261015"
+    ],
+    "103997994_171031320": [
+      "jepa_hidden_v11",
+      "path_feedback_20261128",
+      "results/jepa_instance_bench_20261016",
+      "results/jepa_vln_baselines_20261015"
+    ],
+    "104348010_171512832": [
+      "identity_stage3_model",
+      "jepa_hidden_v11",
+      "local_target_20261128",
+      "official_val_used_in_compact430",
+      "results/jepa_vln_paper_bench_20261017"
+    ],
+    "104348028_171512877": [
+      "approach_search_20261128",
+      "identity_stage3_model",
+      "jepa_hidden_v11",
+      "official_val_used_in_compact430",
+      "results/jepa_vln_paper_bench_20261017"
+    ],
+    "104348037_171512898": [
+      "a_exploration",
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "jepa_memory_v10_20261124",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_route_v12",
+      "jepa_separation_v7_20261123",
+      "jepa_separation_v8_20261123",
+      "jepa_verification_v9_20261123",
+      "local_target_20261128",
+      "path_feedback_20261128",
+      "pose_horizon_20261128"
+    ],
+    "104348082_171512994": [
+      "a_exploration",
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "jepa_memory_v10_20261124",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_route_v12",
+      "jepa_separation_v7_20261123",
+      "jepa_separation_v8_20261123",
+      "jepa_verification_v9_20261123",
+      "local_target_20261128",
+      "path_feedback_20261128",
+      "pose_horizon_20261128"
+    ],
+    "104348133_171513054": [
+      "identity_stage3_model",
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_route_v12",
+      "path_feedback_20261128",
+      "pose_horizon_20261128"
+    ],
+    "104348160_171513093": [
+      "identity_stage3_audit",
+      "jepa_hidden_v11",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_variable_v16"
+    ],
+    "104348181_171513120": [
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "path_feedback_20261128",
+      "pose_horizon_20261128"
+    ],
+    "104348202_171513150": [
+      "a_exploration",
+      "jepa_hidden_v11",
+      "jepa_memory_v10_20261124",
+      "jepa_separation_v7_20261123",
+      "jepa_separation_v8_20261123",
+      "jepa_verification_v9_20261123"
+    ],
+    "104348253_171513237": [
+      "identity_stage3_audit",
+      "jepa_hidden_v11",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_variable_v16"
+    ],
+    "104348328_171513363": [
+      "jepa_hidden_v11",
+      "official_val_used_in_compact430",
+      "results/jepa_vln_paper_bench_20261017"
+    ],
+    "104348361_171513414": [
+      "approach_search_20261128",
+      "jepa_hidden_v11",
+      "official_val_used_in_compact430",
+      "results/jepa_vln_paper_bench_20261017"
+    ],
+    "104348394_171513453": [
+      "a_exploration",
+      "jepa_hidden_v11",
+      "jepa_memory_v10_20261124",
+      "jepa_separation_v7_20261123",
+      "jepa_separation_v8_20261123",
+      "jepa_verification_v9_20261123"
+    ],
+    "104348463_171513588": [
+      "identity_stage3_audit",
+      "jepa_hidden_v11",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_variable_v16"
+    ],
+    "104348511_171513654": [
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_route_v12",
+      "jepa_separation_v7_20261123",
+      "local_target_20261128",
+      "path_feedback_20261128",
+      "pose_horizon_20261128"
+    ],
+    "104862384_172226319": [
+      "jepa_hidden_v11",
+      "local_target_20261128",
+      "official_val_used_in_compact430",
+      "results/jepa_vln_paper_bench_20261017"
+    ],
+    "104862396_172226349": [
+      "identity_stage3_model",
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_route_v12",
+      "jepa_separation_v7_20261123"
+    ],
+    "104862417_172226382": [
+      "approach_search_20261128",
+      "jepa_hidden_v11",
+      "official_val_used_in_compact430",
+      "results/jepa_vln_paper_bench_20261017"
+    ],
+    "104862501_172226556": [
+      "jepa_hidden_v11",
+      "local_target_20261128",
+      "official_val_used_in_compact430",
+      "results/jepa_vln_paper_bench_20261017"
+    ],
+    "104862513_172226580": [
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_route_v12",
+      "local_target_20261128",
+      "path_feedback_20261128",
+      "pose_horizon_20261128",
+      "results/jepa_instance_bench_20261016",
+      "results/jepa_vln_baselines_20261015"
+    ],
+    "104862534_172226625": [
+      "jepa_hidden_v11",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_variable_v16"
+    ],
+    "104862558_172226664": [
+      "jepa_hidden_v11",
+      "jepa_route_v12",
+      "jepa_variable_v16"
+    ],
+    "104862573_172226682": [
+      "jepa_env_v13",
+      "jepa_five_20261123",
+      "jepa_hidden_v11",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_route_v12",
+      "local_target_20261128",
+      "path_feedback_20261128",
+      "pose_horizon_20261128"
+    ],
+    "104862621_172226772": [
+      "a_exploration",
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "jepa_memory_v10_20261124",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_route_v12",
+      "jepa_separation_v7_20261123",
+      "jepa_separation_v8_20261123",
+      "jepa_verification_v9_20261123"
+    ],
+    "104862639_172226823": [
+      "jepa_hidden_v11",
+      "jepa_route_v12",
+      "jepa_variable_v16",
+      "path_feedback_20261128"
+    ],
+    "104862660_172226844": [
+      "identity_stage3_model",
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_route_v12",
+      "jepa_separation_v7_20261123"
+    ],
+    "104862669_172226853": [
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_route_v12",
+      "jepa_separation_v7_20261123"
+    ],
+    "104862681_172226874": [
+      "jepa_hidden_v11",
+      "jepa_route_v12"
+    ],
+    "104862687_172226883": [
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "path_feedback_20261128",
+      "pose_horizon_20261128"
+    ],
+    "105515151_173104068": [
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "jepa_route_v12"
+    ],
+    "105515160_173104077": [
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "jepa_route_v12",
+      "local_target_20261128",
+      "path_feedback_20261128",
+      "pose_horizon_20261128"
+    ],
+    "105515175_173104107": [
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_route_v12",
+      "local_target_20261128",
+      "path_feedback_20261128",
+      "pose_horizon_20261128",
+      "results/jepa_instance_bench_20261016",
+      "results/jepa_vln_baselines_20261015"
+    ],
+    "105515184_173104128": [
+      "jepa_hidden_v11",
+      "official_val_used_in_compact430",
+      "results/jepa_vln_paper_bench_20261017"
+    ],
+    "105515211_173104179": [
+      "identity_stage3_model",
+      "jepa_hidden_v11",
+      "official_val_used_in_compact430",
+      "results/jepa_vln_paper_bench_20261017"
+    ],
+    "105515211_173104185": [
+      "identity_stage3_model",
+      "jepa_hidden_v11",
+      "official_val_used_in_compact430",
+      "results/jepa_vln_paper_bench_20261017"
+    ],
+    "105515235_173104215": [
+      "jepa_hidden_v11",
+      "jepa_route_v12"
+    ],
+    "105515286_173104287": [
+      "jepa_hidden_v11",
+      "jepa_route_v12"
+    ],
+    "105515301_173104305": [
+      "jepa_hidden_v11",
+      "jepa_route_v12",
+      "jepa_variable_v16"
+    ],
+    "105515307_173104317": [
+      "jepa_hidden_v11",
+      "results/jepa_instance_bench_20261016",
+      "results/jepa_vln_baselines_20261015"
+    ],
+    "105515337_173104347": [
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_route_v12",
+      "jepa_separation_v7_20261123"
+    ],
+    "105515379_173104395": [
+      "approach_search_20261128",
+      "jepa_hidden_v11",
+      "official_val_used_in_compact430",
+      "results/jepa_vln_paper_bench_20261017"
+    ],
+    "105515403_173104449": [
+      "identity_stage3_audit",
+      "jepa_hidden_v11",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_variable_v16"
+    ],
+    "105515430_173104494": [
+      "jepa_hidden_v11",
+      "jepa_separation_v7_20261123"
+    ],
+    "105515448_173104512": [
+      "jepa_hidden_v11",
+      "jepa_reid_v20",
+      "jepa_route_v12",
+      "jepa_variable_v16"
+    ],
+    "105515490_173104566": [
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_route_v12",
+      "local_target_20261128",
+      "path_feedback_20261128",
+      "pose_horizon_20261128",
+      "results/jepa_instance_bench_20261016",
+      "results/jepa_vln_baselines_20261015"
+    ],
+    "105515505_173104584": [
+      "identity_stage3_audit",
+      "jepa_hidden_v11",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_variable_v16"
+    ],
+    "105515541_173104641": [
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "path_feedback_20261128",
+      "pose_horizon_20261128"
+    ],
+    "106365897_174225972": [
+      "jepa_hidden_v11",
+      "jepa_route_v12"
+    ],
+    "106366104_174226329": [
+      "approach_search_20261128",
+      "identity_stage3_model",
+      "jepa_hidden_v11",
+      "local_target_20261128",
+      "official_val_used_in_compact430",
+      "results/jepa_vln_paper_bench_20261017"
+    ],
+    "106366104_174226332": [
+      "approach_search_20261128",
+      "identity_stage3_model",
+      "jepa_hidden_v11",
+      "local_target_20261128",
+      "official_val_used_in_compact430",
+      "results/jepa_vln_paper_bench_20261017"
+    ],
+    "106366134_174226362": [
+      "identity_stage3_model",
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_route_v12",
+      "path_feedback_20261128",
+      "pose_horizon_20261128"
+    ],
+    "106366173_174226431": [
+      "a_exploration",
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "jepa_memory_v10_20261124",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_route_v12",
+      "jepa_separation_v7_20261123",
+      "jepa_separation_v8_20261123",
+      "jepa_verification_v9_20261123"
+    ],
+    "106366248_174226527": [
+      "jepa_hidden_v11",
+      "jepa_route_v12",
+      "jepa_variable_v16"
+    ],
+    "106366263_174226557": [
+      "jepa_hidden_v11",
+      "jepa_route_v12"
+    ],
+    "106366302_174226617": [
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "jepa_route_v12"
+    ],
+    "106366323_174226647": [
+      "jepa_hidden_v11",
+      "jepa_route_v12",
+      "path_feedback_20261128"
+    ],
+    "106366353_174226695": [
+      "identity_stage3_audit",
+      "jepa_hidden_v11",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_variable_v16"
+    ],
+    "106366371_174226743": [
+      "identity_stage3_audit",
+      "jepa_hidden_v11",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_variable_v16"
+    ],
+    "106366386_174226770": [
+      "jepa_hidden_v11",
+      "official_val_used_in_compact430",
+      "results/jepa_vln_paper_bench_20261017"
+    ],
+    "106366410_174226806": [
+      "jepa_hidden_v11",
+      "local_target_20261128",
+      "official_val_used_in_compact430",
+      "results/jepa_vln_paper_bench_20261017"
+    ],
+    "106366434_174226881": [
+      "jepa_hidden_v11",
+      "jepa_separation_v7_20261123",
+      "jepa_separation_v8_20261123"
+    ],
+    "106878858_174886965": [
+      "approach_search_20261128",
+      "jepa_hidden_v11",
+      "official_val_used_in_compact430",
+      "results/jepa_vln_paper_bench_20261017"
+    ],
+    "106878867_174886977": [
+      "approach_search_20261128",
+      "identity_stage3_model",
+      "jepa_hidden_v11",
+      "official_val_used_in_compact430",
+      "results/jepa_vln_paper_bench_20261017"
+    ],
+    "106878915_174887025": [
+      "jepa_hidden_v11",
+      "official_val_used_in_compact430",
+      "results/jepa_vln_paper_bench_20261017"
+    ],
+    "106878945_174887058": [
+      "jepa_hidden_v11",
+      "jepa_route_v12"
+    ],
+    "106878960_174887073": [
+      "identity_stage3_model",
+      "jepa_hidden_v11",
+      "local_target_20261128",
+      "official_val_used_in_compact430",
+      "results/jepa_vln_paper_bench_20261017"
+    ],
+    "106879005_174887124": [
+      "approach_search_20261128",
+      "jepa_hidden_v11",
+      "official_val_used_in_compact430",
+      "results/jepa_vln_paper_bench_20261017"
+    ],
+    "106879023_174887148": [
+      "jepa_env_v13",
+      "jepa_five_20261123",
+      "jepa_hidden_v11",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_route_v12"
+    ],
+    "106879044_174887172": [
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "path_feedback_20261128",
+      "pose_horizon_20261128"
+    ],
+    "106879080_174887211": [
+      "approach_search_20261128",
+      "jepa_hidden_v11",
+      "official_val_used_in_compact430",
+      "results/jepa_vln_paper_bench_20261017"
+    ],
+    "107733912_175999623": [
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "path_feedback_20261128",
+      "pose_horizon_20261128"
+    ],
+    "107733960_175999701": [
+      "jepa_hidden_v11",
+      "official_val_used_in_compact430",
+      "results/jepa_vln_paper_bench_20261017"
+    ],
+    "107734017_175999794": [
+      "identity_stage3_model",
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_route_v12",
+      "path_feedback_20261128",
+      "pose_horizon_20261128"
+    ],
+    "107734056_175999839": [
+      "approach_search_20261128",
+      "jepa_hidden_v11",
+      "official_val_used_in_compact430",
+      "results/jepa_vln_paper_bench_20261017"
+    ],
+    "107734080_175999881": [
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "jepa_route_v12"
+    ],
+    "107734110_175999914": [
+      "jepa_hidden_v11",
+      "jepa_route_v12",
+      "jepa_variable_v16"
+    ],
+    "107734119_175999932": [
+      "a_exploration",
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "jepa_memory_v10_20261124",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_route_v12",
+      "jepa_separation_v7_20261123",
+      "jepa_separation_v8_20261123",
+      "jepa_verification_v9_20261123",
+      "results/jepa_instance_bench_20261016",
+      "results/jepa_vln_baselines_20261015"
+    ],
+    "107734119_175999935": [
+      "a_exploration",
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "jepa_memory_v10_20261124",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_route_v12",
+      "jepa_separation_v7_20261123",
+      "jepa_separation_v8_20261123",
+      "jepa_verification_v9_20261123",
+      "results/jepa_instance_bench_20261016",
+      "results/jepa_vln_baselines_20261015"
+    ],
+    "107734119_175999938": [
+      "a_exploration",
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "jepa_memory_v10_20261124",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_route_v12",
+      "jepa_separation_v7_20261123",
+      "jepa_separation_v8_20261123",
+      "jepa_verification_v9_20261123",
+      "results/jepa_instance_bench_20261016",
+      "results/jepa_vln_baselines_20261015"
+    ],
+    "107734146_175999971": [
+      "identity_stage3_audit",
+      "jepa_hidden_v11",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_variable_v16"
+    ],
+    "107734158_175999998": [
+      "approach_search_20261128",
+      "jepa_hidden_v11",
+      "official_val_used_in_compact430",
+      "results/jepa_vln_paper_bench_20261017"
+    ],
+    "107734176_176000019": [
+      "jepa_hidden_v11",
+      "local_target_20261128",
+      "official_val_used_in_compact430",
+      "results/jepa_vln_paper_bench_20261017"
+    ],
+    "107734188_176000034": [
+      "jepa_hidden_v11",
+      "jepa_separation_v7_20261123",
+      "jepa_separation_v8_20261123"
+    ],
+    "107734227_176000091": [
+      "identity_stage3_audit",
+      "jepa_hidden_v11",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_variable_v16"
+    ],
+    "107734254_176000121": [
+      "approach_search_20261128",
+      "jepa_hidden_v11",
+      "official_val_used_in_compact430",
+      "results/jepa_vln_paper_bench_20261017"
+    ],
+    "107734287_176000160": [
+      "approach_search_20261128",
+      "jepa_hidden_v11",
+      "official_val_used_in_compact430",
+      "results/jepa_vln_paper_bench_20261017"
+    ],
+    "107734338_176000244": [
+      "jepa_hidden_v11",
+      "local_target_20261128",
+      "official_val_used_in_compact430",
+      "results/jepa_vln_paper_bench_20261017"
+    ],
+    "107734449_176000403": [
+      "jepa_hidden_v11",
+      "jepa_route_v12",
+      "path_feedback_20261128"
+    ],
+    "107734479_176000442": [
+      "jepa_hidden_v11",
+      "jepa_memory_v10_20261124",
+      "jepa_separation_v7_20261123",
+      "jepa_separation_v8_20261123",
+      "jepa_verification_v9_20261123"
+    ],
+    "108294417_176709879": [
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "jepa_route_v12",
+      "local_target_20261128",
+      "path_feedback_20261128",
+      "pose_horizon_20261128"
+    ],
+    "108294465_176709960": [
+      "a_exploration",
+      "identity_stage3_model",
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "jepa_memory_v10_20261124",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_route_v12",
+      "jepa_separation_v7_20261123",
+      "jepa_separation_v8_20261123",
+      "jepa_verification_v9_20261123",
+      "local_target_20261128",
+      "path_feedback_20261128",
+      "pose_horizon_20261128",
+      "results/jepa_instance_bench_20261016",
+      "results/jepa_vln_baselines_20261015"
+    ],
+    "108294537_176710050": [
+      "jepa_hidden_v11",
+      "jepa_memory_v10_20261124",
+      "jepa_separation_v7_20261123",
+      "jepa_separation_v8_20261123",
+      "jepa_verification_v9_20261123",
+      "results/jepa_instance_bench_20261016",
+      "results/jepa_vln_baselines_20261015"
+    ],
+    "108294558_176710095": [
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "jepa_route_v12",
+      "local_target_20261128",
+      "path_feedback_20261128",
+      "pose_horizon_20261128"
+    ],
+    "108294573_176710113": [
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "jepa_route_v12"
+    ],
+    "108294624_176710203": [
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_route_v12",
+      "results/jepa_instance_bench_20261016",
+      "results/jepa_vln_baselines_20261015"
+    ],
+    "108294684_176710278": [],
+    "108294765_176710386": [
+      "jepa_hidden_v11",
+      "jepa_separation_v7_20261123"
+    ],
+    "108294783_176710410": [
+      "a_exploration",
+      "identity_stage3_model",
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "jepa_memory_v10_20261124",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_route_v12",
+      "jepa_separation_v7_20261123",
+      "jepa_separation_v8_20261123",
+      "jepa_verification_v9_20261123"
+    ],
+    "108294798_176710428": [
+      "jepa_hidden_v11",
+      "jepa_route_v12"
+    ],
+    "108294816_176710461": [
+      "identity_stage3_model",
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_route_v12",
+      "path_feedback_20261128",
+      "pose_horizon_20261128"
+    ],
+    "108294846_176710506": [
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "path_feedback_20261128",
+      "pose_horizon_20261128"
+    ],
+    "108294870_176710551": [
+      "jepa_hidden_v11",
+      "jepa_route_v12"
+    ],
+    "108294897_176710602": [
+      "jepa_hidden_v11",
+      "jepa_route_v12",
+      "jepa_variable_v16"
+    ],
+    "108294939_176710668": [
+      "jepa_hidden_v11",
+      "jepa_route_v12",
+      "jepa_variable_v16"
+    ],
+    "108736611_177263226": [],
+    "108736635_177263256": [
+      "jepa_hidden_v11",
+      "jepa_memory_v10_20261124",
+      "jepa_separation_v7_20261123",
+      "jepa_separation_v8_20261123",
+      "jepa_verification_v9_20261123",
+      "results/jepa_instance_bench_20261016",
+      "results/jepa_vln_baselines_20261015"
+    ],
+    "108736656_177263304": [
+      "a_exploration",
+      "jepa_hidden_v11",
+      "jepa_memory_v10_20261124",
+      "jepa_separation_v7_20261123",
+      "jepa_separation_v8_20261123",
+      "jepa_verification_v9_20261123"
+    ],
+    "108736689_177263340": [
+      "identity_stage3_model",
+      "jepa_hidden_v11",
+      "official_val_used_in_compact430",
+      "results/jepa_vln_paper_bench_20261017"
+    ],
+    "108736722_177263382": [
+      "jepa_hidden_v11",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_variable_v16"
+    ],
+    "108736737_177263406": [
+      "identity_stage3_audit",
+      "jepa_hidden_v11",
+      "jepa_reid_v20",
+      "jepa_reid_v21",
+      "jepa_variable_v16"
+    ],
+    "108736779_177263484": [
+      "identity_stage3_model",
+      "jepa_hidden_v11",
+      "official_val_used_in_compact430",
+      "results/jepa_vln_paper_bench_20261017"
+    ],
+    "108736800_177263517": [
+      "approach_search_20261128",
+      "identity_stage3_model",
+      "jepa_hidden_v11",
+      "official_val_used_in_compact430",
+      "results/jepa_vln_paper_bench_20261017"
+    ],
+    "108736824_177263559": [
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "jepa_route_v12",
+      "path_feedback_20261128"
+    ],
+    "108736851_177263586": [
+      "jepa_hidden_v11",
+      "jepa_route_v12"
+    ],
+    "108736872_177263607": [
+      "jepa_env_v13",
+      "jepa_hidden_v11",
+      "jepa_route_v12"
+    ],
+    "108736884_177263634": [
+      "approach_search_20261128",
+      "identity_stage3_model",
+      "jepa_hidden_v11",
+      "official_val_used_in_compact430",
+      "results/jepa_vln_paper_bench_20261017"
+    ]
+  },
+  "scope": "Prior project named outputs and explicit research cohorts, previous baseline results, entire previously evaluated official validation group. Acquisition of raw meshes, rendering QA and material conversion do not train or evaluate a policy."
+}

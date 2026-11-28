@@ -1,0 +1,56 @@
+{
+  "test": "Blind unseen houses. Actual endpoint reached, new views only, shortest reached route per physical viewpoint, all cases. This offline diagnostic gives no evaluator information to the actor.",
+  "labelled_endpoints": 1401,
+  "clear": 421,
+  "source_groups": 170,
+  "groups_with_both_clear_and_unclear": 81,
+  "arms": {
+    "jepa": {
+      "conditional_auroc": 0.9118546706093364,
+      "brier": 0.10615832358598709,
+      "within_request_pair_accuracy": 0.9523475823405746,
+      "mean_per_request_pair_accuracy": 0.9503477603786243,
+      "paired_candidates": 1427
+    },
+    "direct": {
+      "conditional_auroc": 0.8939357215570313,
+      "brier": 0.1176077127456665,
+      "within_request_pair_accuracy": 0.9369306236860546,
+      "mean_per_request_pair_accuracy": 0.9427541879702375,
+      "paired_candidates": 1427
+    },
+    "no_map": {
+      "conditional_auroc": 0.90325512627854,
+      "brier": 0.11058446019887924,
+      "within_request_pair_accuracy": 0.9460406447091801,
+      "mean_per_request_pair_accuracy": 0.9461165891721445,
+      "paired_candidates": 1427
+    },
+    "frozen": {
+      "conditional_auroc": 0.7731470260313151,
+      "brier": 0.19772154092788696,
+      "within_request_pair_accuracy": 0.6867554309740714,
+      "mean_per_request_pair_accuracy": 0.7041643682711222,
+      "paired_candidates": 1427
+    },
+    "box_geometry_only": {
+      "conditional_auroc": 0.899287410926366,
+      "brier": 0.13612759113311768,
+      "within_request_pair_accuracy": 0.9351786965662229,
+      "mean_per_request_pair_accuracy": 0.92860499730507,
+      "paired_candidates": 1427
+    }
+  },
+  "future_feature_mse": {
+    "full": {
+      "n": 1401,
+      "predicted": 0.12773539125919342,
+      "copy_source": 0.11991672217845917
+    },
+    "roi": {
+      "n": 1258,
+      "predicted": 0.11213349550962448,
+      "copy_source": 0.10717400163412094
+    }
+  }
+}

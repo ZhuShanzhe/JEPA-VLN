@@ -1,0 +1,26 @@
+{
+  "scope": "Post-hoc only, alternative views actually selected. Checks may overlap. Source-box depth is compared with visible pixels of the true instance. Occlusion compares sampled source-instance surface depths with actual destination depth and identity.",
+  "outcomes": {
+    "reached_unclear": {
+      "groups": 17,
+      "source_box_center_outside_instance": 6,
+      "source_anchor_differs_from_target_median_over_half_m": 3,
+      "source_surface_majority_outside_end_frame": 1,
+      "source_surface_majority_blocked_by_another_surface": 2,
+      "final_250_to_368_pixels": 3
+    },
+    "clear": {
+      "groups": 43,
+      "source_box_center_outside_instance": 14,
+      "source_anchor_differs_from_target_median_over_half_m": 6,
+      "source_surface_majority_outside_end_frame": 4,
+      "source_surface_majority_blocked_by_another_surface": 1,
+      "final_250_to_368_pixels": 0
+    },
+    "blocked": {
+      "groups": 54,
+      "source_box_center_outside_instance": 10,
+      "source_anchor_differs_from_target_median_over_half_m": 5
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "official_blind_root": "private_render_blind60",
+  "house_source": "view_design.json:cohorts.blind",
+  "maximum_sources_per_house": 60,
+  "selection": "Use all eligible sources produced by the same deterministic sampler and seed as the initial 24-source prefix. At most two source positions per physical instance with at least 0.6m between them. This extension was selected before opening blind performance results.",
+  "diagnostic_prefix_root": "private_render",
+  "train_and_calibration_maximum": 24,
+  "input_guard": "semantics and true instance pixels are used only by the sampler, teachers and evaluator; model input may use source RGB, observed goal box, source depth, physically measured left scan and candidate relative actions."
+}

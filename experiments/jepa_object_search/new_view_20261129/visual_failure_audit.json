@@ -1,0 +1,95 @@
+{
+  "reached_unclear_pixels": {
+    "all": {
+      "n": 39,
+      "visible_100_to_249": 18,
+      "visible_250_to_368": 10,
+      "touches_image_edge": 9,
+      "useful_alternative_existed": 10,
+      "none_visible": 3,
+      "visible_1_to_99": 8
+    },
+    "triggered": {
+      "n": 17,
+      "visible_100_to_249": 9,
+      "visible_250_to_368": 3,
+      "touches_image_edge": 7,
+      "visible_1_to_99": 5,
+      "useful_alternative_existed": 1
+    },
+    "triggered_originally_unclear": {
+      "n": 17,
+      "visible_100_to_249": 9,
+      "visible_250_to_368": 3,
+      "touches_image_edge": 7,
+      "visible_1_to_99": 5,
+      "useful_alternative_existed": 1
+    }
+  },
+  "illustrative_first_by_category": {
+    "alternatives_reachable_but_none_clear": {
+      "class_name": "table",
+      "start_pixels": 81,
+      "initial_scan_pixels": 108,
+      "action_limit": 26,
+      "best_reachable_alternative_pixels": 188,
+      "selected_pixels": 144,
+      "selected_horizontal_range_m": 1.0
+    },
+    "reached_clear": {
+      "class_name": "bookcase",
+      "start_pixels": 923,
+      "initial_scan_pixels": 1267,
+      "action_limit": 30,
+      "best_reachable_alternative_pixels": 1810,
+      "selected_pixels": 581,
+      "selected_horizontal_range_m": 1.5
+    },
+    "selected_route_blocked_with_viable_alternative": {
+      "class_name": "mirror",
+      "start_pixels": 5712,
+      "initial_scan_pixels": 7377,
+      "action_limit": 30,
+      "best_reachable_alternative_pixels": 35328,
+      "selected_pixels": null,
+      "selected_horizontal_range_m": 1.5
+    },
+    "no_physically_reachable_alternative": {
+      "class_name": "vase",
+      "start_pixels": 73,
+      "initial_scan_pixels": 153,
+      "action_limit": 30,
+      "best_reachable_alternative_pixels": -1,
+      "selected_pixels": null,
+      "selected_horizontal_range_m": 1.0
+    },
+    "selected_view_unclear_with_viable_alternative": {
+      "class_name": "bookcase",
+      "start_pixels": 45,
+      "initial_scan_pixels": 45,
+      "action_limit": 26,
+      "best_reachable_alternative_pixels": 438,
+      "selected_pixels": 55,
+      "selected_horizontal_range_m": 1.5
+    },
+    "shortest_admitted_route_blocked_despite_sibling": {
+      "class_name": "chair",
+      "start_pixels": 271,
+      "initial_scan_pixels": 279,
+      "action_limit": 30,
+      "best_reachable_alternative_pixels": 888,
+      "selected_pixels": null,
+      "selected_horizontal_range_m": 1.5
+    },
+    "all_useful_alternatives_vetoed": {
+      "class_name": "television_receiver",
+      "start_pixels": 298,
+      "initial_scan_pixels": 373,
+      "action_limit": 26,
+      "best_reachable_alternative_pixels": 539,
+      "selected_pixels": null,
+      "selected_horizontal_range_m": 1.5
+    }
+  },
+  "scope": "Offline same-instance pixel evidence. The first example in each diagnostic class is selected in fixed house/request order; counts, not these examples, describe frequencies. Pixel counts and edge contact alone cannot distinguish depth occlusion from unfavorable viewing scale."
+}

@@ -1,0 +1,15 @@
+{
+  "checks": "Source and scan instance pixels, two depth frames, contact index, final position error and final instance pixels matched independent physical rollouts.",
+  "counts": {
+    "groups": 180,
+    "old_actions": 784,
+    "old_reached": 38,
+    "old_clear": 16,
+    "old_issued": 66,
+    "jepa_actions": 1550,
+    "jepa_reached": 98,
+    "jepa_clear": 59,
+    "jepa_issued": 180,
+    "old_deferred": 114
+  }
+}

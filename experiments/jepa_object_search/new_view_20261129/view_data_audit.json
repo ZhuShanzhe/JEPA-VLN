@@ -1,0 +1,48 @@
+{
+  "train": {
+    "houses": 12,
+    "groups": 288,
+    "rows": 16094,
+    "reachable_rows": 3953,
+    "initially_unclear": 243,
+    "both_views_unclear": 201,
+    "all_original_blocked": 221,
+    "original_blocked_alternative_reaches": 200,
+    "original_blocked_alternative_reaches_and_clear": 119,
+    "both_unclear_and_original_blocked": 149,
+    "both_unclear_original_blocked_and_possible_rescue": 58
+  },
+  "val": {
+    "houses": 6,
+    "groups": 144,
+    "rows": 8068,
+    "reachable_rows": 2087,
+    "initially_unclear": 117,
+    "both_views_unclear": 93,
+    "all_original_blocked": 106,
+    "original_blocked_alternative_reaches": 98,
+    "original_blocked_alternative_reaches_and_clear": 61,
+    "both_unclear_and_original_blocked": 63,
+    "both_unclear_original_blocked_and_possible_rescue": 24
+  },
+  "blind": {
+    "houses": 3,
+    "groups": 180,
+    "rows": 10086,
+    "reachable_rows": 2530,
+    "initially_unclear": 156,
+    "both_views_unclear": 128,
+    "all_original_blocked": 133,
+    "original_blocked_alternative_reaches": 123,
+    "original_blocked_alternative_reaches_and_clear": 76,
+    "both_unclear_and_original_blocked": 94,
+    "both_unclear_original_blocked_and_possible_rescue": 41,
+    "prefix_sources_verified": 48
+  },
+  "third_blind_scene_material": {
+    "house": "108736611_177263226",
+    "treatment": "Previous official-data derived single-asset PBR roughness texture transform compatibility overlay shared by both policies; images, collision mesh and layout unchanged; metallic/roughness appearance can change.",
+    "original_asset_sha256": "e3af95747a8a5c5ed0a89db082c92a37381f71bfd5447dce40d56870785aed3e",
+    "derived_asset_sha256": "e9b234cce4d2de4a6c97e2ce20ba9c0e32d196d23ff6d21310c73df155bd853a"
+  }
+}
