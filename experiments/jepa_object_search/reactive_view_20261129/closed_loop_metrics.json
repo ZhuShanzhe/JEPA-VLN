@@ -1,0 +1,487 @@
+{
+  "all": {
+    "arms": {
+      "old_no_stop": {
+        "groups": 180,
+        "actions": 1550,
+        "contacts": 82,
+        "opportunity": 105,
+        "missed_seen": 105,
+        "terminal_frame_clear": 80,
+        "full_budget": 1
+      },
+      "new_no_stop": {
+        "groups": 180,
+        "actions": 4470,
+        "contacts": 414,
+        "full_budget": 23,
+        "opportunity": 140,
+        "missed_seen": 140,
+        "terminal_frame_clear": 55
+      },
+      "old_confirm": {
+        "groups": 180,
+        "actions": 1207,
+        "contacts": 68,
+        "opportunity": 103,
+        "saved": 68,
+        "correct": 62,
+        "terminal_frame_clear": 85,
+        "invalid": 6,
+        "below_pixel_threshold": 6,
+        "missed_seen": 41
+      },
+      "new_confirm": {
+        "groups": 180,
+        "actions": 2785,
+        "contacts": 265,
+        "full_budget": 11,
+        "opportunity": 133,
+        "missed_seen": 46,
+        "saved": 98,
+        "correct": 86,
+        "terminal_frame_clear": 97,
+        "invalid": 12,
+        "below_pixel_threshold": 12
+      }
+    },
+    "changes": {
+      "any_opportunity": {
+        "win": 35,
+        "loss": 0
+      },
+      "first_confirmation_correct": {
+        "win": 24,
+        "loss": 0
+      }
+    },
+    "attribution": {
+      "never_clear_within_budget": 36,
+      "true_visible_but_abstained": 46,
+      "correct_additional_from_extension": 24,
+      "correct_after_extension": 24,
+      "correct_on_legacy_prefix": 62,
+      "wrong_first_confirmation": 12
+    },
+    "cumulative": {
+      "6": {
+        "old_ever": 86,
+        "new_ever": 89,
+        "old_confirmed": 42,
+        "new_confirmed": 42
+      },
+      "10": {
+        "old_ever": 98,
+        "new_ever": 114,
+        "old_confirmed": 53,
+        "new_confirmed": 62
+      },
+      "16": {
+        "old_ever": 103,
+        "new_ever": 127,
+        "old_confirmed": 59,
+        "new_confirmed": 77
+      },
+      "22": {
+        "old_ever": 105,
+        "new_ever": 140,
+        "old_confirmed": 62,
+        "new_confirmed": 83
+      },
+      "30": {
+        "old_ever": 105,
+        "new_ever": 140,
+        "old_confirmed": 62,
+        "new_confirmed": 86
+      }
+    },
+    "signed_gains_per_house": [
+      {
+        "any_opportunity": 10,
+        "first_confirmation_correct": 5
+      },
+      {
+        "any_opportunity": 12,
+        "first_confirmation_correct": 9
+      },
+      {
+        "any_opportunity": 13,
+        "first_confirmation_correct": 10
+      }
+    ],
+    "recovery_actions_before_actual_stop": {
+      "decisions": 465,
+      "contact_trigger": 261,
+      "distance_over_1_5m": 70,
+      "direction_over_90deg": 41,
+      "reactive_jepa_view": 283,
+      "requests_replanned": 112,
+      "survey_unseen_side": 109,
+      "local_options_exhausted": 10,
+      "no_translation_budget": 63
+    }
+  },
+  "seven_blocked": {
+    "arms": {
+      "old_no_stop": {
+        "groups": 133,
+        "actions": 1134,
+        "contacts": 77,
+        "opportunity": 79,
+        "missed_seen": 79,
+        "terminal_frame_clear": 60
+      },
+      "new_no_stop": {
+        "groups": 133,
+        "actions": 3381,
+        "contacts": 353,
+        "full_budget": 17,
+        "opportunity": 97,
+        "missed_seen": 97,
+        "terminal_frame_clear": 39
+      },
+      "old_confirm": {
+        "groups": 133,
+        "actions": 871,
+        "contacts": 64,
+        "opportunity": 77,
+        "saved": 48,
+        "correct": 44,
+        "terminal_frame_clear": 61,
+        "invalid": 4,
+        "below_pixel_threshold": 4,
+        "missed_seen": 33
+      },
+      "new_confirm": {
+        "groups": 133,
+        "actions": 2183,
+        "contacts": 237,
+        "full_budget": 9,
+        "opportunity": 95,
+        "missed_seen": 36,
+        "saved": 64,
+        "correct": 58,
+        "terminal_frame_clear": 68,
+        "invalid": 6,
+        "below_pixel_threshold": 6
+      }
+    },
+    "changes": {
+      "any_opportunity": {
+        "win": 18,
+        "loss": 0
+      },
+      "first_confirmation_correct": {
+        "win": 14,
+        "loss": 0
+      }
+    },
+    "attribution": {
+      "never_clear_within_budget": 33,
+      "true_visible_but_abstained": 36,
+      "correct_additional_from_extension": 14,
+      "correct_after_extension": 14,
+      "correct_on_legacy_prefix": 44,
+      "wrong_first_confirmation": 6
+    },
+    "cumulative": {
+      "6": {
+        "old_ever": 67,
+        "new_ever": 70,
+        "old_confirmed": 31,
+        "new_confirmed": 31
+      },
+      "10": {
+        "old_ever": 74,
+        "new_ever": 81,
+        "old_confirmed": 39,
+        "new_confirmed": 43
+      },
+      "16": {
+        "old_ever": 77,
+        "new_ever": 86,
+        "old_confirmed": 42,
+        "new_confirmed": 52
+      },
+      "22": {
+        "old_ever": 79,
+        "new_ever": 97,
+        "old_confirmed": 44,
+        "new_confirmed": 56
+      },
+      "30": {
+        "old_ever": 79,
+        "new_ever": 97,
+        "old_confirmed": 44,
+        "new_confirmed": 58
+      }
+    },
+    "signed_gains_per_house": [
+      {
+        "any_opportunity": 5,
+        "first_confirmation_correct": 3
+      },
+      {
+        "any_opportunity": 6,
+        "first_confirmation_correct": 6
+      },
+      {
+        "any_opportunity": 7,
+        "first_confirmation_correct": 5
+      }
+    ],
+    "recovery_actions_before_actual_stop": {
+      "decisions": 387,
+      "contact_trigger": 234,
+      "distance_over_1_5m": 55,
+      "direction_over_90deg": 37,
+      "reactive_jepa_view": 236,
+      "requests_replanned": 85,
+      "survey_unseen_side": 90,
+      "local_options_exhausted": 10,
+      "no_translation_budget": 51
+    }
+  },
+  "both_initial_unclear": {
+    "arms": {
+      "old_no_stop": {
+        "groups": 128,
+        "actions": 1072,
+        "contacts": 63,
+        "opportunity": 53,
+        "missed_seen": 53,
+        "terminal_frame_clear": 42
+      },
+      "new_no_stop": {
+        "groups": 128,
+        "actions": 3118,
+        "contacts": 301,
+        "full_budget": 15,
+        "opportunity": 88,
+        "missed_seen": 88,
+        "terminal_frame_clear": 32
+      },
+      "old_confirm": {
+        "groups": 128,
+        "actions": 983,
+        "contacts": 57,
+        "opportunity": 51,
+        "saved": 30,
+        "correct": 24,
+        "terminal_frame_clear": 43,
+        "invalid": 6,
+        "below_pixel_threshold": 6,
+        "missed_seen": 27
+      },
+      "new_confirm": {
+        "groups": 128,
+        "actions": 2358,
+        "contacts": 227,
+        "full_budget": 11,
+        "opportunity": 81,
+        "missed_seen": 37,
+        "saved": 55,
+        "correct": 43,
+        "terminal_frame_clear": 53,
+        "invalid": 12,
+        "below_pixel_threshold": 12
+      }
+    },
+    "changes": {
+      "any_opportunity": {
+        "win": 35,
+        "loss": 0
+      },
+      "first_confirmation_correct": {
+        "win": 19,
+        "loss": 0
+      }
+    },
+    "attribution": {
+      "never_clear_within_budget": 36,
+      "true_visible_but_abstained": 37,
+      "correct_additional_from_extension": 19,
+      "correct_after_extension": 19,
+      "correct_on_legacy_prefix": 24,
+      "wrong_first_confirmation": 12
+    },
+    "cumulative": {
+      "6": {
+        "old_ever": 34,
+        "new_ever": 37,
+        "old_confirmed": 10,
+        "new_confirmed": 10
+      },
+      "10": {
+        "old_ever": 46,
+        "new_ever": 62,
+        "old_confirmed": 19,
+        "new_confirmed": 26
+      },
+      "16": {
+        "old_ever": 51,
+        "new_ever": 75,
+        "old_confirmed": 22,
+        "new_confirmed": 36
+      },
+      "22": {
+        "old_ever": 53,
+        "new_ever": 88,
+        "old_confirmed": 24,
+        "new_confirmed": 41
+      },
+      "30": {
+        "old_ever": 53,
+        "new_ever": 88,
+        "old_confirmed": 24,
+        "new_confirmed": 43
+      }
+    },
+    "signed_gains_per_house": [
+      {
+        "any_opportunity": 10,
+        "first_confirmation_correct": 5
+      },
+      {
+        "any_opportunity": 12,
+        "first_confirmation_correct": 6
+      },
+      {
+        "any_opportunity": 13,
+        "first_confirmation_correct": 8
+      }
+    ],
+    "recovery_actions_before_actual_stop": {
+      "decisions": 404,
+      "contact_trigger": 224,
+      "distance_over_1_5m": 63,
+      "direction_over_90deg": 35,
+      "reactive_jepa_view": 245,
+      "requests_replanned": 98,
+      "survey_unseen_side": 95,
+      "local_options_exhausted": 9,
+      "no_translation_budget": 55
+    }
+  },
+  "focus": {
+    "arms": {
+      "old_no_stop": {
+        "groups": 94,
+        "actions": 777,
+        "contacts": 60,
+        "opportunity": 40,
+        "missed_seen": 40,
+        "terminal_frame_clear": 32
+      },
+      "new_no_stop": {
+        "groups": 94,
+        "actions": 2340,
+        "contacts": 257,
+        "full_budget": 11,
+        "opportunity": 58,
+        "missed_seen": 58,
+        "terminal_frame_clear": 22
+      },
+      "old_confirm": {
+        "groups": 94,
+        "actions": 708,
+        "contacts": 54,
+        "opportunity": 38,
+        "saved": 20,
+        "correct": 16,
+        "terminal_frame_clear": 31,
+        "invalid": 4,
+        "below_pixel_threshold": 4,
+        "missed_seen": 22
+      },
+      "new_confirm": {
+        "groups": 94,
+        "actions": 1855,
+        "contacts": 202,
+        "full_budget": 9,
+        "opportunity": 56,
+        "missed_seen": 29,
+        "saved": 32,
+        "correct": 26,
+        "terminal_frame_clear": 35,
+        "invalid": 6,
+        "below_pixel_threshold": 6
+      }
+    },
+    "changes": {
+      "any_opportunity": {
+        "win": 18,
+        "loss": 0
+      },
+      "first_confirmation_correct": {
+        "win": 10,
+        "loss": 0
+      }
+    },
+    "attribution": {
+      "never_clear_within_budget": 33,
+      "true_visible_but_abstained": 29,
+      "correct_additional_from_extension": 10,
+      "correct_after_extension": 10,
+      "correct_on_legacy_prefix": 16,
+      "wrong_first_confirmation": 6
+    },
+    "cumulative": {
+      "6": {
+        "old_ever": 28,
+        "new_ever": 31,
+        "old_confirmed": 7,
+        "new_confirmed": 7
+      },
+      "10": {
+        "old_ever": 35,
+        "new_ever": 42,
+        "old_confirmed": 13,
+        "new_confirmed": 16
+      },
+      "16": {
+        "old_ever": 38,
+        "new_ever": 47,
+        "old_confirmed": 15,
+        "new_confirmed": 22
+      },
+      "22": {
+        "old_ever": 40,
+        "new_ever": 58,
+        "old_confirmed": 16,
+        "new_confirmed": 25
+      },
+      "30": {
+        "old_ever": 40,
+        "new_ever": 58,
+        "old_confirmed": 16,
+        "new_confirmed": 26
+      }
+    },
+    "signed_gains_per_house": [
+      {
+        "any_opportunity": 5,
+        "first_confirmation_correct": 3
+      },
+      {
+        "any_opportunity": 6,
+        "first_confirmation_correct": 4
+      },
+      {
+        "any_opportunity": 7,
+        "first_confirmation_correct": 3
+      }
+    ],
+    "recovery_actions_before_actual_stop": {
+      "decisions": 335,
+      "contact_trigger": 200,
+      "distance_over_1_5m": 49,
+      "direction_over_90deg": 31,
+      "reactive_jepa_view": 203,
+      "requests_replanned": 74,
+      "survey_unseen_side": 78,
+      "local_options_exhausted": 9,
+      "no_translation_budget": 45
+    }
+  }
+}

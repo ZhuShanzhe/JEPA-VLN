@@ -1,0 +1,54 @@
+{
+  "focus": {
+    "counts": {
+      "rescued": 10,
+      "initial_route_already_had_clear_opportunity": 5,
+      "first_extension_after_contact_or_stall": 10,
+      "final_view_decision_reactive_jepa_view": 10,
+      "at_least_one_replan_due_to_contact": 10,
+      "clear_opportunity_first_obtained_on_extension": 5,
+      "selected_farther_than_1_5m": 3,
+      "selected_lateral_direction_over_90deg": 2
+    },
+    "extra_actions_until_valid_confirmation": {
+      "min": 1,
+      "median": 8.0,
+      "max": 20
+    }
+  },
+  "all": {
+    "counts": {
+      "rescued": 24,
+      "initial_route_already_had_clear_opportunity": 12,
+      "first_extension_after_contact_or_stall": 14,
+      "final_view_decision_reactive_jepa_view": 24,
+      "at_least_one_replan_due_to_contact": 15,
+      "clear_opportunity_first_obtained_on_extension": 12,
+      "first_extension_after_end_of_plan": 10,
+      "selected_farther_than_1_5m": 10,
+      "selected_lateral_direction_over_90deg": 3
+    },
+    "extra_actions_until_valid_confirmation": {
+      "min": 1,
+      "median": 4.5,
+      "max": 20
+    }
+  },
+  "focus_missed_views": {
+    "counts": {
+      "groups": 33,
+      "touched_or_stalled": 30,
+      "touched_or_stalled_at_least_three_times": 22,
+      "ended_with_at_least_two_unused_actions": 6,
+      "peak_target_area_under_half_the_required_pixels": 19,
+      "terminal_no_translation_budget": 24,
+      "terminal_local_options_exhausted": 6,
+      "terminal_budget_exhausted": 3
+    },
+    "medians": {
+      "contacts_per_request": 4.0,
+      "best_target_pixels": 163.0,
+      "unused_actions": 1.0
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "source": {
+    "sampled_source_pixels": 56893,
+    "non_target_pixels": 27165
+  },
+  "train": {
+    "frames": 3522,
+    "groups_with_true_opportunity": 172,
+    "supported_frames": 1777
+  },
+  "val": {
+    "frames": 1758,
+    "groups_with_true_opportunity": 91,
+    "supported_frames": 855,
+    "groups": 144,
+    "frame_accept": 153,
+    "frame_valid": 150,
+    "first_accept": 46,
+    "first_valid": 44,
+    "accepted_but_unclear": 3,
+    "accepted_but_bad_identity_box": 0
+  },
+  "calibration": "Require at least 95% precision for frames and first accepted frames per cue across the enumerated calibration plans; maximize true first accepts among threshold candidates. No semantic inputs during inference.",
+  "same_target": "Prediction rectangle includes >=50% visible pixels of original instance with box IoU>=0.3. At least 369 visible pixels for clear. No oracle mask in source or during decisions.",
+  "threshold": 0.8350000000000001,
+  "model_hashes": {
+    "clear.npz": "23904494d12eb2fa8b1af206ed00d40adfbfba22e80ff2641cf96e7ad65114a4",
+    "same.npz": "48fbd699991a4136304b6a7916da18719c8bdf2cf150297c99fd2e527129f294",
+    "source.npz": "af9b3da4164d6b1553981518254870526e87fcc3c4116cb01f53db528e1c62fc",
+    "thresholds.json": "b97f839406da6bc6a1083ac95aa3ee43f09c7a10c4bdcb5cc4357f0acc4caea9"
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "group_stage": {
+    "at_least_one_spatially_acceptable_box": 29
+  },
+  "frame_stage": {
+    "candidate_meets_spatial_rule": 140,
+    "candidate_partial_or_poor_IoU": 9
+  },
+  "no_box_frame_first_failing_gate": {},
+  "best_usable_box_first_failing_scores": {
+    "clarity_alone_below_product_cutoff": 20,
+    "both_below_product_cutoff": 4,
+    "both_individually_above_product_cutoff_but_product_below": 4,
+    "identity_alone_below_product_cutoff": 1
+  },
+  "score_pattern_all_usable_frames": {
+    "clarity_alone_below_product_cutoff": 100,
+    "both_below_product_cutoff": 31,
+    "identity_alone_below_product_cutoff": 5,
+    "both_individually_above_product_cutoff_but_product_below": 4
+  },
+  "best_usable_box_per_group": {
+    "n": 29,
+    "estimated_pixels": {
+      "min": 134.063,
+      "q25": 292.833,
+      "median": 364.174,
+      "q75": 447.378,
+      "max": 642.066
+    },
+    "true_pixels": {
+      "min": 369.0,
+      "q25": 413.0,
+      "median": 494.0,
+      "q75": 726.0,
+      "max": 1093.0
+    },
+    "p_same": {
+      "min": 0.164,
+      "q25": 0.918,
+      "median": 0.959,
+      "q75": 0.972,
+      "max": 0.991
+    },
+    "p_clear": {
+      "min": 0.04,
+      "q25": 0.685,
+      "median": 0.773,
+      "q75": 0.825,
+      "max": 0.914
+    },
+    "product": {
+      "min": 0.039,
+      "q25": 0.435,
+      "median": 0.711,
+      "q75": 0.773,
+      "max": 0.829
+    },
+    "coverage": {
+      "min": 0.567,
+      "q25": 0.829,
+      "median": 0.924,
+      "q75": 0.989,
+      "max": 1.0
+    },
+    "support_correct_on_both_ends": {
+      "min": 0.177,
+      "q25": 0.542,
+      "median": 0.622,
+      "q75": 0.806,
+      "max": 1.0
+    }
+  },
+  "best_coverage_of_bad_boxes_per_group": {
+    "n": 0,
+    "estimated_pixels": {},
+    "true_pixels": {},
+    "p_same": {},
+    "p_clear": {},
+    "product": {},
+    "coverage": {},
+    "support_correct_on_both_ends": {}
+  },
+  "all_usable_frames": {
+    "n": 140,
+    "estimated_pixels": {
+      "min": 59.424,
+      "q25": 221.943,
+      "median": 305.01,
+      "q75": 388.631,
+      "max": 642.066
+    },
+    "true_pixels": {
+      "min": 369.0,
+      "q25": 414.0,
+      "median": 513.5,
+      "q75": 695.25,
+      "max": 1717.0
+    },
+    "p_same": {
+      "min": 0.109,
+      "q25": 0.806,
+      "median": 0.952,
+      "q75": 0.972,
+      "max": 0.991
+    },
+    "p_clear": {
+      "min": 0.038,
+      "q25": 0.294,
+      "median": 0.583,
+      "q75": 0.766,
+      "max": 0.914
+    },
+    "product": {
+      "min": 0.017,
+      "q25": 0.173,
+      "median": 0.457,
+      "q75": 0.691,
+      "max": 0.829
+    },
+    "coverage": {
+      "min": 0.503,
+      "q25": 0.727,
+      "median": 0.854,
+      "q75": 0.982,
+      "max": 1.0
+    },
+    "support_correct_on_both_ends": {
+      "min": 0.149,
+      "q25": 0.542,
+      "median": 0.696,
+      "q75": 0.896,
+      "max": 1.0
+    }
+  },
+  "empty_box_false_confirmation": {
+    "step": 14,
+    "source_category": "chair",
+    "source_pixels": 47,
+    "true_pixels_inside_source_box": 47,
+    "source_support_classes": [
+      {
+        "label": "table",
+        "points": 364
+      },
+      {
+        "label": "unclassified_geometry",
+        "points": 24
+      },
+      {
+        "label": "unclassified_geometry",
+        "points": 5
+      }
+    ],
+    "source_box_area": 518,
+    "current_target_pixels": 0,
+    "intersection": 0,
+    "estimated_pixels": 687.93603515625,
+    "box_area": 3367,
+    "p_clear": 0.9463925467313807,
+    "p_same": 0.9349667105191997,
+    "projection": {
+      "source_support": 393,
+      "source_support_true": 0,
+      "in_view": 308,
+      "depth_supported": 297,
+      "surface_supported": 295,
+      "supported_true_at_source": 0,
+      "supported_true_at_destination": 0,
+      "supported_true_at_both": 0
+    },
+    "most_frequent_semantics_in_crop": [
+      {
+        "label": "table",
+        "pixels": 2483,
+        "same_category": false
+      },
+      {
+        "label": "other_geometry",
+        "pixels": 595,
+        "same_category": false
+      },
+      {
+        "label": "chair",
+        "pixels": 158,
+        "same_category": true
+      },
+      {
+        "label": "static_or_background",
+        "pixels": 123,
+        "same_category": false
+      }
+    ]
+  },
+  "limits": "All recurrent frames counted, including turns and repeated poses. Groups are the primary unit. With existing boxes and trajectories, selecting a ground-truth-valid frame is an oracle ceiling. Scores are separately compared to the frozen product cutoff as a necessary, not sufficient, condition. No blind threshold sweep or retraining.",
+  "threshold": 0.8350000000000001
+}

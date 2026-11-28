@@ -1,0 +1,28 @@
+{
+  "checks": {
+    "groups": 180,
+    "post_source_physical_actions_verified": 4470,
+    "full_and_crop_pairs_verified": 98
+  },
+  "first_submit_errors": {
+    "target_present_but_below_clarity": 11,
+    "target_absent_inside_submitted_box": 1
+  },
+  "focus_submit_errors": {
+    "target_present_but_below_clarity": 5,
+    "target_absent_inside_submitted_box": 1
+  },
+  "focus": {
+    "no_clear_frame_on_executed_path": 33,
+    "clear_seen_but_no_frame_submitted": 29,
+    "valid_saved_confirmation": 26,
+    "target_present_but_below_clarity": 5,
+    "target_absent_inside_submitted_box": 1
+  },
+  "offline_probe_subset": {
+    "prior_failed_and_probe_found_an_opportunity": 17,
+    "new_route_saw_clear": 14,
+    "new_correctly_confirmed": 4
+  },
+  "notes": "First submission only. Original and submitted-crop PNGs exactly match the independently re-rendered target step. Geometry-based box recall >=50%, bounding rectangle IoU >=0.30 and at least 369 target pixels. Private images never leave the experiment."
+}

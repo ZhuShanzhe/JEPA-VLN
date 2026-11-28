@@ -1,0 +1,17 @@
+{
+  "protocol": "Offline finite probe from the actual previous stop. At 12 bearings move up to 3m and look towards source-estimated target every 0.5m. Original budget only, first contact stops each tested branch. A positive is evidence of an opportunity; a negative does not rule out different maneuvers.",
+  "previous_never_clear": {
+    "groups": 54,
+    "positive_budget": 54,
+    "clearable_in_finite_probe": 17,
+    "min_extra_actions_median": 4.0,
+    "clearable_by_turning_in_place": 7
+  },
+  "previous_never_clear_after_contact": {
+    "groups": 41,
+    "positive_budget": 41,
+    "clearable_in_finite_probe": 14,
+    "min_extra_actions_median": 2.0,
+    "clearable_by_turning_in_place": 7
+  }
+}

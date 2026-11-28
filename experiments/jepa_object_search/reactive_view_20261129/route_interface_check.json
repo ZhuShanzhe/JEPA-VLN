@@ -1,0 +1,8 @@
+{
+  "frozen_checker": true,
+  "deterministic_contact_edge": true,
+  "legal_actions": true,
+  "translated_geometry": true,
+  "virtual_depth_projection": true,
+  "calibration_smoke": "reactive_jepa_view"
+}

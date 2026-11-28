@@ -1,0 +1,17 @@
+{
+  "houses": 3,
+  "counts": {
+    "frame_and_crop_pairs_exact": 9,
+    "requests": 15,
+    "actions": 227,
+    "post_contact_actions": 20
+  },
+  "behavior_coverage_nonexclusive": {
+    "initial": 3,
+    "moving_confirmation": 6,
+    "confirmed_after_contact": 3,
+    "budget_exhausted": 3,
+    "options_exhausted": 3
+  },
+  "criteria": "Exact primitive-by-primitive agreement to first accepted frame or stop against frozen JEPA closed-loop logs; independently executed Habitat simulator, RGB-D/odometry only to loaded policy. Identical confirmation step, rectangle, confidences and full-frame/crop pixels. Behavior-stratified interface smoke test only."
+}

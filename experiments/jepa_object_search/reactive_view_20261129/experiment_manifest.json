@@ -1,0 +1,39 @@
+{
+  "paired_prior_git_commit": "71c01ea160aaeb75ca2542040517d58dd57a556a",
+  "input_sha256": {
+    "previous_jepa_checkpoint": "b70eac9c504495709a6ea5e25a6c89738972ad635dcde496689e0ee0bd418b75",
+    "path_checker": "b20520e5c387584d74fa400b009b64f6cfc2c3ff49fd688c37f9e23536980c41",
+    "previous_initial_plans": "bcc652d69879493d9001287bcf4c3d8a1a4fd280df1df7ee0d02239651c632d9",
+    "sampling_protocol": "1351bf4dc9901d899ff3ee4216fb441d5c494fcccf38d23010c8e7d40aaad639",
+    "confirm_source.npz": "af9b3da4164d6b1553981518254870526e87fcc3c4116cb01f53db528e1c62fc",
+    "confirm_clear.npz": "23904494d12eb2fa8b1af206ed00d40adfbfba22e80ff2641cf96e7ad65114a4",
+    "confirm_same.npz": "48fbd699991a4136304b6a7916da18719c8bdf2cf150297c99fd2e527129f294",
+    "confirm_thresholds.json": "b97f839406da6bc6a1083ac95aa3ee43f09c7a10c4bdcb5cc4357f0acc4caea9",
+    "house_1_paired_controls": "1eb4960e053f0938cbec4b459959766e044f96c35d7d7bd16a0b9e76ac5988cb",
+    "house_1_source_context": "50310aebae594966189ab6ecbaea726d77a4c927f3eb6652b5919e6416ff7930",
+    "house_2_paired_controls": "03bad506e35236ef274729e3df33bb006bcc14d368232b22a156d2cda05115a4",
+    "house_2_source_context": "4571a161e89a3b4395e0f8fed8f4c5be0455224353794b111a46ab2050d240dc",
+    "house_3_paired_controls": "c4b8841f75be00897fb33a188f43e2924a476be6451958616ed0ca4b225855b6",
+    "house_3_source_context": "516339db7ff087170fd0929c8cfe86564f4edb06a57a65159e690114c4ed12f7"
+  },
+  "implementation_sha256": {
+    "attribute_rescues.py": "2960134a93ebbd96f07abf51feaf9dff3b7a69eb78ccba1faa2d8abf4ae7fc6e",
+    "audit_saved_frames.py": "d135ba42af790e426c9f5ac0f14009bf3c2e55b49483c9dc5c355096e91cf8ca",
+    "check_reactive_route.py": "3e8895305b502235d3bd6c12db47ed71fadf90b93b8d073f8177ae9f1c8645f0",
+    "collect_confirm.py": "65d72688b8123f22ca6e158bba2555e20374a37e3740ab657b7d3b2b8b589374",
+    "compare_recovery.py": "1f0c6572ea7018a5ee895eacb67ae55e8b25eb86610237b4468476e89537cf59",
+    "compare_recovery_policies.py": "5abf8a92ae60a79bd2b84b471f9c37113643f7c284f8d985671429d163446c02",
+    "diagnose_abstentions.py": "9efb863d685f5f539839375b6bfa04c14bb8bcb8b8b9d685a986ce77dbbc2106",
+    "fit_confirm.py": "28e60a80e83dfa46ad7a05c5c0b7877cf0fcf4a80ffab0e2f49e2e0b26e680bb",
+    "frame_confirm.py": "face3817d46782dd3ce64d2ae858c03f9279efc63f71ff6ce1c12a207099fe0f",
+    "inspection_session.py": "176e84a0b638815e9a3f17767c1038dec39fc9629f61fcef96f267fcf21ba7c6",
+    "make_manifest.py": "90357527f68084f4f9fb54dbbad0583db5dacc37c3c9285f615d06aa236a8ece",
+    "probe_after_stop.py": "b2fedb1f7d8fdcceb0df5f755c5c25bd68b80226ebc2c7e1736dc18f180470dc",
+    "reactive_route.py": "0dadb8b73908b0d225a7992a869f82fbf0559d0d96f90bc71aab7606a17c1fe5",
+    "rollout.py": "7e392d0b3527910a0318e5be045646b979b45adcefdd9a2eb934e65ba0f54d6e",
+    "route_worker.py": "050aabf097119be6f90f1f36c1e3ed71ec166af3f05915c1b819c6270f7376c2",
+    "score_rollout.py": "78f595896bc0b408726eec2124762f0db6a0942860e985ed2090cfa844a31695",
+    "test_distractor_frames.py": "80d388090079f3743116bfd38354030b2cf20ff50ba2637d52fa8629e8143de3",
+    "verify_inspection_session.py": "ce5431fa4f371e6bb9249cbb20ac0cf78ca34e78f9f299ba0fc71a0eb7a9f948"
+  }
+}

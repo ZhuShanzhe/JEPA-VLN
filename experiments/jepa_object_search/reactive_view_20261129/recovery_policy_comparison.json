@@ -1,0 +1,41 @@
+{
+  "protocol": "First ten eligible source indices per house from old-seven-blocked and initial/sweep-unclear requests whose old full path never saw 369 same-instance pixels, with >=2 actions left. Independent one-proposal intervention at the actual previous stop. Same gate, admitted candidates and remaining budget. No verifier or second replan in this local counterfactual. Report is separate from full rollouts.",
+  "counts": {
+    "jepa": {
+      "groups": 30,
+      "actions": 146,
+      "ever_clear": 4,
+      "terminal_clear_and_arrived": 1,
+      "contact": 28,
+      "issued": 30
+    },
+    "projected_area": {
+      "groups": 30,
+      "actions": 155,
+      "ever_clear": 5,
+      "terminal_clear_and_arrived": 2,
+      "contact": 25,
+      "issued": 30
+    },
+    "nearest": {
+      "groups": 30,
+      "actions": 111,
+      "ever_clear": 5,
+      "terminal_clear_and_arrived": 2,
+      "contact": 20,
+      "issued": 30
+    }
+  },
+  "paired": {
+    "projected_area": {
+      "different": 14,
+      "jepa_gained": 0,
+      "control_gained": 1
+    },
+    "nearest": {
+      "different": 29,
+      "jepa_gained": 1,
+      "control_gained": 2
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "houses": 3,
+  "counts": {
+    "frames": 92,
+    "within_three_m": 31,
+    "true_source_instance_absent": 80,
+    "predicted_box": 14,
+    "false_confirmations": 0
+  },
+  "protocol": "All ordered pairs of distinct same-category source instances among sampled held-out cameras, within 8m and same floor. Destination sees >=369 pixels of distractor and <369 pixels of original target. Camera geometry and appearance only at inference. Separate camera-pair stress test; not part of navigation episodes."
+}

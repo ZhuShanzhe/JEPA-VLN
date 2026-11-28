@@ -1,0 +1,217 @@
+{
+  "scope": "Same frozen first-leg actions, contact trigger, locally accumulated RGB-D, remaining budget, candidate paths, shortest admitted path per view, path checker and first-frame confirmation rule. Only recovery-view merit changes: classifier p_visible vs logistic of clipped geometric log projected area; each is multiplied by the same registered p_reach.",
+  "subsets": {
+    "all": {
+      "area": {
+        "groups": 180,
+        "confirmed": 84,
+        "saved": 96,
+        "incorrect": 12,
+        "actions": 2817,
+        "contacts": 249,
+        "physical_opportunity": 139,
+        "actions_no_stop": 4477,
+        "confirmed_after_legacy": 22
+      },
+      "jepa": {
+        "groups": 180,
+        "confirmed": 86,
+        "saved": 98,
+        "incorrect": 12,
+        "actions": 2785,
+        "contacts": 265,
+        "physical_opportunity": 140,
+        "actions_no_stop": 4470,
+        "confirmed_after_legacy": 24
+      },
+      "paired": {
+        "paired": 180,
+        "route_diverged": 94,
+        "same_shadow_actions": 86,
+        "both_confirm": 81,
+        "neither_confirm": 91,
+        "jepa_only_confirm": 5,
+        "area_only_confirm": 3,
+        "jepa_only_opportunity": 4,
+        "area_only_opportunity": 3
+      }
+    },
+    "seven_blocked": {
+      "area": {
+        "groups": 133,
+        "confirmed": 56,
+        "saved": 63,
+        "incorrect": 7,
+        "actions": 2199,
+        "contacts": 229,
+        "physical_opportunity": 98,
+        "actions_no_stop": 3383,
+        "confirmed_after_legacy": 12
+      },
+      "jepa": {
+        "groups": 133,
+        "confirmed": 58,
+        "saved": 64,
+        "incorrect": 6,
+        "actions": 2183,
+        "contacts": 237,
+        "physical_opportunity": 97,
+        "actions_no_stop": 3381,
+        "confirmed_after_legacy": 14
+      },
+      "paired": {
+        "paired": 133,
+        "route_diverged": 71,
+        "same_shadow_actions": 62,
+        "both_confirm": 54,
+        "neither_confirm": 73,
+        "jepa_only_confirm": 4,
+        "area_only_confirm": 2,
+        "jepa_only_opportunity": 2,
+        "area_only_opportunity": 3
+      }
+    },
+    "focus": {
+      "area": {
+        "groups": 94,
+        "confirmed": 25,
+        "saved": 32,
+        "incorrect": 7,
+        "actions": 1870,
+        "contacts": 193,
+        "physical_opportunity": 59,
+        "actions_no_stop": 2349,
+        "confirmed_after_legacy": 9
+      },
+      "jepa": {
+        "groups": 94,
+        "confirmed": 26,
+        "saved": 32,
+        "incorrect": 6,
+        "actions": 1855,
+        "contacts": 202,
+        "physical_opportunity": 58,
+        "actions_no_stop": 2340,
+        "confirmed_after_legacy": 10
+      },
+      "paired": {
+        "paired": 94,
+        "route_diverged": 53,
+        "same_shadow_actions": 41,
+        "both_confirm": 23,
+        "neither_confirm": 66,
+        "jepa_only_confirm": 3,
+        "area_only_confirm": 2,
+        "jepa_only_opportunity": 2,
+        "area_only_opportunity": 3
+      }
+    }
+  },
+  "per_house": {
+    "all": [
+      {
+        "paired": 60,
+        "route_diverged": 35,
+        "same_shadow_actions": 25,
+        "both_confirm": 26,
+        "neither_confirm": 32,
+        "jepa_only_confirm": 1,
+        "area_only_confirm": 1,
+        "jepa_only_opportunity": 2,
+        "area_only_opportunity": 1
+      },
+      {
+        "paired": 60,
+        "route_diverged": 24,
+        "same_shadow_actions": 36,
+        "both_confirm": 24,
+        "neither_confirm": 33,
+        "jepa_only_confirm": 2,
+        "area_only_confirm": 1,
+        "jepa_only_opportunity": 0,
+        "area_only_opportunity": 2
+      },
+      {
+        "paired": 60,
+        "route_diverged": 35,
+        "same_shadow_actions": 25,
+        "both_confirm": 31,
+        "neither_confirm": 26,
+        "jepa_only_confirm": 2,
+        "area_only_confirm": 1,
+        "jepa_only_opportunity": 2,
+        "area_only_opportunity": 0
+      }
+    ],
+    "seven_blocked": [
+      {
+        "paired": 43,
+        "route_diverged": 27,
+        "same_shadow_actions": 16,
+        "both_confirm": 17,
+        "neither_confirm": 24,
+        "jepa_only_confirm": 1,
+        "area_only_confirm": 1,
+        "jepa_only_opportunity": 1,
+        "area_only_opportunity": 1
+      },
+      {
+        "paired": 46,
+        "route_diverged": 18,
+        "same_shadow_actions": 28,
+        "both_confirm": 17,
+        "neither_confirm": 28,
+        "jepa_only_confirm": 1,
+        "area_only_confirm": 0,
+        "jepa_only_opportunity": 0,
+        "area_only_opportunity": 2
+      },
+      {
+        "paired": 44,
+        "route_diverged": 26,
+        "same_shadow_actions": 18,
+        "both_confirm": 20,
+        "neither_confirm": 21,
+        "jepa_only_confirm": 2,
+        "area_only_confirm": 1,
+        "jepa_only_opportunity": 1,
+        "area_only_opportunity": 0
+      }
+    ],
+    "focus": [
+      {
+        "paired": 26,
+        "route_diverged": 18,
+        "same_shadow_actions": 8,
+        "both_confirm": 4,
+        "neither_confirm": 20,
+        "jepa_only_confirm": 1,
+        "area_only_confirm": 1,
+        "jepa_only_opportunity": 1,
+        "area_only_opportunity": 1
+      },
+      {
+        "paired": 37,
+        "route_diverged": 14,
+        "same_shadow_actions": 23,
+        "both_confirm": 10,
+        "neither_confirm": 26,
+        "jepa_only_confirm": 1,
+        "area_only_confirm": 0,
+        "jepa_only_opportunity": 0,
+        "area_only_opportunity": 2
+      },
+      {
+        "paired": 31,
+        "route_diverged": 21,
+        "same_shadow_actions": 10,
+        "both_confirm": 9,
+        "neither_confirm": 20,
+        "jepa_only_confirm": 1,
+        "area_only_confirm": 1,
+        "jepa_only_opportunity": 1,
+        "area_only_opportunity": 0
+      }
+    ]
+  }
+}

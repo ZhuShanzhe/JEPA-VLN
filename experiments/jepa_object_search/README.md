@@ -1,5 +1,7 @@
 # 多实例寻物中的前沿选择
 
+[实际受阻后的换位与沿途实例确认](reactive_view_20261129/README.md)
+
 [原观察位受阻后的同实例换位复看](new_view_20261129/README.md)
 
 [JEPA 局部复看导航：轨迹通行检查与受阻改道](path_feedback_20261128/README.md)
