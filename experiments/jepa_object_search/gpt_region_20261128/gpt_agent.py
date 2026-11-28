@@ -11,6 +11,8 @@ from gpt_gate import GPTGate
 
 
 class GPTRegionAgent(LocalApproachAgent):
+    policy_class = GatedPolicy
+
     def init_episode(self, obs):
         super().init_episode(obs)
         self._gate = None
@@ -51,7 +53,7 @@ class GPTRegionAgent(LocalApproachAgent):
         if self._gate is None:
             self._gate = GPTGate(self.episode, Path(self.output_dir)/"gpt_region_private")
         if self._gated is None:
-            self._gated = GatedPolicy(self._gate, instruction=self._instruction)
+            self._gated = self.policy_class(self._gate, instruction=self._instruction)
         decision, region = self._gated.pick(self.local,self.search,grid,pose,scale,rows,scan["views"],
                                            self.word,remaining,self.channel,blocked=self._local_blocked)
         self._local_blocked = False

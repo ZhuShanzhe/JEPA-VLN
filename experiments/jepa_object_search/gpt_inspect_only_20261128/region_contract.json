@@ -1,0 +1,8 @@
+{
+  "development_house_only": true,
+  "compared_poses": 66,
+  "physical_steps": 65,
+  "max_absolute_pose_difference": 0.0,
+  "compared_selections": 5,
+  "adversarial_region_choices_overridden": 5
+}

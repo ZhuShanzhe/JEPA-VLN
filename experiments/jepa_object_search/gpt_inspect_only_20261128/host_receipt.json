@@ -1,0 +1,10 @@
+{
+  "factory": true,
+  "real_hm3d_rgb": true,
+  "controlled_grid_and_pose": true,
+  "physical_scan_actions": 4,
+  "mode": "explore",
+  "action_source": "region",
+  "navigation_action_dispatched": true,
+  "provider_model": "gpt-4o-2024-11-20"
+}

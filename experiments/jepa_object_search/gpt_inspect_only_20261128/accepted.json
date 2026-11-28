@@ -1,0 +1,1011 @@
+{
+  "model": "gpt-4o-2024-11-20",
+  "panel_sha256": "9d3167d378f2f31fcd7df78d95e222fe150028bcfff739fea0f9334015e69674",
+  "gate_lock_sha256": "0bf2ecb49036090a35fac145b4c2f1f8b927e283356583b713b756b770671863",
+  "previous_gate_report_sha256": "33e124299f08ca480efacea50a52a99dc393d732d4b75b554a53c9803d77c36b",
+  "actions_per_arm": 2400,
+  "totals": {
+    "previous": {
+      "distinct_approached": 10,
+      "approached_half_m": 11,
+      "approached_one_m": 12,
+      "already_at_start": 0,
+      "quota_met": 3
+    },
+    "local": {
+      "distinct_approached": 6,
+      "approached_half_m": 7,
+      "approached_one_m": 8,
+      "already_at_start": 0,
+      "quota_met": 1
+    },
+    "gpt": {
+      "distinct_approached": 8,
+      "approached_half_m": 12,
+      "approached_one_m": 12,
+      "already_at_start": 0,
+      "quota_met": 2
+    },
+    "inspect_only": {
+      "distinct_approached": 10,
+      "approached_half_m": 11,
+      "approached_one_m": 12,
+      "already_at_start": 0,
+      "quota_met": 3
+    }
+  },
+  "pairs": {
+    "previous": {
+      "distinct_approached": {
+        "improved": 1,
+        "tied": 6,
+        "declined": 1,
+        "sum_difference": 0,
+        "mean_difference": 0.0,
+        "exact_two_sided_sign_p": 1.0
+      },
+      "quota_met": {
+        "improved": 0,
+        "tied": 8,
+        "declined": 0,
+        "sum_difference": 0,
+        "mean_difference": 0.0,
+        "exact_two_sided_sign_p": 1.0
+      }
+    },
+    "local": {
+      "distinct_approached": {
+        "improved": 5,
+        "tied": 2,
+        "declined": 1,
+        "sum_difference": 4,
+        "mean_difference": 0.5,
+        "exact_two_sided_sign_p": 0.21875
+      },
+      "quota_met": {
+        "improved": 2,
+        "tied": 6,
+        "declined": 0,
+        "sum_difference": 2,
+        "mean_difference": 0.25,
+        "exact_two_sided_sign_p": 0.5
+      }
+    },
+    "gpt": {
+      "distinct_approached": {
+        "improved": 3,
+        "tied": 4,
+        "declined": 1,
+        "sum_difference": 2,
+        "mean_difference": 0.25,
+        "exact_two_sided_sign_p": 0.625
+      },
+      "quota_met": {
+        "improved": 1,
+        "tied": 7,
+        "declined": 0,
+        "sum_difference": 1,
+        "mean_difference": 0.125,
+        "exact_two_sided_sign_p": 1.0
+      }
+    }
+  },
+  "provider_receipt_events": {
+    "dispatch": 161,
+    "success": 161
+  },
+  "provider_usage": {
+    "input_tokens": 256678,
+    "output_tokens": 4421,
+    "total_tokens": 261099
+  },
+  "known_fee_entries": 0,
+  "known_fee_subtotal": null,
+  "new_diagnostics": {
+    "gpt_modes": {
+      "explore": 155,
+      "inspect": 6
+    },
+    "gpt_evidence": {
+      "none": 146,
+      "clear": 10,
+      "suspected": 5
+    },
+    "evidence_by_mode": {
+      "explore_none": 146,
+      "inspect_clear": 5,
+      "explore_clear": 5,
+      "inspect_suspected": 1,
+      "explore_suspected": 4
+    },
+    "region_agreement": {
+      "different": 108,
+      "same": 53
+    },
+    "execution_status": {
+      "explore": 155,
+      "inspect_runnable": 5,
+      "no_camera_site": 1,
+      "no_region": 6
+    },
+    "release_reasons": {
+      "gpt_resume_exploration": 5
+    },
+    "physical_actions": {
+      "region": 1695,
+      "local": 20,
+      "scan": 668,
+      "tail": 11,
+      "empty": 6
+    },
+    "first_approach_phase": {
+      "region": 10
+    },
+    "mechanisms": {
+      "frozen_region_verified": 161,
+      "ignored_alternate_region_suggestion": 108,
+      "goals_acquired": 5,
+      "goals_reached": 0,
+      "local_physical_actions": 20,
+      "inspect_requested": 6,
+      "inspect_with_camera_site": 5,
+      "inspect_followed_by_local_segment": 5
+    }
+  },
+  "by_house": [
+    {
+      "scene": "106878960_174887073",
+      "episode": "43",
+      "goal": "picture",
+      "diagnostics": {
+        "decisions": 18,
+        "gpt_modes": {
+          "explore": 18
+        },
+        "region_agreement": {
+          "different": 15,
+          "same": 3
+        },
+        "evidence_by_mode": {
+          "explore_none": 18
+        },
+        "execution_status": {
+          "explore": 18
+        },
+        "physical_actions": {
+          "region": 227,
+          "local": 0,
+          "scan": 72,
+          "tail": 1,
+          "empty": 0
+        },
+        "first_approach_phase": {
+          "region": 2
+        },
+        "local_targets_acquired": 0,
+        "local_targets_reached": 0,
+        "gpt_evidence": {
+          "none": 18
+        },
+        "mechanisms": {
+          "frozen_region_verified": 18,
+          "ignored_alternate_region_suggestion": 15,
+          "goals_acquired": 0,
+          "goals_reached": 0,
+          "local_physical_actions": 0
+        },
+        "release_reasons": {}
+      },
+      "receipts": {
+        "events": {
+          "dispatch": 18,
+          "success": 18
+        },
+        "usage": {
+          "input_tokens": 29957,
+          "output_tokens": 486,
+          "total_tokens": 30443
+        },
+        "known_cost_entries": 0,
+        "reported_cost_subtotal": null,
+        "returned_successfully_outside_final_attempt": 0
+      },
+      "verified_result_sha256": "e75e2e573786d44a7d53e39c81e59dd9ac9cb42ea1a6ea7eb8a03f26afba06e0",
+      "previous": {
+        "distinct_approached": 2,
+        "approached_half_m": 3,
+        "approached_one_m": 3,
+        "already_at_start": 0,
+        "quota_met": true,
+        "first_steps": [
+          79,
+          175
+        ]
+      },
+      "local": {
+        "distinct_approached": 1,
+        "approached_half_m": 2,
+        "approached_one_m": 2,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": [
+          128
+        ]
+      },
+      "gpt": {
+        "distinct_approached": 4,
+        "approached_half_m": 7,
+        "approached_one_m": 7,
+        "already_at_start": 0,
+        "quota_met": true,
+        "first_steps": [
+          58,
+          191,
+          200,
+          249
+        ]
+      },
+      "inspect_only": {
+        "distinct_approached": 2,
+        "approached_half_m": 3,
+        "approached_one_m": 3,
+        "already_at_start": 0,
+        "quota_met": true,
+        "first_steps": [
+          79,
+          175
+        ]
+      },
+      "no_local_steps_matches_region": {
+        "distinct_approached": true,
+        "approached_half_m": true,
+        "approached_one_m": true,
+        "already_at_start": true,
+        "quota_met": true,
+        "first_steps": true
+      }
+    },
+    {
+      "scene": "102816600",
+      "episode": "42",
+      "goal": "table lamp",
+      "diagnostics": {
+        "decisions": 22,
+        "gpt_modes": {
+          "explore": 20,
+          "inspect": 2
+        },
+        "region_agreement": {
+          "different": 11,
+          "same": 11
+        },
+        "evidence_by_mode": {
+          "explore_none": 18,
+          "inspect_clear": 1,
+          "explore_clear": 2,
+          "inspect_suspected": 1
+        },
+        "execution_status": {
+          "explore": 20,
+          "inspect_runnable": 1,
+          "no_camera_site": 1
+        },
+        "physical_actions": {
+          "region": 205,
+          "local": 4,
+          "scan": 88,
+          "tail": 3,
+          "empty": 0
+        },
+        "first_approach_phase": {
+          "region": 2
+        },
+        "local_targets_acquired": 1,
+        "local_targets_reached": 0,
+        "gpt_evidence": {
+          "none": 18,
+          "clear": 3,
+          "suspected": 1
+        },
+        "mechanisms": {
+          "frozen_region_verified": 22,
+          "ignored_alternate_region_suggestion": 11,
+          "inspect_requested": 2,
+          "inspect_with_camera_site": 1,
+          "inspect_followed_by_local_segment": 1,
+          "goals_acquired": 1,
+          "goals_reached": 0,
+          "local_physical_actions": 4
+        },
+        "release_reasons": {
+          "gpt_resume_exploration": 1
+        }
+      },
+      "receipts": {
+        "events": {
+          "dispatch": 22,
+          "success": 22
+        },
+        "usage": {
+          "input_tokens": 32610,
+          "output_tokens": 597,
+          "total_tokens": 33207
+        },
+        "known_cost_entries": 0,
+        "reported_cost_subtotal": null,
+        "returned_successfully_outside_final_attempt": 0
+      },
+      "verified_result_sha256": "a25ed72d5ee3fd0d8cc82ef3d938c8429949cb5c20566346ed51fae025763e15",
+      "previous": {
+        "distinct_approached": 2,
+        "approached_half_m": 2,
+        "approached_one_m": 2,
+        "already_at_start": 0,
+        "quota_met": true,
+        "first_steps": [
+          123,
+          193
+        ]
+      },
+      "local": {
+        "distinct_approached": 1,
+        "approached_half_m": 1,
+        "approached_one_m": 1,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": [
+          110
+        ]
+      },
+      "gpt": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "inspect_only": {
+        "distinct_approached": 2,
+        "approached_half_m": 2,
+        "approached_one_m": 2,
+        "already_at_start": 0,
+        "quota_met": true,
+        "first_steps": [
+          123,
+          205
+        ]
+      }
+    },
+    {
+      "scene": "107734338_176000244",
+      "episode": "37",
+      "goal": "bed",
+      "diagnostics": {
+        "decisions": 18,
+        "gpt_modes": {
+          "explore": 16,
+          "inspect": 2
+        },
+        "region_agreement": {
+          "different": 15,
+          "same": 3
+        },
+        "evidence_by_mode": {
+          "explore_none": 15,
+          "explore_suspected": 1,
+          "inspect_clear": 2
+        },
+        "execution_status": {
+          "explore": 16,
+          "inspect_runnable": 2
+        },
+        "physical_actions": {
+          "region": 220,
+          "local": 8,
+          "scan": 72,
+          "tail": 0,
+          "empty": 0
+        },
+        "first_approach_phase": {
+          "region": 1
+        },
+        "local_targets_acquired": 2,
+        "local_targets_reached": 0,
+        "gpt_evidence": {
+          "none": 15,
+          "suspected": 1,
+          "clear": 2
+        },
+        "mechanisms": {
+          "frozen_region_verified": 18,
+          "ignored_alternate_region_suggestion": 15,
+          "inspect_requested": 2,
+          "inspect_with_camera_site": 2,
+          "inspect_followed_by_local_segment": 2,
+          "goals_acquired": 2,
+          "goals_reached": 0,
+          "local_physical_actions": 8
+        },
+        "release_reasons": {
+          "gpt_resume_exploration": 2
+        }
+      },
+      "receipts": {
+        "events": {
+          "dispatch": 18,
+          "success": 18
+        },
+        "usage": {
+          "input_tokens": 29248,
+          "output_tokens": 488,
+          "total_tokens": 29736
+        },
+        "known_cost_entries": 0,
+        "reported_cost_subtotal": null,
+        "returned_successfully_outside_final_attempt": 0
+      },
+      "verified_result_sha256": "6874b296409c8571fc7e2e6c41485946d589d8cd224e5887c02faac587744c80",
+      "previous": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "local": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "gpt": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "inspect_only": {
+        "distinct_approached": 1,
+        "approached_half_m": 1,
+        "approached_one_m": 1,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": [
+          294
+        ]
+      }
+    },
+    {
+      "scene": "107734176_176000019",
+      "episode": "31",
+      "goal": "plant",
+      "diagnostics": {
+        "decisions": 24,
+        "gpt_modes": {
+          "explore": 20
+        },
+        "region_agreement": {
+          "different": 13,
+          "same": 7
+        },
+        "evidence_by_mode": {
+          "explore_none": 19,
+          "explore_suspected": 1
+        },
+        "execution_status": {
+          "explore": 20,
+          "no_region": 4
+        },
+        "physical_actions": {
+          "region": 199,
+          "local": 0,
+          "scan": 96,
+          "tail": 1,
+          "empty": 4
+        },
+        "first_approach_phase": {},
+        "local_targets_acquired": 0,
+        "local_targets_reached": 0,
+        "gpt_evidence": {
+          "none": 19,
+          "suspected": 1
+        },
+        "mechanisms": {
+          "frozen_region_verified": 20,
+          "ignored_alternate_region_suggestion": 13,
+          "goals_acquired": 0,
+          "goals_reached": 0,
+          "local_physical_actions": 0
+        },
+        "release_reasons": {}
+      },
+      "receipts": {
+        "events": {
+          "dispatch": 20,
+          "success": 20
+        },
+        "usage": {
+          "input_tokens": 31523,
+          "output_tokens": 542,
+          "total_tokens": 32065
+        },
+        "known_cost_entries": 0,
+        "reported_cost_subtotal": null,
+        "returned_successfully_outside_final_attempt": 0
+      },
+      "verified_result_sha256": "42b2b0f23dc10f57409b646c422e332de85895d6b4e7b6e7a3326a758203a8ca",
+      "previous": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "local": {
+        "distinct_approached": 1,
+        "approached_half_m": 1,
+        "approached_one_m": 1,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": [
+          165
+        ]
+      },
+      "gpt": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "inspect_only": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "no_local_steps_matches_region": {
+        "distinct_approached": true,
+        "approached_half_m": true,
+        "approached_one_m": true,
+        "already_at_start": true,
+        "quota_met": true,
+        "first_steps": true
+      }
+    },
+    {
+      "scene": "106366410_174226806",
+      "episode": "36",
+      "goal": "shelf",
+      "diagnostics": {
+        "decisions": 22,
+        "gpt_modes": {
+          "explore": 22
+        },
+        "region_agreement": {
+          "different": 10,
+          "same": 12
+        },
+        "evidence_by_mode": {
+          "explore_none": 22
+        },
+        "execution_status": {
+          "explore": 22
+        },
+        "physical_actions": {
+          "region": 209,
+          "local": 0,
+          "scan": 88,
+          "tail": 3,
+          "empty": 0
+        },
+        "first_approach_phase": {},
+        "local_targets_acquired": 0,
+        "local_targets_reached": 0,
+        "gpt_evidence": {
+          "none": 22
+        },
+        "mechanisms": {
+          "frozen_region_verified": 22,
+          "ignored_alternate_region_suggestion": 10,
+          "goals_acquired": 0,
+          "goals_reached": 0,
+          "local_physical_actions": 0
+        },
+        "release_reasons": {}
+      },
+      "receipts": {
+        "events": {
+          "dispatch": 22,
+          "success": 22
+        },
+        "usage": {
+          "input_tokens": 32742,
+          "output_tokens": 609,
+          "total_tokens": 33351
+        },
+        "known_cost_entries": 0,
+        "reported_cost_subtotal": null,
+        "returned_successfully_outside_final_attempt": 0
+      },
+      "verified_result_sha256": "48184eafec88b6899287d2ede303aafce8ed810657e666d53dde626a7635a392",
+      "previous": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "local": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "gpt": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "inspect_only": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "no_local_steps_matches_region": {
+        "distinct_approached": true,
+        "approached_half_m": true,
+        "approached_one_m": true,
+        "already_at_start": true,
+        "quota_met": true,
+        "first_steps": true
+      }
+    },
+    {
+      "scene": "104348010_171512832",
+      "episode": "39",
+      "goal": "stool",
+      "diagnostics": {
+        "decisions": 17,
+        "gpt_modes": {
+          "explore": 17
+        },
+        "region_agreement": {
+          "different": 16,
+          "same": 1
+        },
+        "evidence_by_mode": {
+          "explore_none": 16,
+          "explore_suspected": 1
+        },
+        "execution_status": {
+          "explore": 17
+        },
+        "physical_actions": {
+          "region": 231,
+          "local": 0,
+          "scan": 68,
+          "tail": 1,
+          "empty": 0
+        },
+        "first_approach_phase": {
+          "region": 1
+        },
+        "local_targets_acquired": 0,
+        "local_targets_reached": 0,
+        "gpt_evidence": {
+          "none": 16,
+          "suspected": 1
+        },
+        "mechanisms": {
+          "frozen_region_verified": 17,
+          "ignored_alternate_region_suggestion": 16,
+          "goals_acquired": 0,
+          "goals_reached": 0,
+          "local_physical_actions": 0
+        },
+        "release_reasons": {}
+      },
+      "receipts": {
+        "events": {
+          "dispatch": 17,
+          "success": 17
+        },
+        "usage": {
+          "input_tokens": 32173,
+          "output_tokens": 491,
+          "total_tokens": 32664
+        },
+        "known_cost_entries": 0,
+        "reported_cost_subtotal": null,
+        "returned_successfully_outside_final_attempt": 0
+      },
+      "verified_result_sha256": "444e72473efd298dcd874d2a30a013800ac15db70036cc4c2374a21ed8f5022b",
+      "previous": {
+        "distinct_approached": 1,
+        "approached_half_m": 1,
+        "approached_one_m": 1,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": [
+          214
+        ]
+      },
+      "local": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "gpt": {
+        "distinct_approached": 1,
+        "approached_half_m": 1,
+        "approached_one_m": 1,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": [
+          156
+        ]
+      },
+      "inspect_only": {
+        "distinct_approached": 1,
+        "approached_half_m": 1,
+        "approached_one_m": 1,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": [
+          214
+        ]
+      },
+      "no_local_steps_matches_region": {
+        "distinct_approached": true,
+        "approached_half_m": true,
+        "approached_one_m": true,
+        "already_at_start": true,
+        "quota_met": true,
+        "first_steps": true
+      }
+    },
+    {
+      "scene": "104862501_172226556",
+      "episode": "31",
+      "goal": "armchair",
+      "diagnostics": {
+        "decisions": 23,
+        "gpt_modes": {
+          "explore": 23
+        },
+        "region_agreement": {
+          "different": 15,
+          "same": 8
+        },
+        "evidence_by_mode": {
+          "explore_none": 22,
+          "explore_suspected": 1
+        },
+        "execution_status": {
+          "explore": 23
+        },
+        "physical_actions": {
+          "region": 206,
+          "local": 0,
+          "scan": 92,
+          "tail": 2,
+          "empty": 0
+        },
+        "first_approach_phase": {},
+        "local_targets_acquired": 0,
+        "local_targets_reached": 0,
+        "gpt_evidence": {
+          "none": 22,
+          "suspected": 1
+        },
+        "mechanisms": {
+          "frozen_region_verified": 23,
+          "ignored_alternate_region_suggestion": 15,
+          "goals_acquired": 0,
+          "goals_reached": 0,
+          "local_physical_actions": 0
+        },
+        "release_reasons": {}
+      },
+      "receipts": {
+        "events": {
+          "dispatch": 23,
+          "success": 23
+        },
+        "usage": {
+          "input_tokens": 37901,
+          "output_tokens": 638,
+          "total_tokens": 38539
+        },
+        "known_cost_entries": 0,
+        "reported_cost_subtotal": null,
+        "returned_successfully_outside_final_attempt": 0
+      },
+      "verified_result_sha256": "eb7c55738fb8e944f2f98f9c8fbe15a3cc0c3a571ebe19907b90bac7949d90e2",
+      "previous": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "local": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "gpt": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "inspect_only": {
+        "distinct_approached": 0,
+        "approached_half_m": 0,
+        "approached_one_m": 0,
+        "already_at_start": 0,
+        "quota_met": false,
+        "first_steps": []
+      },
+      "no_local_steps_matches_region": {
+        "distinct_approached": true,
+        "approached_half_m": true,
+        "approached_one_m": true,
+        "already_at_start": true,
+        "quota_met": true,
+        "first_steps": true
+      }
+    },
+    {
+      "scene": "104862384_172226319",
+      "episode": "46",
+      "goal": "cabinet",
+      "diagnostics": {
+        "decisions": 23,
+        "gpt_modes": {
+          "explore": 19,
+          "inspect": 2
+        },
+        "region_agreement": {
+          "same": 8,
+          "different": 13
+        },
+        "evidence_by_mode": {
+          "explore_none": 16,
+          "inspect_clear": 2,
+          "explore_clear": 3
+        },
+        "execution_status": {
+          "explore": 19,
+          "inspect_runnable": 2,
+          "no_region": 2
+        },
+        "physical_actions": {
+          "region": 198,
+          "local": 8,
+          "scan": 92,
+          "tail": 0,
+          "empty": 2
+        },
+        "first_approach_phase": {
+          "region": 4
+        },
+        "local_targets_acquired": 2,
+        "local_targets_reached": 0,
+        "gpt_evidence": {
+          "none": 16,
+          "clear": 5
+        },
+        "mechanisms": {
+          "frozen_region_verified": 21,
+          "ignored_alternate_region_suggestion": 13,
+          "inspect_requested": 2,
+          "inspect_with_camera_site": 2,
+          "inspect_followed_by_local_segment": 2,
+          "goals_acquired": 2,
+          "goals_reached": 0,
+          "local_physical_actions": 8
+        },
+        "release_reasons": {
+          "gpt_resume_exploration": 2
+        }
+      },
+      "receipts": {
+        "events": {
+          "dispatch": 21,
+          "success": 21
+        },
+        "usage": {
+          "input_tokens": 30524,
+          "output_tokens": 570,
+          "total_tokens": 31094
+        },
+        "known_cost_entries": 0,
+        "reported_cost_subtotal": null,
+        "returned_successfully_outside_final_attempt": 0
+      },
+      "verified_result_sha256": "7831ecb04f1436cb3dc2bf38b4e4a1644fea86988c215791434a61196cbbeb8c",
+      "previous": {
+        "distinct_approached": 5,
+        "approached_half_m": 5,
+        "approached_one_m": 6,
+        "already_at_start": 0,
+        "quota_met": true,
+        "first_steps": [
+          84,
+          104,
+          146,
+          171,
+          237
+        ]
+      },
+      "local": {
+        "distinct_approached": 3,
+        "approached_half_m": 3,
+        "approached_one_m": 4,
+        "already_at_start": 0,
+        "quota_met": true,
+        "first_steps": [
+          90,
+          128,
+          180
+        ]
+      },
+      "gpt": {
+        "distinct_approached": 3,
+        "approached_half_m": 4,
+        "approached_one_m": 4,
+        "already_at_start": 0,
+        "quota_met": true,
+        "first_steps": [
+          93,
+          133,
+          163
+        ]
+      },
+      "inspect_only": {
+        "distinct_approached": 4,
+        "approached_half_m": 4,
+        "approached_one_m": 5,
+        "already_at_start": 0,
+        "quota_met": true,
+        "first_steps": [
+          91,
+          155,
+          180,
+          225
+        ]
+      }
+    }
+  ]
+}

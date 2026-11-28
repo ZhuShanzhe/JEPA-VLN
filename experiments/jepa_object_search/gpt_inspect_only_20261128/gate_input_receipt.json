@@ -1,0 +1,12 @@
+{
+  "split": "HSSD training",
+  "model": "gpt-4o-2024-11-20",
+  "provider_client_sha256": "eea2ecf8bc0bbb949b734c28d73dea3966f361fa9646429cf416002c1848932b",
+  "identical_request_hash_to_previous_arm": true,
+  "isolated_receipt_directory": true,
+  "one_paid_success": true,
+  "replay_cache_verified": true,
+  "same_mode_as_previous_probe": true,
+  "input_tokens": 762,
+  "output_tokens": 27
+}

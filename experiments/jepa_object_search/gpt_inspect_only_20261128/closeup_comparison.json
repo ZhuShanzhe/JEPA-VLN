@@ -1,0 +1,93 @@
+{
+  "paired_houses": [
+    {
+      "goal": "picture",
+      "requested": 0,
+      "request_outcomes": {},
+      "first_local_segment_begins_after_step": null,
+      "local_physical_actions": 0,
+      "local_first_instance_hits": 0,
+      "first_hit_steps_agree_before_first_local_action": true,
+      "diff_in_full_episode_instances": 0
+    },
+    {
+      "goal": "table lamp",
+      "requested": 2,
+      "request_outcomes": {
+        "inspect_runnable": 1,
+        "no_camera_site": 1
+      },
+      "first_local_segment_begins_after_step": 181,
+      "local_physical_actions": 4,
+      "local_first_instance_hits": 0,
+      "first_hit_steps_agree_before_first_local_action": true,
+      "diff_in_full_episode_instances": 0
+    },
+    {
+      "goal": "bed",
+      "requested": 2,
+      "request_outcomes": {
+        "inspect_runnable": 2
+      },
+      "first_local_segment_begins_after_step": 29,
+      "local_physical_actions": 8,
+      "local_first_instance_hits": 0,
+      "first_hit_steps_agree_before_first_local_action": true,
+      "diff_in_full_episode_instances": 1
+    },
+    {
+      "goal": "plant",
+      "requested": 0,
+      "request_outcomes": {},
+      "first_local_segment_begins_after_step": null,
+      "local_physical_actions": 0,
+      "local_first_instance_hits": 0,
+      "first_hit_steps_agree_before_first_local_action": true,
+      "diff_in_full_episode_instances": 0
+    },
+    {
+      "goal": "shelf",
+      "requested": 0,
+      "request_outcomes": {},
+      "first_local_segment_begins_after_step": null,
+      "local_physical_actions": 0,
+      "local_first_instance_hits": 0,
+      "first_hit_steps_agree_before_first_local_action": true,
+      "diff_in_full_episode_instances": 0
+    },
+    {
+      "goal": "stool",
+      "requested": 0,
+      "request_outcomes": {},
+      "first_local_segment_begins_after_step": null,
+      "local_physical_actions": 0,
+      "local_first_instance_hits": 0,
+      "first_hit_steps_agree_before_first_local_action": true,
+      "diff_in_full_episode_instances": 0
+    },
+    {
+      "goal": "armchair",
+      "requested": 0,
+      "request_outcomes": {},
+      "first_local_segment_begins_after_step": null,
+      "local_physical_actions": 0,
+      "local_first_instance_hits": 0,
+      "first_hit_steps_agree_before_first_local_action": true,
+      "diff_in_full_episode_instances": 0
+    },
+    {
+      "goal": "cabinet",
+      "requested": 2,
+      "request_outcomes": {
+        "inspect_runnable": 2
+      },
+      "first_local_segment_begins_after_step": 64,
+      "local_physical_actions": 8,
+      "local_first_instance_hits": 0,
+      "first_hit_steps_agree_before_first_local_action": true,
+      "diff_in_full_episode_instances": -1
+    }
+  ],
+  "any_local_movement": 3,
+  "local_first_instance_hits": 0
+}

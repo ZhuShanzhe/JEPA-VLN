@@ -1,0 +1,119 @@
+{
+  "conditions": "same driver and region policy, close inspection disabled",
+  "paid_requests": 0,
+  "houses": [
+    {
+      "goal": "picture",
+      "scene": "106878960_174887073",
+      "steps": 300,
+      "region_checks": 18,
+      "differences_from_earlier_region": [],
+      "distinct_approached": 2,
+      "quota_met": true,
+      "approached_half_m": 3,
+      "approached_one_m": 3,
+      "first_steps": [
+        79,
+        175
+      ]
+    },
+    {
+      "goal": "table lamp",
+      "scene": "102816600",
+      "steps": 300,
+      "region_checks": 18,
+      "differences_from_earlier_region": [],
+      "distinct_approached": 2,
+      "quota_met": true,
+      "approached_half_m": 2,
+      "approached_one_m": 2,
+      "first_steps": [
+        123,
+        193
+      ]
+    },
+    {
+      "goal": "bed",
+      "scene": "107734338_176000244",
+      "steps": 300,
+      "region_checks": 19,
+      "differences_from_earlier_region": [],
+      "distinct_approached": 0,
+      "quota_met": false,
+      "approached_half_m": 0,
+      "approached_one_m": 0,
+      "first_steps": []
+    },
+    {
+      "goal": "plant",
+      "scene": "107734176_176000019",
+      "steps": 300,
+      "region_checks": 20,
+      "differences_from_earlier_region": [],
+      "distinct_approached": 0,
+      "quota_met": false,
+      "approached_half_m": 0,
+      "approached_one_m": 0,
+      "first_steps": []
+    },
+    {
+      "goal": "shelf",
+      "scene": "106366410_174226806",
+      "steps": 300,
+      "region_checks": 22,
+      "differences_from_earlier_region": [],
+      "distinct_approached": 0,
+      "quota_met": false,
+      "approached_half_m": 0,
+      "approached_one_m": 0,
+      "first_steps": []
+    },
+    {
+      "goal": "stool",
+      "scene": "104348010_171512832",
+      "steps": 300,
+      "region_checks": 17,
+      "differences_from_earlier_region": [],
+      "distinct_approached": 1,
+      "quota_met": false,
+      "approached_half_m": 1,
+      "approached_one_m": 1,
+      "first_steps": [
+        214
+      ]
+    },
+    {
+      "goal": "armchair",
+      "scene": "104862501_172226556",
+      "steps": 300,
+      "region_checks": 23,
+      "differences_from_earlier_region": [],
+      "distinct_approached": 0,
+      "quota_met": false,
+      "approached_half_m": 0,
+      "approached_one_m": 0,
+      "first_steps": []
+    },
+    {
+      "goal": "cabinet",
+      "scene": "104862384_172226319",
+      "steps": 300,
+      "region_checks": 23,
+      "differences_from_earlier_region": [],
+      "distinct_approached": 5,
+      "quota_met": true,
+      "approached_half_m": 5,
+      "approached_one_m": 6,
+      "first_steps": [
+        84,
+        104,
+        146,
+        171,
+        237
+      ]
+    }
+  ],
+  "houses_identical_on_listed_metrics": 8,
+  "total_distinct": 10,
+  "quota_met": 3
+}

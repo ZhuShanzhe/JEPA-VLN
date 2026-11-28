@@ -1,5 +1,7 @@
 # 多实例寻物中的前沿选择
 
+[固定区域路线、GPT-4o 判断细查的对照](gpt_inspect_only_20261128/README.md)
+
 [GPT-4o 选区域与 JEPA 局部选位的八屋配对实验](gpt_region_20261128/README.md)
 
 [未见建筑上的持久观察位与 300 步多实例靠近结果](local_target_20261128/README.md)
